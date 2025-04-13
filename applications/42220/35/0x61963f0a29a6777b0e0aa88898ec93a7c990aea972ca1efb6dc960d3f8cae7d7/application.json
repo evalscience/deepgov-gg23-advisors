@@ -1,0 +1,323 @@
+{
+  "id": "22",
+  "chainId": 42220,
+  "roundId": "35",
+  "projectId": "0x61963f0a29a6777b0e0aa88898ec93a7c990aea972ca1efb6dc960d3f8cae7d7",
+  "metadata": {
+    "signature": "0xd9f38e232528c5ac0e65884f1d7984059c3f02c24f6aceeb103376f959fa97741197f8797d2d1544bdb2689e4ce9efa9fba1f228d0d2ae6abc2e8a149e1d93b21b",
+    "application": {
+      "round": "0xd1DBAE8f44ac7798B6eE3Eb739828ccc9eDb8EBB",
+      "answers": [],
+      "project": {
+        "id": "0x61963f0a29a6777b0e0aa88898ec93a7c990aea972ca1efb6dc960d3f8cae7d7",
+        "title": "Adopt A Tree In Kenya🌱",
+        "logoImg": "bafkreic4ny2gx4synod5732q2shwufupz44ebqimyoswbdsxaylebhnlp4",
+        "metaPtr": {
+          "pointer": "bafkreidnzhdr2y5fyhscri7v6r7q5q4f5momxmm6rfomc2tx3ve2o3viha",
+          "protocol": "undefined"
+        },
+        "website": "https://6772a86c98283.site123.me",
+        "bannerImg": "bafybeielthzbaxzakjtsuefh6nomniyyjkchj56zttzzl4elqchu5jlmea",
+        "createdAt": 1743862385285,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-05T14:10:21.774Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xd22331499a15b7e7e4b44480ce3aea66758d4329213ef141579730e753e9558962cf5f3741f2b909c4753d00356bf4b3398e69e895a5dbf26052b5ac4c10a58f1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-05T14:10:21.773Z",
+            "expirationDate": "2025-07-04T14:10:21.773Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x8be1CF753Db9A714063bc774fA39e5E2BC9B247D",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#eliud_omutanyi",
+              "nullifiers": [
+                "v0.0.0:0lpdMe2S0Ztey6Ywo1vOM3HPYKj0cU08Dw/TTLGXLQA="
+              ]
+            }
+          }
+        },
+        "description": "**Project Description**\n\nThe *Adopt a Tree Initiative* is a climate education and tree-planting project targeting school children and communities in Bungoma and Kakamega Counties, Western Kenya. It aims to instill environmental stewardship in school going children while promoting agroforestry practices among farmers to enhance food security, biodiversity and climate resilience. By integrating trees with food crops, the project contributes to carbon sequestration, soil restoration, and sustainable livelihoods\n\n**The Challenges we are Tackling**\n- Climate change and environmental degradation\n- Lack of environmental education in schools\n- Unsustainable farming and food insecurity\n- Limited and lack of community capacity for climate adaptation\n- Lack of long-term sustainability in tree planting projects\n\n**Our Solution**\n\nWe creating a solution by \n- Educating children about climate change so as to be climate stewards and future leaders in climate action.\n- Equipping the community members and small holder farmers with climate-smart practices so as to boost their food security. \n- Restoring degraded ecosystems.\n\n\n**🌱 Our organization**\n\nThis initiative brings together children and leaders to combat climate change, food insecurity and land degradation in parts of Bungoma in Western Kenya. Children learn about climate change through school programs and become environmental ambassadors in their communities. The community members receive training in agroforestry, gaining skills to restore soil, boost food production and increase resilience. Tree planting initiatives have helped in uniting families and the community at large. The organization has helped in  fostering collaboration, education, and local ownership, the project transforms communities climate stewardship among school children and empowering them to create a greener. The community is learning to be more resilient future through practical, community-led environmental solutions.\n\n\n**🖼️ See Our Impact**\n\n![hypercert](https://hackmd.io/_uploads/HJVOk2RaJe.png)\n\n\n*View our Hypercert*\n\n[https://ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-53764613973508277227213187974219377410048](url)\n\n\n\n**What This Hypercert Represents:**\nThis Hypercert represents the works we have done and that we have planned to do. \nThese activities are \n\n- Education for Children:\n- Community Training and Engagement\t\n- Collaborative Community Action\n\n\n**✅ Proof That It’s Working**\n\n [https://gap.karmahq.xyz/project/adopt-a-tree/impact](url)\n[https://map.treetracker.org/planters/17737?bounds=34.66846990690101,0.4070952755410336,34.68494939908851,0.42087074142007297](https://)\n[https://docs.google.com/document/d/1e0dStTv0tqS6DYFBaH4mo-1n8LNTxB4gjCx9A2BEwx8](https://)\n\n**💡 Join Us in Making a Difference!**\n\nYour donation and support supports climate action, environmental education, food security, and community resilience—all in one initiative. It’s a chance to make a tangible and lasting difference in people’s lives and the planet’s future.\nHelp us grow a greener planet one tree, one child, one community at a time.\n",
+        "lastUpdated": 0,
+        "projectTwitter": "eliud_omutanyi"
+      },
+      "recipient": "0x8be1CF753Db9A714063bc774fA39e5E2BC9B247D"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Adopt A Tree In Kenya🌱",
+      "logoImg": "bafkreic4ny2gx4synod5732q2shwufupz44ebqimyoswbdsxaylebhnlp4",
+      "website": "https://6772a86c98283.site123.me",
+      "bannerImg": "bafybeielthzbaxzakjtsuefh6nomniyyjkchj56zttzzl4elqchu5jlmea",
+      "createdAt": 1743862385285,
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-05T14:10:21.774Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xd22331499a15b7e7e4b44480ce3aea66758d4329213ef141579730e753e9558962cf5f3741f2b909c4753d00356bf4b3398e69e895a5dbf26052b5ac4c10a58f1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-05T14:10:21.773Z",
+          "expirationDate": "2025-07-04T14:10:21.773Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x8be1CF753Db9A714063bc774fA39e5E2BC9B247D",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#eliud_omutanyi",
+            "nullifiers": [
+              "v0.0.0:0lpdMe2S0Ztey6Ywo1vOM3HPYKj0cU08Dw/TTLGXLQA="
+            ]
+          }
+        }
+      },
+      "description": "**Project Description**\n\nThe *Adopt a Tree Initiative* is a climate education and tree-planting project targeting school children and communities in Bungoma and Kakamega Counties, Western Kenya. It aims to instill environmental stewardship in school going children while promoting agroforestry practices among farmers to enhance food security, biodiversity and climate resilience. By integrating trees with food crops, the project contributes to carbon sequestration, soil restoration, and sustainable livelihoods\n\n**The Challenges we are Tackling**\n- Climate change and environmental degradation\n- Lack of environmental education in schools\n- Unsustainable farming and food insecurity\n- Limited and lack of community capacity for climate adaptation\n- Lack of long-term sustainability in tree planting projects\n\n**Our Solution**\n\nWe creating a solution by \n- Educating children about climate change so as to be climate stewards and future leaders in climate action.\n- Equipping the community members and small holder farmers with climate-smart practices so as to boost their food security. \n- Restoring degraded ecosystems.\n\n\n**🌱 Our organization**\n\nThis initiative brings together children and leaders to combat climate change, food insecurity and land degradation in parts of Bungoma in Western Kenya. Children learn about climate change through school programs and become environmental ambassadors in their communities. The community members receive training in agroforestry, gaining skills to restore soil, boost food production and increase resilience. Tree planting initiatives have helped in uniting families and the community at large. The organization has helped in  fostering collaboration, education, and local ownership, the project transforms communities climate stewardship among school children and empowering them to create a greener. The community is learning to be more resilient future through practical, community-led environmental solutions.\n\n\n**🖼️ See Our Impact**\n\n![hypercert](https://hackmd.io/_uploads/HJVOk2RaJe.png)\n\n\n*View our Hypercert*\n\nhttps://ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-53764613973508277227213187974219377410048\n\n\n**What This Hypercert Represents:**\nThis Hypercert represents the works we have done and that we have planned to do. \nThese activities are \n\n- Education for Children:\n- Community Training and Engagement\t\n- Collaborative Community Action\n\n\n**✅ Proof That It’s Working**\n\nhttps://gap.karmahq.xyz/project/adopt-a-tree/impact\n\nhttps://map.treetracker.org/planters/17737?bounds=34.66846990690101,0.4070952755410336,34.68494939908851,0.42087074142007297\n\nhttps://docs.google.com/document/d/1e0dStTv0tqS6DYFBaH4mo-1n8LNTxB4gjCx9A2BEwx8\n\nhttps://drive.google.com/file/d/11x7DV_bdc-57NmtsQopYbdZ3ex8VW5v9/view?usp=drive_link\n\n\n**💡 Join Us in Making a Difference!**\n\nYour donation and support supports climate action, environmental education, food security, and community resilience—all in one initiative. It’s a chance to make a tangible and lasting difference in people’s lives and the planet’s future.\nHelp us grow a greener planet one tree, one child, one community at a time.\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectTwitter": "eliud_omutanyi"
+    }
+  }
+}

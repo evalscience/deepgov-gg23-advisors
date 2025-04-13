@@ -1,0 +1,674 @@
+{
+  "id": "64",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x38ce30d5d7ee704ec6d1530711cce12a295d5608642f4640dd8d0c072d11a3fa",
+  "metadata": {
+    "signature": "0xcaf39dc42080e41ebf391532801526b1a7af53f10dbfabe81bc75aca77c2ca4d540e61baaeafc33822093290ad45cd2d795e541e6bc230d7ebb7ab979e39cebf1b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "dspyt@dspyt.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@pfed_prog",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "Front-end for EVM Smart Contract Explorer, with features like address search and transaction views: https://github.com/Pfed-prog/NextJsExplorer\n\nTypeScript SDK for BlockScout v2, fetching transactions and token data: https://github.com/Pfed-prog/EVMExplorer-Blockscout\n\nInferred utility SDK for common functions, enhancing modularity (access limited): https://github.com/Pfed-prog/EVMExplorer-Utility\n\nTypeScript Uniswap v3 SDK, likely for decentralized exchange interactions (access limited): https://github.com/Pfed-prog/EVMExplorer-Uniswap\n\nTypeScript SDK for fetching climate data, including energy and carbon emissions: https://github.com/Pfed-prog/EVMExplorer-Climate",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Builder profile on Gitcoin: 0x48294a067D1bC5a58BCbAB4b3bE329d078D9E1Af",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "A comprehensive framework designed to simplify the creation of blockchain explorers for Ethereum Virtual Machine (EVM) based chains. It includes a front-end application and several TypeScript SDKs that handle backend functionalities such as interacting with blockchain data, specific protocols like Uniswap, and even climate-related data for cryptocurrencies like Bitcoin, Ethereum, and Dogecoin.\n\nProblem Addressed\nThis framework tackles the inefficiency and complexity developers face when building blockchain explorers from scratch. It provides pre-built components that handle integrations with multiple blockchain chains and their APIs, reducing the time and effort needed for low-level data parsing and integration. This allows developers to focus on higher-level features and user experience, making the development process smoother and less error-prone.\n\nFit for Funding Round\nThe tool aligns with the funding round's focus on development frameworks, smart contract libraries, and data analytics tools, as it offers SDKs that empower developers to build efficiently within the Web3 ecosystem. Its open-source nature and innovative features, such as climate data integration, make it a valuable contribution to the open-source software community.\n",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project offers open-source SDKs and a front-end example that handles complex blockchain data interactions. This means developers can quickly integrate blockchain data into their applications without needing to write and debug their own API clients from scratch. For instance, fetching transactions for an address can be done with a single function call using our BlockScout SDK, as shown in the documentation at EVMExplorer-Blockscout. This reduces the time and effort needed, lowering the barrier for developers, especially those new to Web3.\n\nImproving Efficiency\nBy using our pre-built SDKs, developers can focus on higher-level features and user experience rather than low-level data fetching and parsing. This improves efficiency, as they save hours or even days of development time. For example, integrating with BlockScout's API is straightforward, requiring just a few lines of code, as seen in the example at EVMExplorer-Blockscout. The multi-chain support in our front-end also means less code maintenance, making development faster and more streamlined.\n\nEnhancing Security\nOur project enhances the security of Web3 projects by ensuring the data displayed is accurate and reliable. The SDKs fetch data from trusted sources and handle basic errors, reducing the risk of displaying incorrect information that could lead to financial losses. For example, using our SDKs, developers can reliably show token balances, preventing users from making decisions based on faulty data. Additionally, the transparency of our explorers, like viewing transaction histories across multiple chains, helps users detect unauthorized activity, adding a layer of security.\n",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "4,200+ SDK downloads/month\n\n25+ GitHub stars across repos\n\n10+ contributions to BlockScout (4k★ upstream)\n\n100+ developers helped via StackOverflow",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The EVM Explorer project aims to simplify blockchain explorer creation for Ethereum Virtual Machine (EVM)-based chains. The roadmap is divided into short-term (3 months), medium-term (6-9 months), and long-term (12-18 months) goals to ensure steady progress.\n\nShort-Term Goals (Next 3 Months)\nFocus on stabilizing existing SDKs and the front-end, fixing bugs, and optimizing performance to handle increased traffic.\n\nImprove documentation with tutorials and guides to help new users, enhancing accessibility.\n\nMedium-Term Goals (Next 6-9 Months)\nExpand support to additional EVM-based chains like Avalanche, and BNB Chain, based on current trends.\n\nEnhance the front-end with advanced search, visual analytics like transaction charts, and a better user interface.\n\nIntegrate more protocols, such as additional decentralized exchanges (DEXs), and expand climate data features for environmental insights.\n\nLong-Term Goals (Next 12-18 Months)\nFoster community-driven development through contributor programs and hackathons.\n\nInternationalize the front-end for multiple languages and adapt to local regulations.\n\nExplore new technologies, including AI-powered analytics, to stay relevant.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x38ce30d5d7ee704ec6d1530711cce12a295d5608642f4640dd8d0c072d11a3fa",
+        "title": "EVM Explorer",
+        "logoImg": "bafkreibib2xe75moh3r3exukdlzeo2nev6qa6byjg5crftbcigcjm5nlgi",
+        "metaPtr": {
+          "pointer": "bafkreid2skdi3gou4bvehi4simnk3oxvotm4grhwtteuzwwzkhg3kdjkkq",
+          "protocol": "undefined"
+        },
+        "website": "https://evmexplorer.com",
+        "bannerImg": "bafkreid5eeuk5v5wgendpxberetcp4d3lseg6suyixd6n4kbjst7gjcnca",
+        "createdAt": 1743450296858,
+        "userGithub": "AlexFedotovqq",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T19:26:46.363Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7f9dd09c0811d0815b4dfb47d90d0785040f85b39414672d89ef9262b2f6783f3b6e20b87f461107bd1e112f3d59d789195d4f4c8d405d4881306c2e776098b31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T19:26:46.363Z",
+            "expirationDate": "2025-06-29T19:26:46.363Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xE8092CE4A0b6264DE20AD79383FB76397149AA04",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#dspytdao#88692544",
+              "nullifiers": [
+                "v0.0.0:ilDibDWCSkPeBkX6T0sf8FRoasrOzith5BaShBGuxL8="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T19:24:09.760Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xb651c52ce315b5ce48ef5c1b03648fcdb88bd96480c496b1b546d6cdc80b947b67fdd605c2cfc047d7c13f8be53df35dc39dab00db92fe6cda22bcc70c2c95991b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T19:24:09.760Z",
+            "expirationDate": "2025-06-29T19:24:09.760Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xE8092CE4A0b6264DE20AD79383FB76397149AA04",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ExplorerEVM",
+              "nullifiers": [
+                "v0.0.0:lvk60B53CqYWOS86LBLQLfJW8Ft7yo7QmAd19/fiUN8="
+              ]
+            }
+          }
+        },
+        "description": "**A Comprehensive Toolkit for Building Multi-Chain Blockchain Explorers**  \n*Accelerating Web3 Development with Modular SDKs & Reference Front-End*\n\nLive Demo: [evmexplorer.com](https://evmexplorer.com) • [Video Walkthrough](https://youtu.be/Y7fGrxGWwuA)\n\n## 🎯 Problem Addressed\nBuilding blockchain explorers requires complex integrations with:\n- Multiple EVM chains (Ethereum, Polygon, Arbitrum)\n- Data sources (BlockScout, Etherscan)\n- Protocols (Uniswap, Aave)\n- Emerging requirements (climate impact data)\n\nOur framework eliminates 80% of boilerplate code through pre-built TypeScript SDKs and a production-ready Next.js frontend, reducing development time from months to days.\n\n## ✨ Key Features\n\n### Multi-Chain Explorer Frontend\n- Address/Transaction Search across Ethereum, Optimism, Base, Mode, Zora, Redstone, Polygon, Arbitrum, Filecoin\n- Unified Transaction History View\n- Smart Contract Interaction Interface (Feature in-progress)\n- Responsive Dashboard Design ([Demo](https://evmexplorer.com))\n\n### Modular TypeScript SDKs\n| Package | Functionality | Downloads |\n|---------|---------------|-----------|\n| `@evmexplorer/blockscout` | Transaction/Block Data | 1,200+ |\n| `@evmexplorer/uniswap` | DEX Pool Analytics | 850+ |\n| `@evmexplorer/climate` | Energy/Carbon Metrics | 600+ |\n| `@evmexplorer/utils` | Address Formatting/Converters | 900+ |\n\n### Innovative Integrations\n- Climate Impact Dashboard (BTC/ETH/DOGE energy use)\n- Real-Time Uniswap Pricing with the deepest liquidity pool\n- Multi-API Fallback System\n- ENS Address Resolution\n",
+        "lastUpdated": 0,
+        "projectGithub": "dspytdao",
+        "projectTwitter": "ExplorerEVM"
+      },
+      "recipient": "0xE8092CE4A0b6264DE20AD79383FB76397149AA04"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "EVM Explorer",
+      "logoImg": "bafkreibib2xe75moh3r3exukdlzeo2nev6qa6byjg5crftbcigcjm5nlgi",
+      "website": "https://evmexplorer.com",
+      "bannerImg": "bafkreid5eeuk5v5wgendpxberetcp4d3lseg6suyixd6n4kbjst7gjcnca",
+      "createdAt": 1743450296858,
+      "userGithub": "AlexFedotovqq",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T19:26:46.363Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x7f9dd09c0811d0815b4dfb47d90d0785040f85b39414672d89ef9262b2f6783f3b6e20b87f461107bd1e112f3d59d789195d4f4c8d405d4881306c2e776098b31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T19:26:46.363Z",
+          "expirationDate": "2025-06-29T19:26:46.363Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xE8092CE4A0b6264DE20AD79383FB76397149AA04",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#dspytdao#88692544",
+            "nullifiers": [
+              "v0.0.0:ilDibDWCSkPeBkX6T0sf8FRoasrOzith5BaShBGuxL8="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T19:24:09.760Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xb651c52ce315b5ce48ef5c1b03648fcdb88bd96480c496b1b546d6cdc80b947b67fdd605c2cfc047d7c13f8be53df35dc39dab00db92fe6cda22bcc70c2c95991b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T19:24:09.760Z",
+          "expirationDate": "2025-06-29T19:24:09.760Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xE8092CE4A0b6264DE20AD79383FB76397149AA04",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ExplorerEVM",
+            "nullifiers": [
+              "v0.0.0:lvk60B53CqYWOS86LBLQLfJW8Ft7yo7QmAd19/fiUN8="
+            ]
+          }
+        }
+      },
+      "description": "**A Comprehensive Toolkit for Building Multi-Chain Blockchain Explorers**  \n*Accelerating Web3 Development with Modular SDKs & Reference Front-End*\n\nLive Demo: [evmexplorer.com](https://evmexplorer.com) • [Video Walkthrough](https://youtu.be/Y7fGrxGWwuA)\n\n## 🎯 Problem Addressed\nBuilding blockchain explorers requires complex integrations with:\n- Multiple EVM chains (Ethereum, Polygon, Arbitrum)\n- Data sources (BlockScout, Etherscan)\n- Protocols (Uniswap, Aave)\n- Emerging requirements (climate impact data)\n\nOur framework eliminates 80% of boilerplate code through pre-built TypeScript SDKs and a production-ready Next.js frontend, reducing development time from months to days.\n\n## ✨ Key Features\n\n### Multi-Chain Explorer Frontend\n- Address/Transaction Search across Ethereum, Optimism, Base, Mode, Zora, Redstone, Polygon, Arbitrum, Filecoin\n- Unified Transaction History View\n- Smart Contract Interaction Interface (Feature in-progress)\n- Responsive Dashboard Design ([Demo](https://evmexplorer.com))\n\n### Modular TypeScript SDKs\n| Package | Functionality | Downloads |\n|---------|---------------|-----------|\n| `@evmexplorer/blockscout` | Transaction/Block Data | 1,200+ |\n| `@evmexplorer/uniswap` | DEX Pool Analytics | 850+ |\n| `@evmexplorer/climate` | Energy/Carbon Metrics | 600+ |\n| `@evmexplorer/utils` | Address Formatting/Converters | 900+ |\n\n### Innovative Integrations\n- Climate Impact Dashboard (BTC/ETH/DOGE energy use)\n- Real-Time Uniswap Pricing with the deepest liquidity pool\n- Multi-API Fallback System\n- ENS Address Resolution\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "dspytdao",
+      "projectTwitter": "ExplorerEVM"
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "id": "192",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xffaf639c80ff9cf85cd76977d0c55e07c929eb7c5480d900c82e1da8465c342e",
+  "metadata": {
+    "signature": "0x79356e915d493b0febc5e11e2beba14a83dbcb954484292aadfd0451bb899e4f22467470a529bd2e47860f7d058a3f0e19ccbd8381021f183313a6c4ef9fd71d1c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "marimcmillan@protonmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "http://t.me/elephantdog",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/elephant-dog-org/privid",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "PrivID is an open-source protocol that enables privacy-preserving identity verification using zero-knowledge proofs (ZKPs), integrated with decentralized identity standards like the AT Protocol.\n\nSpecific contributions:\nNew AT Protocol Identity Schema: Introduces app.privid.verification to extend AT Protocol profiles with cryptographic verification metadata, improving trust in decentralized social apps like Bluesky.\n\nReusable SDKs: Provides modular SDKs for integrating Holonym’s ZK proof system and ATProto identity into any app or service.\n\nZero-knowledge Proof UX Toolkit: Delivers browser extensions, onboarding UIs, and CLI tooling for developers to integrate verifiable identity without compromising user privacy.\n\nModular, Extensible Architecture: Other OSS projects can fork or plug into PrivID’s components (e.g., the browser extension, onboarding UI, or CLI tools) to build their own privacy layers.\n\nNo tokens, no lock-in: PrivID is MIT/Apache-licensed, non-commercial, and focused on public good infrastructure.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Browser extension that adds verified identity badges to Bluesky/AT Protocol profiles\n\nCLI tool for researchers or power users to verify, issue, or audit identity proofs\n\nHolonym integration for ZK proof-based verification (age, citizenship, humanity, etc.)\n\nStreamlit onboarding flow to link identity without exposing PII\n\nUse Cases:\n\nVerified but pseudonymous participation in DAOs or decentralized social media\n\nHuman verification in public conversations, journalism, or NGO work\n\nZK credentials that persist across platforms (Twitter, Instagram, ATProto)\n\nDifferentiators:\n\nNo reliance on surveillance or ad-tech\n\nNo token-based verification or paywalls\n\n100% open-source and designed for protocol-level adoption by AT Protocol\n\nEnables identity portability across networks, not tied to a single platform",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Finalize and publish the AT Protocol schema: app.privid.verification\n\nImplement full Holonym ZK credential support in both UI and CLI\n\nExtend the browser extension to support in-line ATProto badge rendering\n\nLaunch a Docker-based deployment tool for PDS add-ons and app integrations\n\nAdd API endpoints for journalists and researchers to verify credentials easily\n\nUse of Grant Funds:\n\nDevelopment time (frontend, backend, CLI, and schema contributions)\n\nHolonym API integration and ZK credential testing\n\nSecurity review of smart contract components (if any on-chain proof is added)\n\nInfrastructure and deployment tools (Docker, onboarding guides, demo apps)\n\nDocumentation, tutorials, and contributor onboarding",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x066624c108dB1b4D44c7730A3b31cb8B9912F273",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xffaf639c80ff9cf85cd76977d0c55e07c929eb7c5480d900c82e1da8465c342e",
+        "title": "PrivID",
+        "logoImg": "bafkreigw2iyf65jgpdp7ibttg33ahnxcwwgz75xrda6ruz5e234byh55mm",
+        "metaPtr": {
+          "pointer": "bafkreiauv544umruol3soujd7lbqlnc6zq4diij63osnuvlwbzor7kh5wu",
+          "protocol": "undefined"
+        },
+        "website": "https://prividapp.com",
+        "bannerImg": "bafkreihjg7jz6iyi2tlhwig4rtqupjqgvc5b6hpmsyelygarjxuj25um5u",
+        "createdAt": 1743289047276,
+        "userGithub": "elephant-dog",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T21:19:23.379Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7693039e4ccdd2891c828cc5105d581d3068e33eec25edfb3851df7ae1b61e7b15e65053b7629f4dc3a07efc28790e16fd4a8aa5508b77f5256ba66b0d15dbd91c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T21:19:23.379Z",
+            "expirationDate": "2025-06-29T21:19:23.379Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x8C8efbd94d8D0dA7B389cD906a81Ef19cF0571c1",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#elephant-dog-org#102309793",
+              "nullifiers": [
+                "v0.0.0:cpon/Aw8spL7uamzlXybPqVadrTCUvtTXHq9eCTgSBk="
+              ]
+            }
+          }
+        },
+        "description": "\n# PrivID: A Privacy-Preserving Identity Verification Layer for AT Protocol\n\n### Tagline  \n**Verified identity without surveillance. Open, secure, and user-owned.**\n\n---\n\n## TL;DR  \nPrivID is an open-source protocol for cryptographically verified identity, starting with integration into the AT Protocol and Bluesky. Built with privacy at its core, PrivID allows users to confirm that an account is backed by a real human identity **without exposing personal data**, using **zero-knowledge proofs** via Holonym.  \nPrivID focuses on **cryptographic trust**, ensuring identity confidence without centralized data collection or invasive tracking systems.\n\n---\n\n## Problem  \nThere is no standardized, privacy-preserving way to prove a real-world identity on decentralized social networks. While the AT Protocol supports decentralized handles and DIDs, it lacks mechanisms to:\n\n- Show whether an account is operated by a real person  \n- Prove attributes like age, citizenship, or humanity without revealing PII  \n- Offer verification without relying on platform-controlled systems\n\n---\n\n## Solution  \nPrivID is a lightweight identity verification protocol that enables:\n\n- Zero-knowledge verified credentials displayed on Bluesky profiles  \n- No centralized databases or trackers  \n- Optional, user-controlled disclosure of identity attributes (e.g., age, nationality)\n\nIt starts as a **browser extension** and **CLI tool**, but is designed for future integration directly into the AT Protocol as a native extension to its data schema.\n\n---\n\n## Core Features\n\n### 🧩 Browser Extension  \n- Detect Bluesky handles and display verified identity badges  \n- Integrate with Holonym ZK identity proofs  \n\n### 💻 CLI Tool for Developers & Researchers  \n- Issue, verify, and audit identity proofs tied to DIDs  \n\n### 🧪 Streamlit or Web-based Onboarding  \n- Simple UI for linking a Holonym credential to a Bluesky identity  \n\n### 🔌 Protocol Hooks for ATProto Integration  \n- Introduce `app.privid.verification` schema  \n- Publish proofs as signed attestations linked to user DID  \n\n### 🌐 Cross-platform Expandability  \n- Twitter, Instagram, and other networks can optionally link via cryptographic attestations  \n\n---\n## Roadmap\n\n### Phase 1: MVP (2 months)\n- Build Chrome/Firefox extension with badge rendering  \n- Onboarding UI with Streamlit + Holonym integration  \n- CLI tool for developers  \n- Initial schema proposal for AT Protocol  \n- GitHub repo launch and community documentation  \n\n### Phase 2: Protocol Integration (3 months)\n- Submit pull request or schema proposal to ATProto  \n- Allow DID-linked ZK credential publication  \n- Test integration across Bluesky clients  \n\n### Phase 3: Expansion (3–6 months)\n- Add Twitter/Instagram account linking via signed messages  \n- Develop privacy badges (age, citizenship, human/not-bot)  \n- Optional timestamping on Orbit Chain (open standard, not a token)  \n- Broader use in journalism, NGOs, education  \n\n\n## Technical Architecture\n\n```mermaid\ngraph TD\n    A[User installs PrivID Extension] --> B[Bluesky profile scanned]\n    B --> C[Extension checks local ZK credential]\n    C -->|If absent| D[Prompt user to verify via Holonym]\n    D --> E[User gets ZK credential & links to DID]\n    E --> F[Extension adds badge to UI]\n    F --> G[Optional: Push verification to ATProto schema]\n\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "elephant-dog-org"
+      },
+      "recipient": "0x8C8efbd94d8D0dA7B389cD906a81Ef19cF0571c1"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "PrivID",
+      "logoImg": "bafkreigw2iyf65jgpdp7ibttg33ahnxcwwgz75xrda6ruz5e234byh55mm",
+      "website": "https://prividapp.com",
+      "bannerImg": "bafkreihjg7jz6iyi2tlhwig4rtqupjqgvc5b6hpmsyelygarjxuj25um5u",
+      "createdAt": 1743289047276,
+      "userGithub": "elephant-dog",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T21:19:23.379Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x7693039e4ccdd2891c828cc5105d581d3068e33eec25edfb3851df7ae1b61e7b15e65053b7629f4dc3a07efc28790e16fd4a8aa5508b77f5256ba66b0d15dbd91c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T21:19:23.379Z",
+          "expirationDate": "2025-06-29T21:19:23.379Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x8C8efbd94d8D0dA7B389cD906a81Ef19cF0571c1",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#elephant-dog-org#102309793",
+            "nullifiers": [
+              "v0.0.0:cpon/Aw8spL7uamzlXybPqVadrTCUvtTXHq9eCTgSBk="
+            ]
+          }
+        }
+      },
+      "description": "\n# PrivID: A Privacy-Preserving Identity Verification Layer for AT Protocol\n\n### Tagline  \n**Verified identity without surveillance. Open, secure, and user-owned.**\n\n---\n\n## TL;DR  \nPrivID is an open-source protocol for cryptographically verified identity, starting with integration into the AT Protocol and Bluesky. Built with privacy at its core, PrivID allows users to confirm that an account is backed by a real human identity **without exposing personal data**, using **zero-knowledge proofs** via Holonym.  \nPrivID focuses on **cryptographic trust**, ensuring identity confidence without centralized data collection or invasive tracking systems.\n\n---\n\n## Problem  \nThere is no standardized, privacy-preserving way to prove a real-world identity on decentralized social networks. While the AT Protocol supports decentralized handles and DIDs, it lacks mechanisms to:\n\n- Show whether an account is operated by a real person  \n- Prove attributes like age, citizenship, or humanity without revealing PII  \n- Offer verification without relying on platform-controlled systems\n\n---\n\n## Solution  \nPrivID is a lightweight identity verification protocol that enables:\n\n- Zero-knowledge verified credentials displayed on Bluesky profiles  \n- No centralized databases or trackers  \n- Optional, user-controlled disclosure of identity attributes (e.g., age, nationality)\n\nIt starts as a **browser extension** and **CLI tool**, but is designed for future integration directly into the AT Protocol as a native extension to its data schema.\n\n---\n\n## Core Features\n\n### 🧩 Browser Extension  \n- Detect Bluesky handles and display verified identity badges  \n- Integrate with Holonym ZK identity proofs  \n\n### 💻 CLI Tool for Developers & Researchers  \n- Issue, verify, and audit identity proofs tied to DIDs  \n\n### 🧪 Streamlit or Web-based Onboarding  \n- Simple UI for linking a Holonym credential to a Bluesky identity  \n\n### 🔌 Protocol Hooks for ATProto Integration  \n- Introduce `app.privid.verification` schema  \n- Publish proofs as signed attestations linked to user DID  \n\n### 🌐 Cross-platform Expandability  \n- Twitter, Instagram, and other networks can optionally link via cryptographic attestations  \n\n---\n## Roadmap\n\n### Phase 1: MVP (2 months)\n- Build Chrome/Firefox extension with badge rendering  \n- Onboarding UI with Streamlit + Holonym integration  \n- CLI tool for developers  \n- Initial schema proposal for AT Protocol  \n- GitHub repo launch and community documentation  \n\n### Phase 2: Protocol Integration (3 months)\n- Submit pull request or schema proposal to ATProto  \n- Allow DID-linked ZK credential publication  \n- Test integration across Bluesky clients  \n\n### Phase 3: Expansion (3–6 months)\n- Add Twitter/Instagram account linking via signed messages  \n- Develop privacy badges (age, citizenship, human/not-bot)  \n- Optional timestamping on Orbit Chain (open standard, not a token)  \n- Broader use in journalism, NGOs, education  \n\n\n## Technical Architecture\n\n```mermaid\ngraph TD\n    A[User installs PrivID Extension] --> B[Bluesky profile scanned]\n    B --> C[Extension checks local ZK credential]\n    C -->|If absent| D[Prompt user to verify via Holonym]\n    D --> E[User gets ZK credential & links to DID]\n    E --> F[Extension adds badge to UI]\n    F --> G[Optional: Push verification to ATProto schema]\n\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "elephant-dog-org"
+    }
+  }
+}

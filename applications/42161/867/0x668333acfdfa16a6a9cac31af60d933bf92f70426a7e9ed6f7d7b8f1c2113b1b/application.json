@@ -1,0 +1,230 @@
+{
+  "id": "101",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x668333acfdfa16a6a9cac31af60d933bf92f70426a7e9ed6f7d7b8f1c2113b1b",
+  "metadata": {
+    "signature": "0x8ca060c2556ca2fa96554fbe10a744c21bcd2d6168a77adb3ab4d9fb892bf3dc0b2b647df3d3fc0a95242af53884b3838bf2ffbfb432355816877883327f1de51b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "david@ecosystem.vision",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "duckdegen",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/jobstash/ecosystemvision",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes. GG22",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "We track metrics for OSS projects and the sources of funding for ecosystem projects",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We enhance transparency of the space by openly reporting funding of any project in the ecosystem we have data about, and we have our own GitHub metrics data which we use to perform analysis on to provide clear and transparent metrics about projects and their activity.\nWe automate the collection of data through bespoke \ndata pipelines which aggregate data from various sources throughout the ecosystem, and we have our own data pipelines which compute unique datapoints.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We plan to pivot our platform to a new brand called veri.xyz and to focus strongly on creating defensive systems to guard against malicious actors (both hackers and nation states) trying to siphon resources out of OSS projects.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "n/a",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x668333acfdfa16a6a9cac31af60d933bf92f70426a7e9ed6f7d7b8f1c2113b1b",
+        "title": "Ecosystem Vision",
+        "logoImg": "bafkreienhppryrl4fzrjmiugwobrr27j45oxx4xb2zqxtqz52ncdkqfy5e",
+        "metaPtr": {
+          "pointer": "bafkreihb74xktpog6cnx465zsjgi7xejujxc4hsof22rzvwrqov3v6tstq",
+          "protocol": "undefined"
+        },
+        "website": "https://ecosystem.vision",
+        "bannerImg": "bafkreifsq2q3w7dkgudxxrzvniy37vyzlmjhvr4vbwg7ufnsg2tbm6oave",
+        "createdAt": 1729070166610,
+        "userGithub": "duckdegen",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..0cdpZvHZNuTAmtt-IxUq_b_emVwXTBAnFYm1O8p_oiZU-3nynqBaGzR4XCyeYSb2wj6A8nKK1i5kDtVjcgShBw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T09:15:53.180Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T09:15:53.180Z",
+            "expirationDate": "2025-01-14T09:15:53.180Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xAa163c47065c22D17Ed1c47E3E244337D2056c17",
+              "hash": "v0.0.0:3t+9HjbXkxp/hxqFTxY7RF1UyKTjSuKr8QEtUFoPzFE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#jobstash#98649644"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..j71eNcvzFgZSmimTbdI9ZC7VV7BQwLcYpKBZsQ60SGa6sfrEJJCg3x2Zt_eb4bYWq2UiecsI4CB42phuu9ZgBQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T09:15:41.469Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T09:15:41.469Z",
+            "expirationDate": "2025-01-14T09:15:41.469Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xAa163c47065c22D17Ed1c47E3E244337D2056c17",
+              "hash": "v0.0.0:9EbXgObA7C44li0S1gyNWb45zloAuT2eaRyRvNQqsVU=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#EcosystemVision"
+            }
+          }
+        },
+        "description": "[Ecosystem Vision](https://ecosystem.vision) Ecosystem Vision is a one stop platform to learn about the crypto ecosystem.\n\nEcosystem Vision supports the ecosystem by compiling a curated list of thousands of organizations, projects, grant programs, and their grant impact as well as their combined funding.\n\nOur handy AI grant finder allows to find a suitable grant program for everyone's project.\n\n![Ecosystem Vision](https://i.imgur.com/Bq3Ce96.png)\n\nEcosystem Vision is a project built by the JobStash.xyz team in collaboration with members of the Cartographer Syndicate. Its aim is to index every organization, project and source of funding in the ecosystem, along with providing metrics and verified data about organizations, ethereum alignment, and verified staff.\n\nWe leverage data accumulated by JobStash about 8000+ organizations and 4000+ projects.\n\nWe are fully independent, bootstrapped, and support DeFi protocols, networks, and other onchain and offchain projects in need for insights about decentralized and open source projects.\n\n## Our Goals\n\n- Ecosystem Vision is an aggregator and a data curator. We aim to aggregate as much data about the ecosystem as we can.\n- Become the default source of funding information (both grants and VC) across the ecosystem\n\n## Our advantage\n\nWe have been building aggregators for two years, and want to leverage the unique data we have amassed through our lifetime. \n\n## Problems We Are Addressing\n\n- Lack of clarity over which grant programs are currently accepting grantees\n- Lack of easily accessible and aggregated impact metrics for projects\n- Lack of verifiable contact points at organizations in the space (too many scams..)\n\n## Solutions We Implemented\n\n- We show combined VC + Grant funding data where available, without requiring projects to self-report\n- We aggregated all grant programs from Karma GAP\n- We aggregated funding impact from OpenSource Observer\n- Built an AI grant finder based on data of over 250 grant programs\n- A full list of 8000 organizations active in crypto\n- A list of ±4000 projects active in crypto\n\n![AI Grant Finder](https://i.imgur.com/fYTTTKV.png)\n\n\n## End-User Value\n\nOur platform aims to support founders wishing to find funding in the ecosystem and to conduct business with trustworthy counterparties. \n\n## Goals\n\n- Continuously improve our UI and data pipelines. \n- Integrate more data sources and onboard additional organizations and projects.\n- Integrate additional sources of funding data for better understanding of evaluated opportunities.\n- Build defensive systems around OSS project reputation and keeping the ecosystem safe from malicious actors and DPRK\n\n## Team Information\n\nOur diverse, global team consists of four full-time members and two part-time contributors (5 devs and 1 designer), with plans to expand soon.\nDavid Leonardi, an engineer passionate about building projects benefiting makers and builders, founded the Jobstash organization in September 2022, and we built Ecosystem Vision thanks to a grant from ThankArb, delivering the platform in September 2024.\n\n## Source of Funds\n\nGrants have been an instrumental source of funding for our project.\nWe are prod to have been supported by ThankArb.\n\n## Use of Funds\n\nFunds received will cover infrastructure bills and support our engineers in working full-time without external influences. Our costs include GitHub, OpenAI, Figma, hosting, and various software vendor licenses. We aim to compensate our contributors fairly, considering living costs in their regions across Europe, Southeast Asia, and Africa.",
+        "lastUpdated": 0,
+        "projectGithub": "jobstash",
+        "projectTwitter": "ecosystemvision"
+      },
+      "recipient": "0x1C794bf1fccA8dAa8271720919FF7AC68a7e1700"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Ecosystem Vision",
+      "logoImg": "bafkreienhppryrl4fzrjmiugwobrr27j45oxx4xb2zqxtqz52ncdkqfy5e",
+      "website": "https://ecosystem.vision",
+      "bannerImg": "bafkreifsq2q3w7dkgudxxrzvniy37vyzlmjhvr4vbwg7ufnsg2tbm6oave",
+      "createdAt": 1729070166610,
+      "userGithub": "duckdegen",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..0cdpZvHZNuTAmtt-IxUq_b_emVwXTBAnFYm1O8p_oiZU-3nynqBaGzR4XCyeYSb2wj6A8nKK1i5kDtVjcgShBw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T09:15:53.180Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T09:15:53.180Z",
+          "expirationDate": "2025-01-14T09:15:53.180Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xAa163c47065c22D17Ed1c47E3E244337D2056c17",
+            "hash": "v0.0.0:3t+9HjbXkxp/hxqFTxY7RF1UyKTjSuKr8QEtUFoPzFE=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#jobstash#98649644"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..j71eNcvzFgZSmimTbdI9ZC7VV7BQwLcYpKBZsQ60SGa6sfrEJJCg3x2Zt_eb4bYWq2UiecsI4CB42phuu9ZgBQ",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T09:15:41.469Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T09:15:41.469Z",
+          "expirationDate": "2025-01-14T09:15:41.469Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xAa163c47065c22D17Ed1c47E3E244337D2056c17",
+            "hash": "v0.0.0:9EbXgObA7C44li0S1gyNWb45zloAuT2eaRyRvNQqsVU=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#EcosystemVision"
+          }
+        }
+      },
+      "description": "[Ecosystem Vision](https://ecosystem.vision) Ecosystem Vision is a one stop platform to learn about the crypto ecosystem.\n\nEcosystem Vision supports the ecosystem by compiling a curated list of thousands of organizations, projects, grant programs, and their grant impact as well as their combined funding.\n\nOur handy AI grant finder allows to find a suitable grant program for everyone's project.\n\n![Ecosystem Vision](https://i.imgur.com/Bq3Ce96.png)\n\nEcosystem Vision is a project built by the JobStash.xyz team in collaboration with members of the Cartographer Syndicate. Its aim is to index every organization, project and source of funding in the ecosystem, along with providing metrics and verified data about organizations, ethereum alignment, and verified staff.\n\nWe leverage data accumulated by JobStash about 8000+ organizations and 4000+ projects.\n\nWe are fully independent, bootstrapped, and support DeFi protocols, networks, and other onchain and offchain projects in need for insights about decentralized and open source projects.\n\n## Our Goals\n\n- Ecosystem Vision is an aggregator and a data curator. We aim to aggregate as much data about the ecosystem as we can.\n- Become the default source of funding information (both grants and VC) across the ecosystem\n\n## Our advantage\n\nWe have been building aggregators for two years, and want to leverage the unique data we have amassed through our lifetime. \n\n## Problems We Are Addressing\n\n- Lack of clarity over which grant programs are currently accepting grantees\n- Lack of easily accessible and aggregated impact metrics for projects\n- Lack of verifiable contact points at organizations in the space (too many scams..)\n\n## Solutions We Implemented\n\n- We show combined VC + Grant funding data where available, without requiring projects to self-report\n- We aggregated all grant programs from Karma GAP\n- We aggregated funding impact from OpenSource Observer\n- Built an AI grant finder based on data of over 250 grant programs\n- A full list of 8000 organizations active in crypto\n- A list of ±4000 projects active in crypto\n\n![AI Grant Finder](https://i.imgur.com/fYTTTKV.png)\n\n\n## End-User Value\n\nOur platform aims to support founders wishing to find funding in the ecosystem and to conduct business with trustworthy counterparties. \n\n## Goals\n\n- Continuously improve our UI and data pipelines. \n- Integrate more data sources and onboard additional organizations and projects.\n- Integrate additional sources of funding data for better understanding of evaluated opportunities.\n- Build defensive systems around OSS project reputation and keeping the ecosystem safe from malicious actors and DPRK\n\n## Team Information\n\nOur diverse, global team consists of four full-time members and two part-time contributors (5 devs and 1 designer), with plans to expand soon.\nDavid Leonardi, an engineer passionate about building projects benefiting makers and builders, founded the Jobstash organization in September 2022, and we built Ecosystem Vision thanks to a grant from ThankArb, delivering the platform in September 2024.\n\n## Source of Funds\n\nGrants have been an instrumental source of funding for our project.\nWe are prod to have been supported by ThankArb.\n\n## Use of Funds\n\nFunds received will cover infrastructure bills and support our engineers in working full-time without external influences. Our costs include GitHub, OpenAI, Figma, hosting, and various software vendor licenses. We aim to compensate our contributors fairly, considering living costs in their regions across Europe, Southeast Asia, and Africa.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "jobstash",
+      "projectTwitter": "ecosystemvision"
+    }
+  }
+}

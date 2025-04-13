@@ -1,0 +1,164 @@
+{
+  "id": "33",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xd77bec3500a1b3e54ead391aeaad9a664f92643beaa8a50d4302bd67ef7949cf",
+  "metadata": {
+    "signature": "0x89360f06857b68cd8b0602fe1251b54b7346107d9b78d45bd929bf3a138cd6553fe2d4edc396b30bb7a264175bcc6f1882a97dbb2fb19c5a369ef70789c687c31b",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "estebanabaroa@protonmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@estebanabaroa",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/plebbit",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/plebbit",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes all of them",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Plebbit contributes to the OSS ecosystem by providing a fully decentralized, censorship-resistant alternative to existing social media platforms.  We're not just talking about a theoretical concept; we've built working clients (like Seedit and Plebchan) on top of a functional protocol.  Our core contributions are:\n\n*   **A Practical, Scalable P2P Social Media Protocol:** We've developed a novel approach to handling spam and content moderation in a completely P2P environment, leveraging arbitrary challenges.  This isn't just a whitepaper; it's a working system. Many projects *claim* decentralization, but we've actually built it.  This expands the ecosystem by demonstrating a viable model for social media that isn't reliant on centralized servers or blockchain transactions for every interaction.\n*   **IPFS/libp2p Utilization:** We are pushing the boundaries of what's possible with IPFS and libp2p for real-time, interactive applications. Our work helps to stress-test these technologies and drive their development forward. We've also explored and are implementing optimizations like delegated routing and custom DHT configurations, contributing knowledge back to the broader IPFS community.\n*   **Open Source Libraries:** Our core logic is packaged in reusable libraries (`plebbit-js`, `plebbit-react-hooks`).  This lowers the barrier to entry for other developers to build their own clients or integrate Plebbit's functionality into other projects. This fosters a more diverse and vibrant ecosystem.\n*   **Demonstrated Feasibility:** We are showing, not telling. Plebbit provides a working example that other decentralized social media projects can learn from, even if they choose different underlying technologies.\n",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Plebbit presents a user experience similar to traditional message boards (Reddit, 4chan) but with key differentiators:\n\n*   **Unseizable Communities:** Subplebbits are owned and controlled by users, not a central authority. This provides genuine property rights in the digital space, a feature absent from centralized platforms.\n*   **Censorship Resistance:**  There are no global admins. Content moderation is delegated to the community owners, fostering diverse spaces for expression.\n*   **Infinite Scalability & No Transaction Fees:**  Unlike blockchain-based social media, Plebbit doesn't require on-chain transactions for every post or interaction.  We leverage content addressing (like BitTorrent) and IPFS for scalability.\n*   **Customizable Challenges:** Subplebbit owners can implement *any* challenge mechanism for posting, from simple CAPTCHAs to complex token-gating or even custom-coded solutions. This flexibility allows communities to adapt to evolving spam threats and tailor their access requirements.\n*   **Client Agnosticism:** The Plebbit protocol is open. Anyone can build a client for it.  This fosters innovation and allows for specialized UIs catering to different user preferences (e.g., Seedit for a Reddit-like experience, Plebchan for a 4chan-like experience).\n* **Extensibility**: Any dev can add more functionalities, like token-gated posting, tipping, or NFTs.\n",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our immediate focus is on improving performance and reliability.  Grant funds would be directly allocated to:\n\n1.  **P2P Publishing in Browser:** We're actively researching and implementing P2P publishing directly from the browser using WebTransport and related technologies.  This is crucial for onboarding non-technical users who can't (or won't) run desktop clients. Funds would support developer time dedicated to this effort.\n2.  **Optimized Pubsub and Trackers:** We're migrating away from the standard IPFS DHT, which has proven to be a performance bottleneck.  We're implementing custom trackers and potentially a Plebbit-specific DHT to improve speed and reduce bandwidth consumption.  This requires significant backend development and testing.\n3.  **Public Plebbit RPC Service:**  To simplify subplebbit creation and management, especially on mobile, we need a reliable, public RPC service. Funds would support infrastructure costs and development time to build robust monitoring and anti-abuse mechanisms for such a service.\n4.  **Challenges API and Token Integration:**  We're finalizing the Challenges API to allow for more sophisticated anti-spam and community management tools. This includes integrating EVM contract calls for token-based access control.\n5. **Improve Reliability:** We are improving the overall network health, as at the moment we are facing issues that will be detrimental if we get mass adoption.\n\nLonger-term, we're exploring:\n\n*   **Instant Replies:**  Implementing a mechanism for near-real-time communication within threads.\n*   **Private/Encrypted Communities:** Adding support for end-to-end encrypted subplebbits.\n*   **Mobile Clients:** Developing native Android and iOS clients with optimized P2P capabilities.\n*   **Rust/C++ Core Libraries:**  Rewriting core components in lower-level languages for improved performance and cross-platform compatibility.\n\nEssentially, grant funding will allow us to accelerate the development of core infrastructure and features, making Plebbit a viable, scalable, and user-friendly platform for truly decentralized online communities. We will continue to work closely to the community and to other projects to further improve Plebbit.\n",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We only have a single ERC20 token here:\nhttps://dexscreener.com/ethereum/0xEA81DaB2e0EcBc6B5c4172DE4c22B6Ef6E55Bd8f",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xd77bec3500a1b3e54ead391aeaad9a664f92643beaa8a50d4302bd67ef7949cf",
+        "title": "Plebbit",
+        "logoImg": "bafkreifvkkfu3do7o2wawba3my7rirune5yeyait44nv2hwqothv4uwjne",
+        "metaPtr": {
+          "pointer": "bafkreieddstoxh2kqbj2kk3zqehbnb4fcwycoue3xxghsqd6rta5st6bwy",
+          "protocol": "undefined"
+        },
+        "website": "https://plebbit.com",
+        "createdAt": 1718559288527,
+        "userGithub": "rinse12",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..nGsFqY3Ebwcy7KM9uV6EMrLqcpZ-KtojQah-mYrcp1ilzrAjAFe-EH2zSTRDVKcK8SF3fgrmElurF0DSGA5IBw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-23T15:46:13.225Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-23T15:46:13.225Z",
+            "expirationDate": "2025-01-21T15:46:13.225Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xCed7E65e1da560bbdA16D308A63D12f91A4ca6B2",
+              "hash": "v0.0.0:W+gqblm5KduyvVTbXMopqOMxTpC8Lvxu+sDW7N5QJ6s=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#plebbit#98007027"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..zQGE0g6bpjnjUVhEHQWVLPgZr2VdGxaIm0MOeUnHu9eRa_nqt6ChLDd5S-5uOuMX3-Ygdo2Y2Fi_Xd88W9z0CQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-23T15:45:54.077Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-23T15:45:54.077Z",
+            "expirationDate": "2025-01-21T15:45:54.077Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xCed7E65e1da560bbdA16D308A63D12f91A4ca6B2",
+              "hash": "v0.0.0:6IyKMzPPSk3nnVB6MegFtMyAPjINWA/ypy1GtA66vww=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#getplebbit"
+            }
+          }
+        },
+        "description": "Plebbit is a protocol and tooling for creating decentralized forum applications like Reddit, Facebook groups, Discourse, etc. It's a pure P2P protocol, it doesn't use any central server, databases, public HTTP end point, DNS, etc. It uses parts of the IPFS and Ethereum stack to create everything it needs:\n\nIPFS for immutable data, like a published comment or a recent subplebbit page.\n\nIPNS for mutable data, like replies to a comment, upvote counts, new posts/comments published on a subplebbit, etc.\n\nIPFS pubsub for authors publishing comments/votes to a subplebbit and for the captcha challenge exchange between authors and subplebbits.\n\nENS for usernames, community names, and serving the client in browsers.\n\nScalability and fees\n\nA decentralized social media/forum has 2 problems: How to store the entire world's data on a blockchain, and how to prevent spam while being feeless. We propose solving the data problem by not using a blockchain for content, but rather IPNS and IPFS pubsub. Unlike cryptocurrencies that must know the order of each transaction to prevent double spends, social media does not care about the order of posts, nor about the availability of old posts.\n\nNote that we must still use a blockchain (ENS) for usernames and community names because those do care about doublespends and ledger history availability.\n\nIPNS\n\nThe IPNS name (also ENS name) is the name and address of the subplebbit, e.g. \"memes.eth\".\n\nPubsub\n\nTo publish a post to a subplebbit, a user would publish a pubsub message with a \"topic\" equal to the subplebbit's ENS name. This allows the subplebbit owner to reply with \"challenge\" and \"challengeverification\" messages signed with his ENS' public key that all pubsub peers can verify.\n\nCaptcha service over pubsub\n\nNondeterministic pubsub (like user generated comments) is susceptible to spam attacks that would DDOS it, as well as makes it impossible for moderators to manually moderate an infinite amount of bot spam. We solve this problem by requiring publishers to first request a captcha challenge from the subplebbit owner's peer. If a peer or IP address relays too many captcha challenge requests without providing enough correct captcha challenge answers, it gets blocked from the pubsub. This requires the subplebbit owner's peer to broadcast the result of all captcha challenge answers, and for each peer to keep this information for some time.\n\nNote: The challenge implementation is completely up to the subplebbit owner. He can decide to prompt all users, first time users only, or no users at all. He can proxy 3rd party services like Google captchas. He can use other challenge types, like a proof of stake/holding/payment of a certain token, a whitelist, invite list, etc.\n\nLifecycle of creating a subplebbit\n\nSubplebbit owner starts a Plebbit client \"node\" on his desktop or server. It must be always online to serve content to his users.\n\nHe generates an IPNS public key, and adds it as a TXT record to his ENS name, which will be the \"address\" of his subplebbit.\n\nHe configures captcha options, like how often and what kind of captchas to show.\n\nHe publishes the metadata of his subplebbit to his IPNS record. This includes subpebblit title, description, rules, list of public keys of moderators, etc.\n\nLifecycle of reading the latest posts on a subplebbit\n\nUser opens the Plebbit app in a browser or desktop client, and sees an interface similar to Reddit.\n\nHis client joins the public key addressing network as a peer and makes a DHT query for each address of each subplebbit he is a member of. The queries each take several seconds but can be performed concurrently.\n\nThe query returns the latest posts of each subplebbit, as well as their metadata such as title, description, moderator list and captcha server URL.\n\nHis client arranges the content received in an interface similar to Reddit.\n\nLifecycle of publishing a post on a subplebbit\n\nUser opens the Plebbit app in a browser or desktop client, and sees an interface similar to Reddit.\n\nThe app automatically generates a public key pair if the user doesn't already have one.\n\nHe publishes a cat post for a subplebbit called \"cats.eth\"\n\nHis client joins the pubsub network for \"cats.eth\"\n\nHis client makes a request for a captcha challenge over pubsub.\n\nHis client receives a captcha challenge over pubsub (relayed from the subplebbit owner's peer).\n\nThe app displays the captcha challenge to the user in an iframe.\n\nThe user completes the captcha challenge and publishes his post and captcha challenge answer over pubsub.\n\nThe subplebbit owner's client gets notified that the user published to his pubsub, the post is not ignored because it contains a correct captcha challenge answer.\n\nThe subplebbit owner's client publishes a message over pubsub indicating that the captcha answer is correct or incorrect. Peers relaying too many messages with incorrect or no captcha answers get blocked to avoid DDOS of the pubsub.\n\nThe subplebbit owner's client updates the content of his subplebbit's public key based addressing automatically.\n\nA few minutes later, each user reading the subplebbit receives the update in their app.\n\nIf the user's post violates the subplebbit's rules, a moderator can delete it, using a similar process the user used to publish.\n\nWhat is a \"post\"\n\nA post is an IPFS file for its immutable content, like timestamp, title, author signature, etc. Each post's IPFS file also contains its own IPNS name which links to its mutable content, like its upvote count, replies, etc. Each post is part of a linked list, i.e. it points to the previous post's IPFS CID.\n\nWhat is a \"subplebbit\"\n\nA subplebbit is an IPNS record updated every 5 minutes, it contains the latest post's CID, the title, description, the CIDs of the latest post pages sorted by new, hot, top, etc. It also contains the pubsub \"topic\" address to publish to it. Full schema available at https://github.com/plebbit/plebbit-js#schema\n\nUsing anti-spam strategies other than the captcha service\n\nThe captcha service can be replaced by other \"anti-spam strategies\", such proof of balance of a certain cryptocurrency. For example, a subplebbit owner might require that posts be signed by users holding at least 1 ETH, or at least 1 token of his choice. Another strategy could be a proof of payment, each post must be accompanied by a minimum payment to the owner of the subplebbit. This might be fitting for celebrities wanting to use their subplebbit as a form of \"onlyfan\", where fans pay to interact with them. Both these scenarios would not eliminate spam, but they would bring them down from an infinite amount of spam, to an amount that does not overwhelm the pubsub, and that a group of human moderators can manage. Proof of balance/payment are deterministic so the pubsub can block spam attacks deterministically. Even more strategies can be added to fit the need of different communities if found, but at this time the captcha service remains the most versatile strategy.\n\nConclusion\n\nWe believe that the design above would solve the problems of a serverless, adminless decentralized Reddit alternative. It would allow unlimited amounts of subplebbits, users, posts, comments and votes. This is achieved by not caring about the order or availability of old data. It would allow users to post for free using an identical Reddit interface. It would allow subplebbit owners to moderate spam semi-automatically using their own captcha service over peer-to-peer pubsub. It would allow for all features that make Reddit addictive: upvotes, replies, notifications, awards, and a chance to make the \"front page\". Finally, it would allow the Plebbit client developers to serve an unlimited amount of users, without any server, legal, advertising or moderation infrastructure.\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "plebbit",
+        "projectTwitter": "getplebbit"
+      },
+      "recipient": "0x5Bc4FF33f86E0272be53Fa25861294489AB2FE2a"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 534352,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "36",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x2651563802989f9bc6de16ab5a173d5ad755c0a22f14d8916a31eebcf268afdd",
+  "metadata": {
+    "signature": "0x76301f6de8698643be43428f83b8aa1c70571889b7838d55b51d6a4c43c29cc978da15c419c93a93cc4eabc46045d6b485c2f654046bb4a435705be96f5461da1c",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "support@beepoapp.net",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@dehackangel",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/beepo-app/BeepoApp-2.0",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/beepoapp",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": " Beepo is a decentralized, AI-powered social and business communication platform designed to bridge the gap between traditional social networking, Web3 communities, and SMEs. Built with a strong commitment to open-source principles, Beepo contributes to the OSS ecosystem by offering reusable frameworks, developer-friendly tools, and integrations that expand the accessibility and utility of decentralized communication.  \n\n---\n\n### **1. Open-Source Frameworks for Decentralized Messaging**  \nBeepo integrates **XMTP (Extensible Message Transport Protocol)** as its core messaging infrastructure, which is an open-source decentralized communication protocol. Our contribution includes:  \n- Enhancing **Web3-native messaging** by integrating additional security and spam filters.  \n- Creating open-source **SDKs and APIs** that extend XMTP’s capabilities for developers building decentralized communication apps.  \n- Contributing code patches and feature improvements back to the XMTP repository, strengthening the overall Web3 messaging stack.  \n\nFor example, Beepo’s spam detection and encryption layer improvements have been proposed as community-driven enhancements that can be adopted by other developers leveraging XMTP.  \n\n---\n\n### **2. Web3Auth & Open Identity Solutions**  \nBeepo uses **Web3Auth**, an open-source authentication infrastructure, to enable seamless, non-custodial onboarding for users. Our contribution includes:  \n- Expanding Web3Auth’s implementation by integrating **multi-wallet login** and social recovery features.  \n- Providing a **user-friendly UI/UX** library that can be integrated by dApp developers to simplify Web3 authentication.  \n- Open-sourcing our smart contract-based authentication flow, which enhances wallet-based login security without relying on centralized email-password setups.  \n\nThese enhancements allow developers working on other decentralized applications (dApps) to leverage Beepo’s authentication modules, improving usability across the OSS ecosystem.  \n\n---\n\n### **3. Open-Source Business Tools for Web3 SMEs**  \nBeepo enables businesses to showcase **products and services directly within chats**, similar to WhatsApp Business but with **crypto payment integration**. To further expand the OSS ecosystem, Beepo:  \n- Provides an **open-source Web3 business catalog SDK**, allowing other platforms to integrate decentralized commerce functionality.  \n- Develops **smart contract templates** for on-chain invoicing and escrow, enabling SMEs to build trust in Web3 transactions.  \n- Creates developer-friendly APIs for integrating decentralized peer-to-peer commerce into other messaging and social platforms.  \n\nThese contributions empower developers to adopt **Web3-friendly commerce solutions** for various applications, including NFT marketplaces, creator economies, and DAO-driven services.  \n\n---\n\n### **4. Contribution to Decentralized Social Networking Standards**  \nBeepo aligns with and contributes to the **AT Protocol (used by Bluesky) and Lens Protocol** for decentralized social media. Specific contributions include:  \n- Open-source modules for **content moderation in decentralized environments**, allowing developers to implement spam filtering and identity verification for dApps.  \n- A **Web3-native contact list system**, enabling users to maintain portable social graphs across platforms.  \n- AI-powered **decentralized sentiment analysis** to enhance content discovery and engagement in Web3 social applications.  \n\nBy integrating and improving on existing decentralized social standards, Beepo ensures that Web3-native social networking remains open, composable, and censorship-resistant.  \n\n---\n\n### **5. Open AI Models for Community Engagement & Support**  \nBeepo incorporates **open-source AI models** to improve customer support, community management, and content recommendations. Our contributions include:  \n- **Fine-tuning LLMs** (such as LLaMA or Falcon) for **context-aware automated community support** in Web3 applications.  \n- Developing **open-source AI-driven moderation tools** to detect scams, impersonation, and spam in decentralized chats.  \n- Creating a **Web3-native chatbot framework** that can be used by DAOs, NFT communities, and DeFi platforms for user engagement.  \n\nBy keeping these AI tools open-source, Beepo ensures that the broader ecosystem benefits from intelligent automation in decentralized environments.  \n\n\n### **6. Fostering Developer Collaboration & Open Grants**  \nBeyond technical contributions, Beepo actively supports **developer adoption and collaboration** by:  \n- Hosting **hackathons** and **bounties** focused on improving decentralized communication and commerce.  \n- Partnering with **OSS contributors** to fund new features for Web3 messaging and business tools.  \n- Publishing **detailed developer documentation and tutorials** to onboard new contributors to Beepo’s open-source repositories.  \n\nThese initiatives make it easier for new developers to contribute to Web3 infrastructure while fostering an active, engaged community around Beepo’s OSS projects.  \n",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Unlike traditional social apps, Beepo prioritizes privacy, ownership, and blockchain-powered interactions, making it an essential tool for individuals, businesses, and decentralized communities.\n\nAt its core, Beepo enables wallet-to-wallet messaging using XMTP, ensuring end-to-end encrypted conversations tied to users' blockchain identities. It supports cross-platform decentralized identities (DIDs), allowing users to maintain a unified presence across dApps. The platform combines on-chain and off-chain messaging, letting users verify transactions or NFT ownership within their conversations, while an AI-powered moderation system ensures a secure and scam-free environment. This makes Beepo ideal for DAOs and NFT communities, allowing members to discuss governance issues and verify voting rights directly within chat groups.\n\nBeyond messaging, Beepo acts as a crypto-native business communication tool, empowering SMEs and content creators to set up decentralized storefronts and accept payments seamlessly. Businesses can send and receive crypto payments in BTC, USDT, and other stablecoins directly within conversations, utilizing on-chain invoicing, P2P escrow services, and smart contract-based transactions. This eliminates the need for third-party intermediaries, giving users direct financial control. For example, a freelance designer can negotiate, invoice, and receive payments in stablecoins within a Beepo chat, removing the friction of traditional banking and centralized payment processors.\n\nThe platform also integrates AI-driven Web3 tools to enhance user experience. An AI chatbot assists users in onboarding, answering blockchain-related queries, and detecting potential scams. Additionally, Beepo provides smart recommendations for relevant dApps, NFT projects, and Web3 communities based on user behavior. It further supports real-time sentiment and market analysis, alerting traders about new liquidity pools, token trends, and whale movements within their conversations. This transforms Beepo into a trading assistant for DeFi users, providing actionable insights directly in chat.\n\nBeepo is designed to be accessible and user-friendly, incorporating Web3Auth for seamless onboarding without requiring seed phrases. Users can log in using Google, Twitter, or other social accounts while maintaining full control of their wallets in a non-custodial manner. Multi-wallet support allows users to interact across multiple blockchains without the hassle of separate logins. This makes it easier for newcomers to enter the crypto space while ensuring experienced users retain the benefits of decentralization.\n\nFor DAO and NFT community engagement, Beepo introduces token-gated chatrooms where access is restricted based on NFT ownership or token balances. Communities can conduct on-chain voting and governance discussions, enabling more seamless decision-making processes. The chat interface also recognizes NFT avatars, transaction histories, and digital collectibles, enhancing the sense of identity and exclusivity within Web3-native groups.\n\nWhat sets Beepo apart is its commitment to privacy, decentralization, and seamless Web3 integration. Unlike Telegram or WhatsApp, which rely on centralized servers, Beepo ensures censorship-resistant and encrypted communication without a central authority monitoring or controlling messages. Compared to Lens or Bluesky, Beepo focuses on real-time interactions, business transactions, and community engagement rather than just decentralized social feeds. Unlike XMTP, which only provides messaging infrastructure, Beepo offers a complete suite of business tools, AI-enhanced engagement, and direct crypto payments, making it more versatile for entrepreneurs, creators, and traders.\n\nBy bridging social networking, decentralized commerce, and AI-powered insights, Beepo is redefining how people and businesses interact in Web3. It provides a privacy-first, monetization-friendly alternative to traditional social media, ensuring users own their data, control their earnings, and engage with blockchain technology in a seamless way.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Beepo is committed to expanding its capabilities as the leading Web3-native communication and business platform, integrating decentralized messaging, crypto commerce, and AI-driven engagement. Our further development roadmap focuses on enhancing blockchain interoperability, refining AI-powered analytics, improving user onboarding, and expanding Web3 business tools. The grant funds will play a crucial role in accelerating these milestones by supporting infrastructure scaling, feature enhancements, and ecosystem integrations.\n\nThe next phase of development prioritizes advanced blockchain integration, ensuring seamless compatibility with multiple chains beyond Ethereum and XMTP-based messaging. This includes deep integration with BNBChain, Solana, and Layer 2 networks like Arbitrum and Optimism, allowing users to conduct transactions, message across chains, and interact with on-chain data effortlessly. The grant will facilitate the deployment of multi-chain indexing and real-time data synchronization, making Beepo more versatile for users engaged in diverse blockchain ecosystems.\n\nAnother key focus is the enhancement of Beepo’s AI-driven features, particularly in moderation, sentiment analysis, and automated risk detection. The AI-powered chat assistant will evolve to provide real-time fraud detection in messages, on-chain scam alerts, and automated security recommendations for users interacting with unknown wallets or smart contracts. This will further solidify Beepo’s role as a trustworthy Web3 platform, enabling safer transactions and communication. The grant funding will be used to improve machine learning models, train AI algorithms on expanded datasets, and refine NLP (Natural Language Processing) models for better Web3 query responses.\n\nTo ensure frictionless onboarding and mass adoption, Beepo will refine its Web3Auth-powered authentication system to eliminate barriers for non-technical users. We will integrate progressive decentralization strategies, allowing users to start with social logins and transition to fully non-custodial, multi-wallet authentication. The funds will help expand multi-wallet connectivity, improve UX/UI designs, and implement social recovery mechanisms to enhance security while maintaining ease of use.\n\nFor Web3 business tools and SME adoption, Beepo will introduce smart contract-powered invoicing, on-chain escrow services, and automated dispute resolution systems. Businesses and freelancers using Beepo will be able to generate verifiable invoices, secure payments with escrow smart contracts, and resolve transactions in a decentralized arbitration system. The grant will help fund smart contract audits, security testing, and developer tools to enable seamless integration for businesses looking to operate trustlessly within Web3.\n\nBeepo aims to scale its decentralized hosting infrastructure to ensure high availability, censorship resistance, and distributed message storage. We will transition towards decentralized storage solutions like IPFS and Arweave to eliminate reliance on traditional cloud providers, ensuring Beepo remains truly decentralized and resilient. A portion of the grant will be allocated to infrastructure costs, decentralized node deployment, and integrating encrypted peer-to-peer message relays for maximum security and reliability.\n\nBeepo will launch an open-source developer hub, providing SDKs, APIs, and integration guides for third-party dApps to leverage Beepo’s messaging and business tools. This will allow DAOs, NFT projects, and DeFi platforms to embed wallet-to-wallet messaging, transaction alerts, and on-chain reputation tracking into their own applications. Grant funds will support developer grants, hackathons, and open-source bounties to encourage broader adoption and ecosystem expansion.\n\nBy investing in multi-chain interoperability, AI-driven risk management, business tools, decentralized infrastructure, and open-source contributions, Beepo is set to redefine Web3 communication and commerce. The grant funding will directly accelerate these developments, ensuring that Beepo remains a leading force in decentralized social and financial interactions.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x2651563802989f9bc6de16ab5a173d5ad755c0a22f14d8916a31eebcf268afdd",
+        "title": "Beepo",
+        "logoImg": "bafkreie3clr7hrs5khclg4fc6ee7egi7jk2f3oxbt4w5pvpsa4pcnthnqm",
+        "metaPtr": {
+          "pointer": "bafkreig42wdaxx5qbpwzrubr67bm4ffmvaqb4uqmfy52dwricqnhjkskme",
+          "protocol": "undefined"
+        },
+        "website": "https://beepoapp.net/",
+        "bannerImg": "bafkreigr4e3jzm24veaflsdnscivw2adlpiudp72edirnotvglitzg3vu4",
+        "createdAt": 1700080859713,
+        "userGithub": "HackAngeldon",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Wl2nTTOkgTdICsPPxKgsde-HWU9coZi0IBicAF5OYYme4OFqv9NFpu_bD-T8imDFkV0XU2bPlnRL02O1DGFXDQ",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-15T20:40:42.128Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-15T20:40:42.128Z",
+            "expirationDate": "2024-02-13T20:40:42.128Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x52e27292459f6a5Feb220869Bc2BCB3Ca322C304",
+              "hash": "v0.0.0:lI1u38kQ8HMAhcR1XzTpMoP+YH1Hjgu4z22cuxDVwEE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#beepo-app#53337599"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..0591CMNUS2kXV5L_pbT8vOtSn9O-TqX89gtVFipkosgfnjbsKgg9eypIMRLDIfPQI__yeRUVE0_D1zwcUXkqAQ",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-15T20:35:33.118Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-15T20:35:33.118Z",
+            "expirationDate": "2024-02-13T20:35:33.118Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x52e27292459f6a5Feb220869Bc2BCB3Ca322C304",
+              "hash": "v0.0.0:o5nweEHFuKAexdJWzdb71sXr8K2tPqiBjhd2wadkov4=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#BeepoApp"
+            }
+          }
+        },
+        "description": "**Beepo** revolutionizes the social neobanking sphere by decentralizing access to web3 using cutting-edge decentralized technologies and Multi-party computation algorithms. Our platform empowers users with zero web3 knowledge, providing effortless access to web3 features tailored for businesses and creators. Seamlessly execute micro cross-border transactions and harness a range of functionalities, simplifying the complexities of the digital landscape.\n\nOur foremost objective is to accelerate the widespread adoption of Blockchain technology by providing a user-friendly gateway to web3. We prioritize simplifying the experience for users who may not have prior knowledge of web3. How do we accomplish this? Through the integration of cutting-edge MPC (Multi-party computation) algorithms and a seamless ZK (Zero-Knowledge) onboarding process, ensuring a hassle-free transition into the world of web3.\n\n# Key Features:\n\n### Decentralized Social Media: \nEmbrace a new era of social media where data is secure, and users have full control over their information. With Beepo, your privacy matters.\n\n### Web3 Simplified: \nWe understand that navigating the complexities of web3 can be intimidating. Beepo bridges the gap by providing a simple, intuitive interface that enables easy access to Blockchain technology.\n\n### MPC Algorithm: \nOur state-of-the-art Multi-Party Computation (MPC) algorithm ensures that your data remains encrypted and private even while engaging in social interactions. Your security is our top priority.\n\n### Simplified Onboarding: \nForget about the technical hurdles of traditional web3 onboarding. With Beepo's Zero-Knowledge (ZK) onboarding process, you can join the decentralized movement effortlessly.\n\n### Seamless User Experience: \nWe strive to provide a seamless and enjoyable user experience. Whether you're a tech-savvy Blockchain enthusiast or new to the world of decentralization, Beepo caters to everyone.\n\n## Shaping a Promising Future: \nBeepo is more than just a platform; it's a vision for a better financial future. We aim to empower individuals with financial independence and promote a decentralized economy for the collective benefit of our community.\n\nWith Over 19,000 waitlist Applications and 1,000+ downloads on [Google Playstore](https://play.google.com/store/apps/details?id=com.beepo.app).",
+        "lastUpdated": 0,
+        "projectGithub": "beepo-app",
+        "projectTwitter": "beepoapp"
+      },
+      "recipient": "0xbEBcb2Cc8534992Fb3b5176AAAc6fDDb30E23379"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Beepo",
+      "logoImg": "bafkreie3clr7hrs5khclg4fc6ee7egi7jk2f3oxbt4w5pvpsa4pcnthnqm",
+      "website": "https://beepoapp.net/",
+      "bannerImg": "bafkreigr4e3jzm24veaflsdnscivw2adlpiudp72edirnotvglitzg3vu4",
+      "createdAt": 1700080859713,
+      "userGithub": "HackAngeldon",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Wl2nTTOkgTdICsPPxKgsde-HWU9coZi0IBicAF5OYYme4OFqv9NFpu_bD-T8imDFkV0XU2bPlnRL02O1DGFXDQ",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-15T20:40:42.128Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-15T20:40:42.128Z",
+          "expirationDate": "2024-02-13T20:40:42.128Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x52e27292459f6a5Feb220869Bc2BCB3Ca322C304",
+            "hash": "v0.0.0:lI1u38kQ8HMAhcR1XzTpMoP+YH1Hjgu4z22cuxDVwEE=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#beepo-app#53337599"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..0591CMNUS2kXV5L_pbT8vOtSn9O-TqX89gtVFipkosgfnjbsKgg9eypIMRLDIfPQI__yeRUVE0_D1zwcUXkqAQ",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-15T20:35:33.118Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-15T20:35:33.118Z",
+          "expirationDate": "2024-02-13T20:35:33.118Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x52e27292459f6a5Feb220869Bc2BCB3Ca322C304",
+            "hash": "v0.0.0:o5nweEHFuKAexdJWzdb71sXr8K2tPqiBjhd2wadkov4=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#BeepoApp"
+          }
+        }
+      },
+      "description": "**Beepo** revolutionizes the social neobanking sphere by decentralizing access to web3 using cutting-edge decentralized technologies and Multi-party computation algorithms. Our platform empowers users with zero web3 knowledge, providing effortless access to web3 features tailored for businesses and creators. Seamlessly execute micro cross-border transactions and harness a range of functionalities, simplifying the complexities of the digital landscape.\n\nOur foremost objective is to accelerate the widespread adoption of Blockchain technology by providing a user-friendly gateway to web3. We prioritize simplifying the experience for users who may not have prior knowledge of web3. How do we accomplish this? Through the integration of cutting-edge MPC (Multi-party computation) algorithms and a seamless ZK (Zero-Knowledge) onboarding process, ensuring a hassle-free transition into the world of web3.\n\n# Key Features:\n\n### Decentralized Social Media: \nEmbrace a new era of social media where data is secure, and users have full control over their information. With Beepo, your privacy matters.\n\n### Web3 Simplified: \nWe understand that navigating the complexities of web3 can be intimidating. Beepo bridges the gap by providing a simple, intuitive interface that enables easy access to Blockchain technology.\n\n### MPC Algorithm: \nOur state-of-the-art Multi-Party Computation (MPC) algorithm ensures that your data remains encrypted and private even while engaging in social interactions. Your security is our top priority.\n\n### Simplified Onboarding: \nForget about the technical hurdles of traditional web3 onboarding. With Beepo's Zero-Knowledge (ZK) onboarding process, you can join the decentralized movement effortlessly.\n\n### Seamless User Experience: \nWe strive to provide a seamless and enjoyable user experience. Whether you're a tech-savvy Blockchain enthusiast or new to the world of decentralization, Beepo caters to everyone.\n\n## Shaping a Promising Future: \nBeepo is more than just a platform; it's a vision for a better financial future. We aim to empower individuals with financial independence and promote a decentralized economy for the collective benefit of our community.\n\nWith Over 19,000 waitlist Applications and 1,000+ downloads on [Google Playstore](https://play.google.com/store/apps/details?id=com.beepo.app).",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "beepo-app",
+      "projectTwitter": "beepoapp"
+    }
+  }
+}

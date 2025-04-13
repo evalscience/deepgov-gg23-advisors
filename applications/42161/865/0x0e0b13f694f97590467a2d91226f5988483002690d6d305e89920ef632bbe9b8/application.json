@@ -1,0 +1,117 @@
+{
+  "id": "10",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x0e0b13f694f97590467a2d91226f5988483002690d6d305e89920ef632bbe9b8",
+  "metadata": {
+    "signature": "0x3d96b36ec154efd8b0509bcc1fe60cf23780688908a98af0d6df89636d579b753ea57c9936a440485d7deba900034b745f94364b60370ecb836734aa75961e601b",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "commit.boost@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "vandi202",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Commit-Boost",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No, we have not participated in previous Gitcoin Grant rounds. ",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Commit-Boost is a new validator sidecar that standardizes how validators interact not only with the PBS (Proposer-Builder Separation) pipeline but also with other commitment mechanisms, such as preconfirmations (preconfs)—all within a unified sidecar.\nWithout Commit-Boost, multiple competing sidecars would likely emerge, increasing risks for Ethereum stakers and adding complexity during hard forks. Further, today’s block construction process is highly centralized, Commit-Boost returns autonomy to Ethereum’s +1m proposers to put constraints around how builders must construct a block. By providing a single, standardized solution and the ability to constrain builders, Commit-Boost enhances **network security, reduces fragmentation, and streamlines operations for validators.**\n\nKey Metrics & Impact:\n-\tAdoption: All preconfirmation teams (five different teams) are building on Commit-Boost.\n-\tNetwork Usage: Currently, ~7% of Ethereum blocks are being built through Commit-Boost, and this number is expected to grow.\n-\tEcosystem Collaboration: Development has been supported by over 20 teams across Ethereum.\n\nWhile Commit-Boost was not yet in a position to contribute to Pectra, we plan to assist with Fuska by helping update the PBS pipeline for the next hard fork and ensuring thorough testing.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "One of the first use cases of Commit-Boost is preconfs, which are essential for enhancing the user experience (UX) of based rollups. Based rollups facilitate seamless interoperability between Ethereum and other based rollups, improving transaction efficiency and reducing latency.\n\nRecognizing the potential of preconfs to enhance interoperability, multiple researchers at the Ethereum Foundation (EF) have spent the past few years advocating for this solution. Today, over 20 teams are actively working to turn this research into reality, leveraging Commit-Boost as a key component in its implementation.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Commit-Boost tackles several critical challenges in the Ethereum ecosystem, improving security, user experience, decentralization, and core development efficiency. Here’s how:\n-\t**Security & Efficiency:** Without Commit-Boost, validators would likely need to run multiple sidecars, increasing complexity and risks. Commit-Boost provides a unified sidecar, reducing operational overhead and enhancing security.\n-\t**Improved User Experience:** Currently, no existing sidecar supports proposer commitments, such as preconfirmations (preconfs), which are essential for based rollups and a seamless user experience. All preconf teams are building on Commit-Boost to enable this functionality.\n-\t**Open & Inclusive Design:** Commit-Boost fosters an open playing field, allowing anyone to build on it and any staker—including solo stakers—to run it. It also minimizes switching costs for proposers, preventing vendor lock-in from downstream participants.\n-\t**Enhancing Decentralization:** Today’s block construction is highly centralized. Commit-Boost enables proposers to set conditions and constraints on how their blocks are built, shifting power back to Ethereum’s 1M+ validator set.\n-\t**Supporting Ethereum Core Development:** During hard forks, core developers are currently burdened with making changes to the PBS (Proposer-Builder Separation) pipeline, diverting their focus from more critical tasks. Moving forward, Commit-Boost will take on these updates, ensuring smoother hard forks and freeing up core devs for higher-priority improvements.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "This grant will help fund a full-time developer to focus on the following. These grant funds will be used alongside grants from across Ethereum:\n-\tIntegration of Commit-Boost with DVT solutions such as Obol and SSV\n-\tBuild out a data base to support dashboards / transparency\n-\tAdd more features such as slashing protection that has been requested by proposers / the Commit-Boost community (more details in our repo: https://github.com/Commit-Boost/commit-boost-client/issues)",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Decentralization**\nCommit-Boost enhances decentralization by:\n-\tEmpowering Ethereum’s 1M+ proposers to set constraints on downstream actors in the PBS (Proposer-Builder Separation) pipeline, such as builders, giving them greater autonomy.\n-\tEnsuring accessibility for all proposers, including solo stakers and DVT (Distributed Validator Technology) users, keeping Ethereum’s proposer set decentralized.\n-\tMaintaining an open standard that anyone can build on, preventing vendor lock-in. By fostering greater competition and diversity among builders and other network participants, Commit-Boost strengthens Ethereum’s decentralization.\n\n**Security**\nCommit-Boost improves security by:\n-\tProviding a unified sidecar, which:\n-\t1) Reduces risks during hard forks by consolidating multiple competing standards into a single, well-integrated standard that directly interacts with client software.\n-\t2) Minimizes attack vectors for stakers by reducing the number of sidecars they need to run.\n-\tEnhancing hard fork preparedness by enabling earlier testing of the PBS pipeline, identifying potential issues and risks before deployment. This not only improves the stability of hard forks but also reduces the workload for core developers, allowing them to focus on more critical tasks.\n-\tBeing the only officially audited validator sidecar, with development contributions from proposers and 20+ teams across Ethereum. Commit-Boost has also undergone extensive testing on Holesky, ensuring reliability before deployment.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "No smart contracts. ",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x0e0b13f694f97590467a2d91226f5988483002690d6d305e89920ef632bbe9b8",
+        "title": "Commit-Boost",
+        "logoImg": "bafkreigr6nb7l4bylfzxxame6gbh2ukoxjmvlufx5ybjg7ij7gmclrluoy",
+        "metaPtr": {
+          "pointer": "bafkreidpiqgcp5jo4zttbrpr63n72kjclheoi7d7wzy53mrinfetkwdk5u",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/Commit-Boost",
+        "createdAt": 1742241119101,
+        "userGithub": "Commit-Boost",
+        "credentials": {},
+        "description": "Due to emerging risks affecting Ethereum, core development, and its validator set, a group of teams and individuals is working on Commit-Boost, a public good initiative. Commit-Boost is an open-source Ethereum validator sidecar designed to standardize the final stage of communication between validators and proposer commitment protocols.\n\nDeveloped from scratch in Rust with contributions from over 20 teams across Ethereum, Commit-Boost is built with safety and modularity at its core. It is designed to avoid restricting downstream market participants, including stakeholders, commitment flows, enforcement mechanisms, and proposer commitments. More details can be found in our second ETH Research post: https://ethresear.ch/t/commit-boost-proposer-platform-to-safely-make-commitments/20107\n\nOur Guiding Principles\n- Would Vitalik run this? Can this initiative enhance decentralization?\n- Mission: Not-for-profit, community-driven, and fully open-source.\n- Neutrality: Agnostic to proposer commitments, preconfirmations, restaking, relays, and transaction flows.\n- Unification: A single validator-sidecar enabling participation in multiple commitment protocols.\n- Safety: Community-reviewed and audited, modularized for flexibility, and designed for greater transparency—reducing risk and operational overhead for proposers managing commitments.\n\nMilestones Achieved\n\nCommit-Boost is already deployed in production with top validators. As of writing, 7% of Ethereum blocks are being produced via Commit-Boost. All proposer commitment teams are leveraging Commit-Boost, demonstrating broad support, and over 70 contributors from across Ethereum are helping/helped in various ways.\n\nImpact\n\nBy driving standardization and unifying efforts across Ethereum, Commit-Boost helps mitigate risks to stakers and the Ethereum network while fostering an open playing field for proposer commitments. This will allow innovations such as preconfirmations for based rollups to thrive.\n\nFunding Usage\n\nNow that Commit-Boost is live in production, we are raising grant funds to support a full-time developer focused on two key areas:\n\n1) Sustainment: As adoption increases, Commit-Boost will require ongoing development, feature enhancements, and refinements based on real-world usage.\n\n2) Hardfork Support: A recurring challenge for core developers, researchers, and ETH Pandas is the lack of dedicated support for testing critical out-of-protocol infrastructure during hard forks. This burden has often fallen on them. The Commit-Boost team aims to fill this gap, ensuring smoother hard fork transitions and comprehensive testing.\n\nWe greatly appreciate the community’s support for this initiative!",
+        "lastUpdated": 0,
+        "projectTwitter": "Commit_Boost"
+      },
+      "recipient": "0xaBEF7A465539823Fd72D602A56d04B9c83f2DCc0"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 10,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

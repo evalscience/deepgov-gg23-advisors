@@ -1,0 +1,327 @@
+{
+  "id": "12",
+  "chainId": 42220,
+  "roundId": "35",
+  "projectId": "0x86091a78efc693a898965af8e7bb734618325a93fd0ff20e4bce0ad6e537d454",
+  "metadata": {
+    "signature": "0x31057b405a6c1c103172344ece153c6b0d5fe053a855cfaf9a39c3ed4b3f9a0d2f9317ee4f4ae274307eb0664f6f64e820e638a0c17d91d5d08ef12e27bae1b81b",
+    "application": {
+      "round": "0xd1DBAE8f44ac7798B6eE3Eb739828ccc9eDb8EBB",
+      "answers": [],
+      "project": {
+        "id": "0x86091a78efc693a898965af8e7bb734618325a93fd0ff20e4bce0ad6e537d454",
+        "title": "Fork Forest",
+        "logoImg": "bafkreidlqtyvbvcfanh7qpb67dwwot3jax63wlm4ugbcvgm2fwbfvszsgi",
+        "metaPtr": {
+          "pointer": "bafkreif73gw6duvyrgcx2codliezjt7fd6sidb6sq7u44qig3tchhrcq54",
+          "protocol": "undefined"
+        },
+        "website": "https://forkforest.org",
+        "bannerImg": "bafkreid67kkeq4mv4ujmejcvoqcczc2hrkgdsohzpsjx5cd5topvk5k7cq",
+        "createdAt": 1742853829010,
+        "userGithub": "fberty",
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T22:00:22.657Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xfe83f26cc71929485d506dcea97b55bf5db36f1854b5d70358e6eea62d1309800ba4026296172cb48f086e176cc0a647322fa734774bd48ca29cdfbd6bc845971c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T22:00:22.657Z",
+            "expirationDate": "2025-06-22T22:00:22.657Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ForkForest",
+              "nullifiers": [
+                "v0.0.0:Xy05k0inMCAA9D0UdHzbgx7ecG5Cf9/IKbPfRiRxNHE="
+              ]
+            }
+          }
+        },
+        "description": "## 📌 Project Description  \n\n### 🌍 The Challenge We Are Facing  \nFork Forest has decided to take an active role in securing financial resources for the third phase of this project. We recognize the importance of this initiative for the well-being of the Los Cerrillos community and are therefore dedicating our resources and expertise to ensure its success.  \n\n### 📜 Our Solution  \nTo improve the living conditions of residents, we propose the acquisition of approximately 1,200 trees to establish a forest barrier that will cover a total area of ​​51,000 m².\n\nThe barrier structure will be 3,100 linear meters long.\nAgrochemical-resistant tree species will be used.\n\n## Our organisation/ Community\nMax, Peni, and Berty, with the support of the web3 community and Zapan Zucum, make the reforestation projects promoted by FORK FOREST possible.\n\n\n🖼️ See Our Impact\n![9b4e5e59-776d-45f6-8b97-8797d72d6a62](https://hackmd.io/_uploads/BkfG2kopyg.jpg)\n\n🔗 [View Our Hypercert](https://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-47639531368931384884872445040447549603840)\n\n📝 What This Hypercert Represents:\n\nThe Cortina Forestal project in Los Cerrillos, Córdoba, is a community initiative led by students and engineer Fernando Parra from I.P.E.A N° 230, with support from organizations such as Zapam Zucum and Fork Forest. Its objective is to mitigate the impact of agrochemicals derived from intensive farming, improving the quality of life of the town's 1,200 inhabitants. The active participation of young people, teachers, authorities, and artists has been key in the design, planting of 600 trees, installation of drip irrigation, and maintenance of the area, complemented by educational workshops, community murals, and cultural activities to strengthen the social fabric. This intervention, located on the agricultural edge of the town, has successfully mobilized 150 people and offers long-term ecological, health, and social benefits. Its results include progress toward a community ordinance formalizing the project, the restoration of the area's landscape, and the promotion of sustainable productive alternatives, such as agroecology and digital economy workshops with support from INTA (National Institute of Statistics and Census). The forest curtain not only protects health and restores biodiversity, but also strengthens community identity, promoting a replicable and low-cost model toward a more just and agroecological future.\n\n\n✅ Proof That It’s Working \n\n(https://youtube.com/watch?v=si-H6H32Z_8&t=1s)  \n---\n\n🎥 [See the Proof of Impact]\n[forkforest.org/podcast](https://forkforest.org/podcast)  \n\n### 🖼️ Visual Impact  \n🌿 **Gain Forest**:  \n- [Gain Forest](https://gainforest.app/b9305507415c377803eacc1fce7824c581f010c325aace1658d8434271fbef5c)  \n- [Tweet 1](https://x.com/GainForestNow/status/1823349182503268512)  \n- [Tweet 2](https://x.com/karmahq_/status/1820445229851287942)  \n\n---\n\n🌱 **About us**\nFork Forest is a ReFi project that uses Web3 tools to promote environmental conservation and social responsibility, encouraging local community participation in ecosystem restoration.\n📍 We currently operate in the province of Córdoba, Argentina.\n\n\n## 💡 Support Our Mission  \nYour contribution helps us continue forest conservation and community protection.\n\n🌱 **Every donation makes a difference in building a more sustainable future.**\n\n### 📩 Wallet Addresses  \n- **Ethereum:** `0x3a10Cef888a6F50b1cbfcFD0217c1f705a33D8f3`  \n\n### 🔗 Fork Forest Multisigs  \n- **OETH:** `0x84E420915147625c11c265FA61AEC826347204D1`  \n- **ARB1:** `0xB3C58fFa0BBC48138776fD9cc174e89f51397e65`  \n- **CELO:** `0xBDD87C2ca3d916f4f9f1930e7FF3A313743AaB87`  ",
+        "lastUpdated": 0,
+        "projectGithub": "ForkForest",
+        "projectTwitter": "ForkForest"
+      },
+      "recipient": "0xBDD87C2ca3d916f4f9f1930e7FF3A313743AaB87"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Fork Forest",
+      "logoImg": "bafkreidlqtyvbvcfanh7qpb67dwwot3jax63wlm4ugbcvgm2fwbfvszsgi",
+      "website": "https://forkforest.org",
+      "bannerImg": "bafkreid67kkeq4mv4ujmejcvoqcczc2hrkgdsohzpsjx5cd5topvk5k7cq",
+      "createdAt": 1742853829010,
+      "userGithub": "fberty",
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T22:00:22.657Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xfe83f26cc71929485d506dcea97b55bf5db36f1854b5d70358e6eea62d1309800ba4026296172cb48f086e176cc0a647322fa734774bd48ca29cdfbd6bc845971c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T22:00:22.657Z",
+          "expirationDate": "2025-06-22T22:00:22.657Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ForkForest",
+            "nullifiers": [
+              "v0.0.0:Xy05k0inMCAA9D0UdHzbgx7ecG5Cf9/IKbPfRiRxNHE="
+            ]
+          }
+        }
+      },
+      "description": "## 📌 Project Description  \n\n### 🌍 The Challenge We Are Facing  \nFork Forest has decided to take an active role in securing financial resources for the third phase of this project. We recognize the importance of this initiative for the well-being of the Los Cerrillos community and are therefore dedicating our resources and expertise to ensure its success.  \n\n### 📜 Our Solution  \nTo improve the living conditions of residents, we propose the acquisition of approximately 1,200 trees to establish a forest barrier that will cover a total area of ​​51,000 m².\n\nThe barrier structure will be 3,100 linear meters long.\nAgrochemical-resistant tree species will be used.\n\n## Our organisation/ Community\nMax, Peni, and Berty, with the support of the web3 community and Zapan Zucum, make the reforestation projects promoted by FORK FOREST possible.\n\n\n🖼️ See Our Impact\n![9b4e5e59-776d-45f6-8b97-8797d72d6a62](https://hackmd.io/_uploads/BkfG2kopyg.jpg)\n\n🔗 [View Our Hypercert](https://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-47639531368931384884872445040447549603840)\n\n📝 What This Hypercert Represents:\n\nThe Cortina Forestal project in Los Cerrillos, Córdoba, is a community initiative led by students and engineer Fernando Parra from I.P.E.A N° 230, with support from organizations such as Zapam Zucum and Fork Forest. Its objective is to mitigate the impact of agrochemicals derived from intensive farming, improving the quality of life of the town's 1,200 inhabitants. The active participation of young people, teachers, authorities, and artists has been key in the design, planting of 600 trees, installation of drip irrigation, and maintenance of the area, complemented by educational workshops, community murals, and cultural activities to strengthen the social fabric. This intervention, located on the agricultural edge of the town, has successfully mobilized 150 people and offers long-term ecological, health, and social benefits. Its results include progress toward a community ordinance formalizing the project, the restoration of the area's landscape, and the promotion of sustainable productive alternatives, such as agroecology and digital economy workshops with support from INTA (National Institute of Statistics and Census). The forest curtain not only protects health and restores biodiversity, but also strengthens community identity, promoting a replicable and low-cost model toward a more just and agroecological future.\n\n\n✅ Proof That It’s Working \n\n(https://youtube.com/watch?v=si-H6H32Z_8&t=1s)  \n---\n\n🎥 [See the Proof of Impact]\n[forkforest.org/podcast](https://forkforest.org/podcast)  \n\n### 🖼️ Visual Impact  \n🌿 **Gain Forest**:  \n- [Gain Forest](https://gainforest.app/b9305507415c377803eacc1fce7824c581f010c325aace1658d8434271fbef5c)  \n- [Tweet 1](https://x.com/GainForestNow/status/1823349182503268512)  \n- [Tweet 2](https://x.com/karmahq_/status/1820445229851287942)  \n\n---\n\n🌱 **About us**\nFork Forest is a ReFi project that uses Web3 tools to promote environmental conservation and social responsibility, encouraging local community participation in ecosystem restoration.\n📍 We currently operate in the province of Córdoba, Argentina.\n\n\n## 💡 Support Our Mission  \nYour contribution helps us continue forest conservation and community protection.\n\n🌱 **Every donation makes a difference in building a more sustainable future.**\n\n### 📩 Wallet Addresses  \n- **Ethereum:** `0x3a10Cef888a6F50b1cbfcFD0217c1f705a33D8f3`  \n\n### 🔗 Fork Forest Multisigs  \n- **OETH:** `0x84E420915147625c11c265FA61AEC826347204D1`  \n- **ARB1:** `0xB3C58fFa0BBC48138776fD9cc174e89f51397e65`  \n- **CELO:** `0xBDD87C2ca3d916f4f9f1930e7FF3A313743AaB87`  ",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "ForkForest",
+      "projectTwitter": "ForkForest"
+    }
+  }
+}

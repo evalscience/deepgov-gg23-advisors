@@ -1,0 +1,666 @@
+{
+  "id": "61",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xa0d1c54b1f3922ac6e21fb5f3cb157f96ebdfd6001945952f2c2de1e813a6636",
+  "metadata": {
+    "signature": "0xa2c6c9a6a2c12b59e2686cde8a56cecf63262842dce30609185c0cb3c9010a930fc00b8da159a4be2e73bb8b8e6271e8955a477bcde2ecff9e3a81375603663a1c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "jacob.hanouna@particlecs.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@BlueSpaceOut",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/PracticalParticle/sand-blox",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "no",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "SandBlox directly contributes to the growth of the OSS ecosystem by:\n\nProviding a Secure and Reusable Component Library: SandBlox offers a curated application library of secure, open-source \"blox\" (reusable blockchain components) built on top of Guardian AA. This expands the availability of high-quality, security-focused components that developers can readily integrate into their projects, saving development time and promoting code reuse across the ecosystem. For example, developers can use a pre-built \"vault blox\"  instead of writing the code from scratch.\n\nEnhancing Guardian AA Adoption: By making it easier to build applications with Guardian AA, SandBlox encourages wider adoption of the underlying protocol. This, in turn, benefits the OSS community by attracting more developers to contribute to and improve Guardian AA itself, as well as create new blox and applications for SandBlox.\n\nFacilitating Community Audits and Security Best Practices: SandBlox promotes transparency and community-driven security through its open-source nature and modular \"blox\" architecture. This encourages developers to audit and contribute to the security of individual blox, leading to a more robust and reliable codebase for the entire ecosystem. Furthermore, it allows for the implementation and testing of new security approaches.\n\nOffering a Real-World Testing Ground: SandBlox provides a practical environment for developers to apply security theories and test them in production environments. This valuable feedback loop contributes to the evolution of security best practices and the continuous improvement of both Guardian AA and SandBlox. This enables practical application of security theories in production environments.\n\nGuardian core security protocol:\nhttps://github.com/PracticalParticle/particle-core",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "SandBlox is a modern development platform that streamlines the creation of secure Web3 applications using pre-built components called \"blox,\" all powered by Particle's Guardian AA account abstraction technology.\n\nKey Features and Use Cases:\n\nRapid Prototyping and Development: SandBlox enables developers to quickly assemble blockchain applications by using pre-built blox, significantly reducing development time and complexity.\n\nApplication Library: It provides a library of secure, open-source code for building Guardian AA-based applications. These pre-built blocks accelerate development with community-tested smart contract functions. For example, a developer could use a ready-made blox for common tasks such as creating a vault, managing ownership rights, or implementing a tokenized voting system.\n\nCustomizable Security Policies: The platform allows developers to implement and test new security approaches by customizing existing blox or creating their own.\n\nDifferentiation:\n\nFocus on Security: SandBlox is unique in its emphasis on secure application development. By building on Guardian AA's multi-phase security architecture, it ensures that all applications created with SandBlox inherit a high level of security.\n\nAccount Abstraction Integration: SandBlox tightly integrates with Guardian AA, providing a seamless development experience for building account abstraction-based applications. This allows developers to leverage the benefits of account abstraction, such as gasless transactions and enhanced security features, without having to write complex code from scratch.\n\nReusable Component Architecture: SandBlox's blox architecture promotes code reuse and modularity, making it easier to maintain and update applications. Developers can also contribute their own blox to the community, further expanding the platform's capabilities.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Project Roadmap\n\nThe Guardian AA project has a multi-stage roadmap focused on continuous development, community engagement, and expansion:\n\nPhase 1: Core Protocol Development (Completed): Development of core account abstraction mechanisms, including role-based access control and time-delayed operations. Creation of proof-of-concept smart contracts. This has already been completed.\n\nPhase 2: SandBlox Alpha Release & Community Adoption (Ongoing): Launch of the developer-friendly open-source approach with the SandBlox application in Alpha. Focus on community engagement and adoption of security solutions.\n\nPhase 3: Core Contract Refinements & Security Audits (Next 6 Months): Focus on core contract refinements and implementing security audits for the core security protocol\n\nPhase 4: SandBlox Beta Release and General Availability of Guardian AA (Next 12 Months): Release SandBlox for beta testing and general availability of Guardian AA.\n\nPhase 5: Exploration of Additional Security and Compliance Solutions (Long-Term): Research and development into additional security and compliance solutions.\n\nUse of Grant Funds\n\nThe grant funds will be primarily used to achieve the goals of Phase 3: Core Contract Refinements & Security Audits. Specific allocations include:\n\nSecurity Audits: A significant portion of the funds will be allocated to engaging reputable security firms to conduct comprehensive audits of the Guardian AA core security protocol. This will help identify and address potential vulnerabilities, ensuring the security and reliability of the solution. Approximate allocation: 40% of grant funds.\n\nCore Contract Refinements: Funds will be used to improve and refine the core contracts of the Guardian AA based on community feedback and audit findings. This includes adding new features and optimizing performance. Approximate allocation: 30% of grant funds.\n\nDeveloper Documentation and Resources: A portion of the funds will be dedicated to creating comprehensive developer documentation, tutorials, and example code specifically focused on the Guardian AA contracts. This will lower the barrier to entry for developers and encourage wider adoption. Approximate allocation: 20% of grant funds.\n\nCommunity Engagement and Outreach: Funds will be used to support community engagement activities, such as hackathons, workshops, and online forums. This will help build a strong community around the Guardian AA project and encourage collaboration and innovation. Approximate allocation: 10% of grant funds.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our core design empowers users with unparalleled flexibility and control by allowing them to deploy our contract infrastructure directly across the entire EVM ecosystem. This means users choose the EVM-compatible network that best suits their needs and deploy Guardian AA contracts directly from their own accounts. Because of this user-centric approach we currently don't maintain a centralized list of deployer addresses",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xa0d1c54b1f3922ac6e21fb5f3cb157f96ebdfd6001945952f2c2de1e813a6636",
+        "title": "SandBlox",
+        "logoImg": "bafkreigyci3ff2rvmkne4abghnklyiwki33uwg4h2sf2fn3c2lvegb5aeu",
+        "metaPtr": {
+          "pointer": "bafkreieyreyzc65aebxcby4qhnk6q3gzn5eqpzpnv754w4djmi47h6lwhe",
+          "protocol": "undefined"
+        },
+        "website": "https://sandblox.app",
+        "bannerImg": "bafkreihfkx3jclrbk3lrk56hxltum7fenwdy3ghqf3lnafglswhsah542a",
+        "createdAt": 1742814597620,
+        "userGithub": "JaCoderX",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T19:36:34.101Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xa79a7f75bbfb6042f58b12800f15222974a0c1147f37b4f1024e21d9b2d4df0d02c1c47e02d94d32daaf9a1a773c19cc30a578034bb1d137d6ccbe9543b41f701b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T19:36:34.101Z",
+            "expirationDate": "2025-06-22T19:36:34.101Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa8088ad31bcd1459D12Ae6355119d3F4bF37D751",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#PracticalParticle#12550942",
+              "nullifiers": [
+                "v0.0.0:DsVJcSfuDl2zavRnXsBoa1wN4mXbDtrbtTuJrs7VfoE="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T11:09:20.190Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x6951b1f3649e0875de8f2950d728368bc75c083d32d111014b80f399c1ea49e4070228a5c7f0c9923afb67ab4f46c1f13ae3551f828490c72fc46f7a70002f091c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T11:09:20.190Z",
+            "expirationDate": "2025-06-22T11:09:20.190Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa8088ad31bcd1459D12Ae6355119d3F4bF37D751",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#Particle_CS",
+              "nullifiers": [
+                "v0.0.0:65dF/jYv+q+0Fe3PcowCZlSF+pRAnMyd8+m2OKQhUUo="
+              ]
+            }
+          }
+        },
+        "description": "SandBlox is a modern development platform created by Particle Crypto Security that enables developers to rapidly prototype, build, and deploy blockchain applications. \n\nThe key features of SandBlox include:\n\n- Application Library: Provides secure open source code for building Guardian AA based applications\n\n- Custom Security Policies: Allows implementation and testing of new security approaches\n\n- Real-World Testing: Enables practical application of security theories in production environments\n\n- Community Audits: Promotes transparency with community-driven security audits\n\nSandBlox aims to have the following impacts:\n\n- Accelerate blockchain application development by providing pre-built, encapsulated \"blox\" - reusable blockchain components powered by Particle's account abstraction technology\n\n- Enhance security in blockchain applications by leveraging Guardian AA's advanced security features\n\n- Foster innovation in blockchain security by allowing developers to implement and test custom security policies\n\n- Improve transparency and trust in blockchain applications through community-driven security audits\n\n- Lower the barrier to entry for blockchain development, making it more accessible to a wider range of developers\n\nBy combining modern development tools with Particle's advanced account abstraction infrastructure, SandBlox seeks to create a seamless development experience for secure blockchain applications, ultimately contributing to the wider adoption and security of blockchain technology\n\nlearn more at:\nhttps://particlecs.com/",
+        "lastUpdated": 0,
+        "projectGithub": "PracticalParticle",
+        "projectTwitter": "Particle_CS"
+      },
+      "recipient": "0x2d77a0DD2d87b6DEAA7041c2a2048cA85DCfD526"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "SandBlox",
+      "logoImg": "bafkreigyci3ff2rvmkne4abghnklyiwki33uwg4h2sf2fn3c2lvegb5aeu",
+      "website": "https://sandblox.app",
+      "bannerImg": "bafkreihfkx3jclrbk3lrk56hxltum7fenwdy3ghqf3lnafglswhsah542a",
+      "createdAt": 1742814597620,
+      "userGithub": "JaCoderX",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T19:36:34.101Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xa79a7f75bbfb6042f58b12800f15222974a0c1147f37b4f1024e21d9b2d4df0d02c1c47e02d94d32daaf9a1a773c19cc30a578034bb1d137d6ccbe9543b41f701b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T19:36:34.101Z",
+          "expirationDate": "2025-06-22T19:36:34.101Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa8088ad31bcd1459D12Ae6355119d3F4bF37D751",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#PracticalParticle#12550942",
+            "nullifiers": [
+              "v0.0.0:DsVJcSfuDl2zavRnXsBoa1wN4mXbDtrbtTuJrs7VfoE="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T11:09:20.190Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x6951b1f3649e0875de8f2950d728368bc75c083d32d111014b80f399c1ea49e4070228a5c7f0c9923afb67ab4f46c1f13ae3551f828490c72fc46f7a70002f091c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T11:09:20.190Z",
+          "expirationDate": "2025-06-22T11:09:20.190Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa8088ad31bcd1459D12Ae6355119d3F4bF37D751",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#Particle_CS",
+            "nullifiers": [
+              "v0.0.0:65dF/jYv+q+0Fe3PcowCZlSF+pRAnMyd8+m2OKQhUUo="
+            ]
+          }
+        }
+      },
+      "description": "SandBlox is a modern development platform created by Particle Crypto Security that enables developers to rapidly prototype, build, and deploy blockchain applications. \n\nThe key features of SandBlox include:\n\n- Application Library: Provides secure open source code for building Guardian AA based applications\n\n- Custom Security Policies: Allows implementation and testing of new security approaches\n\n- Real-World Testing: Enables practical application of security theories in production environments\n\n- Community Audits: Promotes transparency with community-driven security audits\n\nSandBlox aims to have the following impacts:\n\n- Accelerate blockchain application development by providing pre-built, encapsulated \"blox\" - reusable blockchain components powered by Particle's account abstraction technology\n\n- Enhance security in blockchain applications by leveraging Guardian AA's advanced security features\n\n- Foster innovation in blockchain security by allowing developers to implement and test custom security policies\n\n- Improve transparency and trust in blockchain applications through community-driven security audits\n\n- Lower the barrier to entry for blockchain development, making it more accessible to a wider range of developers\n\nBy combining modern development tools with Particle's advanced account abstraction infrastructure, SandBlox seeks to create a seamless development experience for secure blockchain applications, ultimately contributing to the wider adoption and security of blockchain technology\n\nlearn more at:\nhttps://particlecs.com/",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "PracticalParticle",
+      "projectTwitter": "Particle_CS"
+    }
+  }
+}

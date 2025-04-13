@@ -1,0 +1,666 @@
+{
+  "id": "137",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x7695119411aca70de8e0db8898d230fef1b287bcf29fcda51f2a49dcf1c50b9e",
+  "metadata": {
+    "signature": "0x03a97d6cf4f47fbefa148f1bbb81e6478a2dd476b65c96d0d0214fa2fd3656e675ba2f73a59412d6c82e61ba34bcc121bed55454cd6c90a3033aca4962719a3b1c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "pgop@monkeyflower.ca",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://t.me/Benjamin_West",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Pretty-Good-OSINT-Protocol/Have-I-Been-Rekt",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes as Elephant Room communications. We have used similar tools for our own investigative work and decided to make them more widely available to others. \n\nhttps://checker.gitcoin.co/public/project/show/elephant-in-the-room-strategic-climate-solutions",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Pretty Good OSINT Protocol (PGOP) contributes to the OSS ecosystem by making advanced, AI-assisted open source intelligence tools accessible to the public. Most modern OSINT capabilities are siloed behind government contracts or corporate platforms — PGOP changes that.\n\nWe also provide data that can be integrated via oracle and use in a wide variety of ways. \n\nWe are building an interoperable and immutable framework that is highly customizable and totally open source. \n\nSpecific contributions:\n\n🌐 Modular Plugin Framework: Anyone can create and publish custom OSINT plugins for domains, wallets, leaked data, or AI workflows.\n\n🤖 AI Integration Layer: Supports OpenAI, Anthropic, and local models for summarizing OSINT reports and automating investigations.\n\n🔓 Privacy-First by Design: Integrates with Holonym to offer zero-knowledge ID verification — something never seen in typical OSINT tools.\n\n⛓️ On-Chain Publishing: Allows immutable public-interest reports to be published to IPFS, Orbit Chain, or Base.\n\nAll code is open source and contributions are encouraged through GitHub Issues, Projects, and community-led plugin submissions.\n\n",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "PGOP is differentiated by its combination of usability, modularity, AI automation, and ethics-first design.\n\nUse Cases:\n\n🧠 Investigative journalism: Trace wallet, DNS, and image info without reliance on centralized tools\n\n🕵️‍♀️ DAO due diligence: Vet contributors using off-chain and on-chain identity tools\n\n🛡️ Community protection: Scan tokens, contracts, and identities for scam indicators\n\n📡 OSINT-as-a-service: Build plugins that integrate third-party APIs into scan workflows\n\nKey Differentiators:\n\nAI agents can generate scan summaries and flag threats\n\nModular plugin loader means devs can quickly expand it\n\nGUI frontend for non-technical users: Have I Been Rekt\n\nZK privacy layer ensures redacted investigations stay safe\n\nOn-chain report publishing ensures transparency\n\n",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our development roadmap includes:\n\n📦 Launching plugin store + contributor onboarding\n\n🧪 Adding test coverage and CI/CD for main OSINT modules\n\n📲 Improving Streamlit GUI + mobile workflows\n\n🔗 Deepening API integrations (Holonym, Orbit Chain, OpenAI)\n\n🧠 Launching PGOP Agent — an AI-powered investigation assistant\n\nGrant funds will be used for:\n\nInfrastructure (API credits, file hosting, VM deploys)\n\nBounties for plugin developers\n\nPaying ZK contributors to integrate Holonym\n\nIncentivizing privacy-preserving publishing of public-interest scans\n\nWe’re building a public good, and this grant will help ensure contributors can be compensated fairly.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x219d07BdFA45C11Fb655A24E20709205C6255746",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x7695119411aca70de8e0db8898d230fef1b287bcf29fcda51f2a49dcf1c50b9e",
+        "title": "Have I Been Rekt?",
+        "logoImg": "bafkreigtidrafk3jra3wyskws43cecrwy3npemw53x56axzlxrnzyijy7u",
+        "metaPtr": {
+          "pointer": "bafkreihq7ntapfupmorwqxjah4alonha3qdu3vml4rsf2sk422ixjbqj6q",
+          "protocol": "undefined"
+        },
+        "website": "https://BeenRekt.com",
+        "bannerImg": "bafkreidufguuo2chiqyau2myp4khnqxanchoxae2cga5d44yoikassnb6e",
+        "createdAt": 1743300365845,
+        "userGithub": "JhonatanHern",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T23:23:22.004Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x72ff297f6d1c30ca4c05db7ee8997a611269bfd3b8f498f34c06cafe2fdd1769265f370e88a58b1997f50e363089ad60fa2defa7072e85c3a8788e9f676174021b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T23:23:22.004Z",
+            "expirationDate": "2025-06-28T23:23:22.004Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Pretty-Good-OSINT-Protocol#91565301",
+              "nullifiers": [
+                "v0.0.0:YbWWCcM2Pb86vU0+SBNe17V7Q38BeIwzsWaL21DHTk8="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T02:04:11.439Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x917cb80c4ba8960871ea7f751d9e254491e7e34e1f5a4c75321e6f60163148363c4ed67382164e8d2f0fee2bdf39086bfafafc8bcfd7646a5a61fc7db05c870c1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T02:04:11.439Z",
+            "expirationDate": "2025-06-28T02:04:11.439Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ClimateRace",
+              "nullifiers": [
+                "v0.0.0:qL4yTmSHb+QBWizM5gUrry/pBmdg+Wr8Q7lGBJVtp7E="
+              ]
+            }
+          }
+        },
+        "description": "# Pretty Good OSINT Protocol (PGOP)\n\n> _Now, not only the bad guys have these tools._\n\n---\n\n## TL;DR\n\n**PGOP (Pretty Good OSINT Protocol)** is a modular, privacy-respecting open-source OSINT framework built for journalists, activists, researchers, and ethical hackers. It combines AI automation, blockchain transparency, and privacy-preserving tech to **democratize access to open-source intelligence**.\n\nWe want a world where tools like face recognition, wallet tracing, contract analysis, and API aggregation aren’t limited to governments and corporations.\n\n---\n\n## 💡 What We're Building\n\n- **PGOP**: Core modular OSINT platform with CLI, API, and GUI\n- **Have I Been Rekt?**: Friendly web frontend (Hugging Face + streamlit)\n- **Tool integrations**: WHOIS, Telegram, Discord, blockchain scanners, geolocation, PimEyes, Hunter.io, etc.\n- **AI-powered workflows**: Use OpenAI and other models to summarize OSINT scans and automate multi-tool workflows\n- **Privacy-first**: Integrates Human.Tech (Holonym) to verify humans with zero-knowledge proofs\n- **Immutable audit trail**: Write results optionally to Orbit Chain or Base for provable investigations\n- **VM-in-a-box**: Deploy as Dockerized toolkit on a local or cloud machine in minutes\n\n---\n\n## 🚀 MVP Features\n\n- CLI + GUI for scans\n- Wallet & domain lookup\n- WHOIS + reverse DNS\n- Smart contract analysis\n- Telegram/Discord scans\n- Face + image matching (PimEyes style)\n- AI summarization + tags\n- Export to Maltego\n- Publish reports to IPFS or blockchain\n\n---\n\n## 🔒 Privacy by Design\n\n- No centralized data logging\n- All API keys stored locally or via user-managed wallets\n- Supports ZK-proof redaction of sensitive content using Holonym\n\n---\n\n## 🔧 Tech Stack\n\n- Python / Streamlit / Docker\n- Hugging Face Spaces\n- GitHub Actions for CI/CD\n- OpenAI, Stability, and AI APIs\n- Orbit Chain, Base, IPFS\n- Optional wallet connect\n\n---\n\n## 🌱 Who It's For\n\n- Investigative journalists\n- Security researchers\n- Human rights groups\n- DAO governance voters\n- Community trust systems\n- Open-source threat analysts\n\n---\n\n## 🧩 What's Next?\n\n- ✅ Hugging Face demo live\n- 🔜 Extend AI workflows (custom GPT agents)\n- 🔜 Integration with Holonym ZK ID\n- 🔜 OSINT-to-IPFS/Orbit reporting\n- 🔜 GitHub deploy & VM script\n- 🔜 Figma-style onboarding + docs\n\n---\n\n## 🙏 Why We Need Funding\n\n- Improve reliability and modularity\n- Cover API usage for demos (OpenAI, PimEyes, Hunter.io, etc.)\n- Support contributors & contractors\n- Offer a hosted gateway for non-technical users\n- Enable anonymous public-interest reporting\n\n---\n\n## 🌍 Let’s level the field\n\nTools this powerful shouldn’t be exclusive to nation-states, mercenary firms, or billion-dollar platforms.\n\n> We’re building **Pretty Good OSINT Protocol** so **everyone** has access to information that matters.\n\n---\n\n🔗 [GitHub](https://github.com/M0nkeyFl0wer/Pretty-Good-OSINT-Protocol)  \n🧪 [Live Demo](https://huggingface.co/spaces/monkeyflower/pgop-demo)  \n🌐 [Website](https://beenrekt.com)\n\nMIT License • Public good • Decentralized trust\n",
+        "lastUpdated": 0,
+        "projectGithub": "Pretty-Good-OSINT-Protocol",
+        "projectTwitter": "climaterace"
+      },
+      "recipient": "0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Have I Been Rekt?",
+      "logoImg": "bafkreigtidrafk3jra3wyskws43cecrwy3npemw53x56axzlxrnzyijy7u",
+      "website": "https://BeenRekt.com",
+      "bannerImg": "bafkreidufguuo2chiqyau2myp4khnqxanchoxae2cga5d44yoikassnb6e",
+      "createdAt": 1743300365845,
+      "userGithub": "JhonatanHern",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T23:23:22.004Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x72ff297f6d1c30ca4c05db7ee8997a611269bfd3b8f498f34c06cafe2fdd1769265f370e88a58b1997f50e363089ad60fa2defa7072e85c3a8788e9f676174021b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T23:23:22.004Z",
+          "expirationDate": "2025-06-28T23:23:22.004Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Pretty-Good-OSINT-Protocol#91565301",
+            "nullifiers": [
+              "v0.0.0:YbWWCcM2Pb86vU0+SBNe17V7Q38BeIwzsWaL21DHTk8="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T02:04:11.439Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x917cb80c4ba8960871ea7f751d9e254491e7e34e1f5a4c75321e6f60163148363c4ed67382164e8d2f0fee2bdf39086bfafafc8bcfd7646a5a61fc7db05c870c1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T02:04:11.439Z",
+          "expirationDate": "2025-06-28T02:04:11.439Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x0ff1bAA6c90480d8627B922A1E81393EB9C7eA08",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ClimateRace",
+            "nullifiers": [
+              "v0.0.0:qL4yTmSHb+QBWizM5gUrry/pBmdg+Wr8Q7lGBJVtp7E="
+            ]
+          }
+        }
+      },
+      "description": "# Pretty Good OSINT Protocol (PGOP)\n\n> _Now, not only the bad guys have these tools._\n\n---\n\n## TL;DR\n\n**PGOP (Pretty Good OSINT Protocol)** is a modular, privacy-respecting open-source OSINT framework built for journalists, activists, researchers, and ethical hackers. It combines AI automation, blockchain transparency, and privacy-preserving tech to **democratize access to open-source intelligence**.\n\nWe want a world where tools like face recognition, wallet tracing, contract analysis, and API aggregation aren’t limited to governments and corporations.\n\n---\n\n## 💡 What We're Building\n\n- **PGOP**: Core modular OSINT platform with CLI, API, and GUI\n- **Have I Been Rekt?**: Friendly web frontend (Hugging Face + streamlit)\n- **Tool integrations**: WHOIS, Telegram, Discord, blockchain scanners, geolocation, PimEyes, Hunter.io, etc.\n- **AI-powered workflows**: Use OpenAI and other models to summarize OSINT scans and automate multi-tool workflows\n- **Privacy-first**: Integrates Human.Tech (Holonym) to verify humans with zero-knowledge proofs\n- **Immutable audit trail**: Write results optionally to Orbit Chain or Base for provable investigations\n- **VM-in-a-box**: Deploy as Dockerized toolkit on a local or cloud machine in minutes\n\n---\n\n## 🚀 MVP Features\n\n- CLI + GUI for scans\n- Wallet & domain lookup\n- WHOIS + reverse DNS\n- Smart contract analysis\n- Telegram/Discord scans\n- Face + image matching (PimEyes style)\n- AI summarization + tags\n- Export to Maltego\n- Publish reports to IPFS or blockchain\n\n---\n\n## 🔒 Privacy by Design\n\n- No centralized data logging\n- All API keys stored locally or via user-managed wallets\n- Supports ZK-proof redaction of sensitive content using Holonym\n\n---\n\n## 🔧 Tech Stack\n\n- Python / Streamlit / Docker\n- Hugging Face Spaces\n- GitHub Actions for CI/CD\n- OpenAI, Stability, and AI APIs\n- Orbit Chain, Base, IPFS\n- Optional wallet connect\n\n---\n\n## 🌱 Who It's For\n\n- Investigative journalists\n- Security researchers\n- Human rights groups\n- DAO governance voters\n- Community trust systems\n- Open-source threat analysts\n\n---\n\n## 🧩 What's Next?\n\n- ✅ Hugging Face demo live\n- 🔜 Extend AI workflows (custom GPT agents)\n- 🔜 Integration with Holonym ZK ID\n- 🔜 OSINT-to-IPFS/Orbit reporting\n- 🔜 GitHub deploy & VM script\n- 🔜 Figma-style onboarding + docs\n\n---\n\n## 🙏 Why We Need Funding\n\n- Improve reliability and modularity\n- Cover API usage for demos (OpenAI, PimEyes, Hunter.io, etc.)\n- Support contributors & contractors\n- Offer a hosted gateway for non-technical users\n- Enable anonymous public-interest reporting\n\n---\n\n## 🌍 Let’s level the field\n\nTools this powerful shouldn’t be exclusive to nation-states, mercenary firms, or billion-dollar platforms.\n\n> We’re building **Pretty Good OSINT Protocol** so **everyone** has access to information that matters.\n\n---\n\n🔗 [GitHub](https://github.com/M0nkeyFl0wer/Pretty-Good-OSINT-Protocol)  \n🧪 [Live Demo](https://huggingface.co/spaces/monkeyflower/pgop-demo)  \n🌐 [Website](https://beenrekt.com)\n\nMIT License • Public good • Decentralized trust\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Pretty-Good-OSINT-Protocol",
+      "projectTwitter": "climaterace"
+    }
+  }
+}

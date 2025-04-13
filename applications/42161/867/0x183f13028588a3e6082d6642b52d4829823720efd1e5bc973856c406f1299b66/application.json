@@ -1,0 +1,449 @@
+{
+  "id": "78",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x183f13028588a3e6082d6642b52d4829823720efd1e5bc973856c406f1299b66",
+  "metadata": {
+    "signature": "0x14735cdbe24dfa8752d2e84808a58d6d63ba62895180408aa7a4b6f16835fb596cef7b7bd4a4d7b906189f42ce14059179684a31be0a0850cfbefbfc78f533351c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "djimo@silvi.earth",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "MetaFarmer",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/SilviProtocol/silvi-open",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/SilviProtocol",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/?utm_source=gitcoinco&utm_medium=nav&utm_campaign=v2#/projects",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Silvi and Treekipedia contribute significantly to the growth of the open-source software (OSS) ecosystem by providing innovative tools and a knowledge commons that empower decentralized reforestation efforts while fostering collaboration, transparency, and scalability. Built on open-source principles, they enhance the OSS ecosystem by addressing environmental challenges through accessible technology and community-driven development. Below, I’ll outline how they contribute broadly and provide specific examples of how they enhance or expand the current ecosystem.\n\nBroad Contributions to the OSS Ecosystem\nOpen Access and Collaboration: Silvi’s platform and Treekipedia’s tree intelligence database are designed to be open-source, inviting global contributors—developers, scientists, and stewards—to refine and expand the tools. This aligns with OSS goals of democratizing access and encouraging collaborative innovation.\nInteroperability: By integrating with existing biodiversity datasets (e.g., GBIF, iNaturalist) and blockchain frameworks (e.g., Celo, Ethereum), Silvi and Treekipedia enhance the OSS ecosystem’s interoperability, enabling seamless data sharing and functionality across platforms.\nCommunity Empowerment: Silvi’s mobile-first app and Treekipedia’s knowledge graph lower barriers for non-technical users (e.g., tree stewards, farmers) to engage with OSS, expanding the ecosystem’s reach beyond traditional developer communities.\nSustainability Focus: They introduce a purpose-driven OSS model, linking software development to real-world ecological impact, which can inspire other OSS projects to tackle global challenges like climate change.\nSpecific Examples of Enhancement and Expansion\nSilvi App as an Open-Source MRV Tool\nEnhancement: The Silvi App, currently in open beta, serves as a Monitoring, Reporting, and Verification (MRV) tool for reforestation. It enhances the OSS ecosystem by providing a decentralized, gamified platform for tracking tree planting—something rare in existing OSS tools. Its integration with blockchain (e.g., Celo for payments in cUSD/USDC) adds a secure, transparent layer to OSS applications, advancing the ecosystem’s capability in financial and ecological accountability.\nExpansion: By offering an open-source MRV framework, Silvi invites developers to adapt it for other environmental projects (e.g., soil health, water conservation), potentially spawning new OSS tools. For instance, its methodology configurator—defining proof-of-tree events like germination or planting—could be repurposed for broader ecological monitoring.\nTreekipedia’s Knowledge Graph and Ontology\nEnhancement: Treekipedia consolidates fragmented tree data into a structured, AI-enhanced repository with over 50,000 species and 17.6 million records. This enhances the OSS ecosystem by providing a robust, open-access knowledge base that other projects (e.g., ecological modeling tools) can build upon, reducing redundancy and improving data quality.\nExpansion: Its use of Blazegraph for querying and IPFS for decentralized storage introduces advanced OSS infrastructure to the ecosystem. Developers can leverage these technologies for other decentralized databases, expanding OSS applications beyond reforestation—say, into open-source genomics or climate data platforms.\nTreeForwards and Batch Accounting\nEnhancement: Silvi’s TreeForwards—a fractional funding model tied to verifiable milestones—enhances the OSS ecosystem by integrating economic incentives into open-source software. The batch accounting system, managing groups of TreeForwards, improves scalability, a common challenge in OSS, making it a blueprint for large-scale project management tools.\nExpansion: This financial coordination model could inspire new OSS projects in impact investing or decentralized finance (DeFi), where verifiable outcomes trigger payments. For example, an open-source platform for renewable energy credits could adopt a similar structure.\nCommunity-Driven Validation and Incentives\nEnhancement: Silvi’s peer review system for planting verification and Treekipedia’s Contreebution NFTs (~$3 to sponsor species research) enhance OSS by embedding community governance and incentivization—key trends in modern OSS like GitHub’s contributor models. This strengthens ecosystem trust and participation.\nExpansion: The NFT-based incentive model expands OSS by blending Web3 innovations with environmental goals, potentially leading to new OSS frameworks for tokenized contributions in education, healthcare, or conservation.\nReal-World Impact Example\nIn Kenya, Silvi’s OSS tools have supported the propagation of over 150,000 trees in Kakamega Forest, with the app enabling local stewards to document and verify plantings. Treekipedia’s species data ensures these efforts use native trees suited to the biome. This demonstrates how Silvi and Treekipedia enhance OSS by delivering practical, scalable solutions while inviting global developers to refine the codebase—e.g., adapting it for other forests or urban green spaces.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Features and Use Cases of Silvi dApp and Treekipedia\nSilvi dApp Features and Use Cases:\n\nTreeForwards: Fractional funding units for reforestation, enabling sponsors to support specific trees with milestone-based payments (e.g., planting, survival) tied to verified outcomes.\nMRV Tool: A mobile-first, open beta app for Monitoring, Reporting, and Verification, allowing stewards to geotag and document tree planting, with blockchain-backed claims for transparency.\nBatch Accounting: Manages groups of TreeForwards efficiently, ensuring scalability for large-scale projects while tracking individual tree care.\nPayments via Blockchain: Integrates with Celo and other EVM-compatible chains, issuing payouts in stablecoins (cUSD, USDC) to stewards and verifiers upon claim approval.\nCommunity-Driven Validation: Peer review system for verifying planting claims, fostering trust and participation.\nUse Case: In Kenya, Silvi has propagated 150,000+ trees in Kakamega Forest, empowering 200+ users (schools, farmers) to manage nurseries and earn via verified milestones.\n\nTreekipedia Features and Use Cases:\n\nComprehensive Tree Database: An open-source repository with 50,000+ species and 17.6 million records, offering ecological, taxonomic, and stewardship data.\nAI Research Agents: Autonomously compile and refine tree knowledge, pinned to IPFS with Ethereum Attestation Service for credibility.\nContreebution NFTs: Users fund species research (~$3 each), receiving NFTs as proof of contribution, incentivizing participation.\nKnowledge Graph: Structured ontology for querying species-specific best practices, enhancing reforestation planning.\nUse Case: Treekipedia supports Silvi stewards by providing native species data for Kakamega, ensuring climate-adapted planting.\n\nDifferentiation\nSilvi: Unlike traditional reforestation platforms, Silvi combines blockchain transparency, fractional funding, and gamified MRV, making tree planting accessible and verifiable. It stands out from carbon credit platforms by focusing on individual tree stewardship rather than offsets alone.\nTreekipedia: Differentiates from static biodiversity databases (e.g., GBIF) with its AI-driven, community-updated model and Web3 incentives, creating a living, decentralized \"Wikipedia for trees\" tailored for actionable reforestation insights.\nTogether, they offer a unique, tech-forward ecosystem that bridges funding, knowledge, and action, distinct from centralized or less interactive alternatives.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Plans for Further Development of Silvi and Treekipedia\nSilvi:\n\nEnhanced MRV Capabilities: Integrate advanced remote sensing (e.g., drones, satellites) and statistical sampling to improve verification accuracy and scale monitoring across larger reforestation projects.\nTokenomics and Governance: Launch a native governance token and DAO structure to decentralize portfolio management, enabling community-led decision-making for global reforestation efforts.\nCarbon and Eco-Credit Integration: Connect Silvi with carbon credit issuers and ecological frameworks (e.g., Ecological Benefits Framework) to unlock additional revenue streams for stewards and investors.\nGlobal Expansion: Grow OperationWebTree beyond its 18 current partners, targeting 100+ community projects worldwide, with a focus on urban re-greening and agroforestry.\nTreekipedia:\n\nAI Scaling: Develop advanced AI agents for ecological modeling and automated knowledge updates, enhancing real-time species data accuracy.\nDecentralized Governance: Introduce DeepTrees NFT collections (e.g., Iconic Species NFTs) to fund research and guide Treekipedia’s evolution through community governance.\nAPI and Partnerships: Launch a public API for integration with research platforms and forge global partnerships with biodiversity institutions to expand data interoperability.\nCommunity Engagement: Form working groups with scientists and stewards to refine methodologies and validate data, making Treekipedia a collaborative hub.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0xbeAFA68EcC2Ae8bF2FA7f3B5037011dd503c063d, 42220\n0x564193644236F6D9f3D3a3209975E51D32050612, 42220\n0x1473d1559B7469ED2B9A51790b7177a74958c5bB, 42161",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x183f13028588a3e6082d6642b52d4829823720efd1e5bc973856c406f1299b66",
+        "title": "Silvi",
+        "logoImg": "bafkreia2lxh62vyemnumlun3kzafdqlsuszyvneipn67xacw6nfs445nd4",
+        "metaPtr": {
+          "pointer": "bafkreihj6owxbbzh3u6gca3qgqkc3nx6vwac54zri4zc7tqmwqxeimd6gy",
+          "protocol": "undefined"
+        },
+        "website": "https://silvi.earth",
+        "bannerImg": "bafybeif4gscd7hssgankvzfrs4a4i6tka5ewbc44ydw4bkrwl5zllkyida",
+        "createdAt": 1709771229881,
+        "userGithub": "DjimoSerodio",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T08:11:40.644Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7246dcf4434c7613a9c2b7119bfeb67aa3db74137ec75e2a7e074a676e42b79b3065c02c160fb0c5ab9c8cae99e14b29e17421f74cf55b5bb7bebce7465fa3b31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T08:11:40.644Z",
+            "expirationDate": "2025-06-25T08:11:40.644Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#SilviProtocol#132837131",
+              "nullifiers": [
+                "v0.0.0:qGOfFdM5ue5hIVYgbSgiIAmmVkFxHCna1ux7aLDqLnE="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..b0QmD6SI2xk5N_JFe20qdBggt1yQJ_a02PAIz2APuDCP3XJXWEn8sk113UAuh9dhr-c9UUP-9Vl1dVArhjyUAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-03-07T00:22:39.641Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-03-07T00:22:39.641Z",
+            "expirationDate": "2024-06-05T00:22:39.641Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+              "hash": "v0.0.0:cglwTY+aA6w6HFHckDOpK33/HUBoT3nF9ZyhbH57oLg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#SilviProtocol"
+            }
+          }
+        },
+        "description": "# 🌳🌳 **GG23 Update** 🌳🌳\nSince GG22, we have launched [Treekipedia](https://treekipedia.silvi.earth/) along with its [repo](https:github.com/SilviProtocol/silvi-open/tree/master/Treekipedia)(see below the Treekipedia section for an update), published [documentation](https://silvi.gitbook.io/silvi-app-user-guide), and continued to grow [OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link)\n\nSome of our recent wins include being funded by CELO to plant Ultra Green Trees as part of [CELO's Ultra Green Money ](https://blog.celo.org/ultragreen-money-c677e7508abb) innititative, winning a category prize at Eth Denver's Agentic Hackathon for Treekipedia and getting into Octant's Epoch 7 with Climate Coordination Network!\n\nOur [app](https://app.silvi.earth) continues to register and report on tree plantings as well as geotag mother trees of interest. Since last Gitcoin, we are particularly excited about ReFi Sicilia's Bioregional Growth, A collaboration in New Zealand and organic growth in Nigeria \n\nNote: Only projects which have been vetted and configured with methodologies are eligible for stewardship and MRV payments, but anyone may use the app permissionlessly and for free   [#OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link), continues to grow as global reforestation movement powered by Web3. Compensation is partially fronted, partially milestone based via MRV contracts and we are also interested in growing this fund to be able to administer RetroPGF payments. If you're interested in applying to the OperationWebTree grant, please fill out this form [here](https://https://forms.gle/5Nve8X4FsL4u9xU39).\n\n\n🌳🌳 **//GG23 update** 🌳🌳\n\n# 👇 **Grant Page** 👇\n\nIf you're new here, welcome to our grant. \n\n***Silvi's mission  is to contribute to the trillion tree target by building financial and coordination tools for ecologically optimized and climate-adapted reforestation.***\n \n \n**TL;DR** We are building a protocol with the following tools and features:\n \n💰⏳ **TreeForwards** - Every TreeForward, at its core, is a distinct bond that provides the financial commitment to plant and steward a tree through maturity. This budget can be configured to prescribe species and location-specific methodologies which release milestone-based rewards to incentivize ecologically optimized and climate-adapted tree planting and stewardship. TreeForwards effectively collateralize the net present value of New Trees. Further, we strive to make TreeForwards as low risk instruments as possible by making them performance-based payouts dependant on verifiable milestones\n[![Screenshot-2024-04-11-at-11-37-51-PM.png](https://i.postimg.cc/zvghczng/Screenshot-2024-04-11-at-11-37-51-PM.png)](https://postimg.cc/sG31BRHj)\n\n\n📍🔭 **MRV** - The [Silvi App](https://app.silvi.earth), a Monitoring, Reporting and Verification (MRV) tool is now in open beta and used to create reforestation impact claims. These claims can be paid if defined in the methodology.\n[![Screenshot-2024-04-11-at-11-56-37-PM.png](https://i.postimg.cc/NjZRDK9B/Screenshot-2024-04-11-at-11-56-37-PM.png)](https://postimg.cc/QFkBxxJy)\n[![Screenshot-2024-04-11-at-11-59-42-PM.png](https://i.postimg.cc/nhnLJZyB/Screenshot-2024-04-11-at-11-59-42-PM.png)](https://postimg.cc/nCwxK8ch)\n[![Screenshot-2025-03-27-at-8-22-24-PM.png](https://i.postimg.cc/xT2hPJbq/Screenshot-2025-03-27-at-8-22-24-PM.png)](https://postimg.cc/SjggSKdp)\n\n\n📋📈**Treekipedia**: Is more than a Tree Intelligence Commons. Our efforts to develop an open source, comprehensive database of tree knowledge to drive interoperability and programmability in web3\n\nTreekipedia is in closed Alpha and has combined existing and fragmented datasets into one comprehensive taxonomy and list of tree species to serve as the foundation of an extensive ontology. This ontology and tree knowledge graph will connect tree species with key characteristics, images, stewardship best practices, relevant modeling methods, geographic occurrences, bioregional aptitude, and more and allow multiple web3 projects to collaborate around the topic or ecology and trees\n[![Screenshot-2025-03-27-at-8-34-15-PM.png](https://i.postimg.cc/PJGjkdrx/Screenshot-2025-03-27-at-8-34-15-PM.png)](https://postimg.cc/k6yZQ3S3)\n[![Screenshot-2024-08-05-at-7-59-15-PM.png](https://i.postimg.cc/FsSxYqLw/Screenshot-2024-08-05-at-7-59-15-PM.png)](https://postimg.cc/qzkKY1QG)\nSo far, we have:\n* Hired a post-doctorate ecologist\n* Developed a prototype [taxonomic schema](https://docs.google.com/document/d/1gyox46GXNOs_X6UmbcVrjOTh8q4BbcSaTycJPWeKknY/edit?usp=sharing)\n* Compiled a list of source 10+ species databases including GBIF, iNaturalist, BGCI, etc.\n* Created a data retrieval and filtering strategy using R Studio\n* Finish compiling and filtering species and occurrence data\n* Finalize and release the open source schema & ontology \n* Build useful features such as tree values based on OneEarth ecoregions\n* AI Deep Research Agent\n\nNext steps:\n\n* Smart contracts for Contreebution NFTs\n* Treederboard for contribution rankings\n* Develop UI and open source contributor process (similar to Wikipedia)\n\nThere are still key questions we’re working through, and it’s important to note that Treekipedia will be ever evolving. If you want to be a part of the process reach out to @metafarmer on Telegram\n\n\n📒🧮 **Batch Accounting**: Silvi's robust batch accounting system efficiently manages groupings of TreeForwards via various verification classes ensuring that each tree within a batch receives its requisite funding and care. This feature enhances scalability, ensuring large-scale reforestation initiatives with area based accounting are as meticulously managed as individual trees.\n \n🗺️ 🧺**Portfolio Management**: Embodying the democratization of reforestation, we believe that global efforts should be cohesively managed and brokered and we're growing a portfolio of impact across various forest and projects worldwide. Our goal is to operate this portfolio via a DAO structure after we launch a token\n\n**Tokenomics:**\nOur long term plans involve launching a native governance token issued through tree commitments. Governance tokens will spawn utility NFT pairs that contain all the data and contracts for each tree.\n\n**Pilots:**\nTo date, Silvi has already deployed several pilots with the most recent being OperationWebTree involving 18 implementation partners. [Check out our reel by RefiMiami/GreenpillMiami](https://x.com/ReFiMiami/status/1759296369242599596?s=20)\n\n\nWith the help of Gitcoin funding, Silvi has established operations in dozens of countries, onboarded 500+ users and registered thousands of MRV logs. We couldn't thank you enough for your support\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "SilviProtocol",
+        "projectTwitter": "SilviProtocol"
+      },
+      "recipient": "0xa7CA400d49BBa87EB606ee05af93689BD21FaB99"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Silvi",
+      "logoImg": "bafkreia2lxh62vyemnumlun3kzafdqlsuszyvneipn67xacw6nfs445nd4",
+      "website": "https://silvi.earth",
+      "bannerImg": "bafybeif4gscd7hssgankvzfrs4a4i6tka5ewbc44ydw4bkrwl5zllkyida",
+      "createdAt": 1709771229881,
+      "userGithub": "DjimoSerodio",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T08:11:40.644Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x7246dcf4434c7613a9c2b7119bfeb67aa3db74137ec75e2a7e074a676e42b79b3065c02c160fb0c5ab9c8cae99e14b29e17421f74cf55b5bb7bebce7465fa3b31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T08:11:40.644Z",
+          "expirationDate": "2025-06-25T08:11:40.644Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#SilviProtocol#132837131",
+            "nullifiers": [
+              "v0.0.0:qGOfFdM5ue5hIVYgbSgiIAmmVkFxHCna1ux7aLDqLnE="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..b0QmD6SI2xk5N_JFe20qdBggt1yQJ_a02PAIz2APuDCP3XJXWEn8sk113UAuh9dhr-c9UUP-9Vl1dVArhjyUAg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-03-07T00:22:39.641Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-03-07T00:22:39.641Z",
+          "expirationDate": "2024-06-05T00:22:39.641Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+            "hash": "v0.0.0:cglwTY+aA6w6HFHckDOpK33/HUBoT3nF9ZyhbH57oLg=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#SilviProtocol"
+          }
+        }
+      },
+      "description": "# 🌳🌳 **GG23 Update** 🌳🌳\nSince GG22, we have launched [Treekipedia](https://treekipedia.silvi.earth/) along with its [repo](https:github.com/SilviProtocol/silvi-open/tree/master/Treekipedia)(see below the Treekipedia section for an update), published [documentation](https://silvi.gitbook.io/silvi-app-user-guide), and continued to grow [OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link)\n\nSome of our recent wins include being funded by CELO to plant Ultra Green Trees as part of [CELO's Ultra Green Money ](https://blog.celo.org/ultragreen-money-c677e7508abb) innititative, winning a category prize at Eth Denver's Agentic Hackathon for Treekipedia and getting into Octant's Epoch 7 with Climate Coordination Network!\n\nOur [app](https://app.silvi.earth) continues to register and report on tree plantings as well as geotag mother trees of interest. Since last Gitcoin, we are particularly excited about ReFi Sicilia's Bioregional Growth, A collaboration in New Zealand and organic growth in Nigeria \n\nNote: Only projects which have been vetted and configured with methodologies are eligible for stewardship and MRV payments, but anyone may use the app permissionlessly and for free   [#OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link), continues to grow as global reforestation movement powered by Web3. Compensation is partially fronted, partially milestone based via MRV contracts and we are also interested in growing this fund to be able to administer RetroPGF payments. If you're interested in applying to the OperationWebTree grant, please fill out this form [here](https://https://forms.gle/5Nve8X4FsL4u9xU39).\n\n\n🌳🌳 **//GG23 update** 🌳🌳\n\n# 👇 **Grant Page** 👇\n\nIf you're new here, welcome to our grant. \n\n***Silvi's mission  is to contribute to the trillion tree target by building financial and coordination tools for ecologically optimized and climate-adapted reforestation.***\n \n \n**TL;DR** We are building a protocol with the following tools and features:\n \n💰⏳ **TreeForwards** - Every TreeForward, at its core, is a distinct bond that provides the financial commitment to plant and steward a tree through maturity. This budget can be configured to prescribe species and location-specific methodologies which release milestone-based rewards to incentivize ecologically optimized and climate-adapted tree planting and stewardship. TreeForwards effectively collateralize the net present value of New Trees. Further, we strive to make TreeForwards as low risk instruments as possible by making them performance-based payouts dependant on verifiable milestones\n[![Screenshot-2024-04-11-at-11-37-51-PM.png](https://i.postimg.cc/zvghczng/Screenshot-2024-04-11-at-11-37-51-PM.png)](https://postimg.cc/sG31BRHj)\n\n\n📍🔭 **MRV** - The [Silvi App](https://app.silvi.earth), a Monitoring, Reporting and Verification (MRV) tool is now in open beta and used to create reforestation impact claims. These claims can be paid if defined in the methodology.\n[![Screenshot-2024-04-11-at-11-56-37-PM.png](https://i.postimg.cc/NjZRDK9B/Screenshot-2024-04-11-at-11-56-37-PM.png)](https://postimg.cc/QFkBxxJy)\n[![Screenshot-2024-04-11-at-11-59-42-PM.png](https://i.postimg.cc/nhnLJZyB/Screenshot-2024-04-11-at-11-59-42-PM.png)](https://postimg.cc/nCwxK8ch)\n[![Screenshot-2025-03-27-at-8-22-24-PM.png](https://i.postimg.cc/xT2hPJbq/Screenshot-2025-03-27-at-8-22-24-PM.png)](https://postimg.cc/SjggSKdp)\n\n\n📋📈**Treekipedia**: Is more than a Tree Intelligence Commons. Our efforts to develop an open source, comprehensive database of tree knowledge to drive interoperability and programmability in web3\n\nTreekipedia is in closed Alpha and has combined existing and fragmented datasets into one comprehensive taxonomy and list of tree species to serve as the foundation of an extensive ontology. This ontology and tree knowledge graph will connect tree species with key characteristics, images, stewardship best practices, relevant modeling methods, geographic occurrences, bioregional aptitude, and more and allow multiple web3 projects to collaborate around the topic or ecology and trees\n[![Screenshot-2025-03-27-at-8-34-15-PM.png](https://i.postimg.cc/PJGjkdrx/Screenshot-2025-03-27-at-8-34-15-PM.png)](https://postimg.cc/k6yZQ3S3)\n[![Screenshot-2024-08-05-at-7-59-15-PM.png](https://i.postimg.cc/FsSxYqLw/Screenshot-2024-08-05-at-7-59-15-PM.png)](https://postimg.cc/qzkKY1QG)\nSo far, we have:\n* Hired a post-doctorate ecologist\n* Developed a prototype [taxonomic schema](https://docs.google.com/document/d/1gyox46GXNOs_X6UmbcVrjOTh8q4BbcSaTycJPWeKknY/edit?usp=sharing)\n* Compiled a list of source 10+ species databases including GBIF, iNaturalist, BGCI, etc.\n* Created a data retrieval and filtering strategy using R Studio\n* Finish compiling and filtering species and occurrence data\n* Finalize and release the open source schema & ontology \n* Build useful features such as tree values based on OneEarth ecoregions\n* AI Deep Research Agent\n\nNext steps:\n\n* Smart contracts for Contreebution NFTs\n* Treederboard for contribution rankings\n* Develop UI and open source contributor process (similar to Wikipedia)\n\nThere are still key questions we’re working through, and it’s important to note that Treekipedia will be ever evolving. If you want to be a part of the process reach out to @metafarmer on Telegram\n\n\n📒🧮 **Batch Accounting**: Silvi's robust batch accounting system efficiently manages groupings of TreeForwards via various verification classes ensuring that each tree within a batch receives its requisite funding and care. This feature enhances scalability, ensuring large-scale reforestation initiatives with area based accounting are as meticulously managed as individual trees.\n \n🗺️ 🧺**Portfolio Management**: Embodying the democratization of reforestation, we believe that global efforts should be cohesively managed and brokered and we're growing a portfolio of impact across various forest and projects worldwide. Our goal is to operate this portfolio via a DAO structure after we launch a token\n\n**Tokenomics:**\nOur long term plans involve launching a native governance token issued through tree commitments. Governance tokens will spawn utility NFT pairs that contain all the data and contracts for each tree.\n\n**Pilots:**\nTo date, Silvi has already deployed several pilots with the most recent being OperationWebTree involving 18 implementation partners. [Check out our reel by RefiMiami/GreenpillMiami](https://x.com/ReFiMiami/status/1759296369242599596?s=20)\n\n\nWith the help of Gitcoin funding, Silvi has established operations in dozens of countries, onboarded 500+ users and registered thousands of MRV logs. We couldn't thank you enough for your support\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "SilviProtocol",
+      "projectTwitter": "SilviProtocol"
+    }
+  }
+}

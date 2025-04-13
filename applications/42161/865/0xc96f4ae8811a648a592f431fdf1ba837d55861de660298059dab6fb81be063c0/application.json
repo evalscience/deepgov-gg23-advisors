@@ -1,0 +1,402 @@
+{
+  "id": "64",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xc96f4ae8811a648a592f431fdf1ba837d55861de660298059dab6fb81be063c0",
+  "metadata": {
+    "signature": "0xfadfc13774b9ebedae795280d2bd6b2dc7ad04375b5099d4970599afa99d261967d17e29a2b938421649bcb25654bb21f84885ce58b3e2c168294c54cc40a2ff1c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "chomtana001@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "chomtana",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/dwebhost/dweb-alpha",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project contributes to the ENS infrastructure by offering free IPFS pinning for all ENS domains, with the mission of ensuring that every website hosted on ENS remains permanently available.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project make ENS an ideal place to host a website forever without having to worry about any billing.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Many websites hosted on IPFS have been lost to eternity. They are typically hosted on commercial pinning services like Pinata or Firebase, which will stop pinning the website if you do not pay a monthly subscription.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We will make IPFS pinning more stable and potentially expand number of operator pinning them.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project directly contribute to the adoption of decentralized websites hosted on ENS through IPFS and IPNS.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "No contract deployment",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xc96f4ae8811a648a592f431fdf1ba837d55861de660298059dab6fb81be063c0",
+        "title": "dWeb.host | Free IPFS Pinning for all ENS domains",
+        "logoImg": "bafkreicgp6eqexv2ipxhqornirv35m72jhrxzwcfpjpssvaxjwehfyhqqa",
+        "metaPtr": {
+          "pointer": "bafkreibevdpz7nnp2oetoybutoyds2erkegf5uhebg7xroy6kbbkfx7q4i",
+          "protocol": "undefined"
+        },
+        "website": "https://dweb.host",
+        "bannerImg": "bafkreihhebbkqufqhuzqh74tpqpzpvyc5b5fxdet7frfttf47w6g2oebgy",
+        "createdAt": 1743458544008,
+        "userGithub": "Chomtana",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T22:02:04.528Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7954fee233f6e96456850256110616b2d9b50bc02d6a517d0ef28a59a9cd5ccb6d560e5b07ce48dd435738e017f0ae67b34170c4e354c04f8a3adc2306d1b1d31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T22:02:04.528Z",
+            "expirationDate": "2025-06-29T22:02:04.528Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x8b6c27ec466923fad66Ada94c78AA320eA876969",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#dwebhost#4103490",
+              "nullifiers": [
+                "v0.0.0:z7XI/frjBAM1hxm5uYtUeOMAAwawTnpPASPyt3hLB7Y="
+              ]
+            }
+          }
+        },
+        "description": "Many websites hosted on IPFS have been lost in eternity. Moreover, IPNS websites are even more prone to loss because they are mapped to a key on an IPFS node that is easily lost. Notably, even https://nick.eth.limo, which is hosted on IPNS, is inaccessible at the time of writing.\n\nWe solve this by providing a free IPFS pinning service for all ENS domains, regardless of the primary pinning service (e.g., Pinata, Firebase) they use.\n\nWe have now pinned over 12,000 websites, contributing more than 65 GB of storage.\n\nView live IPFS pinning statistics at https://alpha.dweb.host/stats",
+        "lastUpdated": 0,
+        "projectGithub": "dwebhost"
+      },
+      "recipient": "0x8b6c27ec466923fad66Ada94c78AA320eA876969"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "dWeb.host | Free IPFS Pinning for all ENS domains",
+      "logoImg": "bafkreicgp6eqexv2ipxhqornirv35m72jhrxzwcfpjpssvaxjwehfyhqqa",
+      "website": "https://dweb.host",
+      "bannerImg": "bafkreihhebbkqufqhuzqh74tpqpzpvyc5b5fxdet7frfttf47w6g2oebgy",
+      "createdAt": 1743458544008,
+      "userGithub": "Chomtana",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T22:02:04.528Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x7954fee233f6e96456850256110616b2d9b50bc02d6a517d0ef28a59a9cd5ccb6d560e5b07ce48dd435738e017f0ae67b34170c4e354c04f8a3adc2306d1b1d31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T22:02:04.528Z",
+          "expirationDate": "2025-06-29T22:02:04.528Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x8b6c27ec466923fad66Ada94c78AA320eA876969",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#dwebhost#4103490",
+            "nullifiers": [
+              "v0.0.0:z7XI/frjBAM1hxm5uYtUeOMAAwawTnpPASPyt3hLB7Y="
+            ]
+          }
+        }
+      },
+      "description": "Many websites hosted on IPFS have been lost in eternity. Moreover, IPNS websites are even more prone to loss because they are mapped to a key on an IPFS node that is easily lost. Notably, even https://nick.eth.limo, which is hosted on IPNS, is inaccessible at the time of writing.\n\nWe solve this by providing a free IPFS pinning service for all ENS domains, regardless of the primary pinning service (e.g., Pinata, Firebase) they use.\n\nWe have now pinned over 12,000 websites, contributing more than 65 GB of storage.\n\nView live IPFS pinning statistics at https://alpha.dweb.host/stats",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "dwebhost"
+    }
+  }
+}

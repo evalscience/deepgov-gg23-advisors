@@ -1,0 +1,238 @@
+{
+  "id": "3",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xe81bec1db1a71473aaa482d44f142bdfc6717e36db537372040c8db414e90e78",
+  "metadata": {
+    "signature": "0x48137227e36b2db1950cc9a5375dfe00a2d4a25086609a541c0ecce7007d3ba50d6e2c4aa77eec521b6e5a05a3418bcc2192d847826531585a9026491fab204b1c",
+    "application": {
+      "round": "0xe5b88c67fcd25f0a7bad6cf7c5a5197e61bfd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "peter@variance.space",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@code_z2",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/vaariance/variance-dart",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://explorer.gitcoin.co/#/projects/0xe81bec1db1a71473aaa482d44f142bdfc6717e36db537372040c8db414e90e78",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Variance is an open-source account abstraction toolkit written in Dart that specifically targets the integration of Flutter-based mobile development with the Web3 ecosystem. It provides developers with a streamlined, modular API to create secure, mobile-native decentralized applications.\n\nBy abstracting the complex details of blockchain interactions, transaction signing, and smart-contract wallet integrations (as defined in EIP-4337), we address the inefficiency of building decentralized apps that are both secure and user-friendly on mobile devices. This toolkit eliminates much of the manual overhead and potential for error in key management and account abstraction, making it easier for developers to bring robust Web3 experiences to a mobile audience.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We reduce development barriers by providing a ready-to-use, modular account abstraction toolkit written in Dart that streamlines the creation of mobile-native Web3 applications. For example:\n\n- **Simplified Integration**: By abstracting complex blockchain interactions—such as managing smart-contract wallets via EIP-4337 and supporting multiple signature schemes (e.g., secp256k1, and passkeys)—it allows Flutter developers to quickly integrate decentralized features without building these systems from scratch.\n- **Improved Efficiency**: Our modular architecture lets developers plug in or swap components as needed. This means that instead of spending time handling intricate key management and wallet operations, developers can focus on core app functionality. The project’s design is aimed at reducing development time, accelerating time-to-market for mobile Dapps.\n- **Enhanced Security**: This toolkit promotes secure development by integrating [safe](https://safe.global) account protocols and supporting passkey based signatures. This layered approach helps induce UX improvements for integrating apps.\n- **Developer Experience**: Supporting *any* bundler, paymaster, rpc; we allow for developers to configure their apps the way they want.\n\nWe are already serving production applications and playing a key role in driving consumer crypto adoption. Notably, we are integrated in:\n\n- [Voltage](https://voltage.finance): The crypto-powered SuperApp built on [Fuse](https://fuse.io).\n- [Learnway](https://learnway.xyz): A gamified crypto education platform on [Lisk](https://lisk.com).\nThese integrations serve as concrete metrics that demonstrate our impact in the mobile Web3 ecosystem",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "- GitHub Engagement: The open-source repository for variance-dart on [GitHub](https://github.com/vaariance/variance-dart​) shows a fair community backing with 11 stars and 5 forks. \n  - Notably, A significant fork of [variance sdk](https://pub.dev/packages/variance_dart) showed a [spinoff sdk](https://pub.dev/packages/account_abstraction_alchemy) developed specifically for the [Alchemy](alchemy.com) ecosystem. \n\n- Adoption Rates: The Dart package(s) has been downloaded over 5,000 times cumulatively from [pub.dev](https://pub.dev/publishers/variance.space/packages).\n\n- Production apps: It isn’t just a proof-of-concept. It’s already serving production applications.",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project Roadmap is available on [our website](https://variance.space). They are detailed as follows:\n\n- Modular Accounts (EIP7579): \n  - Enable Safe 7579 Accounts\n  - Define a Standard module interface to enable developers contribute to the Modules.\n  - Add initial Core rhinestone modules.\n\n- EIP7702 support:\n  - Maintain compatibility with EIP-4337 \n  - Enable Safe 7702 Accounts\n\n- Adaptable implementation of EIP-5792\n\nThe grant funding will support the maintainers in continuously updating the toolkit and adding new features.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xe81bec1db1a71473aaa482d44f142bdfc6717e36db537372040c8db414e90e78",
+        "title": "variance",
+        "logoImg": "bafkreidg7bonkapsj7r3vtzezemimis6kkyvyzyo6gazhojj4v5ain6qsq",
+        "metaPtr": {
+          "pointer": "bafkreiee337dl63jrfoef64p2nbcv6d2xgd2aauqbm3viianqrgdoulgtq",
+          "protocol": "undefined"
+        },
+        "website": "https://variance.space",
+        "bannerImg": "bafkreig5xxekl3qkvhqhnw3t3sq3ap3pwzjxqlsfi55vsi7rlrd4p5ysue",
+        "createdAt": 1699486285252,
+        "userGithub": "code-z2",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..AlKppmRQLJbH0DB9J7UWYyUGmFo66SP72ADVWwa91dNK-nC3MIfDry-nDjU6_5QZfh_GEg2djtA0HeQL53xlAQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-08T16:52:55.698Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-08T16:52:55.697Z",
+            "expirationDate": "2024-07-07T16:52:55.697Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x104EDD9708fFeeCd0b6bAaA37387E155Bce7d060",
+              "hash": "v0.0.0:bzgyCJrljnFzacyF1v5EIaXnHytGIm1Ia3qGSlMpRyM=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#vaariance#53627398"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KlgFzYR4E5dS1gDfkuhIHkMvt5S4mp44KQ17PnbqNl1EjmfKLYOC61b9C6oERg9QkyMAEq8y76mfkOwJSvw1DA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-08T16:51:30.760Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-08T16:51:30.760Z",
+            "expirationDate": "2024-07-07T16:51:30.760Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x104EDD9708fFeeCd0b6bAaA37387E155Bce7d060",
+              "hash": "v0.0.0:7JmmKPod7D5vhoX/FsDPNLtMNHswt2IYZXQxuMSymOU=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#vaariance"
+            }
+          }
+        },
+        "description": "Variance is an open-source developer toolkit designed to bridge the gap between **Flutter** developers and the Web3 ecosystem. Written entirely in **Dart**, it empowers developers to create mobile-native Web3 applications with ease.\n\n ### Overview\nVariance streamlines the integration of account abstraction into decentralized apps by leveraging cutting-edge standards such as [EIP-4337](https://www.erc4337.io/), [EIP-7579](https://erc7579.com/), and [EIP-7702](https://eip7702.io/). Its core mission is to simplify the creation and management of smart accounts, ensuring they remain robust, adaptable, and secure in the rapidly changing crypto-system.\n\n - Mobile-First: Designed specifically for Flutter, it provides native support for building high-performance Web3 applications.\n\n- Account Abstraction: Simplifies integration of modern account abstraction techniques, allowing developers to build with **Account Standards** that adapt to evolving consumer use-cases including:\n  1. Safe Accounts: [Learn More](https://docs.safe.global/advanced/erc-4337/overview)\n  2. Passkey Accounts: [Learn More](https://docs.safe.global/advanced/passkeys/overview)\n  3. Rhinestone Modular Accounts: [Learn More](https://docs.safe.global/advanced/erc-7579/overview)\n  4. Alchemy Light Accounts: [Learn More](https://www.alchemy.com/dapps/light-account)\n\n- Open-Source Commitment: Fully transparent and community-driven, it is built to serve production applications and fuel consumer crypto adoption.\n\n### Ecosystem Integration\nAlready integrated into real-world consumer apps:\n\n- Voltage: Integrated with Voltage, the crypto-powered SuperApp on [Fuse](https://fuse.io). Visit [Voltage Finance](https://voltage.finance) for more details.\n\n- Learnway: Employed in Learnway, a gamified crypto education platform on [Lisk](https://lisk.com), demonstrating Variance’s ability to enhance user engagement and education in the crypto space. Discover [Learnway](https://learnway.xyz) on Google Play/IOS App Store.\n\nVariance stands as the **premier** open-source account abstraction framework for Flutter, paving the way for secure, adaptable, and user-friendly decentralized applications.",
+        "lastUpdated": 0,
+        "projectGithub": "vaariance",
+        "projectTwitter": "vaariance"
+      },
+      "recipient": "0x822C0DbBaA0619c5D7D0d9cD964076Cc4e39be91"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "variance",
+      "logoImg": "bafkreidg7bonkapsj7r3vtzezemimis6kkyvyzyo6gazhojj4v5ain6qsq",
+      "website": "https://variance.space",
+      "bannerImg": "bafkreig5xxekl3qkvhqhnw3t3sq3ap3pwzjxqlsfi55vsi7rlrd4p5ysue",
+      "createdAt": 1699486285252,
+      "userGithub": "code-z2",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..AlKppmRQLJbH0DB9J7UWYyUGmFo66SP72ADVWwa91dNK-nC3MIfDry-nDjU6_5QZfh_GEg2djtA0HeQL53xlAQ",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-08T16:52:55.698Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-08T16:52:55.697Z",
+          "expirationDate": "2024-07-07T16:52:55.697Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x104EDD9708fFeeCd0b6bAaA37387E155Bce7d060",
+            "hash": "v0.0.0:bzgyCJrljnFzacyF1v5EIaXnHytGIm1Ia3qGSlMpRyM=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#vaariance#53627398"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KlgFzYR4E5dS1gDfkuhIHkMvt5S4mp44KQ17PnbqNl1EjmfKLYOC61b9C6oERg9QkyMAEq8y76mfkOwJSvw1DA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-08T16:51:30.760Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-08T16:51:30.760Z",
+          "expirationDate": "2024-07-07T16:51:30.760Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x104EDD9708fFeeCd0b6bAaA37387E155Bce7d060",
+            "hash": "v0.0.0:7JmmKPod7D5vhoX/FsDPNLtMNHswt2IYZXQxuMSymOU=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#vaariance"
+          }
+        }
+      },
+      "description": "Variance is an open-source developer toolkit designed to bridge the gap between **Flutter** developers and the Web3 ecosystem. Written entirely in **Dart**, it empowers developers to create mobile-native Web3 applications with ease.\n\n ### Overview\nVariance streamlines the integration of account abstraction into decentralized apps by leveraging cutting-edge standards such as [EIP-4337](https://www.erc4337.io/), [EIP-7579](https://erc7579.com/), and [EIP-7702](https://eip7702.io/). Its core mission is to simplify the creation and management of smart accounts, ensuring they remain robust, adaptable, and secure in the rapidly changing crypto-system.\n\n - Mobile-First: Designed specifically for Flutter, it provides native support for building high-performance Web3 applications.\n\n- Account Abstraction: Simplifies integration of modern account abstraction techniques, allowing developers to build with **Account Standards** that adapt to evolving consumer use-cases including:\n  1. Safe Accounts: [Learn More](https://docs.safe.global/advanced/erc-4337/overview)\n  2. Passkey Accounts: [Learn More](https://docs.safe.global/advanced/passkeys/overview)\n  3. Rhinestone Modular Accounts: [Learn More](https://docs.safe.global/advanced/erc-7579/overview)\n  4. Alchemy Light Accounts: [Learn More](https://www.alchemy.com/dapps/light-account)\n\n- Open-Source Commitment: Fully transparent and community-driven, it is built to serve production applications and fuel consumer crypto adoption.\n\n### Ecosystem Integration\nAlready integrated into real-world consumer apps:\n\n- Voltage: Integrated with Voltage, the crypto-powered SuperApp on [Fuse](https://fuse.io). Visit [Voltage Finance](https://voltage.finance) for more details.\n\n- Learnway: Employed in Learnway, a gamified crypto education platform on [Lisk](https://lisk.com), demonstrating Variance’s ability to enhance user engagement and education in the crypto space. Discover [Learnway](https://learnway.xyz) on Google Play/IOS App Store.\n\nVariance stands as the **premier** open-source account abstraction framework for Flutter, paving the way for secure, adaptable, and user-friendly decentralized applications.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "vaariance",
+      "projectTwitter": "vaariance"
+    }
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "id": "52",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x89e50232d5b9a17ed8547823bb4c66730b24acb076a5812391cd060fad67eb01",
+  "metadata": {
+    "signature": "0xfee401e6eef68aa73a96066c49fd7f295b46eb7f76102ab1f2dc3b73b0daf3380baf4fa5ec0357331c67712d6efba20d760b54c289bb4b70a64acf29ec63c0f21c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "keith.comito@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "keithcomito",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/lifespanio/proof-of-philanthropy",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes; this project has participated in earlier OSS Web3 Infrastructure rounds: https://gap.karmahq.xyz/project/proof-of-philanthropy-a-verifiable-giving-pledge-for-the-modern-age-1",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Proof of Philanthropy (PoP) provides a user experience layer on top of native blockchain activity to make philanthropic attestations which are simple to understand. For example, if one were to set up an ETH wallet for charitable donations and collect $1mm through it, the average user won’t go into the block explorer to aggregate transactions over this period of time to see total donations marked to the current timestamp. Proof of Philanthropy, however, can easily represent this information via dynamic NFTs and/or render other visualizations that display this data in a sharable format. The same goes for the activity of any single user donating to multiple charities - Proof of Philanthropy will be able to highlight that user’s philanthropic activity in a way that lets users skip trying to run calculations on the block explorer themselves, and this also makes it easy for others to recognize and celebrate the user's philanthropic actions.\n",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "PoP utilizes multiple novel technologies, such as demi-soulbound dynamic NFTs (https://www.keithcomito.com/p/demi-soulbound-nfts-and-proof-of) and Weavechain’s verifiable data flows to track charitable giving both on-chain and off-chain. This means we can combine charitable giving on-chain to wallets with charitable giving made off-chain - via interoperation with services like better.giving - to create a comprehensive philanthropic profile per user. Weavechain utilizes hashed computations and blockchain anchoring to achieve this, and the net result is proper “proof” of the philanthropic activity. As part of the current development sprint (see campaign description) we are leveraging this functionality across multiple networks to increase interoperability and ease of use. \n",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The main challenge Proof of Philanthropy seeks to address is that it is currently not simple for philanthropic actions to be tracked / recognized / celebrated / rewarded.  By leveraging novel blockchain anchoring and dynamic NFT approaches (see campaign text), it becomes possible to create at-a-glance attestations that can be recognized and understood by anyone, be they a regular person, a blockchain native, or even a large brand that knows little about Web3 wishing to honor verified philanthropists.  This functionality can also facilitate interesting additional philanthropic use cases regarding intersections with gaming and other areas (discussed further in the campaign text). ",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "In our current sprint we aim to complete and deploy an upgraded prototype with increased tracking functionality, the addition of more networks for both the NFT minting and philanthropic tracking, and attestation integration w/ additional services such as Better Giving and Endaoment. This is described more fully in the New Updates for GG23: Generalized Prototype, More Networks & Data Sources\" section of the campaign text.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our work doesn’t affect the Ethereum network itself, but it does provide tooling by which decentralized and securely-anonymous philanthropy can be tracked.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "The following is the wallet that owns the Proof of Philanthropy NFT Smart Contract on Polygon: 0x99072461Ab46D864580c937e762473687FC597Cc, 137\n\nThe NFT smart contract on Polygon itself is: 0xdF230dC0d5e4c6bBA9f1570A58bE8120a33dc50F, 137\n",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x89e50232d5b9a17ed8547823bb4c66730b24acb076a5812391cd060fad67eb01",
+        "title": "Proof of Philanthropy: A Verifiable Giving Pledge for the Modern Age (GG23)",
+        "logoImg": "bafkreicm64rs3vvrl5uhhdbperm2rkfvwcsraw2uj3tb62344upqkma6le",
+        "metaPtr": {
+          "pointer": "bafkreigx2cuzxrdmwpobik27cadvautrq6dq7qk5zwqemygp2gxnwvadye",
+          "protocol": "undefined"
+        },
+        "website": "https://pop.lifespan.io/",
+        "bannerImg": "bafkreiezg2ezywvu2hf5lhkx46cyt6msqrem2zuog6kg6fmfq3dh426dwy",
+        "createdAt": 1743378624167,
+        "userGithub": "KeithComito",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T23:40:02.818Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x252085cd5d935929c8e735f79d56dfd5705878375a55f4dab0b6eea4757530d126368f9a72cda5a41f269a6a5ec7546a64445b606b46708652fd92d32f17f7001b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T23:40:02.818Z",
+            "expirationDate": "2025-06-28T23:40:02.818Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#lifespanio#40077692",
+              "nullifiers": [
+                "v0.0.0:9umjz88yQkkvBgAl50hdMrK2zwRQFMOuD8Gh4V8r7KQ="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T23:37:18.303Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2b0d00d6f395609632447e5233c8e9581e77641a3201c151d8e4c77ed2fbdcbb74d3f07c8657c0fbe83576e05843cc166f1247991980cf89736330dc5911cdc41c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T23:37:18.302Z",
+            "expirationDate": "2025-06-28T23:37:18.302Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#POPhilanthropy",
+              "nullifiers": [
+                "v0.0.0:iSh2WkHZN+h2snRh6N0Vj3fhHbg4P408mhEa3JdlHws="
+              ]
+            }
+          }
+        },
+        "description": "# Proof of Philanthropy \n\n![](https://lh3.googleusercontent.com/d/1gMgOg4ti_ne8l20aJ-Ow5_fHXpuvVIBs)\n\n\n*Imagine if the public, huge brands, and other philanthropic validators could instantly see the proof of your philanthropic actions, verified on chain, and celebrate and reward you for your generosity.*\n\n# Project Description:\n\n\nPhilanthropic data is currently fragmented, with no unified system to quickly and easily:\n\n- Showcase philanthropic impact,\n\n- Enable retroactive appreciation for past charitable support,\n\n- Make it easy for anyone to add additional perks to celebrate support of Public Goods.\n\n**Proof of Philanthropy (POP)** solves this by rewarding donors for all retroactive and current giving with a dynamic, [demi soul-bound NFT](https://www.keithcomito.com/p/demi-soulbound-nfts-and-proof-of), which **evolves based on verified philanthropic actions**. This new class of NFT can streamline recognition and the redemption of corporate sponsored perks of increasing value, based on easily verifiable NFT tiers - visible at a glance, and **provable on-chain for those who wish to verify**. This enables transparency, motivates generosity, and strengthens ties between individuals, brands, and causes.\n\n![Proof of Philanthropy Data Sources and Perk Provider Examples](https://www.lifespan.io/wp-content/uploads/2024/03/POP_ExampleFlowchart-scaled.jpg)\n\n- We have created a **working prototype example NFT of this type** that has been [minted](https://opensea.io/collection/proof-of-philanthropy) by over 110 public-goods supporters and **tracking DeSci, Zuzalu, and longevity-related donations**, with further integrations planned **with Gitcoin, Hypercerts, BetterGiving, and Endaoment (see above)**.\n\n[![Proof of Philanthropy Ouroboros Example](https://pop.lifespan.io/static/media/welcome.6c9aecb1.gif)](https://pop.lifespan.io \"Proof of Philanthropy NFT Prototype Minting Service\")\nExample demi-soulbound Proof of Philanthropy NFT \n---\nHaving such an **easy to understand and utilize tool** to unify the public goods regenerative space has **been long-desired by the broader Gitcoin community**. Furthermore, such a system **facilitates donations** to the verified initiatives tracked by the Proof of Philanthropy protocol in a **credibly neutral** manner, the importance of which blockchain technology pioneers such as **Vitalik Buterin** have highlighted:\n\n> “**If there was a strong, effective, and credibly neutral pot - where you just know that if you throw money into the pot public goods projects and people behind them will be compensated in way that is reasonably fair - that’s something that lots of people would be willing to automatically airdrop to.**”\n\n[![](https://lh7-us.googleusercontent.com/rJZZCGuKNBr2GU2-2SohcX-5a1hbFRP9Bng6QZ7QQFP_g0mET4F-AvD8EKQQnLX_eiaspgI4yfBar_sTgUF1LOMFE5Yemsg0oKkgaHaK0AGfZ767Z9rEWWS2qdDILb1-JVMJRIMJUaxnbjY0FB4ySoU)](https://www.youtube.com/watch?v=OH3dPShZwag&t=845s)\n\n---\n# New Updates for GG23: Generalized Prototype, More Networks & Data Sources\n\n\nBuilding on the success of our prototype Proof of Philanthropy NFT we are **now building an upgraded prototype** - along with a site to match from with the amazing support of [Airfoil](https://www.airfoil.studio) - to bring Proof of Philanthropy NFTs to the wider public. This new prototype will be **able to track a much wider pool of philanthropic contributions** though integration with services such as Endaoment, Better Giving, and Gitcoin itself. Additionally, we aim to complete making Proof of Philanthopy NFTs **capable of tracking contributions on additional networks such as Arbitrum** . This should definitely include at least:\n\n- Proof of Philanthropy NFTs additionally **supporting the recognition of ARB token giving on ETH mainnet, and giving on Arbitrum (ETH, ARB, USDC)**\n\n- Proof of Philanthropy **NFTs mintable on the Arbitrum network (in addition to the current minting on the Polygon Network)**.\n\n- Data source **integration with Endaoment, BetterGiving, and deeper integrations with Gitcoin**, leading to total **recognized contributions growing to $1 million+**.\n\n  \n![](https://lh3.googleusercontent.com/d/1Z4BV3fvz0-0hTRQsG0ySrjCmBWGi54h3)\n\n---\n\n# Open Source Technology to Support Public Goods\n  \n\nAs Vitalik notes, it is incredibly important for such initiatives to be conducted in an open and transparent manner, and we are committed to seeing that the modern giving pledge is one founded on digital innovation, platform neutrality, and [open source code](https://github.com/lifespanio/proof-of-philanthropy).\n\n\n- **We are working with Gitcoin, the Hypercerts Foundation, BetterGiving, Endaoment** and other organizations in the **ReFi community** to build on this to **create new public goods [funding models](https://www.youtube.com/watch?v=2LBPQ2lytjo&t=97)**. For example - variations of quadradic funding suited to specific scenarios (such as **Inverse Quadratic Funding**, or IQF), and the **\"Ouroboros\" endowment mechanism** - originally presented at [Zuzalu](https://www.lifespan.io/news/highlights-from-the-longevity-biotech-conference-in-zuzalu/) and described in detail at our [2023 Longevity and DeSci Summit](https://www.lifespan.io/ending-age-related-diseases-2023/):\n  \n\nIf you’d like a **deep dive on how this underlying technology works**, you can watch the below video from Omar ElNagger of Weavechain, who worked with the well-known charity [Lifespan.io](http://lifespan.io/) to build the Proof of Philanthropy prototype on Polygon - based on the [blueprints](https://www.keithcomito.com/p/demi-soulbound-nfts-and-proof-of) of Lifespan’s president and technology [inventor](https://patents.google.com/?inventor=keith+comito&scholar&oq=keith+comito) - Keith Comito:\n\n  \n\n[![](https://lh7-us.googleusercontent.com/cpDcg98ZcPVrXcUpzsdOByArLSknK1byaUGNVYybpxzfP0w7PjEgOvcQvirMwwhNFgESw5DTjY7CEYM_fln_ylNMPncfB2kBbTO6YSm4aeWnXtqukpi1UiNDuRIngCfQmSw9YVUAp3tLQFAxB5pfu9M)](https://www.youtube.com/watch?v=cX7QSRU6omc)\n  \n---\n\n# The Goals of Proof of Philanthropy:\n\n- Create a unified system for tracking charitable giving and support of public goods-focused ecosystems: enabling philanthropic attribution, accountability, and innovative campaign mechanisms\n\n- Align incentives to reward donors: on-board blockchain and corporate perk providers\n\n- Expand from on-chain donation tracking: track and reward all on and off-chain philanthropic activity\n\n- Create positive-sum interactions with other public goods attestation mechanisms like Hypercerts\n\n\n[**We Already Have A Demo You Can Test!**](https://pop.lifespan.io/)\n\n**By simply donating to this Gitcoin campaign** you can see Proof of Philanthropy in action! After donating (or before!), [Mint your NFT](https://pop.lifespan.io/), and with as little as $10, **you can see it power up** and [evolve](https://opensea.io/collection/proof-of-philanthropy) based on artwork by Gitcoin community member Colton Orr. All donations to this campaign support the work of the Proof of Philanthropy Foundation and alternatively donations which support the US 501c3 nonprofit, [Lifespan.io](http://lifespan.io/), as described on the minting website [here](https://pop.lifespan.io/), will also power up this limited prototype PoP NFT as well.\n\nThis is **just the beginning** of what we can do with Proof of Philanthropy; with the key steps on our current **roadmap** being:\n\n  \n\n![](https://lh7-us.googleusercontent.com/6z-c8S_0NxWAhNC6N8CCWRuGJxzwul5t_qf9qCo1QbwpzGzs49UIzNGPBWHWDADAGOw8emzuNUjSgaXe4yEYF_2GLMOoy364VQZtTPq4vTYgini_RmCcu0FccAIbf9qZaIOjQb6xjulAp6h8Nu1RACo)  \n\nSuccess in executing this roadmap will also create several **additional opportunities for exciting new technologies and use cases**, and if you’d like to understand this more deeply, you can watch the below video by Keith Comito: president of the charity [Lifespan.io](http://lifespan.io/), and creator of the original Proof of Philanthropy concept / roadmap!\n\n[![](https://lh7-us.googleusercontent.com/malupxcSR8jnr4UsZwYtYnPH_zUglKxKLvRM0OVFH-NguFoYyvDxwq3mD2SCHdnWXgC7_X1-pp7ML_0dHKZmAS4_StpyAImZY43vMfBnCRUGUdFSOj6gkQC2dZylcCsxB-W1VQRpbJdFjwOOEdtljJU)](https://www.youtube.com/watch?v=4br11JRX8-k)\n\n \nWhich includes discussion of future **plans to integrate Proof of Philanthropy technology into a forthcoming Longevity / DeSci game based on the \"Fable of the Dragon Tyrant\" that will raise money for life extension research**. This will be built **on the Arbitrum Network** together with Skillcap Studio - makers of [The Beacon](https://thebeacon.gg).\n\n\n![](https://lh3.googleusercontent.com/d/1yJyCUjeFffsz4OTyhDqWK36tkzzPCgkF)\n\n---\n# The Team:\n\n\nTo drive this important project forward **we have formed a charitable organization**, **Proof of Philanthropy Foundation**, a Canadian T3010 (501c3 equivalent).\n\nOur team brings together an incredible group of Web3 / Regen / Public Goods change-makers and is actively expanding our Board to encompass all Web3 charitable platforms.\n  \n*The Proof of Philanthropy Foundation seeks to shape values on a societal level where generosity and collective impact become ingrained in our culture. Please [help us](https://docs.google.com/document/d/1Rwa8og7BrneQiEjYuZVovzDHoqezwZIY59yQIqSU48g/edit) in making this a reality!* \n\n![](https://lh7-us.googleusercontent.com/aGeMN6aaxAaHMNZrnsCgJPJKxTOktsimcRd7hbl2DIGjB9hUocdi8Ynp1NHt_EcAAp2COGEQNFZTf8MEpHdKhT5d4ntXi3o7_nNlgtW22Ceh909Z4YjKfZdDFtn7lUjQ8ctdM1D8iEqOwWkVIGy98WE) \n\n**Thank You!**\n\n![](https://lh7-us.googleusercontent.com/vatrYaqEOmaZ9L39MoDV6DgCs3cTcNx1ko5gU5uGa0Vt735yRym5Vlhv00wxlLdWzPp_C4VRb8MB4X71dShbi6OUNmYd3t_9D7n0B-r2eNSMAB5DsiIb4vWry1cZZomZ2tc4Rly3HcDRfDDuHTVJxuY)",
+        "lastUpdated": 0,
+        "projectGithub": "lifespanio",
+        "projectTwitter": "POPhilanthropy"
+      },
+      "recipient": "0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Proof of Philanthropy: A Verifiable Giving Pledge for the Modern Age (GG23)",
+      "logoImg": "bafkreicm64rs3vvrl5uhhdbperm2rkfvwcsraw2uj3tb62344upqkma6le",
+      "website": "https://pop.lifespan.io/",
+      "bannerImg": "bafkreiezg2ezywvu2hf5lhkx46cyt6msqrem2zuog6kg6fmfq3dh426dwy",
+      "createdAt": 1743378624167,
+      "userGithub": "KeithComito",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T23:40:02.818Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x252085cd5d935929c8e735f79d56dfd5705878375a55f4dab0b6eea4757530d126368f9a72cda5a41f269a6a5ec7546a64445b606b46708652fd92d32f17f7001b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T23:40:02.818Z",
+          "expirationDate": "2025-06-28T23:40:02.818Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#lifespanio#40077692",
+            "nullifiers": [
+              "v0.0.0:9umjz88yQkkvBgAl50hdMrK2zwRQFMOuD8Gh4V8r7KQ="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T23:37:18.303Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2b0d00d6f395609632447e5233c8e9581e77641a3201c151d8e4c77ed2fbdcbb74d3f07c8657c0fbe83576e05843cc166f1247991980cf89736330dc5911cdc41c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T23:37:18.302Z",
+          "expirationDate": "2025-06-28T23:37:18.302Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#POPhilanthropy",
+            "nullifiers": [
+              "v0.0.0:iSh2WkHZN+h2snRh6N0Vj3fhHbg4P408mhEa3JdlHws="
+            ]
+          }
+        }
+      },
+      "description": "# Proof of Philanthropy \n\n![](https://lh3.googleusercontent.com/d/1gMgOg4ti_ne8l20aJ-Ow5_fHXpuvVIBs)\n\n\n*Imagine if the public, huge brands, and other philanthropic validators could instantly see the proof of your philanthropic actions, verified on chain, and celebrate and reward you for your generosity.*\n\n# Project Description:\n\n\nPhilanthropic data is currently fragmented, with no unified system to quickly and easily:\n\n- Showcase philanthropic impact,\n\n- Enable retroactive appreciation for past charitable support,\n\n- Make it easy for anyone to add additional perks to celebrate support of Public Goods.\n\n**Proof of Philanthropy (POP)** solves this by rewarding donors for all retroactive and current giving with a dynamic, [demi soul-bound NFT](https://www.keithcomito.com/p/demi-soulbound-nfts-and-proof-of), which **evolves based on verified philanthropic actions**. This new class of NFT can streamline recognition and the redemption of corporate sponsored perks of increasing value, based on easily verifiable NFT tiers - visible at a glance, and **provable on-chain for those who wish to verify**. This enables transparency, motivates generosity, and strengthens ties between individuals, brands, and causes.\n\n![Proof of Philanthropy Data Sources and Perk Provider Examples](https://www.lifespan.io/wp-content/uploads/2024/03/POP_ExampleFlowchart-scaled.jpg)\n\n- We have created a **working prototype example NFT of this type** that has been [minted](https://opensea.io/collection/proof-of-philanthropy) by over 110 public-goods supporters and **tracking DeSci, Zuzalu, and longevity-related donations**, with further integrations planned **with Gitcoin, Hypercerts, BetterGiving, and Endaoment (see above)**.\n\n[![Proof of Philanthropy Ouroboros Example](https://pop.lifespan.io/static/media/welcome.6c9aecb1.gif)](https://pop.lifespan.io \"Proof of Philanthropy NFT Prototype Minting Service\")\nExample demi-soulbound Proof of Philanthropy NFT \n---\nHaving such an **easy to understand and utilize tool** to unify the public goods regenerative space has **been long-desired by the broader Gitcoin community**. Furthermore, such a system **facilitates donations** to the verified initiatives tracked by the Proof of Philanthropy protocol in a **credibly neutral** manner, the importance of which blockchain technology pioneers such as **Vitalik Buterin** have highlighted:\n\n> “**If there was a strong, effective, and credibly neutral pot - where you just know that if you throw money into the pot public goods projects and people behind them will be compensated in way that is reasonably fair - that’s something that lots of people would be willing to automatically airdrop to.**”\n\n[![](https://lh7-us.googleusercontent.com/rJZZCGuKNBr2GU2-2SohcX-5a1hbFRP9Bng6QZ7QQFP_g0mET4F-AvD8EKQQnLX_eiaspgI4yfBar_sTgUF1LOMFE5Yemsg0oKkgaHaK0AGfZ767Z9rEWWS2qdDILb1-JVMJRIMJUaxnbjY0FB4ySoU)](https://www.youtube.com/watch?v=OH3dPShZwag&t=845s)\n\n---\n# New Updates for GG23: Generalized Prototype, More Networks & Data Sources\n\n\nBuilding on the success of our prototype Proof of Philanthropy NFT we are **now building an upgraded prototype** - along with a site to match from with the amazing support of [Airfoil](https://www.airfoil.studio) - to bring Proof of Philanthropy NFTs to the wider public. This new prototype will be **able to track a much wider pool of philanthropic contributions** though integration with services such as Endaoment, Better Giving, and Gitcoin itself. Additionally, we aim to complete making Proof of Philanthopy NFTs **capable of tracking contributions on additional networks such as Arbitrum** . This should definitely include at least:\n\n- Proof of Philanthropy NFTs additionally **supporting the recognition of ARB token giving on ETH mainnet, and giving on Arbitrum (ETH, ARB, USDC)**\n\n- Proof of Philanthropy **NFTs mintable on the Arbitrum network (in addition to the current minting on the Polygon Network)**.\n\n- Data source **integration with Endaoment, BetterGiving, and deeper integrations with Gitcoin**, leading to total **recognized contributions growing to $1 million+**.\n\n  \n![](https://lh3.googleusercontent.com/d/1Z4BV3fvz0-0hTRQsG0ySrjCmBWGi54h3)\n\n---\n\n# Open Source Technology to Support Public Goods\n  \n\nAs Vitalik notes, it is incredibly important for such initiatives to be conducted in an open and transparent manner, and we are committed to seeing that the modern giving pledge is one founded on digital innovation, platform neutrality, and [open source code](https://github.com/lifespanio/proof-of-philanthropy).\n\n\n- **We are working with Gitcoin, the Hypercerts Foundation, BetterGiving, Endaoment** and other organizations in the **ReFi community** to build on this to **create new public goods [funding models](https://www.youtube.com/watch?v=2LBPQ2lytjo&t=97)**. For example - variations of quadradic funding suited to specific scenarios (such as **Inverse Quadratic Funding**, or IQF), and the **\"Ouroboros\" endowment mechanism** - originally presented at [Zuzalu](https://www.lifespan.io/news/highlights-from-the-longevity-biotech-conference-in-zuzalu/) and described in detail at our [2023 Longevity and DeSci Summit](https://www.lifespan.io/ending-age-related-diseases-2023/):\n  \n\nIf you’d like a **deep dive on how this underlying technology works**, you can watch the below video from Omar ElNagger of Weavechain, who worked with the well-known charity [Lifespan.io](http://lifespan.io/) to build the Proof of Philanthropy prototype on Polygon - based on the [blueprints](https://www.keithcomito.com/p/demi-soulbound-nfts-and-proof-of) of Lifespan’s president and technology [inventor](https://patents.google.com/?inventor=keith+comito&scholar&oq=keith+comito) - Keith Comito:\n\n  \n\n[![](https://lh7-us.googleusercontent.com/cpDcg98ZcPVrXcUpzsdOByArLSknK1byaUGNVYybpxzfP0w7PjEgOvcQvirMwwhNFgESw5DTjY7CEYM_fln_ylNMPncfB2kBbTO6YSm4aeWnXtqukpi1UiNDuRIngCfQmSw9YVUAp3tLQFAxB5pfu9M)](https://www.youtube.com/watch?v=cX7QSRU6omc)\n  \n---\n\n# The Goals of Proof of Philanthropy:\n\n- Create a unified system for tracking charitable giving and support of public goods-focused ecosystems: enabling philanthropic attribution, accountability, and innovative campaign mechanisms\n\n- Align incentives to reward donors: on-board blockchain and corporate perk providers\n\n- Expand from on-chain donation tracking: track and reward all on and off-chain philanthropic activity\n\n- Create positive-sum interactions with other public goods attestation mechanisms like Hypercerts\n\n\n[**We Already Have A Demo You Can Test!**](https://pop.lifespan.io/)\n\n**By simply donating to this Gitcoin campaign** you can see Proof of Philanthropy in action! After donating (or before!), [Mint your NFT](https://pop.lifespan.io/), and with as little as $10, **you can see it power up** and [evolve](https://opensea.io/collection/proof-of-philanthropy) based on artwork by Gitcoin community member Colton Orr. All donations to this campaign support the work of the Proof of Philanthropy Foundation and alternatively donations which support the US 501c3 nonprofit, [Lifespan.io](http://lifespan.io/), as described on the minting website [here](https://pop.lifespan.io/), will also power up this limited prototype PoP NFT as well.\n\nThis is **just the beginning** of what we can do with Proof of Philanthropy; with the key steps on our current **roadmap** being:\n\n  \n\n![](https://lh7-us.googleusercontent.com/6z-c8S_0NxWAhNC6N8CCWRuGJxzwul5t_qf9qCo1QbwpzGzs49UIzNGPBWHWDADAGOw8emzuNUjSgaXe4yEYF_2GLMOoy364VQZtTPq4vTYgini_RmCcu0FccAIbf9qZaIOjQb6xjulAp6h8Nu1RACo)  \n\nSuccess in executing this roadmap will also create several **additional opportunities for exciting new technologies and use cases**, and if you’d like to understand this more deeply, you can watch the below video by Keith Comito: president of the charity [Lifespan.io](http://lifespan.io/), and creator of the original Proof of Philanthropy concept / roadmap!\n\n[![](https://lh7-us.googleusercontent.com/malupxcSR8jnr4UsZwYtYnPH_zUglKxKLvRM0OVFH-NguFoYyvDxwq3mD2SCHdnWXgC7_X1-pp7ML_0dHKZmAS4_StpyAImZY43vMfBnCRUGUdFSOj6gkQC2dZylcCsxB-W1VQRpbJdFjwOOEdtljJU)](https://www.youtube.com/watch?v=4br11JRX8-k)\n\n \nWhich includes discussion of future **plans to integrate Proof of Philanthropy technology into a forthcoming Longevity / DeSci game based on the \"Fable of the Dragon Tyrant\" that will raise money for life extension research**. This will be built **on the Arbitrum Network** together with Skillcap Studio - makers of [The Beacon](https://thebeacon.gg).\n\n\n![](https://lh3.googleusercontent.com/d/1yJyCUjeFffsz4OTyhDqWK36tkzzPCgkF)\n\n---\n# The Team:\n\n\nTo drive this important project forward **we have formed a charitable organization**, **Proof of Philanthropy Foundation**, a Canadian T3010 (501c3 equivalent).\n\nOur team brings together an incredible group of Web3 / Regen / Public Goods change-makers and is actively expanding our Board to encompass all Web3 charitable platforms.\n  \n*The Proof of Philanthropy Foundation seeks to shape values on a societal level where generosity and collective impact become ingrained in our culture. Please [help us](https://docs.google.com/document/d/1Rwa8og7BrneQiEjYuZVovzDHoqezwZIY59yQIqSU48g/edit) in making this a reality!* \n\n![](https://lh7-us.googleusercontent.com/aGeMN6aaxAaHMNZrnsCgJPJKxTOktsimcRd7hbl2DIGjB9hUocdi8Ynp1NHt_EcAAp2COGEQNFZTf8MEpHdKhT5d4ntXi3o7_nNlgtW22Ceh909Z4YjKfZdDFtn7lUjQ8ctdM1D8iEqOwWkVIGy98WE) \n\n**Thank You!**\n\n![](https://lh7-us.googleusercontent.com/vatrYaqEOmaZ9L39MoDV6DgCs3cTcNx1ko5gU5uGa0Vt735yRym5Vlhv00wxlLdWzPp_C4VRb8MB4X71dShbi6OUNmYd3t_9D7n0B-r2eNSMAB5DsiIb4vWry1cZZomZ2tc4Rly3HcDRfDDuHTVJxuY)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "lifespanio",
+      "projectTwitter": "POPhilanthropy"
+    }
+  }
+}

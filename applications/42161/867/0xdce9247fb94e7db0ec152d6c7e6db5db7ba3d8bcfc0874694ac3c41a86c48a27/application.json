@@ -1,0 +1,449 @@
+{
+  "id": "88",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xdce9247fb94e7db0ec152d6c7e6db5db7ba3d8bcfc0874694ac3c41a86c48a27",
+  "metadata": {
+    "signature": "0x4f6229b240cf70753585e12fdb5f77209ba1799038b0cf19435102d3d0c7cdf6434cde24cc57f202d0399643230e4c95ee9e43892cde920fc38df461e7ba5aa01c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "publicnouns@proton.me",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@SkyMine",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/PublicNouns",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://app.cg/c/public-nouns/",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, https://explorer.gitcoin.co/#/projects/0xdce9247fb94e7db0ec152d6c7e6db5db7ba3d8bcfc0874694ac3c41a86c48a27",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Fund wild experiments in public goods and everything is FOSS!  Public Nouns is a novel mechanism that can be used for funding public goods or any other desired goal, including impact, ecosystem building, software creation and more!",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our dApp is the main nouns-mechanism style DAO that is 100% funding experiments in public goods. ",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We can iterate on the current mechanism to expand to Layer 2s and we can also promote more derivatives of Public Nouns focused on more niche areas of the public goods space.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x68136bf5db4407dd599960585da9b7746ecf567f, 1",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xdce9247fb94e7db0ec152d6c7e6db5db7ba3d8bcfc0874694ac3c41a86c48a27",
+        "title": "Public Nouns Operations",
+        "logoImg": "bafkreibqbwcap5jw5hkf4xngj7dxzriq5xtnc6osmp4reixexb3cwobcqm",
+        "metaPtr": {
+          "pointer": "bafkreifewhxvokwdu6kjn6tmcuaea57kzlmtfdznq336g6x3mlr2tnvbau",
+          "protocol": "undefined"
+        },
+        "website": "https://publicnouns.wtf",
+        "bannerImg": "bafkreigzikfi7ferwprgl52tjlk2hee5buah3oxel6aeakqvs7ve4qmq3u",
+        "createdAt": 1694818220357,
+        "userGithub": "pNounOps",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T20:50:05.511Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2e774b7795286662fa315a2d0ee3254821118252fa3df792276ece0be9bcbe4905d2f281eab372bf29ccd5efe17ea6b43726c265af2220803a9cccb39b9866861b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T20:50:05.510Z",
+            "expirationDate": "2025-06-25T20:50:05.510Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x56D579a23C2D37D1E42923858Ce33856dF0Ae5dB",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#PublicNouns#205233029",
+              "nullifiers": [
+                "v0.0.0:W+wfyeqqYBo6genvHmIiQdaclXhMObVmlbhTZr27oFc="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..w9kSDmN17I7_IKuIRm9rtOLl3UMdo1tFHlW8HvgFepn6GBhcbhL7UV2u--M9JoGQiWZKHeC-4vpvCnTfvezbDQ",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-02T01:20:28.222Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-02T01:20:28.222Z",
+            "expirationDate": "2024-01-31T01:20:28.222Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x56D579a23C2D37D1E42923858Ce33856dF0Ae5dB",
+              "hash": "v0.0.0:OxTQUTzTCnMerukY6EwGQNVNmaD1GQnz4ZBse0/8oxo=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#PublicNouns"
+            }
+          }
+        },
+        "description": "Public Nouns (https://publicnouns.wtf/) funds experiments in public goods.  \n\nThe Public Nouns DAO community \"lives\" on the edges of the normal distribution bell curve allowing it to fund projects and ideas that might otherwise be passed over by most organizations.  \n\nPublic Nouns DAO uses onchain decentralized governance to coordinate around which ideas to fund.\n\nBorrowing from the Charity:Water model, Public Nouns has a goal to fund any operational expenses separate from the funds that go into the Public Nouns DAO treasury.  \n\nBy supporting Public Nouns Operations (\"pnOps\"), you help allow 100% of funds that go into the Public Nouns DAO treasury via sales of Public Nouns to be used to funds experiments in Public Goods.\n\nPublic Nouns launched at the end of September 2022, and has raised over 200 ETH in its sales of Public Nouns.  \n\n**Docs:** https://docs.publicnouns.wtf/\n\n**Manifesto:** https://docs.publicnouns.wtf/manifesto\n\n**Funding Operations:** The Public Nouns Operations will be funded out of 'pnOps' multisig. \n\n**Funding can be used for things like:**\n- Kickstarting some early experimentation\n- Bots set-up and operation\n- Spreading awareness through promotion, events, marketing and more\n- Retroactive rewards to contributors\n- Governance gas refunds\n- Hosting and ongoing maintenance\n- and more\n\n\n**The founding orgs of Public Nouns (and original 7 heads) are:**\n- MolochDAO (attr: Demon)\n- MetaCartel (attr: Chili)\n- Gitcoin (attr: Bothead)\n- Panvala (attr: Stampee)\n- Radicle (attr: Seedling)\n- CLR.FUND (attr: Bubbles)\n- Optimism (attr: OPossum)",
+        "lastUpdated": 0,
+        "projectGithub": "PublicNouns",
+        "projectTwitter": "PublicNouns"
+      },
+      "recipient": "0xda04c025F4d8Ac555Fdb3497B197D28FCEcf4d41"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Public Nouns Operations",
+      "logoImg": "bafkreibqbwcap5jw5hkf4xngj7dxzriq5xtnc6osmp4reixexb3cwobcqm",
+      "website": "https://publicnouns.wtf",
+      "bannerImg": "bafkreigzikfi7ferwprgl52tjlk2hee5buah3oxel6aeakqvs7ve4qmq3u",
+      "createdAt": 1694818220357,
+      "userGithub": "pNounOps",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T20:50:05.511Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2e774b7795286662fa315a2d0ee3254821118252fa3df792276ece0be9bcbe4905d2f281eab372bf29ccd5efe17ea6b43726c265af2220803a9cccb39b9866861b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T20:50:05.510Z",
+          "expirationDate": "2025-06-25T20:50:05.510Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x56D579a23C2D37D1E42923858Ce33856dF0Ae5dB",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#PublicNouns#205233029",
+            "nullifiers": [
+              "v0.0.0:W+wfyeqqYBo6genvHmIiQdaclXhMObVmlbhTZr27oFc="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..w9kSDmN17I7_IKuIRm9rtOLl3UMdo1tFHlW8HvgFepn6GBhcbhL7UV2u--M9JoGQiWZKHeC-4vpvCnTfvezbDQ",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-02T01:20:28.222Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-02T01:20:28.222Z",
+          "expirationDate": "2024-01-31T01:20:28.222Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x56D579a23C2D37D1E42923858Ce33856dF0Ae5dB",
+            "hash": "v0.0.0:OxTQUTzTCnMerukY6EwGQNVNmaD1GQnz4ZBse0/8oxo=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#PublicNouns"
+          }
+        }
+      },
+      "description": "Public Nouns (https://publicnouns.wtf/) funds experiments in public goods.  \n\nThe Public Nouns DAO community \"lives\" on the edges of the normal distribution bell curve allowing it to fund projects and ideas that might otherwise be passed over by most organizations.  \n\nPublic Nouns DAO uses onchain decentralized governance to coordinate around which ideas to fund.\n\nBorrowing from the Charity:Water model, Public Nouns has a goal to fund any operational expenses separate from the funds that go into the Public Nouns DAO treasury.  \n\nBy supporting Public Nouns Operations (\"pnOps\"), you help allow 100% of funds that go into the Public Nouns DAO treasury via sales of Public Nouns to be used to funds experiments in Public Goods.\n\nPublic Nouns launched at the end of September 2022, and has raised over 200 ETH in its sales of Public Nouns.  \n\n**Docs:** https://docs.publicnouns.wtf/\n\n**Manifesto:** https://docs.publicnouns.wtf/manifesto\n\n**Funding Operations:** The Public Nouns Operations will be funded out of 'pnOps' multisig. \n\n**Funding can be used for things like:**\n- Kickstarting some early experimentation\n- Bots set-up and operation\n- Spreading awareness through promotion, events, marketing and more\n- Retroactive rewards to contributors\n- Governance gas refunds\n- Hosting and ongoing maintenance\n- and more\n\n\n**The founding orgs of Public Nouns (and original 7 heads) are:**\n- MolochDAO (attr: Demon)\n- MetaCartel (attr: Chili)\n- Gitcoin (attr: Bothead)\n- Panvala (attr: Stampee)\n- Radicle (attr: Seedling)\n- CLR.FUND (attr: Bubbles)\n- Optimism (attr: OPossum)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "PublicNouns",
+      "projectTwitter": "PublicNouns"
+    }
+  }
+}

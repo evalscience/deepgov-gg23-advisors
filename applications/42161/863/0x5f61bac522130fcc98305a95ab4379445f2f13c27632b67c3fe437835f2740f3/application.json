@@ -1,0 +1,238 @@
+{
+  "id": "36",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x5f61bac522130fcc98305a95ab4379445f2f13c27632b67c3fe437835f2740f3",
+  "metadata": {
+    "signature": "0xf775d67337714e7bc82d709aad6cbf70885eeb44307e9fe1a89d6e4fc8506b073bcae0c00c16c5466a1ae408107b11aee39255e8519ddd8e7df6d7771c1286c51b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "austin.griffith@ethereum.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://t.me/austingriffith",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/scaffold-eth/scaffold-eth-2",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/joinchat/F7nCRK3kI93PoCOk",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Scaffold-ETH2 participated in Web3 Open Source Software Round, in GG20 and GG22.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Scaffold-ETH 2 is an open-source toolkit for building decentralized applications on any EVM chain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.\n\nIt's a new version of scaffold-eth with its core functionality.\n\n- ⚙️ Built using NextJS, RainbowKit, Hardhat, Foundry, Wagmi, Viem, and Typescript.\n- ✅ Contract Hot Reload: Your frontend auto-adapts to your smart contract as you edit it.\n- 🪝 Custom hooks: Collection of React hooks wrapper around wagmi to simplify interactions with smart contracts with typescript autocompletion.\n- 🧱 Components: Collection of common web3 components to quickly build your frontend.\n- 🔥 Burner Wallet & Local Faucet: Quickly test your application with a burner wallet and local faucet.\n- 🔐 Integration with Wallet Providers: Connect to different wallet providers and interact with the Ethereum network.\n- 🔌 Extensions: Modular add-ons that provide additional functionality or serve as starter-kits for specific features.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Scaffold-ETH2 allows for rapid prototyping and full dApp development easily and quickly.   Here is an example of a quick prototype: (<https://www.youtube.com/watch?v=5vuyKmYQVls>).\n\nIt’s one of the favorite tools of Hackathon builders, and projects built with Scaffold-ETH2 have gotten prizes in some of the biggest Hackathons.\n\n- Example from ETH London 2024: [link](https://ethglobal.com/showcase/dynos-95-9n57a)\n- Example from ETH Brussels 2024: [link](https://ethglobal.com/showcase/oh-snap-4u2kv)\n- Almost 200 projects using Scaffold-ETH 2 in ETH Global hackathons in 2024. [Full list link](https://docs.google.com/spreadsheets/d/1-IQfzQVod8QiFAQiiHEIXhlDWuPmdp04viS2pT0r-04/edit?gid=0#gid=0)\n",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "1600 stars and 992 forks in Github, 1000 npm weekly downloads\n\nOver 2500 repositories using our burner-connector [NPM package](https://github.com/scaffold-eth/burner-connector/network/dependents?dependent_type=REPOSITORY)",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We’re working on these Milestones for Scaffold-ETH 2:\n\n- **Milestone 1**:\n\n  - **Description**: Improve the AI coding flow with Scaffold-ETH 2\n\n    - Add llms-full.txt to docs\n    - Add Cursor project rules to Scaffold-ETH 2 (scaffold-eth.mdc)\n    - Create docs page with instructions to setup and optimize Cursor development with SE-2\n\n- **Milestone 2**:\n  - **Description**: Update to Nextjs 15, Tailwind v4 and DaisyUI 5\n\n- **Milestone 3**:\n  - **Description**: New template system to allow maximum flexibility in the development of extensions.\n\n- **Milestone 4**:\n  - **Description**: Explore the option of removing DaisyUI and mimicking the same functionality we use with Tailwind classes/utilities. We’d get a cleaner codebase and allow easier integrations with other libs (e.g. shadcn)\n\n- **Milestone 5**:\n  - **Description**: Create scaffold-ui project. The idea is to have a monorepo to ship hooks / components as individual libs. Starting with Address.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Each builder generates it’s own deployer accounts with `yarn generate` command, or configuring their deployer accounts in Scaffold ETH-2 Configuration files.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x5f61bac522130fcc98305a95ab4379445f2f13c27632b67c3fe437835f2740f3",
+        "title": "Scaffold-ETH2",
+        "logoImg": "bafkreicjntwsoe4bddl2hcq32btqu23hdsdznmyti6qhrs72askowi4kly",
+        "metaPtr": {
+          "pointer": "bafkreievnzvwcbatuvze2evxoielbjn2kjqe4bs7axspt4vjqehphvpkjy",
+          "protocol": "undefined"
+        },
+        "website": "https://scaffoldeth.io",
+        "bannerImg": "bafkreibe55plimviptfarfyncj26ot5xckcru2sa6fszinv72bm22svt2a",
+        "createdAt": 1713304268573,
+        "userGithub": "ZakGriffith",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..nopmaIhxY7nuYV_eTqI4806zf07fNYFXitpYRFckqookYTMSHtBNlthK4FXbQnBmsPepHRo7qZWAGhBRhWikAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T16:55:21.123Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T16:55:21.123Z",
+            "expirationDate": "2025-01-14T16:55:21.123Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x11E91FB4793047a68dFff29158387229eA313ffE",
+              "hash": "v0.0.0:Cp7L0ld3yQu2D2gY5VKEHAGXJZoc2iH9+/fPhf9OnII=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#scaffold-eth#12072395"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..x-LD7MENIKUlHsjDHOpZRIwXPkiZDZbDHltVK8DaeHnePfDK5Y6c1-6mbkYovv5ymYz-yrWmgJuVR6mftNi9Dw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T17:00:02.881Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T17:00:02.881Z",
+            "expirationDate": "2025-01-14T17:00:02.881Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x11E91FB4793047a68dFff29158387229eA313ffE",
+              "hash": "v0.0.0:utGdhXNqtUp3nBDyuiT4ex2MMLT+BtLhQLEVNT8Rf6w=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#ZakAgain"
+            }
+          }
+        },
+        "description": "Scaffold-Eth2 is an open-source toolkit for building decentralized applications on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.\nIt's a new version of scaffold-eth with its core functionality.\n\n\n⚙️ Built using NextJS, RainbowKit, Hardhat, Foundry, Wagmi, Viem, and Typescript.\n\n\n✅ Contract Hot Reload: Your frontend auto-adapts to your smart contract as you edit it.\n🪝 Custom hooks: Collection of React hooks wrapper around wagmi to simplify interactions with smart contracts with typescript autocompletion.\n🧱 Components: Collection of common web3 components to quickly build your frontend.\n🔥 Burner Wallet & Local Faucet: Quickly test your application with a burner wallet and local faucet.\n🔐 Integration with Wallet Providers: Connect to different wallet providers and interact with the Ethereum network.\n\n\n![se-2](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/efbf71f4-833f-4eb9-b0f6-46874b58ac1b)\n",
+        "lastUpdated": 0,
+        "projectGithub": "scaffold-eth",
+        "projectTwitter": "zakagain"
+      },
+      "recipient": "0x8cD78a945c6D209fe8C7ed8Ee1712F43bec17781"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Scaffold-ETH2",
+      "logoImg": "bafkreicjntwsoe4bddl2hcq32btqu23hdsdznmyti6qhrs72askowi4kly",
+      "website": "https://scaffoldeth.io",
+      "bannerImg": "bafkreibe55plimviptfarfyncj26ot5xckcru2sa6fszinv72bm22svt2a",
+      "createdAt": 1713304268573,
+      "userGithub": "ZakGriffith",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..nopmaIhxY7nuYV_eTqI4806zf07fNYFXitpYRFckqookYTMSHtBNlthK4FXbQnBmsPepHRo7qZWAGhBRhWikAg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T16:55:21.123Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T16:55:21.123Z",
+          "expirationDate": "2025-01-14T16:55:21.123Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x11E91FB4793047a68dFff29158387229eA313ffE",
+            "hash": "v0.0.0:Cp7L0ld3yQu2D2gY5VKEHAGXJZoc2iH9+/fPhf9OnII=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#scaffold-eth#12072395"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..x-LD7MENIKUlHsjDHOpZRIwXPkiZDZbDHltVK8DaeHnePfDK5Y6c1-6mbkYovv5ymYz-yrWmgJuVR6mftNi9Dw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T17:00:02.881Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T17:00:02.881Z",
+          "expirationDate": "2025-01-14T17:00:02.881Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x11E91FB4793047a68dFff29158387229eA313ffE",
+            "hash": "v0.0.0:utGdhXNqtUp3nBDyuiT4ex2MMLT+BtLhQLEVNT8Rf6w=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#ZakAgain"
+          }
+        }
+      },
+      "description": "Scaffold-Eth2 is an open-source toolkit for building decentralized applications on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.\nIt's a new version of scaffold-eth with its core functionality.\n\n\n⚙️ Built using NextJS, RainbowKit, Hardhat, Foundry, Wagmi, Viem, and Typescript.\n\n\n✅ Contract Hot Reload: Your frontend auto-adapts to your smart contract as you edit it.\n🪝 Custom hooks: Collection of React hooks wrapper around wagmi to simplify interactions with smart contracts with typescript autocompletion.\n🧱 Components: Collection of common web3 components to quickly build your frontend.\n🔥 Burner Wallet & Local Faucet: Quickly test your application with a burner wallet and local faucet.\n🔐 Integration with Wallet Providers: Connect to different wallet providers and interact with the Ethereum network.\n\n\n![se-2](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/efbf71f4-833f-4eb9-b0f6-46874b58ac1b)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "scaffold-eth",
+      "projectTwitter": "zakagain"
+    }
+  }
+}

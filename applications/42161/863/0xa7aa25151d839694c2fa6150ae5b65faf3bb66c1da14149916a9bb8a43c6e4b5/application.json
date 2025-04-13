@@ -1,0 +1,390 @@
+{
+  "id": "66",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xa7aa25151d839694c2fa6150ae5b65faf3bb66c1da14149916a9bb8a43c6e4b5",
+  "metadata": {
+    "signature": "0xd9a9881655c1ad2cfe52440a5a63d4280f55ca59b30ac2ffc0286f364ce0a09d5d95f2de16e8f9ca5bc0bb15b3c482d8b384e719eac6103e9dccce48a37afb771c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "telamon@edgecity.live",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "telamonardavanis",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/p2p-lanes/EdgeOS",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/joinedgecity",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/1/registry/0x/projects/0x0f203b4835c6844ba919b5da1c851e6520d9a097612d290a8b00a4f155be50ba",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "EdgeOS addresses a critical inefficiency in the network society and pop-up city space: the fragmentation of coordination tools. Currently, community organizers cobble together disparate solutions for application management, identity verification, ticketing, and payments—creating technical debt and limiting innovation.\nOur open-source coordination stack streamlines these processes through a unified platform with:\n1. A resident portal for applications, pass purchases, and community engagement\n2. A flexible backoffice system (NocoDB) for organizers to manage approvals, discount codes, and communications\n3. A robust API that connects traditional databases with Web3 functionality\nEdgeOS significantly reduces development barriers by providing standardized integration points for Web3 applications. Rather than building custom solutions for each community, developers can build once and deploy across multiple network societies.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "EdgeOS reduces development barriers, improves efficiency, and enhances security for Web3 projects in several concrete ways:\n\nReducing Development Barriers:\n- Provides standardized APIs for identity, payments, and community data\n- Offers pre-built components for crypto payments and verifiable credentials\n- Creates a unified database schema that third-party developers can leverage\n\nImproving Efficiency:\n- Decreases integration time from weeks to hours through standardized connection points\n- Enables one-time development that can reach 10,000+ users across multiple communities\n- Streamlines operational workflows that previously required manual coordination\n\nEnhancing Security:\n- Implements tested identity verification flows such as QuarkID or similar\n- Secures payment processing that has handled $500,000+ in transaction volume\n- Creates privacy-preserving methods as demonstrated by our ZKEmail implementation",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "While EdgeOS is in active development, we have already gained significant traction:\nCurrent Repository and Usage:\n- Our citizen-portal repository (https://github.com/p2p-lanes/citizen-portal) serves as the foundation\n- Currently serving 10,000+ users across multiple communities\n- Processing $500,000+ in payment volume in real-world deployments\n\nDeveloper Collaborations and Testimonials:\n- Collaboration with Cursive detailed in this reflection: http://www.edgecity.live/blog/edge-city-lanna-personal-data-collective-connection-by-cursive\n- Partnership with MetaMask R&D team to create Propel, an experimental app for community event coordination (https://www.youtube.com/watch?v=XnuzodIDDBU)\n- RadicalxChange's ∈dges community currency experiment detailed here: https://www.radicalxchange.org/media/blog/edges-a-plural-money-experiment/\n- ZKEmail privacy-preserving verification demo: https://edge-city-coupons.onrender.com/\n\nThese real-world collaborations demonstrate how EdgeOS provides critical infrastructure for innovative projects to test and deploy their technologies in community settings. Gitcoin support will help us formalize EdgeOS as an open-source project with robust metrics and contribution frameworks for the growing network society ecosystem.",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Please see our 12 month roadmap here: \nhttps://docs.google.com/document/d/1QUj5IZeB_4ag2PzStUMt0JtNeeCD5us5BBNUPxMWqCA/edit?tab=t.0",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "0xeA32D96e4d7a7F3Ed2E3884a764cA5A6fBfF854F, 10       // Optimism\n0xeA32D96e4d7a7F3Ed2E3884a764cA5A6fBfF854F, 274      // LaChain\n0xeA32D96e4d7a7F3Ed2E3884a764cA5A6fBfF854F, 324      // zkSync\n0xeA32D96e4d7a7F3Ed2E3884a764cA5A6fBfF854F, 137      // Polygon\n0x58204cDCC34e5DE3AE490D299Ff5C9170B5191E7, 8453     // Base\n0x0294966c280c4eAb605be8FEBfcC106E70CC5580, 8453     // Base",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xa7aa25151d839694c2fa6150ae5b65faf3bb66c1da14149916a9bb8a43c6e4b5",
+        "title": "EdgeOS",
+        "logoImg": "bafkreibafb7t3yjqtoidm4lwedt3ftn5ghr4y24hzaf7w2tfwaw4xxssji",
+        "metaPtr": {
+          "pointer": "bafkreiczjnm3wquulhakheowirnvhu2juz2edzsn5nhpkl3777xzo5vytu",
+          "protocol": "undefined"
+        },
+        "website": "https://www.edgecity.live/",
+        "bannerImg": "bafkreia6oflwmyuutbr2bciae72ci3hamposmlllatekwd6fgojoubbbfa",
+        "createdAt": 1743319105628,
+        "userGithub": "telamonardavanis",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T01:12:42.813Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x73fdd40cbfb71d661e22a6bbc7f2c8dae2285228fd673d611fc2d0b70ea3583666eb832e0f5ec8ea3737ab4bf2992730c003347ba41872275a5041948cc47a501c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T01:12:42.812Z",
+            "expirationDate": "2025-06-29T01:12:42.812Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x360402a2aEd33DbFb4e988E03E39e86eE90C6783",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#p2p-lanes#63962942",
+              "nullifiers": [
+                "v0.0.0:Z+cQMAn4ZxpEJaex+i6EOEzMkM9EtxLMvhzqlUhWQTo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T00:49:38.220Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x490721bbfdcfa6aa3fdcae5d55ff0b04507f8160c427d652e79d9dea2aa4e56849e3648e990a567ecfce66a35029aaa901534ce68ead4f7ae5df309edba1a1f91b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T00:49:38.220Z",
+            "expirationDate": "2025-06-29T00:49:38.220Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x360402a2aEd33DbFb4e988E03E39e86eE90C6783",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#JoinEdgeCity",
+              "nullifiers": [
+                "v0.0.0:zc0ppx1cdC1jwEi4FWigBlow6Z4VXVbnEGx30Wc47gs="
+              ]
+            }
+          }
+        },
+        "description": "# EdgeOS: The Open Source Stack for Network Societies\n\nThe popup city and network society space is booming, with thousands of people participating in these events in 2025. Organizers face unique challenges that current tools don't adequately address - from handling applications and approvals to integrated ticketing and community coordination.\n\nSimultaneously, developers eager to build or test products in this growing ecosystem lack a unified platform to understand participant data, event scheduling, and community engagement patterns. Without standardized infrastructure, they must create custom integrations for each community. Plus, developers would be able to create new experiences enabled by this two-way data flow.\n\nWe have worked with many great projects such as Propel, ZuPass, Social Layer, Cursive, Space/Time and more, and all have had issues building and integrating for this growing movement. Based on these experiences, Edge City and SimpleFi are seeking funding to collaboratively build EdgeOS, an open-source platform that will significantly reduce development barriers for Web3 communities and network societies.\n\nPlease see our [EdgeOS repo here](https://github.com/p2p-lanes/EdgeOS).\n\n## Current Impact:\n- Serving 10,000+ citizens across multiple communities\n- $500,000+ in payment volume processed (2024)\n- 4,000+ verifiable credentials issued via QuarkID\n- Active deployments in Edge City, Aleph, Ciudad de Crecimiento, and Edge Esmeralda\n\nThese metrics are growing quickly! \n\n## Core Components:\n- **Identity Management**: Self-sovereign identity system with verification\n- **Resident Portal**: Application workflows and approval automation\n- **Payment Infrastructure**: Integrated cryptocurrency and fiat payment rails\n- **Event Coordination**: Complete ticketing solutions for popup villages\n\n## Technical Architecture:\n- PostgreSQL database with NocoDB interface for accessible management\n- Modern API suite enabling custom feature development\n- Extensible frontend portal for resident engagement\n\n## Example Collaborations That Need EdgeOS:\n- [ZKEmail](https://prove.email/): Edge City implemented special discounts for conference speakers using ZKEmail's privacy-preserving technology. The integration required significant custom development that EdgeOS would make available to any community with minimal effort. [Demo available here](https://edge-city-coupons.onrender.com/).\n- [Cursive](https://www.cursive.team/): This cryptography and design lab works with Edge City to iterate on their tools for digital signatures and data authenticity, using cutting-edge cryptography to improve human connection. While we manually integrated their solutions, EdgeOS would provide standardized connection points for seamless implementation. See their [reflection post here]( http://www.edgecity.live/blog/edge-city-lanna-personal-data-collective-connection-by-cursive).\n- [RadicalxChange's ∈dges](https://www.radicalxchange.org/media/blog/edges-a-plural-money-experiment/): This community currency experiment was designed to strengthen collaboration and keep value circulating within communities, demonstrating how local currencies can foster trust and resilient economies. A custom integration for each tool and popup village requires significant effort that EdgeOS would eliminate.\n- [ZuPass](https://x.com/zupassproject): Designed to facilitate secure, privacy-first access, ZuPass is a decentralized identity solution used across Edge City experiments. While a powerful tool, its integration currently requires custom development work for each implementation. EdgeOS would standardize this process, making it accessible to all network societies.\n\n\n## Key Benefits for Developers:\n- Build Network Society Apps: Create specialized applications on top of our API without reinventing core infrastructure\n- Access Ready Communities: Tap into existing network societies as a distribution channel for your applications\n- Unified Integration Points: Connect once to our platform rather than building separate integrations for each community\n- Grow With The Ecosystem: As network societies scale, your applications automatically reach larger audiences\n\nAs frontier technologies evolve, EdgeOS serves as a practical sandbox for implementing decentralized identity, community currencies, new governance models and more. Funding will accelerate the open-source development of expanded documentation, additional Web3 integrations, enhanced privacy features, and a robust community contribution framework.\n\nEdgeOS represents critical infrastructure, enabling the next generation of network state communities to operate efficiently while focusing on their core missions.\n",
+        "lastUpdated": 0,
+        "projectGithub": "p2p-lanes",
+        "projectTwitter": "JoinEdgeCity"
+      },
+      "recipient": "0x2660F4F0154784eB5606E253C854A28048A819cd"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 1,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

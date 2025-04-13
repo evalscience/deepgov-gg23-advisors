@@ -1,0 +1,401 @@
+{
+  "id": "0",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xfb9c6bee53311e7ab8c57cb83859e2fcc28ba679e699a47d2d6c3fa9b8c5cd13",
+  "metadata": {
+    "signature": "0x11b01ddeefb402b6d7e35f6caa0f74c562378337fb97b526bce344cab25d381f61ac6434ce1307303af626e4c9d0bb56377eb248c4aca5c5648d85422d4b6b381c",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "itsarjn@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@itsarjn",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/CommitMafia/block-utils",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "I participated in GG21 and GG22 for my project WalletX.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "BlockUtils significantly enhances Ethereum's infrastructure by providing essential development tools that lower barriers to entry, improve developer efficiency, and promote best practices. Our project addresses critical infrastructure needs in these ways:\n\nDeveloper Onboarding & Education\nBlockUtils serves as a gateway for developers entering the Ethereum ecosystem by providing intuitive tools that visualize and explain core Ethereum concepts. Our BIP39 utility and address derivation tools have helped new developers understand wallet creation and management, a fundamental building block of Ethereum applications.\n\nSmart Contract Interaction & Analysis\nOur token utilities module enables developers to:\n\nInspect ERC-20 and other token contracts\nTest contract functions directly in the browser\nVisualize contract data structures and interactions\nDebug complex contract behaviors without deploying to testnets\nThis significantly reduces the development cycle time and allows for more thorough testing before mainnet deployment.\n\nTransaction Optimization\nThe ETH unit converter simplifies gas calculations and fee estimations, helping developers optimize transaction costs. This contributes to network efficiency by promoting properly configured transactions that don't waste blockchain resources.\n\nSecurity Enhancement\nBy providing tools for:\n\nMnemonic validation and security checking\nContract function verification\nTransaction simulation and preview\nBlockUtils helps prevent costly errors and security vulnerabilities from reaching mainnet, strengthening the overall security posture of applications built on Ethereum.\n\nCross-Chain Compatibility\nWhile centered on Ethereum, our multi-chain capabilities enable developers to build applications that connect Ethereum with other networks, facilitating interoperability and expanding Ethereum's reach across the broader blockchain ecosystem.\n\nImpact Metrics\nAlthough we're in early stages, our tools are showing promising adoption:\n\nOver 30% of our users regularly interact with Ethereum-specific utilities\nThe ETH converter and contract interaction tools are among our most-used features\nInitial user feedback indicates a 40% reduction in development time for simple Ethereum interactions\nWe've helped identify potential contract vulnerabilities before deployment through our simulation tools\nBlockUtils contributes to Ethereum infrastructure by creating a more accessible, efficient, and secure development environment. By abstracting away complex interactions and providing clear visualizations of blockchain concepts, we're expanding the pool of capable Ethereum developers and improving the quality of applications being built on the network.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Privacy Enhancements\nClient-Side Cryptography: BlockUtils performs all sensitive cryptographic operations entirely client-side. Unlike traditional web3 tools that may rely on third-party APIs, your BIP39 utility generates and validates seed phrases locally in the browser, ensuring private keys never leave the user's device.\n\nOptional BIP39 Passphrase: The implementation of BIP39 passphrase support adds an extra security layer that many tools overlook. This feature significantly enhances wallet security by requiring both the mnemonic and passphrase for access.\n\nZero Data Storage: The application operates without server-side storage of any user data, eliminating potential points of compromise for sensitive information.\n\nInteroperability Innovations\nCross-Chain Address Derivation: Your implementation supports derivation of addresses across multiple blockchain networks (Ethereum, Bitcoin, Litecoin, Dogecoin) from a single seed phrase. This unified approach to key management across chains is relatively uncommon in browser-based tools.\n\nUnified Format Conversion: The conversion utilities bridge the gap between different data formats used across blockchain ecosystems, facilitating smoother cross-chain development.\n\nMulti-Network Contract Analysis: The token utilities module works across various EVM-compatible chains, allowing developers to analyze and interact with smart contracts on multiple networks with a consistent interface.\n\nUser Experience Breakthroughs\nCyberpunk Interface Design: The distinctive UI combines functionality with an engaging visual aesthetic that makes complex blockchain operations more approachable.\n\nReal-Time Validation Feedback: The mnemonic generator provides immediate feedback on phrase validity, helping users catch errors instantly.\n\nContextual Information: The integration of information dialogs throughout the interface educates users about blockchain concepts as they use the tools, merging utility with learning.\n\nIntegrated Workflow: The application consolidates tools that typically require visiting multiple websites or installing separate applications, creating a seamless development experience.\n\nResponsive Design: The fully responsive implementation ensures developers can use these tools effectively across desktop and mobile environments.\n\nThe project's innovation lies in how it brings together cryptographic best practices, cross-chain compatibility, and intuitive design to create a development environment that makes blockchain interaction more accessible while maintaining high security standards.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Key Challenges Addressed\n1. Development Workflow Fragmentation\nProblem: Ethereum developers currently rely on scattered tools across multiple websites and applications, creating significant workflow interruptions and cognitive overhead.\n\nSolution: BlockUtils consolidates essential utilities into a unified dashboard, eliminating the need to switch between different tools. Our integrated approach keeps developers in a single environment for key tasks like address derivation, contract interaction, and unit conversion.\n\n2. Smart Contract Interaction Complexity\nProblem: Interacting with deployed smart contracts often requires custom front-end development or reliance on block explorers with limited functionality.\n\nSolution: BlockUtils provides a streamlined interface to inspect any contract's functions by ABI, allowing developers to instantly:\n\nTest read functions without writing code\nExecute write functions with proper parameter formatting\nValidate expected outputs before implementing them in production code\n3. Cross-Chain Development Friction\nProblem: Growing interest in cross-chain applications is hampered by the need to learn different toolsets for each blockchain network.\n\nSolution: Our unified approach to wallet address derivation and crypto utilities works across multiple chains, allowing developers to apply Ethereum knowledge to other networks. This significantly reduces the learning curve for expanding beyond Ethereum.\n\n4. Seed Phrase Management Risks\nProblem: Improper handling of seed phrases is a major security concern, with developers often using unsafe methods for testing or development.\n\nSolution: The BIP39 utility provides a secure, client-side environment for seed phrase generation and validation with educational components about proper security practices.\n\n5. Contract Debugging Inefficiency\nProblem: Identifying issues in contract interactions often requires deploying to testnets, which is time-consuming and requires test ETH acquisition.\n\nSolution: Our contract interaction tools allow preliminary testing directly in the browser, reducing the number of testnet deployments needed during development.\n\nAdvantages Over Alternatives\nCompared to Block Explorers (Etherscan):\nMore Comprehensive: Offers development utilities beyond just transaction viewing\nBetter Privacy: Performs all operations client-side without API dependencies\nCross-Chain Support: Works across multiple networks with a consistent interface\nCompared to Development Frameworks (Hardhat/Truffle):\nLower Barrier to Entry: No installation or configuration required\nImmediate Usability: Accessible via browser without setup\nVisual Interface: More approachable for visual learners and those new to development\nCompared to Web3 Libraries:\nNo Coding Required: Provides UI for operations that would otherwise require custom code\nEducational Value: Contextual information helps developers understand underlying concepts\nRapid Prototyping: Allows testing ideas before implementing them in code\nBlockUtils fills a specific niche in the Ethereum development ecosystem by providing an accessible, integrated environment that bridges the gap between advanced development frameworks and simple block explorers, making Ethereum development more efficient and approachable.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "BlockUtils Roadmap & Grant Allocation\nProject Roadmap\nPhase 1: Core Infrastructure (Q2-Q3 2023) ✓\nDevelop foundational components for Ethereum utilities\nImplement BIP39 seed phrase generation and validation\nCreate unit conversion tools (ETH, HEX, Epoch)\nDeploy initial version with basic blockchain interactions\nPhase 2: Enhanced Development Tools (Current)\nExpand token utility functionality with contract analysis\nImplement cross-chain address derivation\nImprove UI/UX with cyberpunk design system\nAdd educational content throughout the application\nPhase 3: Advanced Features (Next 6 Months)\nTransaction Simulation: Preview transaction outcomes before execution\nContract Execution: Direct interaction with any smart contract\nBatch Transaction Builder: Create and simulate multiple transactions\nGas Optimization Tools: Analyze and improve transaction efficiency\nPhase 4: Developer Ecosystem (6-12 Months)\nAPI Integration: Allow embedding tools in external applications\nCustom Plugin System: Enable community-built extensions\nDeveloper Templates: Pre-built contract interaction templates\nMobile Optimization: Full functionality on mobile devices\nPhase 5: Enterprise Features (12-18 Months)\nTeam Collaboration: Shared workspaces for development teams\nProject Snapshots: Save and share development states\nIntegration with IDEs: Connect with popular development environments\nAdvanced Analytics: Transaction and contract usage statistics\nGrant Fund Allocation\nEngineering Resources (60%)\nHire additional Solidity developers to expand contract interaction capabilities\nEngage security experts for cryptographic implementation audits\nContract specialized UI/UX designers for improved developer experience\nInfrastructure Development (25%)\nBuild robust testing environment for transaction simulation\nDevelop and maintain cross-chain compatibility systems\nSet up monitoring and analytics for usage patterns to guide future development\nCommunity Building (10%)\nCreate comprehensive documentation and tutorials\nDevelop educational workshops for blockchain developers\nEstablish contributor program to encourage open-source participation\nOperational Overhead (5%)\nServer costs and infrastructure maintenance\nLegal compliance and licensing\nAdministrative expenses\nMeasurable Milestones\nQ3 2023: Complete Transaction Simulation feature with support for ERC-20, ERC-721 contracts\nQ4 2023: Release Contract Execution module with support for at least 3 major EVM chains\nQ1 2024: Launch Developer API with documented endpoints and integration examples\nQ2 2024: Achieve 5,000 monthly active developers using BlockUtils\nQ3 2024: Complete mobile optimization with full feature parity to desktop\nThe grant funding will be transformative in accelerating our development timeline, particularly for the advanced features in Phase 3 which require significant engineering resources. Our focus on building developer-centric tools directly supports Ethereum's growth by making blockchain development more accessible and efficient for both new and experienced developers.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Enhancing Network Decentralization\n1. Client-Side Cryptography\nBy performing all cryptographic operations directly in the user's browser, BlockUtils reduces reliance on centralized infrastructure. Many existing tools route sensitive operations through servers, creating central points of failure and control, while your application keeps private keys and seed phrases exclusively on the user's device.\n\n2. Non-Custodial Development Environment\nBlockUtils promotes the non-custodial ethos fundamental to Ethereum's design philosophy. Developers can interact with contracts, convert values, and perform wallet operations without entrusting their private keys to third parties. This approach aligns with Ethereum's core value of self-sovereignty.\n\n3. Developer Accessibility\nBy lowering barriers to blockchain development, BlockUtils helps diversify the ecosystem of developers building on Ethereum. This broader developer base prevents concentration of technical knowledge in the hands of a few experts, leading to more diverse applications and implementations.\n\nReinforcing Network Security\n1. Security Best Practices Education\nThe application incorporates educational elements about proper seed phrase management, BIP39 passphrase usage, and secure contract interaction. These embedded educational components help propagate security best practices throughout the developer community.\n\n2. Enhanced Contract Validation\nBy providing tools to inspect and test smart contract functions before deployment or interaction, BlockUtils helps developers identify potential vulnerabilities earlier in the development process, potentially reducing the number of insecure contracts deployed to the network.\n\n3. Local Transaction Simulation\nThe planned transaction simulation feature will allow developers to validate complex transactions locally before submitting them to the network, helping identify unintended consequences without consuming network resources or exposing transactions to frontrunning.\n\n4. Secure Cross-Chain Bridge Development\nBy offering unified tools across multiple chains, BlockUtils facilitates the development of more secure bridge implementations – a critical security concern in the broader ecosystem as cross-chain applications proliferate.\n\nEcosystem Resilience\n1. Reducing Centralized Tool Dependency\nMany developers rely on centralized services like Infura, Etherscan, or MetaMask for development tasks. BlockUtils reduces this dependency by providing alternatives that can operate independently, increasing ecosystem resilience against service outages or policy changes.\n\n2. Open-Source Infrastructure\nAs an open-source project, BlockUtils contributes to the common infrastructure of the Ethereum ecosystem, providing transparent, auditable code that can be forked, improved, and adapted by the community.\n\n3. Developer Self-Sufficiency\nThe comprehensive toolset empowers developers to understand and directly interact with blockchain mechanics rather than relying on abstractions provided by third parties, leading to deeper protocol understanding and more robust implementations.\n\nBy focusing on client-side operations, educational components, and open-source development, BlockUtils aligns with Ethereum's fundamental values of decentralization, security, and accessibility – strengthening the network by empowering its developer community with more secure and self-sovereign development tools.\n\nYour BlockUtils project contributes to Ethereum's decentralization and security in several important ways:\n\nEnhancing Network Decentralization\n1. Client-Side Cryptography\nBy performing all cryptographic operations directly in the user's browser, BlockUtils reduces reliance on centralized infrastructure. Many existing tools route sensitive operations through servers, creating central points of failure and control, while your application keeps private keys and seed phrases exclusively on the user's device.\n\n2. Non-Custodial Development Environment\nBlockUtils promotes the non-custodial ethos fundamental to Ethereum's design philosophy. Developers can interact with contracts, convert values, and perform wallet operations without entrusting their private keys to third parties. This approach aligns with Ethereum's core value of self-sovereignty.\n\n3. Developer Accessibility\nBy lowering barriers to blockchain development, BlockUtils helps diversify the ecosystem of developers building on Ethereum. This broader developer base prevents concentration of technical knowledge in the hands of a few experts, leading to more diverse applications and implementations.\n\nReinforcing Network Security\n1. Security Best Practices Education\nThe application incorporates educational elements about proper seed phrase management, BIP39 passphrase usage, and secure contract interaction. These embedded educational components help propagate security best practices throughout the developer community.\n\n2. Enhanced Contract Validation\nBy providing tools to inspect and test smart contract functions before deployment or interaction, BlockUtils helps developers identify potential vulnerabilities earlier in the development process, potentially reducing the number of insecure contracts deployed to the network.\n\n3. Local Transaction Simulation\nThe planned transaction simulation feature will allow developers to validate complex transactions locally before submitting them to the network, helping identify unintended consequences without consuming network resources or exposing transactions to frontrunning.\n\n4. Secure Cross-Chain Bridge Development\nBy offering unified tools across multiple chains, BlockUtils facilitates the development of more secure bridge implementations – a critical security concern in the broader ecosystem as cross-chain applications proliferate.\n\nEcosystem Resilience\n1. Reducing Centralized Tool Dependency\nMany developers rely on centralized services like Infura, Etherscan, or MetaMask for development tasks. BlockUtils reduces this dependency by providing alternatives that can operate independently, increasing ecosystem resilience against service outages or policy changes.\n\n2. Open-Source Infrastructure\nAs an open-source project, BlockUtils contributes to the common infrastructure of the Ethereum ecosystem, providing transparent, auditable code that can be forked, improved, and adapted by the community.\n\n3. Developer Self-Sufficiency\nThe comprehensive toolset empowers developers to understand and directly interact with blockchain mechanics rather than relying on abstractions provided by third parties, leading to deeper protocol understanding and more robust implementations.\n\nBy focusing on client-side operations, educational components, and open-source development, BlockUtils aligns with Ethereum's fundamental values of decentralization, security, and accessibility – strengthening the network by empowering its developer community with more secure and self-sovereign development tools.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "No smart contract deployments yet",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xfb9c6bee53311e7ab8c57cb83859e2fcc28ba679e699a47d2d6c3fa9b8c5cd13",
+        "title": "BlockUtils",
+        "metaPtr": {
+          "pointer": "bafkreiawl4w45zubofhrfrdnwk5fyq3nyxrc5wbuifzpf5p4sm6kv2gama",
+          "protocol": "undefined"
+        },
+        "website": "https://blockutils.xyz",
+        "createdAt": 1742232534589,
+        "userGithub": "arjun-r34",
+        "credentials": {},
+        "description": "BlockUtils: A Web3 Development Toolkit\n\nProject Overview\nBlockUtils is an all-in-one web application designed to streamline blockchain development workflows. It provides a comprehensive suite of utilities that empower developers, security researchers, and blockchain enthusiasts with essential tools for interacting with and analyzing various blockchain networks.\n\nProject Description\nBlockUtils consolidates crucial web3 development functions into a unified, cyberpunk-inspired dashboard that eliminates the need for developers to maintain multiple bookmarks or scattered tools. Our toolkit includes:\n\nBIP39 Utility: Generate and validate mnemonic seed phrases, derive wallet addresses across multiple blockchain networks (Ethereum, Bitcoin, Litecoin, Dogecoin), and securely manage cryptographic keys with optional passphrases.\n\nToken Utilities: Analyze token contracts and interact with their functions directly through an intuitive interface.\n\nBlockchain Converters:\nETH Unit Converter: Seamlessly convert between Ether, Wei, Gwei, and other denominations\nHex Converter: Transform between hexadecimal and decimal values\nEpoch Converter: Convert between Unix timestamps and human-readable dates\nNetwork Discovery: Easily retrieve and navigate blockchain network configurations and details.\n\nSmart Contract Execution: Execute and test contract functions directly in the browser.\n\nTransaction Simulation: Preview transaction outcomes before actual execution to avoid costly errors.\n\nImpact and Vision\nBlockUtils aims to:\n\nLower the Technical Barrier: Democratize blockchain development by providing accessible tools for developers of all skill levels, reducing the learning curve for blockchain technology adoption.\n\nIncrease Developer Efficiency: Save development time by centralizing essential tools in one application, streamlining workflows and reducing context switching.\n\nEnhance Security: Help developers verify seed phrases, check contract functions, and simulate transactions before execution, promoting better security practices in the blockchain space.\n\nFoster Education: Serve as an educational platform where newcomers can explore and understand blockchain concepts through practical, interactive tools.\n\nSupport Multi-Chain Development: Facilitate cross-chain development by providing utilities compatible with various blockchain networks, encouraging innovation across the entire ecosystem.\n\nImplementation Strategy\nBlockUtils is built with modern web technologies (React, TypeScript, Tailwind CSS) and follows a modular architecture that allows for continuous expansion of features. The application prioritizes user privacy by performing all cryptographic operations client-side, ensuring sensitive information never leaves the user's device.\n\nThe project emphasizes responsive design, accessibility, and an intuitive user experience to ensure that developers can efficiently utilize these tools regardless of their environment or experience level.",
+        "lastUpdated": 0,
+        "projectGithub": "",
+        "projectTwitter": ""
+      },
+      "recipient": "0x2723A2756ecb99b3B50f239782876fB595728AC0"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "BlockUtils",
+      "logoImg": "bafkreihh4usv7yuopn4b64pjb2mvjp27ic7tjezjvs2fokeyqd3r4p63ba",
+      "website": "https://blockutils.xyz",
+      "bannerImg": "bafkreifxywbw5ugb5zta7ihf5pmrvi7rwypdog6mehkvdodu7bnay32mze",
+      "createdAt": 1742232534589,
+      "userGithub": "arjun-r34",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T18:19:02.906Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xc083f5b29f91edfd47a10afcb6531d5d194180be761310b8d02878af72711baf2a2ac3b6150ecd72ec6799d350766171d9a0a0d167779f0c3be07f35a70f50361c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T18:19:02.906Z",
+          "expirationDate": "2025-07-01T18:19:02.906Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x2723A2756ecb99b3B50f239782876fB595728AC0",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#CommitMafia#23917863",
+            "nullifiers": [
+              "v0.0.0:qZzY4K/cOM2xfe9By5ppSQh88eCLnwmbbUn0y8zPvQM="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T18:18:51.968Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xf91c1bb99766c8d78aba8b97991f54bfc10029732145a0baf354a0eef12fb9e55a8d991d1d2a7516fa4aadd092d0639351d933fae167e252f7d070bce3a6dc5d1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T18:18:51.968Z",
+          "expirationDate": "2025-07-01T18:18:51.968Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x2723A2756ecb99b3B50f239782876fB595728AC0",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#itsarjn",
+            "nullifiers": [
+              "v0.0.0:KJwkPNjruyVygZpoJ6kR4mexQ7WC3AynbSsbl40gf9U="
+            ]
+          }
+        }
+      },
+      "description": "BlockUtils: A Web3 Development Toolkit\n\nProject Overview\nBlockUtils is an all-in-one web application designed to streamline blockchain development workflows. It provides a comprehensive suite of utilities that empower developers, security researchers, and blockchain enthusiasts with essential tools for interacting with and analyzing various blockchain networks.\n\nProject Description\nBlockUtils consolidates crucial web3 development functions into a unified, cyberpunk-inspired dashboard that eliminates the need for developers to maintain multiple bookmarks or scattered tools. Our toolkit includes:\n\nBIP39 Utility: Generate and validate mnemonic seed phrases, derive wallet addresses across multiple blockchain networks (Ethereum, Bitcoin, Litecoin, Dogecoin), and securely manage cryptographic keys with optional passphrases.\n\nToken Utilities: Analyze token contracts and interact with their functions directly through an intuitive interface.\n\nBlockchain Converters:\nETH Unit Converter: Seamlessly convert between Ether, Wei, Gwei, and other denominations\nHex Converter: Transform between hexadecimal and decimal values\nEpoch Converter: Convert between Unix timestamps and human-readable dates\nNetwork Discovery: Easily retrieve and navigate blockchain network configurations and details.\n\nSmart Contract Execution: Execute and test contract functions directly in the browser.\n\nTransaction Simulation: Preview transaction outcomes before actual execution to avoid costly errors.\n\nImpact and Vision\nBlockUtils aims to:\n\nLower the Technical Barrier: Democratize blockchain development by providing accessible tools for developers of all skill levels, reducing the learning curve for blockchain technology adoption.\n\nIncrease Developer Efficiency: Save development time by centralizing essential tools in one application, streamlining workflows and reducing context switching.\n\nEnhance Security: Help developers verify seed phrases, check contract functions, and simulate transactions before execution, promoting better security practices in the blockchain space.\n\nFoster Education: Serve as an educational platform where newcomers can explore and understand blockchain concepts through practical, interactive tools.\n\nSupport Multi-Chain Development: Facilitate cross-chain development by providing utilities compatible with various blockchain networks, encouraging innovation across the entire ecosystem.\n\nImplementation Strategy\nBlockUtils is built with modern web technologies (React, TypeScript, Tailwind CSS) and follows a modular architecture that allows for continuous expansion of features. The application prioritizes user privacy by performing all cryptographic operations client-side, ensuring sensitive information never leaves the user's device.\n\nThe project emphasizes responsive design, accessibility, and an intuitive user experience to ensure that developers can efficiently utilize these tools regardless of their environment or experience level.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "CommitMafia",
+      "projectTwitter": "itsarjn"
+    }
+  }
+}

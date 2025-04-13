@@ -1,0 +1,238 @@
+{
+  "id": "25",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x1249835eaab22b2d2fd7f34556a20cae9cfd902f56c54789730081e6996ed012",
+  "metadata": {
+    "signature": "0x84dc8ce4e81203ce271defba137cb10a1257d6c2e34cf82e12c1327187f45832420366f55c22285a3533fc3775cf4e4feda13fade262874a8bd452d97104b3be1c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "john@astral.global",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "johnx25bd",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/decentralizedGeo/astral-sdk",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/+yxxppkLkrnM0OTM8",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes:\nGG21: Celo Real World Builders\nGG20: Climate Round\nGG20: Developer Tooling and Libraries\nGG20: Hackathon Alumni\nGG20: Climate Solutions Round\nGG21: Thriving Arbitrum Summer\nGG22 OSS - Developer Tooling and Libraries\nPlus some prior rounds on the prior version of Gitcoin.\n\nhttps://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x1249835eaab22b2d2fd7f34556a20cae9cfd902f56c54789730081e6996ed012",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Astral Protocol provides open-source tools + infrastructure empowering developers to build user-centric, verifiable location-based apps on the decentralized web.\n\nWe create the tools, standards and protocols necessary for a decentralized geospatial web, simplifying how Web3 developers integrate spatial and location data into their apps.\n\nThere is no simple, dev-friendly way to work with user locations in Web3 software systems. So we developed the Location Proof Protocol to introduce a new Web3 primitive representing user locations.\n\nThe Location Proof Protocol is a framework for creating location proofs, which are digitally-signed proof of time and place. We’ve already launched our beta, including the LPP specification, reference implementation, API and SDK. The LPP is built on EAS — our v0.1 schema is deployed on multiple chains: Celo, Base, Arbitrum and Sepolia.\n\nIn addition to location proofs, we’re researching **verifiable geocomputation** systems — geospatial algorithms in smart contracts and cryptographic protocols. We’ve also been doing R+D on **p2p geospatial data systems** for efficiently storing, managing, and accessing diverse spatial data types, such as sensor measurements, drone imagery, and satellite data.\n\nThese tools unlock a new category of trustworthy, location-aware decentralized applications and robust geospatial workflows, enabling use cases like:\n\n- Environmental monitoring and digital MRV\n- Climate modeling and forecasting\n- Transparent transport and mobility systems\n- Interactive location-based games\n- Compliance verification and fraud detection\n- Secure human rights reporting\n\nYou can see more about how our tools will make the developer experience easier on the README of our (in development!) Typescript SDK: https://github.com/decentralizedGeo/astral-sdk/.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Astral’s mission is to enable the development of thousands of onchain applications which are location-based and / or use location data.\n\nOur belief is that Web3 developers have overlooked a major app category — location-based apps — because of challenges in working with location data.\n\n- Creating trustworthy location claims is tricky\n- Geospatial algorithms are complicated\n- Spatial data needs special storage and access systems\n\nOur work is focused on solving these problems, and simplifying developer experience when it comes to building location-based dapps.\n\nIn July 2024, we launched the Astral Location Proof Protocol to enable builders to deploy location proofs. This application was built on Ethereum Attestation Service (EAS) and deployed to Celo, Base, Arbitrum, and Sepolia, with a few hundred location proofs registered onchain. We have one demo app — the Astral Logbook — and one community app — TOUCHGRASS.CLUB — deployed, and more in development.\n\nWe have a roadmap that includes research and development into verifiable geocomputation (Spatial.sol), p2p geospatial data management (ipfs-stac), privacy-preserving location proofs (zero knowledge location proofs, TEEs)\n\nIn January of this year, we deployed the Astral API, which serves as a unified gateway to the decentralized geospatial web. This provides a single endpoint across the chain and harmonized geospatial data while supporting advanced querying and serving as an SDK integration.\n\nOther highlights include:\n\n- Our first peer-reviewed paper was selected for publication — we’re presenting in in April 2025 (https://osf.io/bg2uq_v1)\n- At the Funding the Commons x Earth Commons Hackathon (Q4 2024) we had over 10 hacker submissions (https://dorahacks.io/hackathon/ftc-2024/buidl, filter for Astral bounty)\n- We were shortlisted at the EAS Fellowship Demo Day, Q2 2024\n- We presented at Demo Day during Kernel’s Genesis Block\n- We won the Arweave Prize at the Future of Blockchain hackathon in 2020\n- We’ve gotten grants from the Filecoin Foundation, Climate Collective and Arbitrum / Thrive to support our R+D\n\nWe’re committed to building open source software, and have joined up with a team from the University of Maryland’s Geographical Sciences Department to co-maintain repositories focused on decentralized geospatial technology: [github.com/DecentralizedGeo](http://github.com/DecentralizedGeo)",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Astral tools and repositories are co-maintained with the Decentralized Geospatial Collaborative, an open source software initiative we co-founded with a team from the University of Maryland Geographical Sciences Department. We have three core developers and two co-leads working on this project.\n\nIn addition, we have:\n\n- 10+ Github contributors\n- 5+ Consumer Applications built — 2 deployed live (e.g., Logbook, TOUCHGRASS, Hyperaware, zkMaps, Kolektivo)\n- 200+ location proofs registered onchain\n- 20+ Protocols, Projects, and Researchers participating in Decentralized Geospatial Web Working Group\n- 500+ Github Commits\n- 40+ stars & 10+ forks\n- ~$30k in funding distributed to onchain geospatial projects\n- 200+ Community Members across Telegram and Discord\n- 1000k+ Social Media followers\n- 1 peer reviewed academic paper published",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.\n\nIn the upcoming months, we plan to:\n\n- Publish the Astral SDK as an npm package, giving Typescript developers an easy way to create, publish, fetch and verify location proofs\n- Build a block scanner-style UI — including map visualizations — to explore location proofs\n- Support pilot ecosystem developers (could this be you? Reach out!)\n- Present our first peer-reviewed paper at GISRUK 2025 in Bristol, UK\n- Research the landscape of proof-of-location systems, share our findings\n- Develop the first Location Proof Recipe Extensions\n- Refine the beta Location Proof Protocol into a technical specification to share with the geospatial community via the Open Geospatial Consortium\n- Submit for more extensive grant funding to support our open source ecosystem development\n- R+D on a smart contract library for geometric and topological algorithms (Spatial.sol)\n- Research privacy-preserving location proofs, including zero knowledge- and TEE-based methods\n\nIn addition to these initiatives, and funding raised will help pay for subscriptions, server and hosting costs.\n\nWe’ve bootstrapped this work to build public goods with the support of the Gitcoin community, and would love to continue making progress.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "At the moment, our deployments are via EAS contracts — we have not yet reached the point of deploying test instances of Spatial.sol (still in R+D).\n\n- EAS Schema UID (i.e. NOT contract address) is `0xba4171c92572b1e4f241d044c32cdf083be9fd946b8766977558ca6378c824e2`\n- Deployed on Sepolia (11155111), Celo, (42220), Base (8453), Arbitrum (42161).\n- More info here: https://docs.astral.global/docs/location-proof-protocol/eas-schema",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x1249835eaab22b2d2fd7f34556a20cae9cfd902f56c54789730081e6996ed012",
+        "title": "Astral",
+        "logoImg": "bafkreihnnduag3oujgbeudbijchg2hlqxbe7riuudf5z44cemlwcekuczy",
+        "metaPtr": {
+          "pointer": "bafkreidmdlxrpm7v6jesprg6cw5snuyv4z5rtz7drylgzgj6q22zsgsdw4",
+          "protocol": "undefined"
+        },
+        "website": "https://astral.global",
+        "bannerImg": "bafybeie3fbdw7t5pbpkph4ymxrp2xmplgg3oqjolvjc7k7wvcydng25sky",
+        "createdAt": 1673545266638,
+        "userGithub": "johnx25bd",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..aRwbO80YDUXLbWdfgRN_0as2FgFJj-S5ozyx_Xv53KhgKadhEZvMCpokHMcjeLzeIIl6rC1GJ-S27t7ZFGy7Ag",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-15T16:53:39.342Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-15T16:53:39.342Z",
+            "expirationDate": "2024-07-14T16:53:39.342Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x25bdFF8dB8d80971935A7f38A0CF31DeC62f7696",
+              "hash": "v0.0.0:zbmxAHABx3lEWi5bDsCGXltgs90dd3ENxVLlzdQHNkM=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#AstralProtocol#41551283"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9.._WwEM1kIS3dm8boIwIh0LEWG6GZENr6yD7ZldcGOqhHIeBV9WWeDY7bn81BcSTEBxLTeKYNYaforXhi08SqLCw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-15T16:53:29.876Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-15T16:53:29.875Z",
+            "expirationDate": "2024-07-14T16:53:29.875Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x25bdFF8dB8d80971935A7f38A0CF31DeC62f7696",
+              "hash": "v0.0.0:CDg0RACRNgCnyXDI+InPe/uYELcDqRPXI0sGiDGDoFI=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#AstralProtocol"
+            }
+          }
+        },
+        "description": "## What We Do\n\nAstral provides open-source tools + infrastructure empowering developers to build user-centric, verifiable location-based apps on the decentralized web.\n\nWe create the tools, standards and protocols necessary for a decentralized geospatial web, simplifying how Web3 developers integrate spatial and location data into their apps.\n\nOur approach combines immediate usability with ongoing academic-grade research into the next wave of decentralized geospatial technologies.\n\n## Core Technologies\n\nAstral has three main areas of work:\n\n- **Location Proof Protocol:** A framework for creating credible, verifiable, digitally-signed proofs of location and time. Already deployed and available on Arbitrum, Celo, Base, and Ethereum Sepolia — a Typescript SDK is in development.\n- **Verifiable Geocomputation:** Systems that implement geospatial algorithms in smart contracts or cryptographic protocols, ensuring computations were done correctly.\n- **P2P Geospatial Data Infrastructure:** Peer-to-peer protocols for storing, managing, and efficiently accessing geospatial data (sensor readings, drone scans, satellite imagery) on decentralized storage systems like IPFS and Arweave.\n\n## Why It Matters\n\nOur tools, standards and research unlocks new kinds of trustworthy, verifiable location-aware decentralized apps, including:\n\n- Environmental monitoring and climate action (digital MRV, sustainability-linked finance)\n- Transparent mobility and transportation systems (congestion zones, smart parking)\n- Governance and compliance tools (local DAOs, digital jurisdictions, fraud detection)\n- Interactive experiences (location-based gaming, metaverse applications, geotagged social posts)\n- Humanitarian and human rights applications (secure reporting, accountability)\n\n## Progress & Milestones\n\n**Recently completed:**\n\n- Published our first peer-reviewed paper with the University of Maryland Geographical Sciences Department\n- Built and deployed the Astral API, a unified gateway to the decentralized geospatial web\n- Deployed Location Proof Protocol on Arbitrum, Celo, Base, Ethereum Sepolia\n- Released Astral Logbook, consumer-facing location proof app\n- Integrated the Location Proof Protocol with TOUCHGRASS.CLUB, an accountability app to help people get outside\n- Integrated Location Proof Protocol with IPFS\n- Sponsored Funding the Commons x Earth Commons Hackathon — over ten builder submissions\n- Launched comprehensive developer resources ([docs.astral.global](https://docs.astral.global/))\n- Merged with EASIER Data Initiative to form the Decentralized Geospatial Collaborative to aligned decentralized GIS research and co-maintain open source repos\n- Co-chairing the Decentralized Geospatial Web Working Group\n\n**Next:**\n\n- Publish the Astral SDK as an npm package, giving Typescript developers an easy way to create, publish, fetch and verify location proofs\n- Design and build a block scanner-style UI — including map visualizations — to explore location proofs\n- Support pilot ecosystem developers (could this be you? Reach out!)\n- Present our first peer-reviewed paper at GISRUK 2025 in Bristol, UK\n- Research the landscape of proof-of-location systems, share our findings\n- Develop the first Location Proof Recipe Extensions\n- Refine the beta Location Proof Protocol into a technical specification to share with the geospatial community via the Open Geospatial Consortium\n- Submit for more extensive grant funding to support our open source ecosystem development\n- R+D on a smart contract library for geometric and topological algorithms (Spatial.sol)\n- Research privacy-preserving location proofs, including zero knowledge- and TEE-based methods\n- Deepening collaboration with UMD’s EASIER Data Initiative\n- Expanding open community of builders, researchers, ecosystem contributors\n\n## Selected Accomplishments\n\n- Ethereum Attestation Service Fellowship & Demo-Day Shortlist (2024)\n- Filecoin Development Grant (decentralized satellite imagery) (2020)\n- KERNEL Genesis Block Presenter (2020)\n- European Space Agency’s Living Planet Symposium Speaker (2022)\n- Arweave Prize Winner (Future of Blockchain 2020)\n- Presenter, Open Geospatial Consortium (2022)\n- Co-founded Decentralized Geospatial Web Working Group (2023)\n\n## How You Can Help\n\nWe invite builders, researchers, and open-source contributors passionate about decentralized spatial computing to collaborate. Your Gitcoin contributions directly fund ongoing R&D, open-source software, and community-building—accelerating decentralized geospatial innovation.",
+        "lastUpdated": 0,
+        "projectGithub": "AstralProtocol",
+        "projectTwitter": "AstralProtocol"
+      },
+      "recipient": "0x75B4D9DAB72045B953e9aE8dD648996f77802847"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Astral",
+      "logoImg": "bafkreihnnduag3oujgbeudbijchg2hlqxbe7riuudf5z44cemlwcekuczy",
+      "website": "https://astral.global",
+      "bannerImg": "bafybeie3fbdw7t5pbpkph4ymxrp2xmplgg3oqjolvjc7k7wvcydng25sky",
+      "createdAt": 1673545266638,
+      "userGithub": "johnx25bd",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..aRwbO80YDUXLbWdfgRN_0as2FgFJj-S5ozyx_Xv53KhgKadhEZvMCpokHMcjeLzeIIl6rC1GJ-S27t7ZFGy7Ag",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-15T16:53:39.342Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-15T16:53:39.342Z",
+          "expirationDate": "2024-07-14T16:53:39.342Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x25bdFF8dB8d80971935A7f38A0CF31DeC62f7696",
+            "hash": "v0.0.0:zbmxAHABx3lEWi5bDsCGXltgs90dd3ENxVLlzdQHNkM=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#AstralProtocol#41551283"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9.._WwEM1kIS3dm8boIwIh0LEWG6GZENr6yD7ZldcGOqhHIeBV9WWeDY7bn81BcSTEBxLTeKYNYaforXhi08SqLCw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-15T16:53:29.876Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-15T16:53:29.875Z",
+          "expirationDate": "2024-07-14T16:53:29.875Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x25bdFF8dB8d80971935A7f38A0CF31DeC62f7696",
+            "hash": "v0.0.0:CDg0RACRNgCnyXDI+InPe/uYELcDqRPXI0sGiDGDoFI=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#AstralProtocol"
+          }
+        }
+      },
+      "description": "## What We Do\n\nAstral provides open-source tools + infrastructure empowering developers to build user-centric, verifiable location-based apps on the decentralized web.\n\nWe create the tools, standards and protocols necessary for a decentralized geospatial web, simplifying how Web3 developers integrate spatial and location data into their apps.\n\nOur approach combines immediate usability with ongoing academic-grade research into the next wave of decentralized geospatial technologies.\n\n## Core Technologies\n\nAstral has three main areas of work:\n\n- **Location Proof Protocol:** A framework for creating credible, verifiable, digitally-signed proofs of location and time. Already deployed and available on Arbitrum, Celo, Base, and Ethereum Sepolia — a Typescript SDK is in development.\n- **Verifiable Geocomputation:** Systems that implement geospatial algorithms in smart contracts or cryptographic protocols, ensuring computations were done correctly.\n- **P2P Geospatial Data Infrastructure:** Peer-to-peer protocols for storing, managing, and efficiently accessing geospatial data (sensor readings, drone scans, satellite imagery) on decentralized storage systems like IPFS and Arweave.\n\n## Why It Matters\n\nOur tools, standards and research unlocks new kinds of trustworthy, verifiable location-aware decentralized apps, including:\n\n- Environmental monitoring and climate action (digital MRV, sustainability-linked finance)\n- Transparent mobility and transportation systems (congestion zones, smart parking)\n- Governance and compliance tools (local DAOs, digital jurisdictions, fraud detection)\n- Interactive experiences (location-based gaming, metaverse applications, geotagged social posts)\n- Humanitarian and human rights applications (secure reporting, accountability)\n\n## Progress & Milestones\n\n**Recently completed:**\n\n- Published our first peer-reviewed paper with the University of Maryland Geographical Sciences Department\n- Built and deployed the Astral API, a unified gateway to the decentralized geospatial web\n- Deployed Location Proof Protocol on Arbitrum, Celo, Base, Ethereum Sepolia\n- Released Astral Logbook, consumer-facing location proof app\n- Integrated the Location Proof Protocol with TOUCHGRASS.CLUB, an accountability app to help people get outside\n- Integrated Location Proof Protocol with IPFS\n- Sponsored Funding the Commons x Earth Commons Hackathon — over ten builder submissions\n- Launched comprehensive developer resources ([docs.astral.global](https://docs.astral.global/))\n- Merged with EASIER Data Initiative to form the Decentralized Geospatial Collaborative to aligned decentralized GIS research and co-maintain open source repos\n- Co-chairing the Decentralized Geospatial Web Working Group\n\n**Next:**\n\n- Publish the Astral SDK as an npm package, giving Typescript developers an easy way to create, publish, fetch and verify location proofs\n- Design and build a block scanner-style UI — including map visualizations — to explore location proofs\n- Support pilot ecosystem developers (could this be you? Reach out!)\n- Present our first peer-reviewed paper at GISRUK 2025 in Bristol, UK\n- Research the landscape of proof-of-location systems, share our findings\n- Develop the first Location Proof Recipe Extensions\n- Refine the beta Location Proof Protocol into a technical specification to share with the geospatial community via the Open Geospatial Consortium\n- Submit for more extensive grant funding to support our open source ecosystem development\n- R+D on a smart contract library for geometric and topological algorithms (Spatial.sol)\n- Research privacy-preserving location proofs, including zero knowledge- and TEE-based methods\n- Deepening collaboration with UMD’s EASIER Data Initiative\n- Expanding open community of builders, researchers, ecosystem contributors\n\n## Selected Accomplishments\n\n- Ethereum Attestation Service Fellowship & Demo-Day Shortlist (2024)\n- Filecoin Development Grant (decentralized satellite imagery) (2020)\n- KERNEL Genesis Block Presenter (2020)\n- European Space Agency’s Living Planet Symposium Speaker (2022)\n- Arweave Prize Winner (Future of Blockchain 2020)\n- Presenter, Open Geospatial Consortium (2022)\n- Co-founded Decentralized Geospatial Web Working Group (2023)\n\n## How You Can Help\n\nWe invite builders, researchers, and open-source contributors passionate about decentralized spatial computing to collaborate. Your Gitcoin contributions directly fund ongoing R&D, open-source software, and community-building—accelerating decentralized geospatial innovation.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "AstralProtocol",
+      "projectTwitter": "AstralProtocol"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "28",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x261187889002f755d8e516197931b9f38a826f0c99f6e7136bc8186302dc1b1e",
+  "metadata": {
+    "signature": "0x21be9d96442ab88ed71fb43e591a7c59d0d13a98ec7a622f66c02deafc4d6cc33327f96dcb460b7f7ca0f7f32366d7119281b9424de7068b7c5cbfc39e3b9b5c1b",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "ciao@spaghett-eth.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "matlemad",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/spaghettETH/web3radio",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Web3radio by SpaghettETH actively expands the OSS ecosystem by providing decentralized, community-driven media stack built on open-source technologies. \nSpecifically:\n\n1. Open-Source Code and Modular Components\n\nAll our smart contracts, streaming mechanisms, and frontend code are developed as open-source repositories that anyone can fork, improve, or repurpose.\n    \nOur live schedule smart contract enables on-chain event scheduling for any Web3 audio or video broadcasting service.\n\nThe playlist contract allows decentralized audio curation, an approach that can be replicated across other community-driven platforms.\n_\n\n2. Expansion of Decentralized Media Infrastructure\n\nWe integrate Livepeer, Swarm, IPFS, and traditional servers, demonstrating hybrid adoption strategies that can be replicated by other Web3 media projects.\n\nOur proxy relay for contract calls (MEGO-powered) reduces friction for new users while maintaining Web3 principles—this can be implemented in other dApps.\n\nThe Decentralized Advertising contract (V2 feature) will provide an open-source smart contract model for Web3-native ad monetization.\n\n3. OSS Growth Through Web3 Community Adoption\n\nWe onboard non-technical users into OSS and Web3 by bridging Web2 accessibility with decentralized infrastructure, making it easier for Web2 media creators to transition into Web3-native broadcasting.\n \nOur GitHub-first development model encourages contributions, allowing developers to propose features, create issues, and actively shape the project.\n\nWe explicitly encourage forking of our code for fully decentralized Web2-free alternatives.\n\nBy open-sourcing our Web3 radio framework, we enable any community to launch their own decentralized radio station, expanding public goods for decentralized media.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "\nWeb3Radio is a decentralized, community-driven Web3 radio where anyone can listen, while SpaghettETH Passport SBT holders curate content, book broadcast slots, and monetize shows.  \n\nKey Features_\n\n- Decentralized & Community-Curated Broadcasting: SBT holders push content to an on-chain playlist using IPFS, Swarm, or traditional storage. Listeners can save tracks to influence the playlist ranking.  \n\n- On-Chain Calendar & Token-Gated Live Streaming: SBT holders book live slots via a smart contract. Supports HLS, YouTube, Twitch, Livepeer, and traditional servers.  \n\n- Decentralized Advertising & Monetization: Live shows will be able to sell ad slots via smart contracts, with pricing set by community voting.  \n\n- Proxy Relay for UX Simplicity: MEGO handles contract calls to ease adoption and transaction fees.  \n\n- Hybrid Decentralization: A small backend relay allows users unfamiliar with Web3 storage to upload content via IPFS, Swarm, or common platforms.  \n\n- Open-Source & Forkable: The entire project is open-source and can be forked for fully decentralized alternatives.  \n\nUse Cases:  \n\n- Web3 communities can launch decentralized radios  \n- Independent broadcasters can stream and monetize content  \n- Decentralized music curation replaces algorithm-driven playlists  \n- Transparent ad monetization will enable fair pricing through community voting  \n- Public goods for free speech provide resilient, censorship-resistant broadcasting  \n\nHow It’s Different:\n\nWeb3Radio is fully community-run, on-chain scheduled, and balances decentralization with accessibility. It prioritizes curation over algorithmic bias and offers an open-source framework for webradio stack innovation.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our next phase focuses on enhancing community-driven governance, enabling fair monetization. The grant funds will support the development of the following V2 features:  \n\nDecentralized Advertising_ \nWe will implement a smart contract system allowing live broadcasters to sell ad space during their shows. The community will vote on ad slot pricing, ensuring transparency and fair market-driven rates. Funds will be used for:  \n- Smart contract development for auction-based ad slot sales  \n- Frontend and UI integration for ad placements and voting mechanisms  \n\nPlaylist Randomness Optimization_  \nTo improve content discovery, we will replace the current random playback with a more intelligent algorithm that takes into account:  \n- Number of saves per track, with safeguards against dominance  \n- Genre diversity to ensure balanced representation  \n- Submission date weighting to give newer content fair exposure  \n\nFunds will support:  \n- Development of the new playlist algorithm  \n- Smart contract updates for on-chain curation rules \n- UI/UX improvements for the playlist interface  \n\nThe grant will directly contribute to these features by funding smart contract development, frontend updates, and testing, ensuring Unstoppable Radio evolves into a more equitable, community-driven, and monetized Web3 radio platform.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x95C47cA154666fd65049ab9F70159139EDEdeB19,10\n0xC13DA4C4DDAb2Cd73d8690717e9dC67CDd36D865,10",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x261187889002f755d8e516197931b9f38a826f0c99f6e7136bc8186302dc1b1e",
+        "title": "web3radio",
+        "logoImg": "bafkreifuvsvfoslpl3d4gx5lt6nzdatntykkd4eh5dgjzw5ncry4cdkqua",
+        "metaPtr": {
+          "pointer": "bafkreiau2qx3sfgvkc5qa27niw66jkiusuzcaicl62ocjmbi6ciynvtzry",
+          "protocol": "undefined"
+        },
+        "website": "https://web3radio.it",
+        "bannerImg": "bafkreifhfb3irqp7pe2tyut6iphecpfxq2pxuzmxjbdomfrrw2u2yopheq",
+        "createdAt": 1722439812334,
+        "userGithub": "matlemad",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-19T14:30:29.496Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x732f55885723463fcd665eaf1081bb86e1ff072df8f8c931b5ff087d7b48c978446796f6ca03386648add1f6660589a26d5fb17e1535375fb3e444463db2ec961c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-19T14:30:29.496Z",
+            "expirationDate": "2025-06-17T14:30:29.496Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xC3F6e18b429b6BAf1bD31B1E504aee7827C7AAb5",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#spaghettETH#35381854",
+              "nullifiers": [
+                "v0.0.0:+t2vChJBQjXT41j/GYMkrxi9mYJPbxFHgTKAtFcL5W0="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..a12VJj0KfUQxmAZ0a2YVUKBimbEHJUXxWsasPS8LrtOO4CEmhFS0-3TMn_I4Nl-hMwJ6uwBVxrByuvx_kwKICg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-07-31T15:29:28.596Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-07-31T15:29:28.596Z",
+            "expirationDate": "2024-10-29T15:29:28.596Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xC3F6e18b429b6BAf1bD31B1E504aee7827C7AAb5",
+              "hash": "v0.0.0:SfqFoxUnLIOfPtezzHtFapYk5VgeUBOKGKtNuQdzlZ8=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#SpaghettEth"
+            }
+          }
+        },
+        "description": "Introducing Web3radio.it by SpaghettETH\nV1 Main features\n\nSpaghettETH and YOMI are leveraging decentralized technology to reinvent community radio. Here’s some specifics of our V1 release:\n\n- Token Gated: only SpaghettETH Passport SBT holders can access the radio and its features. This is our iteration, think about other possibilities, like an Ethereum Radio for everyone owning more than 1 wei.\n\n- Login Agnostic: log in via your browser wallet or create a smart account via web2 login (Google, Apple) using Mego.tickets stack.\n\n- Dynamic Player: the Web3radio player always checks for any current livestream first, then switches to a community playlist if there is none.\n\n- Community Playlist: SBT holders can upload their own audio content (songs, interviews, podcasts) to a playlist smart contract using their preferred storage solution, such as IPFS, Swarm, Pinata URIs, Google Drive, or Dropbox — web3radio.it does not store any files. \n\n- Listeners can save currently playing audio to their favorites, contributing to a “most liked” leaderboard. Future improvements to the playlist ordering mechanism will incorporate this data for enhanced curation.\n\n- Live Schedule: SBT holders can schedule their own livestreams in advance using a calendar widget, booking 30-minute slots, with up to 10 slots per booking. Each SBT holder is limited to two bookings every 24 hours. Our player supports HLS streams (.m3u, .m3u8), YouTube, Twitch, Livepeer, and traditional servers, ensuring broad compatibility for broadcasters.\n\n\nCons\n\n- Centralized Frontend: at SpaghettETH, we fully appreciate the challenges of building decentralized frontends and fully on-chain applications. However, our mission within the Italian ecosystem has always been to educate and onboard users from traditional Web2 social media, while also iterating on our proof-of-concepts in real-time. For this reason, we have temporarily opted for a centralized frontend hosted on Digital Ocean, allowing us to refine the experience before transitioning to a fully decentralized solution.\n\n- Centralized link managing backend: not everyone is familiar with livestreaming or decentralized storage. Many users are unaware of Livepeer, Swarm, IPFS, and similar technologies. To bridge this gap, we have implemented a lightweight backend that can serve livestreams and storage links from more common platforms alongside decentralized ones, making the experience more accessible for all users.\n\n- SBT-contract ownership: we deeply value free speech, but we also prioritize healthy community interactions. Additionally, the European Digital Services Act (DSA) requires us to monitor and mitigate dangerous practices and hate speech on our webradio. To uphold these standards, our Passport SBT contract includes a mechanism that allows us to burn a user’s SBT, effectively revoking their access to the platform if they violate community guidelines.\n\n- Proxy contract: managing EOA wallets and traditional Web2 logins simultaneously is no small challenge. Balancing adoption and simplicity — not to mention covering transaction fees — often comes at the expense of ideological purity. To streamline the user experience while maintaining accessibility, most contract-writing calls are handled by a proxy relay operated by MEGO.\n\nAll these compromises are made purely for user-friendliness, because at SpaghettETH, we believe in baby steps when onboarding people into Web3. If you prefer a fully decentralized, Web2-free version, feel free to fork our project and build your own — we’d love to see it! Just don’t troll us on X for not being decentralization maximalists — we’re here to make things work for real people, not just for the purists.\nV2 Features (Coming Soon)\n\nWhat’s next for Unstoppable Radio? We’re working on exciting upgrades to make the experience even more community-driven, fair, and optimized.\n\n- Decentralized Advertising: Every live show will be able to sell advertising space during their broadcast via a dedicated smart contract. The price for each ad slot will be voted on by the community and calculated based on the average demand. This ensures fair pricing while keeping sponsorships transparent and community-approved.\n\n- Playlist Randomness Optimization: Random playback isn’t always fair — it’s just blind. We aim to replace the current system with a more intelligent algorithm that factors in: 1) The number of saves per song (while preventing a single track from dominating) ii) Genre diversity, so all styles get airtime iii) Submission date, ensuring newer tracks also get their moment",
+        "lastUpdated": 0,
+        "projectGithub": "spaghettETH",
+        "projectTwitter": "spaghetteth"
+      },
+      "recipient": "0x276F336d63057905baC016F4BeC7e3ecAD23b1fC"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 10,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

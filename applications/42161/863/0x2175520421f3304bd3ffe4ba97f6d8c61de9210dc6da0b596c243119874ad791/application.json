@@ -1,0 +1,673 @@
+{
+  "id": "35",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x2175520421f3304bd3ffe4ba97f6d8c61de9210dc6da0b596c243119874ad791",
+  "metadata": {
+    "signature": "0xad9652a6071461aa87ea012c5ff739a1e98d851756dc9e13fa37404f659acf051cde298897f6ed5f944210e92c7159480ab83c5b2e9ec8e29bc50dc1a36514511c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "nerd3lab@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@paziwal500",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/Nerd3Lab/superUI",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/zgjTqhng",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "SuperUI is an UI for Supersim designed to make building on Superchain easier. We provide a user-friendly interface for testing, simulating, and debugging OP Stack applications. With SuperUI, you can fork networks, deploy smart contracts, and inspect chain state—all without relying solely on CLI commands. Our goal is to simplify the development process and support builders in creating seamless Superchain applications.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "SuperUI is UI for local development with Supersim (tool to simulate the Superchain locally)\n\nFor too long, devs have had to choose between:\n❌ Supersim? Powerful but CLI-only, hard to navigate.\n❌ interoperability testing is complicated\n❌ Setting up test environments is time-consuming\nRight now, developing on Superchain isn’t as smooth as it should be.\nSuperUI changes that. A powerful dev tool designed to make Superchain development seamless. Making it easier than ever to build and test your interop application.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are currently developing this tool and have released the first version, which can run and simulate a Superchain locally.\n\n⭐️ 32 star on github\n\nSuperUI 's listed in the Supersim GitHub repo\n[Link](https://x.com/Nerd3Lab/status/1902378754921656740)",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We will use the grant funds to enhance SuperUI, focusing on improving the development environment for smart contracts. This will enable detailed and real-time transaction monitoring during the development and testing of DApps or smart contracts on the Superchain and Interop, making the development process more efficient and user-friendly.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "-",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x2175520421f3304bd3ffe4ba97f6d8c61de9210dc6da0b596c243119874ad791",
+        "title": "SuperUI",
+        "logoImg": "bafkreiezygcinhmcu4loyvwa2paqgx7iergzymzkixqll5yloquiwxq2d4",
+        "metaPtr": {
+          "pointer": "bafkreifx3nsa72tjg2xaighbzzc7h5c6qyb3hpap5dbtmkb7bas4hcx7oy",
+          "protocol": "undefined"
+        },
+        "website": "https://www.superui.app",
+        "bannerImg": "bafkreidlvqj6ufmf5yxtyi3khyjulevzhs3uvjy3atrya2r74t2bfborym",
+        "createdAt": 1743175299275,
+        "userGithub": "frongrider2",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T15:43:12.458Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x5a153f3f127dd5977d31014700aa974541d05d94c27a68857ddf2dd719ce38ce39e884edc59c3438950486e7119ff7046d7771e04787fd245650aebb020665631c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T15:43:12.458Z",
+            "expirationDate": "2025-06-26T15:43:12.458Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xe72978Edd14db33905636aB21e4Fe1D8a325ba0d",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Nerd3Lab#53909989",
+              "nullifiers": [
+                "v0.0.0:rnY/EPd2f1DWlWXZ4gQQfhm1Oj8cw1WPDNsr5tG7eWU="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T15:34:57.894Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x53fc1c6a749dbd4be7ad07fff47b1475e9ed501505aebc835db7ed3c5b76b0c00419f605c14712af62730096e46b6f1459c734ef531aee98fa6cf0d1dc78ac611c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T15:34:57.893Z",
+            "expirationDate": "2025-06-26T15:34:57.893Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xe72978Edd14db33905636aB21e4Fe1D8a325ba0d",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#Nerd3Lab",
+              "nullifiers": [
+                "v0.0.0:Keu4cejzUEb63+scTsgIXYyTDuhCUFVTMXzmfTIhFsg="
+              ]
+            }
+          }
+        },
+        "description": "## About SuperUI\n\n🚀 The Ultimate Ethereum & Superchain Development Playground\n\n### Introduction\nSuperUI is an User Interface for Supersim that can simulate and run local chain or fork chain designed to make building on Superchain easier. We provide a user-friendly interface for testing, simulating, and debugging OP Stack applications. With SuperUI, you can fork networks, deploy smart contracts, and inspect chain state—all without relying solely on CLI commands. Our goal is to simplify the development process and support builders in creating seamless Superchain applications.\n\n- **Run local superchain** One click to run up local superchain including layer1 chain and 2 layer2 chains.\n- **Fork Any Superchain L2** Clone OP Mainnet, Base, and more for testing.\n- **Layer 2 Devnet** Deploy new chains in seconds, no RPC setup required.\n- **Pre-funded Test Accounts** Skip the faucet; start testing immediately.\n- **Developer tools built-in** Compatible\n- **Deploy Contract** Simple contract deployment on local test network.\n- **Contract Management** view and call contract functions. with abi import.\n- **Transaction History** Track all your transactions.\n\n## Who is this for?\n\n- 👩🏻‍💻 Superchain Devs – Develop on Dapp on Superchain.\n- 👩🏻‍💻 Smart Contract Devs – Test deployments instantly.\n- 🧑🏻‍🎨 Frontend Devs – Build UIs with real data.\n- 🧑🏻‍🔬 Rollup Builders – Fine-tune network configurations.\n- 🧑🏻‍🚀 Dapp Builders – Test your app on a real network.\n- 🧑🏻‍💼 Hackers & Experimenters – Play around without limits.\n\n## Download\n\n- On macOs (Apple chip), install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-arm64.dmg)\n- On macOs (Intel chip), install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1.dmg)\n- On Windows x64, install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-win.zip)\n- On Windows x32, install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-ia32-win.zip)\n",
+        "lastUpdated": 0,
+        "projectGithub": "Nerd3Lab",
+        "projectTwitter": "Nerd3Lab"
+      },
+      "recipient": "0x967bb9C300AeB9C7dd28b1c8182517f9A57804bd"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "SuperUI",
+      "logoImg": "bafkreiezygcinhmcu4loyvwa2paqgx7iergzymzkixqll5yloquiwxq2d4",
+      "website": "https://www.superui.app",
+      "bannerImg": "bafkreidlvqj6ufmf5yxtyi3khyjulevzhs3uvjy3atrya2r74t2bfborym",
+      "createdAt": 1743175299275,
+      "userGithub": "frongrider2",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T15:43:12.458Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x5a153f3f127dd5977d31014700aa974541d05d94c27a68857ddf2dd719ce38ce39e884edc59c3438950486e7119ff7046d7771e04787fd245650aebb020665631c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T15:43:12.458Z",
+          "expirationDate": "2025-06-26T15:43:12.458Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xe72978Edd14db33905636aB21e4Fe1D8a325ba0d",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Nerd3Lab#53909989",
+            "nullifiers": [
+              "v0.0.0:rnY/EPd2f1DWlWXZ4gQQfhm1Oj8cw1WPDNsr5tG7eWU="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T15:34:57.894Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x53fc1c6a749dbd4be7ad07fff47b1475e9ed501505aebc835db7ed3c5b76b0c00419f605c14712af62730096e46b6f1459c734ef531aee98fa6cf0d1dc78ac611c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T15:34:57.893Z",
+          "expirationDate": "2025-06-26T15:34:57.893Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xe72978Edd14db33905636aB21e4Fe1D8a325ba0d",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#Nerd3Lab",
+            "nullifiers": [
+              "v0.0.0:Keu4cejzUEb63+scTsgIXYyTDuhCUFVTMXzmfTIhFsg="
+            ]
+          }
+        }
+      },
+      "description": "## About SuperUI\n\n🚀 The Ultimate Ethereum & Superchain Development Playground\n\n### Introduction\nSuperUI is an User Interface for Supersim that can simulate and run local chain or fork chain designed to make building on Superchain easier. We provide a user-friendly interface for testing, simulating, and debugging OP Stack applications. With SuperUI, you can fork networks, deploy smart contracts, and inspect chain state—all without relying solely on CLI commands. Our goal is to simplify the development process and support builders in creating seamless Superchain applications.\n\n- **Run local superchain** One click to run up local superchain including layer1 chain and 2 layer2 chains.\n- **Fork Any Superchain L2** Clone OP Mainnet, Base, and more for testing.\n- **Layer 2 Devnet** Deploy new chains in seconds, no RPC setup required.\n- **Pre-funded Test Accounts** Skip the faucet; start testing immediately.\n- **Developer tools built-in** Compatible\n- **Deploy Contract** Simple contract deployment on local test network.\n- **Contract Management** view and call contract functions. with abi import.\n- **Transaction History** Track all your transactions.\n\n## Who is this for?\n\n- 👩🏻‍💻 Superchain Devs – Develop on Dapp on Superchain.\n- 👩🏻‍💻 Smart Contract Devs – Test deployments instantly.\n- 🧑🏻‍🎨 Frontend Devs – Build UIs with real data.\n- 🧑🏻‍🔬 Rollup Builders – Fine-tune network configurations.\n- 🧑🏻‍🚀 Dapp Builders – Test your app on a real network.\n- 🧑🏻‍💼 Hackers & Experimenters – Play around without limits.\n\n## Download\n\n- On macOs (Apple chip), install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-arm64.dmg)\n- On macOs (Intel chip), install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1.dmg)\n- On Windows x64, install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-win.zip)\n- On Windows x32, install superUI with download link [here](https://github.com/Nerd3Lab/superUI/releases/download/v1.2.1/SuperUI-1.2.1-ia32-win.zip)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Nerd3Lab",
+      "projectTwitter": "Nerd3Lab"
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "id": "58",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xfb5966e66536dceb70d9155ffa266855110a7001723c5887fb2fa9f4aeee5919",
+  "metadata": {
+    "signature": "0x915667208d0b32c1222830a6cb0d655adb5a786f40bf2a5aebf2d3a27e17a3182548a672a8f320fa1acf7a8dd81d61a2c4c6f0cb3574974fdc6c7fcdd0039f741b",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "timothee.delabrouille@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "tdelabro",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/nutty-raccoon/paynet",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/+D32ToP1iP6o1OGM0",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "no",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "It will allow any asset on any chain to be used as a private means of payment for in-person purchases. This unlocks a massive adoption by businesses.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Privacy:\nour protocol is inspired by chaumian ecash, and guarantee privacy of all transactions\nInteroperability: \nour protocol, by being off-chain, act as an off-chain bridge between all supported chains\nUser experience:\nwe unlock tap to pay e2e payment in crypto, without having to go through Visa/mastercard crypto-card, like all of the existing solutions. We do crypto end-to-end. ",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "It addresses the issue of actually using your crypto assets to purchase actual goods and services.\nBridging the gap between the real economy and the blockchain assets.\n\nIt improves by:\n- being crypto e2e. The shop receive the crypto you spend, not some FIAT.\n- adding privacy. Nobody can follow your transactions, not even the service providers.\n- improving on UX. No qrcode, no transaction, no finality. Just tap to pay.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "At this point, we already build the proof of concept. We have the bare minimul to do the whole flow on a local testnet and with a CLI wallet.\n\nThe roadmap from there is:\n1. next couple of weeks\n- a bit of cleanup and bug fixing\n- deploy on sepolia and have people to try it out (community call, …)\n2. next couple month\n- develop the mobile apps\n- solidify the codebase by increasing code coverage (unit, integration, e2e scenario, mocked failing services)\n- add a few quality of life features on top of the core protocol (key recovery is one exemple)\n3. launch in Buenos Aire (around June)\n\nIf we respect this plan, we should be live on mainnet in Argentina in June. This will leave us with 5 month to build and expland business until Devconnect Buenos Aires, which is our catalyser event (lot of crypto native foreigner comming into town and in need to spend their money). Hopefully, if we have good metrics at devconnect we will be in a good position to raise a first round.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "The project is open-source and the protocol is designed so that anyone can run its own node. So we want to collaborate with different institution, companies and local communities that would run their own node, and therefore provide the service for themselves and their users.\nWe are building a network, not a centralized solution.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "Nothing deployed so far.\nWe started developement on Starknet (as it is the chain we are most familiar with), but are eager to onboard new chains and ecosystem.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xfb5966e66536dceb70d9155ffa266855110a7001723c5887fb2fa9f4aeee5919",
+        "title": "paynet",
+        "metaPtr": {
+          "pointer": "bafkreigvnh6ikjop3uwcu7xfgvt4ckl3n3xvjoyxfx6htktmdtbcxavh7a",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/nutty-raccoon/paynet",
+        "createdAt": 1743445732613,
+        "userGithub": "tdelabro",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T18:19:03.185Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x338e501d7cd60ff9677f42305b8ec35c3fcf92e2a7a1e6d0ae7ba4d5be17117b0015570b5788990c3e5b4b68306c910218ca82792b15ac2fe7a44fe0f4cde4f41c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T18:19:03.184Z",
+            "expirationDate": "2025-06-29T18:19:03.184Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x157018C40D7BCcf3A2683fbd7E9D9A2E9f60eF77",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#nutty-raccoon#34384633",
+              "nullifiers": [
+                "v0.0.0:25gGWjakEKpqSPjgDtTVavMItY2uTe6XOpJykssEmMM="
+              ]
+            }
+          }
+        },
+        "description": "We are building a crypto payment terminal for physical shops.\nTo provide the best payment experience to day (tap to pay), we take a step back and build an off-chain architecture. Inspired by chaumian ecash, our design allows for cheap and private transfer over simple HTTP calls. Any asset on any chain can now be used for daily payment.\nWe will be launching in 2 months in Argentina, and then onboard shops and business until Devconnect Buenos Aires in November.",
+        "lastUpdated": 0,
+        "projectGithub": "nutty-raccoon",
+        "projectTwitter": "tdelabro"
+      },
+      "recipient": "0x157018C40D7BCcf3A2683fbd7E9D9A2E9f60eF77"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "paynet",
+      "website": "https://github.com/nutty-raccoon/paynet",
+      "createdAt": 1743445732613,
+      "userGithub": "tdelabro",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T18:19:03.185Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x338e501d7cd60ff9677f42305b8ec35c3fcf92e2a7a1e6d0ae7ba4d5be17117b0015570b5788990c3e5b4b68306c910218ca82792b15ac2fe7a44fe0f4cde4f41c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T18:19:03.184Z",
+          "expirationDate": "2025-06-29T18:19:03.184Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x157018C40D7BCcf3A2683fbd7E9D9A2E9f60eF77",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#nutty-raccoon#34384633",
+            "nullifiers": [
+              "v0.0.0:25gGWjakEKpqSPjgDtTVavMItY2uTe6XOpJykssEmMM="
+            ]
+          }
+        }
+      },
+      "description": "We are building a crypto payment terminal for physical shops.\nTo provide the best payment experience to day (tap to pay), we take a step back and build an off-chain architecture. Inspired by chaumian ecash, our design allows for cheap and private transfer over simple HTTP calls. Any asset on any chain can now be used for daily payment.\nWe will be launching in 2 months in Argentina, and then onboard shops and business until Devconnect Buenos Aires in November.",
+      "projectGithub": "nutty-raccoon",
+      "projectTwitter": "tdelabro"
+    }
+  }
+}

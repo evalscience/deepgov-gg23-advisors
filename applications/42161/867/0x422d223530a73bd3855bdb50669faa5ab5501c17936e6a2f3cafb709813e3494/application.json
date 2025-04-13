@@ -1,0 +1,383 @@
+{
+  "id": "160",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x422d223530a73bd3855bdb50669faa5ab5501c17936e6a2f3cafb709813e3494",
+  "metadata": {
+    "signature": "0x9f6f1141ddb20f4c34814a933745695aa2e16e8a6f8b4e2f2593cc0d254725a25cfdd1ef24bcc9a0d11cb15c00b168fb55760263edaeeb5418284ddb21b6d80d1b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "cryptonomad@veracura.network",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@xcryptonomad",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Vera3Org/veracura-contracts",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/veracura_vera3",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our smart contracts are open-source, hosted in a public GitHub repository, and modular by design, meaning other nonprofits can adapt them for their own initiatives. \n\nSo both \"donate-to-mint\" and the \"onchain referral\" functions can be used to empower a broader ecosystem of impact-driven projects.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "1.  Donate-to-mint membership (on KYC condition).\n\n2. Three-Level Onchain Referral System\n\n3. Membership's Lottery.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Let’s consider a reasonable $30k budget. We would allocate it as follows:\n\n- $13k for team operations that brought us to this point today.  \n\n- $7k for final product development and a bug bounty with Hacken (pre-agreed), plus the product’s final phase.  \n\n- $10k for project management, marketing, and sales to onboard the first 100 patrons (over 3 months). This would also provide more liquidity to keep pushing forward, triggering a cascade effect.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x350a3b9d65b0c5e1ac1861ede5ee7f230d7c8063, 8453\n0x4953a2B6E30F0e0c44d30eBCA833CeFc59249d44, 8453\n0x2f65eeBF86875988484C3ec697D4c7b26b20Aae0, 8453\n0x61ef41eaaC9540dC015C3BD8A631Af5209FA2F4a, 8453\n0x9510a56002b7f8c489c86b3ff77B63e13a6599DD, 8453\n0xef48D2C7E6BeFB54A270FC44cab56a7Fa444D37e, 8453\n0x9800b9C6267619e9ceF08F47Fd5dec94A2D303C8, 8453",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x422d223530a73bd3855bdb50669faa5ab5501c17936e6a2f3cafb709813e3494",
+        "title": "Animal Social Club",
+        "logoImg": "bafkreigonakghychlncr26re4zzujfugsdtwhtym4zzxwxk5sbkiiz3iee",
+        "metaPtr": {
+          "pointer": "bafkreie4c2l2sezmnin5jxfjz26fgtgabn2k7taanm6p5q4vjatu5w7hya",
+          "protocol": "undefined"
+        },
+        "website": "https://animalsocialclub.org",
+        "bannerImg": "bafkreiadrqcecl4bjjmqsipcp36aqdznhylugddbi2jzmb6ntdpriprkgm",
+        "createdAt": 1743437632261,
+        "userGithub": "",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T15:51:44.773Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x42afffce75904dbaf4f620e83e724481d53371ba390d64909900007febdc6fde0449d9c751d1129ca3caa0206f3b8cf74479ff9ae4154e7a043d6765aed3f8051c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T15:51:44.773Z",
+            "expirationDate": "2025-06-29T15:51:44.773Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ED5dC3A5FdCc94cb8Fe2D97eBc9deeB5C0e4277",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Vera3Org#112173827",
+              "nullifiers": [
+                "v0.0.0:d2bF9x84/KlXY8YXKmcWxM2Wyuhr6ks+UJPum1WknmQ="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T15:51:30.466Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x5284fa93b9b3f1702a6084b12038e6f758dea9b2e7c9717f8a8a7226e843673e186d548f538143fa0d049db2744c3cfff281736b55fe41d8b02bb7fc6605e56a1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T15:51:30.466Z",
+            "expirationDate": "2025-06-29T15:51:30.466Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ED5dC3A5FdCc94cb8Fe2D97eBc9deeB5C0e4277",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#anmlsc",
+              "nullifiers": [
+                "v0.0.0:cJDNsUaZOA6GAvM5weq0o9wRuvss+WJJ8g81Ls+UvFY="
+              ]
+            }
+          }
+        },
+        "description": "**Animal Social Club: Web3 Meets Wildlife Conservation**\n\nAnimal Social Club isn't just a name – it's a movement. From a legendary music and arts club to a global nonprofit initiative, **we're creating natural reverves (oases) while throwing wild parties that fuel our cause.**\n\n*Our main initiative in Colombia with Inhabit.one: https://docsend.com/view/9xg5gcca8vpd9njj* \n\n*Pinned thread: https://x.com/anmlsc/status/1892600530679013696*\n\n- How?\n\nWe’re pioneering a unique **circular economy model** where the revenue generated at our parties will be used to back financially the oases - protected havens for wildlife and biodiversity. \n\nThis isn’t just a parties' house with a purpose; it’s a scalable, community-powered engine for environmental good.  \n\n*Current Ecosystem: https://drive.google.com/file/d/1UiW5vnBqrvGzjsf8d1pgVvYH8HsbaN2r/view?usp=sharing*\n\n\n- Why Web3? \n\n**Crowdfunding + Community, Reimagined.**\nBuilt on Web3 principles, Animal Social Club leverages custom smart contracts to move forward fundraising and engagement. \n\nOur system is designed around two key functions:  \n\n1. **Donate-to-Mint:** Supporters contribute to our cause and receive unique digital assets in return, fostering a tangible connection to the mission.\n\n2. **3-Level Onchain Referral System:** A transparent, incentivized framework that amplifies community growth and rewards participation.\n\nOur **contracts are open-source**, hosted in a public GitHub repo, *and modular by design*, meaning other nonprofits can adapt them for their own initiatives. This isn’t just about Animal Social Club; it’s about **empowering a broader ecosystem of impact-driven projects.** \n\n\n- Who We Are:\n\nThis project is **coordinated by Veracura.Network** and brought to life by Vera3, Veracura’s dedicated Web3 innovation unit. \n\nTogether, we’re blending culture, technology, and conservation to build a future where nature thrives. And yeah, everyone’s invited to the party!\n\n\n- Why Gitcoin?\n\nWith Gitcoin’s support, we can accelerate the development of our smart contracts and MVPs, expand our oases and parites network, and onboard more communities into this decentralized dream.\n\n**Choose the wild side. Act Now.**",
+        "lastUpdated": 0,
+        "projectGithub": "Vera3Org",
+        "projectTwitter": "anmlsc"
+      },
+      "recipient": "0x1308bcb001ed5a83b7a65b6edc654ff0b95d9115"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 8453,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "id": "23",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x5103b62b44ea110b8f907fa57c2684a8a03962da5414f18dd63f680f861c57cb",
+  "metadata": {
+    "signature": "0x6f6c5f500f32daf0e8662416953b1c9e0137328c99a654d700dc38ceb48c4ab03c9d1416852d8e2185fcd61dc50dbfa1ea565f42a169eba29fcda0ceb70e902a1b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "chnejohnson@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "johnson86tw",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/ethaccount",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/+pLwZxOdgdBg3ZTRl",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, I participated in GG22 OSS - Developer Tooling and Libraries with the same project, which was previously named Vue Dapp and is now updated to Ethaccount.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The majority of dApps are developed using React, but the Ethaccount toolchain, including Vue Dapp, aims to pave the way for an alternative using Vue.\n\nsendop.js and ethaccount-vue improve permissionless interactions in the account abstraction ecosystem. They provide an alternative interface, allowing Ethereum accounts from one app to be used across others, offering users more flexibility and interoperability without depending on a specific app’s interface or SDK.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Vue Dapp: Simplifies wallet integration in dApps by managing reactive wallet states, reducing the complexity for developers.\n- sendop.js: Offers an abstracted interface for ERC-4337 contracts, allowing developers to customize user operations with interchangeable components, speeding up development.\n- ethaccount-vue: Focuses on interoperability and permissionless access, enhancing security by allowing smart account management across platforms.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The GitHub dependency graph provides a list of projects developed using Vue Dapp. Currently, there are 198 projects utilizing Vue Dapp on GitHub.\n\nhttps://github.com/ethaccount/vue-dapp/network/dependents\n",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The funds raised will be used for the development costs of this project. Below is a possible roadmap for the next three months following GG23.\n\n### Milestone 1  \n- Develop a robust connection flow and components for smart accounts, enabling users to switch between signers and manage their accounts seamlessly.  \n- Implement transaction-sending capabilities with support for batch transactions and modular management.  \n- Integrate paymaster services, allowing users to freely choose their preferred option.\n\n### Milestone 2  \n- Design an interface for managing session keys, including listing, granting, and revoking permissions.  \n- Build a scheduling system for transfers and swaps, powered by a backend service for automated execution.  \n\n### Milestone 3  \n- Optimize the application for a smooth user experience, ensuring full functionality on both the mainnet and L2 networks.\n- Provide reusable components and libraries for developers to easily integrate into their dApps.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "This project uses multiple open-source contracts and has no official deployed address yet.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x5103b62b44ea110b8f907fa57c2684a8a03962da5414f18dd63f680f861c57cb",
+        "title": "Ethaccount",
+        "logoImg": "bafkreiaagbhj6v2tmlp4u7aqe5isqw66dksx7twjc6zfkb46mgy7wokhhu",
+        "metaPtr": {
+          "pointer": "bafkreihza4sbiuojwmswjtwjkpptkmxqeywiaif3ehu36o7ttf4txlx4ly",
+          "protocol": "undefined"
+        },
+        "website": "https://ethaccount.onrender.com",
+        "bannerImg": "bafkreibmaro6ospipqlpaaudj6snrwnbvys76fm3vgy4lhramx5jez4rki",
+        "createdAt": 1673076191352,
+        "userGithub": "johnson86tw",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-25T04:55:33.337Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xf43383b25dc0928fe6b64ee9d169487c3bf3973c3477406f648c8179178486715cac3b9c83a1682d8a064a1b432153426deb02ff9d04ea717fb02274f8a1cffc1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-25T04:55:33.337Z",
+            "expirationDate": "2025-06-23T04:55:33.337Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x96A4715280c3Dac3F3093d51aA278aA5eb60ffDE",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#ethaccount#31992185",
+              "nullifiers": [
+                "v0.0.0:SgCZXyLTpl5n39HMoSP7HfLw9tB79+3xsAt7A/MHqv8="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qoZHP_dAVexDO9NNRB0c4xZg5oCEfjx7XXYNNT47thZ4zI2LR2J-4bUoIsX_S-G_T4NyCvMgVXYpbGpfDzhYCg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-15T00:17:00.160Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-15T00:17:00.160Z",
+            "expirationDate": "2024-07-14T00:17:00.160Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x96A4715280c3Dac3F3093d51aA278aA5eb60ffDE",
+              "hash": "v0.0.0:kMT0bbeCbc8x2eNklMj0mbp1zY/pgLIXfPgLaU06JLY=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#johnson86tw"
+            }
+          }
+        },
+        "description": "## Project Description\nEthaccount is an open-source collection of developer tools and applications, evolving from its original project, Vue Dapp, to provide alternative solutions based on existing toolchains. It has expanded from EOA wallet connectivity to account abstraction applications.\n\nBelow are descriptions of three projects within Ethaccount:\n\n## Vue Dapp\nA TypeScript library built on the Vue framework that simplifies wallet integration in dApps, by managing reactive wallet states to keep the user's account information in sync.\n\nhttps://github.com/ethaccount/vue-dapp\n\n## sendop.js\nA TypeScript library for sending user operations for ERC-4337 contracts and smart accounts.\n\nIt uses ethers.js as a utility and provides an abstracted interface, allowing developers to customize user operations based on ERC-4337-compliant contracts. \n\nWith interchangeable bundlers, paymasters, and ERC-7579 validators, developers can integrate or build their own components as needed, offering a flexible development experience.\n\nhttps://github.com/ethaccount/sendop\n\n## ethaccount-vue\nAn app is being developed to provide smart account management by enabling connections, transaction submissions, and module management.\n\nIt's useful for users interested in exploring smart accounts and for those who want to use their smart account on third-party websites, focusing on interoperability and open access.\n\nIt currently supports Kernel and Nexus and will explore support for more smart accounts in the future. It will also integrate various paymaster services, such as Pimlico and Circle Paymaster. More features and enhancements will be continuously developed.\n\nhttps://github.com/ethaccount/ethaccount-vue",
+        "lastUpdated": 0,
+        "projectGithub": "ethaccount",
+        "projectTwitter": "johnson86tw"
+      },
+      "recipient": "0x9D75F4EbcB8e7669E59dcc27CBadC698E0F77187"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Ethaccount",
+      "logoImg": "bafkreiaagbhj6v2tmlp4u7aqe5isqw66dksx7twjc6zfkb46mgy7wokhhu",
+      "website": "https://ethaccount.onrender.com",
+      "bannerImg": "bafkreify4xfl7i4xqmheq5nesmgpw7shi7g2dakrjstgum7z7w4ae2ynam",
+      "createdAt": 1673076191352,
+      "userGithub": "johnson86tw",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-25T04:55:33.337Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xf43383b25dc0928fe6b64ee9d169487c3bf3973c3477406f648c8179178486715cac3b9c83a1682d8a064a1b432153426deb02ff9d04ea717fb02274f8a1cffc1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-25T04:55:33.337Z",
+          "expirationDate": "2025-06-23T04:55:33.337Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x96A4715280c3Dac3F3093d51aA278aA5eb60ffDE",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#ethaccount#31992185",
+            "nullifiers": [
+              "v0.0.0:SgCZXyLTpl5n39HMoSP7HfLw9tB79+3xsAt7A/MHqv8="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qoZHP_dAVexDO9NNRB0c4xZg5oCEfjx7XXYNNT47thZ4zI2LR2J-4bUoIsX_S-G_T4NyCvMgVXYpbGpfDzhYCg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-15T00:17:00.160Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-15T00:17:00.160Z",
+          "expirationDate": "2024-07-14T00:17:00.160Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x96A4715280c3Dac3F3093d51aA278aA5eb60ffDE",
+            "hash": "v0.0.0:kMT0bbeCbc8x2eNklMj0mbp1zY/pgLIXfPgLaU06JLY=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#johnson86tw"
+          }
+        }
+      },
+      "description": "Ethaccount is an open-source collection of developer tools and applications, evolving from its original project, Vue Dapp, to provide alternative solutions based on existing toolchains. It has expanded from EOA wallet connectivity to account abstraction applications.\n\nBelow are descriptions of three projects within Ethaccount:\n\n## Vue Dapp\n\nA TypeScript library built on the Vue framework that simplifies wallet integration in dApps, by managing reactive wallet states to keep the user's account information in sync.\n\nhttps://github.com/ethaccount/vue-dapp\n\n## sendop.js\nA TypeScript library for sending user operations for ERC-4337 contracts and smart accounts.\n\nIt uses ethers.js as a utility and provides an abstracted interface, allowing developers to customize user operations based on ERC-4337-compliant contracts.  \n\nWith interchangeable bundlers, paymasters, and ERC-7579 validators, developers can integrate or build their own components as needed, offering a flexible development experience.\n\nhttps://github.com/ethaccount/sendop\n\n## ethaccount-vue\n\nAn app is being developed to provide smart account management by enabling connections, transaction submissions, and module management.\n\nIt's useful for users interested in exploring smart accounts and for those who want to use their smart account on third-party websites, focusing on interoperability and open access.\n\nIt currently supports Kernel and Nexus and will explore support for more smart accounts in the future. It will also integrate various paymaster services, such as Pimlico and Circle Paymaster. More features and enhancements will be continuously developed.\n\nhttps://github.com/ethaccount/ethaccount-vue",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "ethaccount",
+      "projectTwitter": "johnson86tw"
+    }
+  }
+}

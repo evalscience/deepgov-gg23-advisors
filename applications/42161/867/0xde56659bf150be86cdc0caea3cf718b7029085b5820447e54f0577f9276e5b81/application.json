@@ -1,0 +1,383 @@
+{
+  "id": "131",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xde56659bf150be86cdc0caea3cf718b7029085b5820447e54f0577f9276e5b81",
+  "metadata": {
+    "signature": "0x3dcf74e4a8d60fc8f94417905963a3a9fd51dd3e2402c4ac3e4cea7b165e08933b06b6236ac516bf6e4d0fec95d7a1f5b878202e6ca6342f54ab69084a2051511c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "joel+gitcoin@stigmergic.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@joelthorst",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/stigmergic-org/dapprank",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/+rjWKPmDxabo1YmRk",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Nope",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "DappRank creates a public arena which inspires developers to build more open source and secure dapps.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Scores dapps based on their censorship resistance\n- Compare popular dapps\n- Analyze risks in popular dapps in three categories (software distribution, networking/reliance on external services, and web3 functionality)",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Create better analysis breakdowns for developers\n- Make it easier for the average user to understand the various risks\n- Work on various ways to improve the dapp ecosystem on Ethereum overall\n\nFunds will primarily go towards infrastructure cost, and secondarily towards feature development. ",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "n/a",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xde56659bf150be86cdc0caea3cf718b7029085b5820447e54f0577f9276e5b81",
+        "title": "Dapp Rank",
+        "logoImg": "bafkreig3r26xofh54oacpzmflyuvylfvvz7tpxodsnaukvxvb67xgzlmgu",
+        "metaPtr": {
+          "pointer": "bafkreigsira3s66bfeiqg7mrweeenxgh46uqdlginhki7wt7tibbs7lu6e",
+          "protocol": "undefined"
+        },
+        "website": "https://dapprank.eth.link",
+        "bannerImg": "bafkreialifa5qsocd4u37jbtkhqnydeduy6ggkwfmf6ce3wkdbyyg2gvhu",
+        "createdAt": 1743256181707,
+        "userGithub": "oed",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-29T14:02:43.880Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xa675bd40efda223d055606b3a3b566067f34b0cf56ee2186ccf5bbe3da1e38c46e97b0f4e6a66ff00f464d68651a7239ffa6fb565183a0c195bfefb7b77431381b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-29T14:02:43.880Z",
+            "expirationDate": "2025-06-27T14:02:43.880Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2e1AA78254dC5f619820F96BB276121Ae0AfbA8a",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#stigmergic-org#3909429",
+              "nullifiers": [
+                "v0.0.0:R36+RomqFUcaXuG+AHNUXdpvJAuzgZzpAtS7E131C/4="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-29T14:03:01.219Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x3a2992f48358575aab46835242eda140632d796e8a104a5660ab5ab9241bbfbf114c4dea1b7b875f9fa4f04bc9252e677e49ad0c537fcb67100e8d63130a400b1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-29T14:03:01.219Z",
+            "expirationDate": "2025-06-27T14:03:01.218Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2e1AA78254dC5f619820F96BB276121Ae0AfbA8a",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#joelthorst",
+              "nullifiers": [
+                "v0.0.0:UruoSl1ZIPUox/8Yx2FUMzf0L4dFVA0OGuuSk+7Zbhw="
+              ]
+            }
+          }
+        },
+        "description": "**Dapp Rank is here to change the game for censorship-resistant applications in Ethereum.**\n\nIn a world where apps can be taken down at any moment—by companies, governments, or even abandoned by developers—users need reliable tools that last. Dapp Rank makes it easy to assess the true resilience of decentralized apps (dapps), helping users choose wisely and giving developers a clear path to improve.\n\n**🤨 Why is this critical?**\n\nMost builders today make trade-offs. True decentralization—using ENS + IPFS—can be hard, if done incorrectly it could lead to slower growth and adoption. But it doesn't need to be this way, and the stakes are too high to ignore. We've seen projects vanish overnight due to censorship or control, leaving users stranded. We've also seen web2 infrastructure compromised, leading to $ billions lost.\n\n💡 Dapp Rank rewards and guides the pioneers who go the extra mile to protect their users. By supporting this project, you’re helping create:\n✅ A trusted ranking system that highlights the most censorship-resistant dapps.\n✅ Actionable feedback for builders to improve their decentralization.\n✅ A stronger Ethereum ecosystem that protects its users, no matter what.",
+        "lastUpdated": 0,
+        "projectGithub": "stigmergic-org",
+        "projectTwitter": "joelthorst"
+      },
+      "recipient": "0x2e1AA78254dC5f619820F96BB276121Ae0AfbA8a"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 1,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

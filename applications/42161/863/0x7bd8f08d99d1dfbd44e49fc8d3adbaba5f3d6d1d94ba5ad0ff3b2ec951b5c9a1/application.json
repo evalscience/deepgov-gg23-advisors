@@ -1,0 +1,237 @@
+{
+  "id": "22",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x7bd8f08d99d1dfbd44e49fc8d3adbaba5f3d6d1d94ba5ad0ff3b2ec951b5c9a1",
+  "metadata": {
+    "signature": "0xcfaa61551231132c2f8a3cf45973b427835f599baa66960a91f75cbd1df1d4dc6efe042e1c67114f5f1ceba424b1f4132519c000376c24c2f8c6a97b513d14ae1c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "wmitsuda@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "wmitsuda",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/otterscan/otterscan",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Otterscan is the most affordable way for regular people to run a mainnet block explorer locally. Since everything is local, everything is fast, private, and it runs on consumer grade hardware.\n\nIt is built on top of Erigon, currently the only ETH client able to run an archive node on consumer grade hardware (syncs in 1 day, takes ~1.7 TB; regular external SSDs do the work).\n\nOtterscan implements some non-standard JSON-RPC methods to extract additional information (e.g. internal ETH transfers) directly from Erigon DB.\n\nThen, we use this data with other public datasets (4bytes, Sourcify) to provide a 100% local block explorer. It is a SPA and requires only an Erigon archive node, no additional middleware (SQL DBs, indexers) is necessary.\n\nIt supports open standards like ENS, and widespread sources of info like Chainlink for getting historical price info directly from the archive, no external sources are needed.\n\nCommunity members have even made it available into a dappnode package.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Otterscan reduces dependencies on third-parties and provides faster access to onchain info, as well as adding a privacy layer to it.\n\nAlso, throught Otterscan APIs, users can have access to information regular nodes does not provide.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "GitHub stars: https://github.com/otterscan/otterscan/stargazers\n\nDocker Hub: +50K image pulls: https://hub.docker.com/r/otterscan/otterscan",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The grant funds will go to the project reserves in order to ensure long term project sustainability.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "this is not a smart contract project",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x7bd8f08d99d1dfbd44e49fc8d3adbaba5f3d6d1d94ba5ad0ff3b2ec951b5c9a1",
+        "title": "Otterscan",
+        "logoImg": "bafybeigoyezwswvwbedbf4b2gsr66tl5vfq5qdfiq3huwsivp37qmwd5ce",
+        "metaPtr": {
+          "pointer": "bafkreiehyjmxswthfspayfjuaj2mkfig2gcv72wbbkt6gdjplgiert4df4",
+          "protocol": "undefined"
+        },
+        "website": "https://otterscan.io",
+        "bannerImg": "bafybeidh22fvqahrapg4j5nuzkmsox3nrcghgqdkjn6zdvvaswaglh3b34",
+        "createdAt": 1673391009470,
+        "userGithub": "otterscan",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..PA38rbAmJIiIBD2zLvbSmxSznAtJno4AaCPWmbkUSgemE9d1TTt7h51PKzcS3-S_J-yzeyqXwDAfwQUcyPplCQ",
+              "type": "Ed25519Signature2018",
+              "created": "2023-08-11T18:06:16.214Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-08-11T18:06:16.214Z",
+            "expirationDate": "2023-11-09T18:06:16.214Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x35D1A101E55DA0C641e9379f2e4dfA3e2AE7F37b",
+              "hash": "v0.0.0:gMOvXqXInkFwoXeGPtrCrRO7kRkwmnH3hbzYtLxV5UE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#otterscan#28685"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..EnG9qAquZVIL_kO_bEh9Ua9d0NYWNTExzv0UY2ePHGKTKFB0C1AJ9OodML21AKUusD199--NvwWWo4_vOdV2AQ",
+              "type": "Ed25519Signature2018",
+              "created": "2023-08-11T18:05:52.191Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-08-11T18:05:52.190Z",
+            "expirationDate": "2023-11-09T18:05:52.190Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x35D1A101E55DA0C641e9379f2e4dfA3e2AE7F37b",
+              "hash": "v0.0.0:7ycSPQa1Uxj5m3/qUqvXCPcBN4xzsVjo9lKdkstqYbg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#otterscan"
+            }
+          }
+        },
+        "description": "Otterscan is an open-source, fast, local, laptop-friendly Ethereum block explorer",
+        "lastUpdated": 0,
+        "projectGithub": "otterscan",
+        "projectTwitter": "otterscan"
+      },
+      "recipient": "0xB9eb4E2Eca1aeC7ecaec61e8257386E437a355d3"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Otterscan",
+      "logoImg": "bafybeigoyezwswvwbedbf4b2gsr66tl5vfq5qdfiq3huwsivp37qmwd5ce",
+      "website": "https://otterscan.io",
+      "bannerImg": "bafybeidh22fvqahrapg4j5nuzkmsox3nrcghgqdkjn6zdvvaswaglh3b34",
+      "createdAt": 1673391009470,
+      "userGithub": "otterscan",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..PA38rbAmJIiIBD2zLvbSmxSznAtJno4AaCPWmbkUSgemE9d1TTt7h51PKzcS3-S_J-yzeyqXwDAfwQUcyPplCQ",
+            "type": "Ed25519Signature2018",
+            "created": "2023-08-11T18:06:16.214Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-08-11T18:06:16.214Z",
+          "expirationDate": "2023-11-09T18:06:16.214Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x35D1A101E55DA0C641e9379f2e4dfA3e2AE7F37b",
+            "hash": "v0.0.0:gMOvXqXInkFwoXeGPtrCrRO7kRkwmnH3hbzYtLxV5UE=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#otterscan#28685"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..EnG9qAquZVIL_kO_bEh9Ua9d0NYWNTExzv0UY2ePHGKTKFB0C1AJ9OodML21AKUusD199--NvwWWo4_vOdV2AQ",
+            "type": "Ed25519Signature2018",
+            "created": "2023-08-11T18:05:52.191Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-08-11T18:05:52.190Z",
+          "expirationDate": "2023-11-09T18:05:52.190Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x35D1A101E55DA0C641e9379f2e4dfA3e2AE7F37b",
+            "hash": "v0.0.0:7ycSPQa1Uxj5m3/qUqvXCPcBN4xzsVjo9lKdkstqYbg=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#otterscan"
+          }
+        }
+      },
+      "description": "Otterscan is an open-source, fast, local, laptop-friendly Ethereum block explorer",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "otterscan",
+      "projectTwitter": "otterscan"
+    }
+  }
+}

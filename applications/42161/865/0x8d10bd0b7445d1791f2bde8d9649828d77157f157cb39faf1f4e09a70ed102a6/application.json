@@ -1,0 +1,542 @@
+{
+  "id": "59",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x8d10bd0b7445d1791f2bde8d9649828d77157f157cb39faf1f4e09a70ed102a6",
+  "metadata": {
+    "signature": "0x996effacf22701285d0c49f0f7c19736489c5dbe96f8eee915fb52fba2e2eab642bf3820f1fc08e595e51255caa3a113e916555f148803db81bfab515cef2e451b",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "vengist@proton.me",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "vengist",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Guild-Guild-Org/guildguildxyz",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/invite/XbAqvWptsq",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No, this is the first time Guild Guild is participating in a grant round.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Protocol Guild has demonstrated the power of the guild model by aggregating over $7M in funding for Ethereum core contributors who previously lacked sustainable support. Guild Guild extends this model to enable more contributor groups to achieve similar sustainability. By reducing the coordination costs for both builders and funders, we strengthen the entire ecosystem's ability to support critical infrastructure work.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Self-Curating Registry (SCR) architecture provides an interoperable foundation for guild formation, combining Moloch v3 for governance, 0xSplit for distribution, and other primitives into a cohesive pattern that any contributor group can implement. This modular approach ensures guilds can interact seamlessly with the broader Ethereum ecosystem.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We address the fundamental sustainability gap for Ethereum public goods contributors who currently rely on grant-to-grant survival. Unlike traditional funding mechanisms that create temporary support, guilds create persistent infrastructure for value capture and redistribution. By focusing on organizational models rather than just funding mechanisms, we enable contributors to transition from grant dependency to sustainable funding flows.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Grant funds will support our research team in documenting successful guild patterns, developing the knowledge commons, distributing microgrants to tool builders, and providing direct support to forming guilds. Our roadmap focuses on making the guild model accessible to contributor groups across the ecosystem through education, tooling, and hands-on support.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "By enabling sustainable funding for specialized contributor groups, we help ensure that critical infrastructure, security research, and protocol development can continue without centralized funding dependencies. The guild model creates decentralized coordination points where expertise can aggregate and sustain itself through diverse funding sources, strengthening Ethereum's overall security and resilience.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x0059fFAF9ecBBc56FAe2dbeea520106e820a19Ce",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x8d10bd0b7445d1791f2bde8d9649828d77157f157cb39faf1f4e09a70ed102a6",
+        "title": "Guild Guild",
+        "logoImg": "bafkreib7wfopbnpqqiwg6fhyhfdamjleuakrbluf2ydk7jib7bmlwsvtza",
+        "metaPtr": {
+          "pointer": "bafkreib37h7ckmsaci4ow3et7doeeqz3av7ihk5mbpib3ptvkl6cgdbrfi",
+          "protocol": "undefined"
+        },
+        "website": "https://guildguild.xyz",
+        "bannerImg": "bafkreighpe5pzyxcls3jstdmzh6dit7h4tzybdzx45owkhg5byc77h233i",
+        "createdAt": 1743445121575,
+        "userGithub": "oovg",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T19:54:03.623Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x4c48638c84c6635bb479b2b730b637e745ec81f19e52409d85ad98ca9a899907682273c981369d65948977ebe355b1621e16f3a8cd728569aea91ee91e7ce2581c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T19:54:03.622Z",
+            "expirationDate": "2025-06-29T19:54:03.622Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xd26a3F686D43f2A62BA9eaE2ff77e9f516d945B9",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Guild-Guild-Org#23664663",
+              "nullifiers": [
+                "v0.0.0:z++oGp+cwLoT3nxnUTIIgPElMwxVDai2EBzAn43zZgw="
+              ]
+            }
+          }
+        },
+        "description": "# Guild Guild\n\nLocus of coordination to gather and distribute the means of Guilding on Ethereum\n\n\n## 🔍 Abstract\n\nGuild Guild is an organization that serves as a locus of coordination to gather and distribute the means of guilding within the Ethereum ecosystem. We recognize significant innovation potential in the simple form of organization pioneered by Protocol Guild, a self-curating registry and splitter, that we refer to as \"guilding\". We believe by propagating this mode of self-organization, we can support the self-sustainability of various types of contribution groups in Ethereum that typically struggle to maintain themselves beyond grant dependency.\n\nThe core functions of our group are three-fold: \n1. Build and maintain a knowledge commons around best practices for guilding\n2. Support the builders of tools useful to guilding\n3. Support the organizers of guilds in formation, operation, and fundraising\n\n## ⚡️ Impact\n\nThe health of the Ethereum ecosystem, as well as the broader open-source and public goods ecosystem, depends on diverse contributor groups that can operate sustainably. However, many teams struggle with the transition from initial grant funding to long-term sustainability.\n\nGuilds represent a powerful form of self-organization that reduces attention costs for both contributors and funders. They create legible group identities that reliably produce high-quality work in specialized domains, allowing members to focus on their craft while providing funders with confidence in where their resources flow. \n\nBy making this model accessible to a wider range of contributor groups, Guild Guild aims to strengthen the overall sustainability of Ethereum's contributor ecosystem. The guild model provides a viable mode of self-organization with broad optionality to fit many types of collective productivity, but requires accessible knowledge, suitable tooling, and organizational support to implement effectively. \n\n> Key Result within 6 months: 5 new Guilds with ~100 ethereum contributors that derive at least 30% of their funding from non-grant sources.\n\n## 🌐 Beyond Ethereum\n\nThe guild model extends beyond Ethereum, offering a blueprint for sustainable collaboration across diverse contributor groups.\n- Open source maintainer communities\n- Dependency graphs\n- Research collectives\n- Creative cooperatives\n- Educational networks\n- Local community organizations\n\n## 🛠️ What We're Building\n\n1. **Knowledge Commons** 📚\n   - Comprehensive documentation of guild patterns and best practices\n   - Step-by-step guides for guild formation and operation\n   - Case studies of successful implementations\n\n2. **Builder Support Program** 🔧\n   - Microgrants for developers creating guild infrastructure\n   - Open problem identification for critical tooling needs\n   - Integration of tools into knowledge commons\n\n3. **Guild Accelerator** 🌱\n   - Direct support to emerging guilds through workshops and office hours\n   - Community of practice for guild organizers\n   - Facilitation of knowledge sharing among implementations\n\n\n\n## 👥 Team\n\nOur organizing team brings together proven researchers, builders, and organizers with deep experience supporting public goods in the Ethereum ecosystem.\n\n- **Ven Gist**: Facilitation, research, design, facilitation (MetaCartel, DAOhaus, Public Nouns)\n- **Michael Zargham**: Research and systems architecture (Block.science)\n- **Graven Prest**: Product management and mechanism design (Flow State)\n- **James Waugh**: Ecosystem strategy and metacoordination (Fire Eyes)\n\nWith ecosystem support from **Kevin Owocki** (Gitcoin), **Joshua Tan** (MetaGov), **Rena O'brien** (Allo), and **Paul Wackerow** (Ethereum.org) and many others.\n\n\n## 🔗 Reference Material\n\n- [Guild Guild Website and Knowledge Commons](https://guildguild.xyz)\n- [Guild Guild Announcement](https://paragraph.xyz/@guildguild/guild-guild)\n- [Guild Guild Repo on GitHub](https://github.com/oovg/guildguildxyz)\n\n\n## Thanks for supporting the future of guilds\n\nWith proper support, this emerging ecosystem of guilds could evolve into a mycelial network of interconnected guilds - an adaptive system for capital allocation across the ecosystem. Like mycelium in nature, this network would direct resources to their highest impact points, develop specialized nodes for particular domains, and optimize decision-making by keeping tactical execution within appropriate local contexts.\n\n![gg_banner](https://hackmd.io/_uploads/ByPEW8Opyx.png)",
+        "lastUpdated": 0,
+        "projectGithub": "Guild-Guild-Org"
+      },
+      "recipient": "0x0059fFAF9ecBBc56FAe2dbeea520106e820a19Ce"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Guild Guild",
+      "logoImg": "bafkreib7wfopbnpqqiwg6fhyhfdamjleuakrbluf2ydk7jib7bmlwsvtza",
+      "website": "https://guildguild.xyz",
+      "bannerImg": "bafkreighpe5pzyxcls3jstdmzh6dit7h4tzybdzx45owkhg5byc77h233i",
+      "createdAt": 1743445121575,
+      "userGithub": "oovg",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T19:54:03.623Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x4c48638c84c6635bb479b2b730b637e745ec81f19e52409d85ad98ca9a899907682273c981369d65948977ebe355b1621e16f3a8cd728569aea91ee91e7ce2581c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T19:54:03.622Z",
+          "expirationDate": "2025-06-29T19:54:03.622Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xd26a3F686D43f2A62BA9eaE2ff77e9f516d945B9",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Guild-Guild-Org#23664663",
+            "nullifiers": [
+              "v0.0.0:z++oGp+cwLoT3nxnUTIIgPElMwxVDai2EBzAn43zZgw="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-07T18:02:27.572Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x15abde7d07fa979fc107720837fe347b317b2fff715cc29269ca0f09e831cb4b609911a514127e543453b152056e4f045d6660032b172e7619a07a76a444d90a1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-07T18:02:27.571Z",
+          "expirationDate": "2025-07-06T18:02:27.571Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xd26a3F686D43f2A62BA9eaE2ff77e9f516d945B9",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#guildguild_eth",
+            "nullifiers": [
+              "v0.0.0:SGjwXiVfftTlIGNtoYiqzKZlkZQIGzySqu+Whl2P3lw="
+            ]
+          }
+        }
+      },
+      "description": "# Guild Guild\n\nLocus of coordination to gather and distribute the means of Guilding on Ethereum\n\n\n## 🔍 Abstract\n\nGuild Guild is an organization that serves as a locus of coordination to gather and distribute the means of guilding within the Ethereum ecosystem. We recognize significant innovation potential in the simple form of organization pioneered by Protocol Guild, a self-curating registry and splitter, that we refer to as \"guilding\". We believe by propagating this mode of self-organization, we can support the self-sustainability of various types of contribution groups in Ethereum that typically struggle to maintain themselves beyond grant dependency.\n\nThe core functions of our group are three-fold: \n1. Build and maintain a knowledge commons around best practices for guilding\n2. Support the builders of tools useful to guilding\n3. Support the organizers of guilds in formation, operation, and fundraising\n\n## ⚡️ Impact\n\nThe health of the Ethereum ecosystem, as well as the broader open-source and public goods ecosystem, depends on diverse contributor groups that can operate sustainably. However, many teams struggle with the transition from initial grant funding to long-term sustainability.\n\nGuilds represent a powerful form of self-organization that reduces attention costs for both contributors and funders. They create legible group identities that reliably produce high-quality work in specialized domains, allowing members to focus on their craft while providing funders with confidence in where their resources flow. \n\nBy making this model accessible to a wider range of contributor groups, Guild Guild aims to strengthen the overall sustainability of Ethereum's contributor ecosystem. The guild model provides a viable mode of self-organization with broad optionality to fit many types of collective productivity, but requires accessible knowledge, suitable tooling, and organizational support to implement effectively. \n\n> Key Result within 6 months: 5 new Guilds with ~100 ethereum contributors that derive at least 30% of their funding from non-grant sources.\n\n## 🌐 Beyond Ethereum\n\nThe guild model extends beyond Ethereum, offering a blueprint for sustainable collaboration across diverse contributor groups.\n- Open source maintainer communities\n- Dependency graphs\n- Research collectives\n- Creative cooperatives\n- Educational networks\n- Local community organizations\n\n## 🛠️ What We're Building\n\n1. **Knowledge Commons** 📚\n   - Comprehensive documentation of guild patterns and best practices\n   - Step-by-step guides for guild formation and operation\n   - Case studies of successful implementations\n\n2. **Builder Support Program** 🔧\n   - Microgrants for developers creating guild infrastructure\n   - Open problem identification for critical tooling needs\n   - Integration of tools into knowledge commons\n\n3. **Guild Accelerator** 🌱\n   - Direct support to emerging guilds through workshops and office hours\n   - Community of practice for guild organizers\n   - Facilitation of knowledge sharing among implementations\n\n\n\n## 👥 Team\n\nOur organizing team brings together proven researchers, builders, and organizers with deep experience supporting public goods in the Ethereum ecosystem.\n\n- **Ven Gist**: Facilitation, research, design, facilitation (MetaCartel, DAOhaus, Public Nouns)\n- **Michael Zargham**: Research and systems architecture (Block.science)\n- **Graven Prest**: Product management and mechanism design (Flow State)\n- **James Waugh**: Ecosystem strategy and metacoordination (Fire Eyes)\n\nWith ecosystem support from **Kevin Owocki** (Gitcoin), **Joshua Tan** (MetaGov), **Rena O'brien** (Allo), and **Paul Wackerow** (Ethereum.org) and many others.\n\n\n## 🔗 Reference Material\n\n- [Guild Guild Website and Knowledge Commons](https://guildguild.xyz)\n- [Guild Guild Announcement](https://paragraph.xyz/@guildguild/guild-guild)\n- [Guild Guild Repo on GitHub](https://github.com/oovg/guildguildxyz)\n\n\n## Thanks for supporting the future of guilds\n\nWith proper support, this emerging ecosystem of guilds could evolve into a mycelial network of interconnected guilds - an adaptive system for capital allocation across the ecosystem. Like mycelium in nature, this network would direct resources to their highest impact points, develop specialized nodes for particular domains, and optimize decision-making by keeping tactical execution within appropriate local contexts.\n\n![gg_banner](https://hackmd.io/_uploads/ByPEW8Opyx.png)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Guild-Guild-Org",
+      "projectTwitter": "guildguild_eth"
+    }
+  }
+}

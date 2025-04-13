@@ -1,0 +1,245 @@
+{
+  "id": "13",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x3cae7aa84706f7032f4757311bcf2e2c632fc1383e5e0250e6a7ae599e8c2bc0",
+  "metadata": {
+    "signature": "0x1937ea170625805cc1e2289aabb8424030e5e9a56eac943b8c07ec43743f062d1f5a58fc121dc685672d36d02643dbac05d79d585563d0b5b96d1c9b254f88941c",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "ben@latenightsketches.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "numtel1",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/circuitscan",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/circuitscan",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, https://explorer.gitcoin.co/#/projects/0x3cae7aa84706f7032f4757311bcf2e2c632fc1383e5e0250e6a7ae599e8c2bc0",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Circuit verifier Solidity contracts verified on Etherscan are opaque to the viewer. There's no way to quickly check that they match the source code on Github. When users can see this match, they can be sure that there's no backdoors inserted clandestinely.\n\nVerified contracts on etherscan also come into play when a dapp's frontend becomes unusable. For a zk app with a missing frontend, Circuitscan provides a tool for generating proofs so that users never have to worry about being locked out.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Along the way of development of Circuitscan, I've made various improvements to the PSE P0seidon project frontend.\n\nCircuitscan uses a WASM-compiled version of Trail of Bits' Circomspect for in-browser static analysis of Circom sources.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Circuitscan is a circuit verifier explorer. Like verified contracts, a verified circuit verifier allows users to interact with applications directly if the frontend becomes unusable as well as ensures that the deployed source code matches the expected source code. Developers use a CLI to submit their circom sources to the verification server just like how Hardhat and Foundry submit deployed contracts to Etherscan. The frontend catalogs all verified submissions with source code and proving keys available for usage.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Funds will be used to:\n\n* Refactor the CLI internally so that it can be easily integrated with Circomkit\n* Update the Groth16 multi-verifier to match the updated Semaphore v4 deployment",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Rug pulls, scams, and hacks plague blockchain users. By developing strong tooling around the applications, we can mitigate these risks and increase confidence in the ecosystem.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "Circuitscan does no deploy any contracts of its own, it is a tool to inspect deployed ZK verifier contracts.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x3cae7aa84706f7032f4757311bcf2e2c632fc1383e5e0250e6a7ae599e8c2bc0",
+        "title": "Circuitscan",
+        "logoImg": "bafkreif5frsavcewkaiwdyivjd6imlpbx7l64wkaa3fatcucgps3gde7bu",
+        "metaPtr": {
+          "pointer": "bafkreibdnpbxagpq6pynmwccw2rcjfzg4lvkwgeb5jmztgirjak3dybfdm",
+          "protocol": "undefined"
+        },
+        "website": "https://circuitscan.org",
+        "bannerImg": "bafkreic5ywthrlyfxpqllt5dddllt2tqzgluo52z7vmxo27kytdwztcgbu",
+        "createdAt": 1712804309081,
+        "userGithub": "numtel",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Km80n0XeurueKf8aEZk86Y6lGRCTSsXXu1D-OTAvsufFQ-v8M2nvQFpkkmaaq21vfOXE1MREUftQ3jpSw1rVDA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-11T03:03:59.806Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-11T03:03:59.806Z",
+            "expirationDate": "2024-07-10T03:03:59.806Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a",
+              "hash": "v0.0.0:lfph5jC4kDu4PwcvAZSZnPvpD9dBofj/Brl860+V7o8=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#circuitscan#518698"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..3vGYuI3LDiWFBrUefpw3CsXZmM3qxyukoVeyTX_yzP3S7uLblu2Io_BlavB9hJXFedKfkNrevnubekPotV_PCw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-07-31T16:05:59.460Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-07-31T16:05:59.459Z",
+            "expirationDate": "2024-10-29T16:05:59.459Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a",
+              "hash": "v0.0.0:H5iIpieAtvwll5hMWXHma9EgGZkf0UMKyw2y5kNumHY=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#numtel1"
+            }
+          }
+        },
+        "description": "Circuitscan provides the same safety guarantees to circuit verifier contracts as normal smart contracts receive by verifying their source code on a block explorer: guaranteed access to the application even if their frontend becomes unavailable as well as the ability to review the source code for potential issues.\n\nCircuitscan is a circuit verifier explorer. Like verified contracts, a verified circuit verifier allows users to interact with applications directly if the frontend becomes unusable as well as ensures that the deployed source code matches the expected source code. Developers use a CLI to submit their circom sources to the verification server just like how Hardhat and Foundry submit deployed contracts to Etherscan. The frontend catalogs all verified submissions with source code and proving keys available for usage.\n\nCircuit verifier Solidity contracts verified on Etherscan are opaque to the viewer. There's no way to quickly check that they match the source code on Github. When users can see this match, they can be sure that there's no backdoors inserted clandestinely.\n\nVerified contracts on etherscan also come into play when a dapp's frontend becomes unusable. For a zk app with a missing frontend, Circuitscan provides a tool for generating proofs so that users never have to worry about being locked out.\n\nRug pulls, scams, and hacks plague blockchain users. By developing strong tooling around the applications, we can mitigate these risks and increase confidence in the ecosystem.",
+        "lastUpdated": 0,
+        "projectGithub": "circuitscan",
+        "projectTwitter": "numtel1"
+      },
+      "recipient": "0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Circuitscan",
+      "logoImg": "bafkreif5frsavcewkaiwdyivjd6imlpbx7l64wkaa3fatcucgps3gde7bu",
+      "website": "https://circuitscan.org",
+      "bannerImg": "bafkreic5ywthrlyfxpqllt5dddllt2tqzgluo52z7vmxo27kytdwztcgbu",
+      "createdAt": 1712804309081,
+      "userGithub": "numtel",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Km80n0XeurueKf8aEZk86Y6lGRCTSsXXu1D-OTAvsufFQ-v8M2nvQFpkkmaaq21vfOXE1MREUftQ3jpSw1rVDA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-11T03:03:59.806Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-11T03:03:59.806Z",
+          "expirationDate": "2024-07-10T03:03:59.806Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a",
+            "hash": "v0.0.0:lfph5jC4kDu4PwcvAZSZnPvpD9dBofj/Brl860+V7o8=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#circuitscan#518698"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..3vGYuI3LDiWFBrUefpw3CsXZmM3qxyukoVeyTX_yzP3S7uLblu2Io_BlavB9hJXFedKfkNrevnubekPotV_PCw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-07-31T16:05:59.460Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-07-31T16:05:59.459Z",
+          "expirationDate": "2024-10-29T16:05:59.459Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a",
+            "hash": "v0.0.0:H5iIpieAtvwll5hMWXHma9EgGZkf0UMKyw2y5kNumHY=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#numtel1"
+          }
+        }
+      },
+      "description": "Circuitscan provides the same safety guarantees to circuit verifier contracts as normal smart contracts receive by verifying their source code on a block explorer: guaranteed access to the application even if their frontend becomes unavailable as well as the ability to review the source code for potential issues.\n\nCircuitscan is a circuit verifier explorer. Like verified contracts, a verified circuit verifier allows users to interact with applications directly if the frontend becomes unusable as well as ensures that the deployed source code matches the expected source code. Developers use a CLI to submit their circom sources to the verification server just like how Hardhat and Foundry submit deployed contracts to Etherscan. The frontend catalogs all verified submissions with source code and proving keys available for usage.\n\nCircuit verifier Solidity contracts verified on Etherscan are opaque to the viewer. There's no way to quickly check that they match the source code on Github. When users can see this match, they can be sure that there's no backdoors inserted clandestinely.\n\nVerified contracts on etherscan also come into play when a dapp's frontend becomes unusable. For a zk app with a missing frontend, Circuitscan provides a tool for generating proofs so that users never have to worry about being locked out.\n\nRug pulls, scams, and hacks plague blockchain users. By developing strong tooling around the applications, we can mitigate these risks and increase confidence in the ecosystem.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "circuitscan",
+      "projectTwitter": "numtel1"
+    }
+  }
+}

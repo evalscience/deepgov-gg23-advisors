@@ -1,0 +1,232 @@
+{
+  "id": "30",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xae22739594e490cb7b044c4be01411a73e0c6b730c8edcf74a897478d06f8f5d",
+  "metadata": {
+    "signature": "0x30ddb9322733cfde45310c4e65d567344fd16a065f3cd88751aa49204f337c144cdca6bb33958c25c135f9a85bd0726d4f7a3285238255f4e6118a6201dbe8d21c",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "hi@asteriskdao.xyz",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@vmkirin",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/AsteriskDAO",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes! GG19-22",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The health data we're collecting must be gatekept for privacy and security, but is available for access to clinicians, femtech founders, journalists, and governments. Who accesses the data can be traced for further accountability. Even with these guardrails, the data is still more accessible than traditional medical data. We are partnered with Akave (we won first place in their ETH Global Bangkok hackathon) and Vana, both specializing in data liquidity pools.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We've created a Web2 user experience with a fully Web3 backend with the goal of a predominately non-Web3 native female user base. The app is backed by a female-only DAO.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are slated to complete MVP development and begin alpha testing in April. Q3 will involve our beta development and launch to our waitlist alongside API development for clinician access. Q4 of our roadmap involves building and launching our non-clinical customer porta.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Vana data liquidity pool launching soon.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xae22739594e490cb7b044c4be01411a73e0c6b730c8edcf74a897478d06f8f5d",
+        "title": "AsteriskDAO",
+        "logoImg": "bafkreih42z6mfye65k2v6atb2nmgvbz2hlo5kqlsv7wqbzekozav4ywyby",
+        "metaPtr": {
+          "pointer": "bafkreicdkmfgebohyi45xssfwqlsgv446w3mofqt7nzvh2qs6bjoqu47m4",
+          "protocol": "undefined"
+        },
+        "website": "https://asteriskdao.xyz",
+        "bannerImg": "bafkreidoyofdyh2krytcajvfid2nhqdpo6srz7lwj254fv5c35yc7vjfde",
+        "createdAt": 1722683012421,
+        "userGithub": "vmkirin",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..g00CIO8TOXn5euU8krPidICXX86uqAIYR5mWFvtAeVXUZxfLnIQiaEt-N3guVRIT-OY8seuvI3H8umdlOZI-CA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-08-03T11:03:01.845Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-08-03T11:03:01.844Z",
+            "expirationDate": "2024-11-01T11:03:01.844Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1305fAb828dACE590FF466680ba9B0349f50674C",
+              "hash": "v0.0.0:ZUwJbYCfXLaYyx9bn7xGXnLNpImGGmnzO5JiRH1WtGA=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#AsteriskDAO#5808944"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..aqryvIBmNSdaNuhqrrE4Ajz-v9zmsPijaGB5kXB1vcQT72RjEYuLPw4G_nIeweZuQ_d3a_X_uPx-B0SpAsPiCg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-08-03T11:02:52.529Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-08-03T11:02:52.529Z",
+            "expirationDate": "2024-11-01T11:02:52.529Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1305fAb828dACE590FF466680ba9B0349f50674C",
+              "hash": "v0.0.0:XJ1c8xzk4fwmjDFcK2BEwxio5mlzTPK8Ja1Rb34723E=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#asteriskdao"
+            }
+          }
+        },
+        "description": "Despite the high prevalence of common medical conditions among womxn, investment in their non-reproductive health remains minimal. This adversely impacts diagnosis and treatment outcomes, reducing social productivity and increasing social costs. Asterisk is working to backfill 500 years of missing data by building a decentralized platform ecosystem that confronts these issues. The platform comprises three key modules: a data union, which collects, aggregates, and monetizes anonymized womxn’s health data while ensuring privacy through zero-knowledge compute methods; a tech transfer marketplace that decentralizes and scales global intellectual property transfer; and a co-governance module that empowers data prosumers to transparently orchestrate the platform’s data pools, ecosystem and issue critical investments in critically absent womxn’s health research. \n\nAfter a year of development, we built our first data lake prototype at ETH Global Brussels 2024. The GitCoin grants we have previously received were directly responsible for making this major milestone possible. We aim to utilize GG21 toward developing the prototype into an MVP.",
+        "lastUpdated": 0,
+        "projectGithub": "AsteriskDAO",
+        "projectTwitter": "asteriskdao"
+      },
+      "recipient": "0x1305fAb828dACE590FF466680ba9B0349f50674C"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "AsteriskDAO",
+      "logoImg": "bafkreih42z6mfye65k2v6atb2nmgvbz2hlo5kqlsv7wqbzekozav4ywyby",
+      "website": "https://asteriskdao.xyz",
+      "bannerImg": "bafkreidoyofdyh2krytcajvfid2nhqdpo6srz7lwj254fv5c35yc7vjfde",
+      "createdAt": 1722683012421,
+      "userGithub": "vmkirin",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..g00CIO8TOXn5euU8krPidICXX86uqAIYR5mWFvtAeVXUZxfLnIQiaEt-N3guVRIT-OY8seuvI3H8umdlOZI-CA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-08-03T11:03:01.845Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-08-03T11:03:01.844Z",
+          "expirationDate": "2024-11-01T11:03:01.844Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x1305fAb828dACE590FF466680ba9B0349f50674C",
+            "hash": "v0.0.0:ZUwJbYCfXLaYyx9bn7xGXnLNpImGGmnzO5JiRH1WtGA=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#AsteriskDAO#5808944"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..aqryvIBmNSdaNuhqrrE4Ajz-v9zmsPijaGB5kXB1vcQT72RjEYuLPw4G_nIeweZuQ_d3a_X_uPx-B0SpAsPiCg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-08-03T11:02:52.529Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-08-03T11:02:52.529Z",
+          "expirationDate": "2024-11-01T11:02:52.529Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x1305fAb828dACE590FF466680ba9B0349f50674C",
+            "hash": "v0.0.0:XJ1c8xzk4fwmjDFcK2BEwxio5mlzTPK8Ja1Rb34723E=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#asteriskdao"
+          }
+        }
+      },
+      "description": "Despite the high prevalence of common medical conditions among womxn, investment in their non-reproductive health remains minimal. This adversely impacts diagnosis and treatment outcomes, reducing social productivity and increasing social costs. Asterisk is working to backfill 500 years of missing data by building a decentralized platform ecosystem that confronts these issues. The platform comprises three key modules: a data union, which collects, aggregates, and monetizes anonymized womxn’s health data while ensuring privacy through zero-knowledge compute methods; a tech transfer marketplace that decentralizes and scales global intellectual property transfer; and a co-governance module that empowers data prosumers to transparently orchestrate the platform’s data pools, ecosystem and issue critical investments in critically absent womxn’s health research. \n\nAfter a year of development, we built our first data lake prototype at ETH Global Brussels 2024. The GitCoin grants we have previously received were directly responsible for making this major milestone possible. We aim to utilize GG21 toward developing the prototype into an MVP.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "AsteriskDAO",
+      "projectTwitter": "asteriskdao"
+    }
+  }
+}

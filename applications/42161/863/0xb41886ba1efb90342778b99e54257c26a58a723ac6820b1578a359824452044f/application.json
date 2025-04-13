@@ -1,0 +1,172 @@
+{
+  "id": "4",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xb41886ba1efb90342778b99e54257c26a58a723ac6820b1578a359824452044f",
+  "metadata": {
+    "signature": "0xf3508e328e4ad949942a8eb3f71f92894aa76e93191041b1356d57a3ecc1bb376bdd2218471e01b43de4f60feb8bb9f66f279dba64ef3ea1d25fcbd49d8f6f1c1b",
+    "application": {
+      "round": "0xe5b88c67fcd25f0a7bad6cf7c5a5197e61bfd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "info@orbitdb.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@mrhavercamp",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/orbitdb/orbitdb",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://matrix.to/#/%23orbitdb_Lobby:gitter.im",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/137/registry/0x/projects/0xb41886ba1efb90342778b99e54257c26a58a723ac6820b1578a359824452044f",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "OrbitDB is a serverless, distributed, peer-to-peer database. OrbitDB uses IPFS as its data storage and Libp2p Pubsub to automatically sync databases with peers. It's an eventually consistent database that uses Merkle-CRDTs for conflict-free database writes and merges making OrbitDB an excellent choice for p2p and decentralized apps, blockchain applications and local-first web applications.\n\nOrbitDB provides various types of databases for different data models and use cases:\n\n* events: an immutable (append-only) log with traversable history. Useful for \"latest N\" use cases or as a message queue.\n* documents: a document database to which JSON documents can be stored and indexed by a specified key. Useful for building search indices or version controlling documents and data.\n* keyvalue: a key-value database just like your favourite key-value database.\n* keyvalue-indexed: key-value data indexed in a Level key-value database.\n\nAll databases are implemented on top of OrbitDB's OpLog, an immutable, cryptographically verifiable, operation-based conflict-free replicated data structure (CRDT) for distributed systems. OpLog is formalized in the paper Merkle-CRDTs. You can also easily extend OrbitDB by implementing and using a custom data model benefitting from the same properties as the default data models provided by the underlying Merkle-CRDTs.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "OrbitDB has been integrated into various high profile decentralized applications and even web browser wallets in the past. An extensive list of implementations are listed at Awesome OrbitDB.\n\nhttps://github.com/orbitdb/awesome-orbitdb",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/orbitdb/orbitdb\nhttps://www.orbitdb.org\nhttps://www.npmjs.com/package/@orbitdb/core",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "# go-orbitdb\n\nOur GoLang implementation of OrbitDB. Development has started and we are planning another round of development shortly.\n\n# Mission Control\n\nA new user control panel. Users will be able to manage their databases using a GUI/webUI.\n\n# Voyager\n\nOrbitDB's replication peer. It is currently in alpha release and we are hoping to improve it further.\n\n# Sync protocol robustness\n\nWe would like to improve OrbitDB's recovery abilities when peers drop out and reconnect. Helping the sync protocol more easily recover from these outages will make OrbitDB more robust.\n\n# Infrastructure\n\nWe would like to expand some of our infrastructure for better testing and demo-ing. This includes the deployment of more relays and Voyager peers. We currently use Bitlaunch to run this infrastructure.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xb41886ba1efb90342778b99e54257c26a58a723ac6820b1578a359824452044f",
+        "title": "OrbitDB",
+        "logoImg": "bafkreic6nakpnnhdma2wuxr63ypmrsjkh7ozcoqn6ztnevokv2lriiqvwu",
+        "metaPtr": {
+          "pointer": "bafkreib4vpspborieza5uptrrpkoz6k5ba7szrzpirksbshteglzfxifse",
+          "protocol": "undefined"
+        },
+        "website": "https://www.orbitdb.org",
+        "bannerImg": "bafkreidhdqli7c4op3zac3pbpa3ufs5htbzqafaoirmpdxswzbpejyfmd4",
+        "createdAt": 1713385730355,
+        "userGithub": "haydenyoung",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Rpj2hnfGjJdhttCEDbBAcm4b8gP5DhGemdNNNs-pxqquJgxpkxnBGUKcnQ4eylf6ZzfWOgrzSR0NmSAWdVUPAA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-17T20:24:47.880Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-17T20:24:47.879Z",
+            "expirationDate": "2024-07-16T20:24:47.879Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x11cb4B21b11b6C1282291A01cB7725933FD76792",
+              "hash": "v0.0.0:3Jmz/7ASOUx8wvWyJV2pFk+DInk43zsdNlivk0hSoBE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#orbitdb#936565"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..MwkyqJ-kf505m5oFdxLEsN_GMuhwKzRSPBweBCS_6gDWkXOU5arXW21Udaf11pQ8L9tqO6J-yCfmlI2UD8QpBQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-17T20:28:24.326Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-17T20:28:24.326Z",
+            "expirationDate": "2024-07-16T20:28:24.326Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x11cb4B21b11b6C1282291A01cB7725933FD76792",
+              "hash": "v0.0.0:H5lPPKJSDtOD6twCs5ah2f7Fq/v0Xog0CFz8SICY49Q=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#orbit_db"
+            }
+          }
+        },
+        "description": "OrbitDB is a serverless, distributed, peer-to-peer database. OrbitDB uses IPFS as its data storage and Libp2p Pubsub to automatically sync databases with peers. It's an eventually consistent database that uses Merkle-CRDTs for conflict-free database writes and merges making OrbitDB an excellent choice for p2p and decentralized apps, blockchain applications and local-first web applications.\n\nOrbitDB empowers developers to build applications which protect data ownership, ensure user privacy and resist censorship.\n\n## Projects\n\nThe OrbitDB ecosystem includes a number of projects currently under development.\n\nSome of these projects include:\n\n### Core\n\n@OrbitDB/Core is our flagship project and provides peer-to-peer database capabilities to Javascript developers.\n\n### Voyager\n\nWhen data is stored with limited connectivity, there needs to be a way to provide access to distributed databases when computers go offline. Voyager, OrbitDB's pinner, provides always-up database replicas.\n\n### Go implementation\n\nTo expand the OrbitDB family, we are embarking on a port of OrbitDB to Golang. This will provide a wider array of developers to integrate OrbitDB in their decentralized systems.",
+        "lastUpdated": 0,
+        "projectGithub": "orbitdb",
+        "projectTwitter": "orbit_db"
+      },
+      "recipient": "0x7d8d6519c81de8017d473247b4374fafb42996f5"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 137,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

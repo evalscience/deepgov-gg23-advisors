@@ -1,0 +1,113 @@
+{
+  "id": "4",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xd9b1d85b459118b33c83e4e40a5b3500b691600ff98bc79c49a2377b51d66ba9",
+  "metadata": {
+    "signature": "0x7a84f8893f798b55bd50854433b7a8c651f1bffb7d546e63b8f0d1ad4133b46b185caf3db01b730f242f339a727bdc7d740e7e8d6ed652d441a8b66e51a43c681c",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "stefan.iliev545@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@incompetentengineer",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://www.kapan.finance/",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/kurDepKWPN",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "With more protocols onboarded and hooked into the generalized router, other protocols would be able to integrate and receive access to any underlying protocol through the same smart contract ABI. This would enable top of stack solutions. Furthermore when chain abstraction is implemented, users and other protocols will have elementary access to lending protocols and the lowest possible interest rates across the ethereum ecosystem.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "It aggregates lending protocols and focuses on debt migration, through flash loans. This removes the need to unwind debt; Users can move their debt positions across protocols seamlessly. This allows them to lower the interest rates on compatible positions and as more protocols are onboarded, the compatible positions will only grow. ",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Further development right now is focused around finishing the core set of features and onboarding more protocols. While some of them have scattered functionality around collateral swaps and debt swaps (one debt asset to another), I plan to have all of this cohesively implemented within Kapan. \n\nAfter finishing the \"single\" network only features, funds will be used to audit the contracts and have an official release. \n\nAfter which funds will be used to build capacity for deploying incentives to migrate debt and supply, which should enable lending protocols to further amplify the attractiveness of their protocols while benefiting users.\n\nWhile gaining the initial traction, we plan on implementing support for EIP-7702 and EIP-4337 wallets. Users going through them would have a better UX and early access to some features (due to them being  easier and quicker to implement for those wallets, securely) \n\nOnce the protocol has gained some traction, we will begin work on the cross chain features with the main goal of enabling debt to be moved across chains to maximize potential APR savings. \n\nThe final planned step is to have  automated management over debt, where it is moved across protocols and chains. With more chains and protocols being onboarded, interest rates would drop and token types one could borrow and supply would grow.\n\nOverall with so many protocols and chains existing, there would always be a need for the tools to optimize across them and abstract their complexity from end users who are looking for the best deal.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x58d21499b5a3374a486b3f412cca43b76692ef15, 42161",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xd9b1d85b459118b33c83e4e40a5b3500b691600ff98bc79c49a2377b51d66ba9",
+        "title": "Kapan Finance",
+        "logoImg": "bafkreiahfmw3di6uuqpl5seaa56z7tysdjqaqrfusxvwcubuplwgajauoi",
+        "metaPtr": {
+          "pointer": "bafkreiayrvvywij4rubbbeeqd5pjh6k5nrry4glw34mrpsury5ui63ahjm",
+          "protocol": "undefined"
+        },
+        "website": "https://kapan.finance",
+        "bannerImg": "bafkreic5eiwesaxqzjfznflansx75bzlyal6mmhom6b42cckdpbly5utaa",
+        "createdAt": 1740918506889,
+        "userGithub": "StefanIliev545",
+        "credentials": {},
+        "description": "One-click debt optimization by migration across lending protocols, powered by flash loans.\n\nProblem\nDeFi users struggle to capitalize on fragmented lending rates:\n\nCostly inefficiency: Interest rates vary wildly across protocols for long periods of time. Moving debt positions can help save users money on interest rates and equalize protocol rates, which is beneficial for liquidity providers.\n\nProtocol loyalty traps: Users stick to one platform despite better rates elsewhere, wasting thousands in avoidable interest.\n\nMEV for whales only: Flash loan arbitrage is reserved for bots and institutions, leaving retail users behind.\n\nSolution\nKapan Finance automates cross-protocol debt optimization for everyday users:\n\n🔄 Atomic Debt Migration: Refinance loans between Aave and Compound in one transaction, using flash loans to eliminate upfront capital.\n\n📊 Rate Compariso: Instantly surfaces the best borrow/supply rates for assets shared across protocols (e.g., USDC, ETH).\n\n⚡ Arbitrum Alpha: Live on Layer 2 for fast, low-cost transactions (currently in alpha testing).\n\n🔓 Non-Custodial & Permissionless: No deposits; users retain full control of their positions.\n\nImpact\nBorrowing costs can be reduced up to 60% on some markets before applying incentive rewards.\n\nDemocratize MEV: Turn “extractive” flash loans into a public good for retail DeFi users.\n\nTechnical Differentiation\nGas-Optimized Execution: Tightly integrated with Arbitrum’s low-fee environment.\n\nGitcoin Alignment\nPublic Good: Traditional banks provide such utilities to retail users, but DeFi users currently are locked in or forced to migrate their debt to smart wallets in order to migrate, which locks them to a specific vendor. This project helps with this as it is agnostic of the type of address using it.\n\nEthereum-Centric: Built on Arbitrum, composable with Aave/Compound’s L2 deployments. Venus protocol to be added next.\n\nOpen Roadmap: Core contracts will be open-sourced post-audit.\n\nProgress & Next Steps\n✅ Current Status: Live alpha on Arbitrum (supply, repay, debt migration).\n\n🚧 Next Phase:\n\nSmart contract audit (Q3 2025).\n\nExpand to Optimism, Base, and other Aave/Compound/Venus supporting networks.\n\nIntegrate rate alerts (e.g., “Notify me when USDC borrow rates dip 3%”).\n\nFunds will directly accelerate:\n\nSecurity: Cover audit costs for user trust.\n\nProtocol specific incentives: We will be launching an incentives program with the funds targeting markets where users can save significantly. \n\nFor example Aave USDC.e -> Compound USDC.e\nOr Aave Arbitrum -> Venus Arbitrum. \n\nWith the idea being using the funds to partially repay debt of users who have migrated and held, selected randomly. \n\nMulti-Chain Expansion: Deploy to Optimism and Base.\n\nCall to Action\nTest the Alpha: Try Kapan on Arbitrum and share feedback.\n\nJoin Governance: Help prioritize future integrations (Euler, Morpho).\n\nSpread the Word: Educate users trapped in suboptimal debt positions.\n\nDemo: www.kapan.finance | Twitter: @KapanFinance\n\nWhy This Matters\nDeFi’s promise is diluted when users overpay for loyalty. Kapan Finance fixes this by making rate arbitrage simple, accessible, and fair — a true public good.\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "stefaniliev545/kapan",
+        "projectTwitter": "KapanFinance"
+      },
+      "recipient": "0x02aD0f9CaB40dEf1D6563bfC84F5AeA4282842aF"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Kapan Finance",
+      "logoImg": "bafkreib36neqeh3enhw326xzjtbaysfbhurq4uacfysghjhr2brumjcone",
+      "website": "https://kapan.finance",
+      "bannerImg": "bafkreic5eiwesaxqzjfznflansx75bzlyal6mmhom6b42cckdpbly5utaa",
+      "createdAt": 1740918506889,
+      "userGithub": "StefanIliev545",
+      "credentials": {},
+      "description": "One-click debt optimization by migration across lending protocols, powered by flash loans.\n\nDeFi users struggle to capitalize on fragmented lending rates:\n\nCostly inefficiency: Interest rates vary wildly across protocols for long periods of time. Moving debt positions can help save users money on interest rates and equalize protocol rates, which is beneficial for liquidity providers.\n\nProtocol loyalty traps: Users stick to one platform despite better rates elsewhere, wasting thousands in avoidable interest.\n\nMEV for whales only: Flash loan arbitrage is reserved for bots and institutions, leaving retail users behind.\n\nKapan Finance automates cross-protocol debt optimization for everyday users:\n\n🔄 Atomic Debt Migration: Refinance loans between Aave and Compound in one transaction, using flash loans to eliminate upfront capital.\n\n📊 Rate Compariso: Instantly surfaces the best borrow/supply rates for assets shared across protocols (e.g., USDC, ETH).\n\n⚡ Arbitrum Alpha: Live on Layer 2 for fast, low-cost transactions (currently in alpha testing).\n\nComing to starknet soon.\n\n🔓 Non-Custodial & Permissionless: No deposits; users retain full control of their positions.\n\nBorrowing costs can be reduced up to 60% on some markets before applying incentive rewards.\n\nDemocratize MEV: Turn “extractive” flash loans into a public good for retail DeFi users.\n\nTechnical Differentiation\nGas-Optimized Execution: Tightly integrated with Arbitrum’s low-fee environment.\n\nTraditional banks provide such utilities to retail users, but DeFi users currently are locked in or forced to migrate their debt to smart wallets in order to migrate, which locks them to a specific vendor. This project helps with this as it is agnostic of the type of address using it.\n\nEthereum-Centric: Built on Arbitrum, composable with Aave/Compound’s L2 deployments. Venus protocol to be added next.\n\nOpen Roadmap: Core contracts will be open-sourced post-audit.\n\n✅ Current Status: Live alpha on Arbitrum (supply, repay, debt migration).\n\n🚧 Next Phase:\n\nSmart contract audit (Q3 2025).\n\nExpand to Optimism, Base, and other Aave/Compound/Venus supporting networks.\n\nIntegrate rate alerts (e.g., “Notify me when USDC borrow rates dip 3%”).\n\nFunds will directly accelerate:\n\nSecurity: Cover audit costs for user trust.\n\nProtocol specific incentives: We will be launching an incentives program with the funds targeting markets where users can save significantly. \n\nFor example Aave USDC.e -> Compound USDC.e\nOr Aave Arbitrum -> Venus Arbitrum. \n\nWith the idea being using the funds to partially repay debt of users who have migrated and held, selected randomly. \n\nMulti-Chain Expansion: Deploy to Optimism and Base.\n\nTest the Alpha: Try Kapan on Arbitrum and share feedback.\n\nJoin Governance: Help prioritize future integrations (Euler, Morpho).\n\nSpread the Word: Educate users trapped in suboptimal debt positions.\n\nDemo: www.kapan.finance | Twitter: @KapanFinance\n\nWhy This Matters\nDeFi’s promise is diluted when users overpay for loyalty. Kapan Finance fixes this by making rate arbitrage simple, accessible, and fair — a true public good.\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "stefaniliev545/kapan",
+      "projectTwitter": "KapanFinance"
+    }
+  }
+}

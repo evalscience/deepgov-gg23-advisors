@@ -1,0 +1,673 @@
+{
+  "id": "15",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x7188748a141f5d82a01c699bcc1ea8e005c4712844a4abf43e4b12368ac3721c",
+  "metadata": {
+    "signature": "0x54227575264685fa79ec1837730e0d1d1b657aca8ad42910aa8165d1ca1df9f774c0b8a04cd1dd16c3444bb8e56d37faa78daf1920be72f5ef1f138ed340ce181b",
+    "application": {
+      "round": "0xe5b88c67fcd25f0a7bad6cf7c5a5197e61bfd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "tolgayayci@protonmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "tolga0x",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/tolgayayci/wizard",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Wizard provides a complete development environment for Arbitrum Stylus smart contracts. From writing code to deploying contracts, every step is streamlined and accessible directly in your browser instead of complex +30 min local setup.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "💫 Wizard vs Traditional Setup for Arbitrum Stylus\n\nWizard simplifies Arbitrum Stylus development in many topics which you can review below one by one.\n\n**Initial Setup:**\n\n- **Traditional Setup:** Requires over 30 minutes of installation and configuration.\n- **Wizard:** Less than 30 seconds—simply open your browser.\n\n**Prerequisites:**\n\n- **Traditional Setup:** Needs Rust toolchain, Docker, VS Code, and Foundry.\n- **Wizard:** Only requires a modern web browser.\n\n**Development:**\n\n- **Traditional Setup:** Local machine setup involving multiple tools.\n- **Wizard:** Fully browser-based IDE with no local setup required.\n\n**Compilation:**\n\n- **Traditional Setup:** Involves configuring a local WASM toolchain.\n- **Wizard:** Offers instant cloud-based compilation.\n\n**Deployment:**\n\n- **Traditional Setup:** Manual wallet and network configuration.\n- **Wizard:** Simple one-click deployment using a pre-funded wallet.\n\n**Testing:**\n\n- **Traditional Setup:** Setting up local test environments manually.\n- **Wizard:** Automatically generates ABIs with an interactive testing interface.\n\n**Updates:**\n\n- **Traditional Setup:** Requires manual updates of the toolchain.\n- **Wizard:** Platform stays continuously updated automatically.\n\n**Collaboration:**\n\n- **Traditional Setup:** Complex to share development environments.\n- **Wizard:** Instant, easy sharing of contracts via public links.\n",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Wizard is heavily acclaimed app by the Arbitrum community, you can see last month's stats below.\n\n- **175+ Stylus projects/contracts** successfully created using Wizard.\n- **Over 60,000 views** on Wizard-related posts **on X**, receiving recognition and promotion from influential ecosystem members, including the official Arbitrum account.\n- A steadily growing user base, with **over 60 active registered developers**.",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "## Project Roadmap and Grant Utilization\n\nThe grant funds will accelerate the growth of Wizard by developing new features, improving infrastructure, and building a vibrant developer community.\n\n---\n\n### 1. Infrastructure & Enhanced Wizard Functionality\n\n- **\"Try on Wizard\" iframe buttons**  \n  Instant embedding and external integrations directly into websites.\n\n- **GitHub OAuth Integration**  \n  Seamless user authentication and collaborative project management.\n\n- **GitHub Project Cloning**  \n  Directly clone Stylus projects from GitHub URLs into Wizard IDE.\n\n- **Real-time Event Viewer**  \n  Immediate display of contract-emitted events following transactions.\n\n- **Browser-based File Explorer**  \n  Intuitive project structure management directly within the IDE.\n\n- **Integrated In-browser Terminal**  \n  Manual execution of advanced `cargo stylus` commands for greater flexibility.\n\n- **In-browser Rust Dependency Manager**  \n  Easy integration and management of external Rust crates (`crates.io`).\n\n- **Automatic Rust Formatting & Linting**  \n  Built-in Rust formatting (`rustfmt`) and linting (`Clippy`) to enhance code quality.\n\n---\n\n### 2. Multi-chain Deployment & Developer-friendly Integrations\n\n- **Simplified Multi-chain Deployment Interface**  \n  Direct support for Arbitrum One, Sepolia, and custom Orbit chains through custom RPC endpoints.\n\n- **WASM Binary Analysis and Optimization**  \n  Built-in integrations (`wasm-opt`, `twiggy`) offering binary size analysis and optimization suggestions.\n\n- **Secure Wallet Integration**  \n  Deployment directly through popular Ethereum wallets for improved security.\n\n- **Automated Contract Verification**  \n  Immediate automatic verification of contracts on Arbiscan, eliminating manual processes.\n\n- **Expanded Contract Template Library**  \n  A comprehensive collection of pre-built templates, including NFTs, governance mechanisms, and foundational DeFi scenarios.\n\n- **Deployment History Dashboard**  \n  Tools to track, manage, and review past deployments easily.\n\n- **Compiled File Downloads**  \n  Quick download options for WASM binaries and ABI files to support frontend integrations and external applications.\n\n---\n\n### 3. Community Growth & Educational Content\n\n- **Comprehensive Documentation**  \n  Detailed documentation to simplify onboarding and improve developer experience.\n\n- **Tutorial Series**  \n  Five written tutorials and three instructional videos focused on practical use cases and key Wizard features.\n\n- **Live Developer Workshops**  \n  Two interactive workshops highlighting the capabilities and advanced features of Wizard v2.\n\n- **Community Growth Goals**  \n  Achieve measurable community milestones:\n  - 150+ deployed contracts\n  - 200+ active developers regularly using Wizard\n  - 1000+ followers on Wizard’s social media (\"@WizardOnStylus\")\n\n---\n",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x7188748a141f5d82a01c699bcc1ea8e005c4712844a4abf43e4b12368ac3721c",
+        "title": "The Wizard",
+        "logoImg": "bafkreiejd7eellxabhy2twr7g63heurtftcsr6dnxwf53oig7tkieosdhm",
+        "metaPtr": {
+          "pointer": "bafkreif3l5zfwibrafa4zdikb6bxtemkbp4sa77lhfpvitkxhkfto6twfe",
+          "protocol": "undefined"
+        },
+        "website": "https://thewizard.app/",
+        "bannerImg": "bafkreidsu6ylsuot5bzhwhwiitsrhvxt5fpinygcvctned2lu64keutede",
+        "createdAt": 1742737353429,
+        "userGithub": "tolgayayci/wizard",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-23T13:53:11.736Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x0d4204606b2c7d5cc8fe979d7f36f65b2ace832a78baaabc3dc60a542f15bae957cae44212eab55a7275ede595fb41bbeec81a28bd3d8f83df769b1894a452e71c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-23T13:53:11.736Z",
+            "expirationDate": "2025-06-21T13:53:11.736Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xdee249A3EA13583B53c48F5e25d5611b0D229C5B",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#yklabsofficial#40897846",
+              "nullifiers": [
+                "v0.0.0:oW69ZCiEhRME2uS0nChdNRMUgmogPLpAsC01xzuJDNo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-23T13:26:49.795Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xd5f00af53b46e7967d3363f3a4c653dd52afc1fcbe6fd78770d3d0422c269a8d11b9242e2bfebfd3a3ae630063aafa975934a4d5902d17b23d14994c7c467e281b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-23T13:26:49.795Z",
+            "expirationDate": "2025-06-21T13:26:49.795Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xdee249A3EA13583B53c48F5e25d5611b0D229C5B",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#WizardOnStylus",
+              "nullifiers": [
+                "v0.0.0:ovYogkfRMQWLa+EEEFSWtobiShYBaE7Ne2Mru91SsP8="
+              ]
+            }
+          }
+        },
+        "description": "Wizard provides a complete development environment for Arbitrum Stylus smart contracts. From writing code to deploying contracts, every step is streamlined and accessible directly in your browser instead of complex +30 min local setup.\n\n**Demo:** https://x.com/arbitrum/status/1889010128562933845\n**App:** https://docs.thewizard.app/getting-started/introduction.html\n**Docs:** https://docs.thewizard.app/getting-started/introduction.html\n\n--\n\n# ✨ Features\n\n- **Zero Setup Required** - Start building Stylus smart contracts instantly\n- **Professional Editor** - Full syntax highlighting with Stylus SDK integration\n- **Instant Compilation** - Compile Rust to Stylus bytecode in seconds\n- **Built-in Deployment** - Deploy to Arbitrum Sepolia with pre-funded wallet\n- **Interactive Testing** - Test contracts through auto-generated interface\n- **Code Sharing** - Share contracts via public links\n\n--\n\n# 💫 Wizard vs Traditional Setup\n\n**Initial Setup:**\n- **Traditional Setup:** Requires over 30 minutes of installation and configuration.\n- **Wizard:** Less than 30 seconds—simply open your browser.\n\n**Prerequisites:**\n- **Traditional Setup:** Needs Rust toolchain, Docker, VS Code, and Foundry.\n- **Wizard:** Only requires a modern web browser.\n\n**Development:**\n- **Traditional Setup:** Local machine setup involving multiple tools.\n- **Wizard:** Fully browser-based IDE with no local setup required.\n\n**Compilation:**\n- **Traditional Setup:** Involves configuring a local WASM toolchain.\n- **Wizard:** Offers instant cloud-based compilation.\n\n**Deployment:**\n- **Traditional Setup:** Manual wallet and network configuration.\n- **Wizard:** Simple one-click deployment using a pre-funded wallet.\n\n**Testing:**\n- **Traditional Setup:** Setting up local test environments manually.\n- **Wizard:** Automatically generates ABIs with an interactive testing interface.\n\n**Updates:**\n- **Traditional Setup:** Requires manual updates of the toolchain.\n- **Wizard:** Platform stays continuously updated automatically.\n\n**Collaboration:**\n- **Traditional Setup:** Complex to share development environments.\n- **Wizard:** Instant, easy sharing of contracts via public links.\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "yklabsofficial",
+        "projectTwitter": "WizardOnStylus"
+      },
+      "recipient": "0xdee249A3EA13583B53c48F5e25d5611b0D229C5B"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "The Wizard",
+      "logoImg": "bafkreiejd7eellxabhy2twr7g63heurtftcsr6dnxwf53oig7tkieosdhm",
+      "website": "https://thewizard.app/",
+      "bannerImg": "bafkreidsu6ylsuot5bzhwhwiitsrhvxt5fpinygcvctned2lu64keutede",
+      "createdAt": 1742737353429,
+      "userGithub": "tolgayayci/wizard",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-23T13:53:11.736Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x0d4204606b2c7d5cc8fe979d7f36f65b2ace832a78baaabc3dc60a542f15bae957cae44212eab55a7275ede595fb41bbeec81a28bd3d8f83df769b1894a452e71c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-23T13:53:11.736Z",
+          "expirationDate": "2025-06-21T13:53:11.736Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xdee249A3EA13583B53c48F5e25d5611b0D229C5B",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#yklabsofficial#40897846",
+            "nullifiers": [
+              "v0.0.0:oW69ZCiEhRME2uS0nChdNRMUgmogPLpAsC01xzuJDNo="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-23T13:26:49.795Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xd5f00af53b46e7967d3363f3a4c653dd52afc1fcbe6fd78770d3d0422c269a8d11b9242e2bfebfd3a3ae630063aafa975934a4d5902d17b23d14994c7c467e281b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-23T13:26:49.795Z",
+          "expirationDate": "2025-06-21T13:26:49.795Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xdee249A3EA13583B53c48F5e25d5611b0D229C5B",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#WizardOnStylus",
+            "nullifiers": [
+              "v0.0.0:ovYogkfRMQWLa+EEEFSWtobiShYBaE7Ne2Mru91SsP8="
+            ]
+          }
+        }
+      },
+      "description": "Wizard provides a complete development environment for Arbitrum Stylus smart contracts. From writing code to deploying contracts, every step is streamlined and accessible directly in your browser instead of complex +30 min local setup.\n\n**Demo:** https://x.com/arbitrum/status/1889010128562933845\n**App:** https://docs.thewizard.app/getting-started/introduction.html\n**Docs:** https://docs.thewizard.app/getting-started/introduction.html\n\n--\n\n# ✨ Features\n\n- **Zero Setup Required** - Start building Stylus smart contracts instantly\n- **Professional Editor** - Full syntax highlighting with Stylus SDK integration\n- **Instant Compilation** - Compile Rust to Stylus bytecode in seconds\n- **Built-in Deployment** - Deploy to Arbitrum Sepolia with pre-funded wallet\n- **Interactive Testing** - Test contracts through auto-generated interface\n- **Code Sharing** - Share contracts via public links\n\n--\n\n# 💫 Wizard vs Traditional Setup\n\n**Initial Setup:**\n- **Traditional Setup:** Requires over 30 minutes of installation and configuration.\n- **Wizard:** Less than 30 seconds—simply open your browser.\n\n**Prerequisites:**\n- **Traditional Setup:** Needs Rust toolchain, Docker, VS Code, and Foundry.\n- **Wizard:** Only requires a modern web browser.\n\n**Development:**\n- **Traditional Setup:** Local machine setup involving multiple tools.\n- **Wizard:** Fully browser-based IDE with no local setup required.\n\n**Compilation:**\n- **Traditional Setup:** Involves configuring a local WASM toolchain.\n- **Wizard:** Offers instant cloud-based compilation.\n\n**Deployment:**\n- **Traditional Setup:** Manual wallet and network configuration.\n- **Wizard:** Simple one-click deployment using a pre-funded wallet.\n\n**Testing:**\n- **Traditional Setup:** Setting up local test environments manually.\n- **Wizard:** Automatically generates ABIs with an interactive testing interface.\n\n**Updates:**\n- **Traditional Setup:** Requires manual updates of the toolchain.\n- **Wizard:** Platform stays continuously updated automatically.\n\n**Collaboration:**\n- **Traditional Setup:** Complex to share development environments.\n- **Wizard:** Instant, easy sharing of contracts via public links.\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "yklabsofficial",
+      "projectTwitter": "WizardOnStylus"
+    }
+  }
+}

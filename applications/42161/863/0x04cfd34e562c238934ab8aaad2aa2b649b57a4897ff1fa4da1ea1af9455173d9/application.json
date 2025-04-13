@@ -1,0 +1,398 @@
+{
+  "id": "71",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x04cfd34e562c238934ab8aaad2aa2b649b57a4897ff1fa4da1ea1af9455173d9",
+  "metadata": {
+    "signature": "0xa7908b872916c352e5cbb7ab4e17078f8b2e01a9501e7edfeff00ec5e9b4e18473ed5ac331e71c6042f1ce27a6bf31603e890a2cf91189b1a3856f97c98bef801b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "arturo.beccarvarela@openzeppelin.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@arturobv",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Primary Repository:** [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)\n\n(Additional repositories include [openzeppelin-contracts-upgradeable](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable), [openzeppelin-upgrades](https://github.com/OpenZeppelin/openzeppelin-upgrades), [contracts-wizard](https://github.com/OpenZeppelin/contracts-wizard), [merkle-tree](https://github.com/OpenZeppelin/merkle-tree), [openzeppelin-subgraphs](https://github.com/OpenZeppelin/openzeppelin-subgraphs), and [rust-contracts-stylus](https://github.com/OpenZeppelin/rust-contracts-stylus) for Arbitrum Stylus contracts.)",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://forum.openzeppelin.com/",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes. We have participated in:\n\n- **Gitcoin Grants Round 19**\n- **Gitcoin Grants Round 20**\n\n(Builder profile and submission details were made under the wallet address: `0xfdF797C29AcB326F3902254ab5ae2419eBDfc595`.)",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "OpenZeppelin Contracts provides secure, community-reviewed and audited implementations of common smart contract patterns: tokens (ERC20, ERC721, ERC1155), access control, governance modules, payment and finance primitives, and upgradeable proxies. These contracts are available in Solidity, Arbitrum Stylus and other smart contract languages.\n\nBy relying on time-tested and audited code, developers avoid duplicating foundational logic. This ensures consistent standards implementation and reduces the risk of exploits resulting from ad-hoc or unvetted smart contract code.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. **Reduced Complexity**: Developers can import widely used implementations (e.g., ERC20 tokens) instead of writing them from scratch, saving development time and audit effort.\n2. **Battle-Tested Security**: Over 99% test coverage, continuous fuzzing, formal verification on critical components, and six major audits across different releases.\n3. **Ongoing Maintenance & Updates**: Our dedicated maintainers and active community quickly fix bugs, respond to new Solidity or EVM features, and introduce new standards (e.g., ERC‑7786).\n\nBy eliminating the need for projects to reinvent safe implementations of standards and patterns, we allow teams to concentrate on application-specific logic and innovation.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "- **GitHub Stars**: Over 25k stars on the main [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) repository.\n- **GitHub Forks**: Over 12k forks on the main [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) repository.\n- **NPM Downloads**:\n    - `@openzeppelin/contracts`: 54.9M+ downloads to date ([reference](https://npm-stat.com/charts.html?package=%40openzeppelin%2Fcontracts&from=2018-01-01&to=2025-03-01))\n    - `@openzeppelin/contracts-upgradeable`: 18.2M+ downloads ([reference](https://npm-stat.com/charts.html?package=%40openzeppelin%2Fcontracts-upgradeable&from=2018-01-01&to=2025-03-01))\n    - `@openzeppelin/hardhat-upgrades` & `@openzeppelin/foundry-upgrades`: 5M+ combined downloads ([reference](https://npm-stat.com/charts.html?package=%40openzeppelin%2Fhardhat-upgrades&from=2018-01-01&to=2025-03-01))\n- **Dependent Repositories**: Over 295k public repositories depend on OpenZeppelin Contracts on GitHub. ([reference](https://github.com/OpenZeppelin/openzeppelin-contracts/network/dependents))\n- **Total Value Transferred Via OpenZeppelin Contracts**: Over 22 trillion. ([Dune Analytics](https://github.com/OpenZeppelin/openzeppelin-contracts))\n- **Testimonials & Education**:\n    - Integrated into popular educational resources like [CryptoZombies](https://cryptozombies.io/) and [FreeCodeCamp’s blockchain course](https://www.youtube.com/watch?v=gyMwXuJrbJQ).\n    - Endorsed by core contributors, DeFi protocols, and security researchers for its reliability and security rigor. ([reference](https://www.openzeppelin.com/solidity-contracts))",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. **Continuous Release Cycle**:\n    - **Contracts v5.2+**: Further expansions on cross-chain interoperability, cryptographic primitives, and deeper integration of account abstraction patterns (ERC‑4337).\n    - **Community-Driven Experimental Modules**: Ongoing iteration on the new “community-contracts” repository, exploring next-generation ERC standards (e.g., ERC-7786 for cross-chain messaging).\n2. **Security & Audits**:\n    - Allocate additional audit weeks for upcoming major releases to maintain trust in new modules.\n    - Expand formal verification coverage and advanced fuzz testing.\n3. **Tooling & Integrations**:\n    - Enhance the Hardhat and Foundry plugins for upgrades, ensuring frictionless deployment of upgradeable contracts with advanced validation.\n    - Improve the “Contracts Wizard” to support new standards, simplifications for multichain deployments, and advanced UI for customizing governance modules.\n    - Extend subgraph templates for more robust on-chain analytics of governance and token usage.\n4. **Education & Community**:\n    - Expand documentation and tutorials for advanced topics.\n    - Facilitate more workshops and open community calls to gather feedback and promote best practices.\n\nIn general, all matching grants go directly into sustaining and improving the Contracts library (and closely related open-source tooling like Contracts Wizard and Hardhat/Foundry Plugins). This covers continuous development, audits, community support, documentation, new feature exploration, and addressing feedback from the Ethereum developer ecosystem.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "OpenZeppelin Contracts is a library that developers incorporate into their own deployments. We do not maintain a single canonical deployer address because each end-user or organization typically deploys contracts with their own EOA or multisig. Consequently, there is no single “official” deployment address for the library itself.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x04cfd34e562c238934ab8aaad2aa2b649b57a4897ff1fa4da1ea1af9455173d9",
+        "title": "OpenZeppelin Contracts Library",
+        "logoImg": "bafkreidy64rwdbcjyltcxul7354cnnx5e6wlr4naf2p63nul7lrgomnnk4",
+        "metaPtr": {
+          "pointer": "bafkreiab6qzvzn6n4jo5uitq6mg5kvmt5axiyv6w2jaipbwcchahn4tzvi",
+          "protocol": "undefined"
+        },
+        "website": "https://www.openzeppelin.com/solidity-contracts",
+        "bannerImg": "bafkreicecrohfwb225t655z6d7xzvoig4mja2x6rvhghalh4akbrccnaiq",
+        "createdAt": 1743457796879,
+        "userGithub": "arturoBeccar",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T21:54:16.637Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x80613422668b21bb683aff5bd75c636690f592df497d4aae396ee7aeefccd1b06f6c49f743630c4b42876fd7ce4fefd13c8a1651421cb8e6b469ff84289f07d01b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T21:54:16.636Z",
+            "expirationDate": "2025-06-29T21:54:16.636Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x072cEfe0Dd29bE61a6c73719881391d67DE13ab0",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#OpenZeppelin#107512933",
+              "nullifiers": [
+                "v0.0.0:UAi6tZK0VmwlSZpuaypmSD7guutqD0spA8H2OwGA9TI="
+              ]
+            }
+          }
+        },
+        "description": "OpenZeppelin Contracts is the most widely used library for secure and standardized smart contract development in the Ethereum ecosystem. First released in 2016, it has become the go-to resource for teams looking to build production-grade decentralized applications without having to reinvent the wheel for every token, governance mechanism, or upgradeable pattern. By leveraging rigorously tested code and well-established best practices, developers can focus on innovation while reducing their security risks.\n\nOver the years, OpenZeppelin has expanded the library and its tooling with features like upgradeable contracts, interactive contract generation (through the Contracts Wizard), and new modules for emerging standards (e.g., ERC‑4337 for account abstraction). We have also expanded the library’s support beyond Solidity to include other smart contract languages, particularly Arbitrum Stylus.\n\nEverything is backed by our dedication to security, demonstrated through ongoing audits, a robust community bug bounty, and advanced testing methods (including fuzzing and formal verification).",
+        "lastUpdated": 0,
+        "projectGithub": "OpenZeppelin",
+        "projectTwitter": "OpenZeppelin"
+      },
+      "recipient": "0x072cEfe0Dd29bE61a6c73719881391d67DE13ab0"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "OpenZeppelin Contracts Library",
+      "logoImg": "bafkreidy64rwdbcjyltcxul7354cnnx5e6wlr4naf2p63nul7lrgomnnk4",
+      "website": "https://www.openzeppelin.com/solidity-contracts",
+      "bannerImg": "bafkreicecrohfwb225t655z6d7xzvoig4mja2x6rvhghalh4akbrccnaiq",
+      "createdAt": 1743457796879,
+      "userGithub": "arturoBeccar",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T21:54:16.637Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x80613422668b21bb683aff5bd75c636690f592df497d4aae396ee7aeefccd1b06f6c49f743630c4b42876fd7ce4fefd13c8a1651421cb8e6b469ff84289f07d01b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T21:54:16.636Z",
+          "expirationDate": "2025-06-29T21:54:16.636Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x072cEfe0Dd29bE61a6c73719881391d67DE13ab0",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#OpenZeppelin#107512933",
+            "nullifiers": [
+              "v0.0.0:UAi6tZK0VmwlSZpuaypmSD7guutqD0spA8H2OwGA9TI="
+            ]
+          }
+        }
+      },
+      "description": "OpenZeppelin Contracts is the most widely used library for secure and standardized smart contract development in the Ethereum ecosystem. First released in 2016, it has become the go-to resource for teams looking to build production-grade decentralized applications without having to reinvent the wheel for every token, governance mechanism, or upgradeable pattern. By leveraging rigorously tested code and well-established best practices, developers can focus on innovation while reducing their security risks.\n\nOver the years, OpenZeppelin has expanded the library and its tooling with features like upgradeable contracts, interactive contract generation (through the Contracts Wizard), and new modules for emerging standards (e.g., ERC‑4337 for account abstraction). We have also expanded the library’s support beyond Solidity to include other smart contract languages, particularly Arbitrum Stylus.\n\nEverything is backed by our dedication to security, demonstrated through ongoing audits, a robust community bug bounty, and advanced testing methods (including fuzzing and formal verification).",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "OpenZeppelin",
+      "projectTwitter": "OpenZeppelin"
+    }
+  }
+}

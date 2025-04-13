@@ -1,0 +1,402 @@
+{
+  "id": "40",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xad4375ecf83acf4c0430c4d8ebae37ef3c479f8a2a26ca82170c65a4a38b2796",
+  "metadata": {
+    "signature": "0x4073f2e965451f0346b7bd14c4b9dbbba884695db3c21e13a1ed1625d7b64c7c33274f633efd6e6aab42e8693d985d06a758870739d957ad1043e57e9ed1f9f21c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "axiomprivacy@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@paulli_times",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Axiom-pay/axiompay-contract",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The use of stable coins for payments & cross-border transactions is one of the largest real world use-cases of crypto and blockchain technologies.\nHowever, the lack of privacy on-chain has always been a huge barrier to the adoption for stable coins for both the everyday user and institutions. Everyday users and institutions require a certain level of privacy akin to a traditional bank account before they will feel comfortable adopting stable coins for everyday usage. Stablecoin transactions on public blockchains expose sensitive data, including amounts, senders, and recipients, leading to significant privacy concerns for both businesses and individuals.\n\nIn addition, existing privacy solutions either require the use of specific blockchains or do not adhere to regulatory or compliant standards.\n\nAxiompay enables private and secure stable coin transfers by decoupling privacy from the underlying blockchain in a regulatory compliant manner through the use of smart contract directly deployed on-chain. We believe that enabling private transfers will significantly drive the adoption of stable coin usage for both individuals and institutions.\n",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "AxiomPay enhances the privacy of existing popular stablecoin contracts by combining zero-knowledge proof payment verification, homomorphic encryption for balance calculations, and MPC-based View Key technology. It maintains the protocol's composability, portability, and user-friendliness.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Axiompay directly addresses the privacy issue for stablecoin transfers through the use of smart contract implementations, decoupling privacy from the underlying blockchain.\n\nWhile existing implementations of privacy preserving protocols such as Tornadocash exist on Ethereum, these solutions are not regulatory compliant and not viable options for institutions and everyday users as transactions that run through well known mixers like tornado cash often become flagged for suspicious or illegal activities.\nEven with more advanced privacy enhancing protocols like Aztec, these are not very accessible to the everyday user and requires assets to sit on a specific chain.\n\nAxiompay enables secure and private transactions directly for the Ethereum ecosystem",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Currently our core smart contracts are already completed. Funds will be used for audits and development of our own Axiompay app for users to easily access private and secure transfers. We will also be developing a SDK for businesses, that allow them to directly integrate private transfers of stablecoins in their existing payment flow.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project contributes to the overall security of Ethereum. By enabling private transfers of stablecoins, we ensure sensitive information regarding balances, transfer activity & so on are kept secure.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "Not yet deployed ",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xad4375ecf83acf4c0430c4d8ebae37ef3c479f8a2a26ca82170c65a4a38b2796",
+        "title": "AxiomPay ",
+        "logoImg": "bafkreiaki6hsxflketx6jxob555wyfdtmgx6tb56aagjbprbj6keltq7ru",
+        "metaPtr": {
+          "pointer": "bafkreibrbmktp6rojjbkagymcrmzq3jk73h7xyykbmtshmmvikncrky2rq",
+          "protocol": "undefined"
+        },
+        "website": "https://axiompay.genesisee.xyz/",
+        "bannerImg": "bafkreicsnw6tvvanhfeblzq2whqanzggdw3k4if4tibwymdo7ftyos2n4a",
+        "createdAt": 1743129120558,
+        "userGithub": "axiompay",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T01:47:00.565Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x05036d99676bb0c7cf0ad8392373d1f8319f2f0b1c0b5862e1bfd5a7f63839917a153962d3a1c5da8c8c75634c6deec651b9219504f79bb63198909a7ece36161c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T01:47:00.565Z",
+            "expirationDate": "2025-06-26T01:47:00.565Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xD8a49CA4E713147E82A77d85750104dD7eCd934f",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Axiom-pay#203081703",
+              "nullifiers": [
+                "v0.0.0:6WL9dbE3C9EvHzsa04lli39emw3T8eNStuiCW6TbKoU="
+              ]
+            }
+          }
+        },
+        "description": "AxiomPay is a privacy preserving protocol for Stablecoin payments \n\n\nThe stablecoin market is growing rapidly on Ethereum  but true adoption of stablecoins for payments is still limited by a lack of privacy on the blockchain. \n\nWith the constant improvement of on-chain tracking & analysis tools, we see three key problems with Stablecoin payments:\n\n(1) Account Balances Leaked \n(2) Transaction data details Leaked \n(3) Disclosure of payment execution relationship Graphs \n\n\nAxiomPay aims to expand existing stablecoin payments that can simultaneously support both real-world and virtual payments, while ensuring user privacy and meeting the criteria of portability, regulatory compliance, high performance, and user-friendliness\n\nFurther Reading:\n\nPitch Deck: https://drive.google.com/file/d/1VnErJL-BDm5suPjYNfQGvQYbJ7-TFGfd/view?usp=drive_link\n\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "Axiom-pay"
+      },
+      "recipient": "0xD8a49CA4E713147E82A77d85750104dD7eCd934f"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "AxiomPay ",
+      "logoImg": "bafkreiaki6hsxflketx6jxob555wyfdtmgx6tb56aagjbprbj6keltq7ru",
+      "website": "https://axiompay.genesisee.xyz/",
+      "bannerImg": "bafkreicsnw6tvvanhfeblzq2whqanzggdw3k4if4tibwymdo7ftyos2n4a",
+      "createdAt": 1743129120558,
+      "userGithub": "axiompay",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T01:47:00.565Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x05036d99676bb0c7cf0ad8392373d1f8319f2f0b1c0b5862e1bfd5a7f63839917a153962d3a1c5da8c8c75634c6deec651b9219504f79bb63198909a7ece36161c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T01:47:00.565Z",
+          "expirationDate": "2025-06-26T01:47:00.565Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xD8a49CA4E713147E82A77d85750104dD7eCd934f",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Axiom-pay#203081703",
+            "nullifiers": [
+              "v0.0.0:6WL9dbE3C9EvHzsa04lli39emw3T8eNStuiCW6TbKoU="
+            ]
+          }
+        }
+      },
+      "description": "AxiomPay is a privacy preserving protocol for Stablecoin payments \n\n\nThe stablecoin market is growing rapidly on Ethereum  but true adoption of stablecoins for payments is still limited by a lack of privacy on the blockchain. \n\nWith the constant improvement of on-chain tracking & analysis tools, we see three key problems with Stablecoin payments:\n\n(1) Account Balances Leaked \n(2) Transaction data details Leaked \n(3) Disclosure of payment execution relationship Graphs \n\n\nAxiomPay aims to expand existing stablecoin payments that can simultaneously support both real-world and virtual payments, while ensuring user privacy and meeting the criteria of portability, regulatory compliance, high performance, and user-friendliness\n\nFurther Reading:\n\nPitch Deck: https://drive.google.com/file/d/1VnErJL-BDm5suPjYNfQGvQYbJ7-TFGfd/view?usp=drive_link\n\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Axiom-pay"
+    }
+  }
+}

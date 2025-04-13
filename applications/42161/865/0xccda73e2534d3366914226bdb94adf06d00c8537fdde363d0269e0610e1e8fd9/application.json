@@ -1,0 +1,675 @@
+{
+  "id": "47",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xccda73e2534d3366914226bdb94adf06d00c8537fdde363d0269e0610e1e8fd9",
+  "metadata": {
+    "signature": "0x97bfae8d5776e9ac606498cc056b2cce3238a688673ca6506aafcdf3b04562264a8c1b134096fdbf97c5d616ddd10358f1f13f0a255efe55bcdf73210c0908f41c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "meldsun0@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@Meldsun0",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/meldsun0/samba",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/channels/890617081744220180/1301231225276465152",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Samba significantly strengthens the Ethereum network's infrastructure by expanding the diversity and decentralization of Portal Clients. As a Java-based implementation, Samba adds a new technology stack to the Portal Network, enabling broader participation—especially from environments like Android and Ethereum clients like Besu. This enhances network resilience and accessibility by distributing historical data storage across more diverse nodes. \nSamba contributes directly to reducing the storage burden on Ethereum nodes, supporting the vision of lightweight, history-free nodes that can still access historical data on demand. \nThis helps make Ethereum more scalable and accessible, especially in resource-constrained environments. \nFrom a technical standpoint, Samba is well on its way to becoming fully Portal-compliant. To date, we have: Implemented 15 of the 26 suggested Portal endpoints. Passed 357 out of 360 tests on Portal Hive, demonstrating strong interoperability and correctness. \nThese milestones mark significant progress toward a stable, production-ready release that will offer a valuable addition to Ethereum's decentralized storage layer.\n",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Samba introduces a Java-based implementation of a fully Portal-compliant client, expanding the diversity and interoperability of the Portal Network. Its integration will offer immediate benefits in terms of interoperability, as it can be used as a standalone client, embedded as a library, or integrated as a plugin in clients like Besu—broadening the accessibility of the Portal Network across different platforms, including mobile environments like Android.\nWhile the full set of use cases for the Portal Network is still emerging, Samba will improve the user and developer experience. It simplifies access to Ethereum’s historical data by offering lightweight, efficient alternatives to traditional archive nodes. Developers will be able to query historical data either through the execution layer or directly via Samba's JSON-RPC endpoints. This reduces complexity, saves storage, and opens up new possibilities for dApp developers to sync and consume historical data in more flexible and efficient ways.\nIn this way, Samba will not only help build the foundation of a decentralized storage layer but also will shape the future UX of interacting with Ethereum history.\n",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Samba addresses a key scalability challenge in the Ethereum ecosystem: the growing storage burden on full nodes. By aligning with EIP-4444 and the Portal Network vision, Samba enables nodes to discard older historical data while still allowing efficient access to it through the decentralized Portal protocol.\nThis significantly reduces the storage requirements for participating nodes, lowering the cost and technical barrier to running a node. As a result, it improves overall network scalability, promotes greater decentralization, and makes Ethereum more accessible—especially for users operating in resource-constrained environments.\nCompared to traditional archive nodes or existing solutions that require maintaining the full history locally, Samba offers a lightweight, modular alternative that preserves access to historical data without compromising node efficiency.\n",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "This grant will directly support the continued development of Samba as we work toward full compliance with the Portal Network specifications. Specifically, it will enable our team to continue the implementation of all defined sub-networks and ensure Samba is production-ready.\nRoadmap:\nComplete the History Subnetwork: Finalize support for the history subnetwork\nDevelop the Besu Plugin: Build and integrate a Samba plugin for Besu, allowing Portal functionality to be easily adopted by an existing Java-based Ethereum client.\nImplement the Execution-State Subnetwork.\nImplement the Beacon Chain Subnetwork.\nThe grant will fund:\nOngoing protocol development and testing\nIntegration work (especially with Besu)\nSubnetworks implementations\nStability, performance, and security improvements\nDeveloper resources and documentation to support adoption\n",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project contributes to the decentralization and security of the Ethereum network in several key ways:\n\nClient Diversity & Technical Decentralization: By introducing Samba, the first Portal Client written in Java, we expand the diversity of Portal client implementations. This aligns with Ethereum’s multi-client philosophy and reduces reliance on any single language or codebase, making the network more resilient to bugs, attacks, or implementation failures.\n\n\nNetwork Integrity & Robustness: Samba strengthens the overall integrity of the Portal Network by adding redundancy and failover capability. A more diverse and distributed set of clients helps ensure that the network remains operational and secure, even in the face of localized disruptions or targeted attacks.\n\n\nSecurity Through Shared Infrastructure: We leverage and test key components from established Ethereum clients like Besu (execution layer) and Teku (consensus layer), contributing to a safer and more unified ecosystem across layers.\n\n\nLowering Barriers to Participation: Samba can be run as a standalone node or integrated directly into Besu, making it easier for more individuals and developers to participate in the network. This lowers the technical and storage barriers to running a node, leading to increased node count and improved decentralization and security.\n\n\nAll of these efforts support the broader goals of the Portal Networks:  to provide reliable, lightweight, and decentralized access to the Ethereum protocol. \n\n",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xccda73e2534d3366914226bdb94adf06d00c8537fdde363d0269e0610e1e8fd9",
+        "title": "Samba",
+        "metaPtr": {
+          "pointer": "bafkreidajw2ez7gubssvu7kna6ptv2n3a4rqbf6yulto36onkjhetcxndy",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/meldsun0/samba",
+        "createdAt": 1743189251774,
+        "userGithub": "meldsun0",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T19:35:28.563Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x92baf9ca0315fe54bfe299454af49c77c171790dd036c9c8c0ecf9cb74ee1d4c632985f207596641e7aab33ff8820c54302e1ff1b0565fbf844c654be9ee7a631b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T19:35:28.563Z",
+            "expirationDate": "2025-06-26T19:35:28.563Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xe966B9F33B907448F6603f9b0194EB9F079fBAA4",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#meldsun-labs#160340597",
+              "nullifiers": [
+                "v0.0.0:uz4QcFiKADn8doIomPiETEqRpE7kgvr0SmihDqh1aEI="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T19:12:05.472Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xf5502126c37a9cad90d43328b402b941647cea22952958d524fd89139e1f0c4e3b2ab46c9b68c4bd19124cd7fba911a69541735bad56c9bbb4380954451b0fb61c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T19:12:05.471Z",
+            "expirationDate": "2025-06-26T19:12:05.471Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xe966B9F33B907448F6603f9b0194EB9F079fBAA4",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#meldsun0",
+              "nullifiers": [
+                "v0.0.0:mlW5oRMdkxAil2tn9DrN+EqXYEN3mbf6CN5pIIc//RM="
+              ]
+            }
+          }
+        },
+        "description": "Samba is a Portal Node that serves as an interface to the Portal network, facilitating connections between Portal nodes to form a decentralized, peer-to-peer network. Initially, Samba enables users to request data associated with the History subnetwork (in progress)\n\nHowever, as the project evolves, the goal is to expand Samba's capabilities to support all sub-networks outlined in the Portal specifications.\n\nSamba is written in Java and is built on the foundations of Teku and Besu.\n\nThese are the endpoints that are implemented in the latest version:\n\nportal_historyPing\n\nportal_historyFindNodes\n\nportal_historyAddEnr\n\nportal_historyGetEnr\n\nportal_historyDeleteEnr\n\nportal_historyFindContent\n\nportal_historyGetContent\n\nportal_historyFindNodes\n\nportal_historyOffer\n\nportal_historyLocalContent\n\nportal_historyLookupEnr\n\nportal_historyStore\n\nportal_historyPutContent\n\ndiscv5_nodeInfo,\n\ndiscv5_updateNodeInfo,\n\ndiscv5_getEnr\n\nWe have most of Portal Hive tests passing. ",
+        "lastUpdated": 0,
+        "projectGithub": "meldsun-labs",
+        "projectTwitter": "meldsun0"
+      },
+      "recipient": "0xe966B9F33B907448F6603f9b0194EB9F079fBAA4"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Samba",
+      "website": "https://github.com/meldsun0/samba",
+      "createdAt": 1743189251774,
+      "userGithub": "meldsun0",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T19:35:28.563Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x92baf9ca0315fe54bfe299454af49c77c171790dd036c9c8c0ecf9cb74ee1d4c632985f207596641e7aab33ff8820c54302e1ff1b0565fbf844c654be9ee7a631b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T19:35:28.563Z",
+          "expirationDate": "2025-06-26T19:35:28.563Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xe966B9F33B907448F6603f9b0194EB9F079fBAA4",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#meldsun-labs#160340597",
+            "nullifiers": [
+              "v0.0.0:uz4QcFiKADn8doIomPiETEqRpE7kgvr0SmihDqh1aEI="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T19:12:05.472Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xf5502126c37a9cad90d43328b402b941647cea22952958d524fd89139e1f0c4e3b2ab46c9b68c4bd19124cd7fba911a69541735bad56c9bbb4380954451b0fb61c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T19:12:05.471Z",
+          "expirationDate": "2025-06-26T19:12:05.471Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xe966B9F33B907448F6603f9b0194EB9F079fBAA4",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#meldsun0",
+            "nullifiers": [
+              "v0.0.0:mlW5oRMdkxAil2tn9DrN+EqXYEN3mbf6CN5pIIc//RM="
+            ]
+          }
+        }
+      },
+      "description": "Samba is a Portal Node that serves as an interface to the Portal network, facilitating connections between Portal nodes to form a decentralized, peer-to-peer network. Initially, Samba enables users to request data associated with the History subnetwork (in progress)\n\nHowever, as the project evolves, the goal is to expand Samba's capabilities to support all sub-networks outlined in the Portal specifications.\n\nSamba is written in Java and is built on the foundations of Teku and Besu.\n\nThese are the endpoints that are implemented in the latest version:\n\nportal_historyPing\n\nportal_historyFindNodes\n\nportal_historyAddEnr\n\nportal_historyGetEnr\n\nportal_historyDeleteEnr\n\nportal_historyFindContent\n\nportal_historyGetContent\n\nportal_historyFindNodes\n\nportal_historyOffer\n\nportal_historyLocalContent\n\nportal_historyLookupEnr\n\nportal_historyStore\n\nportal_historyPutContent\n\ndiscv5_nodeInfo,\n\ndiscv5_updateNodeInfo,\n\ndiscv5_getEnr\n\nWe have most of Portal Hive tests passing. ",
+      "projectGithub": "meldsun-labs",
+      "projectTwitter": "meldsun0"
+    }
+  }
+}

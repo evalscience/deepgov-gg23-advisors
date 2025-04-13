@@ -1,0 +1,679 @@
+{
+  "id": "20",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xf97940e6e0db99e0062e1d1cc390d48075445e7d6e7aa77e727b3b24c9e616d5",
+  "metadata": {
+    "signature": "0x3d8f37b84ec5af0ba81bc1d26b37edef9f5de34e05d9bb3532a8a1350774ec55077661e0b6bd6ddf4391e0b01dfcddef836f1288257033a2f985a4408cfdb36c1c",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "srivatsaverramilli@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "Cass402",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/ResiProtocol/Resi_Protocol",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Resi Protocol contributes to Ethereum’s infrastructure by introducing a resilient, decentralized, and modular stablecoin system that directly supports the Ethereum ecosystem’s scalability, decentralization, and financial utility.\nHere’s how Resi significantly strengthens Ethereum’s foundational layers:\n1. Zero-Knowledge-Native Governance Layer\nResi integrates ZKPs at the protocol layer to power private, verifiable voting and proposal execution.\nThis enhances Ethereum's on-chain governance tooling by offering modular ZK governance infrastructure that DAOs and protocols can plug into.\nAll governance decisions are publicly auditable via zero-knowledge proofs, increasing transparency without exposing voter identities.\n 2. AI/ML-Based Monetary Policy Module\nResi uses machine learning to dynamically adjust collateral ratios and fees based on market volatility, liquidity, and asset-specific risk.\nThis innovation enhances capital efficiency across Ethereum by enabling adaptive collateral requirements — something missing in current protocols like MakerDAO or Liquity.\nIt allows Ethereum to host a smarter, more resilient stablecoin system, especially useful in volatile markets.\n 3. Oracle Security Infrastructure\nResi aggregates data from Chainlink, Band, and API3 and applies anomaly detection + on-chain cross-validation to ensure accurate, tamper-proof price feeds.\nThis enhances Ethereum’s oracle layer by introducing a redundant, verifiable oracle framework resistant to price manipulation attacks.\n 4. Capital-Efficient, Decentralized Stablecoin for DeFi\nStablecoins are critical Ethereum infrastructure. Resi aims to provide a stablecoin that is:\nOver-collateralized when risk is high\nEfficiently collateralized when volatility is low\nThis makes Resi a dynamic DeFi money layer that complements lending, trading, and on-chain payments.\n 5. Open-Source Modular Components\nAll components of Resi will be open-source, allowing other Ethereum-based projects to:\nFork our ZK governance system\nIntegrate our ML-based collateral engine\nUse our oracle aggregation module\n Metrics (current and projected):\nGitHub repo live and under active development: https://github.com/Cass402/Resi_Protocol\nMVP deployment planned on Arbitrum One, with expansion to zkEVM chains in Q2/Q3 2025\nGoal: Serve as the default stablecoin system for 3+ DAOs and 2+ DeFi protocols within 6 months post-launch\n Public Good Alignment\nResi is not a company or profit-maximizing asset — it’s being built as public infrastructure, open to all, with governance fully in the hands of the community.\nOur long-term vision is to become Ethereum’s AI-powered, ZK-verified monetary engine — the stable layer DeFi has been waiting for.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Resi Protocol introduces pioneering development work across privacy, interoperability, and user experience by blending zero-knowledge cryptography, adaptive economic policy, and oracle security into a modular DeFi system.\n Privacy:\nResi implements ZKPs at the protocol level to ensure governance privacy and transaction auditability. All votes, proposals, and protocol changes are verifiable via ZKPs, giving users privacy without sacrificing trust. ZK-based logging also ensures that sensitive system operations are provably correct without revealing sensitive data.\n Interoperability:\nResi’s multi-oracle aggregation system pulls real-time price data from Chainlink, Band, API3 and other sources. On-chain cross-validation and anomaly detection allow the protocol to isolate and reject manipulated data, increasing resilience across the Ethereum data layer. This oracle module is designed to be modular and reusable by other protocols.\n User Experience & Economic Innovation:\nResi introduces a novel AI/ML-driven collateral policy engine that enables dynamic overcollateralization, undercollateralization, or 100% collateralization, depending on the real-time volatility, liquidity, and risk profile of each asset.\nFor example:\nETH during high volatility → 120% overcollateralized\nBTC during low volatility → 100% collateralized\nStable, low-risk LP tokens or treasury-backed assets → allowed to go as low as 90–95% collateralized for capital efficiency\nThis dynamic system improves UX by abstracting complexity, while maintaining system safety through data-driven risk analysis. It also makes Resi one of the first protocols to responsibly support undercollateralized stablecoin minting under strict, ML-governed conditions.\nUsers don’t need to manually adjust risk settings — the protocol handles it, in real-time.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Resi Protocol directly addresses three persistent challenges in the Ethereum ecosystem:\n 1. Stablecoin Fragility + Peg Instability\nEthereum’s DeFi layer relies on stablecoins, yet most current models are:\nOvercollateralized and inefficient (e.g., Liquity, DAI)\nCentralized and opaque (e.g., USDC, USDT)\nAlgorithmic and fragile (e.g., Terra/UST collapse)\nWhen stablecoins lose their peg, the entire ecosystem suffers — from lending markets to DEXs.\nResi’s Solution:\nHybrid collateral model: Accepts BTC, ETH, stables, LP tokens — spreads risk.\nAI/ML-based dynamic collateralization: Adjusts in real time (undercollateralize low-risk, overcollateralize volatile).\nAutomated Stability Reserve (ASR): Deploys liquidity during peg threats.\n Result: A stablecoin that adapts with market conditions and holds its peg even during chaos.\n\n 2. Governance Inefficiency + Lack of Privacy\nMost DeFi governance is:\nDominated by whales\nLacking privacy (votes are public = coercion, buying influence)\nSlow and often ignored by users\nResi’s Solution:\nZK-based governance layer with Quadratic + Conviction Voting\nPrivate, verifiable votes via ZKPs\nTokenized incentives for participation\nReal-time governance dashboard\n Result: A more fair, private, and active governance system that can be adopted by other DAOs too.\n\n 3. Oracle Manipulation and Single-Point-of-Failure Feeds\nMany DeFi protocols depend on single oracle providers (e.g., just Chainlink)\nThis leads to:\nPrice manipulation attacks\nFlash loan exploits\nCatastrophic liquidations\nResi’s Solution:\nMulti-oracle aggregation (Chainlink, Band, API3, etc.)\nOn-chain cross-validation + statistical anomaly detection\nTamper-resistant oracle infrastructure\n Result: More resilient DeFi protocols that don’t go down from bad price feeds.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Roadmap: Q1–Q4 2025\nQ1 2025 – Prototyping & Architecture Finalization (CURRENT STAGE)\n GitHub repo live, open-sourced\nFinalize ZK governance circuit architecture\nBuild initial oracle aggregation system w/ redundancy logic\nBegin AI/ML policy engine prototyping\nSet up Gitcoin presence, social infrastructure, and documentation\n Q2 2025 – MVP Development & Internal Testing\nDeploy smart contracts to Arbitrum testnet\nIntegrate ML-based real-time collateral engine\nSimulate governance flow with ZK-powered voting + auditing\nLaunch public-facing MVP dashboard with test stablecoin minting\nPerform internal simulations of oracle manipulation + peg stress tests\n Q3 2025 – Public Beta & Ecosystem Expansion\nLaunch Resi MVP on Arbitrum One (Mainnet)\nPublish full documentation + governance model specs\nOpen early governance to community participation via test proposals\nBegin onboarding ecosystem partners (DAOs, devs, auditors)\nOpen up modular oracle + ZK governance components for other protocols to fork/use\n Q4 2025 – Finalize V1 + Extend to zkEVM\nLaunch audited V1 protocol on Arbitrum\nBegin deploying ZK governance modules on zkSync or Polygon zkEVM\nIntegrate with DeFi platforms (lending, LPs)\nOpen cross-chain bridge module (if needed)\nLaunch resilience dashboard: peg metrics, reserve status, governance votes in real time\n\nGrant Fund Allocation Plan:\n\nThe majority of the grant funds will be allocated directly toward core development, with a strong focus on delivering a robust, secure, and adaptable protocol. Approximately 40% of the funds will be used for smart contract development, including the hybrid collateral engine, mint/burn logic, and the Automated Stability Reserve system. Around 20% will go toward building the zero-knowledge governance system, including circuit design, verifier contracts, and on-chain audit logging. Another 15% will be invested in the AI/ML-based dynamic tuning engine, which adjusts collateral ratios and fees in real time based on asset volatility and market behavior.\n\nWe plan to allocate 10% of the funds to developing our multi-oracle security layer, with on-chain aggregation, cross-validation, and anomaly detection mechanisms. An additional 10% will support the creation of public documentation, UX design, and our real-time governance dashboard to improve transparency and community engagement. The remaining 5% will be used for community and Gitcoin ecosystem operations, including contributor onboarding, transparency reporting, and public updates to engage early users and supporters.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Resi Protocol enhances the decentralization and security of the Ethereum network by building public, modular infrastructure that replaces centralized, fragile systems with zero-knowledge-powered, community-governed, and data-resilient alternatives.\n\n1. Decentralization through Community Governance + ZK Privacy\nMost protocols today suffer from governance apathy or whale domination. Resi flips that by introducing a hybrid governance model that blends Quadratic Voting and Conviction Voting, executed with zero-knowledge proofs (ZKPs) to ensure voter privacy, on-chain verifiability, and resistance to vote manipulation.\n\nThis makes governance:\n\nMore inclusive (small token holders have real power)\nMore secure (less exposed to Sybil attacks or vote buying)\nMore decentralized (governance runs on-chain, not in backrooms)\n 2. Infrastructure-Level Stablecoin with Autonomous Risk Management\nStablecoins are critical infrastructure — yet most are:\n\nCentralized (USDC/USDT)\nOvercollateralized + inefficient (DAI, Liquity)\nOr fragile (UST)\nResi is the first to introduce an ML-powered adaptive risk model that:\n\nAdjusts collateral ratios in real time\nAllows both over- and under-collateralization based on asset risk\nUses protocol-owned liquidity (ASR) for peg protection\nThis results in a decentralized monetary layer that’s far more resilient, reducing systemic risk for Ethereum’s entire DeFi stack.\n\n 3. Secure Oracle Aggregation & Anti-Manipulation Layer\nOracles are a critical attack vector in Ethereum. Resi defends against manipulation by:\n\nAggregating from multiple sources (Chainlink, Band, API3)\nApplying on-chain redundancy + anomaly detection\nValidating feeds before usage in collateral and pricing logic\nThis reduces dependence on any single data source and makes Ethereum’s financial layer more tamper-resistant and censorship-proof.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our smart contracts are currently in development and have not been deployed to a public blockchain yet. The MVP is planned to launch on Arbitrum One (chain ID: 42161), and deployer addresses will be provided as soon as the contracts are live.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xf97940e6e0db99e0062e1d1cc390d48075445e7d6e7aa77e727b3b24c9e616d5",
+        "title": "Resi (Resilient Stable Infrastructure) Protocol",
+        "logoImg": "bafkreihnkavqa5o763ipu4mex5wneeqjrwu3avkqkq26iff5rkv7hror2m",
+        "metaPtr": {
+          "pointer": "bafkreiha3fiqpxtb342f4admjmz2lo2a7bmyc3pmcbibvpvqdezg4flkiu",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/ResiProtocol/Resi_Protocol",
+        "bannerImg": "bafkreihfz5xiahajzi6fwbgxfhrmss2zsi4judydbbzygaqmzqwyxk6xqm",
+        "createdAt": 1742637245115,
+        "userGithub": "Cass402",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T10:30:37.770Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x52cbfe8132993c128d545171c68c18f7e8cc90ee5f61aaf017943347528185d45e7d38b087a4b293315ef71c3bdd9468d40e15b4fa4456d629179e239326f3141b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T10:30:37.770Z",
+            "expirationDate": "2025-06-20T10:30:37.770Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x5a0934a86283340d86A92aa745eAACa6f4eAAC59",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#ResiProtocol#138028569",
+              "nullifiers": [
+                "v0.0.0:AeMDzmHEMuHyfCZC99WuS13KXZ0IFR9/TkacSUneUA0="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T10:01:16.898Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x3f2f17e903c11e488799e5d47b71c705290ccd6893407bfadac52df8c671546e56f4ac75386218a8ed253abbd0f0291a3a68293dc60a1b56e8a46908018219c61c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T10:01:16.898Z",
+            "expirationDate": "2025-06-20T10:01:16.898Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x5a0934a86283340d86A92aa745eAACa6f4eAAC59",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ResiProtocol",
+              "nullifiers": [
+                "v0.0.0:8nRSlKBAchpIr75w2aU8RcMk7RuertTEHymEDUwP5Os="
+              ]
+            }
+          }
+        },
+        "description": "## 🌀 Resi Protocol\n\n**Resi Protocol** is a **zero-knowledge-first**, algorithmic stablecoin platform that combines **real-time machine learning**, **adaptive monetary policy**, and **resilient oracle security** to create the next generation of DeFi stability infrastructure.\n\n---\n\n### 🔐 Foundational Principles\n\nUnlike previous stablecoin attempts, Resi is designed from the ground up with two core innovations:\n\n- **Zero-Knowledge Proofs (ZKPs)** integrated at every layer — from governance and voting to transaction logging and monetary policy execution. This ensures **privacy, auditability, and integrity** without sacrificing decentralization.\n\n- **AI/ML-driven real-time policy optimization** — allowing the protocol to dynamically adjust **collateral ratios, mint/burn fees**, and **stability parameters** based on live market behavior and asset volatility.\n\n---\n\n### ⚙️ How It Works\n\n- **Hybrid Collateral System**  \n  Supports BTC, ETH, stablecoins, and decentralized LP tokens — with **per-asset collateralization ratios** adjusted using ML models at deposit time.  \n  _Example:_ If ETH is volatile, collateralize at 120%, while BTC stays at 100%.\n\n- **Automated Stability Reserve (ASR)**  \n  A protocol-owned capital pool deployed during times of market stress, guided by real-time analytics.\n\n- **ZK-Based Governance**  \n  Voting is powered by a **fusion of Quadratic + Conviction Voting**, all executed using ZKPs to **preserve voter privacy** while ensuring full **on-chain verifiability**. Every proposal, vote, and policy change is logged using **zero-knowledge integrity proofs**.\n\n- **Oracle Aggregation + Manipulation Defense**  \n  Data is pulled from multiple sources (Chainlink, Band, API3) and validated through **statistical anomaly detection** and **on-chain cross-checks**, protecting against manipulation and price spoofing.\n\n---\n\n### 🧠 Why It Matters\n\nToday's stablecoins are:\n- Over-collateralized and inefficient  \n- Under-secured  \n- Or too centralized to be trusted  \n\n**Resi Protocol** changes the game by combining:\n- **Adaptive economic logic**\n- **Zero-knowledge transparency**\n- **Decentralized, intelligent governance**\n\nThis creates a **new class of financial primitive** — one that can actually **scale through market cycles** while remaining stable, secure, and decentralized.\n\n---\n\n### 🚀 Launch Plan\n\n- The **MVP will launch on Arbitrum One**, aligning with Gitcoin’s **GG23 Web3 Infrastructure round** for maximum ecosystem fit.\n- In the long-term, we will **modularize ZK governance** into **zkEVM-compatible chains**, or roll out custom zk-circuits to support high-integrity, low-trust governance layers.\n\n---\n\n### 🌍 Public Good Alignment\n\nResi isn’t just a stablecoin — it’s a **decentralized monetary operating system**, built as open-source infrastructure for:\n- Builders\n- DAOs\n- Communities that demand **trust-minimized**, **intelligent**, and **privacy-respecting** economic systems.\n\nAll components will be:\n- Fully **modular**\n- **Publicly auditable**\n- Built to encourage **open collaboration and contribution**\n\n---\n\n### 🛠️ Development Status\n\n> **Resi Protocol is currently in active prototyping and development.**  \nThe GitHub repository is publicly available and updated regularly, with progress on:\n- Oracle aggregation logic\n- Collateral engine models\n- Early ZK governance tests\n\n📂 **Follow development here:** [GitHub Repo Link](https://github.com/ResiProtocol/Resi_Protocol)\n\nGitcoin support will help accelerate development of the protocol's core components, especially the ZK voting layer and ML-driven stability engine.\n",
+        "lastUpdated": 0,
+        "projectGithub": "ResiProtocol",
+        "projectTwitter": "ResiProtocol"
+      },
+      "recipient": "0x5a0934a86283340d86A92aa745eAACa6f4eAAC59"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Resi (Resilient Stable Infrastructure) Protocol",
+      "logoImg": "bafkreihnkavqa5o763ipu4mex5wneeqjrwu3avkqkq26iff5rkv7hror2m",
+      "website": "https://github.com/ResiProtocol/Resi_Protocol",
+      "bannerImg": "bafkreihfz5xiahajzi6fwbgxfhrmss2zsi4judydbbzygaqmzqwyxk6xqm",
+      "createdAt": 1742637245115,
+      "userGithub": "Cass402",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T10:30:37.770Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x52cbfe8132993c128d545171c68c18f7e8cc90ee5f61aaf017943347528185d45e7d38b087a4b293315ef71c3bdd9468d40e15b4fa4456d629179e239326f3141b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T10:30:37.770Z",
+          "expirationDate": "2025-06-20T10:30:37.770Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x5a0934a86283340d86A92aa745eAACa6f4eAAC59",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#ResiProtocol#138028569",
+            "nullifiers": [
+              "v0.0.0:AeMDzmHEMuHyfCZC99WuS13KXZ0IFR9/TkacSUneUA0="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T10:01:16.898Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x3f2f17e903c11e488799e5d47b71c705290ccd6893407bfadac52df8c671546e56f4ac75386218a8ed253abbd0f0291a3a68293dc60a1b56e8a46908018219c61c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T10:01:16.898Z",
+          "expirationDate": "2025-06-20T10:01:16.898Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x5a0934a86283340d86A92aa745eAACa6f4eAAC59",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ResiProtocol",
+            "nullifiers": [
+              "v0.0.0:8nRSlKBAchpIr75w2aU8RcMk7RuertTEHymEDUwP5Os="
+            ]
+          }
+        }
+      },
+      "description": "## 🌀 Resi Protocol\n\n**Resi Protocol** is a **zero-knowledge-first**, algorithmic stablecoin platform that combines **real-time machine learning**, **adaptive monetary policy**, and **resilient oracle security** to create the next generation of DeFi stability infrastructure.\n\n---\n\n### 🔐 Foundational Principles\n\nUnlike previous stablecoin attempts, Resi is designed from the ground up with two core innovations:\n\n- **Zero-Knowledge Proofs (ZKPs)** integrated at every layer — from governance and voting to transaction logging and monetary policy execution. This ensures **privacy, auditability, and integrity** without sacrificing decentralization.\n\n- **AI/ML-driven real-time policy optimization** — allowing the protocol to dynamically adjust **collateral ratios, mint/burn fees**, and **stability parameters** based on live market behavior and asset volatility.\n\n---\n\n### ⚙️ How It Works\n\n- **Hybrid Collateral System**  \n  Supports BTC, ETH, stablecoins, and decentralized LP tokens — with **per-asset collateralization ratios** adjusted using ML models at deposit time.  \n  _Example:_ If ETH is volatile, collateralize at 120%, while BTC stays at 100%.\n\n- **Automated Stability Reserve (ASR)**  \n  A protocol-owned capital pool deployed during times of market stress, guided by real-time analytics.\n\n- **ZK-Based Governance**  \n  Voting is powered by a **fusion of Quadratic + Conviction Voting**, all executed using ZKPs to **preserve voter privacy** while ensuring full **on-chain verifiability**. Every proposal, vote, and policy change is logged using **zero-knowledge integrity proofs**.\n\n- **Oracle Aggregation + Manipulation Defense**  \n  Data is pulled from multiple sources (Chainlink, Band, API3) and validated through **statistical anomaly detection** and **on-chain cross-checks**, protecting against manipulation and price spoofing.\n\n---\n\n### 🧠 Why It Matters\n\nToday's stablecoins are:\n- Over-collateralized and inefficient  \n- Under-secured  \n- Or too centralized to be trusted  \n\n**Resi Protocol** changes the game by combining:\n- **Adaptive economic logic**\n- **Zero-knowledge transparency**\n- **Decentralized, intelligent governance**\n\nThis creates a **new class of financial primitive** — one that can actually **scale through market cycles** while remaining stable, secure, and decentralized.\n\n---\n\n### 🚀 Launch Plan\n\n- The **MVP will launch on Arbitrum One**, aligning with Gitcoin’s **GG23 Web3 Infrastructure round** for maximum ecosystem fit.\n- In the long-term, we will **modularize ZK governance** into **zkEVM-compatible chains**, or roll out custom zk-circuits to support high-integrity, low-trust governance layers.\n\n---\n\n### 🌍 Public Good Alignment\n\nResi isn’t just a stablecoin — it’s a **decentralized monetary operating system**, built as open-source infrastructure for:\n- Builders\n- DAOs\n- Communities that demand **trust-minimized**, **intelligent**, and **privacy-respecting** economic systems.\n\nAll components will be:\n- Fully **modular**\n- **Publicly auditable**\n- Built to encourage **open collaboration and contribution**\n\n---\n\n### 🛠️ Development Status\n\n> **Resi Protocol is currently in active prototyping and development.**  \nThe GitHub repository is publicly available and updated regularly, with progress on:\n- Oracle aggregation logic\n- Collateral engine models\n- Early ZK governance tests\n\n📂 **Follow development here:** [GitHub Repo Link](https://github.com/ResiProtocol/Resi_Protocol)\n\nGitcoin support will help accelerate development of the protocol's core components, especially the ZK voting layer and ML-driven stability engine.\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "ResiProtocol",
+      "projectTwitter": "ResiProtocol"
+    }
+  }
+}

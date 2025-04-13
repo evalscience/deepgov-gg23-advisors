@@ -1,0 +1,245 @@
+{
+  "id": "41",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x9aa1813681cbc4c7acdad3f7687ee68b6c21a055f2df0d771551ad3d0a9e9d4d",
+  "metadata": {
+    "signature": "0x27bbfa02cba257feacde8afaab19e90faa021cd531c124eaf5017023306511dc0755bdee972cb26c488f60a38e410a560eb8328bd712e04b7b7b4ea6b85a77251c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "tim@peeramid.xyz",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@peersky",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/peeramid-labs/multipass",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/channels/1231134572813615105/1355030828048060426",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, GG21, all updates are on karma gap",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Multipass is the only project in the space that bootstraps cross-domain DID infrastructure as decentralised organization managed directly on ethereum. \n\nInstead of trying funneling traffic away in to specific off-chain endpoints or other protocols that later have to be bridged, multipass directly integrates Ethereum network infrastructure with smart contracts that are MPC network attested to store users DIDs and cross-domain look up those. ",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our technology is actually very simple, on chain it's a look up contract, while off-chain we aim to leverage different providers such as Lit Protocol  to manage \"black box\" tasks. \n\nEventually, we are looking forward on-chain FHE to play an end-game. \n\nThe innovation comes from financial models we are opening up, including token gated access to identity details. ",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Cross domain user lookup is fragmented. \n\nEvery time you register in new platform you'll be asked to enter your telegram handle. \n\nInstead you could well just share the token with platform to access your latest data",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are planning to firstly release a milestone that supports private data fields on chain -\n\nhttps://github.com/peeramid-labs/multipass/issues/29\n\nCurrently work towards this is already undergoing. \n\nOnce done, we will be releasing MPC/TEE node software to run `registrar` services. \n\nOnce that done, we will implement basic incentive mechanism for registrars. \n",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Key aspect of Multipass that in principle decentralised attestations is also an option, as long as there are tools like ZKMail or Reclaim protocol that we can leverage for that. \n\nUsers are in full control of their DID and do not need to have any external storage provider. \n\nUsing multipass, users will be able to establish single endpoint for their identity soruce and projects (e.g. like gitcoin) will be able to run verification on profiles much easier without compromising security nor privacy of an user. ",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x6cf8d74c7875de8c2ffb09228f4bf2a21b25e583,421614",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x9aa1813681cbc4c7acdad3f7687ee68b6c21a055f2df0d771551ad3d0a9e9d4d",
+        "title": "Multipass",
+        "logoImg": "bafkreidxcmwkx2sqfwrs5dgawxkour6rnnjjxtn7nkyg2z2lgco33d7m7e",
+        "metaPtr": {
+          "pointer": "bafkreiddz25v3f62frlqum2rqo6ugsovuzogeo7xwhk2kq6vkjdflgbzoq",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/peeramid-labs/multipass",
+        "bannerImg": "bafkreifgwlvflq3ke4avgwfhpwtca564j4vrqjsiqmmulmx35cev5kfqai",
+        "createdAt": 1723052627957,
+        "userGithub": "peersky",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..fmVGZ-Y8zR7LpfpHxIWZ3MuP3Gob2_YBrAOo9jnsQpH7TEO2H6SD7TkQF7B_2HYu87kta2iU1vph15qAJs8HAA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-08-07T17:43:25.166Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-08-07T17:43:25.166Z",
+            "expirationDate": "2024-11-05T17:43:25.166Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2e8d906A63D15E110037DB42dD24FE69bEc4aFAf",
+              "hash": "v0.0.0:zCilqRLMJ+Zr/0dUufetkRFOmC7NMoQMXad5KHweg18=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#peeramid-labs#61459744"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ikFN6a95PzLoLtJ9sfDIPqP19O-CmTpzM6SSF879dSTphYQo48nv8OLw2Sy8H-3jReowlidIM7uDSMO8EtpbBA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-08-07T17:43:40.669Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-08-07T17:43:40.669Z",
+            "expirationDate": "2024-11-05T17:43:40.669Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2e8d906A63D15E110037DB42dD24FE69bEc4aFAf",
+              "hash": "v0.0.0:6kl0jXAyf0oPUpVFVR2mdnqmW/YnAPynu/LFvHt6Toc=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#peeramid_labs"
+            }
+          }
+        },
+        "description": "# Multipass: Unifying Web3 Identity\n\nMultipass is building a decentralized, open-source protocol that simplifies user identity across the fragmented internet landscape. \n\nOur universal identity layer allows dApps and users to seamlessly lookup each other in simple and functional manner. \n\n![multipass-logo-512](https://github.com/user-attachments/assets/72625d2b-c195-4ee2-b278-5b27e6330625)\n\n## Problem\n\nIn the fragmented world of Web3, users are forced to manage multiple identities across different chains, applications, and social platforms. This leads to a cumbersome user experience, security risks, and hinders the growth of the decentralized ecosystem.\n\nThere are so many projects building complicated digital identity products that are focused on privacy. Yet for us it's just a \"[feature](https://github.com/peeramid-labs/multipass/milestone/1)\"\n\nThe real pain point we identified in ethereum UX is that we need a cross-domain user handle lookup! \n\n**With multipass dApps are able to answer following questions**\n- _\"What's `@Bob.telegram` handle on `discord`\"?_\n- _\"I just saw an activity by `0xdeadcafee...101` for my dApp, what's handle of user on `discord` ?_\n- _\"What's `@Bob.discord` wallet address?_\n\n![image](https://github.com/user-attachments/assets/a42e71ea-6e7d-47f8-9f30-1749e6293b46)\n\n## Use cases \n\n- **Enhanced dApp Notifications**: Tag users handles in platform they use!\n- **Cross platform social graph**: Build connections with users across different platforms.\n- **Improved Security:** Strengthen security with cross-platform verification and fraud prevention.\n- **Web2-to-Web3 Account Abstraction:** Enable Web2 logins for Web3 applications.\n- **Token-Gated Communities:**  Grant access based on verified identity and token ownership.\n\n## Project status\n\n\nMultipass is in its Alpha stage, with active development focused on:\n\n* **Decentralized Network:** Launching a robust and secure network of nodes.\n* **Privacy Enhancements:** Implementing zero-knowledge proofs and other privacy-preserving technologies.\n* **Developer Tools:** Creating SDKs and APIs for easy dApp integration.\n* **Community Growth:** Fostering a vibrant community of users and developers.\n\n## Grant Funding purpose  \n\n### Support ongoing development efforts \n\nThis grant will support Multipass in achieving these milestones:\n\n[Support work on v1.0.0 release milestone](https:/github.com/peeramid-labs/multipass/milestone/2): Complete core protocol development and launch it! 🚀\n\n[Privacy preserving cross domain lookup milestone](https://github.com/peeramid-labs/multipass/milestone/1): Implement advanced privacy features to protect user data.\n\n Community Growth:\n- Establish a dedicated support hub.\n- Develop comprehensive documentation and educational resources.\n- Increase project visibility through targeted outreach and community engagement.\n\n## Success Metrics\n\n### Development:\n* Number of issues resolved and pull requests merged.\n* Successful deployments to testnet and mainnet.\n* Completion of key milestones.\n### Community:\n* Growth of active users and developers.\n* Production of high-quality documentation and tutorials.\n* Positive community feedback and testimonials.\n* Increased engagement on social media and online forums.\n\n[Progress reporting: Karma GAP page](https://gap.karmahq.xyz/project/multipass)\n\n## Connect with Us\n\n* **Twitter:** [https://x.com/peeramid_labs](https://x.com/peeramid_labs)\n* **Discord:** [https://discord.gg/EddGgGUuWC](https://discord.gg/EddGgGUuWC)\n* **GitHub:** https://github.com/peeramid-labs/multipass ",
+        "lastUpdated": 0,
+        "projectGithub": "peeramid-labs",
+        "projectTwitter": "peeramid_labs"
+      },
+      "recipient": "0x2EecE69698D467b77D1374372dfe5B89b70DD259"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Multipass",
+      "logoImg": "bafkreidxcmwkx2sqfwrs5dgawxkour6rnnjjxtn7nkyg2z2lgco33d7m7e",
+      "website": "https://github.com/peeramid-labs/multipass",
+      "bannerImg": "bafkreifgwlvflq3ke4avgwfhpwtca564j4vrqjsiqmmulmx35cev5kfqai",
+      "createdAt": 1723052627957,
+      "userGithub": "peersky",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..fmVGZ-Y8zR7LpfpHxIWZ3MuP3Gob2_YBrAOo9jnsQpH7TEO2H6SD7TkQF7B_2HYu87kta2iU1vph15qAJs8HAA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-08-07T17:43:25.166Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-08-07T17:43:25.166Z",
+          "expirationDate": "2024-11-05T17:43:25.166Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x2e8d906A63D15E110037DB42dD24FE69bEc4aFAf",
+            "hash": "v0.0.0:zCilqRLMJ+Zr/0dUufetkRFOmC7NMoQMXad5KHweg18=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#peeramid-labs#61459744"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ikFN6a95PzLoLtJ9sfDIPqP19O-CmTpzM6SSF879dSTphYQo48nv8OLw2Sy8H-3jReowlidIM7uDSMO8EtpbBA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-08-07T17:43:40.669Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-08-07T17:43:40.669Z",
+          "expirationDate": "2024-11-05T17:43:40.669Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x2e8d906A63D15E110037DB42dD24FE69bEc4aFAf",
+            "hash": "v0.0.0:6kl0jXAyf0oPUpVFVR2mdnqmW/YnAPynu/LFvHt6Toc=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#peeramid_labs"
+          }
+        }
+      },
+      "description": "# Multipass: Unifying Web3 Identity\n\nMultipass is building a decentralized, open-source protocol that simplifies user identity across the fragmented internet landscape. \n\nOur universal identity layer allows dApps and users to seamlessly lookup each other in simple and functional manner. \n\n![multipass-logo-512](https://github.com/user-attachments/assets/72625d2b-c195-4ee2-b278-5b27e6330625)\n\n## Problem\n\nIn the fragmented world of Web3, users are forced to manage multiple identities across different chains, applications, and social platforms. This leads to a cumbersome user experience, security risks, and hinders the growth of the decentralized ecosystem.\n\nThere are so many projects building complicated digital identity products that are focused on privacy. Yet for us it's just a \"[feature](https://github.com/peeramid-labs/multipass/milestone/1)\"\n\nThe real pain point we identified in ethereum UX is that we need a cross-domain user handle lookup! \n\n**With multipass dApps are able to answer following questions**\n- _\"What's `@Bob.telegram` handle on `discord`\"?_\n- _\"I just saw an activity by `0xdeadcafee...101` for my dApp, what's handle of user on `discord` ?_\n- _\"What's `@Bob.discord` wallet address?_\n\n![image](https://github.com/user-attachments/assets/a42e71ea-6e7d-47f8-9f30-1749e6293b46)\n\n## Use cases \n\n- **Enhanced dApp Notifications**: Tag users handles in platform they use!\n- **Cross platform social graph**: Build connections with users across different platforms.\n- **Improved Security:** Strengthen security with cross-platform verification and fraud prevention.\n- **Web2-to-Web3 Account Abstraction:** Enable Web2 logins for Web3 applications.\n- **Token-Gated Communities:**  Grant access based on verified identity and token ownership.\n\n## Project status\n\n\nMultipass is in its Alpha stage, with active development focused on:\n\n* **Decentralized Network:** Launching a robust and secure network of nodes.\n* **Privacy Enhancements:** Implementing zero-knowledge proofs and other privacy-preserving technologies.\n* **Developer Tools:** Creating SDKs and APIs for easy dApp integration.\n* **Community Growth:** Fostering a vibrant community of users and developers.\n\n## Grant Funding purpose  \n\n### Support ongoing development efforts \n\nThis grant will support Multipass in achieving these milestones:\n\n[Support work on v1.0.0 release milestone](https:/github.com/peeramid-labs/multipass/milestone/2): Complete core protocol development and launch it! 🚀\n\n[Privacy preserving cross domain lookup milestone](https://github.com/peeramid-labs/multipass/milestone/1): Implement advanced privacy features to protect user data.\n\n Community Growth:\n- Establish a dedicated support hub.\n- Develop comprehensive documentation and educational resources.\n- Increase project visibility through targeted outreach and community engagement.\n\n## Success Metrics\n\n### Development:\n* Number of issues resolved and pull requests merged.\n* Successful deployments to testnet and mainnet.\n* Completion of key milestones.\n### Community:\n* Growth of active users and developers.\n* Production of high-quality documentation and tutorials.\n* Positive community feedback and testimonials.\n* Increased engagement on social media and online forums.\n\n[Progress reporting: Karma GAP page](https://gap.karmahq.xyz/project/multipass)\n\n## Connect with Us\n\n* **Twitter:** [https://x.com/peeramid_labs](https://x.com/peeramid_labs)\n* **Discord:** [https://discord.gg/EddGgGUuWC](https://discord.gg/EddGgGUuWC)\n* **GitHub:** https://github.com/peeramid-labs/multipass ",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "peeramid-labs",
+      "projectTwitter": "peeramid_labs"
+    }
+  }
+}

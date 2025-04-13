@@ -1,0 +1,667 @@
+{
+  "id": "62",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xa73b59fdeceb5e6e1218df3da5dcd2cd01e4fdc2ff52f0a15a0f1afbb2f619bf",
+  "metadata": {
+    "signature": "0x0d72ff4da308a2d234e658e8d7bf943cb9797fcb04ebf2be87bada222b5b90534a19864957dac25ba46954171097d51ba279c6ee2dd9e870668f33f7e0bffaed1b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "willy+tom@nounspace.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "willyogo",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Nounspace/nounspace.ts",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/eYQeXU2WuH",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://explorer.gitcoin.co/#/projects/0x8b069135d9af6e365eb454d93b94a0ccd58f9dbbcd0aa3504a90cba9093ebf73\n\nhttps://explorer.gitcoin.co/#/projects/0xef20174f33560f7383461dfc7fed0d63c01886a48b4761d232c9b903994db867",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "both nounspace and our agentic CEO, nounspaceTom, are fully open source under the GPL-3.0 license. contributors to nounspace's open source repositories can earn points for their contributions on https://scoutgame.xyz",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "nounspace's core features of Themes, Fidgets (mini apps), and Tabs enable users (including projects, communities, tokens, etc.) to fully customize the look, sound, content, and functionality of their spaces and homebases. This makes it easy for any user to share whatever content and functionality is important to them in a single place, whether that content lives on a social network or beyond.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Currently we're working on mobile and FrameV2 (Farcaster mini apps) support. Next, our goal is to enable any community to easily deploy their own whitelabeled version of nounspace, homepage, with custom domain, branding, directory of members, notifications, and/or default spaces + homebases, including themes, fidgets (including all FrameV2s), tabs, and fidget settings.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x13116faeda111a45217d510e075e7ecda3494e95, 8453\n0x05A1ff0a32bc24265BCB39499d0c5D9A6cb2011c, 8453\n0x06AE622bF2029Db79Bdebd38F723f1f33f95F6C5, 8453\n0x040EF6Fb6592A70291954E2a6a1a8F320FF10626, 1",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xa73b59fdeceb5e6e1218df3da5dcd2cd01e4fdc2ff52f0a15a0f1afbb2f619bf",
+        "title": "nounspace",
+        "logoImg": "bafkreiegezz72ercl6xqhvzayiydb77bre57xiagjldsu7w5n5omovrwuy",
+        "metaPtr": {
+          "pointer": "bafkreifmdjpsva5riyzeqjjoagi42aeca6suewhyczleqrfv7aozd45l3m",
+          "protocol": "undefined"
+        },
+        "website": "https://nounspace.com",
+        "bannerImg": "bafkreiceqzpejokafkealdgyyribmzhecmr42fvht7ma7pc7kzmvvbxmly",
+        "createdAt": 1742835386316,
+        "userGithub": "willyogo",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T19:49:26.639Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x73f2204a6063b8213e61f7003d662f675e4521e5533edc2fb6dfe71f8045ff5c3a1b0d0c89c288e6bfcd36fb0dc1e08b96102f2d840cbb8e0ff187ebdcf5ae211b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T19:49:26.639Z",
+            "expirationDate": "2025-06-22T19:49:26.639Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x06AE622bF2029Db79Bdebd38F723f1f33f95F6C5",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Nounspace#26232238",
+              "nullifiers": [
+                "v0.0.0:OzBlKnvYIw7Py869CwTQCpc0ExNMEjwo6SbfTT1/mss="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T16:54:37.304Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7955d032689d7fedb4c97a7346b613ccb0fdf3d3e4ebd8433a2a65a8a0695d051f02cd13db284ef6e8f2e83ef0d43ece0a739243287badcfbc31200c703807c81c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T16:54:37.304Z",
+            "expirationDate": "2025-06-22T16:54:37.304Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x06AE622bF2029Db79Bdebd38F723f1f33f95F6C5",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#thenounspace",
+              "nullifiers": [
+                "v0.0.0:weIlWHlFxP57J8INHuOxtks5HJAYJ/cufpzHARWtSFE="
+              ]
+            }
+          }
+        },
+        "description": "nounspace is an open source, community-owned, and highly customizable Farcaster client.\n\nUsers can customize the look, feel, and sound of their Space and Homebase using Themes and Music, as well as the content and functionality using a growing library of mini-apps called Fidgets.\n\n[![wtf-are-fidgets](https://space.mypinata.cloud/ipfs/QmbVZA8zZpN4x8i4kbjAQGcF65HoZt1aet7PaTANUbvH2h)](https://vimeo.com/1011777733)\n\nSpaces on Nounspace are the ultimate platform for both users and communities to share the content, functionality, and vibes they wish with their audience.\n\nHomebases, or spaces only the owner can see, provide bespoke dashboards for the content and functionality that matter to each individual, and are the ultimate platform for users to explore the online/onchain universe.\n\nLaunch video: [![launch-vid](https://space.mypinata.cloud/ipfs/QmXeJwiPq2oyi7Nospvimm5HZibh8HxJUVdBrxQagTqeHT)](https://vimeo.com/973566244)\n\nLatest release:\nToken Spaces - a customizable space for every token that the deployer can make their own with Themes, Fidgets (mini-apps), and Tabs.\n\nFrom coin to community in 1-click. Now live for every token on Base 🚀\n\nExplore the $SPACE space:\nhttps://nounspace.com/t/base/0x48C6740BcF807d6C47C864FaEEA15Ed4dA3910Ab\n\nAnnouncement: https://warpcast.com/nounspacetom/0xa209bbc8\n\nnounspace would be nothing without you, our users and community. Check out a few of the fun, unique spaces that have already been customized, and head to nounspace.com to customize your own space and homebase!\n\n![space-montage](https://ipfs.io/ipfs/QmXGBs522UGgirgPuRx9gDG4hiKCd1AZbs2iSaYYbTFkvp)\n\nhttps://github.com/Nounspace/nounspace.ts",
+        "lastUpdated": 0,
+        "projectGithub": "Nounspace",
+        "projectTwitter": "thenounspace"
+      },
+      "recipient": "0xf487ff9BC30afDcABe3DC8d003ACa0156bE1f9eb"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "nounspace",
+      "logoImg": "bafkreiegezz72ercl6xqhvzayiydb77bre57xiagjldsu7w5n5omovrwuy",
+      "website": "https://nounspace.com",
+      "bannerImg": "bafkreiceqzpejokafkealdgyyribmzhecmr42fvht7ma7pc7kzmvvbxmly",
+      "createdAt": 1742835386316,
+      "userGithub": "willyogo",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T19:49:26.639Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x73f2204a6063b8213e61f7003d662f675e4521e5533edc2fb6dfe71f8045ff5c3a1b0d0c89c288e6bfcd36fb0dc1e08b96102f2d840cbb8e0ff187ebdcf5ae211b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T19:49:26.639Z",
+          "expirationDate": "2025-06-22T19:49:26.639Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x06AE622bF2029Db79Bdebd38F723f1f33f95F6C5",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Nounspace#26232238",
+            "nullifiers": [
+              "v0.0.0:OzBlKnvYIw7Py869CwTQCpc0ExNMEjwo6SbfTT1/mss="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T16:54:37.304Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x7955d032689d7fedb4c97a7346b613ccb0fdf3d3e4ebd8433a2a65a8a0695d051f02cd13db284ef6e8f2e83ef0d43ece0a739243287badcfbc31200c703807c81c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T16:54:37.304Z",
+          "expirationDate": "2025-06-22T16:54:37.304Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x06AE622bF2029Db79Bdebd38F723f1f33f95F6C5",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#thenounspace",
+            "nullifiers": [
+              "v0.0.0:weIlWHlFxP57J8INHuOxtks5HJAYJ/cufpzHARWtSFE="
+            ]
+          }
+        }
+      },
+      "description": "nounspace is an open source, community-owned, and highly customizable Farcaster client.\n\nUsers can customize the look, feel, and sound of their Space and Homebase using Themes and Music, as well as the content and functionality using a growing library of mini-apps called Fidgets.\n\n[![wtf-are-fidgets](https://space.mypinata.cloud/ipfs/QmbVZA8zZpN4x8i4kbjAQGcF65HoZt1aet7PaTANUbvH2h)](https://vimeo.com/1011777733)\n\nSpaces on Nounspace are the ultimate platform for both users and communities to share the content, functionality, and vibes they wish with their audience.\n\nHomebases, or spaces only the owner can see, provide bespoke dashboards for the content and functionality that matter to each individual, and are the ultimate platform for users to explore the online/onchain universe.\n\nLaunch video: [![launch-vid](https://space.mypinata.cloud/ipfs/QmXeJwiPq2oyi7Nospvimm5HZibh8HxJUVdBrxQagTqeHT)](https://vimeo.com/973566244)\n\nLatest release:\nToken Spaces - a customizable space for every token that the deployer can make their own with Themes, Fidgets (mini-apps), and Tabs.\n\nFrom coin to community in 1-click. Now live for every token on Base 🚀\n\nExplore the $SPACE space:\nhttps://nounspace.com/t/base/0x48C6740BcF807d6C47C864FaEEA15Ed4dA3910Ab\n\nAnnouncement: https://warpcast.com/nounspacetom/0xa209bbc8\n\nnounspace would be nothing without you, our users and community. Check out a few of the fun, unique spaces that have already been customized, and head to nounspace.com to customize your own space and homebase!\n\n![space-montage](https://ipfs.io/ipfs/QmXGBs522UGgirgPuRx9gDG4hiKCd1AZbs2iSaYYbTFkvp)\n\nhttps://github.com/Nounspace/nounspace.ts",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Nounspace",
+      "projectTwitter": "thenounspace"
+    }
+  }
+}

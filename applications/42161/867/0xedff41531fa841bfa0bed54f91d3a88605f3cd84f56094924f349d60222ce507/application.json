@@ -1,0 +1,667 @@
+{
+  "id": "144",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xedff41531fa841bfa0bed54f91d3a88605f3cd84f56094924f349d60222ce507",
+  "metadata": {
+    "signature": "0x22085f649b24e283dc2813d8e6fcc704594e407d3dfb8531f7d297a9d6349b97295e8fc9a2f46a55629e5afdc00dead79b416dbc6d21ff854b7bd791b130b8301c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "msghais135@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "MSG_Encrypted",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/MSghais/afk-monorepo",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/afk_aligned_fam_kernel",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "I participate with GG20 and GG22, and also specifics rounds like DeSci etc:\n\nhttps://explorer.gitcoin.co/#/projects/0x6a19c17b9332326cb78840f913bb2778a67f8271073addf1f18a246a3c38bdca\n\n GG22:\n\nhttps://explorer.gitcoin.co/#/projects/0xadfbbf4d5e839bba092ee7246987d860417cc410b2ba02d773dfd0cb33b88536",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Consumer app for Freedom and Ownership.\nBuilding on Bitcoin and Ethereum, Starknet ecosystem.\nProvide SDK and packages to interact with Nostr, payment Cashu, and AFK contracts",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Social network\nPayment: Bitcoin privacy with Cashu, Starknet payment, Privacy payment coming soon.\nLaunchpad: tokens social/community\nDAO: Onchain DAO with AA and Futarchy",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Pay open sourc developers, content creation by community to get more visibility about onchain, freedom, digital right and education.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "AFK is mainly deployed on Starknet Sepolia now: \n\nUnrug liquidity:\n\n0x6e171a9e1efd2e15b77628377523e05afd91608f8c12aea2523a8c76c8ca695, 0x534e5f5345504f4c4941\n\nLaunchpad: 0x45cb52efdb2f80811c461f7115e550574739a6cd2725df759022899286b9dc1, 0x534e5f5345504f4c4941",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xedff41531fa841bfa0bed54f91d3a88605f3cd84f56094924f349d60222ce507",
+        "title": "AFK - Aligned Fam Kernel",
+        "logoImg": "bafkreigohlzi2ulwhaujosqgwyzhyzultajyq7kpcirybgsw546vm6tb2q",
+        "metaPtr": {
+          "pointer": "bafkreiczxg36snppq3yahdjor53pfvqbcln6h3enkbm2xwdsdax2k3ctja",
+          "protocol": "undefined"
+        },
+        "website": "https://afk-community.xyz",
+        "bannerImg": "bafkreiamrzrt2lanc7yglvyaditohn3d7pc62tus4amd2jkwlsolkhfppu",
+        "createdAt": 1743418012827,
+        "userGithub": "MSGhais",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T10:58:59.004Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x4195efce64b9d75947f49789661cf293e9795dea5e5ccae40a8e57f56519d84f4edb824e61acfd1bf011e1e982709ff2501fc11133946588c0e41e4abcce24311b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T10:58:59.004Z",
+            "expirationDate": "2025-06-29T10:58:59.004Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x26d27D784aed2a6d1b4C24f63846a17be899ef2d",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#AFK-AlignedFamKernel#59928086",
+              "nullifiers": [
+                "v0.0.0:z9nP+oWAISHeMoyVwZbNCjc3EO6xKegPHVTJq/h/6kI="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T10:37:03.001Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xcac4c2505e768108013cc9bf990f3b2616b8276a0fa51bf93af50d5b3ce1ea9a11ff063b33f64218152040552a046d753a966cfafc217ef0d021abf05bb06e041c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T10:37:03.001Z",
+            "expirationDate": "2025-06-29T10:37:03.001Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x26d27D784aed2a6d1b4C24f63846a17be899ef2d",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#AFK_AlignedFamK",
+              "nullifiers": [
+                "v0.0.0:6/CIiea3qfqM5/JvtmMpRxHIvFLwglZEuEaHXB2z9to="
+              ]
+            }
+          }
+        },
+        "description": "AFK is an all-in-one platform that gives ownership of your speech, privacy, identity, money, and data to empower human rights, powered by the Nostr and the BTC & ETH ecosystem. \n\nA WeChat, but more fair, decentralized, and open source, with the focus and goal to be a public good OSS for digital rights of every humans.\n\nSocial payment network to exchange money, data, and thoughts, the Cypherpunk app of Communication, Data, and Money.\n\nAFK aims to be open source and decentralized to be a public good for Freedom and Ownership; a lot are already in production/testnet, some on WIP:\n\n- Social network using Nostr decentralized network protocol\n\n- Launchpad: social/content/community tokens launch on Starknet with Fairlaunch\n- Content creator economy: DeSci and incentive creation of content about certain topics and themes\n\n- IP of your data/art/image/note/community\n- DAO fully autonomous with AA for Onchain community\n\n- Starknet payment: Lightning atomic swap, Nostr escrow, tips, for p2p and merchant\n- Bitcoin: lightning network & ecash privacy with Cashu\n\n- Privacy: privacy coins and payment on Starknet, onchain data marketplace with zkproofs\n\nWe have done a lot but still have a lot to do for digital rights. \nLet's keep building, give us the force Aligned Fam and/or build with us as a developers too, we are available on Only Dust!\n\n\nTest our product in our Web PWA (mobile coming soon), and/or run your code (try to break things and find issues).\nWe love to hear your feedback and suggestions so we can improve!\n\nSocials:\n\nlinktree: https://linktr.ee/afk_aligned_fam_kernel\n\nX: https://x.com/AFK_AlignedFamK\n\nX founders: https://x.com/MSG_Encrypted\n\nTG: https://t.me/afk_aligned_fam_kernel\n\nLanding: https://portal.afk-community.xyz\n\nApp: https://afk-community.xyz\n\nSocial game pixel peace: https://wtf.afk-community.xyz\n\nGithub: https://github.com/AFK-AlignedFamKernel/afk_monorepo/\n\nOnlyDust open source projects: https://app.onlydust.com/projects/afk---aligned-fam-kernel",
+        "lastUpdated": 0,
+        "projectGithub": "AFK-AlignedFamKernel",
+        "projectTwitter": "AFK_AlignedFamK"
+      },
+      "recipient": "0x26d27D784aed2a6d1b4C24f63846a17be899ef2d"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "AFK - Aligned Fam Kernel",
+      "logoImg": "bafkreigohlzi2ulwhaujosqgwyzhyzultajyq7kpcirybgsw546vm6tb2q",
+      "website": "https://afk-community.xyz",
+      "bannerImg": "bafkreiamrzrt2lanc7yglvyaditohn3d7pc62tus4amd2jkwlsolkhfppu",
+      "createdAt": 1743418012827,
+      "userGithub": "MSGhais",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T10:58:59.004Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x4195efce64b9d75947f49789661cf293e9795dea5e5ccae40a8e57f56519d84f4edb824e61acfd1bf011e1e982709ff2501fc11133946588c0e41e4abcce24311b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T10:58:59.004Z",
+          "expirationDate": "2025-06-29T10:58:59.004Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x26d27D784aed2a6d1b4C24f63846a17be899ef2d",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#AFK-AlignedFamKernel#59928086",
+            "nullifiers": [
+              "v0.0.0:z9nP+oWAISHeMoyVwZbNCjc3EO6xKegPHVTJq/h/6kI="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T10:37:03.001Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xcac4c2505e768108013cc9bf990f3b2616b8276a0fa51bf93af50d5b3ce1ea9a11ff063b33f64218152040552a046d753a966cfafc217ef0d021abf05bb06e041c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T10:37:03.001Z",
+          "expirationDate": "2025-06-29T10:37:03.001Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x26d27D784aed2a6d1b4C24f63846a17be899ef2d",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#AFK_AlignedFamK",
+            "nullifiers": [
+              "v0.0.0:6/CIiea3qfqM5/JvtmMpRxHIvFLwglZEuEaHXB2z9to="
+            ]
+          }
+        }
+      },
+      "description": "AFK is an all-in-one platform that gives ownership of your speech, privacy, identity, money, and data to empower human rights, powered by the Nostr and the BTC & ETH ecosystem. \n\nA WeChat, but more fair, decentralized, and open source, with the focus and goal to be a public good OSS for digital rights of every humans.\n\nSocial payment network to exchange money, data, and thoughts, the Cypherpunk app of Communication, Data, and Money.\n\nAFK aims to be open source and decentralized to be a public good for Freedom and Ownership; a lot are already in production/testnet, some on WIP:\n\n- Social network using Nostr decentralized network protocol\n\n- Launchpad: social/content/community tokens launch on Starknet with Fairlaunch\n- Content creator economy: DeSci and incentive creation of content about certain topics and themes\n\n- IP of your data/art/image/note/community\n- DAO fully autonomous with AA for Onchain community, Futarchy\n\n- Starknet payment: Lightning atomic swap, Nostr escrow, tips, for p2p and merchant\n- Bitcoin: lightning network & ecash privacy with Cashu\n\n- Privacy: privacy coins and payment on Starknet, onchain data marketplace with zkproofs\n\nWe have done a lot but still have a lot to do for digital rights. \nLet's keep building, give us the force Aligned Fam and/or build with us as a developers too, we are available on Only Dust!\n\n\nTest our product in our Web PWA (mobile coming soon), and/or run your code (try to break things and find issues).\nWe love to hear your feedback and suggestions so we can improve!\n\nSocials:\n\nlinktree: https://linktr.ee/afk_aligned_fam_kernel\n\nX: https://x.com/AFK_AlignedFamK\n\nX founders: https://x.com/MSG_Encrypted\n\nTG: https://t.me/afk_aligned_fam_kernel\n\nLanding: https://portal.afk-community.xyz\n\nApp: https://afk-community.xyz\n\nSocial game pixel peace: https://wtf.afk-community.xyz\n\nGithub: https://github.com/AFK-AlignedFamKernel/afk_monorepo/\n\nOnlyDust open source projects: https://app.onlydust.com/projects/afk---aligned-fam-kernel",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "AFK-AlignedFamKernel",
+      "projectTwitter": "AFK_AlignedFamK"
+    }
+  }
+}

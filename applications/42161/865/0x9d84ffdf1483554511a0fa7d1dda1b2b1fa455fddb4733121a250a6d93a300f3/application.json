@@ -1,0 +1,245 @@
+{
+  "id": "15",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x9d84ffdf1483554511a0fa7d1dda1b2b1fa455fddb4733121a250a6d93a300f3",
+  "metadata": {
+    "signature": "0xc938b1d9aadecf2a22aa5cc5e00d8f9ec2413e9398aca9f5338795a51ce9f517618902086dc2d1b880c430875267c78dd80183bb3506e46dd5afad6a83dd316b1c",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "dlosada@ethereumonarm.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@diglos",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/EOA-Blockchain-Labs/ethereumonarm",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.co/HyeqBMjtnS",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "We’ve participated in the following rounds: Round 9, Round 10. Round 11, Round 12, Round 13, Round 14, Round 15, January 2023 Alpha round, Round 17, Round 18, Round 19, Round 20 and Round 22. \n\nLast rounds record: \n\nhttps://explorer.gitcoin.co/#/projects/0x9d84ffdf1483554511a0fa7d1dda1b2b1fa455fddb4733121a250a6d93a300f3 ",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "We provide the infrastructure needed for users to run Ethereum nodes (both L1 and L2) on single ARM64 boards. With our setup, users can run: \n\n- Full nodes \n- Archive nodes \n- Staking nodes \n- L2 nodes \n- Supernodes (L1+L2) on a single board \n- Obol DVT Cluster ",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We have successfully deployed the first ARM64 node running both Ethereum Layer 1 and Layer 2 nodes (which we call Supernode) running in the same device. In terms of operability, it combines L1 and L2 node capabilities on a single device enhancing the interaction between Ethereum’s different layers. \n\nWe’ve achieved the first fully synced Geth node on a RISC-V board (Banana Pi F3), showing how Ethereum can run on open-source hardware, further enhancing decentralization. \n\nWe successfully created a DVT Obol cluster in order to allow users to leverage this tecnology on ARM64 nodes. ",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project addresses several key challenges in the Ethereum ecosystem, specifically around decentralization, accessibility, and reliability \n\nBy enabling Ethereum to run on commodity hardware it helps ensure that Ethereum can operate on a wide variety of devices, spreading control beyond large institutional stakers. \n\nWe are integrating Distributed Validator Technology (DVT), which allows stakers to collaborate with other nodes to ensure their validators stay online. DVT improves fault tolerance and security reducing the risk of validators downtime. \n\nOur project provides a cost-effective, energy-efficient, and decentralized alternative to the expensive hardware typically required for running Ethereum nodes and staking. By lowering both the hardware and staking entry barriers (with Lido Community Staking node), and improving validator uptime, we will make Ethereum more accessible and resilient for individual stakers. ",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "This is our 3-6 Month Roadmap: \n \n\n1. Lido Community Staking Module Deployment \n\nObjective: Enable staking with 2 ETH/stETH or less through the Lido Community Staking Module. \n\nStatus: Ethereum on ARM Lido validators running on mainnet. WIP: Docs and Packages \n\nImpact: Lower the entry barrier for stakers, opening access to Ethereum staking for smaller participants and increasing decentralization. \n\n\n2. DVT Integration Obol Network \n\nObjective: Distributed Validator Technology (DVT) integration using Obol Network. \n\nStatus: Mainnet . WIP: Documentation. \n\nImpact: Improve validator uptime and fault tolerance by allowing stakers to collaborate, ensuring validators remain online through nodes redundancy. \n\nSee: \n\nhttps://x.com/EthereumOnARM/status/1897261587427418436 \n\n\n3. RISC-V Development \n\nObjective: Continue RISC-V architecture development, focusing on expanding Ethereum node capabilities on open-source hardware platforms. \n\nStatus: Waiting for a 16 GB RAM board and Consensus Layer clients cripto implementation for RISCV. \n\nImpact: Expanding hardware diversity within the ecosystem. \n\n\n4. Expanding L2 Support (Fuel Network) \n\nObjective: Add support for additional Layer 2 Fuel Network. \n\nStatus: Mainnet already running \n\nImpact: Improve scalability by supporting more L2 solutions. \n\n5. Raspberry Pi 5 support \n\nObjective: Add support for Raspberry Pi 5 16 GB RAM \n\nStatus: Completed. Looking for mature Ubuntu image and NVMe disk testing. \n\nImpact: Improve hardware diversity by supporting the most popular ARM64 Board. See: \n\nhttps://x.com/EthereumOnARM/status/1889297438101434374 \n\n6. Infrastructure Maintenance \n\nObjective: Continuously maintain the existing infrastructure, including OS images and client updates. \n\nThanks for your donations and support. ",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Ethereum on ARM maintains a low barrier for running a node by minimizing costs, energy consumption, and hardware requirements. By lowering these barriers, we ensure that both Ethereum L1 and L2 nodes can be operated by any user from home. This accessibility is important for enhancing the decentralization, security, and scalability of the Ethereum network.  \n\nWithout this reference, the hardware requirements and costs associated with running a node could increase, potentially restricting participation to only those with more resources. This would undermine the core principles of decentralization and inclusivity that are fundamental to the Ethereum ecosystem. By keeping node operation accessible and affordable, we help preserve Ethereum's resilience and long-term viability as a decentralized network.  \n\nWe provide the essential infrastructure for running a home validator, enabling anyone to become a home staker using low-powered and affordable hardware. In the coming weeks, we will support protocols that will allow staking with less than 32 ETH lowering even more the barrier to home staking. DVT technology is also available, ensuring home stakers can collaborate with other nodes to keep their validators online.  \n\nWe see our boards as the final frontier in commodity hardware. If Ethereum can run on these devices, which are affordable and energy-efficient, then we are in good shape for decentralization. If not, we may have a problem about running nodes on home hardware. \n\nThe fact that 9 years after Ethereum release it is still possible running a full/archive/staking node on a 185$ board means that it is the most decentralized blockchain. One of our goals is to check and promote this kind of decentralization. ",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "Do not apply",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x9d84ffdf1483554511a0fa7d1dda1b2b1fa455fddb4733121a250a6d93a300f3",
+        "title": "Ethereum on ARM",
+        "logoImg": "bafkreiggxot2tb7ise574vc2br225z2cenov25sgbm5e5ylkyvh63puvx4",
+        "metaPtr": {
+          "pointer": "bafkreieyel3jwd6f5qjgp3byqrdgzigodww5qnuwbooqffwam4s73eyfje",
+          "protocol": "undefined"
+        },
+        "website": "https://ethereum-on-arm-documentation.readthedocs.io/",
+        "bannerImg": "bafkreicbuggtqdnyfxhr6hzwnkdtbg2k7cqbpaitdhzomsdofj35iy3kfe",
+        "createdAt": 1673441915287,
+        "userGithub": "diglos",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..oKGLeilO2WRx_rQCR81uzinXYR75RPdSh4QNeokEAoPbVuG2d_3dJB0x-U4YIhOepPTnO-b-7522gaugy8PFBw",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-08T10:08:00.067Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-08T10:08:00.067Z",
+            "expirationDate": "2024-02-06T10:08:00.067Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xd1933DF1c223ad7CB5716B066cA26BC24569e622",
+              "hash": "v0.0.0:PfZW66LfzcbpH2bmp+6gvqBZg7580+9P3EEDdh1Pj7Y=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#EOA-Blockchain-Labs#16838272"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Ttg8oyM--Q1UkuYMhmU2yYtYI7J5dR4qOqLsM-aPge-KBlSb0Vx5xGqcZrHhuOelsIQRJqJcOOd81nmep5d-Aw",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-08T10:07:43.231Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-08T10:07:43.231Z",
+            "expirationDate": "2024-02-06T10:07:43.231Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xd1933DF1c223ad7CB5716B066cA26BC24569e622",
+              "hash": "v0.0.0:sVMFphaffGc2zqqEglS7JSkHLycOu/NVYuL/3fMCNqQ=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#EthereumOnARM"
+            }
+          }
+        },
+        "description": "Join us in running a **$300 preconfigured Ethereum Full/Archive/Staking node** on ARM64 boards, consuming only 10 watts of power.\n\n**Ethereum on ARM** provides a PnP Ubuntu Armbian image for the NanoPC-T6, Rock 5B, Orange Pi 5 Plus, and Raspberry Pi 5 that sets up an L1 and/or L2 node.  It **automatically turns the device into an ARM64 Full/Archive Ethereum node or a home Staking box**. \n\nOur main goal is to **lower the barriers of running an Ethereum L1 or L2 node** by automating complex processes, ultimately encouraging more users to participate in the network. This contributes directly to **network decentralization**. \n\nAdditionally, our work empowers developers by providing them with the tools necessary to run a development or testing node and end-users to use their nodes for their daily operations. \n\nWe provide the infrastructure needed for users to run Ethereum nodes (both L1 and L2) on single ARM64 boards. With our setup, users can run: \n\n- Full nodes \n- Archive nodes \n- Staking nodes \n- L2 nodes \n- Supernodes (L1+L2) on a single board \n\nIn the coming weeks, users will be able to leverage **DVT technology** to keep their validators online by collaborating with other stakers. \n\nThis is our **Roadmap** for the coming months: \n\n**1. Lido Community Staking Module Deployment**\n**Objective**: Enable staking with 2 ETH/stETH or less through the Lido Community Staking Module. \n**Status**: Ethereum on ARM Lido validators running on mainnet. \n**Impact**: Lower the entry barrier for stakers, opening access to Ethereum staking for smaller participants and increasing decentralization. \n\n**2. DVT Integration Obol Network** \n**Objective:** Distributed Validator Technology (DVT) integration using Obol Network. \n**Status**: Mainnet . \n**Impact:** Improve validator uptime and fault tolerance by allowing stakers to collaborate, ensuring validators remain online through nodes redundancy. \n\nSee:\n\nhttps://x.com/EthereumOnARM/status/1897261587427418436\n\n**3. RISC-V Development** \n**Objective:** Continue RISC-V architecture development, focusing on expanding Ethereum node capabilities on open-source hardware platforms. \n**Status:** Waiting for a 16 GB RAM board. \n**Impact:** Expanding hardware diversity within the ecosystem. \n\n**4. Expanding L2 Support (Fuel Network)** \n**Objective:** Add support for additional Layer 2 Fuel Network. \n**Status:** Mainnet already running \n**Impact:** Improve scalability by supporting more L2 solutions. \n\n**6. Raspberry Pi 5 support** \n**Objective:** Add support for Raspberry Pi 5 16 GB RAM \n**Status:** Completed.\n**Impact:** Improve hardware diversity by supporting the most popular ARM64 Board. See:\n\nhttps://x.com/EthereumOnARM/status/1889297438101434374\n\n**6. Infrastructure Maintenance** \n**Objective:** Continuously maintain the existing infrastructure, including OS images and client updates. \n\n\nThanks for your donations and support. \n\n**Our Repository** \n\n[https://github.com/EOA-Blockchain-Labs/ethereumonarm/](https://github.com/EOA-Blockchain-Labs/ethereumonarm) \n\n**Documentation Page**\n\n[https://ethereum-on-arm-documentation.readthedocs.io](https://ethereum-on-arm-documentation.readthedocs.io) \n\n**Discord Channel** \n\n[http://discord.gg/ve2Z8fxz5N](http://discord.gg/ve2Z8fxz5N) \n\n**Check our Twitter Account for Updates** \n\n[https://twitter.com/EthereumOnARM](https://twitter.com/EthereumOnARM) \n\n*Ethereum on ARM is an EOA Blockchain Labs, S.L. Spanish company project.* ",
+        "lastUpdated": 0,
+        "projectGithub": "EOA-Blockchain-Labs",
+        "projectTwitter": "EthereumOnARM"
+      },
+      "recipient": "0xFe072a0d2FC995abf556C7AdF97e035f1BD516AC"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Ethereum on ARM",
+      "logoImg": "bafkreiggxot2tb7ise574vc2br225z2cenov25sgbm5e5ylkyvh63puvx4",
+      "website": "https://ethereum-on-arm-documentation.readthedocs.io/",
+      "bannerImg": "bafkreicbuggtqdnyfxhr6hzwnkdtbg2k7cqbpaitdhzomsdofj35iy3kfe",
+      "createdAt": 1673441915287,
+      "userGithub": "diglos",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..oKGLeilO2WRx_rQCR81uzinXYR75RPdSh4QNeokEAoPbVuG2d_3dJB0x-U4YIhOepPTnO-b-7522gaugy8PFBw",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-08T10:08:00.067Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-08T10:08:00.067Z",
+          "expirationDate": "2024-02-06T10:08:00.067Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xd1933DF1c223ad7CB5716B066cA26BC24569e622",
+            "hash": "v0.0.0:PfZW66LfzcbpH2bmp+6gvqBZg7580+9P3EEDdh1Pj7Y=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#EOA-Blockchain-Labs#16838272"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Ttg8oyM--Q1UkuYMhmU2yYtYI7J5dR4qOqLsM-aPge-KBlSb0Vx5xGqcZrHhuOelsIQRJqJcOOd81nmep5d-Aw",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-08T10:07:43.231Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-08T10:07:43.231Z",
+          "expirationDate": "2024-02-06T10:07:43.231Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xd1933DF1c223ad7CB5716B066cA26BC24569e622",
+            "hash": "v0.0.0:sVMFphaffGc2zqqEglS7JSkHLycOu/NVYuL/3fMCNqQ=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#EthereumOnARM"
+          }
+        }
+      },
+      "description": "Join us in running a **$300 preconfigured Ethereum Full/Archive/Staking node** on ARM64 boards, consuming only 10 watts of power.\n\n**Ethereum on ARM** provides a PnP Ubuntu Armbian image for the NanoPC-T6, Rock 5B, Orange Pi 5 Plus, and Raspberry Pi 5 that sets up an L1 and/or L2 node.  It **automatically turns the device into an ARM64 Full/Archive Ethereum node or a home Staking box**. \n\nOur main goal is to **lower the barriers of running an Ethereum L1 or L2 node** by automating complex processes, ultimately encouraging more users to participate in the network. This contributes directly to **network decentralization**. \n\nAdditionally, our work empowers developers by providing them with the tools necessary to run a development or testing node and end-users to use their nodes for their daily operations. \n\nWe provide the infrastructure needed for users to run Ethereum nodes (both L1 and L2) on single ARM64 boards. With our setup, users can run: \n\n- Full nodes \n- Archive nodes \n- Staking nodes \n- L2 nodes \n- Supernodes (L1+L2) on a single board \n\nIn the coming weeks, users will be able to leverage **DVT technology** to keep their validators online by collaborating with other stakers. \n\nThis is our **Roadmap** for the coming months: \n\n**1. Lido Community Staking Module Deployment**\n**Objective**: Enable staking with 2 ETH/stETH or less through the Lido Community Staking Module. \n**Status**: Ethereum on ARM Lido validators running on mainnet. \n**Impact**: Lower the entry barrier for stakers, opening access to Ethereum staking for smaller participants and increasing decentralization. \n\n**2. DVT Integration Obol Network** \n**Objective:** Distributed Validator Technology (DVT) integration using Obol Network. \n**Status**: Mainnet . \n**Impact:** Improve validator uptime and fault tolerance by allowing stakers to collaborate, ensuring validators remain online through nodes redundancy. \n\nSee:\n\nhttps://x.com/EthereumOnARM/status/1897261587427418436\n\n**3. RISC-V Development** \n**Objective:** Continue RISC-V architecture development, focusing on expanding Ethereum node capabilities on open-source hardware platforms. \n**Status:** Waiting for a 16 GB RAM board. \n**Impact:** Expanding hardware diversity within the ecosystem. \n\n**4. Expanding L2 Support (Fuel Network)** \n**Objective:** Add support for additional Layer 2 Fuel Network. \n**Status:** Mainnet already running \n**Impact:** Improve scalability by supporting more L2 solutions. \n\n**6. Raspberry Pi 5 support** \n**Objective:** Add support for Raspberry Pi 5 16 GB RAM \n**Status:** Completed.\n**Impact:** Improve hardware diversity by supporting the most popular ARM64 Board. See:\n\nhttps://x.com/EthereumOnARM/status/1889297438101434374\n\n**6. Infrastructure Maintenance** \n**Objective:** Continuously maintain the existing infrastructure, including OS images and client updates. \n\n\nThanks for your donations and support. \n\n**Our Repository** \n\n[https://github.com/EOA-Blockchain-Labs/ethereumonarm/](https://github.com/EOA-Blockchain-Labs/ethereumonarm) \n\n**Documentation Page**\n\n[https://ethereum-on-arm-documentation.readthedocs.io](https://ethereum-on-arm-documentation.readthedocs.io) \n\n**Discord Channel** \n\n[http://discord.gg/ve2Z8fxz5N](http://discord.gg/ve2Z8fxz5N) \n\n**Check our Twitter Account for Updates** \n\n[https://twitter.com/EthereumOnARM](https://twitter.com/EthereumOnARM) \n\n*Ethereum on ARM is an EOA Blockchain Labs, S.L. Spanish company project.* ",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "EOA-Blockchain-Labs",
+      "projectTwitter": "EthereumOnARM"
+    }
+  }
+}

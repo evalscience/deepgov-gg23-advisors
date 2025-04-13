@@ -1,0 +1,402 @@
+{
+  "id": "31",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x6c16840b98f808a2d1d3151bd52c06e2e34c92e54724f45ae938b06a37f96bd9",
+  "metadata": {
+    "signature": "0x8ea7fca15f5837a50bad48719081c442d2790a14701cb5d6bc8921e25ad354ca6b44852d409ef02e8473330428e629f4ddba280978c8d2218c37346cfd9370eb1b",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "jork@corpus.io",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "jorkleo",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "corpus-core/c4",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project contributes significantly to Ethereum’s network infrastructure by developing stateless light clients optimized for low-resource environments.\n\n### Contributions and Specific Metrics\n1. **Stateless Light Client for Ethereum**\nColibri is a fully verifying Ethereum client that does not store local state.\nIt verifies Ethereum headers and execution proofs without relying on trusted RPCs, enabling fully trustless access to the blockchain.\nNo synchronization process is required; proofs can be verified immediately and independently.\n2. **Optimized for Low-Resource Devices (IoT, Mobile, Web)**\nTarget environment: ≤512 KB RAM, ≤1 MB bandwidth/month (depending on use-case)\nTypical proof verification cycle (information + execution layer proof + consensus proof):\n3. **Multi-Chain and Layer-2 Compatibility**\nWill support proof verification for multiple chains and L2s\nDesigned for integration in applications that interact with multiple L1/L2 chains\n4. **Open Source and Infrastructure-Focused**\nCodebase is public and available\nArchitecture is built to be embeddable into wallets, agent systems,  dApps, and IoT requiring verifiable, trust-minimized access",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "This is the first time a light client is not built top-down by removing unnecessary clutter from a standard client. Instead the bottom-up approach of colibri means that only necessary functionality is added on top of what an RPC node provides. This this ultra-light client requires only minimal resources and is optimized for mobile devices, as well as IoT and embedded systems.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "### Problem and Challenges Addressed\n1. **Dependency on Centralized RPC Infrastructure**\n- Most Ethereum applications depend on trusted third-party RPC providers (e.g., Infura, Alchemy) for access to blockchain data.\n- This introduces centralization risks, censorship potential, and a lack of verifiability for clients.\n2. **Lack of Lightweight, Verifying Clients**\n- Full Ethereum nodes require significant storage, memory, and bandwidth.\n- Existing light clients are either outdated or still require participation in the peer-to-peer network and synchronization of information.\n- This makes them unsuitable for many applications, especially in constrained environments.\n3. **Limited Blockchain Access for Constrained Devices**\n- IoT devices, embedded systems, and browsers lack the ability to directly and independently verify Ethereum data.\n- This limits the decentralization and reach of the Ethereum network in real-world applications.\n- In particular, autonomously operating AI agents must be able to verify blockchain information and interact in a fully trustless manner to ensure secure and reliable decision-making.\n4. **Barriers to Multi-Chain and L2-Integrated Applications**\n- Applications interacting with multiple L1s or L2s face fragmented access mechanisms and inconsistent trust models.\n- Running synchronizing clients for multiple chains is not practical for most applications. Stateless, trustless clients are essential to enable secure and scalable multi-chain interactions.\n---\n### How Colibri Improves Upon Existing Alternatives\n- **Fully Verifying and Stateless**\n  - Unlike legacy light clients, Colibri does not require state synchronization or persistent storage.\n  - Each proof (consensus or execution) can be verified independently, without history or sync overhead.\n- **Trust-Minimized Use of RPC Endpoints**\n  - Colibri still allows data to be fetched from RPC endpoints, but their correctness can be verified cryptographically.\n  - This removes the need to trust the RPC provider, even if the data still flows through it.\n- **Minimal Resource Requirements**\n  - Designed for <512KB RAM and <1MB/month bandwidth usage (depending on the use-case), enabling deployment on IoT and embedded systems, web and mobile apps.\n- **Modular and Multi-Chain Capable**\n  - Supports pluggable proof systems across multiple chains and rollups.\n  - Compatible with applications that require cross-chain verification and lightweight trust assumptions.\n- **Open, Portable, and Extensible**\n  - Fully open-source, with integration support for browsers, mobile apps, and autonomous agents.\n  - Extensible for future zkSNARK/zkSTARK-based proof systems and sparse state representations.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Present**: Fully functioning prototype\n**End of April**: Working MVP\n**Subsequent** Adaptation of the client for multiple Layer 1 and Layer 2 networks\nThe funds will be used to finance this development.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "The security of the Ethereum network is increased by reducing the trust dependencies on RPC providers.\nData will now be verifiable by the client itself by relying on cryptographic proofs such as Merkle proofs and zk proofs.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "no smart contracts",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x6c16840b98f808a2d1d3151bd52c06e2e34c92e54724f45ae938b06a37f96bd9",
+        "title": "corpus.core colibri stateless client",
+        "logoImg": "bafkreieypd6qabv442gcgvrrwb36y5y6fpp7qk4ypbz52kzulu7wx3jvoi",
+        "metaPtr": {
+          "pointer": "bafkreihhpusowjd4x6tji7dhmhiqr6guxupyifuswkxx47e64upvlbosmu",
+          "protocol": "undefined"
+        },
+        "website": "https://corpuscore.tech/",
+        "createdAt": 1742400198425,
+        "userGithub": "jorkleo",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T15:15:16.595Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x074b6c7581af1f5a81d58fdad5a7cb6edb1a6aba49352d726c0ed3e26582cbaa45bd8000becb8dafe51c26dd559be719e571ede55ab75497b1d1ca73f5ca10971b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T15:15:16.595Z",
+            "expirationDate": "2025-06-22T15:15:16.595Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xEd12b99fad334Abf7EB787b7760b20a84c179887",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#corpus-core#39727849",
+              "nullifiers": [
+                "v0.0.0:fXyriIAyBycFEVeu9jCJKkxGkaEinhdFobSU/y3ZMg0="
+              ]
+            }
+          }
+        },
+        "description": "With the **Colibri Client** the long-awaited dream of a **stateless and trustless Ethereum** is finally becoming a reality.\n\nThe **Corpus Core Colibri Client** is a **stateless, trustless, ultra-light Ethereum client** designed for secure and efficient blockchain verification. It enables users to interact with blockchain networks without relying on centralized **RPC providers**, reducing censorship risks, data manipulation, and single points of failure.\n\nUnlike traditional **full nodes**, which require **high storage, bandwidth, and computational power**, or **light clients**, which depend on continuous synchronization, **Colibri operates statelessly**. It does not store blockchain history or require persistent connections. Instead, it retrieves **cryptographic proofs**, such as **Merkle proofs and zk-proofs**, to independently verify blockchain state and transactions.\n\nThis **trustless verification model** ensures data integrity, eliminating the need to trust third-party data providers. **Colibri supports multi-chain environments**, verifying blockchain data across multiple Layer-1 and Layer-2 networks without adding network overhead.\n\n### Key Benefits:\n\n- **Decentralized & Trustless**: No reliance on centralized RPC providers, enhancing security and censorship resistance.\n- **Minimal Resource Consumption**: Optimized for **mobile devices, IoT, and embedded systems**, ensuring low bandwidth and power usage.\n- **Efficient & Scalable**: Uses **zk-proofs and Merkle proofs** for fast, verifiable blockchain interactions.\n- **Multi-Chain Compatibility**: Works across different blockchains, enabling seamless decentralized application (dApp) integration.\n- **Immediate Verification**: No synchronization delays, making it ideal for on-demand blockchain queries.\n\n**Colibri** is **not a replacement for RPC providers** but a complementary solution that enables users to **verify blockchain data independently**. It strengthens Web3 security by ensuring all transactions, account states, and smart contract executions are cryptographically proven. By **removing trust dependencies**, **Colibri** paves the way for a **fully decentralized, secure, and scalable blockchain ecosystem**, making blockchain access more efficient, lightweight, and censorship-resistant.\n\n##Timeline\nAfter preliminary research there is a\n- **fully functioning prototype** already now.\n- A **working MVP** will be ready at the **end of April**\n- with the **productive release\"** end of **second quarter of 2025**",
+        "lastUpdated": 0,
+        "projectGithub": "corpus-core",
+        "projectTwitter": "corpusCoreHQ"
+      },
+      "recipient": "0xEd12b99fad334Abf7EB787b7760b20a84c179887"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "corpus.core colibri stateless client",
+      "logoImg": "bafkreieypd6qabv442gcgvrrwb36y5y6fpp7qk4ypbz52kzulu7wx3jvoi",
+      "website": "https://corpuscore.tech/",
+      "createdAt": 1742400198425,
+      "userGithub": "jorkleo",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T15:15:16.595Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x074b6c7581af1f5a81d58fdad5a7cb6edb1a6aba49352d726c0ed3e26582cbaa45bd8000becb8dafe51c26dd559be719e571ede55ab75497b1d1ca73f5ca10971b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T15:15:16.595Z",
+          "expirationDate": "2025-06-22T15:15:16.595Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xEd12b99fad334Abf7EB787b7760b20a84c179887",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#corpus-core#39727849",
+            "nullifiers": [
+              "v0.0.0:fXyriIAyBycFEVeu9jCJKkxGkaEinhdFobSU/y3ZMg0="
+            ]
+          }
+        }
+      },
+      "description": "With the **Colibri Client** the long-awaited dream of a **stateless and trustless Ethereum** is finally becoming a reality.\n\nThe **Corpus Core Colibri Client** is a **stateless, trustless, ultra-light Ethereum client** designed for secure and efficient blockchain verification. It enables users to interact with blockchain networks without relying on centralized **RPC providers**, reducing censorship risks, data manipulation, and single points of failure.\n\nUnlike traditional **full nodes**, which require **high storage, bandwidth, and computational power**, or **light clients**, which depend on continuous synchronization, **Colibri operates statelessly**. It does not store blockchain history or require persistent connections. Instead, it retrieves **cryptographic proofs**, such as **Merkle proofs and zk-proofs**, to independently verify blockchain state and transactions.\n\nThis **trustless verification model** ensures data integrity, eliminating the need to trust third-party data providers. **Colibri supports multi-chain environments**, verifying blockchain data across multiple Layer-1 and Layer-2 networks without adding network overhead.\n\n### Key Benefits:\n\n- **Decentralized & Trustless**: No reliance on centralized RPC providers, enhancing security and censorship resistance.\n- **Minimal Resource Consumption**: Optimized for **mobile devices, IoT, and embedded systems**, ensuring low bandwidth and power usage.\n- **Efficient & Scalable**: Uses **zk-proofs and Merkle proofs** for fast, verifiable blockchain interactions.\n- **Multi-Chain Compatibility**: Works across different blockchains, enabling seamless decentralized application (dApp) integration.\n- **Immediate Verification**: No synchronization delays, making it ideal for on-demand blockchain queries.\n\n**Colibri** is **not a replacement for RPC providers** but a complementary solution that enables users to **verify blockchain data independently**. It strengthens Web3 security by ensuring all transactions, account states, and smart contract executions are cryptographically proven. By **removing trust dependencies**, **Colibri** paves the way for a **fully decentralized, secure, and scalable blockchain ecosystem**, making blockchain access more efficient, lightweight, and censorship-resistant.\n\n##Timeline\nAfter preliminary research there is a\n- **fully functioning prototype** already now.\n- A **working MVP** will be ready at the **end of April**\n- with the **productive release\"** end of **second quarter of 2025**",
+      "logoImgData": {},
+      "projectGithub": "corpus-core",
+      "projectTwitter": "corpusCoreHQ"
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "id": "82",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xf97688cfbe25a0db800f876787a2cdec20d48757862573278dfb6fa8b8a1c817",
+  "metadata": {
+    "signature": "0xbd1d979893432f57a3d99533a4bd13a1b722c3971c3cff6a4a21e2b2199e42155646a6b2c219d6965aa74247c8ea41bdc9f1f7fe8ec04bd0b879c90266877e631c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "op@vannafinance.xyz",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@vatsaleth",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/vannafinance/v1-core",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/MmK9rsWdzS",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Vanna is built on and for the open-source ecosystem.** By open-sourcing our core contracts, collaborating with permissionless protocols, and empowering developers with public toolkits, we strengthen DeFi’s foundational infrastructure. Below are specific ways we drive growth:\n\n1. **Bridging CeFi Users to DeFi**\n    \n    A unified frontend abstracts multi-chain complexity, offering CEX-like UX **while retaining non-custodial control via decentralised systems**—proving open protocols can rival centralized exchanges.\n    \n2. **Unlocking LST/LRT Liquidity**\n    \n    Borrowers use **onchain LSTs/LRTs** (e.g., stETH, ezETH) as collateral in our protocol, activating idle capital for leveraged trading and yield strategies across DeFi’s **permissionless markets**.\n    \n3. **Aggregating Cross-chain Liquidity**\n    \n    Our Smart Position Router splits large orders across DEXs/chains (Arbitrum, Base Optimism, etc.), **using chain abstraction** for best-price execution.\n    \n4. **Composable Leverage for DeFi Protocols**\n    \n    Traders reuse borrowed liquidity (upto 900% LTV) to trade perps (further upto 100x), leveraged options, and leveraged yield strategies further amplifying liquidity and trading volumes **on integrated protocols** like GMX,MUX (perps), Derive(Options), Uniswap(Spot), Pendle (yield), and Ethena (synthetics)—directly boosting their ecosystems.\n    \n5. **One-Click Strategies on Decentralised Derivatives**\n    \n    AI agentic vaults let users deploy delta-neutral and complex strategies **across derivatives, lending, and restaking protocols** across different chains without leaving the platform\n    \n6. **Developer Toolkits for Credit Innovation**\n    \n    **Open-source SDKs/APIs** let builders integrate our undercollateralized credit layer into any project, **extending DeFi’s composability**",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The dApp/App enables advanced crypto traders to execute **multi-instrument strategies** across **perpetuals (Perps), options, and spot markets**, catering to diverse market conditions (bull, bear, or sideways). Key use cases include:\n\n- **Trading Perps & Options**: Synthetic hedged positions (e.g., long Perps + protective puts), Gamma Scalping (dynamic hedging in volatile markets).\n- **Trading Perps & Spot**: Basis trading (profiting from price convergence) or leveraging spot exposure with Perps.\n- **Trading Options & Spot**: Covered calls for income or protective puts for downside hedging.\n- **Trading All Three**: Delta-neutral hedging, cross-market arbitrage, and complex spread strategies (e.g., Iron Condor).\n\n### **Example: Short Gamma Strategy (Delta-Neutral Hedging)**\n\nA **short gamma strategy** is ideal when traders expect **low volatility** or **sideways price action** in crypto (e.g., ETH consolidating after a rally). By selling options and dynamically hedging with Perps and spot, the strategy profits from **time decay** while minimizing directional risk.\n\n**Step-by-Step Execution**:\n\n1. Deposit $10,000 ETH as collateral.\n2. Borrow 40,000 USDC (5x leverage), totaling $50,000.\n3. Sell 3 ETH call options (Delta 0.3 each → total Delta 0.9).\n4. Hedge with 1 Delta ETH Perps (long).\n5. Sell 0.1 ETH spot to neutralize residual Delta.\n6. Monitor and rebalance using a **Greeks dashboard** until expiry.\n\nThis approach uniquely combines **automated hedging**, **cross-DEX execution**, and **real-time analytics**—features absent in most crypto platforms—to optimize risk-adjusted returns in stagnant markets.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "### Future Roadmap for Development\n\n- Smart Contract Audit(Q2 2025)\n- Integrate Hyperliquid, Premia, Derive, OKX DEX aggregator for deeper perps, options & spot markets\n- Integrate LSTs & LRTs as collaterals\n- Integrate Ethena, Pendle for Leveraged Yield farming\n- Launching Phase 1 of Vanna-Curated Agent Vaults with Standard Agents & Special Agents\n    - **Standard Agents**- Prebuilt AI driven strategies with single click deployment\n    - **Special Agents**- Configurable AI-driven strategies with multiple predefined parameters or instructions\n- Expand to BNB chain, Berachain & Polygon ecosystems\n- Building Smart Position Router by implementing Chain Abstraction\n\n### Funds Utilisation Breakdown\n\n- 50% of the funds will go to smart contract auditing as well as economic risk auditing\n- 20% of the funds will be dedicated to incentivising the users post launch\n- 30% of the funds will be used for implementing the future development roadmap",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "### **Arbitrum (42161)**\n\n- **vEtherContractAddress**: [0xA1f41ad5e26167db20c722835A6DB33889c49Cd7](https://arbiscan.io/address/0xA1f41ad5e26167db20c722835A6DB33889c49Cd7), 42161\n- **vUSDCContractAddress**: [0xE17258A56F0da671a028F2276Ddeaa5C1ccF3bdb](https://arbiscan.io/address/0xE17258A56F0da671a028F2276Ddeaa5C1ccF3bdb), 42161\n- **vUSDTContractAddress**: [0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef](https://arbiscan.io/address/0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef), 42161\n- **vWBTCContractAddress**: [0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68](https://arbiscan.io/address/0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68), 42161\n- **vDaiContractAddress**: [0xA7d9c98dEDb545A6e66F46BEE8faF8f90c3a5c6f](https://arbiscan.io/address/0xA7d9c98dEDb545A6e66F46BEE8faF8f90c3a5c6f), 42161\n- **accountManagerContractAddress**: [0x13da9e485D17c0F62f64F77aAbE7b6c048a2f33C](https://arbiscan.io/address/0x13da9e485D17c0F62f64F77aAbE7b6c048a2f33C), 42161\n- **registryContractAddress**: [0x6DCD57f3C7CBc465832213646BEEf5501f63a3C4](https://arbiscan.io/address/0x6DCD57f3C7CBc465832213646BEEf5501f63a3C4), 42161\n- **rateModelContractAddress**: [0xbfB65FA7cC024c3315c4Eb13891f41223906f364](https://arbiscan.io/address/0xbfB65FA7cC024c3315c4Eb13891f41223906f364), 42161\n- **riskEngineContractAddress**: [0x676fbE39A5a403b85474D155567e43D9b2b85922](https://arbiscan.io/address/0x676fbE39A5a403b85474D155567e43D9b2b85922), 42161\n- **multicallAddress**: [0xcA11bde05977b3631167028862bE2a173976CA11](https://arbiscan.io/address/0xcA11bde05977b3631167028862bE2a173976CA11), 42161\n\n---\n\n### **Base (8453)**\n\n- **vEtherContractAddress**: [0xA8A7Ae5C132524398FF29293C0bB00530d47cdA9](https://basescan.org/address/0xA8A7Ae5C132524398FF29293C0bB00530d47cdA9), 8453\n- **vUSDCContractAddress**: [0x22D4FB89834738714e6B4aDa414B900138148289](https://basescan.org/address/0x22D4FB89834738714e6B4aDa414B900138148289), 8453\n- **vUSDTContractAddress**: [0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef](https://basescan.org/address/0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef), 8453\n- **vWBTCContractAddress**: [0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68](https://basescan.org/address/0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68), 8453\n- **vDaiContractAddress**: [0x70351aF1d415bc1D7cE930415EB75aE226fC7651](https://basescan.org/address/0x70351aF1d415bc1D7cE930415EB75aE226fC7651), 8453\n- **accountManagerContractAddress**: [0x6F5303D7277B100443A3AfCec9886774d7214e00](https://basescan.org/address/0x6F5303D7277B100443A3AfCec9886774d7214e00), 8453\n- **registryContractAddress**: [0xDfd5D412A9FB58aE12d6b1AC20Df97D038c3E32b](https://basescan.org/address/0xDfd5D412A9FB58aE12d6b1AC20Df97D038c3E32b), 8453\n- **riskEngineContractAddress**: [0x29133317047183c48a3DF2022bD89B089Fc4F97a](https://basescan.org/address/0x29133317047183c48a3DF2022bD89B089Fc4F97a), 8453\n- **rateModelContractAddress**: [0xe190EA24860f8521f8a97f1E897677335C81a23B](https://basescan.org/address/0xe190EA24860f8521f8a97f1E897677335C81a23B), 8453\n- **multicallAddress**: [0xcA11bde05977b3631167028862bE2a173976CA11](https://basescan.org/address/0xcA11bde05977b3631167028862bE2a173976CA11), 8453\n\n---\n\n### **Optimism (10)**\n\n- **vEtherContractAddress**: [0xa66d23d6b0bF9283059E2a2938d67FEE9080659b](https://optimistic.etherscan.io/address/0xa66d23d6b0bF9283059E2a2938d67FEE9080659b), 10\n- **vUSDCContractAddress**: [0x010305302F7BFc12Ec2597Cef77AF2DE91a90Ee9](https://optimistic.etherscan.io/address/0x010305302F7BFc12Ec2597Cef77AF2DE91a90Ee9), 10\n- **vUSDTContractAddress**: [0x7e70816B257Be3AbC4f2acA8C7e42b7bde76AEC8](https://optimistic.etherscan.io/address/0x7e70816B257Be3AbC4f2acA8C7e42b7bde76AEC8), 10\n- **vWBTCContractAddress**: [0xf197f4ed8473cC4c589D06319e4ccB52fa86CFE2](https://optimistic.etherscan.io/address/0xf197f4ed8473cC4c589D06319e4ccB52fa86CFE2), 10\n- **vDaiContractAddress**: [0x278e5d039ba2E09FaD254b87787f852f31060118](https://optimistic.etherscan.io/address/0x278e5d039ba2E09FaD254b87787f852f31060118), 10\n- **accountManagerContractAddress**: [0x6A82847B5Dc8c3535eE370308D78D396228A0D3a](https://optimistic.etherscan.io/address/0x6A82847B5Dc8c3535eE370308D78D396228A0D3a), 10\n- **registryContractAddress**: [0xFd4568C1d084e281BEAa0d55BB5CFc7Cd91B39a4](https://optimistic.etherscan.io/address/0xFd4568C1d084e281BEAa0d55BB5CFc7Cd91B39a4), 10\n- **riskEngineContractAddress**: [0x6E7EA2E46e72ff84CeFfc5e11fB9c6e97B01c617](https://optimistic.etherscan.io/address/0x6E7EA2E46e72ff84CeFfc5e11fB9c6e97B01c617), 10\n- **rateModelContractAddress**: [0x687a9656ba10Ca157dDA7c55D64bd64b3212ABce](https://optimistic.etherscan.io/address/0x687a9656ba10Ca157dDA7c55D64bd64b3212ABce), 10",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xf97688cfbe25a0db800f876787a2cdec20d48757862573278dfb6fa8b8a1c817",
+        "title": "Vanna Finance",
+        "logoImg": "bafkreidbay6mbtmzjcuameiw6vmdhreoj4cixc72dhhz3mtlkbkwqep5ha",
+        "metaPtr": {
+          "pointer": "bafkreihudbb7r3jeya5jkl24hzsa4nhsg3nhyumcktbacecap55kwvmsga",
+          "protocol": "undefined"
+        },
+        "website": "https://vanna.finance",
+        "bannerImg": "bafkreihbkvhqq6pnflk3l4txqzpxbme64dhhvwvz76vaexjxuamgbevjku",
+        "createdAt": 1743086073822,
+        "userGithub": "vatsal095",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T14:23:50.106Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xb56d8f00af1bfed7aebb2893c102c162cce1a99f6c4617562b1a30c4598830d6203396343fb471f08ce4525ab55eaa1945670ceaab8c072e355cdbbd920ba2981b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T14:23:50.106Z",
+            "expirationDate": "2025-06-25T14:23:50.106Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x01f74c9CF0E24ceE3A28f68fdb193e08Ae9Cb84F",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#vannafinance#180535945",
+              "nullifiers": [
+                "v0.0.0:YGjS6zKOWLV1hxI0qJTPj4/es8vVKHR6ovBagPmFnXw="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T14:23:30.561Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x634f85ec9610e9c109a8b4871062f0780b0c5a436f0ccd4210d9a383b2eca3df7b4d3933a8f79924e7df35d36c42f08657c83df9308028b369d9411194934cb31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T14:23:30.561Z",
+            "expirationDate": "2025-06-25T14:23:30.561Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x01f74c9CF0E24ceE3A28f68fdb193e08Ae9Cb84F",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#vannafinance",
+              "nullifiers": [
+                "v0.0.0:t248PwjlMf+98e9fcyKg6M+NgPphNknrQgbIKl6U8Rs="
+              ]
+            }
+          }
+        },
+        "description": "# Trade with Minimal Collateral, Hedge Smart with Composable Leverage & AI-Driven Strategies\n\nVanna is a next-generation DeFAI prop trading protocol powered by Composable Leverage & Chain Abstraction, solving inefficient capital access, fragmented liquidity, broken user experience, and lack of hedging tools.\n\n### Lets Understand the Problems first\n\n- **High Collateral Requirements for Borrowers-** Unlike Traditional Proprietary Trading firms, Crypto Traders are getting limited access to efficient capital with max upto 80% LTV through onchain lending platforms. **70%** of traders globally **lack access** to capital\n- **Complex & Broken User Experience of DEXs** pose another challenge keeping CEX & and non-crypto traders away from entering into DeFi, resulting in wider spreads and lower volumes.\n- **Fragmented Liquidity** across multiple DEXs & chains forcing most of the traders stick to CEXs, making trading even harder for those inspired to take a chance on DEXs. Result? DEX trading volumes are less than 10% of CEX trading volumes even today\n- **90% of traders face liquidation due to Lack of Hedging Tools** in both CEXs and DEXs. Infact there are professional traders who only trade delta neutral strategies but without these risk management tools, forget about DeFi, they are reluctant and afraid to even consider trading in CEX crypto markets.\n\n### Here’s how Vanna tackles these challenges:\n\n- **Undercollateralized Borrowing:** Traders can borrow debt upto 900% LTV, unlocking extra liquidity using initial margin as collateral which will be deposited in margin account\n- **Composable Leverage:** Initial Margin & undercollateralised debt can be allocated flexibly across perpetuals, options, spot markets & yield farming protocols without the need to access multiple DEXs and DeFi protocols separately across multiple screens fixing the broken user experience\n- **Greeks Dashboard:** A real-time hedging tool for managing perpetuals and options with delta-neutral strategies, risk tracking, and position management further enhancing the user experience of professional traders\n- **Smart Position Routing:** Uses chain abstraction to aggregate liquidity across multiple chains and DEXs on Vanna’s front end and spreading the user trades across multiple DEXs and chains, eliminating fragmentation and improving execution.\n- **AI-Powered Automation:** Features curated agent vaults, community-driven strategies, and copy-trading agents, plus a no-code Co-Pilot for creating multi-agent portfolios —makes trading easier and smarter for retail and pro traders. This attracts more users, liquidity, and volume\n- **LST/LRT Utilization:** Enabling LSTs and LRTs as collateral to unlock additional liquidity which will attract LST & LRT owners to come on to our platform\n\n### Vanna operates as a dual-sided protocol, with Lending Protocol on one side and account abstraction based Margin Account on the other side\n\n**A) Liquidity Providers (LPs):**\n\n- Supply assets to isolated lending pools to earn yield\n- Earn Superior Yields than others due to:\n    1. **Higher utilization rate** caused by leveraged borrowing by traders resulting in **Higher Borrow APR**.\n    2. **Liquidation penalties** being more frequent as traders will be using funds for derivatives trading, which are **shared with LPs** as well.\n- **No impermanent loss,** as funds are isolated and not used outside the pools and cannot be withdrawn by the borrowers\n\n**B) Traders/Borrowers:**\n\n- Open Margin Accounts\n- Borrow assets to amplify their trading capital using initial margin as collateral\n- Initial Margin & Debt combined balances can be allocated across various markets (e.g., derivatives, spot trading, yield farming)\n- Pay borrowing fees and liquidation penalties, contributing to LP yields\n\nHere is our [Product Demo Video](https://www.youtube.com/watch?v=x3daMAoGRt0)\n\nAlso read our [User Docs](https://docs.vanna.finance/docs)\n\n### Current Status\n\n- Private alpha **live on Arbitrum, Base and Optimism chains**\n- MUX, Avantisfi, Perp, Uniswap protocols already integrated as perpetual & Spot DEXs\n- Ecosystem partnerships with GMX, MUX, Avantisfi, Perp, Derive, Premia, Ethena, Pendle, Berachain, Polygon, OKX Dex aggregator already done\n\n### Call to Action\n\n- Join our discord [server](https://discord.gg/MmK9rsWdzS)\n- Test the private Alpha on Arbitrum & share the feedback with us. For Access code, ping us on discord.\n- Sharing is Caring- Spread the word among your fellow degens & traders educating about this platform\n\n### Why this Matters\n\n- Everyday alots of Traders are losing alot of capital due to lack of hedging tools\n- Entire DeFi industry is struggling with fragmented liquidity\n- Either Retail Traders, Professional Traders or MMs, no one has access to efficient capital despite of capital abundance in the market",
+        "lastUpdated": 0,
+        "projectGithub": "vannafinance",
+        "projectTwitter": "vannafinance"
+      },
+      "recipient": "0x29A70fA97bd0Ec21BA9ff5e6A99f62eAA9516492"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Vanna Finance",
+      "logoImg": "bafkreidbay6mbtmzjcuameiw6vmdhreoj4cixc72dhhz3mtlkbkwqep5ha",
+      "website": "https://vanna.finance",
+      "bannerImg": "bafkreihbkvhqq6pnflk3l4txqzpxbme64dhhvwvz76vaexjxuamgbevjku",
+      "createdAt": 1743086073822,
+      "userGithub": "vatsal095",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T14:23:50.106Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xb56d8f00af1bfed7aebb2893c102c162cce1a99f6c4617562b1a30c4598830d6203396343fb471f08ce4525ab55eaa1945670ceaab8c072e355cdbbd920ba2981b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T14:23:50.106Z",
+          "expirationDate": "2025-06-25T14:23:50.106Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x01f74c9CF0E24ceE3A28f68fdb193e08Ae9Cb84F",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#vannafinance#180535945",
+            "nullifiers": [
+              "v0.0.0:YGjS6zKOWLV1hxI0qJTPj4/es8vVKHR6ovBagPmFnXw="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T14:23:30.561Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x634f85ec9610e9c109a8b4871062f0780b0c5a436f0ccd4210d9a383b2eca3df7b4d3933a8f79924e7df35d36c42f08657c83df9308028b369d9411194934cb31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T14:23:30.561Z",
+          "expirationDate": "2025-06-25T14:23:30.561Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x01f74c9CF0E24ceE3A28f68fdb193e08Ae9Cb84F",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#vannafinance",
+            "nullifiers": [
+              "v0.0.0:t248PwjlMf+98e9fcyKg6M+NgPphNknrQgbIKl6U8Rs="
+            ]
+          }
+        }
+      },
+      "description": "# Trade with Minimal Collateral, Hedge Smart with Composable Leverage & AI-Driven Strategies\n\nVanna is a next-generation DeFAI prop trading protocol powered by Composable Leverage & Chain Abstraction, solving inefficient capital access, fragmented liquidity, broken user experience, and lack of hedging tools.\n\n### Lets Understand the Problems first\n\n- **High Collateral Requirements for Borrowers-** Unlike Traditional Proprietary Trading firms, Crypto Traders are getting limited access to efficient capital with max upto 80% LTV through onchain lending platforms. **70%** of traders globally **lack access** to capital\n- **Complex & Broken User Experience of DEXs** pose another challenge keeping CEX & and non-crypto traders away from entering into DeFi, resulting in wider spreads and lower volumes.\n- **Fragmented Liquidity** across multiple DEXs & chains forcing most of the traders stick to CEXs, making trading even harder for those inspired to take a chance on DEXs. Result? DEX trading volumes are less than 10% of CEX trading volumes even today\n- **90% of traders face liquidation due to Lack of Hedging Tools** in both CEXs and DEXs. Infact there are professional traders who only trade delta neutral strategies but without these risk management tools, forget about DeFi, they are reluctant and afraid to even consider trading in CEX crypto markets.\n\n### Here’s how Vanna tackles these challenges:\n\n- **Undercollateralized Borrowing:** Traders can borrow debt upto 900% LTV, unlocking extra liquidity using initial margin as collateral which will be deposited in margin account\n- **Composable Leverage:** Initial Margin & undercollateralised debt can be allocated flexibly across perpetuals, options, spot markets & yield farming protocols without the need to access multiple DEXs and DeFi protocols separately across multiple screens fixing the broken user experience\n- **Greeks Dashboard:** A real-time hedging tool for managing perpetuals and options with delta-neutral strategies, risk tracking, and position management further enhancing the user experience of professional traders\n- **Smart Position Routing:** Uses chain abstraction to aggregate liquidity across multiple chains and DEXs on Vanna’s front end and spreading the user trades across multiple DEXs and chains, eliminating fragmentation and improving execution.\n- **AI-Powered Automation:** Features curated agent vaults, community-driven strategies, and copy-trading agents, plus a no-code Co-Pilot for creating multi-agent portfolios —makes trading easier and smarter for retail and pro traders. This attracts more users, liquidity, and volume\n- **LST/LRT Utilization:** Enabling LSTs and LRTs as collateral to unlock additional liquidity which will attract LST & LRT owners to come on to our platform\n\n### Vanna operates as a dual-sided protocol, with Lending Protocol on one side and account abstraction based Margin Account on the other side\n\n**A) Liquidity Providers (LPs):**\n\n- Supply assets to isolated lending pools to earn yield\n- Earn Superior Yields than others due to:\n    1. **Higher utilization rate** caused by leveraged borrowing by traders resulting in **Higher Borrow APR**.\n    2. **Liquidation penalties** being more frequent as traders will be using funds for derivatives trading, which are **shared with LPs** as well.\n- **No impermanent loss,** as funds are isolated and not used outside the pools and cannot be withdrawn by the borrowers\n\n**B) Traders/Borrowers:**\n\n- Open Margin Accounts\n- Borrow assets to amplify their trading capital using initial margin as collateral\n- Initial Margin & Debt combined balances can be allocated across various markets (e.g., derivatives, spot trading, yield farming)\n- Pay borrowing fees and liquidation penalties, contributing to LP yields\n\nHere is our [Product Demo Video](https://www.youtube.com/watch?v=x3daMAoGRt0)\n\nAlso read our [User Docs](https://docs.vanna.finance/docs)\n\n### Current Status\n\n- Private alpha **live on Arbitrum, Base and Optimism chains**\n- MUX, Avantisfi, Perp, Uniswap protocols already integrated as perpetual & Spot DEXs\n- Ecosystem partnerships with GMX, MUX, Avantisfi, Perp, Derive, Premia, Ethena, Pendle, Berachain, Polygon, OKX Dex aggregator already done\n\n### Call to Action\n\n- Join our discord [server](https://discord.gg/MmK9rsWdzS)\n- Test the private Alpha on Arbitrum & share the feedback with us. For Access code, ping us on discord.\n- Sharing is Caring- Spread the word among your fellow degens & traders educating about this platform\n\n### Why this Matters\n\n- Everyday alots of Traders are losing alot of capital due to lack of hedging tools\n- Entire DeFi industry is struggling with fragmented liquidity\n- Either Retail Traders, Professional Traders or MMs, no one has access to efficient capital despite of capital abundance in the market",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "vannafinance",
+      "projectTwitter": "vannafinance"
+    }
+  }
+}

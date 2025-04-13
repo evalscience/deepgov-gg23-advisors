@@ -1,0 +1,666 @@
+{
+  "id": "55",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xe40feca037ad9a22c972a53af3cfabb51b4e46a6e52b46528e94d2c01d1383b4",
+  "metadata": {
+    "signature": "0x0d9b13def344c5b167a2af71a21dedebd291edf89fb90210856a371727bbbeb679c04b1b946a9cc156c69d9dd70e91be209fcfcf2124025899440195806a23721b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "support@flicker.finance",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://t.me/TheUnconstrainedMind",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Flicker-Finance/indexes-rs",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/invite/PuMaGsbsrb",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Flicker Finance contributes to the growth of the open-source software (OSS) ecosystem by fostering accessibility, collaboration, and innovation in financial technology. Specifically, we’re building an open-source crate, indexes-rs, designed to simplify crypto index calculation. This Rust-based library empowers developers to efficiently compute and customize cryptocurrency indices, lowering the barrier for integrating advanced financial metrics into their own projects. By making this tool openly available, we enable the broader OSS community to build more robust and transparent financial applications, enhancing the ecosystem’s depth in decentralized finance.\n\nAdditionally, we’re exploring how this technology can expand into trading tools for market prediction. For example, by leveraging indexes-rs, we’re prototyping accessible, open-source solutions that allow developers and traders to analyze market trends and create predictive models. These efforts democratize sophisticated trading capabilities, inviting contributions from the OSS community to refine and extend the tools. This not only broadens the ecosystem’s utility but also encourages collaborative innovation, as developers can adapt our work for diverse use cases, from personal finance apps to enterprise-grade trading platforms.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Flicker Finance is a mobile application designed to revolutionize the crypto trading experience by delivering professional-grade Bitcoin and cryptocurrency market analysis directly to users’ fingertips. Its key features and use cases include:\n\nReal-Time Trading Signals: Flicker provides clear buy/sell signals derived from complex market data, enabling users to make informed trading decisions on the go. This simplifies crypto analysis for both novice and seasoned traders.\nTrading Zones: The app offers predefined trading zones, highlighting optimal entry and exit points based on market trends, giving users a structured, mobile-friendly way to maximize returns and minimize risks.\nActionable Insights: By distilling intricate Bitcoin and crypto data into concise, actionable insights, Flicker equips users with real-time alerts and strategies tailored to fast-moving markets, all accessible from their phones.\nAccessibility: With an intuitive mobile interface, Flicker Finance ensures that sophisticated trading tools are easy to use, breaking down barriers to high-level financial analysis for a wide audience.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The majority will support the enhancement of the indexes-rs crate, covering costs for developer time, testing, and documentation to ensure it remains a robust, community-driven resource. Additional funds will go toward app development, including server costs for real-time data processing and UI/UX improvements, ensuring the free tier remains sustainable. By investing in these areas, the grant will help us deliver a more powerful open-source toolset and a widely accessible mobile app, amplifying Flicker Finance’s impact on the crypto trading ecosystem.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xe40feca037ad9a22c972a53af3cfabb51b4e46a6e52b46528e94d2c01d1383b4",
+        "title": "Flicker Finance",
+        "logoImg": "bafkreicinztk7govpploh5v56y62cpvdpvtqcjcjw3u5ecd3afyrhfajuq",
+        "metaPtr": {
+          "pointer": "bafkreielfcpsbifnd2ltrvtrqvswm6ji7fiqzklzf4doiqrzdkf557efyq",
+          "protocol": "undefined"
+        },
+        "website": "https://flicker.finance",
+        "bannerImg": "bafkreibhibds5qkarultt63jlmjd2qvbruwep6uh3tonwqbqjkw5wwjlxq",
+        "createdAt": 1742813513099,
+        "userGithub": "grep-o",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T10:40:56.334Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x4f69c4c862b2533b8adb1361255c75d23ec60bbda0bf3956e37bb6bd0cd8bef34603932842501e8e6349f348c28c908a636757b46d468ae366e89141407b4ef61c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T10:40:56.334Z",
+            "expirationDate": "2025-06-22T10:40:56.334Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Flicker-Finance#173942174",
+              "nullifiers": [
+                "v0.0.0:d+1KEgVHW845Cribi4L6fqIDjzF87mqs1vgWqjm7Qwo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-24T10:41:16.425Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x15420e24196506699a1f898f112c18a386d8406c346546d5bd172facebf32042250f2dca4f118e5444458efb7f3ed3a774bca7e7a219a8c477f5b8de126222db1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-24T10:41:16.425Z",
+            "expirationDate": "2025-06-22T10:41:16.425Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#flicker_finance",
+              "nullifiers": [
+                "v0.0.0:iaCHVdJFLyfYivhTBYUsHIzvXH0hEqnBC3poGD4YqAQ="
+              ]
+            }
+          }
+        },
+        "description": "Ignite your financial future with a spark of innovation. A cutting-edge platform that illuminates wealth-building opportunities, Flicker Finance fuses smart investing with intuitive tools—empowering you to glow brighter in an ever-shifting market.",
+        "lastUpdated": 0,
+        "projectGithub": "Flicker-Finance",
+        "projectTwitter": "flicker_finance"
+      },
+      "recipient": "0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Flicker Finance",
+      "logoImg": "bafkreicinztk7govpploh5v56y62cpvdpvtqcjcjw3u5ecd3afyrhfajuq",
+      "website": "https://flicker.finance",
+      "bannerImg": "bafkreigjhkmko5p4kcz2chdyuouoaru3r2ncvgqzyo36watxqdrglhku4m",
+      "createdAt": 1742813513099,
+      "userGithub": "grep-o",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T10:40:56.334Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x4f69c4c862b2533b8adb1361255c75d23ec60bbda0bf3956e37bb6bd0cd8bef34603932842501e8e6349f348c28c908a636757b46d468ae366e89141407b4ef61c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T10:40:56.334Z",
+          "expirationDate": "2025-06-22T10:40:56.334Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Flicker-Finance#173942174",
+            "nullifiers": [
+              "v0.0.0:d+1KEgVHW845Cribi4L6fqIDjzF87mqs1vgWqjm7Qwo="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-24T10:41:16.425Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x15420e24196506699a1f898f112c18a386d8406c346546d5bd172facebf32042250f2dca4f118e5444458efb7f3ed3a774bca7e7a219a8c477f5b8de126222db1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-24T10:41:16.425Z",
+          "expirationDate": "2025-06-22T10:41:16.425Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xcC0BA3FbF0caD1C0e641795DaE2f4FBCdC041aCb",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#flicker_finance",
+            "nullifiers": [
+              "v0.0.0:iaCHVdJFLyfYivhTBYUsHIzvXH0hEqnBC3poGD4YqAQ="
+            ]
+          }
+        }
+      },
+      "description": "Ignite your financial future with a spark of innovation. A cutting-edge platform that illuminates wealth-building opportunities, Flicker Finance fuses smart investing with intuitive tools—empowering you to glow brighter in an ever-shifting market.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Flicker-Finance",
+      "projectTwitter": "flicker_finance"
+    }
+  }
+}

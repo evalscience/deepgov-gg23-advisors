@@ -1,0 +1,667 @@
+{
+  "id": "68",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x6070e577df16d9e7a99f50e7cb54288f310bdad401f9d87e3ce531da71e32099",
+  "metadata": {
+    "signature": "0x25b94b3a1809cac2b0001e6d5c1f39879c13256cf8d53c8356e684676588b28309ced59972d85109590f801293bac879e20dbd36c648d35cfde953926156e2d51b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "support@nodespeak.xyz",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@berty_00",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/NodeSpeak/NodeSpeak",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/NodeSpeak",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "I have participated in 5 rounds, being part of projects such as FORK DAO, Fork Forest and now with Node Speak.\n\nhttps://explorer.gitcoin.co/#/contributors/0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Traditional online forums face issues such as censorship, arbitrary moderation, lack of transparency, and data manipulation. Additionally, users have no control over their content and receive no incentives for their participation.\n\nNodeSpeak is a decentralized forum based on blockchain technology that guarantees immutability, transparency, and resistance to censorship. It uses smart contracts to automate governance, reputation, and moderation, while storing data on IPFS to ensure permanence. Users are rewarded with tokens for their participation, and governance is managed through a DAO model.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Target Audience:\nOnline communities seeking freedom of speech and transparency.\nBlockchain developers and enthusiasts.\nInvestors interested in decentralized projects.\n\nKey Benefits:\nImmutability: Messages cannot be arbitrarily deleted or altered.\nTransparency: All interactions are verifiable on the blockchain.\nIncentives: Users are rewarded for their participation.\nDecentralized governance: Decisions are made collectively.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our plan is to continue working on the application until it reaches a more evolved version, with a focus on optimizing the smart contracts and the incentive system. Additionally, we will conduct extensive security, performance, and scalability testing to ensure the robustness of the platform.\n\nAnother key objective is migrating to L1, which will allow for broader adoption and greater interaction with the Web3 ecosystem. We will also work on integration with other dApps and services, fostering interoperability. Finally, we will implement new features and continuous improvements based on community feedback.\n\nThe grant funds will be used to maintain a functioning and accessible web version, as well as to add a new member to the development team to accelerate the project's growth.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x0063642a60BD41B9e811e1AAf26055721c6c53Be, 11155111",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x6070e577df16d9e7a99f50e7cb54288f310bdad401f9d87e3ce531da71e32099",
+        "title": "Node Speak",
+        "logoImg": "bafkreihxfpu4ettw34u6qtzhnddp4so6xyprqfzseajychjlapcudpfy6i",
+        "metaPtr": {
+          "pointer": "bafkreifzuaisntjlp6gbokcnoqhjodf3pvur3z2j2nhwawiuqmpq267cya",
+          "protocol": "undefined"
+        },
+        "website": "https://nodespeak.xyz",
+        "bannerImg": "bafkreihhggoqr74qm6b6ppjgoux4orynr4xbxmythmltfzescruf6qtike",
+        "createdAt": 1742861343777,
+        "userGithub": "fberty",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-25T19:19:02.308Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xe647e2ed7afb7d39f1fa83067cab50b28b98fec145a705e2601176df05a8746848229d1a4d7d111d3e65de8ce233224f6b46540210ef5b70a01a864c037786de1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-25T19:19:02.308Z",
+            "expirationDate": "2025-06-23T19:19:02.308Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#NodeSpeakDev#107136480",
+              "nullifiers": [
+                "v0.0.0:rfb43Xp2q2xktUzCJ9wsKMADLc4ygrY+CHn+JjWQ504="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-25T00:07:10.393Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x1313bfc03e5a2016af1baa307c11dfcf0f7e1cd178dbe755dbf912d5751a40ce11184d4a4faf2ff7386e4050ae2c117da05624e6da6a2c9aa438d70fdb72e88e1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-25T00:07:10.393Z",
+            "expirationDate": "2025-06-23T00:07:10.393Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#NodeSpeak",
+              "nullifiers": [
+                "v0.0.0:A/fYdfED28UIugcuAVP9s1J1x0LKrbKRUynQMGBib9w="
+              ]
+            }
+          }
+        },
+        "description": "Node Speak is a platform that redefines online forums by using blockchain technology and decentralized storage. Designed to ensure permanence, transparency, and resistance to censorship, Node Speak allows users to:\n\n-✅Create and manage discussion topics.\n-✅Follow profiles of interest.\n-✅Post messages and reply to other participants.\n-✅Rate content through an NFT-based system.\n-✅Ensure data integrity with storage on IPFS.\n\nThanks to its decentralized infrastructure, no one can delete or alter content arbitrarily, providing a free, community-driven, and secure experience.",
+        "lastUpdated": 0,
+        "projectGithub": "NodeSpeakDev",
+        "projectTwitter": "NodeSpeak"
+      },
+      "recipient": "0x75f11B893C82eC50e91770C1158c0377Be2c42f6"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Node Speak",
+      "logoImg": "bafkreihxfpu4ettw34u6qtzhnddp4so6xyprqfzseajychjlapcudpfy6i",
+      "website": "https://nodespeak.xyz",
+      "bannerImg": "bafkreihhggoqr74qm6b6ppjgoux4orynr4xbxmythmltfzescruf6qtike",
+      "createdAt": 1742861343777,
+      "userGithub": "fberty",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-25T19:19:02.308Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xe647e2ed7afb7d39f1fa83067cab50b28b98fec145a705e2601176df05a8746848229d1a4d7d111d3e65de8ce233224f6b46540210ef5b70a01a864c037786de1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-25T19:19:02.308Z",
+          "expirationDate": "2025-06-23T19:19:02.308Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#NodeSpeakDev#107136480",
+            "nullifiers": [
+              "v0.0.0:rfb43Xp2q2xktUzCJ9wsKMADLc4ygrY+CHn+JjWQ504="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-25T00:07:10.393Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x1313bfc03e5a2016af1baa307c11dfcf0f7e1cd178dbe755dbf912d5751a40ce11184d4a4faf2ff7386e4050ae2c117da05624e6da6a2c9aa438d70fdb72e88e1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-25T00:07:10.393Z",
+          "expirationDate": "2025-06-23T00:07:10.393Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xA72ef9BB82d59464eAA63f461C273f8028b20f5c",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#NodeSpeak",
+            "nullifiers": [
+              "v0.0.0:A/fYdfED28UIugcuAVP9s1J1x0LKrbKRUynQMGBib9w="
+            ]
+          }
+        }
+      },
+      "description": "Node Speak is a platform that redefines online forums by using blockchain technology and decentralized storage. Designed to ensure permanence, transparency, and resistance to censorship, Node Speak allows users to:\n\n-✅Create and manage discussion topics.\n-✅Follow profiles of interest.\n-✅Post messages and reply to other participants.\n-✅Rate content through an NFT-based system.\n-✅Ensure data integrity with storage on IPFS.\n\nThanks to its decentralized infrastructure, no one can delete or alter content arbitrarily, providing a free, community-driven, and secure experience.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "NodeSpeakDev",
+      "projectTwitter": "NodeSpeak"
+    }
+  }
+}

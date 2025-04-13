@@ -1,0 +1,245 @@
+{
+  "id": "17",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x62b3b673127e9511afdb47e7f0ef3f0bbc944ebf8492a88f5ed1ee9a4bfe14f2",
+  "metadata": {
+    "signature": "0xb90041eb19f0104bc550643f71723c487ab46ecb7c9e5bc5c2eaf254c6bd84062fc31fc8dd1278463d8da0429a7c9253ce7206d150cca31ee53abd9d783b95171b",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "phil@chainsafe.io",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "phil_ngo",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/ChainSafe/lodestar",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/yjyvFRP",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x62b3b673127e9511afdb47e7f0ef3f0bbc944ebf8492a88f5ed1ee9a4bfe14f2",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Lodestar continues to contribute to the Ethereum TypeScript ecosystem through its beacon chain and validator client implementations of Ethereum consensus. We continue contributing to libraries which help elevate the Ethereum JS ecosystem such as js-libp2p, discv5 and SSZ. ",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Lodestar is known to be very user friendly, especially now that we offer AMD64 and ARM64 binaries for use. We are an option on many node operator software such as eth-docker and Rocketpool Smart Node, so it's easy for you to pick a client such as ours with minimal overhead. We now offer SSZ support on nearly all of our endpoints to better serve users faster and with less latency when interacting with our beacon node.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are a minority client which continues to push the boundaries on experimental implementations alongside maintaining a mainnet, production ready beacon node. We are researching, contributing and implementing new features that Ethereum will hopefully adopt such as FOCIL, EIP-4788 and future network stack upgrades such as js-libp2p-quic. In addition, we aim to be a client that offers performance and an alternative to the current major client implementations to minimize disastrous results such as the Holesky testnet rescue, where we helped to quickly integrate new features to rescue the chain from non-finality. These features include unfinalized checkpoint state imports which allow your beacon node to ingest unfinalized checkpoints to handle chains of long non-finality.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The funds will be used to continue development of Lodestar and contribute to the Ethereum protocol community. ChainSafe generally contracts external freelancers to contribute to the code base and help propel Ethereum forward. The work requires generous donations that come from the community to help support a minority client to contribute to Ethereum R&D. This may also include other support roles and systems such as testing/checkpoint infrastructure and public endpoints for developers.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project ensures there is another viable alternative to the current consensus clients. We are the only TypeScript based consensus client which performs just as great as other clients running with systems level languages. By supporting a minority client, you help ensure there are other choices to help maintain and ensure stability on the Ethereum network.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "None",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x62b3b673127e9511afdb47e7f0ef3f0bbc944ebf8492a88f5ed1ee9a4bfe14f2",
+        "title": "Lodestar",
+        "logoImg": "bafkreiedvu4xo6bj6ethblzdfwdygwyilsrdy6vyl7gtq6hkj2e5kglclu",
+        "metaPtr": {
+          "pointer": "bafkreid3m3ni5zkzempsa5beapfsv7umtwy2xylchh46mucjich5begdai",
+          "protocol": "undefined"
+        },
+        "website": "https://lodestar.chainsafe.io",
+        "bannerImg": "bafkreiduls7p6hvnpmfkl43rcxqzkkho4rgsvbc23zdy6fn4thogucjihm",
+        "createdAt": 1712855844970,
+        "userGithub": "philknows",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..1ULvozrpCCASv90c1h5RiYorcY7Hi3WAkpUsWU8vvE8ZvSABr5LHqeJjspM8h8McpmHyW75atkHO04ONDErZDQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T02:45:03.722Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T02:45:03.722Z",
+            "expirationDate": "2025-01-14T02:45:03.722Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xDaDd7c883288Cfe2E257B0A361865E5e9349808b",
+              "hash": "v0.0.0:TCgqhNddoI5m1XdwGU6pkosGPMdTlIrjuQGCZt3d9RE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#ChainSafe#58080811"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ZtUl-ieQjaetUoyVXqBJeBJCSyTIkuABMKhcAGkMnc6vq1btPKRLhyzfh6Kz-lqL1SnSv0Bi19TycNJtLhmKAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-11T17:14:41.068Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-11T17:14:41.068Z",
+            "expirationDate": "2024-07-10T17:14:41.068Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xDaDd7c883288Cfe2E257B0A361865E5e9349808b",
+              "hash": "v0.0.0:I6O+LYB5/I4CgCKliSphoZr0Pv8lAp4YaltHkS3cCS8=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#lodestar_eth"
+            }
+          }
+        },
+        "description": "Lodestar is a Typescript ecosystem for Ethereum consensus, developed by ChainSafe Systems. Our flagship products are our production-capable beacon chain and validator client. In addition, we maintain public repositories of useful tools for public use. Some of these libraries include BLS, SSZ, Discv5, Gossipsub, and Noise.\n\nWork was completed to support the Ethereum ecosystem by most recently enabling EIP-4844 blobs to benefit L2s, reducing tx costs of L2 fees and increasing client diversity at the L1 protocol level. \n\nLodestar’s niche is in its implementation language, TypeScript. Our software and tooling is uniquely situated as the go-to for researchers and developers for rapid prototyping such as our Prover, a verified web3 provider using light clients to increase decentralization and security of the JSON-RPC. Millions of developers around the world are familiar with Typescript, and Lodestar’s high-quality codebases are excellent introductions to the Ethereum world. With the goal of increasing client diversity and attracting new talent from one of the largest groups of developers in the world.\n\nWe fully support other teams in Protocol and projects which indirectly fund client team implementors such as Protocol Guild.",
+        "lastUpdated": 0,
+        "projectGithub": "ChainSafe",
+        "projectTwitter": "lodestar_eth"
+      },
+      "recipient": "0x42f6f46EB92067C7B577dC5D6a3F6964e644948f"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Lodestar",
+      "logoImg": "bafkreiedvu4xo6bj6ethblzdfwdygwyilsrdy6vyl7gtq6hkj2e5kglclu",
+      "website": "https://lodestar.chainsafe.io",
+      "bannerImg": "bafkreiduls7p6hvnpmfkl43rcxqzkkho4rgsvbc23zdy6fn4thogucjihm",
+      "createdAt": 1712855844970,
+      "userGithub": "philknows",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..1ULvozrpCCASv90c1h5RiYorcY7Hi3WAkpUsWU8vvE8ZvSABr5LHqeJjspM8h8McpmHyW75atkHO04ONDErZDQ",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T02:45:03.722Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T02:45:03.722Z",
+          "expirationDate": "2025-01-14T02:45:03.722Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xDaDd7c883288Cfe2E257B0A361865E5e9349808b",
+            "hash": "v0.0.0:TCgqhNddoI5m1XdwGU6pkosGPMdTlIrjuQGCZt3d9RE=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#ChainSafe#58080811"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ZtUl-ieQjaetUoyVXqBJeBJCSyTIkuABMKhcAGkMnc6vq1btPKRLhyzfh6Kz-lqL1SnSv0Bi19TycNJtLhmKAg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-11T17:14:41.068Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-11T17:14:41.068Z",
+          "expirationDate": "2024-07-10T17:14:41.068Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xDaDd7c883288Cfe2E257B0A361865E5e9349808b",
+            "hash": "v0.0.0:I6O+LYB5/I4CgCKliSphoZr0Pv8lAp4YaltHkS3cCS8=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#lodestar_eth"
+          }
+        }
+      },
+      "description": "Lodestar is a Typescript ecosystem for Ethereum consensus, developed by ChainSafe Systems. Our flagship products are our production-capable beacon chain and validator client. In addition, we maintain public repositories of useful tools for public use. Some of these libraries include BLS, SSZ, Discv5, Gossipsub, and Noise.\n\nWork was completed to support the Ethereum ecosystem by most recently enabling EIP-4844 blobs to benefit L2s, reducing tx costs of L2 fees and increasing client diversity at the L1 protocol level. \n\nLodestar’s niche is in its implementation language, TypeScript. Our software and tooling is uniquely situated as the go-to for researchers and developers for rapid prototyping such as our Prover, a verified web3 provider using light clients to increase decentralization and security of the JSON-RPC. Millions of developers around the world are familiar with Typescript, and Lodestar’s high-quality codebases are excellent introductions to the Ethereum world. With the goal of increasing client diversity and attracting new talent from one of the largest groups of developers in the world.\n\nWe fully support other teams in Protocol and projects which indirectly fund client team implementors such as Protocol Guild.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "ChainSafe",
+      "projectTwitter": "lodestar_eth"
+    }
+  }
+}

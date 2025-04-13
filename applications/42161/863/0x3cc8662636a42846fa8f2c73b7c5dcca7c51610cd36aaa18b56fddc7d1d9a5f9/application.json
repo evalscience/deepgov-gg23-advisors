@@ -1,0 +1,455 @@
+{
+  "id": "17",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x3cc8662636a42846fa8f2c73b7c5dcca7c51610cd36aaa18b56fddc7d1d9a5f9",
+  "metadata": {
+    "signature": "0x7c53ada3ea07de3eedd297003619c10a750865357c93a732c471bc8d4d9ce34f101dc21434aab0193513119004b993f72a00418794f935ae9fc056c162162c851b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "Valentineorga@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "ValentineOrga",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/dewdrip/eth-mobile",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, I’ve participated in GG22",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "ETH Mobile is an open-source toolkit for building native mobile dApps on Ethereum and EVM-compatible chains. It eliminates the need to build core functionalities from scratch by providing pre-built tools, including an in-app wallet, Web3 components, custom hooks, and utilities for both frontend and smart contract development. Built with React Native and Solidity, ETH Mobile streamlines the development process, making it faster and more efficient.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "ETH Mobile streamlines mobile dApp development with pre-built Web3 components, custom “Wagmi” hooks, and an in-app wallet, eliminating the need to build core functionalities from scratch.\n\nContract Hot Reload and a built-in Contract Debugger significantly reduce debugging time, while local transaction signing enhances security by minimizing reliance on third-party wallets and reducing attack vectors.\n\nExample: Developers can interact with smart contracts in just a few lines of code using useContractRead() and useContractWrite(). For contracts deployed via the ETH Mobile architecture, useScaffoldContractRead() and useScaffoldContractWrite() provide seamless integration.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Austin Griffith(Founder of BuidlGuidl) recently highlighted ETH Mobile as the solution for mobile web3 development\nhttps://x.com/austingriffith/status/1880345831020339700\n\nHe has also expressed interest in supporting zkApp development on ETH Mobile, currently being explored with Noir\n\nETH Mobile has already received 10 Github stars and 5 forks in its early development stages - https://github.com/ValentineCodes/scaffold-eth-mobile",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The grant funds will be used to accelerate key milestones in development, documentation, and education. With primary focus on education, we aim to:\n\n- Build a comprehensive documentation for seamless onboarding\n- Establish a learning hub, similar to SpeedRunEthereum.com, to teach upcoming developers how to build dApps with ETH Mobile. This aims to not only onboard developers into ETH Mobile but to web3 in general!\n- Create tutorials, videos, and guides showcasing ETH Mobile’s capabilities.\n- Foster an engaged developer ecosystem around ETH Mobile",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Not Available",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x3cc8662636a42846fa8f2c73b7c5dcca7c51610cd36aaa18b56fddc7d1d9a5f9",
+        "title": "Scaffold-ETH-Mobile",
+        "logoImg": "bafkreideatl4y3ikjpcjhzdyuxw6atmmohxhbhj7dfl5ubczirzc5xkjm4",
+        "metaPtr": {
+          "pointer": "bafkreiesnj6whedt2ecdbdekviyjqaq3udajtlwvyctge3wespyetcmjtm",
+          "protocol": "undefined"
+        },
+        "website": "https://ethmobile.io",
+        "bannerImg": "bafkreiamsvude57au2win3hpa6kwouqartthdqjjv4oynwiuxc7aqybupi",
+        "createdAt": 1728867295172,
+        "userGithub": "ValentineCodes",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T11:30:59.698Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x8ebe547fa75fd5f91131cf05873d120acd5ddc36f6de7feae8f08458202d17d16b4a016191cb156f322e628c65197540a571f3e340c041fcd59fc99df18d6ae51c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T11:30:59.698Z",
+            "expirationDate": "2025-06-20T11:30:59.698Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x98b12DD3419507BE069167E1D7c2cFC819859706",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#dewdrip#61652529",
+              "nullifiers": [
+                "v0.0.0:6Yx1PXIfTBAMjrvlnI7tERLebMJ3UfocampZEitjlmk="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KDwFhXyRWkA9NKs7cMpxzF_qTI0UWlM9ugDQrwj5j7vg4kr7ykr5Yc0_0KBGDf97xWSraCdkQVlkCUpzxLFNAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-14T00:59:28.043Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-14T00:59:28.043Z",
+            "expirationDate": "2025-01-12T00:59:28.043Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x98b12DD3419507BE069167E1D7c2cFC819859706",
+              "hash": "v0.0.0:Bh1eyPlvdu5el+/kqCqiqjE/GYM24MTlZz/Z8Ti7FOo=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#ValentineOrga"
+            }
+          }
+        },
+        "description": "⭐️ Mobile (zk/d)Apps...  **ETH Mobile** is an open-source toolkit for building decentralized applications (dApps) on Ethereum and other EVM-compatible blockchains. It simplifies mobile dApp development with fast, secure and customizable pre-built components to create, deploy and interact with smart contracts.\n\n[Watch me mint a Snowman NFT!☃️](https://youtu.be/CaJTnRtLOK8)\n\n### Mission Statement\n\nETH Mobile will serve as the foundation of THE NEW WAVE of mobile dApps by creating the best experience for mobile users. We aim to inspire founders to scale, to provide job opportunities, and to grow the web3 community through smooth transitioning.\n\n### Problem Statement\n\nAs the decentralized ecosystem grows, the demand for high-quality mobile dApps increases. However, current tools for developing mobile dApps are fragmented and inefficient, especially on Ethereum and EVM-compatible chains. Developers face challenges managing smart contracts, building user-friendly interfaces, and ensuring wallet security—all on mobile platforms. This lack of streamlined solutions limits the speed and quality of mobile dApp development and adoption.\n\n### Proposed Solution\n\n**ETH Mobile** offers a comprehensive mobile-first development environment tailored to Ethereum and EVM-compatible blockchains. By integrating essential development tools and features, it simplifies the mobile dApp development process.\n\n⚙️ **Tech Stack**: Built with React Native, Hardhat, Ethers, and TypeScript to streamline mobile dApp development.\n\n#### Key Features\n\n- 🧑‍💻 **Contract Debugger**: Inspect smart contract details such as address, balance, variables, and functions. It also allows real-time interaction with contracts, making development more efficient.\n\n![Contract Debugger](https://dewdrip.github.io/eth-mobile/assets/debugger.png)\n\n- 💳 **In-App Wallet**: A secure mobile crypto wallet for managing funds, signing transactions, and interacting with multiple EVM-compatible chains.\n\n![Wallet](https://dewdrip.github.io/eth-mobile/assets/wallet.png)\n\n- ✅ **Contract Hot Reload**: Automatically updates the mobile frontend to reflect changes made to smart contracts during development.\n- 🪝 **Custom Hooks**: A collection of React hooks with TypeScript autocompletion, simplifying contract interaction in your mobile app.\n- 🧱 **Web3 Components**: Pre-built components for quickly building mobile dApp frontends.\n\nBy providing these tools, ETH Mobile drastically reduces the time and effort required to build mobile dApps, making development more accessible to both new and experienced developers.\n\n### Project Roadmap\n\n**Phase 1: Core Development (Completed)**\n\n- Implemented in-built wallet, contract hot reload, contract debugger, and custom hooks.\n\n**Phase 2: Expansion (Next 3-6 months)**\n\n- Comprehensive project documentation for easy adoption.\n- Convert existing web dApps to mobile dApps by collaborating with founders.\n- Build additional components, hooks, and utilities for complex mobile dApp frontends.\n- Support zkApp development\n\n### Team\n\n**Valentine Orga**: Lead Developer and Blockchain Architect with extensive experience in Ethereum and EVM-compatible smart contract development. I am passionate about mobile dApp innovation and have a proven track record in building decentralized applications for both web and mobile platforms.\n\n### Why Support Us?\n\n**ETH Mobile** is crucial for the future of mobile dApp development on Ethereum and other EVM-compatible chains. By supporting ETH Mobile, you are contributing to the growth of mobile decentralized applications, helping developers deliver seamless and user-friendly dApps. ETH Mobile not only simplifies development but also enhances mobile accessibility, ensuring users can interact with dApps effortlessly.\n\nIf you believe in the future of mobile-first dApps on Ethereum and beyond, **DONATE TO SUPPORT ETH MOBILE**!\n\n### Links & Resources\n\n- [Github Repo](https://github.com/dewdrip/eth-mobile)\n- [X](https://x.com/ValentineOrga)\n",
+        "lastUpdated": 0,
+        "projectGithub": "dewdrip",
+        "projectTwitter": "ValentineOrga"
+      },
+      "recipient": "0x6f228491AFb1a486BA2A852c5C0bF3fA17Df12bd"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Scaffold-ETH-Mobile",
+      "logoImg": "bafkreideatl4y3ikjpcjhzdyuxw6atmmohxhbhj7dfl5ubczirzc5xkjm4",
+      "website": "https://ethmobile.io",
+      "bannerImg": "bafkreiamsvude57au2win3hpa6kwouqartthdqjjv4oynwiuxc7aqybupi",
+      "createdAt": 1728867295172,
+      "userGithub": "ValentineCodes",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T11:30:59.698Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x8ebe547fa75fd5f91131cf05873d120acd5ddc36f6de7feae8f08458202d17d16b4a016191cb156f322e628c65197540a571f3e340c041fcd59fc99df18d6ae51c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T11:30:59.698Z",
+          "expirationDate": "2025-06-20T11:30:59.698Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x98b12DD3419507BE069167E1D7c2cFC819859706",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#dewdrip#61652529",
+            "nullifiers": [
+              "v0.0.0:6Yx1PXIfTBAMjrvlnI7tERLebMJ3UfocampZEitjlmk="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KDwFhXyRWkA9NKs7cMpxzF_qTI0UWlM9ugDQrwj5j7vg4kr7ykr5Yc0_0KBGDf97xWSraCdkQVlkCUpzxLFNAg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-14T00:59:28.043Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-14T00:59:28.043Z",
+          "expirationDate": "2025-01-12T00:59:28.043Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x98b12DD3419507BE069167E1D7c2cFC819859706",
+            "hash": "v0.0.0:Bh1eyPlvdu5el+/kqCqiqjE/GYM24MTlZz/Z8Ti7FOo=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#ValentineOrga"
+          }
+        }
+      },
+      "description": "⭐️ Mobile (zk/d)Apps...  **ETH Mobile** is an open-source toolkit for building decentralized applications (dApps) on Ethereum and other EVM-compatible blockchains. It simplifies mobile dApp development with fast, secure and customizable pre-built components to create, deploy and interact with smart contracts.\n\n[Watch me mint a Snowman NFT!☃️](https://youtu.be/CaJTnRtLOK8)\n\n### Mission Statement\n\nETH Mobile will serve as the foundation of THE NEW WAVE of mobile dApps by creating the best experience for mobile users. We aim to inspire founders to scale, to provide job opportunities, and to grow the web3 community through smooth transitioning.\n\n### Problem Statement\n\nAs the decentralized ecosystem grows, the demand for high-quality mobile dApps increases. However, current tools for developing mobile dApps are fragmented and inefficient, especially on Ethereum and EVM-compatible chains. Developers face challenges managing smart contracts, building user-friendly interfaces, and ensuring wallet security—all on mobile platforms. This lack of streamlined solutions limits the speed and quality of mobile dApp development and adoption.\n\n### Proposed Solution\n\n**ETH Mobile** offers a comprehensive mobile-first development environment tailored to Ethereum and EVM-compatible blockchains. By integrating essential development tools and features, it simplifies the mobile dApp development process.\n\n⚙️ **Tech Stack**: Built with React Native, Hardhat, Ethers, and TypeScript to streamline mobile dApp development.\n\n#### Key Features\n\n- 🧑‍💻 **Contract Debugger**: Inspect smart contract details such as address, balance, variables, and functions. It also allows real-time interaction with contracts, making development more efficient.\n\n![Contract Debugger](https://dewdrip.github.io/eth-mobile/assets/debugger.png)\n\n- 💳 **In-App Wallet**: A secure mobile crypto wallet for managing funds, signing transactions, and interacting with multiple EVM-compatible chains.\n\n![Wallet](https://dewdrip.github.io/eth-mobile/assets/wallet.png)\n\n- ✅ **Contract Hot Reload**: Automatically updates the mobile frontend to reflect changes made to smart contracts during development.\n- 🪝 **Custom Hooks**: A collection of React hooks with TypeScript autocompletion, simplifying contract interaction in your mobile app.\n- 🧱 **Web3 Components**: Pre-built components for quickly building mobile dApp frontends.\n\nBy providing these tools, ETH Mobile drastically reduces the time and effort required to build mobile dApps, making development more accessible to both new and experienced developers.\n\n### Project Roadmap\n\n**Phase 1: Core Development (Completed)**\n\n- Implemented in-built wallet, contract hot reload, contract debugger, and custom hooks.\n\n**Phase 2: Expansion (Next 3-6 months)**\n\n- Comprehensive project documentation for easy adoption.\n- Convert existing web dApps to mobile dApps by collaborating with founders.\n- Build additional components, hooks, and utilities for complex mobile dApp frontends.\n- Support zkApp development\n\n### Team\n\n**Valentine Orga**: Lead Developer and Blockchain Architect with extensive experience in Ethereum and EVM-compatible smart contract development. I am passionate about mobile dApp innovation and have a proven track record in building decentralized applications for both web and mobile platforms.\n\n### Why Support Us?\n\n**ETH Mobile** is crucial for the future of mobile dApp development on Ethereum and other EVM-compatible chains. By supporting ETH Mobile, you are contributing to the growth of mobile decentralized applications, helping developers deliver seamless and user-friendly dApps. ETH Mobile not only simplifies development but also enhances mobile accessibility, ensuring users can interact with dApps effortlessly.\n\nIf you believe in the future of mobile-first dApps on Ethereum and beyond, **DONATE TO SUPPORT ETH MOBILE**!\n\n### Links & Resources\n\n- [Github Repo](https://github.com/dewdrip/eth-mobile)\n- [X](https://x.com/ValentineOrga)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "dewdrip",
+      "projectTwitter": "ValentineOrga"
+    }
+  }
+}

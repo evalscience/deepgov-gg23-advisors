@@ -1,0 +1,237 @@
+{
+  "id": "28",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x5876a29572047b39be601fcd3d6ae177504d5a19fd5601c8d23b6cc3560501cb",
+  "metadata": {
+    "signature": "0xb8578ebf3e87410966b76093ed9c1ed952b7224c0d3763ce2e29586ef07f8a1b51c0367ba2b8ee2377294944207d18ae522fb8ec3c02e82af3f2ba98330aa94d1c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "pablo@buidlguidl.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "pabl0cks",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/BuidlGuidl/abi.ninja",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Abi Ninja participated in GG22 :\n\n- https://explorer.gitcoin.co/#/round/42161/609/34\n- https://explorer.gitcoin.co/#/projects/0x5876a29572047b39be601fcd3d6ae177504d5a19fd5601c8d23b6cc3560501cb",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Users can easily interact with contracts that don't have an official UI yet, and developers can test and debug their contracts in development using a simple and intuitive interface. \n\nABI Ninja streamlines interactions with verified, unverified, and proxy contracts by fetching ABIs, decompiling bytecode, and handling proxy logic automatically, reducing the need for manual setup or custom scripts.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "ABI Ninja improves Web3 development efficiency in several ways:\n\n- **Faster contract interactions**: Automatically fetching ABIs from Etherscan saves time compared to manual retrieval.\n\n- **Unverified contract support**: Decompiling contracts with **heimdall-rs** provides a way to interact with contracts even when ABIs aren't available.\n\n- **Proxy contract handling**: Automatically detecting proxy implementations ensures users interact with the correct contract logic, preventing mistakes.\n\n- **Custom & Local Chain Support**: Developers can debug contracts on custom networks, including localhost (ID 31337), streamlining local development.\n\n- **Enhanced usability**: Features like ENS resolution, shareable URLs with metadata previews, and a dark mode UI make contract interactions smoother and more accessible.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "206 GitHub stars and 87 forks\n\n~2200 visits per month during last year, [link to plausible stats](https://plausible.io/abi.ninja/)",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We have a few key improvements planned for ABI Ninja to make it even more useful and user-friendly\n\n1. **Enhanced Interaction History**: We're considering displaying users' recent interactions (both read and write) on the Home or Contract Detail pages. This would enable users to quickly access previously used contracts and methods, facilitating easier navigation and repeated operations. ​[GitHub link](https://github.com/BuidlGuidl/abi.ninja/issues/114)\n\n2. **Batch Transactions (EIP-5792 Support)**: We're exploring the possibility of implementing a feature that allows users to bundle multiple contract interactions into a single transaction. This could streamline workflows and reduce transaction costs. The idea is to introduce a \"Batch Transactions\" mode where users can queue up actions and execute them collectively. ​[GitHub link](https://github.com/BuidlGuidl/abi.ninja/issues/113)​\n\n3. **Show Latest Transactions of the Contract**: We're considering adding a section to the Contract Detail Page that displays the most recent transactions executed on a given contract. This would provide users with immediate insights into the contract's activity, enhancing transparency and aiding in debugging and analysis. ​[GitHub link](https://github.com/BuidlGuidl/abi.ninja/issues/112)\n",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Abi Ninja doesn't have smart contracts deployed",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x5876a29572047b39be601fcd3d6ae177504d5a19fd5601c8d23b6cc3560501cb",
+        "title": "ABI Ninja",
+        "logoImg": "bafkreihk2ioytswbluobebwkb4e3qvxtsseq3cnjckdk5n2qh5dnbqzjh4",
+        "metaPtr": {
+          "pointer": "bafkreid6gx63mnh6evmercwqf2yytvaafk76lrf4mda5emv2opheixklcy",
+          "protocol": "undefined"
+        },
+        "website": "https://abi.ninja/",
+        "bannerImg": "bafkreih7vwaokjt4dfizl7fxvvr4k5nsi76tdc2u2ynxm53jmeexbvilqa",
+        "createdAt": 1729001164939,
+        "userGithub": "pabl0cks",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ma4bDFfXgWJwml271dxtwIlzHZPpwQw4JRAv9WLloj3z3BWUrGAN3EJKdF-Adk6BtDx4AjMhXgyiKF0_-X4JBw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-15T13:58:31.318Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-15T13:58:31.318Z",
+            "expirationDate": "2025-01-13T13:58:31.318Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB4F53bd85c00EF22946d24Ae26BC38Ac64F5E7B1",
+              "hash": "v0.0.0:Q+baxlgb0FpCOeBRKbWoDrpJzOP58BInl44KBRhXHRg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#BuidlGuidl#55535804"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Lbsyywm6BSMJ7Xs4hQkJw89fkSumdALBBA9V8H7NPFe_7h0rLrIghxeR_0LSsX_p3ZrACJu99y7f7FF89jTfCA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-16T10:03:41.416Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-16T10:03:41.416Z",
+            "expirationDate": "2025-01-14T10:03:41.416Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB4F53bd85c00EF22946d24Ae26BC38Ac64F5E7B1",
+              "hash": "v0.0.0:6NIHtEv7Nm/7lCwGLzuE6ejrwsWQx6UM63dXNOhMsYg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#Pabl0cks"
+            }
+          }
+        },
+        "description": "**ABI Ninja provides an intuitive frontend for contracts from the most popular EVM networks, currently supporting:**\n\n- **Verified contracts**: Fetch contract ABIs and source code directly using Etherscan's API.\n- **Unverified contracts**: Two different options are available:\n\n1. Provide the ABI and the contract address.\n2. Decompile using heimdall-rs.\n\n- **Proxy contracts**: Autodetects most popular proxy patterns, and allows to read and write as proxy.\n\n![UI Image 1](https://raw.githubusercontent.com/BuidlGuidl/abi.ninja/main/.github/img/ui1.png)\n\n**It includes some nice features like:**\n\n- (mainnet!) ENS resolution on address inputs.\n- Shareable URLs with cool dynamic unfurl.\n- Show TX results.\n- Friendly UI even for complex data structures, now with dark mode!\n- Custom and Local Chains Support – Add or remove networks from a large selection, manually configure custom chains, or debug local contracts on chain ID 31337 (localhost).\n\n![UI Image 2](https://raw.githubusercontent.com/BuidlGuidl/abi.ninja/main/.github/img/ui2.png)",
+        "lastUpdated": 0,
+        "projectGithub": "BuidlGuidl",
+        "projectTwitter": "pabl0cks"
+      },
+      "recipient": "0x8cD78a945c6D209fe8C7ed8Ee1712F43bec17781"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "ABI Ninja",
+      "logoImg": "bafkreihk2ioytswbluobebwkb4e3qvxtsseq3cnjckdk5n2qh5dnbqzjh4",
+      "website": "https://abi.ninja/",
+      "bannerImg": "bafkreih7vwaokjt4dfizl7fxvvr4k5nsi76tdc2u2ynxm53jmeexbvilqa",
+      "createdAt": 1729001164939,
+      "userGithub": "pabl0cks",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..ma4bDFfXgWJwml271dxtwIlzHZPpwQw4JRAv9WLloj3z3BWUrGAN3EJKdF-Adk6BtDx4AjMhXgyiKF0_-X4JBw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-15T13:58:31.318Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-15T13:58:31.318Z",
+          "expirationDate": "2025-01-13T13:58:31.318Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xB4F53bd85c00EF22946d24Ae26BC38Ac64F5E7B1",
+            "hash": "v0.0.0:Q+baxlgb0FpCOeBRKbWoDrpJzOP58BInl44KBRhXHRg=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#BuidlGuidl#55535804"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Lbsyywm6BSMJ7Xs4hQkJw89fkSumdALBBA9V8H7NPFe_7h0rLrIghxeR_0LSsX_p3ZrACJu99y7f7FF89jTfCA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-16T10:03:41.416Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-16T10:03:41.416Z",
+          "expirationDate": "2025-01-14T10:03:41.416Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xB4F53bd85c00EF22946d24Ae26BC38Ac64F5E7B1",
+            "hash": "v0.0.0:6NIHtEv7Nm/7lCwGLzuE6ejrwsWQx6UM63dXNOhMsYg=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#Pabl0cks"
+          }
+        }
+      },
+      "description": "**ABI Ninja provides an intuitive frontend for contracts from the most popular EVM networks, currently supporting:**\n\n- **Verified contracts**: Fetch contract ABIs and source code directly using Etherscan's API.\n- **Unverified contracts**: Two different options are available:\n\n1. Provide the ABI and the contract address.\n2. Decompile using heimdall-rs.\n\n- **Proxy contracts**: Autodetects most popular proxy patterns, and allows to read and write as proxy.\n\n![UI Image 1](https://raw.githubusercontent.com/BuidlGuidl/abi.ninja/main/.github/img/ui1.png)\n\n**It includes some nice features like:**\n\n- (mainnet!) ENS resolution on address inputs.\n- Shareable URLs with cool dynamic unfurl.\n- Show TX results.\n- Friendly UI even for complex data structures, now with dark mode!\n- Custom and Local Chains Support – Add or remove networks from a large selection, manually configure custom chains, or debug local contracts on chain ID 31337 (localhost).\n\n![UI Image 2](https://raw.githubusercontent.com/BuidlGuidl/abi.ninja/main/.github/img/ui2.png)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "BuidlGuidl",
+      "projectTwitter": "pabl0cks"
+    }
+  }
+}

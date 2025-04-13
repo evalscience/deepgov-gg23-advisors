@@ -1,0 +1,604 @@
+{
+  "id": "39",
+  "chainId": 42220,
+  "roundId": "35",
+  "projectId": "0xf86d2dfd8eea6b46de47deea4e2df44ef54855a29b949bc9185de352d1c8c0f0",
+  "metadata": {
+    "signature": "0x66477cbceef7555e970bc57e541acc5796dfbd26ab9f2b6d8612681237735fa87938bd4c668d3fb86d47e0e8930e693166c807ebd4fe51a2ca470c97058532781c",
+    "application": {
+      "round": "0xd1DBAE8f44ac7798B6eE3Eb739828ccc9eDb8EBB",
+      "answers": [],
+      "project": {
+        "id": "0xf86d2dfd8eea6b46de47deea4e2df44ef54855a29b949bc9185de352d1c8c0f0",
+        "title": "Ayowecca Uganda: Regenerative Agricultural Practices and Climate Education in Uganda",
+        "logoImg": "bafkreib6vucx77u46vemkail6mh3si5teswncbwk7opbtv6bhmbq5h6nd4",
+        "metaPtr": {
+          "pointer": "bafkreia7auwza4sb32rw7m6owa3q7psyf4tqrz4zg3xvi6f27uxk2tzhkm",
+          "protocol": "undefined"
+        },
+        "website": "https://ayoweccauganda.org",
+        "bannerImg": "bafkreickql5zc5vqzeodjwqfppt2f6a4unkexn7ztvo5ozymgs3wpdalge",
+        "createdAt": 1744185593307,
+        "userGithub": "JJonathanOlwenyi",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-09T07:59:17.864Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xba7c5731e64dc0d362ef8dd0e28d7a9ebca7ca392c334d4c3713a3dc8e45cab344c17a63edc1e0bbf00782b4dad20eb6815774cf19da3cb3b5e37fddb78cdc841c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-09T07:59:17.864Z",
+            "expirationDate": "2025-07-08T07:59:17.864Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x71Fff5ADCf4a5Ea13C56dEbd95e6c3C9079200Cd",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#AYOWECCA-UGANDA#95035913",
+              "nullifiers": [
+                "v0.0.0:wjc5hayg+GYzY0E+QD2RhuDfskoOA79YyyfouPYdjYc="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-09T07:59:05.543Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x05dcb3bedb7ebd763f89cc939363997e7873949e8baba495de92a402062045b012aa745540f72e0b3f1dd6bcc8ca0f57c1a42da20d309d3074ff04206e2b021b1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-09T07:59:05.543Z",
+            "expirationDate": "2025-07-08T07:59:05.543Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x71Fff5ADCf4a5Ea13C56dEbd95e6c3C9079200Cd",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ayowecca_uganda",
+              "nullifiers": [
+                "v0.0.0:gdbtbfs2yjmClePvsjpsM8qTIN4qAJbehvDdbWOtiL8="
+              ]
+            }
+          }
+        },
+        "description": "![womenskills](https://ayoweccauganda.org/wp-content/uploads/2024/07/JPEG_20240703_133651_8197707277131995110-768x432.jpg)\n\nWe are **Ayowecca Uganda**, transforming lives at the critical intersection of human development and environmental restoration. Born as a grassroots initiative in 2018, we've evolved into an NGO that uplifts communities while healing the earth. We have planted over 5000 fruit trees in schools, health centers and distributed communities for food security and increase plantations and forest cover.\n\nOur impact spans multiple sectors: we restore wetlands, peatlands, and vital ecosystems; implement agroforestry initiatives and fruit tree planting to combat food insecurity; address plastic waste management; and promote energy conservation. Simultaneously, we provide educational support to vulnerable children, train adolescent girls and women to produce reusable sanitary products, conduct clean water campaigns, and actively empower women and children through community awareness programs.\n\nWhat sets us apart? Our belief that lasting change happens when communities develop their own solutions. We don't just address today's challenges—we build resilience for tomorrow by equipping people with the skills, confidence, and resources to create sustainable futures where both humans and nature thrive.\n\n![ayoweccatrees](https://ayoweccauganda.org/wp-content/uploads/2024/10/IMG_20240919_111550_723@1275763333-1-1536x1152.jpg)\n\n**Problem**\nAyowecca Uganda's fruit tree initiative is tackling the dual challenges of nutrition insecurity and environmental degradation in vulnerable communities. Since 2018, we've planted over 5,000 fruit trees in schools, health centers, and distributed communities across Uganda.\nOur approach addresses multiple dimensions of sustainability:\nFor people: The strategically placed fruit trees provide essential nutrients to school children and patients at health facilities, improving food security and dietary diversity in areas where malnutrition remains prevalent. The initiative also creates educational opportunities as students learn sustainable agriculture practices.\n\nFor the planet: Beyond nutrition, these trees serve as carbon sinks, improve soil health, and contribute to increased forest cover in previously degraded areas. Our agroforestry approach integrates fruit production with environmental restoration.\n\nOur community-centered model ensures sustainability by empowering local stakeholders to maintain and benefit from these living resources long-term.\n\n\n![communitytrees](https://ayoweccauganda.org/wp-content/uploads/2023/04/image-3.png)\n\nUganda's indigenous communities, particularly in the Teso,Bukedi, Karamoja, and Acholi regions, are experiencing a multi-layered food insecurity crisis driven by three critical intersecting factors:\n**Climate Change Impacts**\nIncreasingly erratic rainfall patterns disrupting agricultural cycles\nExtended drought periods reducing crop yields\nUnpredictable flooding destroying agricultural lands\nRising temperatures affecting crop and livestock viability\n**Wetland Destruction**\nSystematic drainage of wetlands for agricultural and urban expansion\nLoss of critical biodiversity habitats\nReduction of natural water filtration and storage systems\nDisruption of traditional fishing and agricultural practices\n**Socioeconomic Vulnerabilities**\nLimited access to alternative livelihood strategies\nMinimal technological adaptation resources\nWeakening traditional knowledge systems\nIncreasing poverty and food dependency\n**Campaign Narrative**: Transformative Solutions\nIndigenous Knowledge as Adaptation Strategy\nOur campaign centers indigenous communities not as victims, but as innovative problem-solvers. we showcase:\n**Traditional crop diversity preservation**\nIndigenous water management techniques\nCommunity-led restoration initiatives\nIntergenerational knowledge transfer mechanisms\n**Comprehensive Intervention Framework**\n**Ecological Restoration**\nCommunity-led wetland rehabilitation projects\nIndigenous seed bank development\nTraditional crop reintroduction programs\n**Technology and Knowledge Integration**\nClimate-resilient agricultural training\nSatellite-based early warning systems\nSustainable irrigation technique workshops\n**Policy and Advocacy**\nDocumentation of indigenous environmental rights\nCommunity-driven policy recommendation platforms\nLegal support for territorial protection\n\n![climateeducation](https://ayoweccauganda.org/wp-content/uploads/2023/04/Screenshot_20220831-101559_1.jpg)\n\n\nIn blockchain and crypto contexts, minting hypercerts is proof of work typically serves several purposes like\nVerification and transparency\n\n![hypercent](https://i.postimg.cc/hG55CQbg/Screenshot-20250408-193124.jpg)\n\n**ActivityPhotos**\nhttps://www.flickr.com/photos/199659395@N08/\n\n**Ecocert**\nhttps://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-59549414211164231106090556300559437004800\nFunds collected will be used to plant more fruit trees and community activites\n\n**ImpactData**\nhttps://ipfs.io/ipfs/bafkreic6abfhkh65b26gtacngjklrm34iz6pf5bmf37p3fbflxegsvpdza\n\n\nYour funds will help  **AYOWECCA UGANDA** to scale our proven model of environmental restoration and community development, creating lasting public goods that benefit both current and future generations in Eastern Uganda\n\n![treeplanting](https://ayoweccauganda.org/wp-content/uploads/2023/04/image-8.png)",
+        "lastUpdated": 0,
+        "projectGithub": "AYOWECCA-UGANDA",
+        "projectTwitter": "ayowecca_uganda"
+      },
+      "recipient": "0xE024C19924e867B46049c709Ad1239Fb3cDcE255"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Ayowecca Uganda: Regenerative Agricultural Practices and Climate Education in Uganda",
+      "logoImg": "bafkreib6vucx77u46vemkail6mh3si5teswncbwk7opbtv6bhmbq5h6nd4",
+      "website": "https://ayoweccauganda.org",
+      "bannerImg": "bafkreickql5zc5vqzeodjwqfppt2f6a4unkexn7ztvo5ozymgs3wpdalge",
+      "createdAt": 1744185593307,
+      "userGithub": "JJonathanOlwenyi",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-09T07:59:17.864Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xba7c5731e64dc0d362ef8dd0e28d7a9ebca7ca392c334d4c3713a3dc8e45cab344c17a63edc1e0bbf00782b4dad20eb6815774cf19da3cb3b5e37fddb78cdc841c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-09T07:59:17.864Z",
+          "expirationDate": "2025-07-08T07:59:17.864Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x71Fff5ADCf4a5Ea13C56dEbd95e6c3C9079200Cd",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#AYOWECCA-UGANDA#95035913",
+            "nullifiers": [
+              "v0.0.0:wjc5hayg+GYzY0E+QD2RhuDfskoOA79YyyfouPYdjYc="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-09T07:59:05.543Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x05dcb3bedb7ebd763f89cc939363997e7873949e8baba495de92a402062045b012aa745540f72e0b3f1dd6bcc8ca0f57c1a42da20d309d3074ff04206e2b021b1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-09T07:59:05.543Z",
+          "expirationDate": "2025-07-08T07:59:05.543Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x71Fff5ADCf4a5Ea13C56dEbd95e6c3C9079200Cd",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ayowecca_uganda",
+            "nullifiers": [
+              "v0.0.0:gdbtbfs2yjmClePvsjpsM8qTIN4qAJbehvDdbWOtiL8="
+            ]
+          }
+        }
+      },
+      "description": "![womenskills](https://ayoweccauganda.org/wp-content/uploads/2024/07/JPEG_20240703_133651_8197707277131995110-768x432.jpg)\n\nWe are **Ayowecca Uganda**, transforming lives at the critical intersection of human development and environmental restoration. Born as a grassroots initiative in 2018, we've evolved into an NGO that uplifts communities while healing the earth. We have planted over 5000 fruit trees in schools, health centers and distributed communities for food security and increase plantations and forest cover.\n\nOur impact spans multiple sectors: we restore wetlands, peatlands, and vital ecosystems; implement agroforestry initiatives and fruit tree planting to combat food insecurity; address plastic waste management; and promote energy conservation. Simultaneously, we provide educational support to vulnerable children, train adolescent girls and women to produce reusable sanitary products, conduct clean water campaigns, and actively empower women and children through community awareness programs.\n\nWhat sets us apart? Our belief that lasting change happens when communities develop their own solutions. We don't just address today's challenges—we build resilience for tomorrow by equipping people with the skills, confidence, and resources to create sustainable futures where both humans and nature thrive.\n\n![ayoweccatrees](https://ayoweccauganda.org/wp-content/uploads/2024/10/IMG_20240919_111550_723@1275763333-1-1536x1152.jpg)\n\n**Problem**\nAyowecca Uganda's fruit tree initiative is tackling the dual challenges of nutrition insecurity and environmental degradation in vulnerable communities. Since 2018, we've planted over 5,000 fruit trees in schools, health centers, and distributed communities across Uganda.\nOur approach addresses multiple dimensions of sustainability:\nFor people: The strategically placed fruit trees provide essential nutrients to school children and patients at health facilities, improving food security and dietary diversity in areas where malnutrition remains prevalent. The initiative also creates educational opportunities as students learn sustainable agriculture practices.\n\nFor the planet: Beyond nutrition, these trees serve as carbon sinks, improve soil health, and contribute to increased forest cover in previously degraded areas. Our agroforestry approach integrates fruit production with environmental restoration.\n\nOur community-centered model ensures sustainability by empowering local stakeholders to maintain and benefit from these living resources long-term.\n\n\n![communitytrees](https://ayoweccauganda.org/wp-content/uploads/2023/04/image-3.png)\n\nUganda's indigenous communities, particularly in the Teso,Bukedi, Karamoja, and Acholi regions, are experiencing a multi-layered food insecurity crisis driven by three critical intersecting factors:\n**Climate Change Impacts**\nIncreasingly erratic rainfall patterns disrupting agricultural cycles\nExtended drought periods reducing crop yields\nUnpredictable flooding destroying agricultural lands\nRising temperatures affecting crop and livestock viability\n**Wetland Destruction**\nSystematic drainage of wetlands for agricultural and urban expansion\nLoss of critical biodiversity habitats\nReduction of natural water filtration and storage systems\nDisruption of traditional fishing and agricultural practices\n**Socioeconomic Vulnerabilities**\nLimited access to alternative livelihood strategies\nMinimal technological adaptation resources\nWeakening traditional knowledge systems\nIncreasing poverty and food dependency\n**Campaign Narrative**: Transformative Solutions\nIndigenous Knowledge as Adaptation Strategy\nOur campaign centers indigenous communities not as victims, but as innovative problem-solvers. we showcase:\n**Traditional crop diversity preservation**\nIndigenous water management techniques\nCommunity-led restoration initiatives\nIntergenerational knowledge transfer mechanisms\n**Comprehensive Intervention Framework**\n**Ecological Restoration**\nCommunity-led wetland rehabilitation projects\nIndigenous seed bank development\nTraditional crop reintroduction programs\n**Technology and Knowledge Integration**\nClimate-resilient agricultural training\nSatellite-based early warning systems\nSustainable irrigation technique workshops\n**Policy and Advocacy**\nDocumentation of indigenous environmental rights\nCommunity-driven policy recommendation platforms\nLegal support for territorial protection\n\n![climateeducation](https://ayoweccauganda.org/wp-content/uploads/2023/04/Screenshot_20220831-101559_1.jpg)\n\n\nIn blockchain and crypto contexts, minting hypercerts is proof of work typically serves several purposes like\nVerification and transparency\n\n![hypercent](https://i.postimg.cc/hG55CQbg/Screenshot-20250408-193124.jpg)\n\n**ActivityPhotos**\nhttps://www.flickr.com/photos/199659395@N08/\n\n**Ecocert**\nhttps://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-59549414211164231106090556300559437004800\nFunds collected will be used to plant more fruit trees and community activites\n\n**ImpactData**\nhttps://ipfs.io/ipfs/bafkreic6abfhkh65b26gtacngjklrm34iz6pf5bmf37p3fbflxegsvpdza\n\n\nYour funds will help  **AYOWECCA UGANDA** to scale our proven model of environmental restoration and community development, creating lasting public goods that benefit both current and future generations in Eastern Uganda\n\n![treeplanting](https://ayoweccauganda.org/wp-content/uploads/2023/04/image-8.png)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "AYOWECCA-UGANDA",
+      "projectTwitter": "ayowecca_uganda"
+    }
+  }
+}

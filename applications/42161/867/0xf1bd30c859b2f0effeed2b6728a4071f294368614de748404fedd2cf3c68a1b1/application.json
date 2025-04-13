@@ -1,0 +1,667 @@
+{
+  "id": "140",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xf1bd30c859b2f0effeed2b6728a4071f294368614de748404fedd2cf3c68a1b1",
+  "metadata": {
+    "signature": "0x7214e8553607d059fbcf214f667de086b5b1c47f28b023854f5b0331e2cb243e7201545d4c5e09e76b8c4170f73a7299a1365d7b152748ba011182012af8e4d91c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "service@awp-capital.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "davidtnfsh",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/all-weather-protocol",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/invite/sNsMmtsCCV",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x263207c60ad3a77eda49955d82f3700c426bf810d2fb843422f78ede3501daff",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Fully open source and based on AA wallet. Which means everyone can use this framework to integrate with other DeFi protocols and reach mass adoption together",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. It's under the Index Fund/Intent sector.\n2. What differentiates us is that we don’t have any smart contracts but use AA wallets to provide an intent-centric UX. By bundling multiple transactions, users can enjoy an intent-centric experience without taking on additional smart contract risk.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. Reach out to potential users on DeBank/X.\n2. Iterate the product based on feedback.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. We don’t have any deployed contracts but fully rely on AA wallets\n2. It’s an intent-centric vault based on AA wallets to simplify DeFi complexity.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xf1bd30c859b2f0effeed2b6728a4071f294368614de748404fedd2cf3c68a1b1",
+        "title": "All Weather Protocol",
+        "logoImg": "bafkreihoyhi5wbpwp6xg6gd53kn5jwa2ldkk56o2vxkhlv4uclc43qploi",
+        "metaPtr": {
+          "pointer": "bafkreihdpidrvg3b25zk45x5bkgcvjo2xsdskad3gqd5otk2ycdm3hl4su",
+          "protocol": "undefined"
+        },
+        "website": "https://app.awp-capital.com/",
+        "bannerImg": "bafkreichw3wdgzknago54ivlmhxz47vtypy3xzmwagnueovlwms3sniqaa",
+        "createdAt": 1743059799627,
+        "userGithub": "david30907d",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T07:16:25.089Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x5b952d395f225079423ef3d37358a9b2bbb9f8bb56a7f3c5c7fb23bc4372a09047e511045a20816a62831cc08b6fdf388607e0b321b25d0cb3352891e49e3c371b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T07:16:25.089Z",
+            "expirationDate": "2025-06-25T07:16:25.089Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x7EE54ab0f204bb3A83DF90fDd824D8b4abE93222",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#all-weather-protocol#9366404",
+              "nullifiers": [
+                "v0.0.0:gMhHARvyaQjY0HgylkaBHN4fjvrEjmzbb2oUOwsyhZo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T07:16:12.166Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2590f021471dd5018fc520a6fe42681017e06d9c7e6f6cf602d9cee9eba4c712137ae4445f5a4b327df01f3d6cbc2a26eece9feaa2e80640a0fba7094e6d2ec31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T07:16:12.166Z",
+            "expirationDate": "2025-06-25T07:16:12.166Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x7EE54ab0f204bb3A83DF90fDd824D8b4abE93222",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#all_weather_p",
+              "nullifiers": [
+                "v0.0.0:9cxA3fTSRtHq9HAuyrcrd5kl0HFp2evUYh7BDCi6zyU="
+              ]
+            }
+          }
+        },
+        "description": "1. [Previous Application](https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x263207c60ad3a77eda49955d82f3700c426bf810d2fb843422f78ede3501daff)\n2. One Liner: **For retail investors unsure what to invest in, we offer a simple, few-click solution to access the entire Web3 market with S&P 500-like stability and higher returns.**\n3. One Pager: All Weather Protocol (AWP) is a Web3 index platform that simplifies portfolio management, allowing you to diversify your crypto assets and earn steady returns with just a few clicks. Leveraging Ethereum's latest Account Abstraction Wallet (AA Wallet) technology, AWP can:\n   * Automatically diversify your portfolio across multiple Web3 assets and yield strategies on different chains, reducing the risk of over-reliance on any single asset while achieving historically stable returns of 20~25% APY.\n   * Unlike traditional index platforms that custody your assets in their own contracts, AWP completes the entire index construction process and yield collection directly within your own AA wallet, allowing you to maintain full ownership without unnecessary third-party custody risks.\nDiversify your crypto portfolio today! Don't let the complexities of Web3 investing stand in the way of your financial freedom. **Your Web3 S&P500!**\n\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "all-weather-protocol",
+        "projectTwitter": "all_weather_p"
+      },
+      "recipient": "0x8d948D306eD8D1dfC61167A7eb82E3932E0639C1"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "All Weather Protocol",
+      "logoImg": "bafkreihoyhi5wbpwp6xg6gd53kn5jwa2ldkk56o2vxkhlv4uclc43qploi",
+      "website": "https://app.awp-capital.com/",
+      "bannerImg": "bafkreichw3wdgzknago54ivlmhxz47vtypy3xzmwagnueovlwms3sniqaa",
+      "createdAt": 1743059799627,
+      "userGithub": "david30907d",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T07:16:25.089Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x5b952d395f225079423ef3d37358a9b2bbb9f8bb56a7f3c5c7fb23bc4372a09047e511045a20816a62831cc08b6fdf388607e0b321b25d0cb3352891e49e3c371b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T07:16:25.089Z",
+          "expirationDate": "2025-06-25T07:16:25.089Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x7EE54ab0f204bb3A83DF90fDd824D8b4abE93222",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#all-weather-protocol#9366404",
+            "nullifiers": [
+              "v0.0.0:gMhHARvyaQjY0HgylkaBHN4fjvrEjmzbb2oUOwsyhZo="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-27T07:16:12.166Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2590f021471dd5018fc520a6fe42681017e06d9c7e6f6cf602d9cee9eba4c712137ae4445f5a4b327df01f3d6cbc2a26eece9feaa2e80640a0fba7094e6d2ec31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-27T07:16:12.166Z",
+          "expirationDate": "2025-06-25T07:16:12.166Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x7EE54ab0f204bb3A83DF90fDd824D8b4abE93222",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#all_weather_p",
+            "nullifiers": [
+              "v0.0.0:9cxA3fTSRtHq9HAuyrcrd5kl0HFp2evUYh7BDCi6zyU="
+            ]
+          }
+        }
+      },
+      "description": "# All Weather Protocol (AWP) is Your Web3 QQQ – An On-Chain Index Fund Solution\n\n1. One Liner: **For retail investors unsure what to invest in, we offer a simple, few-click solution to access the entire Web3 market with S&amp;P 500-like stability and higher returns.**\n2. One Pager: All Weather Protocol (AWP) is a **Web3 S&amp;P 500 – An On-Chain Index Fund Solution**, allowing you to diversify your crypto assets and earn steady returns with just a few clicks. Leveraging Ethereum's latest **Account Abstraction Wallet (AA Wallet)** technology, AWP can:\n   * Automatically diversify your portfolio across multiple Web3 assets and yield strategies on different chains, reducing the risk of over-reliance on any single asset while achieving historically stable returns of 20~25% APY.\n   * Unlike traditional index platforms that custody your assets in their own contracts, AWP completes the entire index construction process and yield collection directly within your own AA wallet, allowing you to maintain full ownership without unnecessary third-party custody risks.\nDiversify your crypto portfolio today! Don't let the complexities of Web3 investing stand in the way of your financial freedom. **Your Web3 S&amp;P 500!**\n3. [Previous Application](https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x263207c60ad3a77eda49955d82f3700c426bf810d2fb843422f78ede3501daff)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "all-weather-protocol",
+      "projectTwitter": "all_weather_p"
+    }
+  }
+}

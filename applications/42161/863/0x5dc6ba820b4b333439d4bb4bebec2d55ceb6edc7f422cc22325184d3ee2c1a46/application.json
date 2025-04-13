@@ -1,0 +1,674 @@
+{
+  "id": "34",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x5dc6ba820b4b333439d4bb4bebec2d55ceb6edc7f422cc22325184d3ee2c1a46",
+  "metadata": {
+    "signature": "0xef47a5171edf6b18880b449b1b50b217ef0790f6085f7c6ce0ecac5b6d95bc7b3253ce4b8d56851f5a324749bc119bdc9cf40a41e21b35a94278cd8e6dddeccb1b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "julien@rekt.news",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "bneiluj",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/RektHQ",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://www.gitcoin.co/grants/1632/rektnews-the-dark-web-of-defi-journalism",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://gitcoin.co/grants/1632/rektnews-the-dark-web-of-defi-journalism.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Rekt Security Intelligence Terminal is an AI-powered security knowledge and tooling hub for Web3 developers.\n\nIt solves a critical gap: most smart contract exploits have already happened — and have been documented by Rekt News — but that information is siloed in long-form content. Developers don't have a way to use this historical intelligence in real-time while building or reviewing code.\n\nOur terminal solves that by allowing developers to:\n\nDrag and drop smart contract code or a GitHub repo to scan against known exploit patterns\n\nAsk natural language questions and get accurate, citation-backed responses from five years of Rekt News content\n\nLearn from real-world failures, post-mortems, and technical breakdowns\n\nSurface context-aware security risks, with links to past reports, videos, and public reactions\n\nWe're turning static journalism into interactive intelligence — bridging AI, formal verification, and social feedback mechanisms.\n\n",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Rekt Terminal helps developers:\n\nInstantly detect vulnerabilities similar to those seen in real attacks (e.g. Sushi Bentobox bug, Euler's liquidation logic)\n\nAvoid costly mistakes through educational insights drawn from past incidents\n\nTap into AI-powered analysis with context, citations, and security firm–verified claims\n\nUnderstand public perception, thanks to on-chain comments, social proofs, and collectible content\n\nWe reduce reliance on expensive audits during early dev phases, and help protocols self-assess risk before launch.\n\nBy integrating FHE (Zama), MPC (Giza), and formal verification tooling, the terminal evolves into a deep security assistant — not just a scanner.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "While the tool is currently under development, Rekt News already has:\n\n35k+ newsletter subscribers\n\nA strong reputation across DeFi, cited by leading builders and security experts\n\nLong-term trust earned from publishing 100+ in-depth exploit post-mortems since 2020\n\nA growing YouTube presence (Rekt Video)\n\nDiscussions ongoing with Giza, Zama, and Chaos Labs for integration of advanced AI and cryptography-based security tooling\n\nWe’re backed by a community of developers, researchers, auditors, and educators who’ve relied on our reporting for years.\n\n",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Q2 2025 – MVP Build\nIndex and structure Rekt News archive (text + video)\n\nTrain RektGPT v1 on our historical content\n\nBuild drag-and-drop Solidity scanning interface\n\nConnect results to past Rekt incidents (linking articles, summaries, risk severity)\n\nQ3 2025 – On-Chain Social Layer\nDeploy Rekt content + claims onchain via Lens or custom schema\n\nEnable comments, collectibles, unlockables, and peer validation (e.g. community notes or credibility checks)\n\nBuild social knowledge proof layer tied to reputation and incentives\n\nQ4 2025 – AI & Partner Integrations\nIntegrate formal verification scanning and risk scoring\n\nLaunch AI-powered code assessments using Giza + MPC modules\n\nCollaborate with Chaos Labs on risk visualization and simulation tooling\n\nLaunch security NFT monetization: leaderboard access, VIP subscriptions, claimable incident archives\n\nFunding Usage\nLLM training and semantic tagging of 5+ years of security content\n\nSmart contract scanning module (frontend + backend)\n\nOn-chain infra for social layer + Lens integrations\n\nSecurity partnerships and research tooling with Giza, Zama, Chaos\n\nOperational costs (infra, hosting, dev team, content migration)\n\n",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Not applicable for this phase — Rekt Security Intelligence Terminal is currently an offchain developer tool.\nOn-chain integrations (Lens, airdrops, NFT minting) will be deployed at a later stage and shared upon launch.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x5dc6ba820b4b333439d4bb4bebec2d55ceb6edc7f422cc22325184d3ee2c1a46",
+        "title": "rekt.news - The dark web of DeFi journalism",
+        "logoImg": "bafkreid6jz32v4uhibxoanfltkge6xd7kz7zpxtzaa5xo4c2qcypkns7ce",
+        "metaPtr": {
+          "pointer": "bafkreidauio3om6enanney56merctgsvuk3grmiv4thbannggczgpxcnle",
+          "protocol": "undefined"
+        },
+        "website": "https://rekt.news/",
+        "bannerImg": "bafkreifyil6jbkiyux56tstjeuf2xjwglzogdclkrqywffly4v5jvzhidm",
+        "createdAt": 1673649564294,
+        "userGithub": "RektHQ",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T15:17:44.903Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x0f6c5641b20c88bf5174cb1a1501f1827f3291f3dceae68057d6f3c8f845aaa06358acc0cbf93e595866eac497a968b9a9e9cf8ccab6f9af3ac18ba56ec18d941b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T15:17:44.903Z",
+            "expirationDate": "2025-06-26T15:17:44.903Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xA7499Aa6464c078EeB940da2fc95C6aCd010c3Cc",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#RektHQ#3680497",
+              "nullifiers": [
+                "v0.0.0:fj12BKOsEJW9dXaeJ8P870cQ1RrYpBAoZbAlVb1YqEU="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T15:19:32.812Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x26bc0145ec41775417ae30791a7eb601f2e7b51a3cfa1a7534903309ea6579c81941bf3e5b9d2b4b892892aeb38b83dc60c506ce3cbad8c4ded05458aa2070121b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T15:19:32.811Z",
+            "expirationDate": "2025-06-26T15:19:32.811Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xA7499Aa6464c078EeB940da2fc95C6aCd010c3Cc",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#RektHQ",
+              "nullifiers": [
+                "v0.0.0:Wupf6eDOt6GUKupK7ulY9DtqHYJbprNsLt2o/lEPcSA="
+              ]
+            }
+          }
+        },
+        "description": "The dark web of DeFi — building critical infrastructure for crypto intelligence.  \n\nRekt isn’t just a media outlet. We’re a crypto-native community building critical infrastructure at the intersection of investigative research, DeFi, and open-source intelligence.\n\nWe’re expanding our collective — and we’re looking for writers, researchers, and developers who see beyond the headlines.\n\nIf you’re a creative thinker, a builder, or a protocol sleuth, reach out. Let’s shape the future of crypto transparency together.\n\nThese may be dark times for DeFi, but rekt.news doesn’t flinch. We’re just getting started.",
+        "lastUpdated": 0,
+        "projectGithub": "RektHQ",
+        "projectTwitter": "RektHQ"
+      },
+      "recipient": "0x912bB3D8F71cCB966BA1ddcB0d8E491fC6aE6b22"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "rekt.news - The dark web of DeFi journalism",
+      "logoImg": "bafkreid6jz32v4uhibxoanfltkge6xd7kz7zpxtzaa5xo4c2qcypkns7ce",
+      "website": "https://rekt.news/",
+      "bannerImg": "bafkreifyil6jbkiyux56tstjeuf2xjwglzogdclkrqywffly4v5jvzhidm",
+      "createdAt": 1673649564294,
+      "userGithub": "RektHQ",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T15:17:44.903Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x0f6c5641b20c88bf5174cb1a1501f1827f3291f3dceae68057d6f3c8f845aaa06358acc0cbf93e595866eac497a968b9a9e9cf8ccab6f9af3ac18ba56ec18d941b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T15:17:44.903Z",
+          "expirationDate": "2025-06-26T15:17:44.903Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xA7499Aa6464c078EeB940da2fc95C6aCd010c3Cc",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#RektHQ#3680497",
+            "nullifiers": [
+              "v0.0.0:fj12BKOsEJW9dXaeJ8P870cQ1RrYpBAoZbAlVb1YqEU="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-28T15:19:32.812Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x26bc0145ec41775417ae30791a7eb601f2e7b51a3cfa1a7534903309ea6579c81941bf3e5b9d2b4b892892aeb38b83dc60c506ce3cbad8c4ded05458aa2070121b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-28T15:19:32.811Z",
+          "expirationDate": "2025-06-26T15:19:32.811Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xA7499Aa6464c078EeB940da2fc95C6aCd010c3Cc",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#RektHQ",
+            "nullifiers": [
+              "v0.0.0:Wupf6eDOt6GUKupK7ulY9DtqHYJbprNsLt2o/lEPcSA="
+            ]
+          }
+        }
+      },
+      "description": "**Rekt News**\n\nThe dark web of DeFi — building critical infrastructure for crypto intelligence.\n\n## **Website:**  \n[https://www.rekt.news](https://www.rekt.news)  \n**Twitter:** [@RektHQ](https://twitter.com/RektHQ)  \n**GitHub:** [https://github.com/RektNews](https://github.com/RektNews)\n\n---\n\n## **Wreckage With Purpose**\n\nSince 2020, Rekt News has chronicled the chaos.  \nWhen projects fall, we explain why. When millions vanish, we trace the fault lines.  \nWe don't do press releases. We publish post-mortems.\n\nThis industry runs fast and breaks things.  \nWe’re here to document what’s broken — and help builders avoid the same mistakes.\n\nRekt News is the independent voice in DeFi security.  \nNo VC fluff. No protocol puppets. Just truth, consequences, and a little sarcasm.\n\n---\n\n## **From Journalism to Intelligence**  \n\nNow, we’re building a new tool:  \nThe **Rekt Security Intelligence Terminal** — a public good for a public threat.\n\nDrag and drop your code.  \nAsk if it’s ever been rekt.  \nScan your repo for red flags we've seen over five years of carnage.  \nWatch it match known exploits. Read the receipts. Learn from the dead.\n\nIt’s ChatGPT meets post-mortem database meets security radar.  \nWith AI trained on our entire archive — every article, every incident, every \"how the hell did this happen?\"\n\nWe’re not just telling stories anymore.  \nWe’re giving devs the tools to make sure they don’t become the next one.\n\n---\n\n## **On-Chain and On-Guard**\n\nThis isn’t just another web app.\n\nWe’re migrating everything — reports, claims, comments, context — **on-chain.**  \nThink Lens meets security intel.  \nComments, collectibles, unlockables.  \nKnowledge checks, reputation signals, community moderation — like X’s Community Notes, but decentralized and with teeth.\n\n---\n\n## **Strategic Partnerships**\n\nWe’re working with the real ones:  \n- **Zama** – for FHE and privacy-preserving scanning  \n- **Giza** – for MPC and on-chain AI workflows  \n- **Chaos Labs** – for deep risk modeling and quant security insights\n\nAdd to that:  \n- AI-driven contract scoring  \n- Premium subs, security NFTs, unlockable post-mortems  \n- Leaderboards, access control, protocol reputation dashboards\n\n---\n\n## **How Funds Will Be Used**\n\n- 📦 Index and semantically tag 5 years of Rekt archives  \n- 🔬 Build the drag-and-drop scanner + contract fingerprinting engine  \n- 🧠 Train RektGPT on real exploits, not theory  \n- 🌐 Deploy on-chain content with interactive features (Lens + more)  \n- 🤝 Expand integrations with formal verification + AI security infra\n\n---\n\n## **Why Gitcoin?**\n\nBecause this should be for everyone — not just the audited elite.\n\nRekt is public infrastructure.  \nIt’s been that way since day one.  \nNow we’re giving it a terminal. And putting it onchain.\n\nHelp us scale the voice that called out Terra, covered Curve, and published the post-mortem *before* the devs did.\n\n---\n\n## **The TL;DR**\n\nYou fund us, we:\n- Keep wrecking the wreckage\n- Equip devs with the tools to do better\n- Make web3 security suck less\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "RektHQ",
+      "projectTwitter": "RektHQ"
+    }
+  }
+}

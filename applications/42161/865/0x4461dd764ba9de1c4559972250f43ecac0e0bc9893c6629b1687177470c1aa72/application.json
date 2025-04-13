@@ -1,0 +1,245 @@
+{
+  "id": "48",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x4461dd764ba9de1c4559972250f43ecac0e0bc9893c6629b1687177470c1aa72",
+  "metadata": {
+    "signature": "0xb0bc15efaca7e2374804b97d966dc407d45e091d85f4d84551c4bff62e3939f13b91e39420bb670fdde1e4b4c98215a01ef83ce3992dd00e7e3c7ba4bf1fe9761b",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "gm@opentothepublic.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "tingw_xyz",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/opentothepublic/contracts",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://warpcast.com/~/channel/ottp",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Gitcoin Grants 20, 21, 22",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Farcaster and Lens are tackling the social graph. We’re focused on the work graph, creating the standard for collaboration and making it accessible to everyone.\n\nOTTP ID: Like a resident ID/social security number, unique to the user.\nORG ID: Like a business ID/employer identification number, unique to the organization/team.\n\n\nThese IDs are owned by the individual and organization/team, respectively. It’s the onchain connector that links your network and contributions together.\n\n\nImagine a world where a project attestation is not only verifiably linked to social profiles (like Farcaster and Lens) but also grants they have received from Gitcoin, Optimism, hackathons, accelerators, etc. And even further, we want to enable use of the same project page across multiple clients, such as Gitcoin and Optimism.\n\n\nWe are building OTTP for many use cases related to collaboration. Project attestations created by an individual (or a team) would be linked to their OTTP ID and connected to any social accounts, previous projects or contributions. A project page could be repurposed anywhere and connected to anything else on the open protocol. Anything related to work/collaboration that can be proven onchain, connected together through the OTTP ID into a collaboration graph.\n\n\nOur SDK v1 has received 1.3K+ downloads to date.\n\nOnce we have more data, we want to have a Dune dashboard. For now, these are the metrics we’re tracking.\n\nNumber of unique users (accounts created)\nNumber of attestations made\nNumber of verified contributions\nNumber of verified collaborators\nAverage number of attestations per account",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We’re building accessible infrastructure that is not only interoperable and user-friendly, but one that is truly multiplayer for individuals and organizations/teams.\n\nWith the open protocol, people get their contributions verified by collaborators via onchain attestations and are able to move freely between apps/clients.\n\n\nOTTP protocol design using onchain attestations:\n- Subjects: identities who take actions\n- Objects: containers created by subjects\n- Blocks: object subcomponents created by subjects\n- Links: verified connections between subjects and objects\n\nAny subject (individual or team) can create an object. To start, there are four object types:\n- Project\n- Proposal\n- Milestone\n- Contribution\n\nBlocks are subcomponents that can point to onchain or offchain data (files, images, links, etc.). Every link (connection) between subjects and/or objects can be verified by an onchain attestation.\n\nNote: Visuals are included on our project page.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "People’s digital identities are tied to their wallet, and in most cases, a single wallet. By enabling account abstraction and multiple wallet connections, people and teams can share a holistic footprint across chains if they choose to.\n\nThe Ethereum Attestation Service (EAS) enables anyone to attest to anything. We are adding the work layer on top for anyone to attest to any collaboration; to put their work onchain.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Q2 2025: work in progress:\nRelease SDK v2, including sign in with Ethereum address (currently sign in with Farcaster), ORG ID, interoperable objects and blocks\nRelease web client v0\nUpdate Farcaster frame for cast action or composer action\n\nQ3 2025: \nGrow use of the open-source front-end, gathering user feedback and making improvements\nAdd account recovery\nAdd account-abstracted wallets\nAdd comments\nAdd upvote/downvote\n\nQ4 2025:\nGrow use of the protocol and apps building on it\nEstablish initial protocol governance plan\n\nWe are raising funds for the continued development of the open protocol, including an updated SDK. We will use 100% of the funds for development, e.g. in the form of public bounties. We are dependent on open-source developers.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "By creating a more decentralized and self-sovereign system for managing work contributions and collaborations, it reduces reliance on centralized platforms.\n\nWe want people to have control. Whether they want some centralized safeguards or if they’re decentralized maxis, the choice can be theirs.\nHow they login: Farcaster, Lens, email, or wallet. People can connect their social graph or not.\nHow they recover their account\nWhat they display on their profile\nWhat apps/clients they want to use\nWhat communities/organizations they identify with or contribute to\n\n\nWe want organizations to be built for collaboration. Multiplayer-mode enabled.\nHow contributors login\nHow they recover their account\nWhat they display their profile\nWhat apps/clients do they want to build\nWhat contributors do they want to attest to",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "0xF5bB7F874D8e3f41821175c0Aa9910d30d10e193, 8453",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x4461dd764ba9de1c4559972250f43ecac0e0bc9893c6629b1687177470c1aa72",
+        "title": "Open to the Public",
+        "logoImg": "bafkreih7bs57kyetdpybyu35h42qtz32pjyqtn2otgxqqvueb6qyx2olca",
+        "metaPtr": {
+          "pointer": "bafkreieviheowb4mcbkh5whnvflfv7qs3ucmvwbis5sbmhyfvevrozkzsa",
+          "protocol": "undefined"
+        },
+        "website": "https://opentothepublic.org",
+        "bannerImg": "bafkreiakglz6db6rcnczrpyxjdvfqwaqcekgzzv4qbibqith7dplnivywa",
+        "createdAt": 1713342760092,
+        "userGithub": "tingwxyz",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Kho8iBdcIHldJTVw02zacjBaRuISy7RT0agonL5Cw5QNIsZ5LQduC9sOozUzKIwTNDTN8WQevdl_n83BPUs7DA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-17T08:20:55.144Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-17T08:20:55.143Z",
+            "expirationDate": "2024-07-16T08:20:55.143Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x05fC26074f17a7f496cA869171b52a92A3912AF4",
+              "hash": "v0.0.0:rCItYLpiWUdh9WzzIw1rTKYYkNwQZUzLXynODt0UiIE=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#opentothepublic#112738805"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WASontVwQ5ztJI-wnIsBYuFAXrJQxd0W2Iny99RkIBHOWqJrLpul17Ovttf2xS1v9npug6z3o25eS4VUsjRqCw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-17T08:20:13.350Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-17T08:20:13.350Z",
+            "expirationDate": "2024-07-16T08:20:13.350Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x05fC26074f17a7f496cA869171b52a92A3912AF4",
+              "hash": "v0.0.0:UrlMM6QyykYdbL5gGoXe8zIkHT/SVtqyAhg/9QIBANY=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#ottp__"
+            }
+          }
+        },
+        "description": "# The protocol for open collaboration. Built on Base. Co-create, attest, and own your collaboration graph, forever.\n\nThink of it as a decentralized work/contribution graph that’s powered by onchain attestations. It’s the collaboration layer on top of EAS (Ethereum Attestation Service). Every connection and contribution is verified by your collaborators.\n\nApps built on the protocol will enable you to:\n- create projects\n- contribute and receive credit\n- remix/fork projects\n\n\n## Problem\n\nYour work contributions are siloed in various projects, self-reported and unverified, and locked into closed platforms like LinkedIn and GitHub.\n\n![Current State to Future State](https://i.imgur.com/ktAPsPf.png)\n\n## Solution\n\nYou own verified records of what you’ve done and who you collaborated with.\n\nContributions are recognized and provable, verified by collaborators via onchain attestations, and self-custodial, meaning your collaboration graph can move freely between apps/clients.\n\n\n## How It Works\n\nOTTP protocol design using onchain attestations:\n- **Subjects:** identities who take actions\n- **Objects:** containers created by subjects\n- **Blocks:** object subcomponents created by subjects\n- **Links:** verified connections between subjects and objects\n\n![OTTP subjects and objects](https://i.imgur.com/SS7f4jJ.png)\n\nAny subject (individual or team) can create an object. To start, there are four object types:\n- Project\n- Proposal\n- Milestone\n- Contribution\n\nBlocks are subcomponents that can point to onchain or off-chain data (files, images, links, etc.). Every link (connection) between subjects and/or objects can be verified by an onchain attestation.\n\n![OTTP subjects, objects, and blocks example](https://i.imgur.com/WZdGMiV.png)\n\nSee our [website](https://opentothepublic.org) and [docs](https://docs.opentothepublic.org) for more information about the protocol. View the [user flow here](https://www.figma.com/board/0OM3ythk8oWeehhLonKYc8/OTTP-user-flow?node-id=1-45&t=JNgFhLWZNrMEiMuW-1).\n\n\n\n## Web client\n\nTo demo the protocol, we’re developing an open-source web client built on OTTP. It will demonstrate how users can easily **find collaborators**, **contribute to projects**, and **put their work onchain**.\n\nExplore the [Figma prototype](https://bit.ly/ottp-web-client-v0-prototype) and view the work-in progress in our [Github repo](https://github.com/opentothepublic/ottp-web-client/tree/dev).\n\n![OTTP web client v0](https://i.imgur.com/lbtN3Vs.png)\n\n\nThe OTTP front-end will include the basic core features, with a less opinionated structure, which allows different builders to customize it and create clients focused around certain communities or audience segments (DAOs, fractional workers, etc.).\n\nWe are raising funds for the continued development of the open protocol, including an updated contract and SDK. We will use 100% of the funds for development, e.g. in the form of public bounties.\n\n\n## Progress\n\nIn the past year, we went from zero to live protocol during Backdrop Build V3, and we were selected as V3 and V4 finalists. We launched a developer SDK, which has received 1.3K+ downloads to date. We are preparing to deploy the updated version of our smart contract and SDK V2 with additional core features as well as our open-source front-end.\n\nSDK V1 Core Features:\n- OTTP ID creation\n- Sign in with Farcaster ID (FID)\n- Contribution attestations\n\nSDK V2 New Core Features:\n- ORG ID creation\n- Sign in with Ethereum address\n- User and organization profiles \n- Project pages\n- Proposals\n- Milestones\n\n\n## Infra and Tech Stack\n\n- [Base](https://base.org)\n- [Ethereum Attestation Service (EAS)](https://attest.org)\n- [Farcaster](https://farcaster.xyz)\n- [GraphQL](https://graphql.org)\n- [Next.js](https://nextjs.org)\n- [Neynar](https://neynar.com) \n- [Node.js](https://nodejs.org)\n- [Solidity](https://soliditylang.org)\n\n\n## Links\n\n- [Website](https://opentothepublic.org)\n- [Documentation](https://docs.opentothepublic.org)\n- [Github](https://github.com/opentothepublic)\n- [Bluesky](https://bsky.app/profile/ottp.bsky.social)\n- Farcaster: [Warpcast](https://warpcast.com/ottp)\n- Community: [Warpcast channel](https://warpcast.com/~/channel/ottp)\n- Lens: [Hey](https://hey.xyz/u/ottp__)\n- [X (Twitter)](https://twitter.com/ottp__)\n- [Zora](https://zora.co/@ottp)\n\n\n## Contributors\n\n- Krish: [X](https://x.com/lowcodekrish) | [Github](https://github.com/ronykris)\n- Matt: [X](https://x.com/codeStein_) | [Github](https://github.com/MattWeinstein)\n- Nate: [Warpcast](https://warpcast.com/naaate) | [X](https://x.com/nathansvan) | [Github](https://github.com/nathansvan)\n- Peter: [X](https://x.com/code_z2) | [Github](https://github.com/code-z2)\n- Ting: [Warpcast](https://warpcast.com/ting) | [X](https://x.com/ting) | [Github](https://github.com/tingwxyz)",
+        "lastUpdated": 0,
+        "projectGithub": "opentothepublic",
+        "projectTwitter": "ottp__"
+      },
+      "recipient": "0xfCbCceed1eAFcA6198e23585550f4eB76838Cf4D"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Open to the Public",
+      "logoImg": "bafkreih7bs57kyetdpybyu35h42qtz32pjyqtn2otgxqqvueb6qyx2olca",
+      "website": "https://opentothepublic.org",
+      "bannerImg": "bafkreiakglz6db6rcnczrpyxjdvfqwaqcekgzzv4qbibqith7dplnivywa",
+      "createdAt": 1713342760092,
+      "userGithub": "tingwxyz",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Kho8iBdcIHldJTVw02zacjBaRuISy7RT0agonL5Cw5QNIsZ5LQduC9sOozUzKIwTNDTN8WQevdl_n83BPUs7DA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-17T08:20:55.144Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-17T08:20:55.143Z",
+          "expirationDate": "2024-07-16T08:20:55.143Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x05fC26074f17a7f496cA869171b52a92A3912AF4",
+            "hash": "v0.0.0:rCItYLpiWUdh9WzzIw1rTKYYkNwQZUzLXynODt0UiIE=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#opentothepublic#112738805"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WASontVwQ5ztJI-wnIsBYuFAXrJQxd0W2Iny99RkIBHOWqJrLpul17Ovttf2xS1v9npug6z3o25eS4VUsjRqCw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-17T08:20:13.350Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-17T08:20:13.350Z",
+          "expirationDate": "2024-07-16T08:20:13.350Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x05fC26074f17a7f496cA869171b52a92A3912AF4",
+            "hash": "v0.0.0:UrlMM6QyykYdbL5gGoXe8zIkHT/SVtqyAhg/9QIBANY=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#ottp__"
+          }
+        }
+      },
+      "description": "# The protocol for open collaboration. Built on Base. Co-create, attest, and own your collaboration graph, forever.\n\nThink of it as a decentralized work/contribution graph that’s powered by onchain attestations. It’s the collaboration layer on top of EAS (Ethereum Attestation Service). Every connection and contribution is verified by your collaborators.\n\nApps built on the protocol will enable you to:\n- create projects\n- contribute and receive credit\n- remix/fork projects\n\n\n## Problem\n\nYour work contributions are siloed in various projects, self-reported and unverified, and locked into closed platforms like LinkedIn and GitHub.\n\n![Current State to Future State](https://i.imgur.com/ktAPsPf.png)\n\n## Solution\n\nYou own verified records of what you’ve done and who you collaborated with.\n\nContributions are recognized and provable, verified by collaborators via onchain attestations, and self-custodial, meaning your collaboration graph can move freely between apps/clients.\n\n\n## How It Works\n\nOTTP protocol design using onchain attestations:\n- **Subjects:** identities who take actions\n- **Objects:** containers created by subjects\n- **Blocks:** object subcomponents created by subjects\n- **Links:** verified connections between subjects and objects\n\n![OTTP subjects and objects](https://i.imgur.com/SS7f4jJ.png)\n\nAny subject (individual or team) can create an object. To start, there are four object types:\n- Project\n- Proposal\n- Milestone\n- Contribution\n\nBlocks are subcomponents that can point to onchain or off-chain data (files, images, links, etc.). Every link (connection) between subjects and/or objects can be verified by an onchain attestation.\n\n![OTTP subjects, objects, and blocks example](https://i.imgur.com/WZdGMiV.png)\n\nSee our [website](https://opentothepublic.org) and [docs](https://docs.opentothepublic.org) for more information about the protocol. View the [user flow here](https://www.figma.com/board/0OM3ythk8oWeehhLonKYc8/OTTP-user-flow?node-id=1-45&t=JNgFhLWZNrMEiMuW-1).\n\n\n\n## Web client\n\nTo demo the protocol, we’re developing an open-source web client built on OTTP. It will demonstrate how users can easily **find collaborators**, **contribute to projects**, and **put their work onchain**.\n\nExplore the [Figma prototype](https://bit.ly/ottp-web-client-v0-prototype) and view the work-in progress in our [Github repo](https://github.com/opentothepublic/ottp-web-client/tree/dev).\n\n![OTTP web client v0](https://i.imgur.com/lbtN3Vs.png)\n\n\nThe OTTP front-end will include the basic core features, with a less opinionated structure, which allows different builders to customize it and create clients focused around certain communities or audience segments (DAOs, fractional workers, etc.).\n\nWe are raising funds for the continued development of the open protocol, including an updated contract and SDK. We will use 100% of the funds for development, e.g. in the form of public bounties.\n\n\n## Progress\n\nIn the past year, we went from zero to live protocol during Backdrop Build V3, and we were selected as V3 and V4 finalists. We launched a developer SDK, which has received 1.3K+ downloads to date. We are preparing to deploy the updated version of our smart contract and SDK V2 with additional core features as well as our open-source front-end.\n\nSDK V1 Core Features:\n- OTTP ID creation\n- Sign in with Farcaster ID (FID)\n- Contribution attestations\n\nSDK V2 New Core Features:\n- ORG ID creation\n- Sign in with Ethereum address\n- User and organization profiles \n- Project pages\n- Proposals\n- Milestones\n\n\n## Infra and Tech Stack\n\n- [Base](https://base.org)\n- [Ethereum Attestation Service (EAS)](https://attest.org)\n- [Farcaster](https://farcaster.xyz)\n- [GraphQL](https://graphql.org)\n- [Next.js](https://nextjs.org)\n- [Neynar](https://neynar.com) \n- [Node.js](https://nodejs.org)\n- [Solidity](https://soliditylang.org)\n\n\n## Links\n\n- [Website](https://opentothepublic.org)\n- [Documentation](https://docs.opentothepublic.org)\n- [Github](https://github.com/opentothepublic)\n- [Bluesky](https://bsky.app/profile/ottp.bsky.social)\n- Farcaster: [Warpcast](https://warpcast.com/ottp)\n- Community: [Warpcast channel](https://warpcast.com/~/channel/ottp)\n- Lens: [Hey](https://hey.xyz/u/ottp__)\n- [X (Twitter)](https://twitter.com/ottp__)\n- [Zora](https://zora.co/@ottp)\n\n\n## Contributors\n\n- Krish: [X](https://x.com/lowcodekrish) | [Github](https://github.com/ronykris)\n- Matt: [X](https://x.com/codeStein_) | [Github](https://github.com/MattWeinstein)\n- Nate: [Warpcast](https://warpcast.com/naaate) | [X](https://x.com/nathansvan) | [Github](https://github.com/nathansvan)\n- Peter: [X](https://x.com/code_z2) | [Github](https://github.com/code-z2)\n- Ting: [Warpcast](https://warpcast.com/ting) | [X](https://x.com/ting) | [Github](https://github.com/tingwxyz)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "opentothepublic",
+      "projectTwitter": "ottp__"
+    }
+  }
+}

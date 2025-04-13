@@ -1,0 +1,668 @@
+{
+  "id": "152",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xd089724cd73c932413bce5c797aee7d2fbcd1ad282f24cff790977e77908fdca",
+  "metadata": {
+    "signature": "0xd372fada02112bfe231a97f6e123decfd31b657bfa59ba7e1a19d09cd8b54c6703d24a5d234f02c27cd882046816da2f62325d0acdac966fa4b40f33e74225db1b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "holler@jimicohen.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@thetreegens",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Treegens",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/TreegenFam",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xd089724cd73c932413bce5c797aee7d2fbcd1ad282f24cff790977e77908fdca",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Treegens DAO enhances the OSS ecosystem by open sourcing our an incredibly user friendly Proof of Tree protocol, built by General Magic. Our codebase including 3 smart contracts also enables people to create Proof of X dApps which requires staked tokens to become a verifier. \n\nTreegens DAO is expanding the current ecosystem by onboarding the masses. Ethiopia had 34M participants when they set the world record at 615.7M trees in 1 day. When we attempt to get 1B trees planted in 1 day with Ethiopia plus many other countries, there will be far more participants. Each participant will have an opportunity for impact onboarding. Let's GROW!!!",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Dynamic Semi-Soulbound token can trade the underlying design but not the impact metrics overlaid as previously explained. The use case is to gamify impact metrics while still enabling trading of the underlying asset. \n\nOur AI tree counting API & Proof of Tree dApp enables DAO members to verify the methodology makes decentralised tree planting rewards possible with both accountability via. slashing & rewards built in. ",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are currently finalising a multi-tier referral program for our presale, building off the OSS code of Axis.Finance. They already have 1 tier of referrals built in, we're building the second tier to also incentivise KOL managers to onboard & for our referral participants to onboard others as well. We are also integrating this into a Telegram app such that our community can easily receive & share their referral link to friends within Telegram. \n\nWe will also train our AI to count various types of trees leading up to June 5th. ",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Deploying after Earth Day on April 22nd. ",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xd089724cd73c932413bce5c797aee7d2fbcd1ad282f24cff790977e77908fdca",
+        "title": "Treegens DAO🌳",
+        "logoImg": "bafkreigrrv7a6higmful77neazbvzcwcpk54r2ujhcynxgrnrp7a6nszze",
+        "metaPtr": {
+          "pointer": "bafkreifhae47en4ziwfsix46tpxqbuc56gxwtaws6fgt4ifwecwr4mrwbq",
+          "protocol": "undefined"
+        },
+        "website": "https://thetreegens.com",
+        "bannerImg": "bafkreiezhwdy6253nigbmgxprzeqzv3io565vp7q7ujm4pgzonbx2slyay",
+        "createdAt": 1743427894745,
+        "userGithub": "JimiCohen",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T13:29:49.935Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2edc6310510c91c55cc5e8b1999ec9a60bfb98b2f51989281a7eb6475a4a0fec6392e6dc2bec52df05465fc7b9f0b5a90fa97274fded36a10cc7a296c2d7d84d1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T13:29:49.935Z",
+            "expirationDate": "2025-06-29T13:29:49.934Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xfC9265A28f66CF4561D74A4E25D7Bbd3F482B8e6",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Treegens#103959914",
+              "nullifiers": [
+                "v0.0.0:JbkEXvBCOSXlP4i6DLUhYK3C1dDAN4ywPsfP0u/l7UQ="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T13:28:43.647Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x8f255d260436ed9278246e6b3bb4039550177de08f3b0c9a3c7940b98eabee4f0334acaea594f947f9b0d710b6a53387e2d40bbdb510c258ec522111d327953f1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T13:28:43.646Z",
+            "expirationDate": "2025-06-29T13:28:43.646Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xfC9265A28f66CF4561D74A4E25D7Bbd3F482B8e6",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#thetreegens",
+              "nullifiers": [
+                "v0.0.0:zdsUfD5VK20DOakJ+Mz0kLrBQ8GXCRopywMYhmZ3uK4="
+              ]
+            }
+          }
+        },
+        "description": "Having already broken one Tree Planting [GUINNESS WORLD RECORD](https://www.guinnessworldrecords.com/world-records/744458-most-mangrove-trees-planted-by-an-individual-in-24-hours), Treegens DAO is on track to break another world record by getting 1B trees planted on World Environment Day! 🌳\n\n![GWR](https://i.postimg.cc/v8W0tkjd/Jimi-World-record-Photo.jpg)\n\nOur vision is a world where anyone can plant trees & earn a living. The Proof of Tree Protocol that Treegens has developed is the first step towards achieving this vision. Planters film before & after planting in our dApp, AI counts the trees, DAO members with staked $TGN verify the methodology was followed to mint tree token rewards, starting with mangroves.\n\n# 🌳GROWalition Updates Since GG22🌳\n1) The Ethiopian Government which set the world record by planting 615.7M trees in 24 hours [joins our GROWalition](https://x.com/JimiCohen/status/1858859656413598199) \n2) [South African Minister of Environment](https://x.com/JimiCohen/status/1858559017208951228) pledges at least 1M trees.\n3) [Nigerian Minister of Environment](https://x.com/JimiCohen/status/1858478674204344696) is in full support of our mission to get 1B trees planted on World Environment Day.\n4) [Palau](https://x.com/JimiCohen/status/1892757454393332028) is participating & potentially all 12 Pacific Island countries.\n5) Many other countries such as Ghana, [Fiji](https://x.com/JimiCohen/status/1892475805487583650), Kenya & Tanzania have expressed interest in the GROWalition.\n\n# 🌳Key Developments & Tech Partnerships Since GG22🌳\n1) Audited all 3 of our smart contracts from the reputable [Protofire](https://drive.google.com/file/d/1cPnN4K4Meyh3rXpwhAoYZ_zA_ikdatQa/view?usp=sharing).\n2) Updated Treegens [codebase](https://github.com/Treegens) to ensure security. \n3) Partnered with [Axis.Finance](https://axis.finance) to develop a multi-tier referral program for our presale using subgraphs & scalability through a custom Telegram App. \n4) Partnered with [Xade](https://www.xade.xyz/) to turn all of our Dynamic NFTs into AI Agents that grow the movement & with TMO to give all agent NFTs .tgn wallet addresses. \n5) Partnered with [BLOCK Games](https://www.blockprotocol.gg/) Games to gamify growing the movement, those that promote the DAO will earn $TGN depending on real engagement. \n\nOur intention of making every aspect of what we're developing open source is to support more builders to launch Proof of X Impact dApps, leveraging the user-friendly UI/UX developed with General Magic. \n\n![Results](https://i.postimg.cc/wMRQs0bw/Treegens-Banner-01.png)\n\n# 🌳 THE CHALLENGE 🌳\n\n**Misaligned Incentives**\n\nToday our economy values the degeneration of nature more than it values the regeneration of nature. According to the UNEP, approximately 1.9 billion trees are planted yearly, yet approx. 15 billion are cut down each year. We Are losing forests at a rate equivalent to 27 soccer fields per minute! \n\n**Impact Transparency**\n\nThe impact sector faces criticism for not providing enough transparency. Peer reviewed studies have shown that donations increase by 52% within 1 year when nonprofits earn a seal of transparency. The amount of funds on the sidelines, not funding what matters could make all the difference for the climate crisis. \n\n# 🌳 HOW WE'RE SOLVING IT 🌳\n\n### Proof of Tree\n\n![Results](https://i.postimg.cc/J43g2Z1p/Proof-of-Plant.png)\n\nThe only way to create the $MGRO token is through Proof of Tree. Tree planters onboard through account abstraction / social logins, learn how to plant & film the mangrove trees, film the land before & after planting within our DApp with GPS automatically captured, then submit the data for DAO verification.  \n\n![Results](https://i.postimg.cc/7YC0gRK9/Treegens-Impact-Investment-Deck-2.png)\n\nTreegen DAO members verify that the methodology of our 6 mangrove experts was followed in order to issue $MGRO. They also confirm that the trees were filmed correctly for our tree counting AI (one continual direction). \n\n# 🌳 MANGROVE ADVISORS 🌳\n![Results](https://i.postimg.cc/JncNV7zm/9.png)\n\nTreegen planters are also incentivised to do health checks. 1/6th of an $MGRO token is minted per tree for the initial plant, another 1/6th after the health check after 3 months, 6 months, 12 months, 24 & 36 months. Any non surviving trees are reflected in the subsequent issuance such that 1 $MGRO token represents 1 mangrove tree that has grown to the point of 3 years.\n\n![Results](https://i.postimg.cc/QxRztRCK/download-4.gif)\n\nSimilar to Proof of Stake, $TGN token holders stake their governance token to verify the videos, assisted by AI tree counting. There are always multiple verifiers. If maliciously or carelessly approved or rejected, the DAO member will have a portion of their TGN slashed for accountability. \n\n# 🌳 FINANCIAL MODEL 🌳\nOur tokenomics is designed such that 95% of $MGRO tokens goes to the tree planters on the ground & 5% goes to the DAO verifiers as rewards. We additionally aim to stream retro rewards to the $MGRO holders from our centralised carbon projects, carbon Forwards & grant funds. \n\n![download](https://i.postimg.cc/gJmr3zcw/Untitled-design-8.gif)\n\n### Non-Fungible Updates (NFU)\n![Results](https://i.postimg.cc/W3xQzSsn/download-14.gif)\n\nEvery verified video becomes viewable on the Treegens DAO map as a Non-Fungible Update video. In order for companies or individuals to make an ecological claim that they funded trees, they buy these NFT videos with $MGRO tokens, which burns / retires $MGRO.\n\n# 🌳 EXPONENTIAL REGENERATION 🌳\n\nTreegens DAO was designed to **scale** tree planting around the world. We will achieve exponential regeneration through carbon forwards. As an organisation we will be planting mangroves and sell the future value of the carbon credits as forwards. These forward funds are at a discounted rate yet still an order of magnitude more than what it costs to plant. By reinvesting these funds back into more mangroves & repeating this process, we will multiply our mangroves by approximately 9X. We will also stream a portion of these revenues towards retroactively rewarding $MGRO holders & stakers, making people bullish on tree planting!\n![Results](https://i.postimg.cc/wxZKgsw5/download-16.gif)\n# 🌳INNOVATIVE GAMIFICATION🌳\n\nWe’re making regeneration both financially and emotionally rewarding through gamification. Trees funded and planted are showcased on leaderboards & on Dynamic NFT Agents.\n\n![Results](https://i.postimg.cc/4NypnJSB/Mockups-1-3.png)\n\nWe're also introducing the world’s first Dynamic Semi-Soulbound Token (DSST) to gamify tree planting and funding. The mind orb brightens as you fund trees (retiring $MGRO for non-fungible updates), and the heart orb brightens as you plant trees ( $MGRO is minted into your wallet). While the artwork is transferable, the orbs displaying impact metrics are not, appearing on whichever Treegen NFT you connect to our DApp. This innovation allows you to earn, not just buy, a visual Regen score, while still enabling customization and trading.\n\nWe are also making these the most dynamic NFTs ever created by introducing a 3rd dynamic element - the background also changes the more $TGN staked. Each NFT will come alive as an AI agent, able to post online to grow the movement. \n\n![Results](https://i.postimg.cc/7LTV8THr/Treegens-Impact-Investment-Deck-3.png)\n\n\n# 🌳 USER-CENTRIC DESIGN 🌳\n\nTreegens DAO has partnered with the legends at General Magic for our frontend development & UI/UX design. GM has helped us leverage email or Google Login / Wallet Creation to easily onboard tree planters in developing countries around the world. GM has supported Giveth, clr.fund, TEC, ENS, The Commons Stack & many more impactful DAOs to create smooth user experiences & develop their front end. \n\n![Results](https://i.postimg.cc/cLXjw77f/Partnership-section.png)\n\n# 🌳EDUCATION in dApp🌳\n\nThe Proof of Tree dApp includes How-To Guides for both Mangrove Tree Planting & Verification. These education modules include videos & step by step guides in both English & Swahili. [Check out the UX on mobile.](https://treegens-frontend.vercel.app/dashboard/how-to-plant)\n\n# 🌳ECOSYSTEM GROWTH🌳\nThrough account abstraction, social wallet creation & world class UI/UX, we're able to onboard users who have never heard of web3. Treegens is growing a movement of tree planters through the 1B tree campaign. There were 34M participants in Ethiopia's last world record of 615.7M trees last June. We expect there to be many more this June 5th & many will come onchain for the first time. \n\n\n# 🌳STREAMED RETRO REGEN REWARDS🌳\nTo GROW the movement & make everyone bullish on Regeneration, we plan to retroactively reward MGRO holders by streaming rewards to them via. SuperFluid. From Grant funds, Optimism RetroPGF, Optimism's Growth Experiment Grants, Carbon Forwards & yield from $Earth in our treasury will all flow towards $MGRO holders. \n\n# 🌳 USE OF FUNDS 🌳\n\nAdditional funding will enable us further improve the user experience to buy $MGRO & retire $MGRO tree tokens by purchasing NFT videos with our AI tree counting overlaid. We are also integrating staking as a 3rd visual element to level up our Dynamic NFT Agents. \n\n![Results](https://i.postimg.cc/R0qk9K9X/Regenaissance-4.png)\n\n# 🌳 OUR TEAM 🌳\n![Results](https://i.postimg.cc/XvfQBJzP/Latest-Treegens-Impact-Investment-Deck-2.png)\n\n# 🌳 TOP WEB3 ADVISORS 🌳\n![Results](https://i.postimg.cc/5t2N2BNt/Re-Fi-Advisors.png)",
+        "lastUpdated": 0,
+        "projectGithub": "Treegens",
+        "projectTwitter": "thetreegens"
+      },
+      "recipient": "0x4c77d8708A57C7C13c1274F07C93E5efA8Ee80F1"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Treegens DAO🌳",
+      "logoImg": "bafkreigrrv7a6higmful77neazbvzcwcpk54r2ujhcynxgrnrp7a6nszze",
+      "website": "https://thetreegens.com",
+      "bannerImg": "bafkreiezhwdy6253nigbmgxprzeqzv3io565vp7q7ujm4pgzonbx2slyay",
+      "createdAt": 1743427894745,
+      "userGithub": "JimiCohen",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T13:29:49.935Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2edc6310510c91c55cc5e8b1999ec9a60bfb98b2f51989281a7eb6475a4a0fec6392e6dc2bec52df05465fc7b9f0b5a90fa97274fded36a10cc7a296c2d7d84d1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T13:29:49.935Z",
+          "expirationDate": "2025-06-29T13:29:49.934Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xfC9265A28f66CF4561D74A4E25D7Bbd3F482B8e6",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Treegens#103959914",
+            "nullifiers": [
+              "v0.0.0:JbkEXvBCOSXlP4i6DLUhYK3C1dDAN4ywPsfP0u/l7UQ="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T13:28:43.647Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x8f255d260436ed9278246e6b3bb4039550177de08f3b0c9a3c7940b98eabee4f0334acaea594f947f9b0d710b6a53387e2d40bbdb510c258ec522111d327953f1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T13:28:43.646Z",
+          "expirationDate": "2025-06-29T13:28:43.646Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xfC9265A28f66CF4561D74A4E25D7Bbd3F482B8e6",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#thetreegens",
+            "nullifiers": [
+              "v0.0.0:zdsUfD5VK20DOakJ+Mz0kLrBQ8GXCRopywMYhmZ3uK4="
+            ]
+          }
+        }
+      },
+      "description": "Having already broken one Tree Planting [GUINNESS WORLD RECORD](https://www.guinnessworldrecords.com/world-records/744458-most-mangrove-trees-planted-by-an-individual-in-24-hours), Treegens DAO is on track to break another world record by getting 1B trees planted on World Environment Day! 🌳\n\n![GWR](https://i.postimg.cc/v8W0tkjd/Jimi-World-record-Photo.jpg)\n\nOur vision is a world where anyone can plant trees & earn a living. The Proof of Tree Protocol that Treegens has developed is the first step towards achieving this vision. Planters film before & after planting in our dApp, AI counts the trees, DAO members with staked $TGN verify the methodology was followed to mint tree token rewards, starting with mangroves.\n\n# 🌳GROWalition Updates Since GG22🌳\n1) The Ethiopian Government which set the world record by planting 615.7M trees in 24 hours [joins our GROWalition](https://x.com/JimiCohen/status/1858859656413598199) \n2) [South African Minister of Environment](https://x.com/JimiCohen/status/1858559017208951228) pledges at least 1M trees.\n3) [Nigerian Minister of Environment](https://x.com/JimiCohen/status/1858478674204344696) is in full support of our mission to get 1B trees planted on World Environment Day.\n4) [Palau](https://x.com/JimiCohen/status/1892757454393332028) is participating & potentially all 12 Pacific Island countries.\n5) Many other countries such as Ghana, [Fiji](https://x.com/JimiCohen/status/1892475805487583650), Kenya & Tanzania have expressed interest in the GROWalition.\n\n# 🌳Key Developments & Tech Partnerships Since GG22🌳\n1) Audited all 3 of our smart contracts from the reputable [Protofire](https://drive.google.com/file/d/1cPnN4K4Meyh3rXpwhAoYZ_zA_ikdatQa/view?usp=sharing).\n2) Updated Treegens [codebase](https://github.com/Treegens) to ensure security. \n3) Partnered with [Axis.Finance](https://axis.finance) to develop a multi-tier referral program for our presale using subgraphs & scalability through a custom Telegram App. \n4) Partnered with [Xade](https://www.xade.xyz/) to turn all of our Dynamic NFTs into AI Agents that grow the movement & with TMO to give all agent NFTs .tgn wallet addresses. \n5) Partnered with [BLOCK Games](https://www.blockprotocol.gg/) Games to gamify growing the movement, those that promote the DAO will earn $TGN depending on real engagement. \n\nOur intention of making every aspect of what we're developing open source is to support more builders to launch Proof of X Impact dApps, leveraging the user-friendly UI/UX developed with General Magic. \n\n![Results](https://i.postimg.cc/wMRQs0bw/Treegens-Banner-01.png)\n\n# 🌳 THE CHALLENGE 🌳\n\n**Misaligned Incentives**\n\nToday our economy values the degeneration of nature more than it values the regeneration of nature. According to the UNEP, approximately 1.9 billion trees are planted yearly, yet approx. 15 billion are cut down each year. We Are losing forests at a rate equivalent to 27 soccer fields per minute! \n\n**Impact Transparency**\n\nThe impact sector faces criticism for not providing enough transparency. Peer reviewed studies have shown that donations increase by 52% within 1 year when nonprofits earn a seal of transparency. The amount of funds on the sidelines, not funding what matters could make all the difference for the climate crisis. \n\n# 🌳 HOW WE'RE SOLVING IT 🌳\n\n### Proof of Tree\n\n![Results](https://i.postimg.cc/J43g2Z1p/Proof-of-Plant.png)\n\nThe only way to create the $MGRO token is through Proof of Tree. Tree planters onboard through account abstraction / social logins, learn how to plant & film the mangrove trees, film the land before & after planting within our DApp with GPS automatically captured, then submit the data for DAO verification.  \n\n![Results](https://i.postimg.cc/7YC0gRK9/Treegens-Impact-Investment-Deck-2.png)\n\nTreegen DAO members verify that the methodology of our 6 mangrove experts was followed in order to issue $MGRO. They also confirm that the trees were filmed correctly for our tree counting AI (one continual direction). \n\n# 🌳 MANGROVE ADVISORS 🌳\n![Results](https://i.postimg.cc/JncNV7zm/9.png)\n\nTreegen planters are also incentivised to do health checks. 1/6th of an $MGRO token is minted per tree for the initial plant, another 1/6th after the health check after 3 months, 6 months, 12 months, 24 & 36 months. Any non surviving trees are reflected in the subsequent issuance such that 1 $MGRO token represents 1 mangrove tree that has grown to the point of 3 years.\n\n![Results](https://i.postimg.cc/QxRztRCK/download-4.gif)\n\nSimilar to Proof of Stake, $TGN token holders stake their governance token to verify the videos, assisted by AI tree counting. There are always multiple verifiers. If maliciously or carelessly approved or rejected, the DAO member will have a portion of their TGN slashed for accountability. \n\n# 🌳 FINANCIAL MODEL 🌳\nOur tokenomics is designed such that 95% of $MGRO tokens goes to the tree planters on the ground & 5% goes to the DAO verifiers as rewards. We additionally aim to stream retro rewards to the $MGRO holders from our centralised carbon projects, carbon Forwards & grant funds. \n\n![download](https://i.postimg.cc/gJmr3zcw/Untitled-design-8.gif)\n\n### Non-Fungible Updates (NFU)\n![Results](https://i.postimg.cc/W3xQzSsn/download-14.gif)\n\nEvery verified video becomes viewable on the Treegens DAO map as a Non-Fungible Update video. In order for companies or individuals to make an ecological claim that they funded trees, they buy these NFT videos with $MGRO tokens, which burns / retires $MGRO.\n\n# 🌳 EXPONENTIAL REGENERATION 🌳\n\nTreegens DAO was designed to **scale** tree planting around the world. We will achieve exponential regeneration through carbon forwards. As an organisation we will be planting mangroves and sell the future value of the carbon credits as forwards. These forward funds are at a discounted rate yet still an order of magnitude more than what it costs to plant. By reinvesting these funds back into more mangroves & repeating this process, we will multiply our mangroves by approximately 9X. We will also stream a portion of these revenues towards retroactively rewarding $MGRO holders & stakers, making people bullish on tree planting!\n![Results](https://i.postimg.cc/wxZKgsw5/download-16.gif)\n# 🌳INNOVATIVE GAMIFICATION🌳\n\nWe’re making regeneration both financially and emotionally rewarding through gamification. Trees funded and planted are showcased on leaderboards & on Dynamic NFT Agents.\n\n![Results](https://i.postimg.cc/4NypnJSB/Mockups-1-3.png)\n\nWe're also introducing the world’s first Dynamic Semi-Soulbound Token (DSST) to gamify tree planting and funding. The mind orb brightens as you fund trees (retiring $MGRO for non-fungible updates), and the heart orb brightens as you plant trees ( $MGRO is minted into your wallet). While the artwork is transferable, the orbs displaying impact metrics are not, appearing on whichever Treegen NFT you connect to our DApp. This innovation allows you to earn, not just buy, a visual Regen score, while still enabling customization and trading.\n\nWe are also making these the most dynamic NFTs ever created by introducing a 3rd dynamic element - the background also changes the more $TGN staked. Each NFT will come alive as an AI agent, able to post online to grow the movement. \n\n![Results](https://i.postimg.cc/7LTV8THr/Treegens-Impact-Investment-Deck-3.png)\n\n\n# 🌳 USER-CENTRIC DESIGN 🌳\n\nTreegens DAO has partnered with the legends at General Magic for our frontend development & UI/UX design. GM has helped us leverage email or Google Login / Wallet Creation to easily onboard tree planters in developing countries around the world. GM has supported Giveth, clr.fund, TEC, ENS, The Commons Stack & many more impactful DAOs to create smooth user experiences & develop their front end. \n\n![Results](https://i.postimg.cc/cLXjw77f/Partnership-section.png)\n\n# 🌳EDUCATION in dApp🌳\n\nThe Proof of Tree dApp includes How-To Guides for both Mangrove Tree Planting & Verification. These education modules include videos & step by step guides in both English & Swahili. [Check out the UX on mobile.](https://treegens-frontend.vercel.app/dashboard/how-to-plant)\n\n# 🌳ECOSYSTEM GROWTH🌳\nThrough account abstraction, social wallet creation & world class UI/UX, we're able to onboard users who have never heard of web3. Treegens is growing a movement of tree planters through the 1B tree campaign. There were 34M participants in Ethiopia's last world record of 615.7M trees last June. We expect there to be many more this June 5th & many will come onchain for the first time. \n\n\n# 🌳STREAMED RETRO REGEN REWARDS🌳\nTo GROW the movement & make everyone bullish on Regeneration, we plan to retroactively reward MGRO holders by streaming rewards to them via. SuperFluid. From Grant funds, Optimism RetroPGF, Optimism's Growth Experiment Grants, Carbon Forwards & yield from $Earth in our treasury will all flow towards $MGRO holders. \n\n# 🌳 USE OF FUNDS 🌳\n\nAdditional funding will enable us further improve the user experience to buy $MGRO & retire $MGRO tree tokens by purchasing NFT videos with our AI tree counting overlaid. We are also integrating staking as a 3rd visual element to level up our Dynamic NFT Agents. \n\n![Results](https://i.postimg.cc/R0qk9K9X/Regenaissance-4.png)\n\n# 🌳 OUR TEAM 🌳\n![Results](https://i.postimg.cc/XvfQBJzP/Latest-Treegens-Impact-Investment-Deck-2.png)\n\n# 🌳 TOP WEB3 ADVISORS 🌳\n![Results](https://i.postimg.cc/5t2N2BNt/Re-Fi-Advisors.png)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Treegens",
+      "projectTwitter": "thetreegens"
+    }
+  }
+}

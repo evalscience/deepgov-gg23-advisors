@@ -1,0 +1,231 @@
+{
+  "id": "123",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x934e6136999df52189cab3723277edddf0d09b2d9b50253b184dd17fc26f6e39",
+  "metadata": {
+    "signature": "0xd2f8012fabe00270e69ee003361f8ef5309fbd7f09a199a2c4cf81b66e9d13b96f09369d945d5e7f3a398cb3948bd222a1032479ed4482970280b18546c775511c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "gordo@songs-tools.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@gordo_design",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/SONGS-TOOLS",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/songs_protocol",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0x934e6136999df52189cab3723277edddf0d09b2d9b50253b184dd17fc26f6e39",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "SONGS actively contributes to the growth of the open-source ecosystem by delivering reusable music industry primitives and developer tooling that enable third parties to build on-chain music distribution and monetization solutions.\n\nSpecific contributions include:\n\nOpen Music Standard Primitives: SONGS open-sources key components such as WrappedSongs (on-chain song royalty contracts) and SongShares (fractional ownership tokens). These components expand OSS into creative and cultural industries, providing templates for composable royalty management.\n\nDeveloper SDK & Documentation: We will release a fully documented, open-source SDK allowing external devs, music labels, and distributors to build their own applications using our protocol. This significantly reduces barriers to entry for OSS projects within the music and media industry.\n\nIntegration and Composability: By creating open-source contracts and tooling, SONGS enables integration with existing OSS projects in DeFi, NFTs, and RWAs—fostering innovation through composability (e.g., DeFi lending markets built around music royalties or NFT marketplaces integrating WrappedSongs).\n\nReal-World Adoption & Community Growth: With over 96% of our active users new to crypto, SONGS introduces non-crypto native creators and users to OSS applications, significantly broadening the adoption of open-source technologies.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "SONGS is a next-generation protocol enabling artists, music professionals, labels, and fans to create, distribute, and monetize music fully on-chain. Key features and use cases include:\n\nWrappedSongs: Tokenized songs with automated royalty splits and transparent revenue distribution.\n\nSongShares Marketplace: Fractional ownership of digital music royalties, tradable in open markets, allowing fans to invest in their favorite artists' success.\n\nArtist Buyouts: Limited edition tokens granting exclusive access to high-quality audio files and unreleased music.\n\nDeveloper SDK: Open-source tooling for third-party developers to build music distribution apps on top of SONGS assets.\n\nSONGS provides end-to-end tokenization of the music creation and distribution lifecycle, abstracting blockchain complexity to onboard users unfamiliar with crypto (96% of current users). SONGS uniquely combines cultural adoption (music industry) with decentralized finance (royalties as tradable assets).",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We plan to continue expanding SONGS with targeted features and ecosystem integrations:\n\nBuyout Tokenization: Enable artists to monetize premium content via gated tokens.\n\nMarketplace & Prediction Markets: Launch SongShare trading and prediction market prototypes to deepen liquidity and user engagement.\n\nOpen SDK & Documentation: Empower external developers, labels, and distribution companies to build on SONGS, significantly broadening adoption.\n\nContinuous Product Iteration: Improve onboarding, UX, and adoption flows based on live user feedback.\n\nSONGS Masterplan:\nhttps://songs-tools.notion.site/SONGS-Master-Plan-3368f344f2c44979ac032352e3f56f94?pvs=4",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Base Network (chain_id: 8453)\n\nFeesModule\t0xf34097b64381F080B2aB72784B5DC3667185d5C6\nReleaseModule\t0xdc510043d7DA4E7fb58Dc0E95e94bEC0c6Be3d0A\nIdentityModule\t0x689b5D8813E34bab2044C5A778b1e44cEe33d6Da\nRegistryModule\t0x2B05e42c9EDaB227249F48B24ccC45DEdD0abD17\nWhitelistingManager\t0x9e6a792c33Bf770c71D19D2857D098fE8427df98\nDistributorWalletFactory\t0x18380f0Cb4928e27F2f6a6da8AdeD07908a963bA\nERC20Whitelist\t0xB3eb4B0F83255522ee60751F2437f1a74d2a6fC3\nMetadataRenderer\t0x665440e93fDc0E9188F20bB96604E81Ff4DC6182\nMetadataModule\t0xeb6A1829349Abb517E71829AB7a18b20A40b1A90\nLegalContractMetadata\t0x0Ea51BEBf057e9E586812D21e8E3c21Daa00AAA2\nProtocolModule\t0x55B546A5675c5b6dA5fC186b1034fADd14FFC8cE\nSongSharesMarketPlace\t0x6f5d57e6caf1fa91d809F07AC8c03238da148F5c\nBuyoutTokenMarketPlace\t0x5d38017d9833ac392cbaCd99baBDb8FcEBf71E45\nWrappedSongSmartAccount\t0xa348AbCF29f030b176f6B5Af15e0E11c6C04e4F7\nWSTokenManagement\t0x3907d3484b5a6914568D741Eaf7544E066f4347D\nWrappedSongFactory\t0x7678cB841c47D8aD267FED474d3Fe300a2b8D46f",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x934e6136999df52189cab3723277edddf0d09b2d9b50253b184dd17fc26f6e39",
+        "title": "SONGS | Next generation layer for the music industry",
+        "logoImg": "bafkreib7lx6sff5rfm7enlibojnrpkmwb4ap7n4l5tu426iv4j4jv6zgrm",
+        "metaPtr": {
+          "pointer": "bafkreido73vqha7au5fpgqvs6kicx4tmlhoslnz6qzqb75d5jtqngcucjq",
+          "protocol": "undefined"
+        },
+        "website": "https://songs-tools.com/",
+        "bannerImg": "bafkreihqbbcfd47362yla42cx2xb2jua4qjjwfarskoofltzorbslou3tm",
+        "createdAt": 1713984131879,
+        "userGithub": "gordo-labs",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..DrLrylNuZU_TixQLoQ9sKmOUg7ZDS86h35ItirEN2KtV-2nktZeXXJDqmEZTk4lMMoiOR1S9HZw4MKwHeKveBw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-24T21:23:55.959Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-24T21:23:55.959Z",
+            "expirationDate": "2024-07-23T21:23:55.959Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x71546E6AE97254942c5FB38CC9754FabEb0Bc744",
+              "hash": "v0.0.0:u3IFaq3S8M8/goxhtyAvlU3Oo8sJVi6dX4PsUstix/4=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#SONGS-TOOLS#60603572"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qTFagwalUNqIq3dzKPtpBoJ-jxzlCOqftwfPTWqBtb42ZFJdLfMiXtFF1g_FcqN78ZUabKHKE8g0N0nmZnVNCA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-24T21:23:15.666Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-24T21:23:15.666Z",
+            "expirationDate": "2024-07-23T21:23:15.666Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x71546E6AE97254942c5FB38CC9754FabEb0Bc744",
+              "hash": "v0.0.0:b25yG3DN8OCZ0/pyvoWZmkAl244RifDrB+I1JOFer5s=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#songs_tools"
+            }
+          }
+        },
+        "description": "# **SONGS is the next generation layer for the music industry.**\n\n[https://songs-tools.com/](https://songs-tools.com/)\n\nSONGS directly solves these problems:\n\n- **No digital standard for tracks on the internet**  \n- **Opaque intermediaries obscure royalty flows**  \n- **Limited liquidity and complex financing for artists**\n- **Outdated distribution technology, causing inefficiencies**\n\nA **transparent, open protocol** that simplifies royalties, **standardizes digital song assets**, and **enables direct, efficient liquidity for artists.**\n\n---\n\n## **Songs Protocol**\n\n- Transparent and operational layer serving as **the source of truth for the music industry**\n- Makes metadata accessible from **creation to distribution**\n- Allows all industry stakeholders to **collaborate and be incentivized**\n- **Automates profit distribution** among creators and collaborators\n- **Reduces music supply chain costs to zero**\n- **Maximizes artist earnings**\n- **Tokenizes digital distribution rights** into **SongShares (§)** so anyone can invest in songs\n- Earnings are **distributed directly to SongShares owners**, secured by the **SONGS Distributor** — the first protocol oracle that publishes music from the protocol to DSPs\n\n---\n\n## **Songs App**\n\n- The easiest way for an artist to go from idea to full release on **Spotify, YouTube Music, Apple Music, and 40+ DSPs**\n- Fully **automated royalty payments**\n- Artists can receive **advances from fans** or any entity using the protocol — previously exclusive to labels\n    - **Fans can invest in songs and share in future royalties**\n    - **Crowdfunding made native to music releases**\n\n---\n\n## **Ecosystem & Third-Party Apps**\n\n*Built on top of the Songs Protocol and Smart Accounts:*\n\n- Freelance marketplace using SongShares for music service exchange\n- Secondary marketplace to **trade SongShares**\n- DeFi tools enabling **liquidity provision** based on future song earnings\n- Protocol-native **renting and lending of SongShares**\n- Rights management dashboards for publishers and PROs\n- Transparent accounting tools for managers and labels\n- Plug-and-play widgets for fan investment campaigns\n\n---\n\n## 📄 [Full SONGS Documentation](https://songs-tools.notion.site/SONGS-Docs-4c810f16cc084c63a4f92d721d285af0?pvs=4)\n\nWelcome to **SONGS** — where music meets on-chain infrastructure.\n",
+        "lastUpdated": 0,
+        "projectGithub": "SONGS-TOOLS",
+        "projectTwitter": "songs_tools"
+      },
+      "recipient": "0x4BC42881E2A4994088641590796314feb2799008"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "SONGS | Next generation layer for the music industry",
+      "logoImg": "bafkreib7lx6sff5rfm7enlibojnrpkmwb4ap7n4l5tu426iv4j4jv6zgrm",
+      "website": "https://songs-tools.com/",
+      "bannerImg": "bafkreiex7waltzjg6r3vaaddxn6vey7gxwjaaathpirjswyeoyl2k4bbjq",
+      "createdAt": 1713984131879,
+      "userGithub": "gordo-labs",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..DrLrylNuZU_TixQLoQ9sKmOUg7ZDS86h35ItirEN2KtV-2nktZeXXJDqmEZTk4lMMoiOR1S9HZw4MKwHeKveBw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-24T21:23:55.959Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-24T21:23:55.959Z",
+          "expirationDate": "2024-07-23T21:23:55.959Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x71546E6AE97254942c5FB38CC9754FabEb0Bc744",
+            "hash": "v0.0.0:u3IFaq3S8M8/goxhtyAvlU3Oo8sJVi6dX4PsUstix/4=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#SONGS-TOOLS#60603572"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..qTFagwalUNqIq3dzKPtpBoJ-jxzlCOqftwfPTWqBtb42ZFJdLfMiXtFF1g_FcqN78ZUabKHKE8g0N0nmZnVNCA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-24T21:23:15.666Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-24T21:23:15.666Z",
+          "expirationDate": "2024-07-23T21:23:15.666Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x71546E6AE97254942c5FB38CC9754FabEb0Bc744",
+            "hash": "v0.0.0:b25yG3DN8OCZ0/pyvoWZmkAl244RifDrB+I1JOFer5s=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#songs_tools"
+          }
+        }
+      },
+      "description": "# **SONGS is the next generation layer for the music industry.**\n\n[https://songs-tools.com/](https://songs-tools.com/)\n\nSONGS directly solves these problems:\n\n- **No digital standard for tracks on the internet**  \n- **Opaque intermediaries obscure royalty flows**  \n- **Limited liquidity and complex financing for artists**\n- **Outdated distribution technology, causing inefficiencies**\n\nA **transparent, open protocol** that simplifies royalties, **standardizes digital song assets**, and **enables direct, efficient liquidity for artists.**\n\n---\n\n## **Songs Protocol**\n\n- Transparent and operational layer serving as **the source of truth for the music industry**\n- Makes metadata accessible from **creation to distribution**\n- Allows all industry stakeholders to **collaborate and be incentivized**\n- **Automates profit distribution** among creators and collaborators\n- **Reduces music supply chain costs to zero**\n- **Maximizes artist earnings**\n- **Tokenizes digital distribution rights** into **SongShares (§)** so anyone can invest in songs\n- Earnings are **distributed directly to SongShares owners**, secured by the **SONGS Distributor** — the first protocol oracle that publishes music from the protocol to DSPs\n\n---\n\n## **Songs App**\n\n- The easiest way for an artist to go from idea to full release on **Spotify, YouTube Music, Apple Music, and 40+ DSPs**\n- Fully **automated royalty payments**\n- Artists can receive **advances from fans** or any entity using the protocol — previously exclusive to labels\n    - **Fans can invest in songs and share in future royalties**\n    - **Crowdfunding made native to music releases**\n\n---\n\n## **Ecosystem & Third-Party Apps**\n\n*Built on top of the Songs Protocol and Smart Accounts:*\n\n- Freelance marketplace using SongShares for music service exchange\n- Secondary marketplace to **trade SongShares**\n- DeFi tools enabling **liquidity provision** based on future song earnings\n- Protocol-native **renting and lending of SongShares**\n- Rights management dashboards for publishers and PROs\n- Transparent accounting tools for managers and labels\n- Plug-and-play widgets for fan investment campaigns\n\n---\n\n## 📄 [Full SONGS Documentation](https://songs-tools.notion.site/SONGS-Docs-4c810f16cc084c63a4f92d721d285af0?pvs=4)\n\nWelcome to **SONGS**\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "SONGS-TOOLS",
+      "projectTwitter": "songs_tools"
+    }
+  }
+}

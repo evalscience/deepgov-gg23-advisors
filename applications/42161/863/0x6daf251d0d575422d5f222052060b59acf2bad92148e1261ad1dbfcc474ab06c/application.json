@@ -1,0 +1,251 @@
+{
+  "id": "32",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x6daf251d0d575422d5f222052060b59acf2bad92148e1261ad1dbfcc474ab06c",
+  "metadata": {
+    "signature": "0xdc0a8294ac84abc399734d7d900f5a26d228d5bd682de036b81c303195690b493aafcc3c6ee70981097f0d7de2a86692fc93d315b8e3ceb304abc75452a5a4d71c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "gm@builders.garden",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "limone_eth",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/builders-garden/frames-v2-showcase",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, Hackathon Alumni (Fluidpay)",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are making it easier for developers to build mini-apps and Farcaster Frames, through guided READMEs and flexible Next.js starter kit.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "It allows them to understand or copy patterns that are useful to build mini-apps and Farcaster Frames as well as to have a ready-made template that they could start from without re-writing boilerplate code.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "It's a set of tooling and template (more than 1 repo) which received 16 stars + many shout outs on Farcaster like this one when we contributed to the OS frames.js repo https://warpcast.com/df/0x5a008f5f ",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "As a studio and collective we're fully focusing our efforts towards building Frames and mini-apps as they ease distribution a lot. We are constantly expanding our set of tooling, the last one was related to an integration with XMTP (https://github.com/orgs/builders-garden/repositories). More to come, given also the attention that this vertical is getting, as more people realize how much mini-apps can help you them finding users.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "n/a",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x6daf251d0d575422d5f222052060b59acf2bad92148e1261ad1dbfcc474ab06c",
+        "title": "Builders Garden",
+        "logoImg": "bafkreicbvoruumynjvy62t45jwiaht6zhhtblkpsybe756uo4usckq3mdi",
+        "metaPtr": {
+          "pointer": "bafkreiaom3qu3mygodcpah55vgwjhxvnmet55u5khd4i6tvmtqxnp7aouu",
+          "protocol": "undefined"
+        },
+        "website": "https://builders.garden",
+        "bannerImg": "bafkreieh5c3tjdkwjcpv5x7uhilofzkkqcqcynqkxyscjiy3nuftu4ll3u",
+        "createdAt": 1743165960134,
+        "userGithub": "limone-eth",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T13:08:32.697Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xbf5aeaefebdbb15dbdfd8b1a6314d94164c98f49a76650032eddc43b1ae5cfd620d3d6992219243438395bdf22fb612a80d6a797fab284d93ab56871646a97e81b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T13:08:32.696Z",
+            "expirationDate": "2025-06-26T13:08:32.696Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1358155a15930f89eBc787a34Eb4ccfd9720bC62",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#builders-garden#32481391",
+              "nullifiers": [
+                "v0.0.0:KsZJq0YXpYZnfj/R94OtnPBNYOJ9AhYIAajldZejz2w="
+              ]
+            }
+          }
+        },
+        "description": "Web3 Product Studio, building consumer crypto apps and open source projects to kickstart developer experience in different ecosystems.\n\n128 out of 167 repositories are public and open source, coming from hackathon projects or developer tooling we developed internally.\n\nFor example, a Privy x Smart Wallets Next.js starter: https://github.com/builders-garden/privy-smart-wallet-nextjs-starter\n\nWe are now focusing on Farcaster Frames and Mini-apps and we recently developed a set of open source resources to help developers create onchain mini-apps.\n\nA few example:\n- https://frames-v2.builders.garden\n- https://github.com/builders-garden/miniapp-next-template\n- https://github.com/builders-garden/xmtp-agent-examples-framesv2",
+        "lastUpdated": 0,
+        "projectGithub": "builders-garden",
+        "projectTwitter": "builders_garden"
+      },
+      "recipient": "0x733816356eC2d1BD35d59adBd44B79C525942833"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 8453,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

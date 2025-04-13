@@ -1,0 +1,680 @@
+{
+  "id": "67",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x8f995b13199ce3c032de50515b7bfef865bee645cefc7feac76f84b2beae2f59",
+  "metadata": {
+    "signature": "0xfe624756d37b3cc06816c2e77086fe80624c7b4df0a9211649193a7fa58e122a611566057ea02f5e2400a32cbdf28c847f21f6565b6f43e0b7cc6b41d6d1a1971c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "akhileshthite@hotmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@jack_sparrow1932",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/p2plabsxyz/peersky-browser",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/9kUqxjbEx6",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Peersky Browser brings Ethereum infrastructure directly to the user’s desktop; It is the first and only peer-to-peer browser to support native resolution of .eth domains without HTTP gateways. Users can load ipfs://vitalik.eth directly using a local Helia node, bypassing the need for centralized intermediaries like eth.limo.\n\nPeersky also introduces a web3:// protocol handler, allowing users to fetch data directly from smart contracts, view on-chain metadata, or browse decentralized websites stored on-chain — without running a full Ethereum node. This unlocks seamless access to Web3-native content and dramatically improves developer and user workflows.\n\nPeersky is actively helping Ethereum achieve its goal of censorship-resistant, decentralized publishing and identity, built natively into a browser.\n\nRecent ETH Denver talk \"Browsing Web3 Without HTTP Gateways: Native ENS in Peersky Browser\":\nhttps://youtu.be/WOT_fLapweI?si=hVrWs16xSpMYaKEf&t=5676",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Peersky’s native ENS support is a breakthrough in Web3 browser UX. Unlike other browsers that rely on centralized redirect services, Peersky directly:\n\n- Queries the ENS smart contract for content hashes using ethers.js\n- Decodes content hashes (IPFS/IPNS) using content-hash and multiformats\n- Resolves and renders the decentralized site directly via a local Helia IPFS node\n- Caches resolved content hashes locally, reducing RPC usage and improving load times\n- Smart Contract Browsing with web3://: Users can access and render on-chain data or static websites directly via smart contract queries. This includes features like web3://[contract]/tokenHTML/[tokenId] to display NFTs or metadata dynamically.\n\nThis enables true gatewayless browsing of .eth domains—bringing Web2-like usability to decentralized websites while preserving privacy and censorship-resistance.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Problems: \n\n- Today, most .eth domains are only accessible via centralized HTTP gateways (e.g. eth.limo), which contradicts the decentralized ethos of Web3.\n- Browsers do not natively resolve ENS/IPFS content, requiring either plugins, extensions, or third-party redirects.\n- Web3 publishing is still complex for everyday users.\n- There are few usable, privacy-respecting P2P browsers left (e.g., Brave deprecated IPFS support).\n\nPeersky fixes this by offering:\n- Eliminates the need for HTTP gateways by resolving ENS/IPFS content locally.\n- Supports ipfs://, ipns://, hyper://, and web3:// protocols out of the box.\n- Offers real-time smart contract content access with web3://.\n- Includes a suite of local P2P apps — like decentralized site builders, chats, and file upload tools.\n- Prioritizes simplicity and privacy while preserving full decentralization.\n\nPeersky improves on existing ENS solutions by removing all centralized intermediaries from the resolution process.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Peersky has successfully implemented native ENS resolution using a local IPFS node via Helia, enabling gateway-free access to decentralized websites linked to .eth domains. This includes full support for resolving IPFS/IPNS content hashes directly from the blockchain and caching them locally for improved performance and offline usability.\n\nLooking ahead, our roadmap focuses on taking Peersky from an experimental P2P browser to a mainstream decentralized gateway — one that not only supports core Web3 protocols like ENS, IPFS, and web3://, but also sets new standards for decentralized user experience.\n\nWhile Peersky fetches ENS records from the blockchain, RPC calls are still HTTP-based, meaning the system cannot function fully offline. A major future goal is to experiment with reducing or eliminating RPC reliance and moving toward fully offline-capable Web3 resolution. We’re also excited to explore blockchain-based SSL certificate verification to strengthen the security and trust model of decentralized websites.\n\nGrant funding will support continued development, research, and improvements in browser performance, peer-to-peer networking efficiency, and overall UI/UX — ensuring that Peersky is not just a technical demonstration, but a compelling, user-friendly tool ready for everyday use.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Peersky removes centralized points of failure from the Ethereum user experience:\n\n- Users no longer depend on *.limo or *.link gateways to access .eth sites.\n- ENS, IPFS, and Web3 data are all resolved locally, via peer-to-peer protocols.\n- No tracking, ads, or server log metadata — just protocol-native access.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x8f995b13199ce3c032de50515b7bfef865bee645cefc7feac76f84b2beae2f59",
+        "title": "Peersky Browser",
+        "logoImg": "bafkreiac2thlph27653trr5p2stcfe5nsdr55yh4sot4khubetuxl3lc3m",
+        "metaPtr": {
+          "pointer": "bafkreibd5unu2v67ncvtpnhbcbletrqc3qzglck75dzcgdin65q2whnjcm",
+          "protocol": "undefined"
+        },
+        "website": "https://peersky.p2plabs.xyz",
+        "createdAt": 1743462281482,
+        "userGithub": "akhileshthite",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T23:04:31.264Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x4d26374bb9954815f7c8c4d1f4cedebded966575d92427b79ca00bb4f61f46ee5e6eac657d41a95e240977cc458891e4805dceff02e3a4f8fa3f0775accee0f31c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T23:04:31.264Z",
+            "expirationDate": "2025-06-29T23:04:31.264Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x4175D9e207d46bf07aC03F8157da4fFe20054Edf",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#p2plabsxyz#68826419",
+              "nullifiers": [
+                "v0.0.0:EmODEdnPNL5+tSbkNjh9krKZM8TsdRbW+6P2crQ1r+Y="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T23:03:10.548Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xba1467d8cfbab4af940357fad138a25722f1cefd0f9d81e4ee0d82906fa79ab52613b1ff606158cddba4e3ff94169f9545807f9543f245145e48e713cb7810851c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T23:03:10.548Z",
+            "expirationDate": "2025-06-29T23:03:10.548Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x4175D9e207d46bf07aC03F8157da4fFe20054Edf",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#PeerskyBrowser",
+              "nullifiers": [
+                "v0.0.0:ftWH3rAQkYod3J9yaUfuGthZ7R/1y0NknFcObF3TYA4="
+              ]
+            }
+          }
+        },
+        "description": "Peersky Browser is a local-first, peer-to-peer web browser that lets you access, publish, and explore the decentralized web—without relying on HTTP gateways or centralized servers. With native support for IPFS, ENS, Hypercore, and Web3 protocols, Peersky empowers users to explore a freer, more resilient internet. It's not just a browser—it's a vision for the web we deserve.",
+        "lastUpdated": 0,
+        "projectGithub": "p2plabsxyz",
+        "projectTwitter": "PeerskyBrowser"
+      },
+      "recipient": "0x4175D9e207d46bf07aC03F8157da4fFe20054Edf"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Peersky Browser",
+      "logoImg": "bafkreiac2thlph27653trr5p2stcfe5nsdr55yh4sot4khubetuxl3lc3m",
+      "website": "https://peersky.p2plabs.xyz",
+      "bannerImg": "bafkreibj6wtsezzfplp274aohxivf7hidkutmcjdncd4cncehx3lz7svuy",
+      "createdAt": 1743462281482,
+      "userGithub": "akhileshthite",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T23:04:31.264Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x4d26374bb9954815f7c8c4d1f4cedebded966575d92427b79ca00bb4f61f46ee5e6eac657d41a95e240977cc458891e4805dceff02e3a4f8fa3f0775accee0f31c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T23:04:31.264Z",
+          "expirationDate": "2025-06-29T23:04:31.264Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x4175D9e207d46bf07aC03F8157da4fFe20054Edf",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#p2plabsxyz#68826419",
+            "nullifiers": [
+              "v0.0.0:EmODEdnPNL5+tSbkNjh9krKZM8TsdRbW+6P2crQ1r+Y="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T23:03:10.548Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xba1467d8cfbab4af940357fad138a25722f1cefd0f9d81e4ee0d82906fa79ab52613b1ff606158cddba4e3ff94169f9545807f9543f245145e48e713cb7810851c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T23:03:10.548Z",
+          "expirationDate": "2025-06-29T23:03:10.548Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x4175D9e207d46bf07aC03F8157da4fFe20054Edf",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#PeerskyBrowser",
+            "nullifiers": [
+              "v0.0.0:ftWH3rAQkYod3J9yaUfuGthZ7R/1y0NknFcObF3TYA4="
+            ]
+          }
+        }
+      },
+      "description": "Peersky Browser is a local-first, peer-to-peer web browser that lets you access, publish, and explore the decentralized web—without relying on HTTP gateways or centralized servers. With native support for IPFS, ENS, Hypercore, and Web3 protocols, Peersky empowers users to explore a freer, more resilient internet. It's not just a browser—it's a vision for the web we deserve.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "p2plabsxyz",
+      "projectTwitter": "PeerskyBrowser"
+    }
+  }
+}

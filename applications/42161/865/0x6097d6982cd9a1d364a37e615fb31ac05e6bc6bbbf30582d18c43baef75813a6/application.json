@@ -1,0 +1,244 @@
+{
+  "id": "51",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x6097d6982cd9a1d364a37e615fb31ac05e6bc6bbbf30582d18c43baef75813a6",
+  "metadata": {
+    "signature": "0x53b22c4b11d46a7aa5844c5c3722547f29392001ad65248c2b047b8059ee8d866b134352b8300aa42e27fdd86ecc0f4fe5935f32e3dd97dd236242f78670ce401c",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "mail@eenagy.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@eniko1155",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/eth-pkg/eth-nodes",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "yes, https://explorer.gitcoin.co/#/projects/0x6097d6982cd9a1d364a37e615fb31ac05e6bc6bbbf30582d18c43baef75813a6",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The main benefit of eth-nodes is its reproducibility feature. Any binary packaged for Debian can be verified through hash checking, and anyone can use the build recipe to produce the exact same binary with the identical hash. This feature solves the user experience problem by addressing the underlying security concern: users can verify packages aren't tampered with, which is critical for nodes performing validity duties. Users can confidently run third-party Debian packages while maintaining cryptographic validation of any package's integrity.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The base layer solves reproducibility by enabling modular packages that simplify node operations, similar to the pre-merge era when you only needed to run a single client. While other tools offer one-click installations, eth-nodes provide essential building blocks through a configuration layer that defines client interactions.\n\nThe key advantage is that you can declare your configuration and immediately understand potential failures without extensively reading client documentation or searching for specific client pairing instructions. Configurations remain portable between clients, making upgrades easier and client switching seamless if desired. This configuration-based approach is the current focus of in-progress development.\n\nThis configuration approach enables building simple UIs or editing node settings by opening the relevant text files. Thus, this improves user experience and interoperability between clients. ",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "eth-nodes takes a different approach from other node-running solutions by operating on bare metal without Docker or containerization. It adheres to the Linux philosophy, simplifying node operation and removing barriers to entry. The solution is completely open-source and free, with no paid offerings. Its modular design allows users to utilize specific components or the entire solution or fork it to build their own implementation.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "## Roadmap\n- **April-June 2025**: Improve installation with one-click and package-based options\n- **July–December 2025**: Deliver stable releases, comprehensive documentation, and grow community\n\n## Fund Allocation\n- **Development**: Stable version finalization and installation improvements\n- **Community**: Documentation expansion and user support improvement\n- **Infrastructure**: Server maintenance for hosting and package building servers\n\n## Expected Impact\nProject transition from development to adoption phase by end of 2025, simplifying node operation and strengthening network decentralization.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "This project increases the number of active nodes by making node operation more accessible to both technical and non-technical users. An increased number of nodes improves Ethereum's decentralization and strengthens its security and resilience.\n",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "None",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x6097d6982cd9a1d364a37e615fb31ac05e6bc6bbbf30582d18c43baef75813a6",
+        "title": "Eth Deb repository",
+        "logoImg": "bafkreia6xrlfqr5arqzl4f55ci3a7yxipjbm3gflitixllpr2aijdvvsne",
+        "metaPtr": {
+          "pointer": "bafkreiegyxymem6jr4rnp2n4fl7wvkkmjwa2kyvbtsc5tnhov2hjruss4y",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/eth-pkg/eth-nodes",
+        "bannerImg": "bafkreiepqk4ormtbyrlbjxel5za23kbp66pnlszfch4pb7ugd3ts645gy4",
+        "createdAt": 1700583111452,
+        "userGithub": "eenagy",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..GUUQVOXYwQJ_bKIxhc4dT28PyeQ78l9CUrdiYQaXkCcIC_lDRgFkmo5fFLI97Yn8HdtHU4U7Rdaid49wq4ErBg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-15T03:22:41.664Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-15T03:22:41.664Z",
+            "expirationDate": "2024-07-14T03:22:41.664Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1304c00FddAb442B1A6862De159914f20450dbAB",
+              "hash": "v0.0.0:UbXhJ10wT926s9+LZ8DJlIvw43wOLE+OMj6XKC8Dg/M=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#eth-pkg#4188977"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..W79erCg4FCLhdluYJBh4Vn9_wD8HW7W0t4gpCWgGjenZV70vrixuGy-_k9vTT_zRSmcLrF5f_Hd1z1uxf0C0BQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-15T03:21:41.625Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-15T03:21:41.625Z",
+            "expirationDate": "2024-07-14T03:21:41.625Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1304c00FddAb442B1A6862De159914f20450dbAB",
+              "hash": "v0.0.0:Q8ndSdaGlYDmRKZh2MAhzduay1se/L5IqyLzg3GNVu8=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#ethnode16192"
+            }
+          }
+        },
+        "description": "This project provides Ethereum clients as Debian/Ubuntu packages through reproducible builds.\n\n## Installing Ethereum Clients with eth-node  \nInstalling Ethereum clients is straightforward with eth-node. You can quickly install popular clients like **besu, erigon, geth, lighthouse, lodestar, nethermind, prysm, reth,** and **teku** using native Linux packages. These packages are designed to run efficiently without the overhead of containers.  \n\n- **Example Installation:**\n   ```bash\n   sudo apt update && sudo apt install eth-node-geth\n   ```\n\n   This command installs the Geth client on your system. You can use similar commands to install other clients through the `apt` package manager.  \n\n## Setting Up Networks with Configuration Packages  \neth-node also provides **pre-configured network packages**, making it easy to connect to different Ethereum networks:  \n\n- Mainnet \n- Ephemery \n- Holesky \n- Sepolia \n- Regtest (for local testing) \n\nThese packages come with all the necessary setup—like network parameters and data directories—so you don't have to configure things manually.  \n\n- **Example Network Setup:**\n   ```bash\n   sudo apt install eth-node-regtest eth-node-validator-regtest\n   ```\n\n   After installation, the packages automatically configure everything you need. Whether you're staking or just participating in the network, the setup is ready to go—though for staking, you will need to provide keys.  \n\n## Reproducible Builds for Transparency and Security  \nAll eth-node packages are **reproducible builds**, meaning you can verify the integrity of the software by rebuilding it from the source. This ensures the binaries are secure and haven’t been tampered with, giving you peace of mind.  \n\n## Current Network Support and What’s Next  \nFor now, **regtest**, a custom network for local testing, is fully supported. Support for other networks like **Holesky** and **Mainnet** will roll out soon as part of the beta release, along with additional configuration packages.  \n\n## Help Us Improve – Your Feedback Matters  \nBinary packages are already available to get you started. Configuration packages are in **alpha**, and we’d love to hear your feedback to help us make them even better. Your input will make eth-node more user-friendly and accessible for developers and node operators alike.  \n\nIf you’d like to learn more, explore the project on GitHub, join the discussion, and help shape the future of eth-node.  \n\nFor more information, visit the project’s [GitHub](https://github.com/eth-pkg/eth-nodes).  \n",
+        "lastUpdated": 0,
+        "projectGithub": "eth-pkg",
+        "projectTwitter": "ethnode16192"
+      },
+      "recipient": "0x1304c00FddAb442B1A6862De159914f20450dbAB"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Eth Deb repository",
+      "logoImg": "bafkreia6xrlfqr5arqzl4f55ci3a7yxipjbm3gflitixllpr2aijdvvsne",
+      "website": "https://github.com/eth-pkg/eth-nodes",
+      "bannerImg": "bafkreiepqk4ormtbyrlbjxel5za23kbp66pnlszfch4pb7ugd3ts645gy4",
+      "createdAt": 1700583111452,
+      "userGithub": "eenagy",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..GUUQVOXYwQJ_bKIxhc4dT28PyeQ78l9CUrdiYQaXkCcIC_lDRgFkmo5fFLI97Yn8HdtHU4U7Rdaid49wq4ErBg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-15T03:22:41.664Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-15T03:22:41.664Z",
+          "expirationDate": "2024-07-14T03:22:41.664Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x1304c00FddAb442B1A6862De159914f20450dbAB",
+            "hash": "v0.0.0:UbXhJ10wT926s9+LZ8DJlIvw43wOLE+OMj6XKC8Dg/M=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#eth-pkg#4188977"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..W79erCg4FCLhdluYJBh4Vn9_wD8HW7W0t4gpCWgGjenZV70vrixuGy-_k9vTT_zRSmcLrF5f_Hd1z1uxf0C0BQ",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-15T03:21:41.625Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-15T03:21:41.625Z",
+          "expirationDate": "2024-07-14T03:21:41.625Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x1304c00FddAb442B1A6862De159914f20450dbAB",
+            "hash": "v0.0.0:Q8ndSdaGlYDmRKZh2MAhzduay1se/L5IqyLzg3GNVu8=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#ethnode16192"
+          }
+        }
+      },
+      "description": "This project provides Ethereum clients as Debian/Ubuntu packages through reproducible builds.\n\n## Installing Ethereum Clients with eth-node  \nInstalling Ethereum clients is straightforward with eth-node. You can quickly install popular clients like **besu, erigon, geth, lighthouse, lodestar, nethermind, prysm, reth,** and **teku** using native Linux packages. These packages are designed to run efficiently without the overhead of containers.  \n\n- **Example Installation:**\n   ```bash\n   sudo apt update && sudo apt install eth-node-geth\n   ```\n\n   This command installs the Geth client on your system. You can use similar commands to install other clients through the `apt` package manager.  \n\n## Setting Up Networks with Configuration Packages  \neth-node also provides **pre-configured network packages**, making it easy to connect to different Ethereum networks:  \n\n- Mainnet \n- Ephemery \n- Holesky \n- Sepolia \n- Regtest (for local testing) \n\nThese packages come with all the necessary setup—like network parameters and data directories—so you don't have to configure things manually.  \n\n- **Example Network Setup:**\n   ```bash\n   sudo apt install eth-node-regtest eth-node-validator-regtest\n   ```\n\n   After installation, the packages automatically configure everything you need. Whether you're staking or just participating in the network, the setup is ready to go—though for staking, you will need to provide keys.  \n\n## Reproducible Builds for Transparency and Security  \nAll eth-node packages are **reproducible builds**, meaning you can verify the integrity of the software by rebuilding it from the source. This ensures the binaries are secure and haven’t been tampered with, giving you peace of mind.  \n\n## Current Network Support and What’s Next  \nFor now, **regtest**, a custom network for local testing, is fully supported. Support for other networks like **Holesky** and **Mainnet** will roll out soon as part of the beta release, along with additional configuration packages.  \n\n## Help Us Improve – Your Feedback Matters  \nBinary packages are already available to get you started. Configuration packages are in **alpha**, and we’d love to hear your feedback to help us make them even better. Your input will make eth-node more user-friendly and accessible for developers and node operators alike.  \n\nIf you’d like to learn more, explore the project on GitHub, join the discussion, and help shape the future of eth-node.  \n\nFor more information, visit the project’s [GitHub](https://github.com/eth-pkg/eth-nodes).  \n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "eth-pkg",
+      "projectTwitter": "ethnode16192"
+    }
+  }
+}

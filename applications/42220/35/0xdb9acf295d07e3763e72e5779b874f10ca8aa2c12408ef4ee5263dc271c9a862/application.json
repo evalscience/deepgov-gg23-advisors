@@ -1,0 +1,327 @@
+{
+  "id": "10",
+  "chainId": 42220,
+  "roundId": "35",
+  "projectId": "0xdb9acf295d07e3763e72e5779b874f10ca8aa2c12408ef4ee5263dc271c9a862",
+  "metadata": {
+    "signature": "0x0a546de0006a3cdf40de1cb23969802fbdf4548dc38b96e499fb0f29dd3a25a42ca5e327dbc9c63ab7e7c39a0f35ef6b57a022b8e733f61fe34544593f3c8fd11c",
+    "application": {
+      "round": "0xd1DBAE8f44ac7798B6eE3Eb739828ccc9eDb8EBB",
+      "answers": [],
+      "project": {
+        "id": "0xdb9acf295d07e3763e72e5779b874f10ca8aa2c12408ef4ee5263dc271c9a862",
+        "title": "Ecovillage Network Ukraine",
+        "logoImg": "bafkreihqcasaopbccqhyeugaphxoaernf3yjftx4ova6qg42lsw2tplsxy",
+        "metaPtr": {
+          "pointer": "bafkreifnv32xidtqlng5y23oyxjon5zmgytnzss3l46fbb6fztqly6fap4",
+          "protocol": "undefined"
+        },
+        "website": "https://genukraine.com.ua/index.php/en/",
+        "bannerImg": "bafybeif2ntitj4cbkmuv5sst7xozwaic4xtl65h4hap6uknrx7khkerq4q",
+        "createdAt": 1742996541696,
+        "userGithub": "maxzalevski",
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-26T13:42:00.811Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x5503afad8c40d4fca402e61bd76e29fd8b889070b927a7184ff7f22594b04d8537013b4678f9dc9cc1175c8bd499d36290f9e58089bd8086fd01033400b6a31d1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-26T13:42:00.811Z",
+            "expirationDate": "2025-06-24T13:42:00.811Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x1DfC4C1acBc8aBa992dC85dd1282b64708081829",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#gen_ukraine",
+              "nullifiers": [
+                "v0.0.0:WRyvgG+00F+g6Z66bpT7yngHV8HZphx/K0ph/4MFfeI="
+              ]
+            }
+          }
+        },
+        "description": "Our project supports ecological regeneration and community resilience in war-affected regions of Ukraine through collaborative land restoration initiatives. Coordinated by **GEN Ukraine**, a network of 60+ rural ecovillages, we engage residents, displaced families, eco-activists, and international allies to restore biodiversity, water systems, and landscape health in diverse ecosystems across the country.\n\n![tree planteing Khuhari](https://cdn-images-1.medium.com/max/1600/1*u-U-dpLdUxpBsNMoFM31MA.png)\n\n### **Community Involvement**  \nEach restoration action is community-led, co-organized by villagers, eco-activists, internally displaced persons (IDPs), and volunteers. Participation spans all ages—from children to elders—and often includes international visitors. Local families prepare the land, maintain ecosystems, and integrate results into everyday life. In some locations, entire communities of 20–40 people are engaged during single events. Women and youth play a critical role in sustaining long-term care and education.\n\n### **Scale & Impact**  \nThe project spans **11+ ecovillages** across Ukraine:  \n- **Gruzke**, **Vesela Slobidka**, **Posolon**, **Zhyvy Dim**, **Kukhari**  \n- **Teplа Hora** (Carpathians)  \n- **Vasylivka** (Dnipro region)  \n- **Chmyrivka** (Cherkasy region)  \n- **Bhumі** (Mykolaiv region)  \n- **Balyky** (Kyiv region)  \n- **Lahulsk** Dendropark (southern Ukraine)\n\nTogether, these locations represent a powerful grassroots effort to regenerate degraded lands, support biodiversity, and respond to climate challenges—despite war-related disruption.\n\n![Tree planting Tartak](https://cdn-images-1.medium.com/max/1600/1*rsq8nrnB1nTaRr__BfnL4w.jpeg)\n\n### **Activities & Approach**  \nOur approach combines **ecological restoration** with **community empowerment**:\n- **Tree planting**: Over 700 trees and shrubs planted across multiple sites (linden, mulberry, pine, hazel, rhododendrons).\n- **Water system regeneration**:  \n  - In **Tepla Hora** (Carpathians), we established water collection systems and rainwater harvesting linked to a mountain stream.  \n  - In **Chmyrivka** (Cherkasy region), a **4-hectare lake cascade** and watershed system is under construction to restore local wetlands.  \n  - In **Vasylivka**, the **Samara River channel was cleared** along 100 meters to revive water flow.\n- **Grazing-based regeneration**:  \n  - In **Bhumі** and **Balyky**, eco-farms are using managed grazing of goats and cows to regenerate soil, fertilize degraded lands, and create habitat diversity.\n- **Access & infrastructure**:  \n  - In **Lahulsk Dendropark**, a **3 km ecological road** was built to support reforestation and conservation access.\n\n![ecocert](https://cdn-images-1.medium.com/max/1600/1*GEYoH0kC0B3t4bRtb4DsjQ.jpeg)\n\nThese efforts are accompanied by ecological education, community gatherings, and permaculture training, building both human and ecosystem resilience.\n\n### **Quantifiable Results**  \n- **2000+ trees and bushes** planted in 2024  \n- **5 water management systems** established or under construction  \n- **4 hectares** restored via lake and wetland system  \n- **100 m** of river cleaned  \n- **3 km** of ecological access road built  \n- **10+ active locations** with 10–40 participants each  \n- **300+ people** directly involved; **1000+ indirectly impacted**  \n- **Improved biodiversity**: habitat for birds, pollinators, and soil organisms  \n- **Soil & water retention** improved in 5+ regions\n\nThis project demonstrates how communities can regenerate nature, even under stress. It merges climate action, biodiversity care, and social healing—making every planting, every trench, and every restored hectare a step toward a livable future.\n\nGithub Report here: https://github.com/maxzalevski/regenerative_lands\ntree planting: https://github.com/maxzalevski/tree_planting\n\nEcocert : https://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-46958966635089507957945695825584013180928",
+        "lastUpdated": 0,
+        "projectGithub": "genukraine",
+        "projectTwitter": "gen_ukraine"
+      },
+      "recipient": "0x1DfC4C1acBc8aBa992dC85dd1282b64708081829"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Ecovillage Network Ukraine",
+      "logoImg": "bafkreihqcasaopbccqhyeugaphxoaernf3yjftx4ova6qg42lsw2tplsxy",
+      "website": "https://genukraine.com.ua/index.php/en/",
+      "bannerImg": "bafybeif2ntitj4cbkmuv5sst7xozwaic4xtl65h4hap6uknrx7khkerq4q",
+      "createdAt": 1742996541696,
+      "userGithub": "maxzalevski",
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-26T13:42:00.811Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x5503afad8c40d4fca402e61bd76e29fd8b889070b927a7184ff7f22594b04d8537013b4678f9dc9cc1175c8bd499d36290f9e58089bd8086fd01033400b6a31d1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-26T13:42:00.811Z",
+          "expirationDate": "2025-06-24T13:42:00.811Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x1DfC4C1acBc8aBa992dC85dd1282b64708081829",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#gen_ukraine",
+            "nullifiers": [
+              "v0.0.0:WRyvgG+00F+g6Z66bpT7yngHV8HZphx/K0ph/4MFfeI="
+            ]
+          }
+        }
+      },
+      "description": "Our project supports ecological regeneration and community resilience in war-affected regions of Ukraine through collaborative land restoration initiatives. Coordinated by **GEN Ukraine**, a network of 60+ rural ecovillages, we engage residents, displaced families, eco-activists, and international allies to restore biodiversity, water systems, and landscape health in diverse ecosystems across the country.\n\n![tree planteing Khuhari](https://cdn-images-1.medium.com/max/1600/1*u-U-dpLdUxpBsNMoFM31MA.png)\n\n### **Community Involvement**  \nEach restoration action is community-led, co-organized by villagers, eco-activists, internally displaced persons (IDPs), and volunteers. Participation spans all ages—from children to elders—and often includes international visitors. Local families prepare the land, maintain ecosystems, and integrate results into everyday life. In some locations, entire communities of 20–40 people are engaged during single events. Women and youth play a critical role in sustaining long-term care and education.\n\n### **Scale & Impact**  \nThe project spans **11+ ecovillages** across Ukraine:  \n- **Gruzke**, **Vesela Slobidka**, **Posolon**, **Zhyvy Dim**, **Kukhari**  \n- **Teplа Hora** (Carpathians)  \n- **Vasylivka** (Dnipro region)  \n- **Chmyrivka** (Cherkasy region)  \n- **Bhumі** (Mykolaiv region)  \n- **Balyky** (Kyiv region)  \n- **Lahulsk** Dendropark (southern Ukraine)\n\nTogether, these locations represent a powerful grassroots effort to regenerate degraded lands, support biodiversity, and respond to climate challenges—despite war-related disruption.\n\n![Tree planting Tartak](https://cdn-images-1.medium.com/max/1600/1*rsq8nrnB1nTaRr__BfnL4w.jpeg)\n\n### **Activities & Approach**  \nOur approach combines **ecological restoration** with **community empowerment**:\n- **Tree planting**: Over 700 trees and shrubs planted across multiple sites (linden, mulberry, pine, hazel, rhododendrons).\n- **Water system regeneration**:  \n  - In **Tepla Hora** (Carpathians), we established water collection systems and rainwater harvesting linked to a mountain stream.  \n  - In **Chmyrivka** (Cherkasy region), a **4-hectare lake cascade** and watershed system is under construction to restore local wetlands.  \n  - In **Vasylivka**, the **Samara River channel was cleared** along 100 meters to revive water flow.\n- **Grazing-based regeneration**:  \n  - In **Bhumі** and **Balyky**, eco-farms are using managed grazing of goats and cows to regenerate soil, fertilize degraded lands, and create habitat diversity.\n- **Access & infrastructure**:  \n  - In **Lahulsk Dendropark**, a **3 km ecological road** was built to support reforestation and conservation access.\n\n![ecocert](https://cdn-images-1.medium.com/max/1600/1*GEYoH0kC0B3t4bRtb4DsjQ.jpeg)\n\nThese efforts are accompanied by ecological education, community gatherings, and permaculture training, building both human and ecosystem resilience.\n\n### **Quantifiable Results**  \n- **2000+ trees and bushes** planted in 2024  \n- **5 water management systems** established or under construction  \n- **4 hectares** restored via lake and wetland system  \n- **100 m** of river cleaned  \n- **3 km** of ecological access road built  \n- **10+ active locations** with 10–40 participants each  \n- **300+ people** directly involved; **1000+ indirectly impacted**  \n- **Improved biodiversity**: habitat for birds, pollinators, and soil organisms  \n- **Soil & water retention** improved in 5+ regions\n\nThis project demonstrates how communities can regenerate nature, even under stress. It merges climate action, biodiversity care, and social healing—making every planting, every trench, and every restored hectare a step toward a livable future.\n\nGithub Report here: https://github.com/maxzalevski/regenerative_lands\ntree planting: https://github.com/maxzalevski/tree_planting\n\nEcocert : https://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-46958966635089507957945695825584013180928",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "genukraine",
+      "projectTwitter": "gen_ukraine"
+    }
+  }
+}

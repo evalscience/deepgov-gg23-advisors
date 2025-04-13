@@ -1,0 +1,462 @@
+{
+  "id": "19",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0x516c5de42ab87ace201b76af95626784e60b8f3e5b38517a2fe21f327d78bae8",
+  "metadata": {
+    "signature": "0x16df57c414373d4212b4c0247ee9e72b7a2b3d53f915c058a25390b90c9b82784c379e433a0c03282c64a47276e2c8a78ba5070a2cd87531eb4aeecc0d77b0c61b",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "yudai.007004@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "＠Yu_da_1",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/Monas-project",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://explorer.gitcoin.co/#/projects/0x516c5de42ab87ace201b76af95626784e60b8f3e5b38517a2fe21f327d78bae8",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Monas is a protocol that enables users to manage their own data with full sovereignty. It extends the capabilities of decentralized identity systems and decentralized storage solutions within the Ethereum ecosystem.\nOne example is key management. Monas allows users to manage cryptographic keys—such as those associated with EOAs or DIDs—in a secure and user-controlled manner.\nMonas also serves as a bridge between off-chain and on-chain environments. While personal or sensitive data cannot be directly stored on-chain due to privacy constraints, Monas enables the secure management of such data off-chain. The authenticity and state of this data can be verified through the Monas Network, and the resulting proofs or signatures can be referenced or validated on-chain.\nBy making it possible to handle sensitive data with verifiability and privacy, Monas opens up the potential for building a new type of Layer 2 system—one that includes a private data space within the Ethereum trust model.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project introduces several pioneering components that enhance privacy, interoperability, and user control:\n1. State Management Network\nWe believe that ensuring data authenticity and consistency is a critical requirement for interoperable systems.\nTo address this, we are developing a decentralized state management network that enables versioning and ordering of operations on data. This allows the system to maintain an auditable and verifiable state across different applications and storage backends.\n2. Encrypted Data Structure for Access Control\nWe are designing a cryptographic data structure that enables intuitive and fine-grained access control.\nUnlike traditional file systems, each directory and file is associated with its own encryption key, and these keys are hierarchically linked.\nUsers have full control over where their data is stored, and the system guarantees that data will never be shared or exposed without the user’s explicit consent.\n3. Storage Abstraction Layer\nInstead of providing storage directly, Monas offers a storage abstraction layer that can interface with various storage services, both decentralized and centralized.\nThis abstraction ensures that users experience a consistent and unified interface for data interaction and management, regardless of the storage service they choose.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Public blockchains like Ethereum are designed for transparency, which makes them inherently unsuitable for handling personal or sensitive data. This poses a significant challenge for applications that require both privacy and trust.\nMonas enables privacy-preserving data management by separating content from state. It ensures that the authenticity and consistency of user data can be verified without revealing the data itself.\nBy enabling this state information to be referenced and validated on Ethereum, Monas allows sensitive and user-controlled data to interact with on-chain logic without compromising privacy.\nThis approach expands Ethereum’s application possibilities by supporting privacy-preserving use cases that require verifiable data authenticity—something that existing on-chain or fully centralized alternatives cannot achieve effectively.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Project Roadmap and Use of Grant Funds**\n\n**Technical Research Phase:**\n- Feb 15 – Mar 31: Design of P2P communication and network discovery\n- Mar 15 – Apr 15: Research, design, and implementation of CRDT\n**Implementation Phase:**\n- Feb 15 – Apr 15: Skeleton implementation of the system\n- Apr 15 – May 15: Full implementation of the SDK\n- Apr 15 – May 31: Test scenario creation and integration testing\n**1st Release:**\n- June 2024: Initial release and SDK publication\n**Use of Grant Funds:**\n- Development costs: 80%\n- Prototype infrastructure and operation: 20%",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Monas provides an infrastructure for securely managing and sharing information that is difficult to handle directly on-chain—such as personal or sensitive data.\nThe Monas network is fully peer-to-peer, and users manage their own decentralized identifiers (DIDs), cryptographic keys, and access control policies. This architecture eliminates the need for centralized authorities and promotes decentralization at the application layer.\nOperations within the Monas network can be signed using Ethereum accounts or compatible cryptographic schemes, enabling on-chain verifiability when needed.\n\nThis approach allows Monas to retain off-chain flexibility while remaining aligned with Ethereum’s security and trust model.\nBy bridging Ethereum with a privacy-preserving, verifiable off-chain layer, Monas enables secure handling of previously infeasible use cases and expands the scope of what can be safely built on top of Ethereum.",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0x516c5de42ab87ace201b76af95626784e60b8f3e5b38517a2fe21f327d78bae8",
+        "title": "Monas",
+        "logoImg": "bafkreibubr6fizbschsmatk22kxtpt4lc6liovbwjbef4kjk7dswifuww4",
+        "metaPtr": {
+          "pointer": "bafkreigkkno7edwpgrtyn2qmzgwb4qwhwkxkc3khoihrmyngmflgmiznta",
+          "protocol": "undefined"
+        },
+        "website": "https://github.com/Monas-project",
+        "bannerImg": "bafkreibv2oukogbzgog7dp6tckfdrfovflq5gwy2b4fybymyp5osyuy26e",
+        "createdAt": 1699094331619,
+        "userGithub": "Yu-da-1",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KZ4LZS9LvBOeQ_ljv0geRfpm5HfgjGwsQeDFVaWQDDBn-WKgi97uEpbhWBn4QW3bG41JY5mGStib5Thp2e2uCg",
+              "type": "Ed25519Signature2018",
+              "created": "2023-11-05T13:02:02.392Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-11-05T13:02:02.392Z",
+            "expirationDate": "2024-02-03T13:02:02.392Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x364B5966A7c788658fba7c604b5C42eB637a381E",
+              "hash": "v0.0.0:i3ZdY2l38aY5f4aoMJ3j9W29FCKZF6geTuMAWDBDmAM=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#Monas-project#121340382"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-20T15:45:17.860Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xc58125d0cfdafc46c65bc503cf2b20d8821d666c51d1789029a5f1ec298205415d5648654695a14ae57cf0009c1fc61744a26946b428dd7304040bd87ead60961c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-20T15:45:17.860Z",
+            "expirationDate": "2025-06-18T15:45:17.860Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x364B5966A7c788658fba7c604b5C42eB637a381E",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#MonasNetwork",
+              "nullifiers": [
+                "v0.0.0:X/CQE2DUZKugEIGkvgAimissXVm9MaaW9Vyeti0W5Ho="
+              ]
+            }
+          }
+        },
+        "description": "# Monas: A Network Protocol for Realizing User Data Sovereignty\nMonas is a network protocol that enables users to have full sovereignty over their data. It ensures data authenticity, privacy protection, and interoperability by utilizing an encrypted data structure and a state management network.\nUnlike traditional solid-line data links, where data connections are rigid and predefined, Monas introduces dotted-line data links, allowing users to dynamically control how their data is linked and shared. This approach creates an environment where autonomy and privacy are preserved, enabling users to manage their data on their own terms.\n# Overview\nMonas is a protocol designed to ensure data authenticity while allowing users to control their data freely.\nWhile technologies such as the Semantic Web, Self-Sovereign Identity (SSI), and Blockchain have improved interoperability and user-centric data management, they still lack certain key components required for a fully decentralized data ecosystem.\nMonas addresses these gaps by integrating existing technologies with a framework that ensures both privacy protection and data authenticity.\nTraditional solid-line data links rigidly define data relationships, making it difficult for users to adjust how their data is managed. Monas introduces dotted-line data links, which enable users to dynamically control and modify data sharing and access based on their intent.\nAdditionally, the Monas network incorporates a state management mechanism to maintain data authenticity and consistency.\n# Prototype\nFrom February to March 2024, we participated in the Data Economy Hackathon, organized by Protocol Labs and DoraHacks, where we developed an initial prototype of Monas. ([Project details](https://dorahacks.io/buidl/11189))\nRecently, we released a limited public prototype focused on Cryptree, an encrypted data structure, and blockchain-based state management.\n**Prototype Access**\nThe prototype is available for testing at the following links:\n- Prototype: [here](https://monas-frontend.vercel.app/)\n- GitHub Documentation: [Proto-Prototype](https://github.com/Monas-project/Proto-Prototype/blob/main/docs/prototype.md)\n- Medium Article: [Prototype Release](https://github.com/Monas-project/Proto-Prototype/blob/main/docs/prototype.md)\n\n# Current Development Status\nAlongside the prototype, we have been conducting design and technical validation to build a fully decentralized system.\nThe Monas network consists of two primary components:\n1. State Management Network\n- A decentralized network that manages data states.\n- Unlike blockchain-based models, this system does not rely on voting-based consensus. Instead, it employs a Conflict-free Replicated Data Type (CRDT) mechanism, which allows the system to automatically converge to the latest state.\n- This ensures that data authenticity and consistency are maintained across the network.\n2. Storage Abstraction Layer\n- A storage abstraction layer that integrates cloud services and decentralized storage networks.\n- Provides a mechanism for Monas and other systems to handle different storage environments as a unified system.\n- Allows users to choose where their data is stored while maintaining interoperability.\nWe are currently developing these components, with the first release focusing on providing an SDK.\n# Development Roadmap\nThe development timeline for Monas is structured as follows:\n**Technical Research Phase**\n- Feb 15 - Mar 31: Evaluation of P2P communication / Design and evaluation of peer discovery and network allocation algorithms.\n- Mar 15 - Apr 15: Research, design, and implementation of CRDT\n**Implementation Phase**\n- Feb 15 - Apr 15: Feb 15 - Apr 15: Skeleton implementation of the system.\n- Apr 15 - May 15: SDK development\n- May 15 - May 31: Test scenario creation and integration testing\n**First Release (June 2025)**\n- SDK release and initial deployment\nThe roadmap may be adjusted based on further refinements and proof-of-concept testing, but the June 2025 first release remains the primary milestone.\n# Conclusion\nMonas is currently under active development, with the Proto-Prototype publicly available. The next phase focuses on implementing the State Management Network and Storage Abstraction Layer.\nWe aim to complete development for the first release by June 2024, with an SDK that provides the foundation for further expansion and integration.\n\n**Further Information**\n- Project Documentation: Monas: [Privacy, Data Interoperability, and Self-Sovereignty in Decentralized Personal Data Store v1.0.1]()\n- Presentation Slides: [Monas Overview](https://docs.google.com/presentation/d/1CSDXeBKCRI5UfYq_DA_zj8i6FO6yLWsr/edit#slide=id.p1)",
+        "lastUpdated": 0,
+        "projectGithub": "Monas-project",
+        "projectTwitter": "MonasNetwork"
+      },
+      "recipient": "0xd1F2610d01f21226b258090E7b970A8ba0f0ad84"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Monas",
+      "logoImg": "bafkreibubr6fizbschsmatk22kxtpt4lc6liovbwjbef4kjk7dswifuww4",
+      "website": "https://github.com/Monas-project",
+      "bannerImg": "bafkreibv2oukogbzgog7dp6tckfdrfovflq5gwy2b4fybymyp5osyuy26e",
+      "createdAt": 1699094331619,
+      "userGithub": "Yu-da-1",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..KZ4LZS9LvBOeQ_ljv0geRfpm5HfgjGwsQeDFVaWQDDBn-WKgi97uEpbhWBn4QW3bG41JY5mGStib5Thp2e2uCg",
+            "type": "Ed25519Signature2018",
+            "created": "2023-11-05T13:02:02.392Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-11-05T13:02:02.392Z",
+          "expirationDate": "2024-02-03T13:02:02.392Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x364B5966A7c788658fba7c604b5C42eB637a381E",
+            "hash": "v0.0.0:i3ZdY2l38aY5f4aoMJ3j9W29FCKZF6geTuMAWDBDmAM=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#Monas-project#121340382"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-20T15:45:17.860Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xc58125d0cfdafc46c65bc503cf2b20d8821d666c51d1789029a5f1ec298205415d5648654695a14ae57cf0009c1fc61744a26946b428dd7304040bd87ead60961c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-20T15:45:17.860Z",
+          "expirationDate": "2025-06-18T15:45:17.860Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x364B5966A7c788658fba7c604b5C42eB637a381E",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#MonasNetwork",
+            "nullifiers": [
+              "v0.0.0:X/CQE2DUZKugEIGkvgAimissXVm9MaaW9Vyeti0W5Ho="
+            ]
+          }
+        }
+      },
+      "description": "# Monas: A Network Protocol for Realizing User Data Sovereignty\nMonas is a network protocol that enables users to have full sovereignty over their data. It ensures data authenticity, privacy protection, and interoperability by utilizing an encrypted data structure and a state management network.\nUnlike traditional solid-line data links, where data connections are rigid and predefined, Monas introduces dotted-line data links, allowing users to dynamically control how their data is linked and shared. This approach creates an environment where autonomy and privacy are preserved, enabling users to manage their data on their own terms.\n# Overview\nMonas is a protocol designed to ensure data authenticity while allowing users to control their data freely.\nWhile technologies such as the Semantic Web, Self-Sovereign Identity (SSI), and Blockchain have improved interoperability and user-centric data management, they still lack certain key components required for a fully decentralized data ecosystem.\nMonas addresses these gaps by integrating existing technologies with a framework that ensures both privacy protection and data authenticity.\nTraditional solid-line data links rigidly define data relationships, making it difficult for users to adjust how their data is managed. Monas introduces dotted-line data links, which enable users to dynamically control and modify data sharing and access based on their intent.\nAdditionally, the Monas network incorporates a state management mechanism to maintain data authenticity and consistency.\n# Prototype\nFrom February to March 2024, we participated in the Data Economy Hackathon, organized by Protocol Labs and DoraHacks, where we developed an initial prototype of Monas. ([Project details](https://dorahacks.io/buidl/11189))\nRecently, we released a limited public prototype focused on Cryptree, an encrypted data structure, and blockchain-based state management.\n**Prototype Access**\nThe prototype is available for testing at the following links:\n- Prototype: [here](https://monas-frontend.vercel.app/)\n- GitHub Documentation: [Proto-Prototype](https://github.com/Monas-project/Proto-Prototype/blob/main/docs/prototype.md)\n- Medium Article: [Prototype Release](https://github.com/Monas-project/Proto-Prototype/blob/main/docs/prototype.md)\n\n# Current Development Status\nAlongside the prototype, we have been conducting design and technical validation to build a fully decentralized system.\nThe Monas network consists of two primary components:\n1. State Management Network\n- A decentralized network that manages data states.\n- Unlike blockchain-based models, this system does not rely on voting-based consensus. Instead, it employs a Conflict-free Replicated Data Type (CRDT) mechanism, which allows the system to automatically converge to the latest state.\n- This ensures that data authenticity and consistency are maintained across the network.\n2. Storage Abstraction Layer\n- A storage abstraction layer that integrates cloud services and decentralized storage networks.\n- Provides a mechanism for Monas and other systems to handle different storage environments as a unified system.\n- Allows users to choose where their data is stored while maintaining interoperability.\nWe are currently developing these components, with the first release focusing on providing an SDK.\n# Development Roadmap\nThe development timeline for Monas is structured as follows:\n**Technical Research Phase**\n- Feb 15 - Mar 31: Evaluation of P2P communication / Design and evaluation of peer discovery and network allocation algorithms.\n- Mar 15 - Apr 15: Research, design, and implementation of CRDT\n**Implementation Phase**\n- Feb 15 - Apr 15: Feb 15 - Apr 15: Skeleton implementation of the system.\n- Apr 15 - May 15: SDK development\n- May 15 - May 31: Test scenario creation and integration testing\n**First Release (June 2025)**\n- SDK release and initial deployment\nThe roadmap may be adjusted based on further refinements and proof-of-concept testing, but the June 2025 first release remains the primary milestone.\n# Conclusion\nMonas is currently under active development, with the Proto-Prototype publicly available. The next phase focuses on implementing the State Management Network and Storage Abstraction Layer.\nWe aim to complete development for the first release by June 2024, with an SDK that provides the foundation for further expansion and integration.\n\n**Further Information**\n- Project Documentation: Monas: [Privacy, Data Interoperability, and Self-Sovereignty in Decentralized Personal Data Store v1.0.1]()\n- Presentation Slides: [Monas Overview](https://docs.google.com/presentation/d/1CSDXeBKCRI5UfYq_DA_zj8i6FO6yLWsr/edit#slide=id.p1)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Monas-project",
+      "projectTwitter": "MonasNetwork"
+    }
+  }
+}

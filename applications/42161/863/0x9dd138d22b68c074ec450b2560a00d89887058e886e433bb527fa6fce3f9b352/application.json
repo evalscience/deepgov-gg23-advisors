@@ -1,0 +1,673 @@
+{
+  "id": "47",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x9dd138d22b68c074ec450b2560a00d89887058e886e433bb527fa6fce3f9b352",
+  "metadata": {
+    "signature": "0x4944f669b87dcc72ecae932273bf5f2b6ed2671997e126444598a4417f783a8b33011f30cd2afc02064b755654621bddb52f4f50d246debbd3b757d33dd024b41b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "rsulisthio@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "metalboyrick",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/fractaldotbox/ddevkit",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Previously GG22",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "@shadcn/ui allows you to copy-paste or generate components directly within your codebase, avoiding extra package installations and enhancing AI understanding of your project.\n\ndDevKit brings this concept to web3 development. Inspired by @shadcn/ui, it lets you quickly integrate web3 frontend components and utilities through copy-pasting or CLI generation—no additional packages required. You can create functional components in under 30 seconds!\n\nWith dDevKit, you can:\n- Render token charts\n- Manage EAS Attestations\n- Handle IPFS files\n- Connect wallets providers\n- ... and many more!\n\nBenefits:\n\n- _Smaller Bundle Size_: Import only essential components, keeping your app efficient.\n\n- _Highly Customizable_: Easily modify functionality and styling within your native codebase.\n\n- _AI-Friendly_: Directly integrated components enhance AI-driven development and code generation.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project simplifies web3 development for all skill levels:\n\nBeginners quickly integrate essential web3 functionalities using dDevKit components without worrying about complex protocol details. \n\nExperienced developers save valuable time using pre-built components as a foundation. Components are easily customizable, accommodating intricate designs or unique requirements.\n\nAI Agents can easily understand context of the component's implementation and make the necessary integrations.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Dogfooded at hackathons & won 2 finalists! ([ETHGlobal Bangkok](https://ethglobal.com/showcase/tuk-tuk-to-the-moon-fwn9j) + [ETHDenver](https://devfolio.co/projects/seele-3477))\n- Dogfood for Content Management Systems (CMS) project for human & agents in the Filecoin Ecosystem.\n- Expand to Utils for agents besides components (dAppKit->dDevKit)\n- Top-Funded @ GG22 Hackathon Alumni ",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Check out the [Public Roadmap](https://github.com/orgs/fractaldotbox/projects/13/views/1), highlights:\n  - Receipes at bolt.new for 0-1 prompt to dapp examples\n  - Integrate Cursor as MCP server to run cli and query ddevkit docs\n  - Showcase for agent swarm interactions, on-chain reputation agents\n  - More components & utils - Viem-based Aave v3, Account abstraction with Privy, permissionless, agent memories\n  - Create sample MCP plugins with smithery.ai\n  - Engage & Support hackers at ETHGlobal hackathons, partner with ecosystems to create showcases ",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "No smart contracts",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x9dd138d22b68c074ec450b2560a00d89887058e886e433bb527fa6fce3f9b352",
+        "title": "dDevKit",
+        "logoImg": "bafkreigua7gmcvnbhoky7iuey7j2kfgtdnxpxnnf2hb7qoaduymukvlcke",
+        "metaPtr": {
+          "pointer": "bafkreifkvifcwxdo46yyci7q2cczcqktojjm7nupavb6usti7y7wdto65q",
+          "protocol": "undefined"
+        },
+        "website": "https://ddevkit.geist.network/",
+        "bannerImg": "bafkreihstzqoh3h3sbguobq27drfghdte3hz6s2tacmbgqkqbrbxcoy4tq",
+        "createdAt": 1743323419712,
+        "userGithub": "metalboyrick",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T09:05:25.187Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x62c51b377ee19aca552952b9595af9ca5fb8488af4defd85b093891bae656ca91bec7b7312de964754ca17a7f819252c31e7a8734b11acb8dab38777222e0df31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T09:05:25.187Z",
+            "expirationDate": "2025-06-28T09:05:25.187Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x9aaED666836F3acb0563c3f74fb2a0Ae8353C961",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#fractaldotbox#53423618",
+              "nullifiers": [
+                "v0.0.0:8grk+c7NSOohL6DkaS1nA9Qjah4ZkAZQeZsl5kf20L0="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T08:46:09.624Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2f193ea517d6a8db60b8e7e810acd05acb6ebf0d83973bddbc9722c79c2d82564328a477d80ee638d00c18125a08214c767fa2b277ca16018f55590b93a9dfff1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T08:46:09.624Z",
+            "expirationDate": "2025-06-28T08:46:09.624Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x9aaED666836F3acb0563c3f74fb2a0Ae8353C961",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#dDevKit",
+              "nullifiers": [
+                "v0.0.0:PW4Z4r4P7KvDK0/wIhSztkxNwivw8zzysCpZZTc3e+8="
+              ]
+            }
+          }
+        },
+        "description": "🏆 Team won 4x Finalist @ ETHGlobal & Denver \n🙏 Top-Funded @ GG22 Hackathon Alumini \n❤️ OSS, Public Good \n👩‍💻 Improve Developer Experience \n🔒 Secure dApps & Agents  \n✅ Team donated 2ETH+ in past GG \n🙌 Organized OSS/Dev communities for 10yrs+\n\ndDevKit - Build your own typescript components and utilities library for dApps and agents.\n\n![ezgif-8ae3e9ea1c4249](https://bafybeiexxejvvb33ej6otajzkhzm3cjuvklui4m3o6e2krhfepncsy6cye.ipfs.w3s.link/ezgif-8ae3e9ea1c4249.gif)\n\nWhat if we can _VIBE CODE_ in _Web3_?\n\nDdevKit is a Shadcn-style tool for you/LLM to add working components/utils in 30 seconds.\n - 50+ Components & utils for\n   - Display & query identity & reputation score from ENS, Passport, Open Source Observer\n   - Upload & download IPFS via Storacha/Lighthouse/Akave\n   - Charts with Defillama, Blockscot\n   - Attest with Ethereum Attestation Service. \n\n- Working receipes to integrate various web2/3 agent frameworks\n   - Langchain, CDP Agentkit, MCP+Miastra, @xstate/agent & more!\n\n# 🏗️ What we've done since GG22\n\n- Launched beta!\n  - Now you can install 50+ components/utils with single command\n  - `@shadcn/cli` compatability & custom cli\n- Dogfooded at hackathons & won 2 finalists! ([ETHGlobal Bangkok](https://ethglobal.com/showcase/tuk-tuk-to-the-moon-fwn9j) + [ETHDenver](https://devfolio.co/projects/seele-3477))\n- Dogfood for Content Management Systems (CMS) project for human & agents in Filecoin Ecosystems\n- Expand to Utils for agents besides components (dAppKit->dDevKit)\n\n# 🚀 What's next\n- Check out the [Public Roadmap](https://github.com/orgs/fractaldotbox/projects/13/views/1), highlights:\n  - Receipes at bolt.new for 0-1 prompt to dapp examples\n  - Integrate Cursor as MCP server to run cli and query ddevkit docs\n  - Showcase for agent swarm interactions, on-chain reputation agents\n  - More components & utils - Viem-based Aave v3, Account abstraction with Privy, permissionless, agent memories\n  - Create sample MCP plugins with smithery.ai\n  - Engage & Support hackers at ETHGlobal hackathons, partner with ecosystems to create showcases \n\n# 🙌 Team\n\nThe project came about from the Team's experience building production apps at large Venture sudio, 10+ hackathons (✌️4 finalist)\n\n![schelling_point](https://bafybeiehajlhxrpr2g2y5qaoavduoxp5udjapi3c4k2u6g6iyr4c4kng6i.ipfs.w3s.link/schelling_point.jpg)\n\n![ddevkit_ethdenver](https://bafybeidnmzmfquaapcushblojiab73hqak422nsst2xztoadofhqakjtui.ipfs.w3s.link/ddevkit_ethdenver.jpg)",
+        "lastUpdated": 0,
+        "projectGithub": "fractaldotbox",
+        "projectTwitter": "dDevKit"
+      },
+      "recipient": "0xbb307Fa79a4Ebee900a93F594aa50b8C190e4177"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "dDevKit",
+      "logoImg": "bafkreigua7gmcvnbhoky7iuey7j2kfgtdnxpxnnf2hb7qoaduymukvlcke",
+      "website": "https://ddevkit.geist.network/",
+      "bannerImg": "bafkreihstzqoh3h3sbguobq27drfghdte3hz6s2tacmbgqkqbrbxcoy4tq",
+      "createdAt": 1743323419712,
+      "userGithub": "metalboyrick",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T09:05:25.187Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x62c51b377ee19aca552952b9595af9ca5fb8488af4defd85b093891bae656ca91bec7b7312de964754ca17a7f819252c31e7a8734b11acb8dab38777222e0df31b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T09:05:25.187Z",
+          "expirationDate": "2025-06-28T09:05:25.187Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x9aaED666836F3acb0563c3f74fb2a0Ae8353C961",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#fractaldotbox#53423618",
+            "nullifiers": [
+              "v0.0.0:8grk+c7NSOohL6DkaS1nA9Qjah4ZkAZQeZsl5kf20L0="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T08:46:09.624Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2f193ea517d6a8db60b8e7e810acd05acb6ebf0d83973bddbc9722c79c2d82564328a477d80ee638d00c18125a08214c767fa2b277ca16018f55590b93a9dfff1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T08:46:09.624Z",
+          "expirationDate": "2025-06-28T08:46:09.624Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x9aaED666836F3acb0563c3f74fb2a0Ae8353C961",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#dDevKit",
+            "nullifiers": [
+              "v0.0.0:PW4Z4r4P7KvDK0/wIhSztkxNwivw8zzysCpZZTc3e+8="
+            ]
+          }
+        }
+      },
+      "description": "🏆 Team won 4x Finalist @ ETHGlobal & Denver \n🙏 Top-Funded @ GG22 Hackathon Alumini \n❤️ OSS, Public Good \n👩‍💻 Improve Developer Experience \n🔒 Secure dApps & Agents  \n✅ Team donated 2ETH+ in past GG \n🙌 Organized OSS/Dev communities for 10yrs+\n\ndDevKit - Build your own typescript components and utilities library for dApps and agents.\n\n![ezgif-8ae3e9ea1c4249](https://bafybeiexxejvvb33ej6otajzkhzm3cjuvklui4m3o6e2krhfepncsy6cye.ipfs.w3s.link/ezgif-8ae3e9ea1c4249.gif)\n\nWhat if we can _VIBE CODE_ in _Web3_?\n\nDdevKit is a Shadcn-style tool for you/LLM to add working components/utils in 30 seconds.\n - 50+ Components & utils for\n   - Display & query identity & reputation score from ENS, Passport, Open Source Observer\n   - Upload & download IPFS via Storacha/Lighthouse/Akave\n   - Charts with Defillama, Blockscot\n   - Attest with Ethereum Attestation Service. \n\n- Working receipes to integrate various web2/3 agent frameworks\n   - Langchain, CDP Agentkit, MCP+Miastra, @xstate/agent & more!\n\n# 🏗️ What we've done since GG22\n\n- Launched beta!\n  - Now you can install 50+ components/utils with single command\n  - `@shadcn/cli` compatability & custom cli\n- Dogfooded at hackathons & won 2 finalists! ([ETHGlobal Bangkok](https://ethglobal.com/showcase/tuk-tuk-to-the-moon-fwn9j) + [ETHDenver](https://devfolio.co/projects/seele-3477))\n- Dogfood for Content Management Systems (CMS) project for human & agents in Filecoin Ecosystems\n- Expand to Utils for agents besides components (dAppKit->dDevKit)\n\n# 🚀 What's next\n- Check out the [Public Roadmap](https://github.com/orgs/fractaldotbox/projects/13/views/1), highlights:\n  - Receipes at bolt.new for 0-1 prompt to dapp examples\n  - Integrate Cursor as MCP server to run cli and query ddevkit docs\n  - Showcase for agent swarm interactions, on-chain reputation agents\n  - More components & utils - Viem-based Aave v3, Account abstraction with Privy, permissionless, agent memories\n  - Create sample MCP plugins with smithery.ai\n  - Engage & Support hackers at ETHGlobal hackathons, partner with ecosystems to create showcases \n\n# 🙌 Team\n\nThe project came about from the Team's experience building production apps at large Venture sudio, 10+ hackathons (✌️4 finalist)\n\n![schelling_point](https://bafybeiehajlhxrpr2g2y5qaoavduoxp5udjapi3c4k2u6g6iyr4c4kng6i.ipfs.w3s.link/schelling_point.jpg)\n\n![ddevkit_ethdenver](https://bafybeidnmzmfquaapcushblojiab73hqak422nsst2xztoadofhqakjtui.ipfs.w3s.link/ddevkit_ethdenver.jpg)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "fractaldotbox",
+      "projectTwitter": "dDevKit"
+    }
+  }
+}

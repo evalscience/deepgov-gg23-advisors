@@ -1,0 +1,665 @@
+{
+  "id": "129",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xd4c3c82600252c64f47e6f4505f58bf691c42277aa2548748426e4d1bcf4b15c",
+  "metadata": {
+    "signature": "0x31b12daaf05f9adb988e2c7876d6974865f698b67958bfe6ff7c311764261e2072ff54d28ab699db7f8d8ec06a65f6989070fa621f4baf84edadd6a3bebd12631c",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "xdamman@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "xdamman",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/opencollective/txinfo",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "It enables the community to add metadata to any transaction in a way that anyone can make use of it (using an the open decentralized protocol Nostr)",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Etherscan allows you to add metadata but only for yourself and behind an api key. This enables anyone to add public metadata that any one can use.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Offer an npm package to make it easy for any OSS developer to make use of this new metadata layer in their own app. ",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "n/a",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xd4c3c82600252c64f47e6f4505f58bf691c42277aa2548748426e4d1bcf4b15c",
+        "title": "TxInfo.xyz",
+        "logoImg": "bafkreifbeg5brnxlum5qabwdwlfd676ughoqfvxjydviwqamtogonhe6ri",
+        "metaPtr": {
+          "pointer": "bafkreihbdrh4l45b3kzeqbrhqxutlyjlbzsoutj5jctmsyx7w5i46l42ou",
+          "protocol": "undefined"
+        },
+        "website": "https://txinfo.xyz",
+        "bannerImg": "bafkreibmipuse253g5pt3e2ybadqou5ksue7qnf75q2yfln66h3zujqg6e",
+        "createdAt": 1742568701251,
+        "userGithub": "xdamman",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T18:15:45.732Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2d295e22e4c9e5b24ba2597663dfa8100b17fe70b07111691a1b654a801c62b455733bde058a0410db3858cd3ff1e2a5bf90129e460461c24fa67651d61f14311c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T18:15:45.731Z",
+            "expirationDate": "2025-06-28T18:15:45.731Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xf11704511975cC5908f6dBd89Be922f5C86c1055",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#opencollective#74358",
+              "nullifiers": [
+                "v0.0.0:N3+K4VMYnLHn3T/MxErsIdmIcJx9urx6q0vOeKO1xpo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-21T13:56:31.795Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x32688a469c0780c87ebad8ec865d73a6caee89fc2e26859b9a005106d4f395040b24e5259dd48f6893b738658714d3348342b4ac66d1a8d99b50b5fa28c355c21c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-21T13:56:31.795Z",
+            "expirationDate": "2025-06-19T13:56:31.795Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xf11704511975cC5908f6dBd89Be922f5C86c1055",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#xdamman",
+              "nullifiers": [
+                "v0.0.0:kV24FLqJ0NDnihIkXGtKAtZz0TuoKm2mTOET0bMUfb0="
+              ]
+            }
+          }
+        },
+        "description": "Add metadata to any blockchain transaction using Nostr.\n\nBlockchain transactions are cryptic by nature - just addresses and amounts. But behind each transaction is a human story: a donation to a cause, a payment for services, or a gift to a friend. TxInfo lets you add this missing context, making blockchain data more meaningful and accessible to everyone. Built on Nostr, it's decentralized, censorship-resistant, and always available.\n\nAs we talk more and more about putting public money onchain (we should!), we need a way to collaboratively annotate those transactions.\n\nAlso useful for all projects raising funds on Gitcoin that want to provide more transparency on where their funding is coming from and where it is going.\n\n## How to use?\n\nSimply change the etherscan.io (or arbiscan.io, celoscan.io, gnosisscan.io, ...) domain to `txinfo.xyz/:chain` in the url to get a user editable list of transactions.\n\nE.g. \nhttps://arbiscan.com/address/0x08e40e1C0681D072a54Fc5868752c02bb3996FFA\n👉 \nhttps://txinfo.xyz/arbitrum/address/0x08e40e1C0681D072a54Fc5868752c02bb3996FFA\n\nAlso works with ENS:\nE.g. https://txinfo.xyz/ethereum/address/uniswap.eth",
+        "lastUpdated": 0,
+        "projectGithub": "opencollective",
+        "projectTwitter": "xdamman"
+      },
+      "recipient": "0x2cCC2e305DeE93A87C927Fef0bE4DeB9B8132E5E"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "TxInfo.xyz",
+      "logoImg": "bafkreifbeg5brnxlum5qabwdwlfd676ughoqfvxjydviwqamtogonhe6ri",
+      "website": "https://txinfo.xyz",
+      "bannerImg": "bafkreibmipuse253g5pt3e2ybadqou5ksue7qnf75q2yfln66h3zujqg6e",
+      "createdAt": 1742568701251,
+      "userGithub": "xdamman",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T18:15:45.732Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2d295e22e4c9e5b24ba2597663dfa8100b17fe70b07111691a1b654a801c62b455733bde058a0410db3858cd3ff1e2a5bf90129e460461c24fa67651d61f14311c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T18:15:45.731Z",
+          "expirationDate": "2025-06-28T18:15:45.731Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xf11704511975cC5908f6dBd89Be922f5C86c1055",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#opencollective#74358",
+            "nullifiers": [
+              "v0.0.0:N3+K4VMYnLHn3T/MxErsIdmIcJx9urx6q0vOeKO1xpo="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-21T13:56:31.795Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x32688a469c0780c87ebad8ec865d73a6caee89fc2e26859b9a005106d4f395040b24e5259dd48f6893b738658714d3348342b4ac66d1a8d99b50b5fa28c355c21c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-21T13:56:31.795Z",
+          "expirationDate": "2025-06-19T13:56:31.795Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xf11704511975cC5908f6dBd89Be922f5C86c1055",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#xdamman",
+            "nullifiers": [
+              "v0.0.0:kV24FLqJ0NDnihIkXGtKAtZz0TuoKm2mTOET0bMUfb0="
+            ]
+          }
+        }
+      },
+      "description": "Add metadata to any blockchain transaction using Nostr.\n\nBlockchain transactions are cryptic by nature - just addresses and amounts. But behind each transaction is a human story: a donation to a cause, a payment for services, or a gift to a friend. TxInfo lets you add this missing context, making blockchain data more meaningful and accessible to everyone. Built on Nostr, it's decentralized, censorship-resistant, and always available.\n\nAs we talk more and more about putting public money onchain (we should!), we need a way to collaboratively annotate those transactions.\n\nAlso useful for all projects raising funds on Gitcoin that want to provide more transparency on where their funding is coming from and where it is going.\n\n## How to use?\n\nSimply change the etherscan.io (or arbiscan.io, celoscan.io, gnosisscan.io, ...) domain to `txinfo.xyz/:chain` in the url to get a user editable list of transactions.\n\nE.g. \nhttps://arbiscan.com/address/0x08e40e1C0681D072a54Fc5868752c02bb3996FFA\n👉 \nhttps://txinfo.xyz/arbitrum/address/0x08e40e1C0681D072a54Fc5868752c02bb3996FFA\n\nAlso works with ENS:\nE.g. https://txinfo.xyz/ethereum/address/uniswap.eth",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "opencollective",
+      "projectTwitter": "xdamman"
+    }
+  }
+}

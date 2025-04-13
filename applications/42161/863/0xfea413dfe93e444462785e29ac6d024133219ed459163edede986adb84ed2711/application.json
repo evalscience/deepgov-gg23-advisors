@@ -1,0 +1,252 @@
+{
+  "id": "51",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xfea413dfe93e444462785e29ac6d024133219ed459163edede986adb84ed2711",
+  "metadata": {
+    "signature": "0x5734a473375ff6ddcc717fc9cb942942a40c9f8d1bc2b924c60ab663c091f82e3ea8dd09f027c1ed42e8baf7280cd3d485b7d65ac159ff3aae11138bb41710bb1b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "marc@deficollective.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@marcvlad",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/deficollective/defiscan",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/7bwtyzPT",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "DeFiScan offers a framework formalizing the decentralization stages of DeFi evm technology and allowing, for the first time, to assess and monitor the technology's maturity in a verifiable manner through an opensource dashboard at defiscan.info.\n\nThis framework consists of two parts:\n\n1. A centralization risk scoring system based on a scale of \"High\", \"Medium\" and \"Low\" severity risks.\n\n2. A formalization of the decentralization stages which relates directly to the risk scores achieved by a DeFi protocol.\n\nIn fine, DeFiScan addresses transparency problems in DeFi and sets decentralized  standards for DeFi builders.",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "We enhance the security of Web3 by providing unbiased reviews of DeFi protocols and by advocating self-policing to DeFi developers. \n\nWe bring transparency and raise the decentralization standards in the industry.\n\nWe reduce development barriers and improve development efficiency by offering a framework / public dashboard on which DeFi builders and users can rely on to better understand how decentralized their DeFi protocols really are.\nOur Github enables opensource collaboration between protocols and reviewers and offer tools as well as examples to review the decentralization level of a DeFi protocols.  \nOne of our tool is a  permission-scanner (https://github.com/deficollective/permission-scanner) which enables scanning a DeFi protocol, or any smart contract system, for permissioned functions - it returns a list of the smart contracts, the identified permissioned functions and respective permission owners.\n\n\nA practical example of DeFiScan enhancing the security of DeFi and improving development efficiency can be found in our Uniswap V3 review. We enable more security to the  protocol and its users as the team took action after learning from our report that some of their contracts were unverified: (https://x.com/haydenzadams/status/1884715908683157917).\n\nAnother example:  Our framework requires DeFi protocol to offer multiple front-end (to secure accessibility of the services) and this has been applied by Ajna V2 and Velodrome-v2 as we were reviewing their protocols.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "\nDeFiScan reviewed 16 protocols since November and we are  currently reviewing 9 protocols  officially (Aave, Sir, Sky, Cat-in-a-box, Ethena, RocketPool, PWN, Pendle and Morpho).\n\nWe have 3 ongoing community programs as of today:\n\n- Our main community review program \n(https://deficollective.org/blog/defiscan-community-review-program/)\n\n- A review program of Curve's ecosystem with the Llama and the broader Curve community. \n(https://woolish.gg/bounties/y3qWvVah2lRx/)\n\n- Unmasking centralization program\n (https://deficollective.org/blog/the-great-unmasking/)\n\nOur GitHub repository (https://github.com/deficollective/defiscan) has 16 stars.\n\nWe have received a grant from the Ethereum Foundation in March 2025 to boost our efforts (https://deficollective.org/blog/ef-grants/)\n\nStage 2 protocols like Liquity and Pooltogether praised our work and are expanding research, funding and community building efforts with us. \nLiquity: https://deficollective.org/blog/bold-strategy/\nPool: https://deficollective.org/blog/pttdc/\n\nOther Public good funding platforms were super welcoming to our project, notably Giveth (https://t.co/BgXk89eFaH) and Octant (eligible but not funded on the 6th epoch).\n\nWe are invited as speakers in various ETH conferences (ETHBelgrade, ETHCC, ETHCluj, ETHZurich) and DeFi focus academic curriculum  (EPFL, ETH, EPFZ, HEG Geneve, University of Bucharest, Cluj and Vienna). ",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We aim to review 90% of DeFi's TVL on evm chains by Q3 2025.\n\nWe will offer an API on our dashboard for wallets, aggregators and security platforms by the end of the year.\n\nWe want to revamp our website and enhance the UX both for our casual users and for protocols reviewers.\n\nWe aim to fund more community programs to enhance the reviews of various DeFi protocols in an open source fashion. \n\nWe also plan to establish strategic partnerships with educational institutions, incentive/grant programs, key blockchain foundations, policy makers, and other actors (for-profits and non-profits) focused on DeFi to secure future funding opportunities and enhance the transparency as well as the decentralization standards of the industry.\n\n--\nOperational expenses are covered by the treasury funded through previous donations and continuous on-chain rewards generated by the Collective.  \nYou can check our reporting here (https://deficollective.org/tags/tdc-monthly-report/) or directly onchain at:\ngrantsfortheants.eth & deficollective.eth\n\nThe Collective aims to fully self-sustain all operational expenses, meaning the Gitcoin donations are used exclusively to raise awareness, enhance the UX and API of DeFiScan API, and fund community reviews, rather than for administrative or operational costs.\n\nYou can check The DeFi Collective treasury is already generating rewards to support our missions through our first yearly financial report showcasing the financial details of our operations.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "-",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xfea413dfe93e444462785e29ac6d024133219ed459163edede986adb84ed2711",
+        "title": "DeFiScan",
+        "logoImg": "bafkreicax6rs4g3y7qvnefcy5qriy2nxt6j3ipg5ul3y45clw2sitvzyrq",
+        "metaPtr": {
+          "pointer": "bafkreifzpsmqzgggtzfmmmoeel2awdgsh6b7kfhq4cyc7edkbrrlsq43im",
+          "protocol": "undefined"
+        },
+        "website": "https://defiscan.info/",
+        "bannerImg": "bafkreiapui76ljagtjazpqgvw3ri6frewytkw5h457ldig4ci3qwbp6kui",
+        "createdAt": 1743066377546,
+        "userGithub": "marcvlad",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T09:30:24.485Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xb1245daa56f90f313e076937e8952d7698506382714017297d17f2b6c956aad9507d997f13d88e66cb398984153b5dcd250c70a6af933b273b9487dbd4b4df891c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T09:30:24.485Z",
+            "expirationDate": "2025-06-29T09:30:24.485Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xaCdaaAc8ded054Cf4449ad355157329ee76578E6",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#deficollective#59824473",
+              "nullifiers": [
+                "v0.0.0:D148exgkksPpPlIxo4O1JQeKQh4xeZofjp80/hOA6jU="
+              ]
+            }
+          }
+        },
+        "description": "DeFiScan - is an opensource research framework and analytics dashboard offering comprehensive and unbiased insights into the decentralization level of EVM DeFi applications.\n\nDeFiScan is a public good to provide users with verifiable insights into the maturity and risk metrics of various DeFi platforms, helping them make informed decisions while engaging with these technologies.\n\nDeFiScan promotes transparency, education, self-policing, and informed decision-making in DeFi for both users and developers. Like L2Beat, we use a stage (0-1-2) system to categorize projects based on their level of decentralization and the inherent risks associated with centralization.\n\nOur goal is to cover 90% all the TVL of EVM chains this year!\n\nTeam Information\n\nOur team consists of 9 crypto natives and experienced professionals in blockchain technology, DeFi, software development, public good, governance and law.\n\nBoard members include:\n\nTokenBrice: A key figure in the DeFi community and an integral part of The DeFi Collective.\n\nNils: DeFi protocol architect and developer at The DeFi Collective.\n\nFlorian: Attorney at law with a focus on regulation and compliance.\n\nBesides our board members, The DeFi Collective is supported by a group of dedicated contributors who play a vital role in various aspects of our operations, from technical development to community engagement.\n\nSustainability Plan:\n\nOperational expenses are covered by the treasury funded through previous donations and continuous on-chain rewards generated by the Collective. The Collective aims to fully self-sustain all operational expenses, meaning the Gitcoin donations are used exclusively to raise awareness, enhance the UX and API of DeFiScan API, and fund community reviews, rather than for administrative or operational costs.\n\nYou can check The DeFi Collective treasury is already generating rewards to support our missions through our first yearly financial report showcasing the financial details of our operations.\n\nWe also plan to establish strategic partnerships with educational institutions, incentive/grant programs, key blockchain foundations, and other actors (for-profits and non-profits) focused on DeFi to secure future funding opportunities.\n\nNotable recent achievement:\n\n-Reviewed 16 protocols since November (which notably led to Uniswap v3 verifying their contracts on Arbitrum and Base) + currently reviewing 10 protocols (Aave, Curve, Sir, Sky, Cat-in-a-box, Ethena, RocketPool, PWN, Pendle and Morpho).\n\n-Recruiting two full-time reviewers through an Ethereum Foundation Grant.\n\n-Hosting and participating in major Ethereum-centric events (ETHZurich, ETHSofia, ETHBucharest, , ETHPrague, ETHBelgrade, ProtocolBerg, DappCon, ETHKyiv, ETHCluj, ETHCC, & Devcon).",
+        "lastUpdated": 0,
+        "projectGithub": "deficollective",
+        "projectTwitter": "defiscan_info"
+      },
+      "recipient": "0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 1,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

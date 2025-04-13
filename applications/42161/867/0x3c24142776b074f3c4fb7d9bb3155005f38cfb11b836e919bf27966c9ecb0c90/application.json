@@ -1,0 +1,666 @@
+{
+  "id": "108",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x3c24142776b074f3c4fb7d9bb3155005f38cfb11b836e919bf27966c9ecb0c90",
+  "metadata": {
+    "signature": "0xcb8551e09ad94e5a8c33074ce96f2c5519a265bf73467606c957563b8270d92e614cb47531080a5cde6dc23e9bffc5e539d47afb7abb4771192e53eaf44d2bb01b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "mail@antontranelis.de",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@ttanton",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/utopia-os/utopia-ui",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/UtopiaMap",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project is completely open source and thanks to its modularity and adaptable components it can be easily integrated into all kinds of applications and platforms. The code is fully open source and licensed under GLP-3.0. Additionally, beside our utopia-map we provide all parts of the application as standalone React components in our utopia-ui library.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "## Key Features\n\n- **Interactive Map**: At the heart of the platform is an intuitive geographical map that allows users to add, edit, and manage various items like members, activities, and resources. Each map instance is unique, with its own identity, users, and configuration.\n- **Customizable Layers**: Items are grouped into predefined layers, each with specific icons, colors, labels, and map markers. This ensures clarity and relevance for different networks and use cases.\n- **Dynamic Map Markers**: Each item’s geographic position is indicated by adaptive, customizable map markers, ensuring easy identification and interaction.\n- **Popups**: When a user clicks a map marker, a popup appears with a compact preview of the item and its most relevant details. You can define custom popups for each layer to enhance usability.\n- **Profiles**: Each item comes with a dedicated profile that displays all its associated data, making it easier to explore and manage. You can define custom profiles for different layers, tailoring the information for various needs.\n\n## Use Cases\n\n- As a user, I can sign up and create my profile on the map.\n- As a user, I can place locations, projects, events, resources, tasks, crowdfunding opportunities, groups, and more on the map.\n- As a user, I can share my offers and needs with others.\n- As a community, I can receive a custom map tailored to my specific purpose.\n- As a developer, I can use the SDK to build my own collaborative map-based app.\n\n## Distinguishing Characteristics\n\n- Our maps are designed to foster community engagement and drive real-world action.\n- You can sign up, create a profile, and connect with people and projects in your area.\n- We make real change visible, helping you see the impact of your efforts.\n- We empower decentralized self-organization, enabling users to take control of their communities.\n- We feature a motivational, gamified user experience to encourage participation.\n- Our success is measured by meaningful, real-world encounters and interactions.\n- Our maps are highly adaptable to suit a wide range of use cases.\n- Out project is fully commuity-driven and fully opensource.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We plan to improve our UX and to develop new features:\n\n- **Travel Maps & Route Planning**: Empower pilgrims and travelers to seamlessly plan, track, and share journeys globally.\n\n- **Crowdfunding Platform**: Provide integrated crowdfunding tools directly within our community maps.\n\n- **In-app User Onboarding**: Guides new users through the creation of their profile, their location on the map, and the endless possibilities of collaborative maps.\n\n- **Gamified QR Check-in & decentralized Onboarding**: Utilize QR codes as a proof of attendance and decentralized onboarding mechanism.\n\n- **Event Management**: Providing calendar and features for organising, managing and sharing community-driven events.\n\nBeside that we are enhancing the documantation, accessebility and test-coverage of our code base.\n\nWe use a contribution token to track the hours that flow into the project. Depending on the share a contributor holds in the project, they can exchange part of their tokens for funds. So the funds will be used to reward our core contributors for some of the work they are doing, as almost all of the work has been done on a volunteer basis so far.\n\nBy backing some of our contribution tokens with actual funds, we can increase commitment and allow more contributors to take responsibility in the project.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "no contracts deployed yet",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x3c24142776b074f3c4fb7d9bb3155005f38cfb11b836e919bf27966c9ecb0c90",
+        "title": "Utopia – Collaborative Maps for Real-Life Impact",
+        "logoImg": "bafkreieygory5qb6xtf4ikj5idqkumqejlw4yrxmv7o2uaa4y6b2f5quwu",
+        "metaPtr": {
+          "pointer": "bafkreif2nl3pn4buo3vn3k46ssk43in6qzh2xciniq5tln3xv5npus37uq",
+          "protocol": "undefined"
+        },
+        "website": "https://utopia-map.org",
+        "bannerImg": "bafybeiho7lpuayn2xgzw2vfm2xuw2jmufcb7hkrjlywvismnhvumr2fbkq",
+        "createdAt": 1736560730991,
+        "userGithub": "antontranelis",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-29T07:58:15.056Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xdfe94a712036b722b6869d297bb158428cc06b95f914c245c65697a603ae26117b023df0066a84c6bce2361d64391e3e8318923af374bb91776354a6f29b3feb1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-29T07:58:15.056Z",
+            "expirationDate": "2025-06-27T07:58:15.056Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x350D177133FdCfB40f07d568184fdE2F521471d1",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#utopia-os#31516529",
+              "nullifiers": [
+                "v0.0.0:2mmY7gj+NcKj4lHVS1HD9c5vc+cPwL7jdAsPPHsDMlo="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T10:40:49.113Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x0e13ba2d796d73ee574557a410cf27d095a7d70316b1431ce04c80f0fa020f481626e134e8af0259cab92e3f19d8328901faec5673ce0500d035a2fa69ef5b731b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T10:40:49.113Z",
+            "expirationDate": "2025-06-20T10:40:49.113Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x350D177133FdCfB40f07d568184fdE2F521471d1",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#UtopiaMapGame",
+              "nullifiers": [
+                "v0.0.0:xRcXhAXARyR4E3zDegJWR60Rf0knOBAUHevJ+bKKCeI="
+              ]
+            }
+          }
+        },
+        "description": "# Grow Your Community | Build Decentralized Networks\n\nUtopia offers interactive geographic maps designed to ignite real-world connections and decentralized collaboration. Our mission is to bridge digital tools with local actions, empowering individuals and communities to reclaim responsibility for themselves, their environment, and our planet.\n\n* **🤝 Connect in Real Life:** Create your profile, place yourself on the map, discover nearby connections, and build trusted local networks.\n\n* **✨ Start Co-Creating:** Find like-minded peers, launch projects, raise funds, and nurture regenerative community structures.\n\n* **🗺️ Mapping Real Change:** Highlight inspiring projects and communities worldwide, making positive impacts visible and inspiring collective action.\n\n# How Does It Work?\n[![](https://hack.utopia-lab.org/uploads/187d4b17-ce82-442b-9a09-f093a9b92c49.png)](https://vimeo.com/manage/videos/1070567922/a553a1f321)\n\n# Customized Community Maps\nUtopia empowers you to create maps specifically tailored to your community's goals by organizing elements into custom categories with personalized markers, colors, and icons, and providing easy access to key information through customizable pop-ups and detailed profiles.\n\nOur modular framework makes maps adaptable to multiple use cases that require decentralised local coordination for collective action such as  \n\n\n- Crowdfunding for Local Action & Land Regeneration\n- Local Economy & Collaborative Finance\n- Real Life Manifestation & Social Connection Games\n- Mutual Aid and Gift Economy\n \nDiscover more in our [**Use Cases & Examples**](https://hack.utopia-lab.org/s/E4e4dhRHD)! For advanced needs, use our [**Utopia UI**](https://github.com/utopia-os/utopia-ui) React component library to quickly build your own fully interactive maps.\n\n\n# Utopia x The Pilgrimage\nWe've partnered with [**The Pilgrimage**](https://www.pilgrimage.love/) to create maps that visualise and connect pilgrims on their journeys to sacred sites and regenerative projects. Pilgrims can plan journeys, track experiences, earn digital stamps (POAPs), document rituals, and engage with impactful local initiatives.\n\nSimultaneously, the map serves as a crowdfunding platform, initially integrating with OpenCollective, with future exploration of dedicated protocols like Allo.\n\n# Intermapping & Interoperability\n\nNumerous projects, networks and apps aim to foster collective action and regenerative networks, each with a different focus and technology. We believe the great challenge of our time is to integrate these diverse initiatives by creating an open ecosystem that seamlessly connects users, projects, apps and data.\n\nIn collaboration with other social mapping initiatives, we are exploring open data standards and opensource protocols to enable interoperability, allowing our maps and external projects to share data and users while maintaining control and transparency.\n\n**Goals:**\n- Allow users to integrate diverse Utopia-based map projects into one\n- Establish a shared, distributed data foundation with third-party maps\n- Merge data duplicates for consistency\n- Give map operators and users control over what they show and see on their maps\n- Full user control over data and sharing preferences\n\n# Web of Trust & Privacy\n\nOur vision is to build a secure network of real-world verified connections that share data using end-to-end encryption. Where users verify relationships by showing and scanning QR codes or NFC handshakes. The use of personal key pairs enables end-to-end encrypted communication and data sharing only with trusted contacts.\n\nThis enables private maps where users can securely share locations, events and offers within their [Web of Trust](https://hack.utopia-lab.org/s/PgYExcvYV#).\n\n# Real-Life Manifestation Games\n\nUtopia is your platform for [Real-Life Manifestation Games](https://hack.utopia-lab.org/s/kzkCUUyJe#) — Level up in real life!\n\nInspired by RPG and strategy games, your profile showcases and strengthens real-world skills. Real-life resources are visualized and managed effectively, tasks become quests, challenges evolve into adventures, and problems become engaging puzzles.\n\nThe storyline reflects real-world issues, encouraging Win-Win-Win outcomes: benefits for you, your community, and our planet.\n\n# State of the Project\n[![](https://hack.utopia-lab.org/uploads/45a4fea9-abe3-47f8-8796-506d54984db8.png)](https://github.com/utopia-os/utopia-ui/graphs/contributors?selectedMetric=commits)\n\nUtopia has been under [active development](https://github.com/utopia-os/utopia-ui/graphs/contributors?selectedMetric=commits) since 2022. What began as a personal initiative has evolved into a mature open-source project, attracting more developers and being used in various contexts. Our goal is to bring in more professional contributors while maintaining our open-source and non-profit nature.\n\n# Roadmap\n\nSupporting us in GG23 helps us to improve our UX and to  develop new features:\n\n- **Travel Maps & Route Planning:** Empower pilgrims and travelers to seamlessly plan, track, and share journeys globally.\n- **Crowdfunding Platform:** Provide integrated crowdfunding tools directly within our community maps.\n- **In-app User Onboarding:** Guides new users through the creation of their profile, their location on the map, and the endless possibilities of collaborative maps.\n- **Gamified QR Check-in & decentralized Onboarding:** Utilize QR codes as a proof of attendance and decentralized onboarding mechanism.\n- **Event Management:** Providing calendar and features for organising, managing and sharing community-driven events.\n\n# Join us – Start Mapping the Future 🌏✨\nWe're actively looking for passionate people to support our vision - developers, community builders and collaborators who want to make a real impact. If you feel inspired, get in touch and become part of our journey towards a regenerative future.\n\n[**GitHub**](https://github.com/utopia-os) | [**Telegram**](https://t.me/UtopiaMap) | [**OpenCollective**](https://opencollective.com/utopia-project) | [**X**](https://x.com/UtopiaMapGame)\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "utopia-os",
+        "projectTwitter": "UtopiaMapGame"
+      },
+      "recipient": "0xa62743913E1220d6d91CEe5093b068E3BA46D004"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Utopia – Collaborative Maps for Real-Life Impact",
+      "logoImg": "bafkreieygory5qb6xtf4ikj5idqkumqejlw4yrxmv7o2uaa4y6b2f5quwu",
+      "website": "https://utopia-map.org",
+      "bannerImg": "bafybeiho7lpuayn2xgzw2vfm2xuw2jmufcb7hkrjlywvismnhvumr2fbkq",
+      "createdAt": 1736560730991,
+      "userGithub": "antontranelis",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-29T07:58:15.056Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xdfe94a712036b722b6869d297bb158428cc06b95f914c245c65697a603ae26117b023df0066a84c6bce2361d64391e3e8318923af374bb91776354a6f29b3feb1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-29T07:58:15.056Z",
+          "expirationDate": "2025-06-27T07:58:15.056Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x350D177133FdCfB40f07d568184fdE2F521471d1",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#utopia-os#31516529",
+            "nullifiers": [
+              "v0.0.0:2mmY7gj+NcKj4lHVS1HD9c5vc+cPwL7jdAsPPHsDMlo="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T10:40:49.113Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x0e13ba2d796d73ee574557a410cf27d095a7d70316b1431ce04c80f0fa020f481626e134e8af0259cab92e3f19d8328901faec5673ce0500d035a2fa69ef5b731b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T10:40:49.113Z",
+          "expirationDate": "2025-06-20T10:40:49.113Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x350D177133FdCfB40f07d568184fdE2F521471d1",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#UtopiaMapGame",
+            "nullifiers": [
+              "v0.0.0:xRcXhAXARyR4E3zDegJWR60Rf0knOBAUHevJ+bKKCeI="
+            ]
+          }
+        }
+      },
+      "description": "# Grow Your Community | Build Decentralized Networks\n\nUtopia offers interactive geographic maps designed to ignite real-world connections and decentralized collaboration. Our mission is to bridge digital tools with local actions, empowering individuals and communities to reclaim responsibility for themselves, their environment, and our planet.\n\n* **🤝 Connect in Real Life:** Create your profile, place yourself on the map, discover nearby connections, and build trusted local networks.\n\n* **✨ Start Co-Creating:** Find like-minded peers, launch projects, raise funds, and nurture regenerative community structures.\n\n* **🗺️ Mapping Real Change:** Highlight inspiring projects and communities worldwide, making positive impacts visible and inspiring collective action.\n\n# How Does It Work?\n[![](https://hack.utopia-lab.org/uploads/187d4b17-ce82-442b-9a09-f093a9b92c49.png)](https://vimeo.com/manage/videos/1070567922/a553a1f321)\n\n# Customized Community Maps\nUtopia empowers you to create maps specifically tailored to your community's goals by organizing elements into custom categories with personalized markers, colors, and icons, and providing easy access to key information through customizable pop-ups and detailed profiles.\n\nOur modular framework makes maps adaptable to multiple use cases that require decentralised local coordination for collective action such as  \n\n\n- Crowdfunding for Local Action & Land Regeneration\n- Local Economy & Collaborative Finance\n- Real Life Manifestation & Social Connection Games\n- Mutual Aid and Gift Economy\n \nDiscover more in our [**Use Cases & Examples**](https://hack.utopia-lab.org/s/E4e4dhRHD)! For advanced needs, use our [**Utopia UI**](https://github.com/utopia-os/utopia-ui) React component library to quickly build your own fully interactive maps.\n\n\n# Utopia x The Pilgrimage\nWe've partnered with [**The Pilgrimage**](https://www.pilgrimage.love/) to create maps that visualise and connect pilgrims on their journeys to sacred sites and regenerative projects. Pilgrims can plan journeys, track experiences, earn digital stamps (POAPs), document rituals, and engage with impactful local initiatives.\n\nSimultaneously, the map serves as a crowdfunding platform, initially integrating with OpenCollective, with future exploration of dedicated protocols like Allo.\n\n# Intermapping & Interoperability\n\nNumerous projects, networks and apps aim to foster collective action and regenerative networks, each with a different focus and technology. We believe the great challenge of our time is to integrate these diverse initiatives by creating an open ecosystem that seamlessly connects users, projects, apps and data.\n\nIn collaboration with other social mapping initiatives, we are exploring open data standards and opensource protocols to enable interoperability, allowing our maps and external projects to share data and users while maintaining control and transparency.\n\n**Goals:**\n- Allow users to integrate diverse Utopia-based map projects into one\n- Establish a shared, distributed data foundation with third-party maps\n- Merge data duplicates for consistency\n- Give map operators and users control over what they show and see on their maps\n- Full user control over data and sharing preferences\n\n# Web of Trust & Privacy\n\nOur vision is to build a secure network of real-world verified connections that share data using end-to-end encryption. Where users verify relationships by showing and scanning QR codes or NFC handshakes. The use of personal key pairs enables end-to-end encrypted communication and data sharing only with trusted contacts.\n\nThis enables private maps where users can securely share locations, events and offers within their [Web of Trust](https://hack.utopia-lab.org/s/PgYExcvYV#).\n\n# Real-Life Manifestation Games\n\nUtopia is your platform for [Real-Life Manifestation Games](https://hack.utopia-lab.org/s/kzkCUUyJe#) — Level up in real life!\n\nInspired by RPG and strategy games, your profile showcases and strengthens real-world skills. Real-life resources are visualized and managed effectively, tasks become quests, challenges evolve into adventures, and problems become engaging puzzles.\n\nThe storyline reflects real-world issues, encouraging Win-Win-Win outcomes: benefits for you, your community, and our planet.\n\n# State of the Project\n[![](https://hack.utopia-lab.org/uploads/45a4fea9-abe3-47f8-8796-506d54984db8.png)](https://github.com/utopia-os/utopia-ui/graphs/contributors?selectedMetric=commits)\n\nUtopia has been under [active development](https://github.com/utopia-os/utopia-ui/graphs/contributors?selectedMetric=commits) since 2022. What began as a personal initiative has evolved into a mature open-source project, attracting more developers and being used in various contexts. Our goal is to bring in more professional contributors while maintaining our open-source and non-profit nature.\n\n# Roadmap\n\nSupporting us in GG23 helps us to improve our UX and to  develop new features:\n\n- **Travel Maps & Route Planning:** Empower pilgrims and travelers to seamlessly plan, track, and share journeys globally.\n- **Crowdfunding Platform:** Provide integrated crowdfunding tools directly within our community maps.\n- **In-app User Onboarding:** Guides new users through the creation of their profile, their location on the map, and the endless possibilities of collaborative maps.\n- **Gamified QR Check-in & decentralized Onboarding:** Utilize QR codes as a proof of attendance and decentralized onboarding mechanism.\n- **Event Management:** Providing calendar and features for organising, managing and sharing community-driven events.\n\n# Join us – Start Mapping the Future 🌏✨\nWe're actively looking for passionate people to support our vision - developers, community builders and collaborators who want to make a real impact. If you feel inspired, get in touch and become part of our journey towards a regenerative future.\n\n[**GitHub**](https://github.com/utopia-os) | [**Telegram**](https://t.me/UtopiaMap) | [**OpenCollective**](https://opencollective.com/utopia-project) | [**X**](https://x.com/UtopiaMapGame)\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "utopia-os",
+      "projectTwitter": "UtopiaMapGame"
+    }
+  }
+}

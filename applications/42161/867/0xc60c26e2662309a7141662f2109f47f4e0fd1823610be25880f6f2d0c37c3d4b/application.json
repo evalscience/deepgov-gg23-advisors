@@ -1,0 +1,231 @@
+{
+  "id": "56",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xc60c26e2662309a7141662f2109f47f4e0fd1823610be25880f6f2d0c37c3d4b",
+  "metadata": {
+    "signature": "0x83ff914d7c94ac05eeaaa90d64292aeb3d42dd888ea9c48267e654653bc3876a6434be80d2a0d0301bcf0404182498c793fdb1a5b552bf4cd3e3e2c516876f791c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "hello@danielconstantin.net",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@kernelwhisperer",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/privatefolio/privatefolio",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/YHHu9nK8VD",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "This project is conceived as a public good, intended to be forked and personalized. It has a permissive license and future plans for a plugin store for free and paid features, bringing users & developers together.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Privatefolio allows you to:\n\n- Inspect and compare your historical net worth with no limitations\n- Surface the strengths and weaknesses of your portfolio\n- Import your data using .csv files or by connecting to wallets and exchanges (read-only API keys)\n\nDifferentiators:\n\n- AGPL-3.0 license\n- 100% local-first architecture: All transactions, portfolio data, and calculations are handled directly in your browser using IndexedDB. No backend server is involved — your data never leaves your device.\n- Data synchronization: Works within the rate limits of third-party services, supporting large transaction histories and extensive price data without paid API keys.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "For Privatefolio v2 I developed these features:\n\n- **Remote server**: Deploy the app on your own server to process data in the background.\n- **Desktop app**: An app for Windows, macOS, and Linux that runs in the background, processing data without needing to keep open a browser tab.\n- **SQL database**: Move to SQLite as the storage backend, allowing users to enter custom SQL queries, also making it easier for the app to be extended.\n\nBut these ones are still work in progress:\n- **Secure cloud solution**: A hosted, encrypted variant of the backend, allowing users to spin up a secure cloud instance.\n- **Push Notifications**: Being able to get notified when certain metrics such as price, portfolio value, holdings, etc.\n- **Reports**: Weekly or monthly reports containing a summary of what has changed in your portfolio in terms of value, volatility, risk, etc.\n\nThe grant will be used to fund the development of the product and growth of the community. So far, the funds from GG20 & GG22 (~$1000) have not been used at all because the sum is too small the and the community just as small. That being said some people have already express their intent to contribute. My plan is to distribute 100% of funds through code bounties.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xc60c26e2662309a7141662f2109f47f4e0fd1823610be25880f6f2d0c37c3d4b",
+        "title": "Privatefolio",
+        "logoImg": "bafkreiambbwj2i757mf66vvokyopkw2fdkco6i3xzw6mzifo4bdvrmtq24",
+        "metaPtr": {
+          "pointer": "bafkreifacmgfgzxoi27tmqmvnc656bjcybnpg33ownnccwdceoqgtvjzha",
+          "protocol": "undefined"
+        },
+        "website": "https://privatefolio.app",
+        "bannerImg": "bafkreihsa67irsdnspx5gmtnper3gzdzvbah7c4wvxjhkxj5war53gxrma",
+        "createdAt": 1712697226391,
+        "userGithub": "kernelwhisperer",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WJKfV7d4gPoLFLRMBUU6rjCxMWCczKHLyjcpXub-qr28ioVUzEoPlSJsUXgX7xlz5ksoT44JFsd3hFFC_x1mDQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-13T10:20:58.637Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-13T10:20:58.637Z",
+            "expirationDate": "2024-07-12T10:20:58.637Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC",
+              "hash": "v0.0.0:kSfJMZMaJkqcFzvw3mEBlLdrGtcqJn2Z3ftzAUkYlPY=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#privatefolio#26041347"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..dwa04C6KjmweRde0Ai8tubq_BYdkmKyYvlE_wK54WThwzpfCFW6HzCRQVagYCpzjNHfVA616QPlrhL8hvj03Ag",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-13T10:19:54.949Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-13T10:19:54.948Z",
+            "expirationDate": "2024-07-12T10:19:54.948Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC",
+              "hash": "v0.0.0:IQ86OSA8A642AtFYyei0Q8uyCLCI1V8quclU17wtCfg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#PrivatefolioApp"
+            }
+          }
+        },
+        "description": "__Privatefolio is the Free* and Open-source Portfolio Tracker.__\n\nIt allows you to:\n\n- Inspect and compare your historical net worth with no limitations\n- Surface the strengths and weaknesses of your portfolio\n- Import your data using .csv files or by connecting to wallets and exchanges (read-only API keys)\n- Prepare your tax report\n- Extend the project under the AGPL-3.0 license\n\n## Privatefolio v1 shipped:\n\n- **100% local-first architecture**: All transactions, portfolio data, and calculations are handled directly in your browser using IndexedDB. No backend server is involved — your data never leaves your device.\n- **CSV data imports**: Allows importing portfolio data through CSV files from exchanges or block explorers.\n- **APIs integration**: Fetch live and historical asset prices from Binance, Coinbase, and DeFi-Llama; pull metadata from Coingecko; and sync user transaction data via APIs like Etherscan and Binance.\n- **Data synchronization**: Works within the rate limits of third-party services, supporting large transaction histories and extensive price data **without paid API keys**.\n- **Charting and analysis**: Uses TradingView’s lightweight-charts library for customizable portfolio visualizations, enabling users to track historical net worth changes and compare asset performance.\n- **Backup and restore**: Easily back up and restore your data to ensure it remains safe.\n- **Network support**: Ethereum, Base, Arbitrum One, Optimism, and Polygon POS.\n\n## Privatefolio v2 will introduce:\n\n- **Remote server**: Deploy the app on your own server to process data in the background.\n- **Desktop app**: An app for Windows, macOS, and Linux that runs in the background, processing data without needing to keep open a browser tab.\n- **SQL database**: Move to SQLite as the storage backend, allowing users to enter custom SQL queries, also making it easier for the app to be extended.\n- **Secure cloud solution**: A hosted, encrypted variant of the backend, allowing users to spin up a secure cloud instance.\n- **Push Notifications**: Being able to get notified when certain metrics such as price, portfolio value, holdings, etc.\n- **Reports**: Weekly or monthly reports containing a summary of what has changed in your portfolio in terms of value, volatility, risk, etc.\n\nRead more on our blog: https://paragraph.xyz/@privatefolio",
+        "lastUpdated": 0,
+        "projectGithub": "privatefolio",
+        "projectTwitter": "PrivatefolioApp"
+      },
+      "recipient": "0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Privatefolio",
+      "logoImg": "bafkreiambbwj2i757mf66vvokyopkw2fdkco6i3xzw6mzifo4bdvrmtq24",
+      "website": "https://privatefolio.app",
+      "bannerImg": "bafkreihsa67irsdnspx5gmtnper3gzdzvbah7c4wvxjhkxj5war53gxrma",
+      "createdAt": 1712697226391,
+      "userGithub": "kernelwhisperer",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..WJKfV7d4gPoLFLRMBUU6rjCxMWCczKHLyjcpXub-qr28ioVUzEoPlSJsUXgX7xlz5ksoT44JFsd3hFFC_x1mDQ",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-13T10:20:58.637Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-13T10:20:58.637Z",
+          "expirationDate": "2024-07-12T10:20:58.637Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC",
+            "hash": "v0.0.0:kSfJMZMaJkqcFzvw3mEBlLdrGtcqJn2Z3ftzAUkYlPY=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#privatefolio#26041347"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..dwa04C6KjmweRde0Ai8tubq_BYdkmKyYvlE_wK54WThwzpfCFW6HzCRQVagYCpzjNHfVA616QPlrhL8hvj03Ag",
+            "type": "Ed25519Signature2018",
+            "created": "2024-04-13T10:19:54.949Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-04-13T10:19:54.948Z",
+          "expirationDate": "2024-07-12T10:19:54.948Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC",
+            "hash": "v0.0.0:IQ86OSA8A642AtFYyei0Q8uyCLCI1V8quclU17wtCfg=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#PrivatefolioApp"
+          }
+        }
+      },
+      "description": "__Privatefolio is the Free* and Open-source Portfolio Tracker.__\n\nIt allows you to:\n\n- Inspect and compare your historical net worth with no limitations\n- Surface the strengths and weaknesses of your portfolio\n- Import your data using .csv files or by connecting to wallets and exchanges (read-only API keys)\n- Prepare your tax report\n- Extend the project under the AGPL-3.0 license\n\n## Privatefolio v1 shipped:\n\n- **100% local-first architecture**: All transactions, portfolio data, and calculations are handled directly in your browser using IndexedDB. No backend server is involved — your data never leaves your device.\n- **CSV data imports**: Allows importing portfolio data through CSV files from exchanges or block explorers.\n- **APIs integration**: Fetch live and historical asset prices from Binance, Coinbase, and DeFi-Llama; pull metadata from Coingecko; and sync user transaction data via APIs like Etherscan and Binance.\n- **Data synchronization**: Works within the rate limits of third-party services, supporting large transaction histories and extensive price data **without paid API keys**.\n- **Charting and analysis**: Uses TradingView’s lightweight-charts library for customizable portfolio visualizations, enabling users to track historical net worth changes and compare asset performance.\n- **Backup and restore**: Easily back up and restore your data to ensure it remains safe.\n- **Network support**: Ethereum, Base, Arbitrum One, Optimism, and Polygon POS.\n\n## Privatefolio v2 will introduce:\n\n- **Remote server**: Deploy the app on your own server to process data in the background.\n- **Desktop app**: An app for Windows, macOS, and Linux that runs in the background, processing data without needing to keep open a browser tab.\n- **SQL database**: Move to SQLite as the storage backend, allowing users to enter custom SQL queries, also making it easier for the app to be extended.\n- **Secure cloud solution**: A hosted, encrypted variant of the backend, allowing users to spin up a secure cloud instance.\n- **Push Notifications**: Being able to get notified when certain metrics such as price, portfolio value, holdings, etc.\n- **Reports**: Weekly or monthly reports containing a summary of what has changed in your portfolio in terms of value, volatility, risk, etc.\n\nRead more on our blog: https://paragraph.xyz/@privatefolio",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "privatefolio",
+      "projectTwitter": "PrivatefolioApp"
+    }
+  }
+}

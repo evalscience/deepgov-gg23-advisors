@@ -1,0 +1,667 @@
+{
+  "id": "153",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x90e3363341cf14eb5e5c29627f4a8fb62933ef9834e8ca33027af2aeb8323ea0",
+  "metadata": {
+    "signature": "0xe74323e86722e8ad170a4e1c1254f030f2f0c53c0cad90811efd4a87225f4d66622d46487fec1cdc2c1ab5be5d12f8bebead7d21a0314c1122602c5330c8547c1c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "info@etherguild.xyz",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@everdred",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/etherguild",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://etherguild.xyz/discord",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Ether Guild built https://ethismoney.xyz, an open-source dashboard that helps clarify why ETH is money by surfacing on-chain data and educational context in an accessible format.\n\nThe project contributes to the OSS ecosystem by:\n- Providing transparent, reproducible visualizations of ETH’s role in the Ethereum economy (e.g. exports to L2s, institutional holdings, issuance vs burn)\n\n- Open-sourcing its code base and data methods to support community contributions.\n\n- Acting as a public good for educators, advocates, researchers, and developers looking to explain or build upon ETH’s monetary use cases.\n\nThis work expands the Ethereum ecosystem’s public knowledge layer and strengthens the understanding of ETH’s economic role as core infrastructure.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://ethismoney.xyz tracks how ETH functions as money by measuring how much is exported, held, and its issuance rate, while educating users on the core fundamentals that give ETH its monetary properties.\n\nWe differentiate from dashboards like L2BEAT, growthepie, and ultrasound.money through our focus on educational context and real-world adoption of ETH as a store of value, medium of exchange, and unit of account.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "We plan to expand ethismoney.xyz with new graphs, grow a small team to advocate for ETH, and fund new ETH initiatives.\n\nGrant funds will support contributors, design and development work, legal costs, and the continued growth of Ether Guild as a home for ETH advocacy and education.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x90e3363341cf14eb5e5c29627f4a8fb62933ef9834e8ca33027af2aeb8323ea0",
+        "title": "Ether Guild",
+        "logoImg": "bafkreigyvxhhkuexwakfspu2lrlql6qkkikf3xwtfiu2rxnwuveosuukju",
+        "metaPtr": {
+          "pointer": "bafkreidgvx7qmkpx2b5kczfrgpkcoooseicucrxgxx4cr2sadm5ejpfaim",
+          "protocol": "undefined"
+        },
+        "website": "https://etherguild.xyz",
+        "bannerImg": "bafkreihsdgjwyp6skpi2jdbuagq6g5zfggsdvclldgsjxjwp2zrecminxy",
+        "createdAt": 1743395911053,
+        "userGithub": "its-everdred",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T14:30:35.456Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x36fa81b55a6cadc758d68985c6d16838580e1abf543f1574f097547c158e44af6921ed766e460e1b5892930e11847c1c8c15840b98bfbe63b9c46bcaf08899101c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T14:30:35.456Z",
+            "expirationDate": "2025-06-29T14:30:35.456Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x9CA698E3Ee681765e41845Ec70a81daB6e6Fdb07",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#etherguild#1020682",
+              "nullifiers": [
+                "v0.0.0:Rudw5xTiFkxq95aMzvNY8883oMAr82T20/sisI4E1Bw="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T04:33:25.358Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x27731a6890b31e89b19be37790e89fbce1f5d165f7bf2749ba41853ce79e9ed740264f57d9ced7e846b1369ebd4a9ffbbe488644f8909b45605f815846d5deac1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T04:33:25.357Z",
+            "expirationDate": "2025-06-29T04:33:25.357Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x9CA698E3Ee681765e41845Ec70a81daB6e6Fdb07",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#TheEtherGuild",
+              "nullifiers": [
+                "v0.0.0:9AgOI/xcab+Xmq62idsba2cYXGNySywWP1jGYXu6e2k="
+              ]
+            }
+          }
+        },
+        "description": "Ether Guild is a US-based nonprofit organization working to support ETH, the money, in service of Ethereum, the computer.  Where Protocol Guild funds Ethereum development, Ether Guild funds ETH initiatives. \n\nhttps://ethismoney.xyz is our first initiative, a set of educational dashboards making the case that ETH is money. \n\nYour support and funding allow Ether Guild to develop this initiative further, build new dashboards, and continue advocating and educating about ETH's monetary properties.\n\nEther Guild is a community effort supported and led by Bankless, growthepie, The Daily Gwei, Etherealize, and Metal.build.\n\nFollow us at:\n🐦 https://x.com/TheEtherGuild\n🚾 https://warpcast.com/etherguild\n📥 https://paragraph.xyz/@etherguild\n💻 https://github.com/etherguild\n📧 info@etherguild.xyz",
+        "lastUpdated": 0,
+        "projectGithub": "etherguild",
+        "projectTwitter": "TheEtherGuild"
+      },
+      "recipient": "0xB6e9c8Bb52205f4e1299487CA086843F3f30c01B"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Ether Guild",
+      "logoImg": "bafkreigyvxhhkuexwakfspu2lrlql6qkkikf3xwtfiu2rxnwuveosuukju",
+      "website": "https://etherguild.xyz",
+      "bannerImg": "bafkreihsdgjwyp6skpi2jdbuagq6g5zfggsdvclldgsjxjwp2zrecminxy",
+      "createdAt": 1743395911053,
+      "userGithub": "its-everdred",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T14:30:35.456Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x36fa81b55a6cadc758d68985c6d16838580e1abf543f1574f097547c158e44af6921ed766e460e1b5892930e11847c1c8c15840b98bfbe63b9c46bcaf08899101c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T14:30:35.456Z",
+          "expirationDate": "2025-06-29T14:30:35.456Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x9CA698E3Ee681765e41845Ec70a81daB6e6Fdb07",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#etherguild#1020682",
+            "nullifiers": [
+              "v0.0.0:Rudw5xTiFkxq95aMzvNY8883oMAr82T20/sisI4E1Bw="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T04:33:25.358Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x27731a6890b31e89b19be37790e89fbce1f5d165f7bf2749ba41853ce79e9ed740264f57d9ced7e846b1369ebd4a9ffbbe488644f8909b45605f815846d5deac1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T04:33:25.357Z",
+          "expirationDate": "2025-06-29T04:33:25.357Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x9CA698E3Ee681765e41845Ec70a81daB6e6Fdb07",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#TheEtherGuild",
+            "nullifiers": [
+              "v0.0.0:9AgOI/xcab+Xmq62idsba2cYXGNySywWP1jGYXu6e2k="
+            ]
+          }
+        }
+      },
+      "description": "Ether Guild is a US-based nonprofit organization working to support ETH, the money, in service of Ethereum, the computer.  Where Protocol Guild funds Ethereum development, Ether Guild funds ETH initiatives. \n\nhttps://ethismoney.xyz is our first initiative, a set of educational dashboards making the case that ETH is money. \n\nYour support and funding allow Ether Guild to develop this initiative further, build new dashboards, and continue advocating and educating about ETH's monetary properties.\n\nEther Guild is a community effort supported and led by Bankless, growthepie, The Daily Gwei, Etherealize, and Metal.build.\n\nFollow us at:\n🐦 https://x.com/TheEtherGuild\n🚾 https://warpcast.com/etherguild\n📥 https://paragraph.xyz/@etherguild\n💻 https://github.com/etherguild\n📧 info@etherguild.xyz",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "etherguild",
+      "projectTwitter": "TheEtherGuild"
+    }
+  }
+}

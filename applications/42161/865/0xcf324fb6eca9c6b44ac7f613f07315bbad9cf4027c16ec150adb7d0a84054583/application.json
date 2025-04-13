@@ -1,0 +1,245 @@
+{
+  "id": "21",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xcf324fb6eca9c6b44ac7f613f07315bbad9cf4027c16ec150adb7d0a84054583",
+  "metadata": {
+    "signature": "0x7094827234300dbe87b9985e06a32652f601d35b4b7f4f9f081f225efe0f38cb529b8f5eed421fae32e62f3b18d1fefed59ff085363924982389c26c4acf6f5f1c",
+    "application": {
+      "round": "0x145052e87140b7309f6ee18ba12fc187560d5d89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "ferran@vocdoni.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "ferranrego",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/vocdoni",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://chat.vocdoni.iorg",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xcf324fb6eca9c6b44ac7f613f07315bbad9cf4027c16ec150adb7d0a84054583",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "DAVINCI strengthens Ethereum’s infrastructure by introducing a decentralized, **zkRollup-based voting protocol that enables scalable, verifiable, anonymous, anticoercion, flexible and censorship-resistant governance**, a critical primitive for DAOs, public institutions, and beyond.\n\n#  Expanding Ethereum’s Layer 2 Utility\nDAVINCI is **one of the first Layer 2 protocols built specifically for governance**, pushing Ethereum’s utility beyond finance. As a specialized zkRollup, DAVINCI:\n— Processes high-frequency, low-cost voting off-chain.\n— Publishes succinct zkSNARK proofs and EIP-4844 blobs for data availability on Ethereum L1.\n— Maintains full trustlessness and auditability while dramatically reducing gas costs.\n\n_Example: A voting process with 10,000 participants generates only a single proof and data blob, reducing on-chain footprint by ~99% compared to direct on-chain voting._\n\n# Infrastructure for trustless and universal voting\n\nDAVINCI provides:\n— **A robust Merkle-based state machine**, where the full voting process state (including encrypted vote accumulators, nullifiers, and voter commitments) is updated off-chain and anchored on-chain via smart contracts.\n— **zkSNARK circuits that prove the correctness of both individual votes and state transitions**, ensuring tamper-proof execution without revealing private data.\n— **A sequencer network** that operates on staked collateral, with rewards/slashing to ensure reliability.\n\nThis creates a **plug-and-play infrastructure layer for any Ethereum-based app that needs secure, anonymous, and verifiable voting**.\n\n_More than 300 organizations (including DAOs, associations, and city councils) have used Vocdoni’s earlier stack. DAVINCI upgrades this to a fully decentralized L2 aligned with Ethereum._\n\n# Native Ethereum interoperability\n\nDAVINCI is **deeply embedded in Ethereum’s stack**:\n— **Uses Ethereum smart contracts** for all process registration, proof verification, and state updates.\n— **Aligns with EIP-4844**, contributing to the demand and use of Ethereum’s proto-danksharding architecture.\n\nBy design, DAVINCI helps stress-test and utilize Ethereum’s latest scalability primitives, accelerating adoption of zk-based systems.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "# Privacy\n\nDAVINCI is **one of the first voting protocols to combine zkSNARKs and threshold homomorphic encryption in a rollup-based architecture**. This ensures:\n— **Ballot secrecy** without sacrificing verifiability.\n— **Receipt-freeness**, preventing coercion or vote-selling through ballot re-encryption and overwrite mechanisms.\n— **Quantum-resilient voter anonymity**, using nullifiers detached from user identity.\n\nEven sequencers processing votes cannot access vote content, enabling end-to-end privacy for voters, a rare property in digital voting systems.\n\n# Interoperability\nDAVINCI is also designed to work across various governance use cases, from DAOs and on-chain protocols to real-world institutions like political parties and city councils. **Thanks to its Ballot Protocol, it supports complex voting schemes (such as quadratic voting, ranked-choice, weighted voting, etc.) with customizable rules**, making it adaptable for both Web3-native and traditional governance models.\n\nIts modular smart contract system and reliance on Ethereum standards (EIP-4844, zkSNARKs, L2 design patterns) ensure **it can integrate seamlessly into existing Ethereum tooling and ecosystems**.\n\n# User experience\nWhile the cryptography under the hood is cutting-edge, the user experience is designed to be accessible to non-technical users:\n— **Voters interact through simple web** or mobile interfaces.\n— **zkSNARK generation happens client-side** using Circom and SnarkJS, so users don’t need special hardware or knowledge.\n— **Voting is always gasless for users**, lowering friction and boosting participation.\n\n# Others:\nWe also contribute back to the ecosystem (for example: https://github.com/Consensys/gnark/pull/1357#event-16913030873)",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "DAVINCI addresses the key challenges of blockchain-based governance by enabling more secure, private, and accessible voting mechanisms, enhancing both the privacy and security of governance on Ethereum.\n\nTraditional onchain voting faces **several critical limitations**:\n\n— **Expensive:** High gas fees make it non-scalable and inaccessible to most users.\n— **Vulnerable to coercion:** Voters can prove how they voted, enabling vote-buying and pressure tactics.\n— **Prone to cognitive bias:** Live results influence voter decisions, leading to bandwagon effects.\n— **Lack of privacy:** Voting is public and traceable, exposing voter identities and preferences.\n— **Rigid voting formats:** Most systems can’t support custom mechanisms like ranked-choice or quadratic voting.\n\n**DAVINCI** is a voting protocol that **retains the security and verifiability of onchain voting**, while enhancing privacy, scalability, and flexibility.\n\nWith DAVINCI, voting is:\n— **Gasless:** No transaction fees for voters.\n— **Anonymous:** Voter identities and choices are completely private.\n— **Coercion-resistant:** No way to prove how you voted; eliminates vote-buying and pressure.\n— **Flexible:** Supports any voting mechanism (quadratic, ranked, approval, etc.).\n— **Fully decentralized:** No reliance on centralized authorities.\n\nAll voting rules and logic are **enforced by Ethereum smart contracts**, and final results are **settled on-chain**, ensuring transparency and trustlessness at every step.\n\n\n",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "The funds raised through Gitcoin Grants will help us support the development of the new protocol and reach our milestones leading up to the mainnet launch.\n\n\n**2025 Q2:**\n— Protocol single-node testnet live\n— Simplified UI to interact with the protocol\n\n**2025 Q3:**\n— Audits\n\n**2025 Q4:**\n— Protocol upgraded with decentralized sequencers\n— Security Audits\n— Begins the migration of current Vocdoni protocol users to the new protocol\n\n**2025 Q4 — 2026 Q1:**\n— Mainnet Launch \n— Token Generation Event",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "**DAVINCI** enhances both decentralization and security on Ethereum by **introducing a zero-knowledge-based Layer 2 voting protocol** that replaces trust in central authorities with cryptographic guarantees.\n\nBuilt as a **zkRollup**, DAVINCI **offloads computation-heavy voting processes from Ethereum mainnet while anchoring trust and finality on-chain**. It uses zkSNARKs to verify vote validity without revealing content, and threshold homomorphic encryption to preserve privacy while enabling transparent and secure tallying.\n\nBy decentralizing key components of voting (sequencing, encryption, and verification) **DAVINCI ensures no single party can manipulate the process**. Its Distributed Key Generation (DKG) and sequencer staking model eliminate central points of failure and incentivize honest behavior, adding resilience to the network.\n\nDAVINCI also **contributes to Ethereum’s broader modular ecosystem by leveraging EIP-4844 blobs for data availability**, making scalable, low-cost, high-frequency voting feasible. This positions **Ethereum as a viable base layer for complex decentralized governance systems at scale**.\n\nIn short, **DAVINCI strengthens Ethereum** by:\n- Advancing trustless, censorship-resistant voting infrastructure.\n-  **Demonstrating a powerful zk-based Layer 2 application beyond payments.**\n- Enabling gasless, universal participation while settling proofs on-chain.\n- Encouraging a diverse network of sequencers to uphold cryptographic integrity.\n\n**This protocol makes Ethereum not just a foundation for finance... but for democracy!**",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "We'll have smart contracts deployed in the coming weeks.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xcf324fb6eca9c6b44ac7f613f07315bbad9cf4027c16ec150adb7d0a84054583",
+        "title": "Vocdoni - Decentralized and anonymous voting",
+        "logoImg": "bafkreidwmtunbranukh7tlapdehdcxb2sbjiiwn5h73upoibjoop2b4ywm",
+        "metaPtr": {
+          "pointer": "bafkreie33oylokn3djpojdfwwkns7wrlrimikqqsocunr4abz5che2uqaa",
+          "protocol": "undefined"
+        },
+        "website": "https://vocdoni.io",
+        "bannerImg": "bafkreibgj6f5aon7flfme3cl7e44xvc5u4ipuaxgo5isrspmiskgbcfene",
+        "createdAt": 1673255879702,
+        "userGithub": "",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..1RnW9DlaJY0mVtOh7_oG0DI0ZGT4b8xsRkpRosNOam5LS36HxPgc3Aumm5rqntCJ5EJ_aHxjEMq-VglhSmTHAw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-17T11:03:41.490Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-17T11:03:41.490Z",
+            "expirationDate": "2025-01-15T11:03:41.490Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x74D8967e812de34702eCD3D453a44bf37440b10b",
+              "hash": "v0.0.0:Itq1tIWgXS/VO54B2ACR8phkmLfy3ex6DrZFx5tF+Yk=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#vocdoni#3515290"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..QerPf_sllicofaazZ-hfoE5ZEid7LOI-IMT1ymaQqOQlMIG0B78jaMJT_qDdsFIQbCPBEKP0q5_CcwHwH8fOCw",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-17T11:03:33.876Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-17T11:03:33.876Z",
+            "expirationDate": "2025-01-15T11:03:33.876Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x74D8967e812de34702eCD3D453a44bf37440b10b",
+              "hash": "v0.0.0:zpIqhrGQknIJPcvxExASZ3KNxKXBXaZEED7XWYyHk3g=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#vocdoni"
+            }
+          }
+        },
+        "description": "**TL;DR:** Vocdoni leads the way in opensource **decentralized voting technology, with hundreds of thousands of votes processed for +300 organizations**, including City councils, Political parties, Cooperatives, Football clubs, Associations, opposition groups under repressive regimes and more! We accomplished this using a custom L1 blockchain designed specifically for voting. **Now, we are building DAVINCI, a new public good voting protocol** that ensures anonymous, anticoercion, verifiable, and accessible elections using zkSNARKs and Homomorphic Encryption. **DAVINCI is the first solution that meets all the criteria for a universal voting protocol, covering a wide range of use cases: from gasless and anonymous offchain voting for DAOs, with the same guarantees as onchain voting, to national-level official elections.**\n\n---\n\n## Introducing DAVINCI: The future of voting on Ethereum\n\n**Modern voting systems (whether paper-based, centralized digital voting, or onchain) suffer from significant flaws**, including high costs, limited accessibility, and vulnerabilities to manipulation, bias, and vote buying. Achieving the highest standards of election security and fairness remains costly and complex, leaving billions without a secure digital participation option. **Recurrent, low-cost voting is crucial for democratic resilience, but the existing systems lack the necessary technological infrastructure to support it**.\n\n### **What is DAVINCI?**\n\n**DAVINCI** (Decentralized Autonomous Voting Infrastructure for Non-Coercive Inclusion) is a new neutral and unstoppable voting protocol designed for **privacy, scalability, and security**. It enables **high-frequency, low-cost elections** while ensuring transparency, censorship resistance, anti-coercion, and integrity.\n\nBuilt as a **Layer 2 solution on Ethereum**, DAVINCI ensures votes remain **tamper-proof and trustless**, eliminating central points of failure.\n\n### **How DAVINCI Works**\n\nDAVINCI leverages **zkSNARKs and threshold homomorphic encryption (ElGamal)** to provide **end-to-end verifiability, anticoercion and anonymity**, allowing voters to participate **without compromising privacy**.\n\nA **distributed key generation (DKG) system**, coordinated via smart contracts, secures encryption key creation while preventing manipulation. This ensures **trustless election integrity** without relying on any single entity.\n\n### **Technology & Implementation**\n\n- **Privacy-Preserving Voting:** Utilizes **zkSNARKs** for secure, anonymous voting with **on-chain verifiability**.\n- **Scalable & Efficient:** Implements **Gnark cryptographic libraries** using **BLS12-377 & BW6-761 curves** for **fast recursive vote aggregation**.\n- **Ethereum Integration:** Produces **BN254 proofs**, ensuring vote validity **onchain** with minimal computational overhead.\n- **Accessible & Decentralized:** Designed to run on **widely accessible hardware (64 GiB RAM)**, making it easy for anyone to join the sequencer network without requiring specialized infrastructure.\n- **Flexible & Gasless:** Supports **various governance models**, including **DAO voting, national elections, and community polls**, with an efficient **off-chain computation model**.\n\n### **Why DAVINCI?**\n\nDAVINCI is the **only** voting protocol that outperforms **paper-based, centralized digital, and onchain voting**. It meets the requirements for a **universal voting solution**.\n\n![DAVINCI Protocol Comparison](https://tomato-giant-grasshopper-196.mypinata.cloud/ipfs/bafybeihp67w6hzoog2e2ufgn44wqpin7i7l54wvin2sew2xxa3f36n3giu)\n\n### **Roadmap & Next Steps**\n\n![DAVINCI Roadmap](https://tomato-giant-grasshopper-196.mypinata.cloud/ipfs/bafkreigqsitln2filgaid2s2kzmjorwxkamjs2bdfxjr4zcnqyauj3wiyy)\n\nDAVINCI has completed its **proof-of-concept** phase and is now moving towards a **testnet launch in Q2 2025**. Our next milestones include:\n\n- **Testnet launch with a single sequencer**\n- **Audits**\n- **User Testing & Pilots**\n- **Migration of current users of the Vocdoni protocol to DAVINCI**\n- **Community building around DAVINCI**\n- **Mainnet Deployment**\n\nTo achieve these milestones, we need funds to cover our running costs.\n\n### Extended info & repos:\n\n- [Whitepaper](https://whitepaper.vocdoni.io/)\n- [Ethresearch thread](https://ethresear.ch/t/vocdoni-protocol-enabling-decentralized-voting-for-the-masses-with-zk-technology/21036)\n- Success stories:\n    - [New Belarus](https://blog.vocdoni.io/new-belarus-vocdoni)\n    - [Football Club Barcelona](https://thefintechtimes.com/fc-barcelona-reaches-milestone-in-blockchain-tech-adoption-immortalising-johan-cruyff/)\n    - [First official digital referendum in Spain](https://blog.vocdoni.io/referendum-bellpuig)\n    - [One of the biggest political parties in Spain](https://x.com/vocdoni/status/1868017937212162093)\n- All our code is opensource and we build in public, you can visit our github repositories here:\n    - https://github.com/vocdoni/vocdoni-circuits-artifacts\n    - https://github.com/vocdoni/circom2gnark\n    - https://github.com/vocdoni/davinci-node\n    - https://github.com/vocdoni/contracts-z\n    - https://github.com/vocdoni/gnark-crypto-primitives\n\n### **Get Involved**\n\nWe’re building DAVINCI as an **open-source and neutral protocol** and invite the Ethereum and governance communities to contribute. Whether you’re a developer, researcher, or advocate for democratic resilience, your support will help make **secure, censorship-resistant voting a reality!**\n\n**Contribute on GitHub →** [github.com/vocdoni](https://github.com/vocdoni/)\n\n**Vocdoni Discord server →** [chat.vocdoni.io](https://chat.vocdoni.io/)\n\n**DAVINCI→** [davinci.vote](https://davinci.vote/)",
+        "lastUpdated": 0,
+        "projectGithub": "vocdoni",
+        "projectTwitter": "vocdoni"
+      },
+      "recipient": "0x74D8967e812de34702eCD3D453a44bf37440b10b"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Vocdoni - Decentralized and anonymous voting",
+      "logoImg": "bafkreidwmtunbranukh7tlapdehdcxb2sbjiiwn5h73upoibjoop2b4ywm",
+      "website": "https://vocdoni.io",
+      "bannerImg": "bafkreibgj6f5aon7flfme3cl7e44xvc5u4ipuaxgo5isrspmiskgbcfene",
+      "createdAt": 1673255879702,
+      "userGithub": "",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..1RnW9DlaJY0mVtOh7_oG0DI0ZGT4b8xsRkpRosNOam5LS36HxPgc3Aumm5rqntCJ5EJ_aHxjEMq-VglhSmTHAw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-17T11:03:41.490Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-17T11:03:41.490Z",
+          "expirationDate": "2025-01-15T11:03:41.490Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x74D8967e812de34702eCD3D453a44bf37440b10b",
+            "hash": "v0.0.0:Itq1tIWgXS/VO54B2ACR8phkmLfy3ex6DrZFx5tF+Yk=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#vocdoni#3515290"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..QerPf_sllicofaazZ-hfoE5ZEid7LOI-IMT1ymaQqOQlMIG0B78jaMJT_qDdsFIQbCPBEKP0q5_CcwHwH8fOCw",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-17T11:03:33.876Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-17T11:03:33.876Z",
+          "expirationDate": "2025-01-15T11:03:33.876Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x74D8967e812de34702eCD3D453a44bf37440b10b",
+            "hash": "v0.0.0:zpIqhrGQknIJPcvxExASZ3KNxKXBXaZEED7XWYyHk3g=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#vocdoni"
+          }
+        }
+      },
+      "description": "**TL;DR:** Vocdoni leads the way in opensource **decentralized voting technology, with hundreds of thousands of votes processed for +300 organizations**, including City councils, Political parties, Cooperatives, Football clubs, Associations, opposition groups under repressive regimes and more! We accomplished this using a custom L1 blockchain designed specifically for voting. **Now, we are building DAVINCI, a new public good voting protocol** that ensures anonymous, anticoercion, verifiable, and accessible elections using zkSNARKs and Homomorphic Encryption. **DAVINCI is the first solution that meets all the criteria for a universal voting protocol, covering a wide range of use cases: from gasless and anonymous offchain voting for DAOs, with the same guarantees as onchain voting, to national-level official elections.**\n\n---\n\n## Introducing DAVINCI: The future of voting on Ethereum\n\n**Modern voting systems (whether paper-based, centralized digital voting, or onchain) suffer from significant flaws**, including high costs, limited accessibility, and vulnerabilities to manipulation, bias, and vote buying. Achieving the highest standards of election security and fairness remains costly and complex, leaving billions without a secure digital participation option. **Recurrent, low-cost voting is crucial for democratic resilience, but the existing systems lack the necessary technological infrastructure to support it**.\n\n### **What is DAVINCI?**\n\n**DAVINCI** (Decentralized Autonomous Voting Infrastructure for Non-Coercive Inclusion) is a new neutral and unstoppable voting protocol designed for **privacy, scalability, and security**. It enables **high-frequency, low-cost elections** while ensuring transparency, censorship resistance, anti-coercion, and integrity.\n\nBuilt as a **Layer 2 solution on Ethereum**, DAVINCI ensures votes remain **tamper-proof and trustless**, eliminating central points of failure.\n\n### **How DAVINCI Works**\n\nDAVINCI leverages **zkSNARKs and threshold homomorphic encryption (ElGamal)** to provide **end-to-end verifiability, anticoercion and anonymity**, allowing voters to participate **without compromising privacy**.\n\nA **distributed key generation (DKG) system**, coordinated via smart contracts, secures encryption key creation while preventing manipulation. This ensures **trustless election integrity** without relying on any single entity.\n\n### **Technology & Implementation**\n\n- **Privacy-Preserving Voting:** Utilizes **zkSNARKs** for secure, anonymous voting with **on-chain verifiability**.\n- **Scalable & Efficient:** Implements **Gnark cryptographic libraries** using **BLS12-377 & BW6-761 curves** for **fast recursive vote aggregation**.\n- **Ethereum Integration:** Produces **BN254 proofs**, ensuring vote validity **onchain** with minimal computational overhead.\n- **Accessible & Decentralized:** Designed to run on **widely accessible hardware (64 GiB RAM)**, making it easy for anyone to join the sequencer network without requiring specialized infrastructure.\n- **Flexible & Gasless:** Supports **various governance models**, including **DAO voting, national elections, and community polls**, with an efficient **off-chain computation model**.\n\n### **Why DAVINCI?**\n\nDAVINCI is the **only** voting protocol that outperforms **paper-based, centralized digital, and onchain voting**. It meets the requirements for a **universal voting solution**.\n\n![DAVINCI Protocol Comparison](https://tomato-giant-grasshopper-196.mypinata.cloud/ipfs/bafybeihp67w6hzoog2e2ufgn44wqpin7i7l54wvin2sew2xxa3f36n3giu)\n\n### **Roadmap & Next Steps**\n\n![DAVINCI Roadmap](https://tomato-giant-grasshopper-196.mypinata.cloud/ipfs/bafkreigqsitln2filgaid2s2kzmjorwxkamjs2bdfxjr4zcnqyauj3wiyy)\n\nDAVINCI has completed its **proof-of-concept** phase and is now moving towards a **testnet launch in Q2 2025**. Our next milestones include:\n\n- **Testnet launch with a single sequencer**\n- **Audits**\n- **User Testing & Pilots**\n- **Migration of current users of the Vocdoni protocol to DAVINCI**\n- **Community building around DAVINCI**\n- **Mainnet Deployment**\n\nTo achieve these milestones, we need funds to cover our running costs.\n\n### Extended info & repos:\n\n- [Whitepaper](https://whitepaper.vocdoni.io/)\n- [Ethresearch thread](https://ethresear.ch/t/vocdoni-protocol-enabling-decentralized-voting-for-the-masses-with-zk-technology/21036)\n- Success stories:\n    - [New Belarus](https://blog.vocdoni.io/new-belarus-vocdoni)\n    - [Football Club Barcelona](https://thefintechtimes.com/fc-barcelona-reaches-milestone-in-blockchain-tech-adoption-immortalising-johan-cruyff/)\n    - [First official digital referendum in Spain](https://blog.vocdoni.io/referendum-bellpuig)\n    - [One of the biggest political parties in Spain](https://x.com/vocdoni/status/1868017937212162093)\n- All our code is opensource and we build in public, you can visit our github repositories here:\n    - https://github.com/vocdoni/vocdoni-circuits-artifacts\n    - https://github.com/vocdoni/circom2gnark\n    - https://github.com/vocdoni/davinci-node\n    - https://github.com/vocdoni/contracts-z\n    - https://github.com/vocdoni/gnark-crypto-primitives\n\n### **Get Involved**\n\nWe’re building DAVINCI as an **open-source and neutral protocol** and invite the Ethereum and governance communities to contribute. Whether you’re a developer, researcher, or advocate for democratic resilience, your support will help make **secure, censorship-resistant voting a reality!**\n\n**Contribute on GitHub →** [github.com/vocdoni](https://github.com/vocdoni/)\n\n**Vocdoni Discord server →** [chat.vocdoni.io](https://chat.vocdoni.io/)\n\n**DAVINCI→** [davinci.vote](https://davinci.vote/)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "vocdoni",
+      "projectTwitter": "vocdoni"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "id": "44",
+  "chainId": 42161,
+  "roundId": "865",
+  "projectId": "0xdc0b943e2454a497741381ee6172f90a77bc4e16ebc81ac60a5e9bc4c9438ec9",
+  "metadata": {
+    "signature": "0x9678bd76a5300b18205da2eaf584ea1f573e33406627556fc35ea9fc31356dbc6c36a6adb8db7be92fe5aac6e83feaf31efb5bb21969c542225b6fbe0292f05c1b",
+    "application": {
+      "round": "0x145052E87140b7309F6EE18Ba12fC187560d5D89",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "ramana@member.fsf.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "xrchz",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/verifereum/verifereum",
+          "hidden": false,
+          "question": "Project Github Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://hol.zulipchat.com",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "This is our first round.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Verifereum is building the technology for comprehensive formal verification of Ethereum applications, enabling trustworthy and secure dApps with zero exploits due to implementation errors.",
+          "hidden": false,
+          "question": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Comprehensive formal verification in higher-order logic has never been fully achieved for Ethereum applications before, although many other approaches to formal verification with different pros and cons have been tried.",
+          "hidden": false,
+          "question": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The specific challenge we are addressing is that implementation bugs (either in the compiler like solc or vyper, or in the smart contract code itself) can lead to vulnerabilities and exploits in applications, ultimately for some applications putting funds at risk. Compared to alternatives, our approach of interactive theorem proving rules out entire classes of vulnerabilities with mathematical proof, whereas manual auditing, fuzzing, and symbolic execution are often incomplete and may miss some of the more subtle or hard-to-find bugs.",
+          "hidden": false,
+          "question": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are pursuing the following directions:\n- Maintain the EVM formalisation in logic. We have already written an executable specification of the Ethereum Virtual Machine in Higher-Order Logic, and intend to keep it up to date for all EVM hardfork upgrades as well as increase test suite conformance to 100%.\n- Proof tools using decompilation into logic and separation logic: this is a modular and scalable approach to verification that starts with the raw EVM bytecode implementation of a contract and enables reasoning at a high-level with theorems ensuring any results proved apply to the original bytecode.\n- Verified compilation of Vyper: we are working on a formal specification of the Vyper smart contract programming language and have made a plan to verify the compiler over the longer term, which would result in the first production-grade verified compiler for Ethereum.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "Security of Ethereum includes security of its applications, and Verifereum directly addresses this by building proof developments, infrastructure, and methodology for creating apps without implementation bugs, as well as verifying already-deployed apps (or finding the bugs in them by attempting to verify them).",
+          "hidden": false,
+          "question": "How does your project contribute to the decentralization and security of the Ethereum network?",
+          "questionId": 9
+        },
+        {
+          "type": "paragraph",
+          "answer": "We are not deploying any smart contracts.",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 10
+        }
+      ],
+      "project": {
+        "id": "0xdc0b943e2454a497741381ee6172f90a77bc4e16ebc81ac60a5e9bc4c9438ec9",
+        "title": "Verifereum",
+        "logoImg": "bafkreih6mvythdv2d5ywffcg6p4utlaeypb3763gvh5f7i6wxhxoufpmti",
+        "metaPtr": {
+          "pointer": "bafkreiby5dppwmuwxzx3cyooxvlm5iaolg6uzuxqhjrfdib5zhgy5ydtju",
+          "protocol": "undefined"
+        },
+        "website": "https://verifereum.org",
+        "bannerImg": "bafkreibhm2cbynrygechzhvv7nsbcagz725aamxv2xyvk25jxipxcimyd4",
+        "createdAt": 1741860468210,
+        "userGithub": "xrchz",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-28T12:01:29.233Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xfa0f30b9ad02cac60ea0f28b94b6c4a56b0d2c8ceacbfb612a128705581bd6fe637f80662d3afe0ef710d56fa852316f9fd84676ef2bccefbb473bce9f62dfc01c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-28T12:01:29.233Z",
+            "expirationDate": "2025-06-26T12:01:29.233Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB0De8cB8Dcc8c5382c4b7F3E978b491140B2bC55",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#verifereum#181254",
+              "nullifiers": [
+                "v0.0.0:N1Dvu+b5xwhTOAlJzy/jEXIJpY3FmcQPW/CB+ICml4c="
+              ]
+            }
+          }
+        },
+        "description": "Verifereum is a formal model of the Ethereum Virtual Machine (EVM) in higher-order logic (HOL). The aim of the project is to enable verification of applications that run on Ethereum and other EVM chains, covering smart contracts and decentralised protocols, compilers to/from EVM bytecode, and infrastructure for proof engineering and developing formal specifications. Verifereum is developed using HOL4 (https://hol-theorem-prover.org).",
+        "lastUpdated": 0,
+        "projectGithub": "verifereum",
+        "projectTwitter": "verifereum"
+      },
+      "recipient": "0x65FE89a480bdB998F4116DAf2A9360632554092c"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 1,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}

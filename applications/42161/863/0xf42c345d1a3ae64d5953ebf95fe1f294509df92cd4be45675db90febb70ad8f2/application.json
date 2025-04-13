@@ -1,0 +1,238 @@
+{
+  "id": "68",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xf42c345d1a3ae64d5953ebf95fe1f294509df92cd4be45675db90febb70ad8f2",
+  "metadata": {
+    "signature": "0x766f825c49276322e17d17562b46a82272daa220b697cdb91a1e6dc8a4c3d90f79e5f1b7f6c606c45f778f2a304b0c4ae9ae711713278d44e0d914a3a8f106d31c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "jade.clyne@proton.me",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "tirisanna",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/CommonsBuild/tqf",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.com/channels/810180621930070088/810180622165213218",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xf42c345d1a3ae64d5953ebf95fe1f294509df92cd4be45675db90febb70ad8f2",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Tunable Quadratic Funding (TQF) framework is an enhancement to traditional Quadratic Funding (QF) that allows grant round operators to incorporate expertise and community signals into funding decisions. TQF addresses several critical inefficiencies in the current public goods funding landscape:\nTQF solves the \"popularity contest\" problem in standard QF rounds where projects with superior marketing or organizing capacity can overshadow technically superior or more impactful projects. By amplifying contributions from donors with relevant expertise (verified through onchain signals like knowledge credentials, token holdings, or governance participation), TQF ensures that subject matter expertise influences capital allocation.\nOur framework tackles the persistent challenge of Sybil attacks in funding rounds by incorporating verifiable signals that are difficult to fake or manipulate. For example, in our implementation, Token Engineering Academy NFT certificates serve as both expertise indicators and \"proof of humanity,\" increasing the cost of forgery and enhancing Sybil resistance.\nTQF also addresses the inefficiency of \"one-size-fits-all\" funding mechanisms by allowing communities to customize their signal parameters based on their specific needs and values. Round operators can \"tune\" the relative importance of different expertise or participation signals to better align with their mission and goals, without sacrificing the democratic nature of quadratic funding.\nThe implementation process is remarkably simple for round operators, involving just four straightforward steps: downloading the repository, uploading the relevant data, adjusting parameters, and running a command. This operational simplicity addresses the inefficiency of complex, resource-intensive grant allocation processes.\nIn real-world applications, TQF has demonstrated its ability to rebalance funding distributions in meaningful ways. For instance, in our Token Engineering rounds, projects supported by contributors with verified expertise saw funding adjustments of up to 144%, ensuring that resources were directed toward the most promising initiatives according to those most qualified to evaluate them.\n",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Tunable Quadratic Funding (TQF) mechanism significantly reduces development barriers, improves efficiency, and enhances security in the Web3 ecosystem through several key innovations:\nReducing Development Barriers:\nTQF democratizes the grant allocation process by giving more weight to expertise-based contributions rather than purely financial ones. This creates pathways for developers with valuable knowledge but limited financial resources to influence funding decisions, reducing barriers to their projects receiving support. In the Token Engineering the Superchain round, 12 projects benefiting from OP based signals saw an average increase of $1,350 in funding (a 53.8% increase), enabling these high-potential projects to overcome resource constraints.\nImproving Efficiency:\nTQF streamlines the post-round analysis process for grant operators through a simple four-step implementation that requires minimal technical expertise. This operational efficiency allows communities to run more frequent and targeted funding rounds with less overhead.\nThe framework significantly improves capital allocation efficiency by directing funds toward projects with verified community support and expertise backing. For example, in our initial implementation with a $25,000 matching pool, we were able to reallocate an average of $420 from projects with less expertise support to increase funding by an average of $252 for projects with greater expertise signals. This more targeted distribution ensures that limited resources have maximum impact.\nEnhancing Security:\nTQF provides enhanced protection against Sybil attacks and voting manipulation by incorporating signals that are difficult to fake, such as Token Engineering Academy NFT knowledge certificates. These serve as both expertise validators and as \"proof of humanity,\" raising the cost of forgery compared to standard QF implementations.\nThe framework's cluster mapping capability detects and mitigates coordinated voting patterns that might otherwise manipulate funding outcomes. In our recent rounds, we've implemented both basic cluster mapping and explored Connection Oriented Cluster Mapping (COCM) to identify and neutralize potential manipulation attempts.\nTQF's support for multiple signal types creates redundancy in verification, making the overall system more robust against gaming. By combining various signals (e.g., token holdings, knowledge credentials, governance participation), TQF establishes a more comprehensive security profile for each donor contribution.\nThese improvements collectively enhance the legitimacy and security of public funding mechanisms in Web3, ensuring that resources flow to genuinely valuable projects rather than those most capable of gaming the system.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Tunable Quadratic Funding (TQF) tool has gained meaningful traction in the Web3 funding ecosystem, demonstrating its value through practical implementation rather than just theoretical appeal. Here's an overview of its current usage and community support:\nImplementation Metrics:\nSuccessfully deployed in 5 Token Engineering grant rounds, including the most recent Token Engineering the Superchain round in GG21\nProcessed funding allocations for 18 projects in the latest round with 349 unique donors and 914 total contributions\nManaged a total funding pool of $60,000 across rounds, demonstrating scalability and reliability\nDeveloper Engagement:\nGitHub repository has 5 stars and 1 fork, showing early interest from developers\n3 active contributors working on the codebase, indicating collaborative development\nUsed by the Token Engineering Commons (TEC) as their primary grant distribution mechanism since 2022\nEcosystem Integration:\nCollaborated with the Gitcoin Grants Stack team to implement code adjustments enabling TQF's customized coefficient approach\nSuccessfully integrated with Gitcoin's Passport Model Based Detection System and compatible with their Connection Oriented Cluster Mapping\nDemonstrated compatibility across multiple Gitcoin Grant rounds (GG19, GG21, and planned for GG23)\nReal-World Impact:\nIn the Token Engineering the Superchain round, the application of TQF signals resulted in significant rebalancing of funds, with projects receiving adjustments of up to 53.8% based on expertise signals\nProcessed over $5,792 in direct contributions in the most recent round, applying complex signal weightings effectively\nConsistently maintained technical stability across multiple rounds with different parameter configurations\nWhile we're still in the growth stage regarding traditional metrics like GitHub stars, TQF has demonstrated its value through practical application, addressing real challenges in funding allocation that other tools have not solved. The ongoing collaboration with Gitcoin and the successful implementation across multiple grant rounds validate the tool's usefulness and reliability in real-world funding scenarios.",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our Tunable Quadratic Funding (TQF) project has a focused six-month roadmap centered on three core objectives: completing integration with QF Calculator, expanding accessibility, and providing comprehensive implementation support for partners. Here's how we'll achieve these goals with the requested funding:\nPhase 1: QF Calculator Integration (Month 1-2)\nWe're currently in the final stages of integrating TQF into QF Calculator, with completion expected within the next 2-3 weeks. This integration will allow Gitcoin-powered funding rounds to directly leverage TQF's expertise-based signal amplification. Grant funds will support:\nCompleting the remaining integration work\nComprehensive testing with early adopter projects preparing for GG23\nDocumentation specific to the QF Calculator implementation\nDeveloping configurable templates for common signal weighting scenarios\nPhase 2: Partner Support & Implementation (Month 2-4)\nFollowing integration, we'll focus on supporting projects implementing TQF in their GG23 rounds. Funding will enable:\nDirect consultation with round operators on optimal signal selection and weighting\nData analysis support to help partners evaluate potential expertise signals\nCustom implementation support for unique use cases\nDevelopment of case studies and best practices from initial GG23 implementations\nReal-time troubleshooting and technical support during live rounds\nPhase 3: Standalone TQF Enhancement (Month 4-6)\nWhile continuing QF Calculator support, we'll enhance the core TQF repository to serve funding ecosystems beyond Gitcoin. Funds will enable:\nDevelopment of a user-friendly interface for the standalone TQF repository\nCreation of visualization tools to help operators understand signal impacts\nImplementation of additional signal types based on GG23 feedback\nIntegration with additional data sources for signal verification\nComprehensive documentation and tutorials for non-technical operators\nContinuous Improvement (Throughout)\nThroughout all phases, we'll maintain a feedback loop that informs ongoing improvements:\nWeekly check-ins with implementation partners\nMonthly review of signal effectiveness metrics\nContinuous refinement of weighting algorithms based on real-world results\nRegular updates to both the QF Calculator integration and standalone repository\nThe requested funding will primarily support development resources (70%), partner support services (20%), and documentation/educational resources (10%). This allocation ensures we can successfully complete the technical integration while providing the hands-on support necessary for widespread adoption across the Gitcoin ecosystem and beyond.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xf42c345d1a3ae64d5953ebf95fe1f294509df92cd4be45675db90febb70ad8f2",
+        "title": "Token Engineering Commons",
+        "logoImg": "bafkreihvl6wmez7x2vesgfzubfpjufycrg4tzz75nrqaqqksla3ojxqkii",
+        "metaPtr": {
+          "pointer": "bafkreigvg7dqsryyuggtskzita34f5nxlrk7lstreyxf2ap4tcqzjlw3du",
+          "protocol": "undefined"
+        },
+        "website": "https://tecommons.org",
+        "bannerImg": "bafkreigaj4djiqxhcy5ytwg3ilo5uvey5vam57offy2nzgugzadxryrwju",
+        "createdAt": 1691670891413,
+        "userGithub": "0xJade",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..cogERtZVcb14Z6boHaUxmJP4NXhjYOjnLcmu9f9ukl7LP0atxvPbIt9ozS9hk1Ve8ADsZsuvy69XtF_yfWKFCg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-17T17:34:01.747Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-17T17:34:01.747Z",
+            "expirationDate": "2025-01-15T17:34:01.747Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xd0cCFeEF904cCE8e0C70014dB37e5133a6A8AA1c",
+              "hash": "v0.0.0:gwe+r4ArGkuckwe0RZ1XhzS0nXri1b1dcYfNfho6+xk=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#CommonsBuild#25804453"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..p-nSILtjoPfRk5p7zw_n9dB8JLfuUcfO_2S4llljk9fWXaCIRrzWPMwRot8oeZO8favvXro3VXklqaQAor7JCg",
+              "type": "Ed25519Signature2018",
+              "created": "2023-08-10T12:05:23.365Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2023-08-10T12:05:23.365Z",
+            "expirationDate": "2023-11-08T12:05:23.365Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xB08F0ca73E8A59a1b7970e22B8ed2F9142c3fA53",
+              "hash": "v0.0.0:rG9lswzhDlazSnfwH+2Wi408hy4/Y1nhHI1K6fOLBPM=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#tecmns"
+            }
+          }
+        },
+        "description": "Token engineering is a multidisciplinary field for building safer, more resilient blockchain systems. It brings engineering discipline to the design, verification, and optimization of these complex new forms of economic coordination. \n\nWhen you support token engineering, you’re helping to build an important new form of public goods. Civil engineering exists so people can feel safe crossing a bridge at rush hour without having to read its blueprints. Token engineering serves a similar role for complex crypto-economic systems. It builds an engineering-backed assurance layer that enables us trust that these systems are safe and that they will do what they say they do. This newly emerging discipline is critical to fostering the public trust needed for widespread adoption of Web3 technologies. \n\n\nSince the opening of its bonding curve in January 2021, the Token Engineering Commons (TEC) has granted some $600,000 to token engineering projects. In addition to our own direct grant making, the TEC has run numerous Gitcoin grant rounds, including as a featured Community Round. Through these efforts, the TEC has funded the development of the [Token Engineering Academy’s](http://tokenengineering.net/) free Token Engineering [Fundamentals](http://tokenengineering.net/explore/) course and its research into tooling for AI-powered token engineering. It has also provided critical funding to the [Inverter Network’s](http://www.inverter.network/) open library of programmable workflows, the [Bonding Curve Research Group](http://medium.com/bonding-curve-research-group), and [CadCAD](http://cadcad.org) simulation tooling, among many other projects.\n\nThe Token Engineering Commons (TEC) has made significant contributions to the Web3 grants ecosystem through the development and implementation of innovative funding mechanisms and grant allocation strategies. One of our key achievements is the creation of the [Tunable Quadratic Funding (TQF) mechanism](http://medium.com/token-engineering-commons/expertise-and-quadratic-funding-bd4f0c5c3e23), which enhances traditional Quadratic Funding by incorporating on-chain signals from donors. This funding method allows grant round operators to amplify the voting signal of donors that exhibit particular attributes valued by their community. Examples include Subject Matter Expertise (SME), token holding, attestations of community contributions, and reputation (e.g. delegates and badgeholders). Many of these TQF signals also contribute to improving sybil resistance and overall allocation effectiveness. \n\nPlease join us in supporting this critical new public goods infrastructure for ushering in a new era of human coordination!",
+        "lastUpdated": 0,
+        "projectGithub": "CommonsBuild",
+        "projectTwitter": "tecmns"
+      },
+      "recipient": "0x3e0aeCf4fe7B71bf9f7CAcE2D456698D0082288A"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Token Engineering Commons",
+      "logoImg": "bafkreihvl6wmez7x2vesgfzubfpjufycrg4tzz75nrqaqqksla3ojxqkii",
+      "website": "https://tecommons.org",
+      "bannerImg": "bafkreigaj4djiqxhcy5ytwg3ilo5uvey5vam57offy2nzgugzadxryrwju",
+      "createdAt": 1691670891413,
+      "userGithub": "0xJade",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..cogERtZVcb14Z6boHaUxmJP4NXhjYOjnLcmu9f9ukl7LP0atxvPbIt9ozS9hk1Ve8ADsZsuvy69XtF_yfWKFCg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-17T17:34:01.747Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-17T17:34:01.747Z",
+          "expirationDate": "2025-01-15T17:34:01.747Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xd0cCFeEF904cCE8e0C70014dB37e5133a6A8AA1c",
+            "hash": "v0.0.0:gwe+r4ArGkuckwe0RZ1XhzS0nXri1b1dcYfNfho6+xk=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#CommonsBuild#25804453"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..p-nSILtjoPfRk5p7zw_n9dB8JLfuUcfO_2S4llljk9fWXaCIRrzWPMwRot8oeZO8favvXro3VXklqaQAor7JCg",
+            "type": "Ed25519Signature2018",
+            "created": "2023-08-10T12:05:23.365Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2023-08-10T12:05:23.365Z",
+          "expirationDate": "2023-11-08T12:05:23.365Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xB08F0ca73E8A59a1b7970e22B8ed2F9142c3fA53",
+            "hash": "v0.0.0:rG9lswzhDlazSnfwH+2Wi408hy4/Y1nhHI1K6fOLBPM=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#tecmns"
+          }
+        }
+      },
+      "description": "Token engineering is a multidisciplinary field for building safer, more resilient blockchain systems. It brings engineering discipline to the design, verification, and optimization of these complex new forms of economic coordination. \n\nWhen you support token engineering, you’re helping to build an important new form of public goods. Civil engineering exists so people can feel safe crossing a bridge at rush hour without having to read its blueprints. Token engineering serves a similar role for complex crypto-economic systems. It builds an engineering-backed assurance layer that enables us trust that these systems are safe and that they will do what they say they do. This newly emerging discipline is critical to fostering the public trust needed for widespread adoption of Web3 technologies. \n\n\nSince the opening of its bonding curve in January 2021, the Token Engineering Commons (TEC) has granted some $600,000 to token engineering projects. In addition to our own direct grant making, the TEC has run numerous Gitcoin grant rounds, including as a featured Community Round. Through these efforts, the TEC has funded the development of the [Token Engineering Academy’s](http://tokenengineering.net/) free Token Engineering [Fundamentals](http://tokenengineering.net/explore/) course and its research into tooling for AI-powered token engineering. It has also provided critical funding to the [Inverter Network’s](http://www.inverter.network/) open library of programmable workflows, the [Bonding Curve Research Group](http://medium.com/bonding-curve-research-group), and [CadCAD](http://cadcad.org) simulation tooling, among many other projects.\n\nThe Token Engineering Commons (TEC) has made significant contributions to the Web3 grants ecosystem through the development and implementation of innovative funding mechanisms and grant allocation strategies. One of our key achievements is the creation of the [Tunable Quadratic Funding (TQF) mechanism](http://medium.com/token-engineering-commons/expertise-and-quadratic-funding-bd4f0c5c3e23), which enhances traditional Quadratic Funding by incorporating on-chain signals from donors. This funding method allows grant round operators to amplify the voting signal of donors that exhibit particular attributes valued by their community. Examples include Subject Matter Expertise (SME), token holding, attestations of community contributions, and reputation (e.g. delegates and badgeholders). Many of these TQF signals also contribute to improving sybil resistance and overall allocation effectiveness. \n\nPlease join us in supporting this critical new public goods infrastructure for ushering in a new era of human coordination!",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "CommonsBuild",
+      "projectTwitter": "tecmns"
+    }
+  }
+}

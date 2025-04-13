@@ -1,0 +1,231 @@
+{
+  "id": "100",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0x0ef8265983dc88987f5fc276db1094103d7b99a686bd50087feb48553998464e",
+  "metadata": {
+    "signature": "0x30c5516f5ab4b8135cf8ee9e3a79e14770c14c6662746ac66afb4c9d59987cc245ca83db021d5b3f87ad1df732598e3c32c576732cc3aa7ed83637a6dce5cec41b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "stella@dao.unlock-protocol.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "stellaachenbach_11",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/unlock-protocol",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.unlock-protocol.com/",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "Yes, once in GG22.",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Unlock Protocol contributes in three distinct ways:\n\n- The protocol is entirely open-source and ready to fork and embed. All of the Unlock smart contracts are therefore open-source as well as fully audited and, beyond that, verified on Etherscan. The latter means developers can easily retrieve the contract's ABI directly from Etherscan or use our @unlock-protocol/contracts package. To gain a very complete overview, please review the [Unlock Protocol Litepaper](https://docs.unlock-protocol.com/getting-started/what-is-unlock/litepaper/).\n- Additionally, Unlock is an EVM multi-chain (14 networks) protocol that supports the growth of communities beyond one chain. Users can remain in the ecosystem they chose for their project/ community and still utilize the protocol.\n- Our ethical standards are driven by the DAO that governs the protocol. Unlock DAO is a growing and committed community that is loyal to the protocol and what it stands for (including the open-source standard). Since last year, the community has grown due to some internal changes and has started to flourish along these new implementations.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Unlock Protocol is a permissionless and peer-governed protocol that allows creators, developers, and community organizers to deploy no-code smart contracts onchain for ticketing, recurring subscriptions, certifications, and memberships. \n\nSeveral communities, individual creators, and developers have used Unlock to publish their own work or events onchain. The [Unlock Showcase](https://showcase.unlock-protocol.com/) page offers a good overview of some specific use cases relying on the abovementioned features.\n\nWhat sets Unlock Protocol apart, aside from being multi-chain, peer-governed, and open-source, is that it is easy to use and features a seamless user interface. This makes the protocol and its sub-applications (Unlock Events & Unlock Certifications) very inclusive tool kits in the Web3 space.\n\n",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "As mentioned above, the DAO has been growing since last year and started to attract more attention. We want to keep these energies going and provide micro-grants to active and engaged community members so they can start building up more business-oriented models on top of the protocol owned by the DAO. This initiative, led by the current Council of Stewards at Unlock Protocol DAO, aims to make the DAO self-sustainable in the long term without charging heavy protocol fees.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Regarding the different networks, [here](https://docs.unlock-protocol.com/core-protocol/unlock/networks/) are our docs for verification.\n\nThe core team of Unlock Protocol has built a networks npm module that includes all the networks' addresses and RPC endpoints, which developers can use for debugging purposes: @unlock-protocol/networks.\n\n0xe79B93f8E22676774F2A8dAd469175ebd00029FA, 1 (Ethereum Mainnet)\n\n0x99b1348a9129ac49c6de7F11245773dE2f51fB0c, 10 (Optimism)\n\n0xeC83410DbC48C7797D2f2AFe624881674c65c856, 56 (BNB Chain)\n\n0x1bc53f4303c711cc693F6Ec3477B83703DcB317f, 100 (Gnosis Chain)\n\n0xE8E5cd156f89F7bdB267EabD5C43Af3d5AF2A78f, 137 (Polygon)\n\n0x32CF553582159F12fBb1Ae1649b3670395610F24, 324 (zkSync Era)\n\n0x259813B665C8f6074391028ef782e27B65840d89, 1101 (Polygon zkEVM)\n\n0xd0b14797b9D08493392865647384974470202A78, 8453 (Base)\n\n0x1FF7e338d5E582138C46044dc238543Ce555C963, 42161 (Arbitrum One)\n\n0x1FF7e338d5E582138C46044dc238543Ce555C963, 42220 (Celo)\n\n0x70cBE5F72dD85aA634d07d2227a421144Af734b3, 43114 (Avalanche C-Chain)\n\n0x70B3c9Dd9788570FAAb24B92c3a57d99f8186Cc7, 59144 (Linea)\n",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0x0ef8265983dc88987f5fc276db1094103d7b99a686bd50087feb48553998464e",
+        "title": "Unlock Protocol",
+        "logoImg": "bafkreihwrf75elr5tt33clvl4mutt6p2hujlblekhyszaya6ysqrhatgyq",
+        "metaPtr": {
+          "pointer": "bafkreiduwjenoutmptyua5535vw7jievitj6pd6w6hoovintgbhwstfvpq",
+          "protocol": "undefined"
+        },
+        "website": "https://unlock-protocol.com/",
+        "bannerImg": "bafkreiaw3ljadjbwzp6vliclzyqcmstl54redcrqkcbnw7eha7pzuw44de",
+        "createdAt": 1729834178395,
+        "userGithub": "Calla-Ji",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Sot4dUWsrwP5cKWlH6-V3UvvyoZw4QXGhwBTP-bOt-Pb5EkgmOwU9xBy_n4aK0rSNIoCwf-9X0WzPkFSvBPWBA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-25T05:29:17.745Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-25T05:29:17.745Z",
+            "expirationDate": "2025-01-23T05:29:17.745Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xD2BC5cb641aE6f7A880c3dD5Aee0450b5210BE23",
+              "hash": "v0.0.0:gfoksobW7nktYE1eiffwrHoC9pz5t16uxKb9aAceDXo=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#unlock-protocol#43012305"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..pYedI7uLRJPEWG4joz8kCG-3W0Lv612OSTjhYJojX8FfHRu__bQqRIhdoEAujSGeXcLQ7GtAWsQjRBv-vJFRAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-26T06:36:05.598Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-26T06:36:05.598Z",
+            "expirationDate": "2025-01-24T06:36:05.598Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xD2BC5cb641aE6f7A880c3dD5Aee0450b5210BE23",
+              "hash": "v0.0.0:K/GZgtknb5Okd7T2zr3+y87t8XyrmSeBO3SPuW9glA4=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#stellaachenbach"
+            }
+          }
+        },
+        "description": "Unlock is an open-source, collectively-owned, community-governed protocol that developers, creators, and platforms can use to create onchain memberships, subscriptions, and more. Unlock’s goal is to ease implementation and increase conversion from “users” to “members,” creating a much healthier monetization environment for the web.\n\n**There are a number of interdependent components in the Unlock Ecosystem. These are:**\n\n- **Unlock Labs:** The core team that created and currently maintains Unlock Protocol.\n- **Unlock Protocol:** A suite of upgradable smart contracts that create memberships as NFTs.\n- **Unlock DAO:** A decentralized organization of token holders and active community members who shape and govern Unlock Protocol.\n- **Unlock Protocol Foundation:** A Cayman Islands Foundation whose purpose is to act in service of the Unlock Ecosystem and the DAO.\n- **Unlock Tools:** Front-end convenience applications built by Unlock Labs to further sustainable innovation on Unlock Protocol.\n\nUnlock Labs created Unlock Protocol to provide an open, shared infrastructure for memberships that removes friction, increases conversion, enables scale, reduces costs, and evolves the web from a business model built on attention toward one based on memberships.\n",
+        "lastUpdated": 0,
+        "projectGithub": "unlock-protocol",
+        "projectTwitter": "stellaachenbach"
+      },
+      "recipient": "0xf88e5D0A879a709d0B1cB794d5E0b8c61783cA10"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Unlock Protocol",
+      "logoImg": "bafkreihwrf75elr5tt33clvl4mutt6p2hujlblekhyszaya6ysqrhatgyq",
+      "website": "https://unlock-protocol.com/",
+      "bannerImg": "bafkreiaw3ljadjbwzp6vliclzyqcmstl54redcrqkcbnw7eha7pzuw44de",
+      "createdAt": 1729834178395,
+      "userGithub": "Calla-Ji",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..Sot4dUWsrwP5cKWlH6-V3UvvyoZw4QXGhwBTP-bOt-Pb5EkgmOwU9xBy_n4aK0rSNIoCwf-9X0WzPkFSvBPWBA",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-25T05:29:17.745Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-25T05:29:17.745Z",
+          "expirationDate": "2025-01-23T05:29:17.745Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xD2BC5cb641aE6f7A880c3dD5Aee0450b5210BE23",
+            "hash": "v0.0.0:gfoksobW7nktYE1eiffwrHoC9pz5t16uxKb9aAceDXo=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextGithubOrg#unlock-protocol#43012305"
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..pYedI7uLRJPEWG4joz8kCG-3W0Lv612OSTjhYJojX8FfHRu__bQqRIhdoEAujSGeXcLQ7GtAWsQjRBv-vJFRAg",
+            "type": "Ed25519Signature2018",
+            "created": "2024-10-26T06:36:05.598Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+          },
+          "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ],
+          "issuanceDate": "2024-10-26T06:36:05.598Z",
+          "expirationDate": "2025-01-24T06:36:05.598Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xD2BC5cb641aE6f7A880c3dD5Aee0450b5210BE23",
+            "hash": "v0.0.0:K/GZgtknb5Okd7T2zr3+y87t8XyrmSeBO3SPuW9glA4=",
+            "@context": [
+              {
+                "hash": "https://schema.org/Text",
+                "provider": "https://schema.org/Text"
+              }
+            ],
+            "provider": "ClearTextTwitter#stellaachenbach"
+          }
+        }
+      },
+      "description": "Unlock is an open-source, collectively-owned, community-governed protocol that developers, creators, and platforms can use to create onchain memberships, subscriptions, and more. Unlock’s goal is to ease implementation and increase conversion from “users” to “members,” creating a much healthier monetization environment for the web.\n\n**There are a number of interdependent components in the Unlock Ecosystem. These are:**\n\n- **Unlock Labs:** The core team that created and currently maintains Unlock Protocol.\n- **Unlock Protocol:** A suite of upgradable smart contracts that create memberships as NFTs.\n- **Unlock DAO:** A decentralized organization of token holders and active community members who shape and govern Unlock Protocol.\n- **Unlock Protocol Foundation:** A Cayman Islands Foundation whose purpose is to act in service of the Unlock Ecosystem and the DAO.\n- **Unlock Tools:** Front-end convenience applications built by Unlock Labs to further sustainable innovation on Unlock Protocol.\n\nUnlock Labs created Unlock Protocol to provide an open, shared infrastructure for memberships that removes friction, increases conversion, enables scale, reduces costs, and evolves the web from a business model built on attention toward one based on memberships.\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "unlock-protocol",
+      "projectTwitter": "stellaachenbach"
+    }
+  }
+}

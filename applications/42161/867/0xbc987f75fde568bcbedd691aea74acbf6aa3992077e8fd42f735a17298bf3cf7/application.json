@@ -1,0 +1,667 @@
+{
+  "id": "175",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xbc987f75fde568bcbedd691aea74acbf6aa3992077e8fd42f735a17298bf3cf7",
+  "metadata": {
+    "signature": "0x573847acbed7dfa0edde474b81c0d76097b8d899e7b29fc4d9cec4c694c876844daa7027be62988b09797f809442cac8f73ccb856ba7d96c49651e8b44ed1b7e1c",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "geist@debuggingfuture.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "debuggingfuture",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/fractaldotbox/geist-filecoin",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "We participated in GG22 with focus on a spin off project (ddevkit)\n\nhttps://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xe16e069d2d3bda1fb44acfb65c933ddf0f7bbcbac042e80f3c86b634e040d27b",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "As a content management systems, we make it easier for other dApps to be developed and integrated with various partners, deploy onto decentralized storage as dWebsites. Our \nfeatures enable decentralized agents to be orchestrated with long-term memory, on-chain verifiable communications and make use of decentralized storage and compute for content and assets generations. ",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "One key feature is to support collaborations based on DID & agents with privacy, rather than typical seat-based pricing SaaS which often limit access to insiders.\n\nOur features enable decentralized agents to be orchestrated with long-term memory, on-chain verifiable communications and make use of decentralized storage and compute for content and assets generations. ",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "- We have been building Content Management Systems for agents under the [FIL Builder Next Step Grants](https://github.com/filecoin-project/devgrants/issues/1846)\n  - no-code editor\n  - Access control with On-chain / DID-based criteria (e.g. [UCAN](https://github.com/storacha/ucanto))\n  - automation of deployment to IPFS\n\n- We are adding more access criteria such as Attestations via Ethereum Attestation Services, reputation scoring threshold etc.\n\n- We've been dogfooding and experimenting use cases for\n 1. AI-driven community newsletters and datasets\n  - AI curated [Week in Etheruem](https://thisweekin.eth.1.w3link.io/)\n  - Setting up Bounties for agent to contribute datasets\n 2. Support multiple agents orchestration and chain of thought \n  - coordinating agents with on-chain memory & verifiable communications\n\n- We identified that to build truly censorship resistant website we have to secure the end to end techstack. [dDevKit](https://ddevkit.geist.network/) is our standalone spin-off project to minimize dependencies in dApp Components and agents.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x1B333eE46bCaA965B32F13d3d6a576765CB1FF53, 8453",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xbc987f75fde568bcbedd691aea74acbf6aa3992077e8fd42f735a17298bf3cf7",
+        "title": "Geist",
+        "logoImg": "bafkreieroouopvfvbbda6dxatcfxfpw6ilmszatuwok7cbufk7zsq2a4ue",
+        "metaPtr": {
+          "pointer": "bafkreicell3fxnsngwhnybgkmatotuadt5ihjddfbpcgyw4ozthoqilsk4",
+          "protocol": "undefined"
+        },
+        "website": "https://www.geist.network",
+        "bannerImg": "bafkreigi6isczn7hzcf5avlvbtmkmdhp6qai3mmypoynkbtq3ytb74ub5e",
+        "createdAt": 1743450157726,
+        "userGithub": "debuggingfuture",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T19:37:42.994Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xaf41d0e61b7e50fbcfc6b949f5372ae09c626259a79656a0b843aa5c8ff4721019db20778288935fbd62c6b28ad35e55263de02ac0f2d00ec0580c2afb2689711b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T19:37:42.993Z",
+            "expirationDate": "2025-06-29T19:37:42.993Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x962EFc5A602f655060ed83BB657Afb6cc4b5883F",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#fractaldotbox#1883877",
+              "nullifiers": [
+                "v0.0.0:BV0ZsDqbop+Af+9JAGPYEdF7e/eQp57lT1ORJVaJDbs="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T19:37:26.533Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xfb21a9e81a708c2c4a0b6970826efe87179c27feb6ee7678c82f9b57b501ca417d79112080306ca8e67a1c33e2e5203ad6b81a216db7f0e8564daa3d4097358c1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T19:37:26.533Z",
+            "expirationDate": "2025-06-29T19:37:26.533Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x962EFc5A602f655060ed83BB657Afb6cc4b5883F",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#debuggingfuture",
+              "nullifiers": [
+                "v0.0.0:AcBaO90eQsfMqsOg6OX+mz/hmydzYrqqZZs8a64jVB8="
+              ]
+            }
+          }
+        },
+        "description": "# Gesit CMS\n\n🏆Team won 4x Finalists ❤️OSS, Public Good funded by Filecoin Grants 👩‍💻AI-owned, Censorship-Resistant Websites  ✅ Team donated 2ETH+ in past GG 🙌Organized OSS/Dev communities for 10yrs+\n\n- What if we have autonomous websites controlled by agents, goverened by community? \n\n- How can we have more websites on IPFS/EthStorage+ENS instead of centralized hosting?\n\n- How to support collaborations based on DID & agents with privacy, rather than seat-based pricing SaaS and limit access to insiders?\n\nThe Team has experimented with autonomous agentic website builder at [🏆Geist - Finalist@ETHGlobal Singapore](https://ethglobal.com/showcase/geist-x3fur) and [SEELE - 🏆Finalist@ETHDenver (2025)](https://devfolio.co/projects/seele-3477). This [Week in Etheruem](https://thisweekin.eth.1.w3link.io/) website is a demo fully curated, written, fact-checked, deployed by agents.\n\n[Fileverse](https://fileverse.io/) has done a great job providing alternatives to Google Docs & Notion, we want to build Geist as an alternative to Contentful, Sanity and Strapi. \n\nIt is an exciting design space as Vitalik discussed [AI as the engine, humans as the steering wheel](https://vitalik.eth.limo/general/2025/02/28/aihumans.html), we believe new tools will be needed for community to co-create with agents on content and websites. \n\n\n![img](https://bafybeifv6hij7d43aitoi7ui6stdkpxbfdoj6sebgtydbvnxsxskjmeety.ipfs.w3s.link/thisweekineth.png)\n\n\n![img](https://bafybeihesuyqgem2z56uvgb4qmip7uc2pkyhbuyg7jdcef5m5jkdd2r4vm.ipfs.w3s.link/seele_arch.png)\n\n\n## What we're cooking\n\n- We have been building Content Management Systems for agents under the [FIL Builder Next Step Grants](https://github.com/filecoin-project/devgrants/issues/1846)\n  - no-code editor\n  - Access control with On-chain / DID-based criteria (e.g. [UCAN](https://github.com/storacha/ucanto))\n  - automation of deployment to IPFS\n\n- We are adding more access criteria such as Attestations via Ethereum Attestation Services, reputation scoring threshold etc.\n\n- We've been dogfooding and experimenting use cases for\n 1. AI-driven community newsletters and datasets\n  - AI curated [Week in Etheruem](https://thisweekin.eth.1.w3link.io/)\n  - Setting up Bounties for agent to contribute datasets\n 2. Support multiple agents orchestration and chain of thought \n  - coordinating agents with on-chain memory & verifiable communications\n\n- We identified that to build truly censorship resistant website we have to secure the end to end techstack. [dDevKit](https://ddevkit.geist.network/) is our standalone spin-off project to minimize dependencies in dApp Components and agents.",
+        "lastUpdated": 0,
+        "projectGithub": "fractaldotbox",
+        "projectTwitter": "debuggingfuture"
+      },
+      "recipient": "0x6c1277dE196021759FF10432d07A171eEf87A0fc"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Geist",
+      "logoImg": "bafkreieroouopvfvbbda6dxatcfxfpw6ilmszatuwok7cbufk7zsq2a4ue",
+      "website": "https://www.geist.network",
+      "bannerImg": "bafkreigi6isczn7hzcf5avlvbtmkmdhp6qai3mmypoynkbtq3ytb74ub5e",
+      "createdAt": 1743450157726,
+      "userGithub": "debuggingfuture",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T19:37:42.994Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xaf41d0e61b7e50fbcfc6b949f5372ae09c626259a79656a0b843aa5c8ff4721019db20778288935fbd62c6b28ad35e55263de02ac0f2d00ec0580c2afb2689711b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T19:37:42.993Z",
+          "expirationDate": "2025-06-29T19:37:42.993Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x962EFc5A602f655060ed83BB657Afb6cc4b5883F",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#fractaldotbox#1883877",
+            "nullifiers": [
+              "v0.0.0:BV0ZsDqbop+Af+9JAGPYEdF7e/eQp57lT1ORJVaJDbs="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T19:37:26.533Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xfb21a9e81a708c2c4a0b6970826efe87179c27feb6ee7678c82f9b57b501ca417d79112080306ca8e67a1c33e2e5203ad6b81a216db7f0e8564daa3d4097358c1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T19:37:26.533Z",
+          "expirationDate": "2025-06-29T19:37:26.533Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x962EFc5A602f655060ed83BB657Afb6cc4b5883F",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#debuggingfuture",
+            "nullifiers": [
+              "v0.0.0:AcBaO90eQsfMqsOg6OX+mz/hmydzYrqqZZs8a64jVB8="
+            ]
+          }
+        }
+      },
+      "description": "# Gesit CMS\n\n🏆Team won 4x Finalists ❤️OSS, Public Good funded by Filecoin Grants 👩‍💻AI-owned, Censorship-Resistant Websites  ✅ Team donated 2ETH+ in past GG 🙌Organized OSS/Dev communities for 10yrs+\n\n- What if we have autonomous websites controlled by agents, goverened by community? \n\n- How can we have more websites on IPFS/EthStorage+ENS instead of centralized hosting?\n\n- How to support collaborations based on DID & agents with privacy, rather than seat-based pricing SaaS and limit access to insiders?\n\nThe Team has experimented with autonomous agentic website builder at [🏆Geist - Finalist@ETHGlobal Singapore](https://ethglobal.com/showcase/geist-x3fur) and [SEELE - 🏆Finalist@ETHDenver (2025)](https://devfolio.co/projects/seele-3477). This [Week in Etheruem](https://thisweekin.eth.1.w3link.io/) website is a demo fully curated, written, fact-checked, deployed by agents.\n\n[Fileverse](https://fileverse.io/) has done a great job providing alternatives to Google Docs & Notion, we want to build Geist as an alternative to Contentful, Sanity and Strapi. \n\nIt is an exciting design space as Vitalik discussed [AI as the engine, humans as the steering wheel](https://vitalik.eth.limo/general/2025/02/28/aihumans.html), we believe new tools will be needed for community to co-create with agents on content and websites. \n\n\n![img](https://bafybeifv6hij7d43aitoi7ui6stdkpxbfdoj6sebgtydbvnxsxskjmeety.ipfs.w3s.link/thisweekineth.png)\n\n\n![img](https://bafybeihesuyqgem2z56uvgb4qmip7uc2pkyhbuyg7jdcef5m5jkdd2r4vm.ipfs.w3s.link/seele_arch.png)\n\n\n## What we're cooking\n\n- We have been building Content Management Systems for agents under the [FIL Builder Next Step Grants](https://github.com/filecoin-project/devgrants/issues/1846)\n  - no-code editor\n  - Access control with On-chain / DID-based criteria (e.g. [UCAN](https://github.com/storacha/ucanto))\n  - automation of deployment to IPFS\n\n- We are adding more access criteria such as Attestations via Ethereum Attestation Services, reputation scoring threshold etc.\n\n- We've been dogfooding and experimenting use cases for\n 1. AI-driven community newsletters and datasets\n  - AI curated [Week in Etheruem](https://thisweekin.eth.1.w3link.io/)\n  - Setting up Bounties for agent to contribute datasets\n 2. Support multiple agents orchestration and chain of thought \n  - coordinating agents with on-chain memory & verifiable communications\n\n- We identified that to build truly censorship resistant website we have to secure the end to end techstack. [dDevKit](https://ddevkit.geist.network/) is our standalone spin-off project to minimize dependencies in dApp Components and agents.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "fractaldotbox",
+      "projectTwitter": "debuggingfuture"
+    }
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "id": "50",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0x064a5bb8450ea5cbd1615369bfaa4cfd62159f9cf9c087c5d23bb6d2a9ac0354",
+  "metadata": {
+    "signature": "0x7d42440f0519ee1e3625fea1a5caad3625023f70b77532fcb0333d620bc7e8700799c5e8e4c448a2e0d08ccd353b5a046b66f12061ae688646257dc019ee06321b",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "hello@bonadocs.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@davidpreneur",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/bonadocs",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://checker.gitcoin.co/public/round/R63EMx4YGw/show?search=bonadocs",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Bonadocs is on a mission to simplify smart contract integrations. We’re making it easy for web3 developers to use and integrate smart contracts into their systems.\n\nProblem: Collaboration between teams on smart contract integrations is currently a time-consuming affair. This comes down to two difficult tasks:\n-Documentation\n-Integration\n\nDocumenting smart contracts is hard. Most smart contracts have complex workflows. Multiple smart contract method calls and transactions are required to complete certain complex actions. For example, executing a Swap action on Uniswap involves at least two calls for most tokens: approve tokens (approve), execute swap (swapExactTokensForTokens). Each workflow needs to be interactable and properly documented.\nIntegration is also a nightmare because few contracts are ever documented well enough. However, that's not the only reason. Even when the contract is adequately documented, testing workflows to observe the behavior in different scenarios is a necessary part of integration. For both solidity and dapp developers.\n",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Bonadocs allows web3 engineering teams to collaborate and build applications in a very intuitive way. To simplify integrations, we've categorized our tooling as follows:\n\nDocgen: Docgen allows developers to go from their codebase to beautiful and interactive documentation in seconds. Using our hardhat plugin, you can generate interactive documentation to query your contract methods. (https://x.com/bonadocs/status/1750896462882386228)\n\nWidget: Through our playground environment, you can generate widgets for your contract methods. These widgets can then be easily embedded in your docs or any react application for devs to query. This is instrumental for devrel teams, to help onboard external devs. (https://medium.com/@bonadocs/using-bonadocs-widget-to-enable-interactivity-on-your-docs-8169b6201f78)\n\nPlayground: Our playground is a collaborative environment primarily for solidity and front-end devs to build applications. This can be used by internal engineering teams or teams across different organizations. Devrel teams can also take advantage of the playground to create a single source of truth for their protocol - making onboarding super easy for their developer community. (https://playground.bonadocs.com/)\n\nProtocol Registry: Our protocol registry is an open-source tool that allows you to find different popular protocols and their respective playgrounds. (https://registry.bonadocs.com/)\n\nOn a high level, bonadocs are created to simplify the documentation, interaction, and integration of smart contracts.\n",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "Different parts of our tooling are used by Superfluid, Arbitrum, Optimism, Base, Compound, Paycrest, etc.\nSuperfluid: https://docs.superfluid.finance/docs/technical-reference/CFAv1Forwarder\nPaycrest: https://docs.paycrest.io/contracts/Gateway\nOP: https://app.charmverse.io/op-grants/bonadocs-23948002871339513, https://x.com/thisdavidboy/status/1824105575111655873\nCompound: https://questbook.app/dashboard/?grantId=0x3b16764826f0baa77226327c7c0d7d53f8541913&chainId=10&role=community&proposalId=0x5d3&isRenderingProposalBody=true\nBase: https://x.com/thisdavidboy/status/1819784005559980534\nDevs:\nhttps://x.com/ebukizy4u/status/1781125192158154955\nhttps://x.com/Reformed_Normie/status/1824113289325842857\n",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "Roadmap:\n1) Smart contract testing\n2) Dapp generator: It’s a feature that allows you convert your contracts into a quick demo app to show use-cases - This leverages actions (https://docs.bonadocs.com/docs/guides/Playground/Contracts/Action) within the bonadocs suite. \nThe dapp generator is similar to Coast (https://www.trycoast.com/) for APIs.",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "N/A",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0x064a5bb8450ea5cbd1615369bfaa4cfd62159f9cf9c087c5d23bb6d2a9ac0354",
+        "title": "Bonadocs",
+        "logoImg": "bafkreidf5k7jgfxo65wmm5m2a5ghojpeoiv7xopxjyderr4m2i5kbgid5q",
+        "metaPtr": {
+          "pointer": "bafkreidnp2mo62znzzni57e5rxvm7jqxchitqlgnhjlzq7tjtwdiqjugqq",
+          "protocol": "undefined"
+        },
+        "website": "https://bonadocs.com",
+        "bannerImg": "bafkreifixfpwds3gsv7o2fooqrjus7latod6xpkdyiqz3siwqrw7dvjory",
+        "createdAt": 1742524604553,
+        "userGithub": "atanda1",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-21T02:50:28.311Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xad1a4dfae2798a8f6e9a404afeb709a8f72200e2804ee15c9a52e3f3321068c453c8f3e7e1257d9690d551661b91bf5ca51add03d40eb720baae99db64387fe51c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-21T02:50:28.311Z",
+            "expirationDate": "2025-06-19T02:50:28.311Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa4d3e318A00416fc8932aF9ac570ECfC50511502",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#bonadocs#45256233",
+              "nullifiers": [
+                "v0.0.0:6QhecIGtb9SaaV3uvmdoVGKcAKvkWz+xWW6g8mWoDpg="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-21T02:36:07.383Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xbadb5eb82096022d1e5dd94a76799300586b7adb4d70f939c0d466dc6daae78e11eb432ea7c8c0f384da336e6bad5652b6291811b8583b708651c7e60a7ae1aa1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-21T02:36:07.383Z",
+            "expirationDate": "2025-06-19T02:36:07.383Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa4d3e318A00416fc8932aF9ac570ECfC50511502",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#bonadocs",
+              "nullifiers": [
+                "v0.0.0:c5VME/UIQOLJYJ/YYsBCcqNmzIGOVP4H/7Hdq5dSM6M="
+              ]
+            }
+          }
+        },
+        "description": "Simplifying smart contract interactions, integrations & collaboration.",
+        "lastUpdated": 0,
+        "projectGithub": "bonadocs",
+        "projectTwitter": "bonadocs"
+      },
+      "recipient": "0x9d55D24105cd246115705A58CF92a5161A90B1fF"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Bonadocs",
+      "logoImg": "bafkreidf5k7jgfxo65wmm5m2a5ghojpeoiv7xopxjyderr4m2i5kbgid5q",
+      "website": "https://bonadocs.com",
+      "bannerImg": "bafkreifixfpwds3gsv7o2fooqrjus7latod6xpkdyiqz3siwqrw7dvjory",
+      "createdAt": 1742524604553,
+      "userGithub": "atanda1",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-21T02:50:28.311Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xad1a4dfae2798a8f6e9a404afeb709a8f72200e2804ee15c9a52e3f3321068c453c8f3e7e1257d9690d551661b91bf5ca51add03d40eb720baae99db64387fe51c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-21T02:50:28.311Z",
+          "expirationDate": "2025-06-19T02:50:28.311Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa4d3e318A00416fc8932aF9ac570ECfC50511502",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#bonadocs#45256233",
+            "nullifiers": [
+              "v0.0.0:6QhecIGtb9SaaV3uvmdoVGKcAKvkWz+xWW6g8mWoDpg="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-21T02:36:07.383Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xbadb5eb82096022d1e5dd94a76799300586b7adb4d70f939c0d466dc6daae78e11eb432ea7c8c0f384da336e6bad5652b6291811b8583b708651c7e60a7ae1aa1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-21T02:36:07.383Z",
+          "expirationDate": "2025-06-19T02:36:07.383Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa4d3e318A00416fc8932aF9ac570ECfC50511502",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#bonadocs",
+            "nullifiers": [
+              "v0.0.0:c5VME/UIQOLJYJ/YYsBCcqNmzIGOVP4H/7Hdq5dSM6M="
+            ]
+          }
+        }
+      },
+      "description": "Simplifying smart contract interactions, integrations & collaboration.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "bonadocs",
+      "projectTwitter": "bonadocs"
+    }
+  }
+}

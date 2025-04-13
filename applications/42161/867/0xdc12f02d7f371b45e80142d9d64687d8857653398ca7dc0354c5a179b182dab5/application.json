@@ -1,0 +1,667 @@
+{
+  "id": "170",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xdc12f02d7f371b45e80142d9d64687d8857653398ca7dc0354c5a179b182dab5",
+  "metadata": {
+    "signature": "0x3749349653c00ae482533c52842d82306c8508cd534e9a15e0db70c1a2e6ce79044e735313c0f665dab741c58007c7a1b32bf6f12beee4bff9c8ef0d9a5030291b",
+    "application": {
+      "round": "0x3E93205B786796Cf7Ea70404E89c7dda3b84D07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "vtamara@pasosdeJesus.org",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "VladimirTamara",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/pasosdeJesus/learn.tg",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://t.me/LearnTGNews",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "No",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. We will open source this project as a result of this funding round. From a technicla perspective it is built with a backend wity Ruby on Rails, a front end with Vue and our own connection to the wallet.\n2.  To advance faster we will rewrite the application on a different stack and open source it from the beginning.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "* The backend already allows a teacher to organize courses into chapters and guides.\n* Each guide is written in Markdown.\n* When a student connects with a wallet he/she sees more courses.\n* We want to evaluate each guide with questions (open and multiple choice) but that can be answered through simple games.\n* We will add lessons about crypto to invite new people to use crypto and save, specially people from Sierra Leone, Africa.\n* We want to offer scolarships to people in Sierra Leone that will be paid as they advance in the lessons.\n",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "1. We plan to re-write the application on next.js and/or on  expo, usign standard controls of wagmi and rainbowkit.\n\n2. Store KYC data in the backend database\n\n3. Implement the token and referral reward system from https://engagement-rewards.vercel.app/\n\n4. Lesson about crypto for people of Sierra Leone\n\n5. Scholarships for the Sierra Leonean population and marketing campaign.\n",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x939aa9effad34e11bb8fa3025f1b500e87970cae,42220\n0x939aa9effad34e11bb8fa3025f1b500e87970cae,42161\n0x939aa9effad34e11bb8fa3025f1b500e87970cae,43114\n0x2e2c4ac19c93d0984840cdd8e7f77500e2ef978e,43114\n0x2e2c4ac19c93d0984840cdd8e7f77500e2ef978e,42161\n0x2e2c4ac19c93d0984840cdd8e7f77500e2ef978e,42220\n0x6b3bc1b55b28380193733a2fd27f2639d92f14be,42220\n0x6b3bc1b55b28380193733a2fd27f2639d92f14be,42161\n0x6b3bc1b55b28380193733a2fd27f2639d92f14be,42220",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xdc12f02d7f371b45e80142d9d64687d8857653398ca7dc0354c5a179b182dab5",
+        "title": "Learn through games",
+        "logoImg": "bafkreih2rroojzxhfyrrixseygalloqvpl37rp7szli4ytsk3d2gv7duqe",
+        "metaPtr": {
+          "pointer": "bafkreie6vouby4vedc64qdcr4bqnpjm6t5liuvyfnk5kcm5iybnyehxowq",
+          "protocol": "undefined"
+        },
+        "website": "https://learn.tg",
+        "bannerImg": "bafkreigzcceu42vayxspdhdv3hwkexokjgxtj74u4hhfz5wwujlmjaq2pu",
+        "createdAt": 1743295985866,
+        "userGithub": "vtamara",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T00:29:15.467Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x602a5bca444cb368f4ed41c3c2cba255d52de7d82b1d97f75c86943c8fccdf172022325f0b082a523a33791999dce97dfaff8037c821d2788866a08fccd952ef1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T00:29:15.466Z",
+            "expirationDate": "2025-06-28T00:29:15.466Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x939aa9efFAd34e11bB8FA3025f1B500E87970CAE",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#pasosdeJesus#701221",
+              "nullifiers": [
+                "v0.0.0:BHPY/JduNfHuwRDW5tyrzD3fGvtSgEwiOa6/n7xAfjk="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-30T00:28:54.782Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xa864f51972f0a81220eb2787a66a76b4c77a75abbd7036dbbedbe2397755e8f22c9a2c15c184c726e89165c204314f26d100b4e2eb746e3be4a7c66afb59be381b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-30T00:28:54.782Z",
+            "expirationDate": "2025-06-28T00:28:54.782Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x939aa9efFAd34e11bB8FA3025f1B500E87970CAE",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#pasosdeJesus",
+              "nullifiers": [
+                "v0.0.0:4CZlWHHasXTv65IJso3TOqpezYlrnYxo+Ph6G+I5Cu8="
+              ]
+            }
+          }
+        },
+        "description": "https://learn.tg is becoming a learning platform with simple games and the ability to receive scholarships paid in cryptocurrency.",
+        "lastUpdated": 0,
+        "projectGithub": "pasosdeJesus",
+        "projectTwitter": "pasosdeJesus"
+      },
+      "recipient": "0x939aa9effad34e11bb8fa3025f1b500e87970cae"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Learn through games",
+      "logoImg": "bafkreih2rroojzxhfyrrixseygalloqvpl37rp7szli4ytsk3d2gv7duqe",
+      "website": "https://learn.tg",
+      "bannerImg": "bafkreigzcceu42vayxspdhdv3hwkexokjgxtj74u4hhfz5wwujlmjaq2pu",
+      "createdAt": 1743295985866,
+      "userGithub": "vtamara",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T00:29:15.467Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x602a5bca444cb368f4ed41c3c2cba255d52de7d82b1d97f75c86943c8fccdf172022325f0b082a523a33791999dce97dfaff8037c821d2788866a08fccd952ef1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T00:29:15.466Z",
+          "expirationDate": "2025-06-28T00:29:15.466Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x939aa9efFAd34e11bB8FA3025f1B500E87970CAE",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#pasosdeJesus#701221",
+            "nullifiers": [
+              "v0.0.0:BHPY/JduNfHuwRDW5tyrzD3fGvtSgEwiOa6/n7xAfjk="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-30T00:28:54.782Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xa864f51972f0a81220eb2787a66a76b4c77a75abbd7036dbbedbe2397755e8f22c9a2c15c184c726e89165c204314f26d100b4e2eb746e3be4a7c66afb59be381b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-30T00:28:54.782Z",
+          "expirationDate": "2025-06-28T00:28:54.782Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x939aa9efFAd34e11bB8FA3025f1B500E87970CAE",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#pasosdeJesus",
+            "nullifiers": [
+              "v0.0.0:4CZlWHHasXTv65IJso3TOqpezYlrnYxo+Ph6G+I5Cu8="
+            ]
+          }
+        }
+      },
+      "description": "https://learn.tg is becoming a learning platform with simple games and the ability to receive scholarships paid in cryptocurrency.",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "pasosdeJesus",
+      "projectTwitter": "pasosdeJesus"
+    }
+  }
+}

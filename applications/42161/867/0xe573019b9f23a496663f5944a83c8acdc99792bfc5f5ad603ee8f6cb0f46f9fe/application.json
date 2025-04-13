@@ -1,0 +1,667 @@
+{
+  "id": "50",
+  "chainId": 42161,
+  "roundId": "867",
+  "projectId": "0xe573019b9f23a496663f5944a83c8acdc99792bfc5f5ad603ee8f6cb0f46f9fe",
+  "metadata": {
+    "signature": "0x482551ac9181987bac128cbe6e5f7a734e09a2419837e59b44ae74e82fd8d8983e5bc6e48f7ce125da883b1a5408e068289483012575131875779506f66906501b",
+    "application": {
+      "round": "0x3e93205b786796cf7ea70404e89c7dda3b84d07a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "hello@hydrapad.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "@Lelouch4DAO",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "short-answer",
+          "answer": "https://github.com/orgs/Hydrafront/repositories",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "answer": "https://discord.gg/GP3YuFmdNH",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://explorer.gitcoin.co/#/round/43114/17/17",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our project enhances the OSS ecosystem by open-sourcing our bonded curve smart contracts and platform code, enabling developers to build, audit, and innovate. We integrate with OSS tools like OpenZeppelin and The Graph, while providing a transparent, decentralized launchpad for OSS startups to raise funds on Arbitrum. By fostering trustless collaboration and contributing to the Arbitrum OSS stack, we empower community-driven growth.",
+          "hidden": false,
+          "question": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our dApp offers live token trading during presales via bonded curve mechanics, enabling real-time price discovery and liquidity. Key features include:  \n\n- **Bonded curve-based presales**: Automated, transparent pricing with built-in liquidity.  \n\n- **Arbitrum integration**: Low fees, scalability, and EVM compatibility.  \n\n- **OSS-first tooling**: Startups deploy using open-source templates, audit-friendly code, and analytics via The Graph.  \n\n**Differentiation**:  \n- **Live trading in presales**: Unlike static presales, users trade tokens instantly, creating dynamic markets.  \n\n- **Trustless infrastructure**: Fully open-sourced contracts and platform, reducing reliance on centralized launchpads.  \n\n- **OSS ecosystem focus**: Tailored for open-source projects, integrating Arbitrum’s stack and community-driven tooling.  \n\nWe solve fragmented liquidity, high costs, and opaque fundraising—uniquely merging decentralized trading with startup launches.",
+          "hidden": false,
+          "question": "What features or use cases does your dApp/App present? How is it differentiated?",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "**Development Plans:**  \n1. **Multi-chain expansion**: Build modular support for additional chains (starting with Arbitrum Nova) while prioritizing Arbitrum One as the core layer.  \n\n2. **Enhanced OSS tooling**: Launch a no-code dashboard for startups to deploy bonded curve presales using open-source templates.  \n\n3. **Governance & DAO**: Introduce decentralized governance for fee distribution, ecosystem grants, and protocol upgrades.  \n\n**Grant Fund Use:**  \n- **Audits**: Allocate 40% to security audits (e.g., Code4rena contests) for bonded curve contracts.  \n\n- **Developer Growth**: 30% to hire OSS contributors for frontend/backend, focusing on Arbitrum integration.  \n\n- **Community Bounties**: 20% for incentivizing OSS developers to build plugins (analytics, KYC-free pools). \n \n- **Infrastructure**: 10% to scale subgraphs/indexers for real-time presale data on Arbitrum.  \n\nBy focusing on security, scalability, and community-driven tooling, we’ll cement Arbitrum as the hub for decentralized, OSS-aligned fundraising.",
+          "hidden": false,
+          "question": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x993461BBf7e553eb5BD1F5248A72B524C4a3B15D, 80002",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 8
+        }
+      ],
+      "project": {
+        "id": "0xe573019b9f23a496663f5944a83c8acdc99792bfc5f5ad603ee8f6cb0f46f9fe",
+        "title": "Hydrapad",
+        "logoImg": "bafkreiep5ngnkfx2x7nlhxvghyb76nn6ypqswsxu2hl7iyep4klmycyi5q",
+        "metaPtr": {
+          "pointer": "bafkreicaojzublbxt4qcchk4ihbujgf3qcozg4l2jbzcb7htrm6hzeaccu",
+          "protocol": "undefined"
+        },
+        "website": "https://hydrapad.com",
+        "bannerImg": "bafkreih6cnqz3malzwwwlnpvtbragf5fbg7devubc6tibl4gzsxk6ozdeq",
+        "createdAt": 1742665186915,
+        "userGithub": "Lelouch-luluj",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T17:51:32.393Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xae633ae3e41d6716ced57a9a0360dfda6da4f6af9ad694afb90528ec830d021e587f0b5ff872286bdbd45d1f38e580508702470358c0a95540ca3a97115178381c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T17:51:32.393Z",
+            "expirationDate": "2025-06-20T17:51:32.393Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x00627E45624C979a8ebC8C8A77f81C7b64c6867f",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#Hydrafront#201499346",
+              "nullifiers": [
+                "v0.0.0:o5YQgPorOqqCWzw2x+t8fc+wf4IvJKclKuf1jGAmH0M="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-22T17:37:58.636Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x4231a28b714732b160d0f02d56c8c5153428e713787269a6a92ad3cd29306cdb0426ab0b657e60ba6e6c7133f604cefe0541b2943a41da900215283c6f872e761c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-22T17:37:58.635Z",
+            "expirationDate": "2025-06-20T17:37:58.635Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x00627E45624C979a8ebC8C8A77f81C7b64c6867f",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#Hydra_Pad",
+              "nullifiers": [
+                "v0.0.0:Y8dOGF8ZXOgTYxhbSdxSet+Zn/SQbkcVUq/z3aR81Ow="
+              ]
+            }
+          }
+        },
+        "description": "# A Next Gen Multichain Launchpad on EVM\nGateway to onboard Users & Projects in web3 space\n\nCurrent Frontend Update: https://trading-marketplace-frontend.vercel.app/  ( Work in Progress )\n\nhttps://hydrapad.com\nhello@hydrapad.com\n\n# Project Overview\nHydra Launchpad is a open sourced project, integrated with top tier security features with Bonded Curve Presale Contract with live trading for users & investors. A Bonded Curve Presale Launchpad differs from a Normal Presale Launchpad primarily in how the token price behaves during the presale and the mechanics of token distribution. While both types of launchpads help raise funds for blockchain projects by allowing early investors to buy tokens before they are listed publicly, their key difference lies in the pricing model, investors benefits and incentive structure. Our platform addresses key pain points in blockchain fundraising for startups, investors, and developers.\n\n# Product Scope\n- Presale Launchpad: A simple and intuitive interface for startups to create, manage, and customize presales for their tokens, enabling projects to raise funds in a decentralized manner while ensuring transparency and fairness.\n\n- Bonded Curve Mechanism: The bonded curve will ensure a fair pricing structure during token presales. The curve dynamically adjusts the price based on the quantity of tokens sold, incentivizing early participation while maintaining price stability and reducing manipulation.\n\n- Live Token Trading: Investors can trade presale tokens in real-time, allowing for instant liquidity during the presale phase, providing a market-driven approach that benefits both the startup and the investor.\n\n- Security and Transparency: Hydrapad ensures transparency through decentralized smart contracts that govern token sales, reducing risks of fraud and increasing user trust. All transactions are verifiable and auditable on the blockchain.\n\n- Token Creation: Startups can easily create custom tokens for their projects directly through the Hydrapad platform. This feature enables the creation of tokens with predefined tokenomics, facilitating the setup of presales in a seamless and user-friendly manner.\n\n- Token Locking: Projects and investors can lock tokens for a defined period, enhancing trust and preventing early sell-offs. Token locking can be applied to both presale funds and tokens issued during the presale phase, ensuring long-term commitment from the project team and investors.\n\n- Portfolio Management for Users: Users can manage and track their investments and token holdings in a comprehensive portfolio dashboard. This feature will provide real-time updates on presale participation, token performance, and overall portfolio value, making it easier for users to monitor their assets.\n\n- Airdrops: Hydrapad allows users to easily conduct token airdrops as part of their marketing and community-building strategies. This feature allows projects to distribute tokens to a targeted group of users, helping to build momentum and reward loyal supporters.\n\n- Secure Liquidity Management: Hydrapad incorporates secure liquidity management tools, enabling projects to provide liquidity pools for their tokens and ensuring that tokens are readily available for trading. This feature also allows projects to manage the liquidity of presale funds in a secure, transparent manner, ensuring proper token flow and liquidity during the presale phase.\n\n# Problem Statement\nMany startups face challenges when raising initial capital, especially in decentralized ecosystems where token presales can be manipulated by large investors or whales. Traditional presale methods suffer from inefficiencies, such as front-running and unequal access to token allocations. Moreover, investors are often uncertain about the token pricing mechanisms and their long-term value.\n\n- Liquidity Issues:\nTraditional presales often lack liquidity, as tokens are locked until later stages. Our platform allows live trading of presale tokens, providing liquidity and flexibility to investors.\n\n- Volatile Pricing:\nPresale token prices can be unpredictable and manipulated. We solve this with a bonded curve pricing model that gradually adjusts token prices based on supply and demand, ensuring fairness and stability.\n\n- Fees/cost:\nEarly fundraising can be costly for startups building their own project. Our platform ensures low to No fees for presale creation and scalable transactions, making presales more accessible.\n\n- Lack of Transparency:\nMany investors face trust issues in presales. Our transparent bonded curve model ensures fair pricing, fostering trust among participants.\n\n# Solution & Benefits \n- Decentralized Capital Raising: \nThe Bonded Curve Presale contract is a trustless and decentralized way to raise funds. It eliminates the need for centralized authorities or intermediaries, empowering project creators to directly raise funds from their community. \n\n- Global Accessibility: \nAnyone with an internet connection can participate in these presales, providing global access to Web3 fundraising. This democratizes the ability for users to support and invest in projects regardless of geographic location.\n\n- Building Communities Around Projects: \nThe contract encourages community-driven participation, as early backers are rewarded with lower prices and a stronger stake in the project’s success. This builds an invested community around the project that has both financial and reputational incentives to see it succeed. \n\n- Integration with DeFi: \nThe contract integrates seamlessly with DeFi protocols like Uniswap and Balancer, which are foundational to the Web3 ecosystem. By creating liquidity pools post-presale, the project ensures that tokens have immediate utility and market value, fostering broader DeFi adoption. \n\n# Automatic Liquidity Pool Creation \n- Ensuring Liquidity: \nOne of the major challenges in DeFi projects is liquidity. The contract automatically wraps the ETH raised and pairs it with the presale token to create a liquidity pool on decentralized exchanges. This feature ensures that the token is tradable immediately after the presale ends, providing liquidity to the market and enabling price discovery. \n\n# Our Goals\nFrontend Design: https://hydrapad.com\n\nHydrapad aims to enhance the fundraising experience for Web3 startups by offering a bonded curve presale launchpad, allowing for decentralized fundraising, token issuance, and investor participation. This platform will be developed on a multi-chain architecture, leveraging the scalability, security, and low-cost features for key functionalities, including token issuance, transactions, and wallet management.\nAs part of our platform, users will be able to:\nParticipate in presales of emerging Web3 projects using a bonded curve mechanism.\nBuy, sell, and trade tokens live during the presale phase.\n\nEnjoy a transparent and secure process with smart contract integration for fundraising and project vetting.\n\nWe believe that low transaction fees and high-speed transaction processing are perfect for integrating with our platform to offer an optimal experience for both project creators and investors.\n\n# No Control Over Funds by the Creator (No Centralized Control)\n\n- Presale Funds Are Secure: \nIn a typical rug pull, the project creator retains control over the raised funds and may drain them at any time. In this contract, the funds raised (in ETH) are not directly controlled by the project creator; rather, they are securely handled by the contract itself. \n\n- Automatic Fees and Refunds: \nThe presale includes automated functions for fee collection, token distribution, and refunds. If the presale fails (e.g., fundraising target is not met), users can automatically reclaim their ETH in proportion to their contribution, preventing the project creator from absconding with the funds. \n\n# KPIs for Impact Estimation:\nWe believe that our Dapp integration will bring measurable value to both our platform and your ecosystem. Key performance indicators (KPIs) to estimate the impact include:\n\n- Transaction Volume: Volume-based metrics such as the Total Gross Transaction Volume (GTV) and send/receive transaction volume on the platform.\n\n- User Growth: We project to onboard 100,000 active users by the end of Year 1, including investors and project teams, driving adoption of presale transactions.\n\n- Liquidity and Trading Activity: We are expecting that new projects launch will lead to increased trading volume and liquidity within your ecosystem.\n\n# Development Roadmap\n- Phase 1 – Research & Design (Completed)\nFinalize the project architecture and design\nResearch bonding curve mechanisms and presale dynamics. Collaborate with ecosystem developers for integration strategies.\n\n- Phase 2 – Initial Platform integration (5 weeks)\nDevelop the functionalities of front-end user interface and backend infrastructure.\n\n- Phase 3 – Contract Development & Security Audits(5 weeks)\nDevelop the bonded curve mechanism into the presale contract\nFactory Contract development for Token Creation\nRegular Presale Contract\nLocking/Vesting Contract\nAirdrops Contract\nConduct initial tests with selected partners and projects\nBegin user testing of the presale and trading platform\n\n- Phase 4 – Beta Testing (4 weeks)\nLaunch beta platform for public use\nPerform extensive security and performance testing\n\n- Phase 5 – Mainnet Launch & Community Engagement (2 weeks)\nFinalize platform for mainnet launch\nFocus on user acquisition, education, and community building\nHost a series of AMAs and events to promote Hydrapad and educate the ecosystem about bonded curve presale models\n\n# Bonded Curve Math\nThe math behind the bonding curve is based on an integral of a line that starts from (0,0).\nThe line’s equation is l=a*s, where a is constant and s in the supply.\nTo determine the price someone needs to pay in order to change the supply from s1 to s2 we calculate the integral of l from s1 to s2.\n\nSo, P = (a/2) * (s1 + s2) * max(s2-s1, s1-s2)\n![Curve Architecture](https://i.ibb.co/pLsBWDY/image-1.webp)\n         Linear Curve\n\nThe Bonded Curve pricing mechanism is a great tool for launching tokens in a fair and transparent manner. The security features implemented in the smart contract—such as token locking, vesting schedules, anti-rugpull systems, and access control—ensure the integrity of the platform and protection for both investors and project teams.\n\nAs you expand the functionality of the platform, more complex bonding curve models (like logarithmic or more advanced exponential models) and additional security features (e.g., DAO governance, multi-signature wallets for liquidity management) can be incorporated for greater scalability and trust.\n\nOur bonded curve presale launchpad is designed to provide a secure, transparent, and user-friendly platform for blockchain projects and investors. By incorporating innovative features like bonded curve pricing, token locking and vesting, anti-rugpull systems, and decentralized identity verification, we aim to set new standards in the way presales and token launches are conducted. Our goal is to build a trustworthy ecosystem that fosters the growth of the Web3 space while ensuring investor protection and long-term success for projects.\n\nHydrapad aims to foster a more open, dynamic, and fair environment for both project creators and investors in the Web3 ecosystem. It offers decentralized fundraising with a transparent mechanism, flexible participation, and a fair exit strategy for participants, all of which enhance the overall adoption and growth of decentralized finance (DeFi) projects and web3 space.\n\nWe are confident that with our Community driven approach, Hydrapad can drive adoption and provide long-term value and sustainable DeFi ecosystems.\n\nPlease feel free to reach out with any questions or for additional documentation via email: hello@hydrapad.com\n",
+        "lastUpdated": 0,
+        "projectGithub": "Hydrafront",
+        "projectTwitter": "Hydra_pad"
+      },
+      "recipient": "0x00627E45624C979a8ebC8C8A77f81C7b64c6867f"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Hydrapad",
+      "logoImg": "bafkreiep5ngnkfx2x7nlhxvghyb76nn6ypqswsxu2hl7iyep4klmycyi5q",
+      "website": "https://hydrapad.com",
+      "bannerImg": "bafkreih6cnqz3malzwwwlnpvtbragf5fbg7devubc6tibl4gzsxk6ozdeq",
+      "createdAt": 1742665186915,
+      "userGithub": "Lelouch-luluj",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T17:51:32.393Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xae633ae3e41d6716ced57a9a0360dfda6da4f6af9ad694afb90528ec830d021e587f0b5ff872286bdbd45d1f38e580508702470358c0a95540ca3a97115178381c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T17:51:32.393Z",
+          "expirationDate": "2025-06-20T17:51:32.393Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x00627E45624C979a8ebC8C8A77f81C7b64c6867f",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#Hydrafront#201499346",
+            "nullifiers": [
+              "v0.0.0:o5YQgPorOqqCWzw2x+t8fc+wf4IvJKclKuf1jGAmH0M="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-22T17:37:58.636Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x4231a28b714732b160d0f02d56c8c5153428e713787269a6a92ad3cd29306cdb0426ab0b657e60ba6e6c7133f604cefe0541b2943a41da900215283c6f872e761c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-22T17:37:58.635Z",
+          "expirationDate": "2025-06-20T17:37:58.635Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x00627E45624C979a8ebC8C8A77f81C7b64c6867f",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#Hydra_Pad",
+            "nullifiers": [
+              "v0.0.0:Y8dOGF8ZXOgTYxhbSdxSet+Zn/SQbkcVUq/z3aR81Ow="
+            ]
+          }
+        }
+      },
+      "description": "# A Next Gen Multichain Launchpad on EVM\nGateway to onboard Users & Projects in web3 space\n\nCurrent Frontend Update: https://trading-marketplace-frontend.vercel.app/  ( Work in Progress )\n\nhttps://hydrapad.com\nhello@hydrapad.com\n\n# Project Overview\nHydra Launchpad is a open sourced project, integrated with top tier security features with Bonded Curve Presale Contract with live trading for users & investors. A Bonded Curve Presale Launchpad differs from a Normal Presale Launchpad primarily in how the token price behaves during the presale and the mechanics of token distribution. While both types of launchpads help raise funds for blockchain projects by allowing early investors to buy tokens before they are listed publicly, their key difference lies in the pricing model, investors benefits and incentive structure. Our platform addresses key pain points in blockchain fundraising for startups, investors, and developers.\n\n# Product Scope\n- Presale Launchpad: A simple and intuitive interface for startups to create, manage, and customize presales for their tokens, enabling projects to raise funds in a decentralized manner while ensuring transparency and fairness.\n\n- Bonded Curve Mechanism: The bonded curve will ensure a fair pricing structure during token presales. The curve dynamically adjusts the price based on the quantity of tokens sold, incentivizing early participation while maintaining price stability and reducing manipulation.\n\n- Live Token Trading: Investors can trade presale tokens in real-time, allowing for instant liquidity during the presale phase, providing a market-driven approach that benefits both the startup and the investor.\n\n- Security and Transparency: Hydrapad ensures transparency through decentralized smart contracts that govern token sales, reducing risks of fraud and increasing user trust. All transactions are verifiable and auditable on the blockchain.\n\n- Token Creation: Startups can easily create custom tokens for their projects directly through the Hydrapad platform. This feature enables the creation of tokens with predefined tokenomics, facilitating the setup of presales in a seamless and user-friendly manner.\n\n- Token Locking: Projects and investors can lock tokens for a defined period, enhancing trust and preventing early sell-offs. Token locking can be applied to both presale funds and tokens issued during the presale phase, ensuring long-term commitment from the project team and investors.\n\n- Portfolio Management for Users: Users can manage and track their investments and token holdings in a comprehensive portfolio dashboard. This feature will provide real-time updates on presale participation, token performance, and overall portfolio value, making it easier for users to monitor their assets.\n\n- Airdrops: Hydrapad allows users to easily conduct token airdrops as part of their marketing and community-building strategies. This feature allows projects to distribute tokens to a targeted group of users, helping to build momentum and reward loyal supporters.\n\n- Secure Liquidity Management: Hydrapad incorporates secure liquidity management tools, enabling projects to provide liquidity pools for their tokens and ensuring that tokens are readily available for trading. This feature also allows projects to manage the liquidity of presale funds in a secure, transparent manner, ensuring proper token flow and liquidity during the presale phase.\n\n# Problem Statement\nMany startups face challenges when raising initial capital, especially in decentralized ecosystems where token presales can be manipulated by large investors or whales. Traditional presale methods suffer from inefficiencies, such as front-running and unequal access to token allocations. Moreover, investors are often uncertain about the token pricing mechanisms and their long-term value.\n\n- Liquidity Issues:\nTraditional presales often lack liquidity, as tokens are locked until later stages. Our platform allows live trading of presale tokens, providing liquidity and flexibility to investors.\n\n- Volatile Pricing:\nPresale token prices can be unpredictable and manipulated. We solve this with a bonded curve pricing model that gradually adjusts token prices based on supply and demand, ensuring fairness and stability.\n\n- Fees/cost:\nEarly fundraising can be costly for startups building their own project. Our platform ensures low to No fees for presale creation and scalable transactions, making presales more accessible.\n\n- Lack of Transparency:\nMany investors face trust issues in presales. Our transparent bonded curve model ensures fair pricing, fostering trust among participants.\n\n# Solution & Benefits \n- Decentralized Capital Raising: \nThe Bonded Curve Presale contract is a trustless and decentralized way to raise funds. It eliminates the need for centralized authorities or intermediaries, empowering project creators to directly raise funds from their community. \n\n- Global Accessibility: \nAnyone with an internet connection can participate in these presales, providing global access to Web3 fundraising. This democratizes the ability for users to support and invest in projects regardless of geographic location.\n\n- Building Communities Around Projects: \nThe contract encourages community-driven participation, as early backers are rewarded with lower prices and a stronger stake in the project’s success. This builds an invested community around the project that has both financial and reputational incentives to see it succeed. \n\n- Integration with DeFi: \nThe contract integrates seamlessly with DeFi protocols like Uniswap and Balancer, which are foundational to the Web3 ecosystem. By creating liquidity pools post-presale, the project ensures that tokens have immediate utility and market value, fostering broader DeFi adoption. \n\n# Automatic Liquidity Pool Creation \n- Ensuring Liquidity: \nOne of the major challenges in DeFi projects is liquidity. The contract automatically wraps the ETH raised and pairs it with the presale token to create a liquidity pool on decentralized exchanges. This feature ensures that the token is tradable immediately after the presale ends, providing liquidity to the market and enabling price discovery. \n\n# Our Goals\nFrontend Design: https://hydrapad.com\n\nHydrapad aims to enhance the fundraising experience for Web3 startups by offering a bonded curve presale launchpad, allowing for decentralized fundraising, token issuance, and investor participation. This platform will be developed on a multi-chain architecture, leveraging the scalability, security, and low-cost features for key functionalities, including token issuance, transactions, and wallet management.\nAs part of our platform, users will be able to:\nParticipate in presales of emerging Web3 projects using a bonded curve mechanism.\nBuy, sell, and trade tokens live during the presale phase.\n\nEnjoy a transparent and secure process with smart contract integration for fundraising and project vetting.\n\nWe believe that low transaction fees and high-speed transaction processing are perfect for integrating with our platform to offer an optimal experience for both project creators and investors.\n\n# No Control Over Funds by the Creator (No Centralized Control)\n\n- Presale Funds Are Secure: \nIn a typical rug pull, the project creator retains control over the raised funds and may drain them at any time. In this contract, the funds raised (in ETH) are not directly controlled by the project creator; rather, they are securely handled by the contract itself. \n\n- Automatic Fees and Refunds: \nThe presale includes automated functions for fee collection, token distribution, and refunds. If the presale fails (e.g., fundraising target is not met), users can automatically reclaim their ETH in proportion to their contribution, preventing the project creator from absconding with the funds. \n\n# KPIs for Impact Estimation:\nWe believe that our Dapp integration will bring measurable value to both our platform and your ecosystem. Key performance indicators (KPIs) to estimate the impact include:\n\n- Transaction Volume: Volume-based metrics such as the Total Gross Transaction Volume (GTV) and send/receive transaction volume on the platform.\n\n- User Growth: We project to onboard 100,000 active users by the end of Year 1, including investors and project teams, driving adoption of presale transactions.\n\n- Liquidity and Trading Activity: We are expecting that new projects launch will lead to increased trading volume and liquidity within your ecosystem.\n\n# Development Roadmap\n- Phase 1 – Research & Design (Completed)\nFinalize the project architecture and design\nResearch bonding curve mechanisms and presale dynamics. Collaborate with ecosystem developers for integration strategies.\n\n- Phase 2 – Initial Platform integration (5 weeks)\nDevelop the functionalities of front-end user interface and backend infrastructure.\n\n- Phase 3 – Contract Development & Security Audits(5 weeks)\nDevelop the bonded curve mechanism into the presale contract\nFactory Contract development for Token Creation\nRegular Presale Contract\nLocking/Vesting Contract\nAirdrops Contract\nConduct initial tests with selected partners and projects\nBegin user testing of the presale and trading platform\n\n- Phase 4 – Beta Testing (4 weeks)\nLaunch beta platform for public use\nPerform extensive security and performance testing\n\n- Phase 5 – Mainnet Launch & Community Engagement (2 weeks)\nFinalize platform for mainnet launch\nFocus on user acquisition, education, and community building\nHost a series of AMAs and events to promote Hydrapad and educate the ecosystem about bonded curve presale models\n\n# Bonded Curve Math\nThe math behind the bonding curve is based on an integral of a line that starts from (0,0).\nThe line’s equation is l=a*s, where a is constant and s in the supply.\nTo determine the price someone needs to pay in order to change the supply from s1 to s2 we calculate the integral of l from s1 to s2.\n\nSo, P = (a/2) * (s1 + s2) * max(s2-s1, s1-s2)\n![Curve Architecture](https://i.ibb.co/pLsBWDY/image-1.webp)\n         Linear Curve\n\nThe Bonded Curve pricing mechanism is a great tool for launching tokens in a fair and transparent manner. The security features implemented in the smart contract—such as token locking, vesting schedules, anti-rugpull systems, and access control—ensure the integrity of the platform and protection for both investors and project teams.\n\nAs you expand the functionality of the platform, more complex bonding curve models (like logarithmic or more advanced exponential models) and additional security features (e.g., DAO governance, multi-signature wallets for liquidity management) can be incorporated for greater scalability and trust.\n\nOur bonded curve presale launchpad is designed to provide a secure, transparent, and user-friendly platform for blockchain projects and investors. By incorporating innovative features like bonded curve pricing, token locking and vesting, anti-rugpull systems, and decentralized identity verification, we aim to set new standards in the way presales and token launches are conducted. Our goal is to build a trustworthy ecosystem that fosters the growth of the Web3 space while ensuring investor protection and long-term success for projects.\n\nHydrapad aims to foster a more open, dynamic, and fair environment for both project creators and investors in the Web3 ecosystem. It offers decentralized fundraising with a transparent mechanism, flexible participation, and a fair exit strategy for participants, all of which enhance the overall adoption and growth of decentralized finance (DeFi) projects and web3 space.\n\nWe are confident that with our Community driven approach, Hydrapad can drive adoption and provide long-term value and sustainable DeFi ecosystems.\n\nPlease feel free to reach out with any questions or for additional documentation via email: hello@hydrapad.com\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "Hydrafront",
+      "projectTwitter": "Hydra_pad"
+    }
+  }
+}

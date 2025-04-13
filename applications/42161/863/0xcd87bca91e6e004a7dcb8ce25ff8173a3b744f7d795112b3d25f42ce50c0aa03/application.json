@@ -1,0 +1,672 @@
+{
+  "id": "72",
+  "chainId": 42161,
+  "roundId": "863",
+  "projectId": "0xcd87bca91e6e004a7dcb8ce25ff8173a3b744f7d795112b3d25f42ce50c0aa03",
+  "metadata": {
+    "signature": "0x3618e11b8e3908ae92aeff4a6bfc79ec9a15397d0dfb600af71108c6dfe91a02147709dc7bca63af9e940a2c85c0ef7de05be97d144524f9fb0fa461afdaa75a1c",
+    "application": {
+      "round": "0xe5B88c67fCd25f0a7BAD6cF7c5A5197e61BFd143",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "daomasons@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "short-answer",
+          "answer": "UI369",
+          "hidden": true,
+          "question": "Telegram Handle We Can Use To Contact You",
+          "questionId": 1
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://github.com/DAOmasons/chews-protocol",
+          "hidden": false,
+          "question": "Project GitHub Repo",
+          "questionId": 2
+        },
+        {
+          "type": "link",
+          "hidden": false,
+          "question": "Link to your Public Group Chat",
+          "questionId": 3
+        },
+        {
+          "type": "paragraph",
+          "hidden": false,
+          "question": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+          "questionId": 4
+        },
+        {
+          "type": "paragraph",
+          "answer": "Chews Protocol is a modular Token Curated Registry (TCR) voting protocol that allows developers to create custom voting systems by composing different module types. Unlike traditional monolithic TCR systems that follow a one-size-fits-all approach, Chews (\"choose\") enables flexible and use-case-driven governance through its modular architecture.\n\n",
+          "hidden": false,
+          "question": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+          "questionId": 5
+        },
+        {
+          "type": "paragraph",
+          "answer": "The protocol can be thought of as an \"ACR\" (Anything Curated Registry) system, as it allows curation of registries based on any criteria, not just tokens. This flexibility makes it suitable for a wide range of decision-making and governance applications.",
+          "hidden": false,
+          "question": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+          "questionId": 6
+        },
+        {
+          "type": "paragraph",
+          "answer": "The following projects are already using Chews Protocol:\n\nGrant Ships - A competitive ecosystem funding platform that uses Chews to vote or rate grant programs following allocation rounds. Grant Ships utilized 3 separate voting systems:\n\nStandard TCR vote for ARB that allowed Game Facilitators with a the Facilitator Hat Protocol NFT.\nSBT TCR for community members who were assigned voting scores for participation in the game.\nDual token voting. Allowed for ARB and the Grant Ships game SBT to be utilized in a parallel vote.\nGitcoin - A custom version of GrantShips that implements a rubric voting system where judges rate grants programs using specific criteria.\n\nRubric Votes. Utilizes an innovative Max-Votes-Per-Choice model, and allows judges to vote on each choice using a percentage instead of a token weighted value. This allowed judges to rate each grant program on their own merits instead of relative to each other.\nAI-Assisted Public Vote. We generated a Merkle tree from GTC balances on mainnet and allowed users to vote using that balance on an L2 (Arbitrum).\nJudge selection vote. This is a standard election that once again uses GTC balances on mainnet to elect judges. Once the vote is completed, the contest automatically mints hats and assigns them to the winners.\nask.haus - Collaboration with DAOhaus. Chews was utilized in a proof of concept application for testing various UX patterns around fast and convenient TCR voting within Moloch DAOs. We implemented 2 patterns:\n\nPoll. With pre-populated choices. The idea is to be able to create a fast poll for your DAO in under 2 minutes, and have voters vote on it in less than two minutes.\nContest. Not to be confused with the poorly named Chews Protocol Contest.sol. This is a dual round system where Moloch DAO members can create choices, and then members can vote on those choices. Like the Poll, this system was designed to executed as quickly and conveniently as possible.",
+          "hidden": false,
+          "question": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+          "questionId": 7
+        },
+        {
+          "type": "paragraph",
+          "answer": "We also want to improve user documentation so that it's easier for developers to use it.  This would include making some changes to the code for ease of use, creating some tutorial videos and making a documentation site. ",
+          "hidden": false,
+          "question": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+          "questionId": 8
+        },
+        {
+          "type": "paragraph",
+          "answer": "0x72429C2392d79458c411BC5DecEb8cCd28530BF0, 42161\n0x0c848407792fdE63fB650F655937cB7704B850F8,42161\n0x72429C2392d79458c411BC5DecEb8cCd28530BF0,42161\n0x60B753C86D142D7538341B7Fc3Ef6E84499636bB,42161\n0xF46DA452C2D3f40Cf8402FFF5EdfdB4D6b6F0C9F,42161",
+          "hidden": false,
+          "question": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+          "questionId": 9
+        }
+      ],
+      "project": {
+        "id": "0xcd87bca91e6e004a7dcb8ce25ff8173a3b744f7d795112b3d25f42ce50c0aa03",
+        "title": "Chews Protocol",
+        "logoImg": "bafkreieuqft5ydi46o52b5ga7vrg26imsvnwcop2znvsg3fcg5ldhl4a3q",
+        "metaPtr": {
+          "pointer": "bafkreid77eyy23nfl2yqpda7mub4ig4bfge77phde2x6m5o2674scgco24",
+          "protocol": "undefined"
+        },
+        "website": "https://chewsprotocol.com",
+        "bannerImg": "bafkreiemdphrkfzcvwwjuzud7xv27swoki23famy3wrd4v4wcrscwi4pym",
+        "createdAt": 1743457941751,
+        "userGithub": "UI369",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T21:59:50.748Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xa097430eaf48240da6fd8de938a1698bbc30a7ad941793f98eccf5e20e33d07238bfde464fc7014ee82c566f96a000fd1d15e5b6b08d85efa987d2b6bfa08a231c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T21:59:50.747Z",
+            "expirationDate": "2025-06-29T21:59:50.747Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x27773b203954FBBb3e98DFa1a85A99e1c2f40f56",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#DAOmasons#84750997",
+              "nullifiers": [
+                "v0.0.0:1PBFKtdTb777TTaNNvLXiWKAOx1JuYNJTCUsnaGjR/Q="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T22:00:22.805Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xa35fdd6ee0e1954fd1ca8faae8d66e3b5d68932a6b79001defc7fd965ae975c3121b3cb7f7b6988ff3e9986e44239db03c003f8810b6c797d94859810ea7c84b1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T22:00:22.805Z",
+            "expirationDate": "2025-06-29T22:00:22.805Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x27773b203954FBBb3e98DFa1a85A99e1c2f40f56",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ChewsProtocol",
+              "nullifiers": [
+                "v0.0.0:3ANn4CLnk7UAvnMx+Hc+2naEj/bcX0iB3HOS2t5szZw="
+              ]
+            }
+          }
+        },
+        "description": "# Chews Protocol\n\n## Overview\n\nChews Protocol is a modular Token Curated Registry (TCR) voting protocol that allows developers to create custom voting systems by composing different module types. Unlike traditional monolithic TCR systems that follow a one-size-fits-all approach, Chews (\"choose\") enables flexible and use-case-driven governance through its modular architecture.\n\nThe protocol can be thought of as an \"ACR\" (Anything Curated Registry) system, as it allows curation of registries based on any criteria, not just tokens. This flexibility makes it suitable for a wide range of decision-making and governance applications.\n\n## Development Stage\n\n**⚠️ EXPERIMENTAL: Version 0 ⚠️**\n\nChews Protocol is currently in an early, experimental stage (V0). While it is functional and already in use by several projects, users should be aware that the architecture, interfaces, and implementation details may change significantly in future versions.\n\n## Key Features\n\n- **Fully Modular** - Create custom voting strategies based on combinations of four module types.\n- **Flexible Design** - Functions as an \"ACR\" (Anything Curated Registry) system that can curate registries based on any criteria.\n- **Composable Systems** - All voting systems (Contests) share a standard interface, making them composable with each other.\n- **Complex Voting Patterns** - Orchestrate serial or parallel voting patterns for sophisticated governance needs.\n- **Developer-Friendly** - Reduces cognitive overhead by separating concerns into distinct module types.\n- **Procedural or Continuous** - Support for both time-bound procedural voting processes and ongoing continuous voting systems.\n- **Chain Agnostic** - Deployable on any EVM-compatible blockchain.\n\n## Current Implementations\n\nThe following projects are already using Chews Protocol:\n\n1. **Grant Ships** - A competitive ecosystem funding platform that uses Chews to vote or rate grant programs following allocation rounds. Grant Ships utilized 3 separate voting systems:\n    * Standard TCR vote for ARB that allowed Game Facilitators with a the Facilitator Hat Protocol NFT. \n    * SBT TCR for community members who were assigned voting scores for participation in the game.\n    * Dual token voting. Allowed for ARB and the Grant Ships game SBT to be utilized in a parallel vote. \n\n2. **Gitcoin** - A custom version of GrantShips that implements a rubric voting system where judges rate grants programs using specific criteria.\n    * Rubric Votes. Utilizes an innovative Max-Votes-Per-Choice model, and allows judges to vote on each choice using a percentage instead of a token weighted value. This allowed judges to rate each grant program on their own merits instead of relative to each other. \n    * AI-Assisted Public Vote. We generated a Merkle tree from GTC balances on mainnet and allowed users to vote using that balance on an L2 (Arbitrum).\n    * Judge selection vote. This is a standard election that once again uses GTC balances on mainnet to elect judges. Once the vote is completed, the contest automatically mints hats and assigns them to the winners.  \n\n3. **ask.haus** - Collaboration with DAOhaus. Chews was utilized in a proof of concept application for testing various UX patterns around fast and convenient TCR voting within Moloch DAOs. We implemented 2 patterns:\n    * Poll. With pre-populated choices. The idea is to be able to create a fast poll for your DAO in under 2 minutes, and have voters vote on it in less than two minutes.  \n    * Contest. Not to be confused with the poorly named Chews Protocol Contest.sol. This is a dual round system where Moloch DAO members can create choices, and then members can vote on those choices. Like the Poll, this system was designed to executed as quickly and conveniently as possible. \n\n## Architecture\n\nChews Protocol is built around a modular architecture that centers on a high-level contract (Contest.sol) that composes four different types of modules:\n\n### Contest Contract\n\nThe Contest contract bundles all the modules into a standard interface. It manages the state for:\n- Voting stage (if procedural)\n- Continuous vs. procedural status\n- Vote retraction rules\n- Other high-level rules for the voting system\n\n### Module Types\n\n#### 1. Choices Module\nManages the items that users will be voting on. It handles:\n- Choice creation and management\n- Who can create choices\n- Registry of voting options\n\n#### 2. Points Module\nDetermines who can vote and how much voting power they have:\n- Can reference token balances\n- Can use Merkle proofs\n- Supports any custom voting power determination logic\n\n#### 3. Votes Module\nControls how voting happens and its immediate effects:\n- Voting mechanisms (burning, staking, regular voting)\n- Side effects of voting\n- Vote tabulation rules\n\n#### 4. Execution Module\nDefines what happens as a result of the vote:\n- Can mint roles onchain\n- Can distribute funds\n- Controls when and how execution happens\n\n### Procedural vs. Continuous Contests\n\nThe Contest contract maintains a `ContestStatus` enum variable which can be:\n\n**Procedural Flow**: \n1. Populating (for choices creation)\n2. Voting (for submitting votes)\n3. Finalized (ready to be executed)\n4. Executed (after execution)\n\nProcedural contests follow a set path through these stages, typically starting at Populating.\n\n**Continuous Flow**:\nIf set as continuous from the start, the contest steps out of the procedural flow and can run indefinitely, allowing choices to be created and voted on simultaneously.\n\n## Smart Contracts\n\n### Core Contracts\n\n- **Contest.sol** - The high-level contract that bundles modules and manages voting flow\n- **IChoices.sol** - Interface for Choices modules\n- **IPoints.sol** - Interface for Points modules\n- **IVotes.sol** - Interface for Votes modules\n- **IExecution.sol** - Interface for Execution modules\n\n### Pre-built Modules\n\n#### Choices Modules\n- **HatsChoices** - Allows anyone with a specific Hat (NFT role from Hats Protocol) to create a choice, with admin hat management\n\n#### Points Modules\n- **ERC20VotesPoints** - Allows voting based on delegated governance token power\n- **MerklePoints** - Uses arbitrary merkle trees for determining voting eligibility and power\n\n#### Votes Modules\n- **TimedVotes** - Implements time-limited voting periods\n- **RubricVotes** - Allows percentage-based voting for each choice (Max-Vote-Per-Choice model)\n\n#### Execution Modules\n- **HatsExecution** - Mints Hats Protocol NFTs to arbitrary addresses based on voting results\n\n## Usage\n\nTo use Chews Protocol:\n\n1. Select or create the appropriate modules for your use case\n2. Deploy each module with the desired parameters\n3. Deploy a Contest contract that composes these modules\n4. Set the initial contest status (Continuous or Procedural)\n5. If Procedural, manage the progression through stages\n\n## Examples\n\nFor detailed examples of how to implement and interact with Chews Protocol, please refer to the integration tests:\n\n[Link to integration tests folder]\n\n## Roadmap\n\nPlans for V1 include:\n\n- Improved naming conventions for better clarity\n- Standardization of modules for increased reusability\n- Better patterns for passing encoded data between modules (particularly from Points to Votes)\n- Development of templating and referrer patterns to simplify deployment and configuration\n- Comprehensive documentation and tutorials\n\n## Current Limitations\n\n- Initial complexity for developers to learn how components fit together\n- Challenges in deploying Contests and configuring module variables\n- Ongoing experimentation may lead to architectural changes\n\n## Contributing\n\nContributions to Chews Protocol are welcome! As this is an experimental project in active development, please reach out to discuss potential contributions.\n\n## License\n\nChews Protocol is licensed under the [MIT License](LICENSE).\n",
+        "lastUpdated": 0,
+        "projectGithub": "DAOmasons",
+        "projectTwitter": "chewsprotocol"
+      },
+      "recipient": "0x52774016ea6bd161a4BB6E232019C4bd704BB151"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Chews Protocol",
+      "logoImg": "bafkreieuqft5ydi46o52b5ga7vrg26imsvnwcop2znvsg3fcg5ldhl4a3q",
+      "website": "https://chewsprotocol.com",
+      "bannerImg": "bafkreiemdphrkfzcvwwjuzud7xv27swoki23famy3wrd4v4wcrscwi4pym",
+      "createdAt": 1743457941751,
+      "userGithub": "UI369",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T21:59:50.748Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xa097430eaf48240da6fd8de938a1698bbc30a7ad941793f98eccf5e20e33d07238bfde464fc7014ee82c566f96a000fd1d15e5b6b08d85efa987d2b6bfa08a231c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T21:59:50.747Z",
+          "expirationDate": "2025-06-29T21:59:50.747Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x27773b203954FBBb3e98DFa1a85A99e1c2f40f56",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#DAOmasons#84750997",
+            "nullifiers": [
+              "v0.0.0:1PBFKtdTb777TTaNNvLXiWKAOx1JuYNJTCUsnaGjR/Q="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-31T22:00:22.805Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xa35fdd6ee0e1954fd1ca8faae8d66e3b5d68932a6b79001defc7fd965ae975c3121b3cb7f7b6988ff3e9986e44239db03c003f8810b6c797d94859810ea7c84b1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-31T22:00:22.805Z",
+          "expirationDate": "2025-06-29T22:00:22.805Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x27773b203954FBBb3e98DFa1a85A99e1c2f40f56",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ChewsProtocol",
+            "nullifiers": [
+              "v0.0.0:3ANn4CLnk7UAvnMx+Hc+2naEj/bcX0iB3HOS2t5szZw="
+            ]
+          }
+        }
+      },
+      "description": "# Chews Protocol\n\n## Overview\n\nChews Protocol is a modular Token Curated Registry (TCR) voting protocol that allows developers to create custom voting systems by composing different module types. Unlike traditional monolithic TCR systems that follow a one-size-fits-all approach, Chews (\"choose\") enables flexible and use-case-driven governance through its modular architecture.\n\nThe protocol can be thought of as an \"ACR\" (Anything Curated Registry) system, as it allows curation of registries based on any criteria, not just tokens. This flexibility makes it suitable for a wide range of decision-making and governance applications.\n\n## Development Stage\n\n**⚠️ EXPERIMENTAL: Version 0 ⚠️**\n\nChews Protocol is currently in an early, experimental stage (V0). While it is functional and already in use by several projects, users should be aware that the architecture, interfaces, and implementation details may change significantly in future versions.\n\n## Key Features\n\n- **Fully Modular** - Create custom voting strategies based on combinations of four module types.\n- **Flexible Design** - Functions as an \"ACR\" (Anything Curated Registry) system that can curate registries based on any criteria.\n- **Composable Systems** - All voting systems (Contests) share a standard interface, making them composable with each other.\n- **Complex Voting Patterns** - Orchestrate serial or parallel voting patterns for sophisticated governance needs.\n- **Developer-Friendly** - Reduces cognitive overhead by separating concerns into distinct module types.\n- **Procedural or Continuous** - Support for both time-bound procedural voting processes and ongoing continuous voting systems.\n- **Chain Agnostic** - Deployable on any EVM-compatible blockchain.\n\n## Current Implementations\n\nThe following projects are already using Chews Protocol:\n\n1. **Grant Ships** - A competitive ecosystem funding platform that uses Chews to vote or rate grant programs following allocation rounds. Grant Ships utilized 3 separate voting systems:\n    * Standard TCR vote for ARB that allowed Game Facilitators with a the Facilitator Hat Protocol NFT. \n    * SBT TCR for community members who were assigned voting scores for participation in the game.\n    * Dual token voting. Allowed for ARB and the Grant Ships game SBT to be utilized in a parallel vote. \n\n2. **Gitcoin** - A custom version of GrantShips that implements a rubric voting system where judges rate grants programs using specific criteria.\n    * Rubric Votes. Utilizes an innovative Max-Votes-Per-Choice model, and allows judges to vote on each choice using a percentage instead of a token weighted value. This allowed judges to rate each grant program on their own merits instead of relative to each other. \n    * AI-Assisted Public Vote. We generated a Merkle tree from GTC balances on mainnet and allowed users to vote using that balance on an L2 (Arbitrum).\n    * Judge selection vote. This is a standard election that once again uses GTC balances on mainnet to elect judges. Once the vote is completed, the contest automatically mints hats and assigns them to the winners.  \n\n3. **ask.haus** - Collaboration with DAOhaus. Chews was utilized in a proof of concept application for testing various UX patterns around fast and convenient TCR voting within Moloch DAOs. We implemented 2 patterns:\n    * Poll. With pre-populated choices. The idea is to be able to create a fast poll for your DAO in under 2 minutes, and have voters vote on it in less than two minutes.  \n    * Contest. Not to be confused with the poorly named Chews Protocol Contest.sol. This is a dual round system where Moloch DAO members can create choices, and then members can vote on those choices. Like the Poll, this system was designed to executed as quickly and conveniently as possible. \n\n## Architecture\n\nChews Protocol is built around a modular architecture that centers on a high-level contract (Contest.sol) that composes four different types of modules:\n\n### Contest Contract\n\nThe Contest contract bundles all the modules into a standard interface. It manages the state for:\n- Voting stage (if procedural)\n- Continuous vs. procedural status\n- Vote retraction rules\n- Other high-level rules for the voting system\n\n### Module Types\n\n#### 1. Choices Module\nManages the items that users will be voting on. It handles:\n- Choice creation and management\n- Who can create choices\n- Registry of voting options\n\n#### 2. Points Module\nDetermines who can vote and how much voting power they have:\n- Can reference token balances\n- Can use Merkle proofs\n- Supports any custom voting power determination logic\n\n#### 3. Votes Module\nControls how voting happens and its immediate effects:\n- Voting mechanisms (burning, staking, regular voting)\n- Side effects of voting\n- Vote tabulation rules\n\n#### 4. Execution Module\nDefines what happens as a result of the vote:\n- Can mint roles onchain\n- Can distribute funds\n- Controls when and how execution happens\n\n### Procedural vs. Continuous Contests\n\nThe Contest contract maintains a `ContestStatus` enum variable which can be:\n\n**Procedural Flow**: \n1. Populating (for choices creation)\n2. Voting (for submitting votes)\n3. Finalized (ready to be executed)\n4. Executed (after execution)\n\nProcedural contests follow a set path through these stages, typically starting at Populating.\n\n**Continuous Flow**:\nIf set as continuous from the start, the contest steps out of the procedural flow and can run indefinitely, allowing choices to be created and voted on simultaneously.\n\n## Smart Contracts\n\n### Core Contracts\n\n- **Contest.sol** - The high-level contract that bundles modules and manages voting flow\n- **IChoices.sol** - Interface for Choices modules\n- **IPoints.sol** - Interface for Points modules\n- **IVotes.sol** - Interface for Votes modules\n- **IExecution.sol** - Interface for Execution modules\n\n### Pre-built Modules\n\n#### Choices Modules\n- **HatsChoices** - Allows anyone with a specific Hat (NFT role from Hats Protocol) to create a choice, with admin hat management\n\n#### Points Modules\n- **ERC20VotesPoints** - Allows voting based on delegated governance token power\n- **MerklePoints** - Uses arbitrary merkle trees for determining voting eligibility and power\n\n#### Votes Modules\n- **TimedVotes** - Implements time-limited voting periods\n- **RubricVotes** - Allows percentage-based voting for each choice (Max-Vote-Per-Choice model)\n\n#### Execution Modules\n- **HatsExecution** - Mints Hats Protocol NFTs to arbitrary addresses based on voting results\n\n## Usage\n\nTo use Chews Protocol:\n\n1. Select or create the appropriate modules for your use case\n2. Deploy each module with the desired parameters\n3. Deploy a Contest contract that composes these modules\n4. Set the initial contest status (Continuous or Procedural)\n5. If Procedural, manage the progression through stages\n\n## Examples\n\nFor detailed examples of how to implement and interact with Chews Protocol, please refer to the integration tests:\n\n[Link to integration tests folder]\n\n## Roadmap\n\nPlans for V1 include:\n\n- Improved naming conventions for better clarity\n- Standardization of modules for increased reusability\n- Better patterns for passing encoded data between modules (particularly from Points to Votes)\n- Development of templating and referrer patterns to simplify deployment and configuration\n- Comprehensive documentation and tutorials\n\n## Current Limitations\n\n- Initial complexity for developers to learn how components fit together\n- Challenges in deploying Contests and configuring module variables\n- Ongoing experimentation may lead to architectural changes\n\n## Contributing\n\nContributions to Chews Protocol are welcome! As this is an experimental project in active development, please reach out to discuss potential contributions.\n\n## License\n\nChews Protocol is licensed under the [MIT License](LICENSE).\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "DAOmasons",
+      "projectTwitter": "chewsprotocol"
+    }
+  }
+}
