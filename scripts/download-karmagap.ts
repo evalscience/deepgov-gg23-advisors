@@ -1,12 +1,12 @@
 import pLimit from "p-limit";
-import type { KarmaProject, KarmaResult, KarmaGrants } from "./utils";
+import type { KarmaProject, KarmaResult, KarmaGrants } from "../utils/utils";
 import {
   loadApplicationsFromDirectory,
   getApplicationId,
   getProjectName,
   saveFile,
   getApplicationPath,
-} from "./utils";
+} from "../utils/utils";
 
 const limit = pLimit(10);
 

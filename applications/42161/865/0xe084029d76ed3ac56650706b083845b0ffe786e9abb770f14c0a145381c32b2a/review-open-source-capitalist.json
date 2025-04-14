@@ -1,35 +1,39 @@
 {
   "summary": "The grant application for Opti.Domains aims to scale ENS (Ethereum Name Service) to the Optimism network, enhancing the Ethereum ecosystem's infrastructure by enabling ENS domains to manage records on Optimism. The project introduces a CCIP Gateway that handles L2OutputOracle migration and supports multiple Superchain registrations without separate deployments. The grant will be used for maintaining the gateway and outreach efforts.",
-  "review": "The Opti.Domains project presents a compelling case for enhancing the Ethereum network's infrastructure by scaling ENS to the Optimism network. The project addresses a significant challenge in the Ethereum ecosystem: the limitation of ENS names to the Ethereum mainnet, which complicates migration to Layer 2 (L2) solutions. By simplifying this process and maintaining a consistent developer experience across L1 and L2, Opti.Domains contributes to the decentralization and scalability of the Ethereum network. The innovative CCIP Gateway is a notable strength, as it ensures zero downtime during major migrations and supports multiple Superchain registrations efficiently. However, the application lacks detailed metrics and a comprehensive roadmap for the project's future development. Additionally, the use of grant funds is vaguely described, focusing only on maintenance and outreach without specific goals or milestones. To strengthen the application, more detailed information on the project's impact, metrics, and a clear roadmap for the use of funds is needed.",
+  "review": "The Opti.Domains project presents a compelling case for enhancing the Ethereum network's infrastructure by extending ENS functionality to the Optimism network. This aligns with the round's focus on strengthening foundational infrastructure. The project demonstrates significant contributions by addressing the challenge of migrating ENS names to L2 networks, simplifying the developer experience, and ensuring zero downtime during migrations. The innovative CCIP Gateway is a notable advancement, allowing for seamless management of Superchain registrations and adapting to changes without redeployment. However, the application lacks detailed metrics or examples of current impact, which would strengthen its case. Additionally, the roadmap for using the grant funds is vague, focusing primarily on maintenance and outreach without specific milestones or deliverables. Overall, the project aligns well with the round's goals but could benefit from more detailed planning and impact assessment.",
   "strengths": [
     {
       "title": "Innovative CCIP Gateway",
-      "description": "The project introduces a CCIP Gateway that automatically handles L2OutputOracle migration and supports multiple Superchain registrations without separate deployments, ensuring zero downtime during migrations."
+      "description": "The project introduces a CCIP Gateway that automatically handles L2OutputOracle migration and adapts to changes without redeployment, ensuring zero downtime."
     },
     {
       "title": "Enhances Ethereum Infrastructure",
-      "description": "By enabling ENS domains to manage records on Optimism, the project significantly contributes to the Ethereum network's infrastructure, addressing the challenge of migrating ENS names to L2 solutions."
+      "description": "By enabling ENS domains to manage records on Optimism, the project significantly contributes to the Ethereum network's infrastructure."
+    },
+    {
+      "title": "Simplifies Developer Experience",
+      "description": "The project addresses the complexity of migrating ENS names to L2 networks, offering a streamlined developer experience similar to L1."
     }
   ],
   "weaknesses": [
     {
       "title": "Lack of Detailed Metrics",
-      "description": "The application does not provide specific metrics or examples to quantify the project's impact on the Ethereum network."
+      "description": "The application does not provide specific metrics or examples of the current impact of the project, which would strengthen its case."
     },
     {
-      "title": "Vague Use of Grant Funds",
-      "description": "The description of how the grant funds will be used is vague, focusing only on maintenance and outreach without specific goals or milestones."
+      "title": "Vague Roadmap",
+      "description": "The roadmap for using the grant funds is not detailed, focusing on maintenance and outreach without specific milestones or deliverables."
     }
   ],
   "changes": [
     {
       "title": "Provide Detailed Metrics",
-      "description": "Include specific metrics or examples to quantify the project's impact on the Ethereum network."
+      "description": "Include specific metrics or examples of the project's current impact on the Ethereum network to strengthen the application."
     },
     {
-      "title": "Clarify Use of Grant Funds",
-      "description": "Provide a detailed roadmap with specific goals and milestones for the use of grant funds, beyond just maintenance and outreach."
+      "title": "Clarify Roadmap",
+      "description": "Provide a more detailed roadmap with specific milestones and deliverables for how the grant funds will be used."
     }
   ],
-  "score": 75
+  "score": 78
 }

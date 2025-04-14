@@ -4,7 +4,7 @@ import {
   saveFile,
   type Application,
   type Round,
-} from "./utils";
+} from "../utils/utils";
 
 const rounds = [
   {
@@ -31,6 +31,7 @@ const ROUNDS_QUERY = `
       id
       chainId
       roundMetadata
+      
       applications(limit: 1000, where: {status: {_eq: APPROVED}}) {
         id
         chainId
@@ -87,8 +88,13 @@ async function main() {
 main()
   .then((r) => {
     // Save round details
-    r.data.rounds.forEach(({ id, chainId, roundMetadata }) => {
-      saveFile(getRoundPath(chainId, id), { id, chainId, roundMetadata });
+    r.data.rounds.forEach(({ id, chainId, roundMetadata, applications }) => {
+      saveFile(getRoundPath(chainId, id), {
+        id,
+        chainId,
+        roundMetadata,
+        applicationCount: applications.length,
+      });
     });
 
     // Save applications

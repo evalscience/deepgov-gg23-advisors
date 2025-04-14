@@ -83,6 +83,15 @@ export function loadApplicationsFromDirectory(
   }
   return applications;
 }
+export function loadReviewsFromDirectory(): Application[] {
+  const reviews: Application[] = [];
+  for (const filePath of walkDirectory("applications")) {
+    if (filePath.includes("review")) {
+      reviews.push(JSON.parse(readFileSync(filePath, "utf8")) as Application);
+    }
+  }
+  return reviews;
+}
 
 export function getProjectName(application: Application): string {
   return (
@@ -99,6 +108,18 @@ export function getApplicationPath(id: string): string {
 export function loadRoundDetails(chainId: string, roundId: string): any {
   const roundPath = `rounds/${chainId}/${roundId}/details.json`;
   return JSON.parse(readFileSync(roundPath, "utf8"));
+}
+export function loadReview(
+  chainId: string,
+  roundId: string,
+  agent: string
+): any {
+  try {
+    const roundPath = `rounds/${chainId}/${roundId}/review-${agent}.json`;
+    return JSON.parse(readFileSync(roundPath, "utf8"));
+  } catch (error) {
+    return null;
+  }
 }
 
 export async function fetchModelSpecs(): Promise<

@@ -1,7 +1,4 @@
-import {
-  getProjectName,
-  loadApplicationsFromDirectory,
-} from "../scripts/utils";
+import { getProjectName, loadApplicationsFromDirectory } from "../utils/utils";
 import { mastra } from "../agents";
 
 async function main() {

@@ -4,22 +4,28 @@ import {
   getApplicationPath,
   getProjectName,
   loadApplicationsFromDirectory,
+  loadReview,
+  loadReviewsFromDirectory,
   loadRoundDetails,
   saveFile,
-} from "./utils";
+} from "../utils/utils";
 import {
   createEvaluationPrompt,
   evaluationAgent,
 } from "../agents/agents/evaluator";
-import { z } from "zod";
 
 import pLimit from "p-limit";
+import { ReviewSchema } from "../utils/schemas";
 
 const limit = pLimit(3);
 
 async function main() {
   const applications = loadApplicationsFromDirectory("application.json");
+  const reviews = loadReviewsFromDirectory();
   console.log(`Processing ${applications.length} applications...`);
+  console.log(`Processing ${reviews.length / 3} reviews...`);
+
+  const modelSpecs = await fetchModelSpecs();
 
   applications.map((application) =>
     limit(async () => {
@@ -33,12 +39,15 @@ async function main() {
       const {
         roundMetadata: { name, eligibility },
       } = loadRoundDetails(chainId, roundId);
-      console.log({ name, eligibility });
-
-      const modelSpecs = await fetchModelSpecs();
-      console.log(modelSpecs);
       return Promise.all(
         modelSpecs.map(async (agent) => {
+          const reviewExists = loadReview(chainId, roundId, agent.name);
+
+          if (reviewExists) {
+            console.log("Review already exists, skipping...");
+            return;
+          }
+
           const prompt = createEvaluationPrompt({
             application: JSON.stringify(application),
             round: JSON.stringify({ name, eligibility }),
@@ -51,10 +60,10 @@ async function main() {
           console.log(result.object);
 
           const id = getApplicationId(application);
-          saveFile(
-            getApplicationPath(id) + `/review-${agent.name}.json`,
-            result.object
-          );
+          saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
+            reviewer: agent.name,
+            ...result.object,
+          });
 
           return result.object;
         })
@@ -67,50 +76,4 @@ async function main() {
 main().catch((error) => {
   console.error("❌ Error:", error);
   process.exit(1);
-});
-
-const ReviewSchema = z.object({
-  summary: z.string(),
-  review: z
-    .string()
-    .describe(
-      "A review of the application with motivation and citations from the research"
-    ),
-  strengths: z
-    .array(
-      z.object({
-        title: z.string(),
-        description: z
-          .string()
-          .describe("A description of the application strengths"),
-      })
-    )
-    .min(1)
-    .max(5),
-  weaknesses: z
-    .array(
-      z.object({
-        title: z.string(),
-        description: z
-          .string()
-          .describe("A description of the application weaknesses"),
-      })
-    )
-    .min(1)
-    .max(5),
-  changes: z
-    .array(
-      z.object({
-        title: z.string(),
-        description: z
-          .string()
-          .describe(
-            "A description of the requested changes to the application"
-          ),
-      })
-    )
-    .min(1)
-    .max(5)
-    .describe("Requested changes"),
-  score: z.number().min(0).max(100),
 });

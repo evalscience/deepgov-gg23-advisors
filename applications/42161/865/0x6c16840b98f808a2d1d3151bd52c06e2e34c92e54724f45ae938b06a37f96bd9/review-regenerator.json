@@ -1,43 +1,51 @@
 {
-  "summary": "The Corpus Core Colibri Client project aims to develop a stateless, trustless, ultra-light Ethereum client that enhances blockchain verification without relying on centralized RPC providers. This project is designed to operate efficiently on low-resource devices, such as IoT and mobile, and supports multi-chain environments. The project addresses key challenges in the Ethereum ecosystem, such as dependency on centralized infrastructure and the need for lightweight, verifying clients. The roadmap includes a fully functioning prototype, a working MVP by the end of April, and a productive release by the second quarter of 2025. The project aligns with the round's focus on strengthening Ethereum's infrastructure and demonstrates significant contributions to the network's decentralization and security.",
-  "review": "The Corpus Core Colibri Client project presents a compelling case for funding within the GG23 OSS - Web3 Infrastructure round. The project addresses critical issues in the Ethereum ecosystem, such as the reliance on centralized RPC providers and the lack of lightweight, verifying clients. By developing a stateless, trustless client optimized for low-resource environments, the project contributes significantly to the decentralization and security of the Ethereum network. The project's innovative approach, focusing on cryptographic proofs and multi-chain compatibility, aligns well with the round's emphasis on pioneering development and infrastructure enhancement. However, the application could benefit from more detailed information on the project's environmental sustainability considerations and community engagement strategies. Overall, the project shows promise in advancing Ethereum's infrastructure and meets the eligibility criteria for the round.",
+  "summary": "The Corpus Core Colibri Client project aims to develop a stateless, trustless, ultra-light Ethereum client optimized for low-resource environments such as IoT, mobile, and web applications. It seeks to address the dependency on centralized RPC providers by enabling independent verification of blockchain data through cryptographic proofs. The project is open-source and designed to support multi-chain and Layer-2 compatibility, enhancing the Ethereum network's decentralization and security.",
+  "review": "The Corpus Core Colibri Client project presents a compelling case for enhancing the Ethereum network's infrastructure by developing a stateless, trustless client that minimizes reliance on centralized RPC providers. This approach aligns with the round's focus on strengthening Ethereum's foundational infrastructure. The project's emphasis on low-resource optimization and multi-chain compatibility addresses significant challenges in the ecosystem, such as centralization risks and limited access for constrained devices. The innovative bottom-up development approach and the use of cryptographic proofs for verification are noteworthy strengths. However, the application lacks detailed information on the project's current status, specific metrics for success, and a comprehensive roadmap. Additionally, the absence of a public group chat link and limited engagement with the community are areas for improvement. Overall, the project demonstrates potential for significant impact but requires more clarity and community involvement to fully align with the round's objectives.",
   "strengths": [
     {
       "title": "Innovative Stateless Client",
-      "description": "The project introduces a stateless, trustless Ethereum client that operates without relying on centralized RPC providers, enhancing decentralization and security."
+      "description": "The project introduces a stateless, trustless Ethereum client that operates without storing local state, reducing reliance on centralized RPC providers and enhancing security."
     },
     {
-      "title": "Optimized for Low-Resource Environments",
-      "description": "The client is designed to function efficiently on devices with limited resources, such as IoT and mobile, making it accessible for a wide range of applications."
+      "title": "Low-Resource Optimization",
+      "description": "Designed for environments with ≤512 KB RAM and ≤1 MB bandwidth/month, making it suitable for IoT, mobile, and web applications."
     },
     {
-      "title": "Multi-Chain Compatibility",
-      "description": "The project supports verification across multiple Layer-1 and Layer-2 networks, facilitating seamless integration with decentralized applications."
+      "title": "Multi-Chain and Layer-2 Compatibility",
+      "description": "Supports proof verification for multiple chains and Layer-2 solutions, facilitating cross-chain interactions and enhancing interoperability."
     },
     {
       "title": "Open Source and Infrastructure-Focused",
-      "description": "The project's codebase is open source, promoting transparency and collaboration within the Ethereum community."
+      "description": "The codebase is public and designed to be embeddable into various applications, promoting transparency and collaboration."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Environmental Sustainability Considerations",
-      "description": "The application does not provide detailed information on how the project addresses environmental sustainability, which is a key principle in the model specification."
+      "title": "Lack of Detailed Roadmap",
+      "description": "The application provides a general timeline but lacks specific milestones and detailed plans for achieving the project's goals."
     },
     {
-      "title": "Limited Community Engagement Strategy",
-      "description": "The application lacks a clear strategy for engaging with the community and incorporating diverse stakeholder input, which is important for fostering inclusive systemic change."
+      "title": "Limited Community Engagement",
+      "description": "The absence of a public group chat link and limited information on community involvement suggest a need for greater engagement with stakeholders."
+    },
+    {
+      "title": "Insufficient Metrics for Success",
+      "description": "The application does not provide specific metrics or criteria for measuring the project's success and impact on the Ethereum ecosystem."
     }
   ],
   "changes": [
     {
-      "title": "Include Environmental Sustainability Measures",
-      "description": "Provide detailed information on how the project integrates environmental sustainability into its development and operations."
+      "title": "Provide a Detailed Roadmap",
+      "description": "Include specific milestones, timelines, and deliverables to offer a clearer picture of the project's development path."
     },
     {
-      "title": "Develop a Community Engagement Plan",
-      "description": "Outline a strategy for engaging with the community and incorporating diverse stakeholder input into the project's development and governance."
+      "title": "Enhance Community Engagement",
+      "description": "Establish a public group chat and actively involve the community in the project's development and decision-making processes."
+    },
+    {
+      "title": "Define Success Metrics",
+      "description": "Identify and outline specific metrics or criteria to measure the project's success and its impact on the Ethereum network."
     }
   ],
-  "score": 85
+  "score": 78
 }
