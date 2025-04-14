@@ -1,40 +1,40 @@
 {
   "reviewer": "gitcoin-communist",
-  "summary": "The \"Contract Level\" project aims to integrate regulatory compliance directly into smart contracts, enabling traditional financial institutions to engage with DeFi protocols by ensuring only compliant users can participate. The project uses Chainlink to verify KYC status without revealing user data, addressing privacy concerns. The grant funds are intended for security audits and establishing a bug bounty program. The project is not yet deployed but plans to integrate Concero V2 for cross-chain interactions.",
-  "review": "The \"Contract Level\" project presents a compelling solution to a significant barrier in the DeFi space: the reluctance of traditional financial institutions to engage due to regulatory concerns. By embedding compliance directly into smart contracts, the project offers a proactive approach to ensuring only compliant transactions occur, which is a notable improvement over existing offchain compliance solutions. The use of Chainlink for KYC verification while maintaining user privacy is a strong point, aligning with the round's focus on enhancing privacy and security.\n\nHowever, the project is still in its early stages, with no deployment yet, which raises concerns about its current impact and the feasibility of its proposed solutions. The roadmap outlines a clear plan for using grant funds for security audits and a bug bounty program, which is essential for building trust and ensuring the system's robustness. Yet, the lack of a demonstrated sustainable revenue model or detailed evidence of measurable outcomes is a weakness, as it does not fully align with the model specification's emphasis on proven solutions and sustainable systems.\n\nOverall, while the project has potential and addresses a critical need in the Ethereum ecosystem, it requires further development and evidence of its effectiveness and sustainability to fully meet the grant's criteria.",
+  "summary": "The grant application for 'Contract Level' presents a project aimed at embedding regulatory compliance directly into smart contracts, using Chainlink to verify KYC status before executing transactions. This approach is designed to enable traditional financial institutions to engage with DeFi protocols by ensuring compliance and preventing non-compliant transactions. The project seeks funding for security audits and a bug bounty program, with a roadmap that includes integrating Concero V2 for cross-chain interactions. The application highlights the project's potential to democratize access to DeFi and drive adoption by providing regulatory clarity.",
+  "review": "The 'Contract Level' project addresses a significant barrier in the Ethereum ecosystem by providing a compliance solution that allows traditional financial institutions to engage with DeFi protocols. This is achieved by embedding KYC verification directly into smart contracts, ensuring that only compliant users can participate. The project is innovative in its approach to compliance, as it prevents non-compliant transactions from executing, unlike existing offchain solutions that monitor transactions post-execution. The application clearly outlines the project's goals, including the use of grant funds for security audits and a bug bounty program, which are crucial for ensuring the project's reliability and security. However, the application lacks detailed metrics or evidence of the project's impact on the Ethereum network's infrastructure, which is a key requirement for the grant round. Additionally, the project's sustainability model is not clearly defined, raising concerns about its long-term viability without continuous funding. The application would benefit from a more detailed explanation of how the project will achieve financial sustainability and a clearer demonstration of its contribution to the Ethereum ecosystem.",
   "strengths": [
     {
       "title": "Innovative Compliance Solution",
-      "description": "The project offers a novel approach by embedding regulatory compliance directly into smart contracts, ensuring only compliant transactions occur."
+      "description": "The project offers a novel approach to regulatory compliance by embedding KYC verification directly into smart contracts, preventing non-compliant transactions from executing."
     },
     {
-      "title": "Privacy Preservation",
-      "description": "Utilizes Chainlink to verify KYC status without revealing user data, addressing privacy concerns effectively."
+      "title": "Potential to Unlock Institutional Engagement",
+      "description": "By ensuring compliance, the project enables traditional financial institutions to confidently engage with DeFi protocols, potentially broadening the market."
     },
     {
-      "title": "Clear Roadmap for Security",
-      "description": "Plans to use grant funds for security audits and a bug bounty program, which are crucial for ensuring system robustness and trust."
+      "title": "Focus on Security and Reliability",
+      "description": "The application outlines plans for security audits and a bug bounty program, demonstrating a commitment to ensuring the project's security and reliability."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Deployment",
-      "description": "The project is not yet deployed, which raises concerns about its current impact and feasibility."
+      "title": "Lack of Detailed Metrics",
+      "description": "The application does not provide specific metrics or evidence of the project's impact on the Ethereum network's infrastructure, which is crucial for evaluating its significance."
     },
     {
-      "title": "Unproven Sustainability",
-      "description": "There is no demonstrated sustainable revenue model or detailed evidence of measurable outcomes, which is crucial for long-term viability."
+      "title": "Unclear Sustainability Model",
+      "description": "The project lacks a clear plan for achieving financial sustainability, raising concerns about its long-term viability without continuous funding."
     }
   ],
   "changes": [
     {
-      "title": "Demonstrate Deployment and Impact",
-      "description": "Provide evidence of deployment and initial impact to strengthen the project's credibility and feasibility."
+      "title": "Provide Detailed Metrics",
+      "description": "Include specific metrics or evidence demonstrating the project's impact on the Ethereum network's infrastructure to strengthen the application."
     },
     {
-      "title": "Develop a Sustainable Revenue Model",
-      "description": "Outline a clear plan for achieving financial sustainability to reduce dependency on continuous donations."
+      "title": "Clarify Sustainability Model",
+      "description": "Outline a clear plan for achieving financial sustainability to address concerns about the project's long-term viability."
     }
   ],
-  "score": 70
+  "score": 75
 }

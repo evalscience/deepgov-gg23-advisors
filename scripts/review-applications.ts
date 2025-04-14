@@ -24,10 +24,9 @@ async function main() {
   const reviews = loadReviewsFromDirectory();
   console.log(`Processing ${applications.length} applications...`);
   console.log(`Processing ${reviews.length / 3} reviews...`);
-
+  return;
   const modelSpecs = await fetchModelSpecs();
-
-  applications.map((application) =>
+  applications.reverse().map((application) =>
     limit(async () => {
       //
       const { chainId, roundId } = application;
