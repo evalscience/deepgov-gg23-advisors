@@ -1,39 +1,59 @@
 {
-  "summary": "The eth.limo project is a privacy-preserving ENS gateway that facilitates access to Ethereum-native dApps and content. It aims to enhance the Ethereum ecosystem by providing an alternative means of accessing ENS resolvable domains, supporting various storage layers, and ensuring strong privacy guarantees. The project has participated in multiple Gitcoin rounds and handles significant traffic, indicating its importance in the ecosystem. The grant application outlines a comprehensive roadmap for further development, focusing on infrastructure scaling, privacy enhancements, and community engagement.",
-  "review": "The eth.limo project presents a compelling case for funding, demonstrating significant contributions to the Ethereum network's infrastructure. It supports a wide range of ENS-compatible storage layers and offers privacy-preserving features, such as not logging IP addresses. The project addresses key challenges in the Ethereum ecosystem, such as the need for decentralized access to dWebsites and the lack of non-commercial infrastructure. The roadmap is detailed and aligns with the round's focus on enhancing privacy, interoperability, and user experience. However, the application could benefit from more specific metrics and examples of past achievements to strengthen its case.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's cut through the noise and get to the core. eth.limo is a heavy-hitter in the Ethereum infrastructure game, acting as a privacy-preserving ENS gateway that’s already handling over a billion requests a year. That’s not just traction—that’s mainnet-level impact. The project is open source, public good-aligned, and laser-focused on decentralization, privacy, and accessibility. It’s the default resolver for app.ens.domains and a bunch of other ENS projects, so it’s not just building in public—it’s running the backbone for a chunk of the dWeb.\n\nOn the innovation front, eth.limo is pushing boundaries: DNS over HTTPS, on-demand subdomain certificates, multi-protocol support (IPFS, Arweave, Swarm), and strong privacy guarantees (no IP logging, FLoC blocking). The roadmap is ambitious and systemic: multi-region CDN, native DNS resolver, Gateway-as-a-Service, and more. This is the kind of infra that scales, disrupts, and future-proofs the ecosystem.\n\nBut let’s not get too starry-eyed. The application is light on granular, objective metrics—there’s mention of traffic, but not enough hard data on uptime, latency, or comparative performance. The roadmap is a laundry list, but lacks clear milestones, KPIs, or timelines. There’s also a lack of detail on governance, sustainability, and how the project will handle abuse or legal challenges as it scales. And while the privacy stance is strong, there’s no external audit or third-party validation cited.\n\nBottom line: eth.limo is a high-impact, high-leverage project that’s already delivering massive utility. But to max out on transparency and efficiency, we need more hard data, clearer milestones, and a bit more rigor on risk management. Let’s tighten the bolts and keep scaling!",
   "strengths": [
     {
-      "title": "Significant Contribution to Ethereum Infrastructure",
-      "description": "The eth.limo project is a crucial component of the Ethereum ecosystem, providing a privacy-preserving ENS gateway that supports various storage layers and handles over 1 billion requests annually."
+      "title": "Massive, Measurable Impact",
+      "description": "Handles over 1B requests/year, default resolver for major ENS projects, and supports a wide range of dWeb use cases. This is core infra with real, global reach."
     },
     {
-      "title": "Strong Privacy Features",
-      "description": "The project emphasizes privacy by not logging IP addresses and blocking tracking algorithms like FLoC, enhancing user trust and security."
+      "title": "Privacy-First, Open Source Ethos",
+      "description": "No IP logging, FLoC blocking, and a strong commitment to open source and public goods. This aligns perfectly with Ethereum’s decentralization and privacy values."
     },
     {
-      "title": "Comprehensive Roadmap",
-      "description": "The application outlines a detailed roadmap that includes infrastructure scaling, new feature development, and community engagement, demonstrating a clear plan for future growth."
+      "title": "Innovative, Multi-Protocol Support",
+      "description": "Supports IPFS, Arweave, Swarm, DNS over HTTPS, and on-demand subdomain certificates. This is bleeding-edge tech that increases accessibility and resilience."
+    },
+    {
+      "title": "Ambitious, Systemic Roadmap",
+      "description": "Plans for multi-region CDN, native DNS resolver, Gateway-as-a-Service, and more. The vision is long-term, systemic, and focused on root causes of centralization."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Specific Metrics",
-      "description": "While the application mentions handling over 1 billion requests annually, it lacks detailed metrics and examples of past achievements to substantiate its impact."
+      "title": "Lack of Objective Performance Metrics",
+      "description": "The application references high traffic but lacks hard data on uptime, latency, error rates, or comparative benchmarks. This makes it hard to objectively assess efficiency and reliability."
     },
     {
-      "title": "Limited Information on Community Governance",
-      "description": "The application mentions community governance but does not provide details on how this will be implemented or managed."
+      "title": "Unclear Milestones and KPIs",
+      "description": "The roadmap is ambitious but reads like a feature wishlist. There are no clear deliverables, timelines, or key performance indicators to track progress."
+    },
+    {
+      "title": "Limited Risk and Abuse Mitigation Details",
+      "description": "There’s mention of handling abusive content, but no specifics on governance, legal compliance, or how the project will handle scaling challenges and potential attacks."
+    },
+    {
+      "title": "No External Validation or Audits",
+      "description": "Strong privacy claims are made, but there’s no mention of third-party audits, external reviews, or independent validation of privacy and security practices."
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed Metrics",
-      "description": "Include specific metrics and examples of past achievements to better demonstrate the project's impact and success."
+      "title": "Provide Objective Performance Metrics",
+      "description": "Add hard data on uptime, latency, error rates, and comparative benchmarks to demonstrate operational excellence and efficiency at scale."
     },
     {
-      "title": "Expand on Community Governance Plans",
-      "description": "Provide more information on how community governance will be implemented and managed to ensure transparency and accountability."
+      "title": "Define Clear Milestones and KPIs",
+      "description": "Break down the roadmap into specific, time-bound milestones with measurable KPIs. This will make progress transparent and allow for better impact assessment."
+    },
+    {
+      "title": "Detail Risk Management and Abuse Mitigation",
+      "description": "Outline concrete processes for handling abuse, legal compliance, and operational risks as the project scales. Include governance and escalation procedures."
+    },
+    {
+      "title": "Include External Validation or Audit Plans",
+      "description": "Commit to third-party privacy and security audits, or provide references to any existing external reviews. This will strengthen trust and credibility."
     }
   ],
-  "score": 85
+  "score": 87
 }

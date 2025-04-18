@@ -1,35 +1,47 @@
 {
-  "summary": "The Lakat project aims to create a decentralized, open, and permissionless architecture for academic publishing, leveraging Ethereum's infrastructure. It focuses on continuous integration of scientific research through a proof-of-review consensus mechanism, integrating with Ethereum for storage, tokens, and proofs. The project is innovative in its approach to decentralized publishing, addressing the skewed utility towards DeFi in the Ethereum ecosystem. It proposes a roadmap for development, including a Rust client and a mediawiki extension, with plans for testing and release in 2024.",
-  "review": "The Lakat project presents a compelling vision for decentralized academic publishing, leveraging Ethereum's infrastructure to enhance collaboration and pluralism in scientific research. The project's focus on a proof-of-review consensus mechanism and integration with Ethereum for storage and tokens is innovative and aligns with the round's goals of enhancing privacy, interoperability, and user experience. However, the application lacks specific metrics or examples of its current impact on the Ethereum network, which is crucial for demonstrating its contribution to the ecosystem's infrastructure. Additionally, while the roadmap is detailed, it would benefit from clearer milestones and success metrics to track progress effectively.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's plug into the Lakat protocol and see if it’s ready to disrupt the Ethereum infrastructure meta! Lakat’s aiming to be the Git for decentralized science publishing—anchoring data on Ethereum, leveraging Ceramic for storage, and rolling out proof-of-review consensus on Starknet. That’s a bold play for broadening Ethereum’s utility beyond DeFi, and it’s got the right open-source DNA. The roadmap is public, the code’s on GitHub, and the team’s building in Rust (max performance, love it). \n\nOn the innovation front, Lakat’s social key recovery and multi-branch publishing are spicy—if they can pull off trustless key recovery and incentivized collaboration, that’s a real UX win. The project’s also gunning for interoperability by anchoring to multiple EVM chains and integrating with existing reputation systems. That’s the kind of composability the ecosystem needs.\n\nBut let’s not sugarcoat it: the app is light on hard metrics and adoption data. There’s no clear evidence of user traction, no quantifiable impact, and the roadmap is a bit hand-wavy on deliverables and timelines. The grant asks for trust in the vision, but doesn’t back it up with KPIs, usage stats, or a breakdown of how funds will be spent. For a round focused on foundational infra, that’s a red flag. \n\nBottom line: Lakat’s got the right vision and tech stack, but needs to show more receipts. Show me the numbers, the users, and the impact, and I’ll be all in. Until then, it’s a promising experiment, not a proven infra pillar. Max utility demands max transparency and accountability!",
   "strengths": [
     {
-      "title": "Innovative Approach to Decentralized Publishing",
-      "description": "Lakat's focus on a proof-of-review consensus mechanism and integration with Ethereum for storage and tokens is a novel approach to decentralized academic publishing, addressing the current skew towards DeFi in the Ethereum ecosystem."
+      "title": "Ambitious Infrastructure Vision",
+      "description": "Lakat is targeting a major gap in Ethereum’s utility by building a decentralized, edit-centric publishing protocol. This is a high-leverage play that could diversify Ethereum’s use cases beyond DeFi, aligning with the round’s goal of foundational infrastructure."
     },
     {
-      "title": "Comprehensive Roadmap",
-      "description": "The project provides a detailed roadmap for development, including the creation of a Rust client and a mediawiki extension, with plans for testing and release in 2024."
+      "title": "Open Source and Transparent",
+      "description": "The project is fully open source, with active GitHub repos and a public roadmap. The team is building in public, which is essential for trust and community engagement in the Ethereum ecosystem."
+    },
+    {
+      "title": "Innovative Features",
+      "description": "Social key recovery, multi-branch publishing, and proof-of-review consensus are novel features that could significantly improve user experience, privacy, and collaboration in decentralized publishing."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Specific Impact Metrics",
-      "description": "The application does not provide specific metrics or examples of its current impact on the Ethereum network, which is crucial for demonstrating its contribution to the ecosystem's infrastructure."
+      "title": "Lack of Quantitative Impact Data",
+      "description": "The application does not provide concrete metrics, user numbers, or adoption data. There is no evidence of current traction or clear KPIs to measure success."
     },
     {
-      "title": "Unclear Milestones and Success Metrics",
-      "description": "While the roadmap is detailed, it lacks clear milestones and success metrics to effectively track progress and measure success."
+      "title": "Unclear Fund Allocation",
+      "description": "The roadmap is vague about how grant funds will be used. There is no detailed budget or breakdown of deliverables, making it hard to assess efficiency and accountability."
+    },
+    {
+      "title": "Limited Evidence of Ecosystem Integration",
+      "description": "While the project claims interoperability and composability, there is little detail on actual integrations with existing Ethereum infrastructure or reputation systems."
     }
   ],
   "changes": [
     {
-      "title": "Include Specific Impact Metrics",
-      "description": "Provide specific metrics or examples of the project's current impact on the Ethereum network to better demonstrate its contribution to the ecosystem's infrastructure."
+      "title": "Provide Quantitative Metrics and KPIs",
+      "description": "Include current user numbers, adoption stats, or at least clear KPIs and milestones to measure progress and impact. Show how Lakat is already being used or how you’ll track success."
     },
     {
-      "title": "Define Clear Milestones and Success Metrics",
-      "description": "Enhance the roadmap by defining clear milestones and success metrics to effectively track progress and measure success."
+      "title": "Detailed Fund Allocation Plan",
+      "description": "Break down exactly how grant funds will be spent—dev hours, audits, outreach, etc. This increases transparency and trust."
+    },
+    {
+      "title": "Demonstrate Ecosystem Integration",
+      "description": "Show concrete examples of how Lakat integrates with existing Ethereum infrastructure, reputation systems, or other protocols. List partners, integrations, or pilots."
     }
   ],
-  "score": 75
+  "score": 68
 }

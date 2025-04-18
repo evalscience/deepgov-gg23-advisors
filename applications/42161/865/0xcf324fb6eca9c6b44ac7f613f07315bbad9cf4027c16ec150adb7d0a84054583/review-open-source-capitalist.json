@@ -1,39 +1,55 @@
 {
-  "summary": "The Vocdoni project, through its DAVINCI protocol, aims to revolutionize voting systems by leveraging Ethereum's infrastructure. It introduces a zkRollup-based voting protocol that enhances privacy, scalability, and security, addressing key challenges in blockchain-based governance. The project is well-aligned with the round's focus on strengthening Ethereum's infrastructure, particularly in enhancing privacy, interoperability, and user experience. However, the application could benefit from more detailed information on the deployment of smart contracts and clearer metrics for success.",
-  "review": "The Vocdoni project presents a compelling case for enhancing Ethereum's infrastructure through its DAVINCI protocol. The application highlights the use of zkSNARKs and threshold homomorphic encryption to ensure privacy and security in voting, which is a significant contribution to the Ethereum ecosystem. The project's focus on scalability and interoperability aligns well with the round's objectives, as it aims to provide a universal voting solution that can be applied to various governance models, from DAOs to national elections. The roadmap is ambitious, with clear milestones leading up to a mainnet launch. However, the application lacks specific details on the deployment of smart contracts, which is crucial for assessing the project's readiness and potential impact. Additionally, while the project claims to have processed votes for over 300 organizations, more concrete metrics and examples of success would strengthen the application. Overall, the project demonstrates strong potential for impact but requires more detailed information to fully assess its feasibility and effectiveness.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's cut through the noise and get straight to the alpha. Vocdoni’s DAVINCI protocol is gunning for the holy grail of decentralized, anonymous, and scalable voting on Ethereum. This isn’t just another DAO tool—this is core infra, aiming to make Ethereum the backbone for global, censorship-resistant governance. That’s a big swing, and it’s exactly the kind of moonshot this round is designed to back.\n\nStrengths? DAVINCI is leveraging zkSNARKs and threshold homomorphic encryption in a rollup architecture—serious cryptography flex. The team’s track record is legit: 300+ orgs, including city councils and major DAOs, have already used their earlier stack. They’re not just theorizing; they’re shipping. The protocol is open source, aligns with EIP-4844, and is designed for gasless, high-frequency voting—maximizing participation and minimizing friction. That’s a direct hit on the round’s focus: foundational infra, scalability, and security.\n\nOn the innovation front, DAVINCI is pushing the envelope with privacy (quantum-resilient anonymity, receipt-freeness), interoperability (modular, supports all voting schemes), and UX (gasless, simple interfaces, client-side proof gen). This is the kind of pioneering work that can unlock new use cases for Ethereum far beyond DeFi.\n\nBut let’s not get blinded by the hype. There are some red flags. The roadmap is ambitious, but the current deployment status is vaporware—no smart contracts live yet, and the mainnet is a year out. There’s a risk of overpromising. The technical complexity is sky-high, which could slow adoption or lead to security holes if not handled with extreme rigor. The application is light on concrete metrics for impact (e.g., projected user growth, transaction volume, or cost savings vs. existing voting solutions). And while the team’s prior stack is battle-tested, DAVINCI itself is still pre-testnet.\n\nRequested changes: The team needs to provide more granular, objective metrics for projected impact (number of votes, DAOs onboarded, cost per vote, etc.). They should also clarify their security audit plans and give a more detailed timeline for smart contract deployment. Finally, a risk assessment (technical, adoption, regulatory) would show they’re thinking like true system builders, not just dreamers.\n\nBottom line: This is high-upside, high-risk infra. If they deliver, it’s a game-changer for Ethereum governance. But we need more hard data and less vapor. Ship fast, ship secure, and show us the numbers. That’s how you win big in open-source capitalism.",
   "strengths": [
     {
-      "title": "Innovative Use of zkSNARKs",
-      "description": "The project leverages zkSNARKs and threshold homomorphic encryption to enhance privacy and security in voting, addressing significant challenges in blockchain-based governance."
+      "title": "Pioneering Cryptographic Architecture",
+      "description": "DAVINCI combines zkSNARKs and threshold homomorphic encryption in a rollup-based protocol, pushing the boundaries of privacy, scalability, and security for decentralized voting."
     },
     {
-      "title": "Scalability and Interoperability",
-      "description": "DAVINCI is designed as a Layer 2 solution on Ethereum, ensuring scalability and interoperability across various governance models, from DAOs to national elections."
+      "title": "Proven Team and Real-World Adoption",
+      "description": "The team has processed hundreds of thousands of votes for 300+ organizations, demonstrating operational experience and real-world impact with their previous stack."
     },
     {
-      "title": "Clear Roadmap",
-      "description": "The project outlines a clear roadmap with milestones leading up to a mainnet launch, demonstrating a structured approach to development."
+      "title": "Open Source and Ethereum-Native",
+      "description": "DAVINCI is fully open source, aligns with EIP-4844, and is designed to be a plug-and-play Layer 2 for governance, maximizing composability and ecosystem fit."
+    },
+    {
+      "title": "User Experience and Accessibility",
+      "description": "Voting is gasless, interfaces are simple, and zkSNARK generation is client-side, lowering barriers for non-technical users and maximizing participation."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Smart Contract Deployment Details",
-      "description": "The application does not provide specific details on the deployment of smart contracts, which is crucial for assessing the project's readiness and potential impact."
+      "title": "No Live Deployment Yet",
+      "description": "No smart contracts are currently deployed; the protocol is pre-testnet, making the current impact theoretical rather than proven."
     },
     {
-      "title": "Need for Concrete Metrics",
-      "description": "While the project claims to have processed votes for over 300 organizations, it lacks concrete metrics and examples of success to substantiate these claims."
+      "title": "Lack of Concrete Impact Metrics",
+      "description": "The application lacks specific, objective metrics for projected adoption, transaction volume, or cost savings compared to existing solutions."
+    },
+    {
+      "title": "High Technical Complexity and Risk",
+      "description": "The advanced cryptography and architecture increase the risk of implementation bugs, security vulnerabilities, and slow adoption if not managed rigorously."
     }
   ],
   "changes": [
     {
-      "title": "Provide Smart Contract Deployment Details",
-      "description": "Include specific details on the deployment of smart contracts, including deployer addresses and corresponding blockchain networks, to assess readiness and potential impact."
+      "title": "Provide Objective Impact Metrics",
+      "description": "Add clear, quantitative projections for user adoption, transaction volume, and cost savings versus current voting solutions."
     },
     {
-      "title": "Include Concrete Metrics and Success Examples",
-      "description": "Provide concrete metrics and examples of success to substantiate claims of processing votes for over 300 organizations, enhancing the credibility of the application."
+      "title": "Clarify Security Audit Plans",
+      "description": "Detail the planned security audit process, including timelines, responsible parties, and scope."
+    },
+    {
+      "title": "Publish Deployment Timeline",
+      "description": "Give a more granular timeline for smart contract deployment, including testnet and mainnet milestones."
+    },
+    {
+      "title": "Include Risk Assessment",
+      "description": "Add a section outlining technical, adoption, and regulatory risks, along with mitigation strategies."
     }
   ],
-  "score": 85
+  "score": 84
 }

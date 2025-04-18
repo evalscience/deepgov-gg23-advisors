@@ -1,39 +1,59 @@
 {
-  "summary": "WebHash is a platform designed to enhance the utility of ENS domains by enabling the creation of decentralized websites (dwebsites) without requiring coding skills. The project aims to address the challenges of digital decay and centralized hosting vulnerabilities by leveraging decentralized technologies like IPFS and ENS. WebHash offers a no-code platform, tokenized website templates, and various integrations to simplify the creation and management of dwebsites, thereby promoting broader adoption of decentralized web technologies.",
-  "review": "WebHash presents a compelling solution to enhance the utility of ENS domains by simplifying the creation of decentralized websites. The project aligns well with the round's focus on strengthening Ethereum's infrastructure, particularly in decentralized identity and security innovations. The use of IPFS for decentralized hosting and the integration with ENS for human-readable domains are significant contributions to the Ethereum ecosystem. The project's roadmap, which includes token-gated websites and AI content moderation, demonstrates a forward-thinking approach to enhancing user experience and platform functionality. However, the application could benefit from more detailed metrics on user engagement and the impact of their buildathons. Additionally, while the project addresses key challenges, it should provide more evidence of its scalability and long-term sustainability.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let’s cut through the noise and get straight to the alpha. WebHash is gunning to be the no-code, plug-and-play dwebsite builder for ENS domains, aiming to turn every .eth into a decentralized digital identity hub. The project’s got traction—4,100+ signups, 6,000+ dwebsites, and 400GB on IPFS. That’s not vaporware, that’s real usage. They’re not just slapping a UI on top of ENS; they’re tokenizing templates (ERC-1155), integrating with IPFS for censorship resistance, and building a gateway to resolve .eth domains natively—no more centralized choke points like .limo. \n\nFrom a maximization lens, this is high-leverage stuff. Lowering the technical barrier for 800K+ ENS holders to actually use their domains as decentralized identities? That’s a multiplier effect for Ethereum’s network utility. The roadmap is ambitious: token-gated content, AI moderation, and a buffet of integrations (Farcaster, Lens, POAP, DAOs, etc.). If they execute, this could be a foundational layer for decentralized web presence—think WordPress for Web3, but with on-chain provenance and composability baked in.\n\nBut let’s not get too bullish without checking the fundamentals. The app is heavy on vision and feature lists, but light on open-source transparency. There’s a GitHub, but the repo status and code openness aren’t detailed. Also, while the numbers are solid, there’s no breakdown of active vs. dormant sites, or retention metrics. The Hash Gateway is a killer feature, but security and decentralization claims need more technical receipts. And while the roadmap is packed, there’s no granular budget or timeline—just broad strokes.\n\nBottom line: WebHash is swinging for max impact, attacking root causes (digital decay, onboarding friction) and building infra that scales. But to hit the next level, they need to open up more on code, metrics, and execution details. Show us the receipts, and this could be a flagship infra play for Ethereum’s decentralized web.\n\nCitations: Application answers (metrics, roadmap, feature set), round requirements (infra, privacy, UX, open-source), model spec (max utility, long-term infra, innovation, efficiency).",
   "strengths": [
     {
-      "title": "No-Code Platform",
-      "description": "WebHash offers a no-code platform that lowers the barrier for creating decentralized websites, making it accessible to users without technical expertise."
+      "title": "High-Impact, Scalable Vision",
+      "description": "WebHash targets a massive addressable market (800K+ ENS holders) and aims to turn dormant domains into active, decentralized identities. This is a multiplier for Ethereum’s network effect and aligns perfectly with the round’s focus on foundational infra."
     },
     {
-      "title": "Integration with ENS and IPFS",
-      "description": "The project integrates with ENS and uses IPFS for decentralized hosting, enhancing the security and resilience of the Ethereum network."
+      "title": "Strong Traction and Real Usage",
+      "description": "With 4,100+ signups, 6,000+ dwebsites, and 400GB on IPFS, the project demonstrates real adoption and utility—not just whitepaper hype."
     },
     {
-      "title": "Comprehensive Roadmap",
-      "description": "WebHash has a detailed roadmap that includes innovative features like token-gated websites and AI content moderation, indicating a commitment to continuous improvement."
+      "title": "Innovative, User-Friendly Approach",
+      "description": "No-code builder, tokenized templates, and seamless ENS/IPFS integration lower the technical barrier and democratize decentralized web creation. This is a direct hit on onboarding friction, a root cause of low dwebsite adoption."
+    },
+    {
+      "title": "Ambitious, Infra-Driven Roadmap",
+      "description": "Plans for token-gated content, AI moderation, and deep ecosystem integrations (Farcaster, Lens, DAOs, etc.) show a commitment to long-term, systemic infra improvements."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Detailed Metrics",
-      "description": "The application lacks detailed metrics on user engagement and the impact of their initiatives, such as buildathons."
+      "title": "Lack of Open-Source Transparency",
+      "description": "The application references GitHub repos, but does not specify the extent of code openness, license, or community contribution process. This is a core eligibility requirement and a key value for OSS rounds."
     },
     {
-      "title": "Scalability and Sustainability",
-      "description": "While the project addresses key challenges, it needs to provide more evidence of its scalability and long-term sustainability."
+      "title": "Insufficient Technical Detail on Security/Decentralization",
+      "description": "Claims about the Hash Gateway’s decentralization and security are not backed by technical documentation or audits. More detail is needed to validate these claims."
+    },
+    {
+      "title": "Limited Metrics on Retention and Active Usage",
+      "description": "While headline numbers are strong, there’s no breakdown of active vs. dormant sites, user retention, or engagement. This makes it hard to assess sustained impact."
+    },
+    {
+      "title": "Vague Budget and Execution Plan",
+      "description": "The roadmap is ambitious but lacks granular budget allocation, milestones, or timelines. This reduces confidence in execution and resource efficiency."
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed Metrics",
-      "description": "Include more detailed metrics on user engagement and the impact of initiatives like buildathons to better demonstrate the project's effectiveness."
+      "title": "Open-Source Clarity",
+      "description": "Explicitly state which components are open-source, provide repo links, license details, and outline the community contribution process. Transparency is non-negotiable for OSS infra funding."
     },
     {
-      "title": "Evidence of Scalability",
-      "description": "Provide evidence or projections of the project's scalability and long-term sustainability to strengthen the application."
+      "title": "Technical Documentation and Security Receipts",
+      "description": "Publish detailed technical docs for the Hash Gateway and other core infra, including decentralization architecture and any security audits or peer reviews."
+    },
+    {
+      "title": "Detailed Usage Metrics",
+      "description": "Break down user metrics: active vs. dormant sites, retention rates, and engagement stats. Show the real stickiness and impact of the platform."
+    },
+    {
+      "title": "Granular Roadmap and Budget",
+      "description": "Provide a detailed budget, timeline, and milestones for each major roadmap item. This will boost confidence in execution and resource allocation."
     }
   ],
-  "score": 85
+  "score": 78
 }

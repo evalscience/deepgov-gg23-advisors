@@ -1,39 +1,51 @@
 {
-  "summary": "The Ethereum on ARM project aims to enhance the Ethereum network's infrastructure by enabling the operation of Ethereum nodes on ARM64 boards. This project focuses on decentralization, accessibility, and cost-effectiveness, allowing users to run full, archive, staking, and L2 nodes on affordable hardware. The project has a clear roadmap, including the deployment of the Lido Community Staking Module, DVT integration, RISC-V development, and expanding L2 support. The project aligns with the round's goals by contributing significantly to Ethereum's infrastructure and demonstrating pioneering development in decentralization and accessibility.",
-  "review": "The Ethereum on ARM project presents a compelling case for enhancing the Ethereum network's infrastructure by enabling node operation on ARM64 boards. This approach addresses key challenges in decentralization and accessibility, making Ethereum more resilient and inclusive. The project has a well-defined roadmap with clear objectives and impacts, such as lowering staking barriers and improving validator uptime through DVT integration. However, the application could benefit from more detailed metrics on current adoption and specific outcomes from previous rounds. Additionally, while the project aligns with the round's goals, further emphasis on privacy and interoperability advancements would strengthen its case.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's plug in and break this down, Luna-style. Ethereum on ARM is gunning for max decentralization by making it dead simple (and cheap!) to run full, archive, staking, and L2 nodes on ARM64 boards. We're talking $300 hardware, 10W power draw—basically, anyone with a bit of tech know-how can spin up a node from their kitchen table. That's a big deal for network resilience and censorship resistance. \n\nThe project is open source, with a public repo and active documentation. They're not just talking the talk—they've shipped: first ARM64 supernode (L1+L2 on one device), first Geth node on RISC-V, and DVT (Distributed Validator Technology) clusters on ARM64. That's some serious pioneering work, especially for hardware diversity and validator uptime. \n\nTheir roadmap is ambitious but focused: Lido Community Staking (sub-32 ETH staking), DVT integration, RISC-V expansion, more L2 support, and ongoing infra maintenance. All of this is laser-focused on lowering barriers, boosting decentralization, and making Ethereum more robust and accessible. \n\nBut, let's not get too starry-eyed. The app is light on hard metrics—how many nodes are actually running? What's the adoption curve? Also, the impact narrative is strong, but there's not enough detail on how funds will be allocated (payroll, hardware, outreach?). And while the project is clearly open source, there's no explicit mention of license or governance model. \n\nBottom line: This is high-impact, scalable infra work with real potential for systemic change. But to hit max utility, we need more transparency on adoption, funding allocation, and open-source governance. Let's get those details on-chain!",
   "strengths": [
     {
-      "title": "Decentralization and Accessibility",
-      "description": "The project significantly lowers the barriers to running Ethereum nodes by enabling operation on affordable ARM64 boards, promoting decentralization and inclusivity."
+      "title": "Massive Decentralization Impact",
+      "description": "Enables anyone to run Ethereum nodes on low-cost, low-power hardware, directly attacking centralization and making the network more resilient."
     },
     {
-      "title": "Clear Roadmap and Objectives",
-      "description": "The application outlines a detailed roadmap with specific objectives and impacts, such as Lido Community Staking Module deployment and DVT integration."
+      "title": "Hardware Diversity & Innovation",
+      "description": "First to run Geth on RISC-V and combine L1+L2 nodes on ARM64. Pioneering work that expands the hardware base for Ethereum, reducing single points of failure."
     },
     {
-      "title": "Pioneering Development",
-      "description": "The project demonstrates pioneering development by integrating Distributed Validator Technology (DVT) and supporting RISC-V architecture, enhancing Ethereum's infrastructure."
+      "title": "Open Source & Public Build",
+      "description": "Active public repo, documentation, and community channels. Building in public, empowering devs and users alike."
+    },
+    {
+      "title": "Roadmap Targets Systemic Change",
+      "description": "Focuses on root causes: high entry barriers, validator downtime, and hardware monoculture. Roadmap is ambitious and aligned with long-term Ethereum health."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Detailed Metrics",
-      "description": "The application lacks detailed metrics on current adoption rates and specific outcomes from previous rounds, which would provide a clearer picture of the project's impact."
+      "title": "Lack of Adoption Metrics",
+      "description": "No hard data on current node count, user adoption, or growth trajectory. Makes it hard to gauge real-world impact at scale."
     },
     {
-      "title": "Limited Focus on Privacy and Interoperability",
-      "description": "While the project addresses decentralization and accessibility, it could further emphasize advancements in privacy and interoperability to align more closely with the round's goals."
+      "title": "Unclear Fund Allocation",
+      "description": "Application doesn't specify how grant funds will be split (payroll, hardware, outreach, etc.), which is critical for transparency and trust."
+    },
+    {
+      "title": "Missing Open Source License & Governance Details",
+      "description": "No explicit mention of the project's open-source license or governance structure, which are key for long-term sustainability and community trust."
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed Metrics",
-      "description": "Include specific metrics on current adoption rates and outcomes from previous rounds to better demonstrate the project's impact and progress."
+      "title": "Provide Adoption Metrics",
+      "description": "Add concrete numbers: active nodes, unique users, growth over time, and geographic distribution if possible. Show us the scale!"
     },
     {
-      "title": "Emphasize Privacy and Interoperability",
-      "description": "Expand on how the project enhances privacy and interoperability within the Ethereum ecosystem to strengthen alignment with the round's goals."
+      "title": "Detail Fund Allocation",
+      "description": "Break down exactly how grant funds will be used (e.g., % to payroll, hardware, documentation, outreach). Transparency = trust."
+    },
+    {
+      "title": "Clarify Open Source License & Governance",
+      "description": "Explicitly state the open-source license (e.g., MIT, GPL) and describe any governance model or community contribution process."
     }
   ],
-  "score": 85
+  "score": 84
 }
