@@ -1,5 +1,263 @@
 {
   "id": "42161-867-0xf97688cfbe25a0db800f876787a2cdec20d48757862573278dfb6fa8b8a1c817",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x84adea8440ee438cd049c0b64dd55cfcc231323e67408753064d40df631efdab",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67eaa0a0bc9e5a7098e24ff8"
+        },
+        "uid": "0x45672226c69c1cd7876acb01286152d8c7fe917054c3395bcc0acbf7259cc82d",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x84adea8440ee438cd049c0b64dd55cfcc231323e67408753064d40df631efdab",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x29a70fa97bd0ec21ba9ff5e6a99f62eaa9516492",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743429786,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743429792,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# Trade with Minimal Collateral, Hedge Smart with Composable Leverage & AI-Driven Strategies\n\nVanna is a next-generation DeFAI prop trading protocol powered by Composable Leverage & Chain Abstraction, solving inefficient capital access, fragmented liquidity, broken user experience, and lack of hedging tools.\n\n### Lets Understand the Problems first\n\n- **High Collateral Requirements for Borrowers-** Unlike Traditional Proprietary Trading firms, Crypto Traders are getting limited access to efficient capital with max upto 80% LTV through onchain lending platforms. **70%** of traders globally **lack access** to capital\n- **Complex & Broken User Experience of DEXs** pose another challenge keeping CEX & and non-crypto traders away from entering into DeFi, resulting in wider spreads and lower volumes.\n- **Fragmented Liquidity** across multiple DEXs & chains forcing most of the traders stick to CEXs, making trading even harder for those inspired to take a chance on DEXs. Result? DEX trading volumes are less than 10% of CEX trading volumes even today\n- **90% of traders face liquidation due to Lack of Hedging Tools** in both CEXs and DEXs. Infact there are professional traders who only trade delta neutral strategies but without these risk management tools, forget about DeFi, they are reluctant and afraid to even consider trading in CEX crypto markets.\n\n### Here’s how Vanna tackles these challenges:\n\n- **Undercollateralized Borrowing:** Traders can borrow debt upto 900% LTV, unlocking extra liquidity using initial margin as collateral which will be deposited in margin account\n- **Composable Leverage:** Initial Margin & undercollateralised debt can be allocated flexibly across perpetuals, options, spot markets & yield farming protocols without the need to access multiple DEXs and DeFi protocols separately across multiple screens fixing the broken user experience\n- **Greeks Dashboard:** A real-time hedging tool for managing perpetuals and options with delta-neutral strategies, risk tracking, and position management further enhancing the user experience of professional traders\n- **Smart Position Routing:** Uses chain abstraction to aggregate liquidity across multiple chains and DEXs on Vanna’s front end and spreading the user trades across multiple DEXs and chains, eliminating fragmentation and improving execution.\n- **AI-Powered Automation:** Features curated agent vaults, community-driven strategies, and copy-trading agents, plus a no-code Co-Pilot for creating multi-agent portfolios —makes trading easier and smarter for retail and pro traders. This attracts more users, liquidity, and volume\n- **LST/LRT Utilization:** Enabling LSTs and LRTs as collateral to unlock additional liquidity which will attract LST & LRT owners to come on to our platform\n\n### Vanna operates as a dual-sided protocol, with Lending Protocol on one side and account abstraction based Margin Account on the other side\n\n**A) Liquidity Providers (LPs):**\n\n- Supply assets to isolated lending pools to earn yield\n- Earn Superior Yields than others due to:\n    1. **Higher utilization rate** caused by leveraged borrowing by traders resulting in **Higher Borrow APR**.\n    2. **Liquidation penalties** being more frequent as traders will be using funds for derivatives trading, which are **shared with LPs** as well.\n- **No impermanent loss,** as funds are isolated and not used outside the pools and cannot be withdrawn by the borrowers\n\n**B) Traders/Borrowers:**\n\n- Open Margin Accounts\n- Borrow assets to amplify their trading capital using initial margin as collateral\n- Initial Margin & Debt combined balances can be allocated across various markets (e.g., derivatives, spot trading, yield farming)\n- Pay borrowing fees and liquidation penalties, contributing to LP yields\n\nHere is our [Product Demo Video](https://www.youtube.com/watch?v=x3daMAoGRt0)\n\nAlso read our [User Docs](https://docs.vanna.finance/docs)\n\n### Current Status\n\n- Private alpha **live on Arbitrum, Base and Optimism chains**\n- MUX, Avantisfi, Perp, Uniswap protocols already integrated as perpetual & Spot DEXs\n- Ecosystem partnerships with GMX, MUX, Avantisfi, Perp, Derive, Premia, Ethena, Pendle, Berachain, Polygon, OKX Dex aggregator already done\n\n### Call to Action\n\n- Join our discord [server](https://discord.gg/MmK9rsWdzS)\n- Test the private Alpha on Arbitrum & share the feedback with us. For Access code, ping us on discord.\n- Sharing is Caring- Spread the word among your fellow degens & traders educating about this platform\n\n### Why this Matters\n\n- Everyday alots of Traders are losing alot of capital due to lack of hedging tools\n- Entire DeFi industry is struggling with fragmented liquidity\n- Either Retail Traders, Professional Traders or MMs, no one has access to efficient capital despite of capital abundance in the market",
+          "imageURL": "bafkreidbay6mbtmzjcuameiw6vmdhreoj4cixc72dhhz3mtlkbkwqep5ha",
+          "title": "Vanna Finance",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://vanna.finance"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/vannafinance"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/vannafinance"
+            }
+          ],
+          "slug": "vanna-finance",
+          "type": "project-details"
+        }
+      },
+      "recipient": "0x29a70fa97bd0ec21ba9ff5e6a99f62eaa9516492",
+      "createdAt": "2025-03-31T14:03:06.000Z",
+      "updatedAt": "2025-03-31T14:03:12.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67eaa0a0bc9e5a7098e24ff7"
+      },
+      "uid": "0xdbf3b9a1015105d1684cd492635dd7d5f1a4c52eeb69468873fdc3f98908754c",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x84adea8440ee438cd049c0b64dd55cfcc231323e67408753064d40df631efdab",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x29a70fa97bd0ec21ba9ff5e6a99f62eaa9516492",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-31T14:03:06.000Z",
+      "updatedAt": "2025-03-31T14:03:12.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "external": {
+        "gitcoin": [
+          "0xf97688cfbe25a0db800f876787a2cdec20d48757862573278dfb6fa8b8a1c817"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67eaa0a0bc9e5a7098e24ffa"
+        },
+        "uid": "0xc10cb61babff0ea313ed3eeefaeaf854e0e33b4e777c2b37b642ea0b056dd9dc",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xdbf3b9a1015105d1684cd492635dd7d5f1a4c52eeb69468873fdc3f98908754c",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x29a70fa97bd0ec21ba9ff5e6a99f62eaa9516492",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743429786,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743429792,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/82",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x29A70fA97bd0Ec21BA9ff5e6A99f62eAA9516492",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "op@vannafinance.xyz"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@vatsaleth"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/vannafinance/v1-core"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://discord.gg/MmK9rsWdzS"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "No"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "**Vanna is built on and for the open-source ecosystem.** By open-sourcing our core contracts, collaborating with permissionless protocols, and empowering developers with public toolkits, we strengthen DeFi’s foundational infrastructure. Below are specific ways we drive growth:\n\n1. **Bridging CeFi Users to DeFi**\n    \n    A unified frontend abstracts multi-chain complexity, offering CEX-like UX **while retaining non-custodial control via decentralised systems**—proving open protocols can rival centralized exchanges.\n    \n2. **Unlocking LST/LRT Liquidity**\n    \n    Borrowers use **onchain LSTs/LRTs** (e.g., stETH, ezETH) as collateral in our protocol, activating idle capital for leveraged trading and yield strategies across DeFi’s **permissionless markets**.\n    \n3. **Aggregating Cross-chain Liquidity**\n    \n    Our Smart Position Router splits large orders across DEXs/chains (Arbitrum, Base Optimism, etc.), **using chain abstraction** for best-price execution.\n    \n4. **Composable Leverage for DeFi Protocols**\n    \n    Traders reuse borrowed liquidity (upto 900% LTV) to trade perps (further upto 100x), leveraged options, and leveraged yield strategies further amplifying liquidity and trading volumes **on integrated protocols** like GMX,MUX (perps), Derive(Options), Uniswap(Spot), Pendle (yield), and Ethena (synthetics)—directly boosting their ecosystems.\n    \n5. **One-Click Strategies on Decentralised Derivatives**\n    \n    AI agentic vaults let users deploy delta-neutral and complex strategies **across derivatives, lending, and restaking protocols** across different chains without leaving the platform\n    \n6. **Developer Toolkits for Credit Innovation**\n    \n    **Open-source SDKs/APIs** let builders integrate our undercollateralized credit layer into any project, **extending DeFi’s composability**"
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "The dApp/App enables advanced crypto traders to execute **multi-instrument strategies** across **perpetuals (Perps), options, and spot markets**, catering to diverse market conditions (bull, bear, or sideways). Key use cases include:\n\n- **Trading Perps & Options**: Synthetic hedged positions (e.g., long Perps + protective puts), Gamma Scalping (dynamic hedging in volatile markets).\n- **Trading Perps & Spot**: Basis trading (profiting from price convergence) or leveraging spot exposure with Perps.\n- **Trading Options & Spot**: Covered calls for income or protective puts for downside hedging.\n- **Trading All Three**: Delta-neutral hedging, cross-market arbitrage, and complex spread strategies (e.g., Iron Condor).\n\n### **Example: Short Gamma Strategy (Delta-Neutral Hedging)**\n\nA **short gamma strategy** is ideal when traders expect **low volatility** or **sideways price action** in crypto (e.g., ETH consolidating after a rally). By selling options and dynamically hedging with Perps and spot, the strategy profits from **time decay** while minimizing directional risk.\n\n**Step-by-Step Execution**:\n\n1. Deposit $10,000 ETH as collateral.\n2. Borrow 40,000 USDC (5x leverage), totaling $50,000.\n3. Sell 3 ETH call options (Delta 0.3 each → total Delta 0.9).\n4. Hedge with 1 Delta ETH Perps (long).\n5. Sell 0.1 ETH spot to neutralize residual Delta.\n6. Monitor and rebalance using a **Greeks dashboard** until expiry.\n\nThis approach uniquely combines **automated hedging**, **cross-DEX execution**, and **real-time analytics**—features absent in most crypto platforms—to optimize risk-adjusted returns in stagnant markets."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "### Future Roadmap for Development\n\n- Smart Contract Audit(Q2 2025)\n- Integrate Hyperliquid, Premia, Derive, OKX DEX aggregator for deeper perps, options & spot markets\n- Integrate LSTs & LRTs as collaterals\n- Integrate Ethena, Pendle for Leveraged Yield farming\n- Launching Phase 1 of Vanna-Curated Agent Vaults with Standard Agents & Special Agents\n    - **Standard Agents**- Prebuilt AI driven strategies with single click deployment\n    - **Special Agents**- Configurable AI-driven strategies with multiple predefined parameters or instructions\n- Expand to BNB chain, Berachain & Polygon ecosystems\n- Building Smart Position Router by implementing Chain Abstraction\n\n### Funds Utilisation Breakdown\n\n- 50% of the funds will go to smart contract auditing as well as economic risk auditing\n- 20% of the funds will be dedicated to incentivising the users post launch\n- 30% of the funds will be used for implementing the future development roadmap"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "### **Arbitrum (42161)**\n\n- **vEtherContractAddress**: [0xA1f41ad5e26167db20c722835A6DB33889c49Cd7](https://arbiscan.io/address/0xA1f41ad5e26167db20c722835A6DB33889c49Cd7), 42161\n- **vUSDCContractAddress**: [0xE17258A56F0da671a028F2276Ddeaa5C1ccF3bdb](https://arbiscan.io/address/0xE17258A56F0da671a028F2276Ddeaa5C1ccF3bdb), 42161\n- **vUSDTContractAddress**: [0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef](https://arbiscan.io/address/0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef), 42161\n- **vWBTCContractAddress**: [0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68](https://arbiscan.io/address/0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68), 42161\n- **vDaiContractAddress**: [0xA7d9c98dEDb545A6e66F46BEE8faF8f90c3a5c6f](https://arbiscan.io/address/0xA7d9c98dEDb545A6e66F46BEE8faF8f90c3a5c6f), 42161\n- **accountManagerContractAddress**: [0x13da9e485D17c0F62f64F77aAbE7b6c048a2f33C](https://arbiscan.io/address/0x13da9e485D17c0F62f64F77aAbE7b6c048a2f33C), 42161\n- **registryContractAddress**: [0x6DCD57f3C7CBc465832213646BEEf5501f63a3C4](https://arbiscan.io/address/0x6DCD57f3C7CBc465832213646BEEf5501f63a3C4), 42161\n- **rateModelContractAddress**: [0xbfB65FA7cC024c3315c4Eb13891f41223906f364](https://arbiscan.io/address/0xbfB65FA7cC024c3315c4Eb13891f41223906f364), 42161\n- **riskEngineContractAddress**: [0x676fbE39A5a403b85474D155567e43D9b2b85922](https://arbiscan.io/address/0x676fbE39A5a403b85474D155567e43D9b2b85922), 42161\n- **multicallAddress**: [0xcA11bde05977b3631167028862bE2a173976CA11](https://arbiscan.io/address/0xcA11bde05977b3631167028862bE2a173976CA11), 42161\n\n---\n\n### **Base (8453)**\n\n- **vEtherContractAddress**: [0xA8A7Ae5C132524398FF29293C0bB00530d47cdA9](https://basescan.org/address/0xA8A7Ae5C132524398FF29293C0bB00530d47cdA9), 8453\n- **vUSDCContractAddress**: [0x22D4FB89834738714e6B4aDa414B900138148289](https://basescan.org/address/0x22D4FB89834738714e6B4aDa414B900138148289), 8453\n- **vUSDTContractAddress**: [0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef](https://basescan.org/address/0x615A1B9A30C0C0e3E2391c5b93210Ce96FD2F0ef), 8453\n- **vWBTCContractAddress**: [0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68](https://basescan.org/address/0x15Dd8d2d7034eb3d249189964Cb44a114D79cF68), 8453\n- **vDaiContractAddress**: [0x70351aF1d415bc1D7cE930415EB75aE226fC7651](https://basescan.org/address/0x70351aF1d415bc1D7cE930415EB75aE226fC7651), 8453\n- **accountManagerContractAddress**: [0x6F5303D7277B100443A3AfCec9886774d7214e00](https://basescan.org/address/0x6F5303D7277B100443A3AfCec9886774d7214e00), 8453\n- **registryContractAddress**: [0xDfd5D412A9FB58aE12d6b1AC20Df97D038c3E32b](https://basescan.org/address/0xDfd5D412A9FB58aE12d6b1AC20Df97D038c3E32b), 8453\n- **riskEngineContractAddress**: [0x29133317047183c48a3DF2022bD89B089Fc4F97a](https://basescan.org/address/0x29133317047183c48a3DF2022bD89B089Fc4F97a), 8453\n- **rateModelContractAddress**: [0xe190EA24860f8521f8a97f1E897677335C81a23B](https://basescan.org/address/0xe190EA24860f8521f8a97f1E897677335C81a23B), 8453\n- **multicallAddress**: [0xcA11bde05977b3631167028862bE2a173976CA11](https://basescan.org/address/0xcA11bde05977b3631167028862bE2a173976CA11), 8453\n\n---\n\n### **Optimism (10)**\n\n- **vEtherContractAddress**: [0xa66d23d6b0bF9283059E2a2938d67FEE9080659b](https://optimistic.etherscan.io/address/0xa66d23d6b0bF9283059E2a2938d67FEE9080659b), 10\n- **vUSDCContractAddress**: [0x010305302F7BFc12Ec2597Cef77AF2DE91a90Ee9](https://optimistic.etherscan.io/address/0x010305302F7BFc12Ec2597Cef77AF2DE91a90Ee9), 10\n- **vUSDTContractAddress**: [0x7e70816B257Be3AbC4f2acA8C7e42b7bde76AEC8](https://optimistic.etherscan.io/address/0x7e70816B257Be3AbC4f2acA8C7e42b7bde76AEC8), 10\n- **vWBTCContractAddress**: [0xf197f4ed8473cC4c589D06319e4ccB52fa86CFE2](https://optimistic.etherscan.io/address/0xf197f4ed8473cC4c589D06319e4ccB52fa86CFE2), 10\n- **vDaiContractAddress**: [0x278e5d039ba2E09FaD254b87787f852f31060118](https://optimistic.etherscan.io/address/0x278e5d039ba2E09FaD254b87787f852f31060118), 10\n- **accountManagerContractAddress**: [0x6A82847B5Dc8c3535eE370308D78D396228A0D3a](https://optimistic.etherscan.io/address/0x6A82847B5Dc8c3535eE370308D78D396228A0D3a), 10\n- **registryContractAddress**: [0xFd4568C1d084e281BEAa0d55BB5CFc7Cd91B39a4](https://optimistic.etherscan.io/address/0xFd4568C1d084e281BEAa0d55BB5CFc7Cd91B39a4), 10\n- **riskEngineContractAddress**: [0x6E7EA2E46e72ff84CeFfc5e11fB9c6e97B01c617](https://optimistic.etherscan.io/address/0x6E7EA2E46e72ff84CeFfc5e11fB9c6e97B01c617), 10\n- **rateModelContractAddress**: [0x687a9656ba10Ca157dDA7c55D64bd64b3212ABce](https://optimistic.etherscan.io/address/0x687a9656ba10Ca157dDA7c55D64bd64b3212ABce), 10"
+            }
+          ],
+          "type": "grant-details"
+        }
+      },
+      "project": {
+        "_id": {
+          "$oid": "67eaa0a0bc9e5a7098e24ff6"
+        },
+        "uid": "0x84adea8440ee438cd049c0b64dd55cfcc231323e67408753064d40df631efdab",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x29a70fa97bd0ec21ba9ff5e6a99f62eaa9516492",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743429786,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743429792,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

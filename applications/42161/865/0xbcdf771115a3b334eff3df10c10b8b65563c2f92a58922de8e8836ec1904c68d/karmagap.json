@@ -1,5 +1,273 @@
 {
   "id": "42161-865-0xbcdf771115a3b334eff3df10c10b8b65563c2f92a58922de8e8836ec1904c68d",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0xfc58dbed4bf6d513c801a80a12ac55d0595f58562c7a1cfc784247f04fdd67b4",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67ec7d47afeb90604e19e4e1"
+        },
+        "uid": "0x7f40ffef152ef8a95044021821889f011fa8d310d231f6e255bf2bb38de14687",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xfc58dbed4bf6d513c801a80a12ac55d0595f58562c7a1cfc784247f04fdd67b4",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637735667160f1e692ada48d21d817e095062359",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551810,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551815,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# AIxScan - AI-Powered Cross-Chain Blockchain Explorer\n## Overview\nAIxScan is an advanced AI-powered blockchain transaction analyzer and cross-chain explorer. It provides deep insights into blockchain transactions, addresses, tokens, and NFTs by leveraging AI to interpret transaction data meaningfully. AIxScan enables users to understand what happens in a transaction beyond just technical details, providing an intuitive and human-like explanation.\n\n## Key Features\n- AI-Powered Transaction Analysis: Generates detailed and intuitive explanations for transaction activity.\n- Cross-Chain Support: Works across multiple blockchain networks to analyze transactions.\n- Comprehensive Transaction Breakdown: Provides insights into transfers, swaps, contract interactions, and costs.\n- Security Risk Assessment: Analyzes contract verifications and potential security risks.\n- Address & Token Analysis: Supports wallet address analytics and token metadata retrieval.\n- Efficient Gas Cost Analysis: Evaluates gas efficiency and transaction costs.",
+          "imageURL": "bafkreidff6xwtvn4ijuypksa73ftdrhtddy6v2a2qdnuseteyr77acdwze",
+          "title": "AIxScan",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://aixscan.256labs.xyz"
+            },
+            {
+              "type": "twitter",
+              "url": null
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/Lab-256"
+            }
+          ],
+          "slug": "aixscan",
+          "type": "project-details"
+        }
+      },
+      "recipient": "0x637735667160f1e692ada48d21d817e095062359",
+      "createdAt": "2025-04-01T23:56:50.000Z",
+      "updatedAt": "2025-04-01T23:56:55.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ec7d47afeb90604e19e4e0"
+      },
+      "uid": "0x174855de13ec579a6a02ee0ace5b85337b1082dd051b74ef5e8cdbf32703d89e",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xfc58dbed4bf6d513c801a80a12ac55d0595f58562c7a1cfc784247f04fdd67b4",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x637735667160f1e692ada48d21d817e095062359",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-01T23:56:50.000Z",
+      "updatedAt": "2025-04-01T23:56:55.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "external": {
+        "gitcoin": [
+          "0xbcdf771115a3b334eff3df10c10b8b65563c2f92a58922de8e8836ec1904c68d"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ec7d47afeb90604e19e4e3"
+        },
+        "uid": "0xb47564f04cfb17cf7604899c106d6b4aaeb23b0924d8862e94909bc87df61e7c",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x174855de13ec579a6a02ee0ace5b85337b1082dd051b74ef5e8cdbf32703d89e",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637735667160f1e692ada48d21d817e095062359",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551810,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551815,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/865/55",
+          "title": "GG23 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0x637735667160f1e692AdA48D21D817E095062359",
+          "programId": "865_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "mbcse50@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "coderguymb"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project Github Repo",
+              "explanation": "https://github.com/mbcse/AIxScan"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "AIxScan makes a significant contribution to the Ethereum network's infrastructure by improving transaction transparency, security, and cost-efficiency. As a blockchain explorer, it provides human-readable, AI-powered explanations for Ethereum transactions, helping users understand complex activities like contract interactions, token transfers, and swaps. This feature enhances transparency, enabling both developers and users to make informed decisions and fostering trust in Ethereum-based applications. AIxScan also supports cross-chain analysis, allowing Ethereum users to track transactions across multiple blockchains, which strengthens Ethereum's role in a multi-chain ecosystem. Additionally, it evaluates smart contracts for potential risks, helping users avoid vulnerabilities or scams, thereby enhancing security. Lastly, AIxScan’s gas cost analysis helps users optimize transaction fees, making Ethereum transactions more cost-effective and accessible."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "AIxScan introduces pioneering developments in interoperability and user experience, setting it apart from traditional blockchain explorers and ushering in a new era of AI-powered blockchain exploration. By leveraging AI, AIxScan provides intuitive, human-readable explanations of complex blockchain transactions, making it accessible to both beginners and experienced users. Its cross-chain support enables users to explore Ethereum transactions alongside those from other blockchains like Polygon and Binance Smart Chain, offering a unified view of multi-chain activities, which is especially useful for DeFi, NFTs, and token swaps. With these innovations, AIxScan not only broadens cross-chain interoperability but also revolutionizes the way users interact with blockchain data, marking the beginning of a new era for blockchain explorers"
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "AIxScan addresses key challenges in the Ethereum ecosystem by improving transaction understanding and cross-chain interoperability. One major issue in the Ethereum ecosystem is the complexity of transaction data. Traditional blockchain explorers often provide raw, technical data that is difficult for non-technical users to interpret. AIxScan solves this by leveraging AI to generate human-readable, intuitive explanations for Ethereum transactions, making it easier for users, whether developers or beginners, to understand contract interactions, token movements, and associated risks. Another challenge is the lack of cross-chain interoperability. Many blockchain explorers are limited to a single network, but AIxScan enables users to track Ethereum transactions alongside those from other blockchains like Polygon and Binance Smart Chain. This cross-chain support offers a unified interface for exploring multi-chain activities, making it especially valuable for users involved in DeFi, NFTs, or token swaps. By addressing these challenges, AIxScan enhances user experience and provides deeper insights into blockchain transactions compared to traditional explorers"
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "We will use the grant funds primarily to support LLM calls, which are essential for processing and interpreting blockchain transaction data efficiently. Following this, we will focus on optimizing the platform, improving the UI, and packaging AIxScan into a ready-to-use explorer for a seamless user experience. Additionally, we are building an API and SDK to allow other apps to integrate with AIxScan’s capabilities. Funds will also be allocated to cover infrastructure costs, ensuring that the platform scales effectively and remains cost-efficient as usage grows"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "AIxScan contributes to the decentralization and security of the Ethereum network by promoting transparency and trust through human-readable transaction insights. Its cross-chain support enhances interoperability, fostering a more connected decentralized ecosystem. The platform's security risk assessments help users identify and avoid unsafe smart contracts, adding an extra layer of protection. Additionally, AIxScan's API and SDK enable developers to integrate secure transaction analysis into their dApps, supporting the development of more secure and decentralized applications on Ethereum."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "-"
+            }
+          ],
+          "type": "grant-details"
+        }
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ec7d47afeb90604e19e4df"
+        },
+        "uid": "0xfc58dbed4bf6d513c801a80a12ac55d0595f58562c7a1cfc784247f04fdd67b4",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637735667160f1e692ada48d21d817e095062359",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551810,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551815,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDw8NDQ8NDQ0NDQ0ODg0QDQ8PDg0OFREWFxUXFRUYHSgsGBomHRUVITMhJiorLi4uFx8zODMsNygtLisBCgoKDg0OGBAPGisdIB0tKy0tLS0rLSsrLSstLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tKys3LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIHBAUGAwj/xABJEAACAgEBBAcCBg0MAwEAAAAAAQIDBBEFBhIhBxMxQVFhcSKBFDJCVJGhFhcjNVJicnSTlLHB0iQzNFOCkqKztMLR8GOy4RX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQMEAgX/xAAjEQEAAgICAgIDAQEAAAAAAAAAAQIDESExBBITMkFhkVEi/9oADAMBAAIRAxEAPwDgtA0GM2PGR0DQkAEdA0JCAjoA2AER6DABaBoMYEdCLRMTA8miJ6Mg0EojAegCJIEiQAkPQEMBaCGxAAh6gAg0GDAWgAAHsNCGEAYAAhMbEwEAwAQDABDAAEJkhMCDRFomyLCUdB6AMAAAAYgAABgACGIAgwEASAAAh7jAAAAABMTGxMAAAAAA2m69cZ5+HGSUoyyqE0+x+2gmI3OmfTuLtadPXxxnwuPEq3OCukvKDf1dpzsotNpppptNNaNNPRprxPpplC9IUIx2rmqKSXWVS0XjKmuTfvbb95XS/tLRmwxSImGhopnZKNdcZTsnJRhCK1lKT7Ekb7aO5O1Mel5FuP8Ac4rinwWQnOuPe5RT7PTUz+ieEZbTjqk+DGvlH8WXsx1+iT+kuvRPk+afJrxRF76nRhwReszL5hZFnvmQUbLYxWkY22RivCKk0kY7LWcBqLUNQHqGpHUYDAQASAQAAAJgGoaiAB6gRGBlAABAEDYgGIAAAAAA226X3wwvzun/ANjUm43OrlLaOEopyayapaJNtJPVv0S7yJ6dV+0PoMorf6iyzbGZCqE7ZudHsVwlOf8AR6u6JeolCKbkklKWmskkm/V95mpb1ellx/JGlXdGe7G0MfM+FZOPKin4PbBSnKCk5ScNFwJ69z5tFpAQsuhHlOUYP8aSj+0WtNp2nHSKV0qfO6K86Vlk4ZGI4zssnHidsZaOTa1Si+fPxNLndHO2KlrGiF67+pvg2v7MuFv3Jl4131yekZwk/CM4t/Uemh18llc+NSenzHm4V9EuDIqton+DZXKDfpqufuPA+ncvEqug67667q5LRwshGcX7mcDvJ0W49mtmz5fBrO3qJtyol6Pm4fWvJHcZIntRfxrR1yqADM2pszIxbHRk1Tptjz4ZLlJeMX2SXmjE0LWaY12QD0DQADUNAANRAIAABAMBDAyxMBBAEJgAxiGAAPQ9sTFsushTVFzttnGEILtlJvRenqBkbD2NkZt0cfHjrN85SfxK4d8pPuReO6+7GNs6vhqXHdJLrciSXWWeX4sfCK+vtDdHd2rZ2Oqo6SunpLIt0/nLNO78Vdy/5Zss3PppdatnGDvtjTVF9tlkuxJfvM97zbiHo4cMUjdu2ScBvp0gzw77MPFpjK6rg47rW3CLlCMlwwXxuUlzbXPuZ35RHSL99s38uj/T1DHETPKfIvNa8MPaW9W0snXrsu7R/Irl1UEvDhhp9ZpprXt9rzfMkI0ah50zM9oqOnNcvTkbTZ+8W0MbTqMvIgl2QdjnXp+RLVfUa0NBoiZjpY2wulWxNQ2hTGcezr6FwzS/Grb0l7mvQsrZe08fKrV2NbC6t8uKL5xfhJdsX5M+bWjN2NtfJwrVfi2OufJSXbCyP4M4/KX/AFaFdscT004/JtHFuV/bf2FjZ9LoyYcS5uFi5WVS/ChLuf1MovevdrI2bd1Vvt1z1dF6WkbYr9kly1X7UXPuhvTRtKrigurvrS6/Hb1cH4xfyovuZn7f2PRnY88W9awnzjJfGqsXxZR81r79Wu8rraazqV+THXJXde3zcMzdt7Kuw8izFvWllUvjLXhsg+cZR8mv+O4wTRDz5iY4k9BaDQ9AIaCaPTQTQHmIm0RaAQwADJExiYQQIBoBokkJEgAs7ok2CtJ7StjzblVjarsS5WTXv1j7peJWuPTKycKoc52zhXBeM5SUV9bR9F7MwYY1FWPXyhTXGteei5v3vV+8ryTqNNPjU3bc/hPMyq6a53WyUK6oSnOT7opaspWe8k8za2Nl3t1015VKrg37NFXGvr72/wByOn6XttNRq2fW/jpX36P5KelcX71J/wBlFYEY68bdeRl/61H4fTBQu/8AbGe1MyUGpR62uOq7OKFMIyXucWvceNW9e04VfB4Zl8alHhUdY8Sjppop6cSXozTMmlPVzmzxeIiIIDpd1ty8vaH3RfcMbXTr5xft+PVx+V68l5lg4PRlsyCSt+EZMu+UrXWvcq9NPrJm8Q4pgvbpTOgF05XRpsqaahG+h90oXzlp7rOI4fefo9zMRO2jXMoXbwQfXVr8aC11XnHX0Qi8SXwXrDjWTxsWy2caqYTtsm9I1wi5SfuR1G7O4ebmtTsjLExtedlkGrJrv4IPm/V6L1Lb3f3dw8CHBjV8Mmvbtl7Vtn5UvDyWi8hbJEJx4LX5niHK9H24t2Fas3Kmle65wjjwalGClprxy73y7Fy82d+Kc1FayaSXezjd/wDeHKoxJWYLjDScY2WuPFOEJctYJ8k9eFc13lOrXlqm+PDGploempY2mK9Y/DFKUXFNcXwbhb9ry4tNPWRVyZK+2c5SsslKyyb1nOUnKc34tvtIGisajTFkv722nqNM80ySZLhMCKY9QBoi0S1EBHQCQAeogAIA0IaAkhiQwOm6OMPrtp4+vxaetvl/Zg+H/E4/QXkVF0PQTzb5afFw5aPwbtr/APpbV1nDGU+3gjKWnotSjL9noeNGqbUFvhnvIz8q3XVddKuHlCv2Fp/d195pw4tefjz+kC/8MEzudhnSbh7uf/oZWlmvwahKy/Tlx8/Zgn5tc/JM5ply9EuJGGzut09rJyLZt+UH1aXp7L+lnF51C3BT2vqXZV1xjFQglGMUoxiloopdiSNDtzfPZ2FN1XWudy+NVVHrJw/K7ovmuTeob+bYnhYFt1T0um401S/AnPlxe5Jv1SKGk2222222229W2+1t95VSntzLVmz+nFV5bJ392XkzVStlTZJpRV8OrU23okpc1rzXLU6c+ZWXP0WbasysOVVzc7MSxVqcnrKdUlrDV+K5x9Eib49RuEYc83n1s7M5XenfrDweKqDWTlLl1MJLhrf/AJJ/J9O02G+jsWzc2VU5VzjjWTUovhklFay0fdyTPn1DHSJ5lOfNNOIWbuhvVk51t8MuUXJKNtUYR4YQhrwyUVz5auPa2+b5nQ7SxVfTbRLstqnD0bXJ/Toystw7uHPqX9ZG2t/3HL/aWsaa9PEzzPvtQc4tNp8mm014NdpBmftutRysmK5KOVkJLwSsloYDOWuOgNCAJSTGRHqBICOowGAgAnqBEaAkiSIokghJDEAHe9Dsv5bkLxw39Vtf/JbGRByhOK7ZQlFerTRSnRllqralCfZfC6lvwbg5R+uCXvLvRnyfZ6HjTumnzOlpy8OXvA2m9GD8GzsqjTRQvm4ru4Jvjjp7pI1ZojpgmNTomXR0UZMZ7MjBNa0X31yXg5S6xfVMpdnX9Gu8ccLJdN0uHHy+GMpPsqtXxJPyevC35p9iOLxuFuC8VvysPpI2ZZk7OtVScrKZQvUEm3NQ14kku18Lb08UUWmfTZxm3ujjBypyuqlPEsm3KarSlVNvtfA+x+jXa+RXjvEcS058E3n2qpcuDoh2bOrEtyJpr4XanWn2uqC0Uve3L3JPvDZXRfhVTU8i23LUXqqmlXU3r8pLnL0108TuoxSSSSSSSSS0SS7EkTe8TGoRgwTWfazSb828GzM56a64tkOxv464f39p8/H05KKaaaTTTTTWqa70zgd6ejWi/iuwHHGuerdL1+D2Py0/m36cvIjHaI4lPkYrW5hwO4lbltChr5Ctm/Tq5L/cWwcRuHsHIx78ieVVOmyuEaYxmlz4nxScWuUl7Mea5c2djmZEaq7Lpco1Vzm/SKbNMdPEz/fSl9uy1y8p9qeVkaPxXWS0Neydk3JuT7ZNyfq3qzzOWyOgAAEgYgAYxAA9QEAE0NCJIBokJEkEGAhge2HlSptrvh8em2u2Pm4yT0+o+jcLKhdVXfW067q4WQfjGS1R81lrdEe3lOqez7Je3RxWUav41Lesor8mT19JeRVkjcbavGvq2v8AWJ0v7GalTtCC9lpY9/k1q65P11kvdErY+j9p4FWTTZj3Liqug4SXevBrwafNehQG3tj3YN88a7nKPOE0tI21v4s15Pw7nqu4nHbcaPJx6n2j8teyLRIRYyu13R6Qr8SMaMuMsnGjooSTXX0x8E38ePk+fn3Fh4O/Gybkmsuqt/g3a0yX9/QoYicTjiV9PIvWNdr+y989k1Jylm489O6qXXSfooanDbz9J1lidWzYyoi+3JsjF2tfiQeqj6vV+hXQmRGOITbyb2jXTv8AdjpMyKWq9oa5NTa+7xUVfX6paKa+h+pamzNpY+VWrsa2F1b5cUXro/CS7YvyfM+a2ZmyNr5WHZ12LbKqfZLTnGa8JRfKSFscT0nH5E14tzD6PupjNaSWq+tehw/SNs7LWFOOLXO6M5R67g52QpXN+z2y5pJ6d2p77l7/AFOfKONfDqMxp8KWrpv0Wr4G/ivRN8L8HzZ2iK4tak6X3w482rPlvUDZbzQUc7NjFJRjm5SSXJJdbLkjWmhhnsAABAAAABiABgIYHoiSEhoIMkIAGAAAMyNm51uNdXkUy4baZqcX3eafimtU14Mx2IETp9D7t7cpz8eORVyb9m2rVOVNi7Yv9qfemjw3r3ao2jT1dnsXQ1dF6Wsq5PtTXfF8tV5eRS27W379n39fTzUko21N6Qugn2Pwa56Pu+kvHYG3cbPpV2PLXsVlb0VlMvwZr9/Y+4z2rNZ3D0MWSuWvrbtRO2tj5GFa6MmHBNc4yXOFkfwoPvX/AFmAz6M2tsrGy63TlVRtr7VrylCWmnFGS5xfmis9v9GORW3PAmsivm1TZKMLl5KXZL36FlckT2oyePav15V6yJl7Q2fkY7ccim2hr+srlFP0b5P3GIWM+tANAQ0EI6CaPTQTQHQdHP32wvy7v9PYX2UL0dffbC/Lv/09hfRRl7b/ABPrL5v3p/p+d+fZX+bI1Ztd6V/L8789yv8ANkaoujpinuSAAJQYCABgAAAAAHshoSGghIBDAYCHqACAAAzdlbTyMWxXY1kqrI8uJdkl4ST5SXkzCGgmJ10t7dzpJxrlGvOSxbuS61avHm/Xth7+XmdzVbGcVOEozhJaxnGSlGS8mu0+ajM2btfLxXxYt9tD71CXsP1i+T96KrYv8aaeVMcW5fRc4KS0klJeDSa+g1eRuzs2x6zwsST8eorX7EVjgdKO0a9FdXjZEfFwlVY/fF6f4Tb19LUdFx4L173HKWnuTgceloX/AD457dj9iGyfmOL+iQfYhsn5ji/okcj9tmr5lZ+sR/hJfbYq+ZWfrEf4R63Pkw/r+Os+xHZXzHF/RIPsQ2T8xxf0SOT+2vV8ys/WI/wh9ter5lZ+sR/hHrc+TD+v47TA3fwMefW4+Lj02JOKnCtKST7dGbMrh9LFXzKz9Yj/AAkJ9LUNHw4M+LTlrkx4dfPSBHpaUxmxx1KvN6f6fnfnuV/myNS0Zefkyuttvnpx3W2Wz07OKcnJ6eXMxmaYefM7lAQ2JhAAAAAAAAYgA90MQwgwAAGAAACGxMAJIiNASBgJgJgAwBEkCGgGJgxAJkWSYgIMgz0ZBgebETaIMJIAAAAAAAAAPcZFDAYCGEGNEUSAGJjYgAABASAQAA0IkgGhggAGRbGyLABAACESEBBog0erRBoJebESaEBEBiAYCAD3DUQAPUZEYEhoihhCQmAAIAAA1GIEBNEkQRMAABMBMQMAAQAADEAAyLRIQEGiDR6Mi0EoCJNCAiMAA9QYAAhgAEkNAAQYmMAEIAABoAAkiaAAATAAIsAABMAAAAAAQAACEwAJRZBjABAAAf/Z",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

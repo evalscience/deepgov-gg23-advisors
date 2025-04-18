@@ -1,5 +1,267 @@
 {
   "id": "42161-867-0xe573019b9f23a496663f5944a83c8acdc99792bfc5f5ad603ee8f6cb0f46f9fe",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x80f88ed5a3644f94b95616b83c14fb6e7ab2e00e9642c50c474e8fcc7746f338",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67e867869cb9f2d20939a0b8"
+        },
+        "uid": "0x863adedc9b5a263f72d2cb6959ec1b3300686c675727ebeaeefb7504a77a848e",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x80f88ed5a3644f94b95616b83c14fb6e7ab2e00e9642c50c474e8fcc7746f338",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x00627e45624c979a8ebc8c8a77f81c7b64c6867f",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284096,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284102,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# A Next Gen Multichain Launchpad on EVM\nGateway to onboard Users & Projects in web3 space\n\nCurrent Frontend Update: https://trading-marketplace-frontend.vercel.app/  ( Work in Progress )\n\nhttps://hydrapad.com\nhello@hydrapad.com\n\n# Project Overview\nHydra Launchpad is a open sourced project, integrated with top tier security features with Bonded Curve Presale Contract with live trading for users & investors. A Bonded Curve Presale Launchpad differs from a Normal Presale Launchpad primarily in how the token price behaves during the presale and the mechanics of token distribution. While both types of launchpads help raise funds for blockchain projects by allowing early investors to buy tokens before they are listed publicly, their key difference lies in the pricing model, investors benefits and incentive structure. Our platform addresses key pain points in blockchain fundraising for startups, investors, and developers.\n\n# Product Scope\n- Presale Launchpad: A simple and intuitive interface for startups to create, manage, and customize presales for their tokens, enabling projects to raise funds in a decentralized manner while ensuring transparency and fairness.\n\n- Bonded Curve Mechanism: The bonded curve will ensure a fair pricing structure during token presales. The curve dynamically adjusts the price based on the quantity of tokens sold, incentivizing early participation while maintaining price stability and reducing manipulation.\n\n- Live Token Trading: Investors can trade presale tokens in real-time, allowing for instant liquidity during the presale phase, providing a market-driven approach that benefits both the startup and the investor.\n\n- Security and Transparency: Hydrapad ensures transparency through decentralized smart contracts that govern token sales, reducing risks of fraud and increasing user trust. All transactions are verifiable and auditable on the blockchain.\n\n- Token Creation: Startups can easily create custom tokens for their projects directly through the Hydrapad platform. This feature enables the creation of tokens with predefined tokenomics, facilitating the setup of presales in a seamless and user-friendly manner.\n\n- Token Locking: Projects and investors can lock tokens for a defined period, enhancing trust and preventing early sell-offs. Token locking can be applied to both presale funds and tokens issued during the presale phase, ensuring long-term commitment from the project team and investors.\n\n- Portfolio Management for Users: Users can manage and track their investments and token holdings in a comprehensive portfolio dashboard. This feature will provide real-time updates on presale participation, token performance, and overall portfolio value, making it easier for users to monitor their assets.\n\n- Airdrops: Hydrapad allows users to easily conduct token airdrops as part of their marketing and community-building strategies. This feature allows projects to distribute tokens to a targeted group of users, helping to build momentum and reward loyal supporters.\n\n- Secure Liquidity Management: Hydrapad incorporates secure liquidity management tools, enabling projects to provide liquidity pools for their tokens and ensuring that tokens are readily available for trading. This feature also allows projects to manage the liquidity of presale funds in a secure, transparent manner, ensuring proper token flow and liquidity during the presale phase.\n\n# Problem Statement\nMany startups face challenges when raising initial capital, especially in decentralized ecosystems where token presales can be manipulated by large investors or whales. Traditional presale methods suffer from inefficiencies, such as front-running and unequal access to token allocations. Moreover, investors are often uncertain about the token pricing mechanisms and their long-term value.\n\n- Liquidity Issues:\nTraditional presales often lack liquidity, as tokens are locked until later stages. Our platform allows live trading of presale tokens, providing liquidity and flexibility to investors.\n\n- Volatile Pricing:\nPresale token prices can be unpredictable and manipulated. We solve this with a bonded curve pricing model that gradually adjusts token prices based on supply and demand, ensuring fairness and stability.\n\n- Fees/cost:\nEarly fundraising can be costly for startups building their own project. Our platform ensures low to No fees for presale creation and scalable transactions, making presales more accessible.\n\n- Lack of Transparency:\nMany investors face trust issues in presales. Our transparent bonded curve model ensures fair pricing, fostering trust among participants.\n\n# Solution & Benefits \n- Decentralized Capital Raising: \nThe Bonded Curve Presale contract is a trustless and decentralized way to raise funds. It eliminates the need for centralized authorities or intermediaries, empowering project creators to directly raise funds from their community. \n\n- Global Accessibility: \nAnyone with an internet connection can participate in these presales, providing global access to Web3 fundraising. This democratizes the ability for users to support and invest in projects regardless of geographic location.\n\n- Building Communities Around Projects: \nThe contract encourages community-driven participation, as early backers are rewarded with lower prices and a stronger stake in the project’s success. This builds an invested community around the project that has both financial and reputational incentives to see it succeed. \n\n- Integration with DeFi: \nThe contract integrates seamlessly with DeFi protocols like Uniswap and Balancer, which are foundational to the Web3 ecosystem. By creating liquidity pools post-presale, the project ensures that tokens have immediate utility and market value, fostering broader DeFi adoption. \n\n# Automatic Liquidity Pool Creation \n- Ensuring Liquidity: \nOne of the major challenges in DeFi projects is liquidity. The contract automatically wraps the ETH raised and pairs it with the presale token to create a liquidity pool on decentralized exchanges. This feature ensures that the token is tradable immediately after the presale ends, providing liquidity to the market and enabling price discovery. \n\n# Our Goals\nFrontend Design: https://hydrapad.com\n\nHydrapad aims to enhance the fundraising experience for Web3 startups by offering a bonded curve presale launchpad, allowing for decentralized fundraising, token issuance, and investor participation. This platform will be developed on a multi-chain architecture, leveraging the scalability, security, and low-cost features for key functionalities, including token issuance, transactions, and wallet management.\nAs part of our platform, users will be able to:\nParticipate in presales of emerging Web3 projects using a bonded curve mechanism.\nBuy, sell, and trade tokens live during the presale phase.\n\nEnjoy a transparent and secure process with smart contract integration for fundraising and project vetting.\n\nWe believe that low transaction fees and high-speed transaction processing are perfect for integrating with our platform to offer an optimal experience for both project creators and investors.\n\n# No Control Over Funds by the Creator (No Centralized Control)\n\n- Presale Funds Are Secure: \nIn a typical rug pull, the project creator retains control over the raised funds and may drain them at any time. In this contract, the funds raised (in ETH) are not directly controlled by the project creator; rather, they are securely handled by the contract itself. \n\n- Automatic Fees and Refunds: \nThe presale includes automated functions for fee collection, token distribution, and refunds. If the presale fails (e.g., fundraising target is not met), users can automatically reclaim their ETH in proportion to their contribution, preventing the project creator from absconding with the funds. \n\n# KPIs for Impact Estimation:\nWe believe that our Dapp integration will bring measurable value to both our platform and your ecosystem. Key performance indicators (KPIs) to estimate the impact include:\n\n- Transaction Volume: Volume-based metrics such as the Total Gross Transaction Volume (GTV) and send/receive transaction volume on the platform.\n\n- User Growth: We project to onboard 100,000 active users by the end of Year 1, including investors and project teams, driving adoption of presale transactions.\n\n- Liquidity and Trading Activity: We are expecting that new projects launch will lead to increased trading volume and liquidity within your ecosystem.\n\n# Development Roadmap\n- Phase 1 – Research & Design (Completed)\nFinalize the project architecture and design\nResearch bonding curve mechanisms and presale dynamics. Collaborate with ecosystem developers for integration strategies.\n\n- Phase 2 – Initial Platform integration (5 weeks)\nDevelop the functionalities of front-end user interface and backend infrastructure.\n\n- Phase 3 – Contract Development & Security Audits(5 weeks)\nDevelop the bonded curve mechanism into the presale contract\nFactory Contract development for Token Creation\nRegular Presale Contract\nLocking/Vesting Contract\nAirdrops Contract\nConduct initial tests with selected partners and projects\nBegin user testing of the presale and trading platform\n\n- Phase 4 – Beta Testing (4 weeks)\nLaunch beta platform for public use\nPerform extensive security and performance testing\n\n- Phase 5 – Mainnet Launch & Community Engagement (2 weeks)\nFinalize platform for mainnet launch\nFocus on user acquisition, education, and community building\nHost a series of AMAs and events to promote Hydrapad and educate the ecosystem about bonded curve presale models\n\n# Bonded Curve Math\nThe math behind the bonding curve is based on an integral of a line that starts from (0,0).\nThe line’s equation is l=a*s, where a is constant and s in the supply.\nTo determine the price someone needs to pay in order to change the supply from s1 to s2 we calculate the integral of l from s1 to s2.\n\nSo, P = (a/2) * (s1 + s2) * max(s2-s1, s1-s2)\n![Curve Architecture](https://i.ibb.co/pLsBWDY/image-1.webp)\n         Linear Curve\n\nThe Bonded Curve pricing mechanism is a great tool for launching tokens in a fair and transparent manner. The security features implemented in the smart contract—such as token locking, vesting schedules, anti-rugpull systems, and access control—ensure the integrity of the platform and protection for both investors and project teams.\n\nAs you expand the functionality of the platform, more complex bonding curve models (like logarithmic or more advanced exponential models) and additional security features (e.g., DAO governance, multi-signature wallets for liquidity management) can be incorporated for greater scalability and trust.\n\nOur bonded curve presale launchpad is designed to provide a secure, transparent, and user-friendly platform for blockchain projects and investors. By incorporating innovative features like bonded curve pricing, token locking and vesting, anti-rugpull systems, and decentralized identity verification, we aim to set new standards in the way presales and token launches are conducted. Our goal is to build a trustworthy ecosystem that fosters the growth of the Web3 space while ensuring investor protection and long-term success for projects.\n\nHydrapad aims to foster a more open, dynamic, and fair environment for both project creators and investors in the Web3 ecosystem. It offers decentralized fundraising with a transparent mechanism, flexible participation, and a fair exit strategy for participants, all of which enhance the overall adoption and growth of decentralized finance (DeFi) projects and web3 space.\n\nWe are confident that with our Community driven approach, Hydrapad can drive adoption and provide long-term value and sustainable DeFi ecosystems.\n\nPlease feel free to reach out with any questions or for additional documentation via email: hello@hydrapad.com\n",
+          "imageURL": "bafkreiep5ngnkfx2x7nlhxvghyb76nn6ypqswsxu2hl7iyep4klmycyi5q",
+          "title": "Hydrapad",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://hydrapad.com"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/Hydra_pad"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/Hydrafront"
+            }
+          ],
+          "slug": "hydrapad",
+          "type": "project-details"
+        },
+        "txid": "0x97d07f6f0cdbfcb34e69ed50738f4d32638730ab055d1eb5a37291dde0fc05bd"
+      },
+      "recipient": "0x00627e45624c979a8ebc8c8a77f81c7b64c6867f",
+      "createdAt": "2025-03-29T21:34:56.000Z",
+      "updatedAt": "2025-03-29T21:35:02.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67e867869cb9f2d20939a0b7"
+      },
+      "uid": "0x1f3ec158552b9df62cb4aa31f84e0cbb53a11526902813492c5cb7c3bbc73213",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x80f88ed5a3644f94b95616b83c14fb6e7ab2e00e9642c50c474e8fcc7746f338",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x00627e45624c979a8ebc8c8a77f81c7b64c6867f",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-29T21:34:56.000Z",
+      "updatedAt": "2025-03-29T21:35:02.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x97d07f6f0cdbfcb34e69ed50738f4d32638730ab055d1eb5a37291dde0fc05bd",
+      "external": {
+        "gitcoin": [
+          "0xe573019b9f23a496663f5944a83c8acdc99792bfc5f5ad603ee8f6cb0f46f9fe"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67e867879cb9f2d20939a0ba"
+        },
+        "uid": "0x947652dc7d58996724560e882ac586f4f150136b8364e4d1107566e4851a9ee8",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x1f3ec158552b9df62cb4aa31f84e0cbb53a11526902813492c5cb7c3bbc73213",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x00627e45624c979a8ebc8c8a77f81c7b64c6867f",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284096,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284103,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/50",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x00627E45624C979a8ebC8C8A77f81C7b64c6867f",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "hello@hydrapad.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@Lelouch4DAO"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/orgs/Hydrafront/repositories"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://discord.gg/GP3YuFmdNH"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "https://explorer.gitcoin.co/#/round/43114/17/17"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Our project enhances the OSS ecosystem by open-sourcing our bonded curve smart contracts and platform code, enabling developers to build, audit, and innovate. We integrate with OSS tools like OpenZeppelin and The Graph, while providing a transparent, decentralized launchpad for OSS startups to raise funds on Arbitrum. By fostering trustless collaboration and contributing to the Arbitrum OSS stack, we empower community-driven growth."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "Our dApp offers live token trading during presales via bonded curve mechanics, enabling real-time price discovery and liquidity. Key features include:  \n\n- **Bonded curve-based presales**: Automated, transparent pricing with built-in liquidity.  \n\n- **Arbitrum integration**: Low fees, scalability, and EVM compatibility.  \n\n- **OSS-first tooling**: Startups deploy using open-source templates, audit-friendly code, and analytics via The Graph.  \n\n**Differentiation**:  \n- **Live trading in presales**: Unlike static presales, users trade tokens instantly, creating dynamic markets.  \n\n- **Trustless infrastructure**: Fully open-sourced contracts and platform, reducing reliance on centralized launchpads.  \n\n- **OSS ecosystem focus**: Tailored for open-source projects, integrating Arbitrum’s stack and community-driven tooling.  \n\nWe solve fragmented liquidity, high costs, and opaque fundraising—uniquely merging decentralized trading with startup launches."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "**Development Plans:**  \n1. **Multi-chain expansion**: Build modular support for additional chains (starting with Arbitrum Nova) while prioritizing Arbitrum One as the core layer.  \n\n2. **Enhanced OSS tooling**: Launch a no-code dashboard for startups to deploy bonded curve presales using open-source templates.  \n\n3. **Governance & DAO**: Introduce decentralized governance for fee distribution, ecosystem grants, and protocol upgrades.  \n\n**Grant Fund Use:**  \n- **Audits**: Allocate 40% to security audits (e.g., Code4rena contests) for bonded curve contracts.  \n\n- **Developer Growth**: 30% to hire OSS contributors for frontend/backend, focusing on Arbitrum integration.  \n\n- **Community Bounties**: 20% for incentivizing OSS developers to build plugins (analytics, KYC-free pools). \n \n- **Infrastructure**: 10% to scale subgraphs/indexers for real-time presale data on Arbitrum.  \n\nBy focusing on security, scalability, and community-driven tooling, we’ll cement Arbitrum as the hub for decentralized, OSS-aligned fundraising."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "0x993461BBf7e553eb5BD1F5248A72B524C4a3B15D, 80002"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x97d07f6f0cdbfcb34e69ed50738f4d32638730ab055d1eb5a37291dde0fc05bd"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67e867869cb9f2d20939a0b6"
+        },
+        "uid": "0x80f88ed5a3644f94b95616b83c14fb6e7ab2e00e9642c50c474e8fcc7746f338",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x00627e45624c979a8ebc8c8a77f81c7b64c6867f",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284096,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284102,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x97d07f6f0cdbfcb34e69ed50738f4d32638730ab055d1eb5a37291dde0fc05bd",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDw8NDQ8NDQ0NDQ0ODg0QDQ8PDg0OFREWFxUXFRUYHSgsGBomHRUVITMhJiorLi4uFx8zODMsNygtLisBCgoKDg0OGBAPGisdIB0tKy0tLS0rLSsrLSstLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tKys3LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIHBAUGAwj/xABJEAACAgEBBAcCBg0MAwEAAAAAAQIDBBEFBhIhBxMxQVFhcSKBFDJCVJGhFhcjNVJicnSTlLHB0iQzNFOCkqKztMLR8GOy4RX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQMEAgX/xAAjEQEAAgICAgIDAQEAAAAAAAAAAQIDESExBBITMkFhkVEi/9oADAMBAAIRAxEAPwDgtA0GM2PGR0DQkAEdA0JCAjoA2AER6DABaBoMYEdCLRMTA8miJ6Mg0EojAegCJIEiQAkPQEMBaCGxAAh6gAg0GDAWgAAHsNCGEAYAAhMbEwEAwAQDABDAAEJkhMCDRFomyLCUdB6AMAAAAYgAABgACGIAgwEASAAAh7jAAAAABMTGxMAAAAAA2m69cZ5+HGSUoyyqE0+x+2gmI3OmfTuLtadPXxxnwuPEq3OCukvKDf1dpzsotNpppptNNaNNPRprxPpplC9IUIx2rmqKSXWVS0XjKmuTfvbb95XS/tLRmwxSImGhopnZKNdcZTsnJRhCK1lKT7Ekb7aO5O1Mel5FuP8Ac4rinwWQnOuPe5RT7PTUz+ieEZbTjqk+DGvlH8WXsx1+iT+kuvRPk+afJrxRF76nRhwReszL5hZFnvmQUbLYxWkY22RivCKk0kY7LWcBqLUNQHqGpHUYDAQASAQAAAJgGoaiAB6gRGBlAABAEDYgGIAAAAAA226X3wwvzun/ANjUm43OrlLaOEopyayapaJNtJPVv0S7yJ6dV+0PoMorf6iyzbGZCqE7ZudHsVwlOf8AR6u6JeolCKbkklKWmskkm/V95mpb1ellx/JGlXdGe7G0MfM+FZOPKin4PbBSnKCk5ScNFwJ69z5tFpAQsuhHlOUYP8aSj+0WtNp2nHSKV0qfO6K86Vlk4ZGI4zssnHidsZaOTa1Si+fPxNLndHO2KlrGiF67+pvg2v7MuFv3Jl4131yekZwk/CM4t/Uemh18llc+NSenzHm4V9EuDIqton+DZXKDfpqufuPA+ncvEqug67667q5LRwshGcX7mcDvJ0W49mtmz5fBrO3qJtyol6Pm4fWvJHcZIntRfxrR1yqADM2pszIxbHRk1Tptjz4ZLlJeMX2SXmjE0LWaY12QD0DQADUNAANRAIAABAMBDAyxMBBAEJgAxiGAAPQ9sTFsushTVFzttnGEILtlJvRenqBkbD2NkZt0cfHjrN85SfxK4d8pPuReO6+7GNs6vhqXHdJLrciSXWWeX4sfCK+vtDdHd2rZ2Oqo6SunpLIt0/nLNO78Vdy/5Zss3PppdatnGDvtjTVF9tlkuxJfvM97zbiHo4cMUjdu2ScBvp0gzw77MPFpjK6rg47rW3CLlCMlwwXxuUlzbXPuZ35RHSL99s38uj/T1DHETPKfIvNa8MPaW9W0snXrsu7R/Irl1UEvDhhp9ZpprXt9rzfMkI0ah50zM9oqOnNcvTkbTZ+8W0MbTqMvIgl2QdjnXp+RLVfUa0NBoiZjpY2wulWxNQ2hTGcezr6FwzS/Grb0l7mvQsrZe08fKrV2NbC6t8uKL5xfhJdsX5M+bWjN2NtfJwrVfi2OufJSXbCyP4M4/KX/AFaFdscT004/JtHFuV/bf2FjZ9LoyYcS5uFi5WVS/ChLuf1MovevdrI2bd1Vvt1z1dF6WkbYr9kly1X7UXPuhvTRtKrigurvrS6/Hb1cH4xfyovuZn7f2PRnY88W9awnzjJfGqsXxZR81r79Wu8rraazqV+THXJXde3zcMzdt7Kuw8izFvWllUvjLXhsg+cZR8mv+O4wTRDz5iY4k9BaDQ9AIaCaPTQTQHmIm0RaAQwADJExiYQQIBoBokkJEgAs7ok2CtJ7StjzblVjarsS5WTXv1j7peJWuPTKycKoc52zhXBeM5SUV9bR9F7MwYY1FWPXyhTXGteei5v3vV+8ryTqNNPjU3bc/hPMyq6a53WyUK6oSnOT7opaspWe8k8za2Nl3t1015VKrg37NFXGvr72/wByOn6XttNRq2fW/jpX36P5KelcX71J/wBlFYEY68bdeRl/61H4fTBQu/8AbGe1MyUGpR62uOq7OKFMIyXucWvceNW9e04VfB4Zl8alHhUdY8Sjppop6cSXozTMmlPVzmzxeIiIIDpd1ty8vaH3RfcMbXTr5xft+PVx+V68l5lg4PRlsyCSt+EZMu+UrXWvcq9NPrJm8Q4pgvbpTOgF05XRpsqaahG+h90oXzlp7rOI4fefo9zMRO2jXMoXbwQfXVr8aC11XnHX0Qi8SXwXrDjWTxsWy2caqYTtsm9I1wi5SfuR1G7O4ebmtTsjLExtedlkGrJrv4IPm/V6L1Lb3f3dw8CHBjV8Mmvbtl7Vtn5UvDyWi8hbJEJx4LX5niHK9H24t2Fas3Kmle65wjjwalGClprxy73y7Fy82d+Kc1FayaSXezjd/wDeHKoxJWYLjDScY2WuPFOEJctYJ8k9eFc13lOrXlqm+PDGploempY2mK9Y/DFKUXFNcXwbhb9ry4tNPWRVyZK+2c5SsslKyyb1nOUnKc34tvtIGisajTFkv722nqNM80ySZLhMCKY9QBoi0S1EBHQCQAeogAIA0IaAkhiQwOm6OMPrtp4+vxaetvl/Zg+H/E4/QXkVF0PQTzb5afFw5aPwbtr/APpbV1nDGU+3gjKWnotSjL9noeNGqbUFvhnvIz8q3XVddKuHlCv2Fp/d195pw4tefjz+kC/8MEzudhnSbh7uf/oZWlmvwahKy/Tlx8/Zgn5tc/JM5ply9EuJGGzut09rJyLZt+UH1aXp7L+lnF51C3BT2vqXZV1xjFQglGMUoxiloopdiSNDtzfPZ2FN1XWudy+NVVHrJw/K7ovmuTeob+bYnhYFt1T0um401S/AnPlxe5Jv1SKGk2222222229W2+1t95VSntzLVmz+nFV5bJ392XkzVStlTZJpRV8OrU23okpc1rzXLU6c+ZWXP0WbasysOVVzc7MSxVqcnrKdUlrDV+K5x9Eib49RuEYc83n1s7M5XenfrDweKqDWTlLl1MJLhrf/AJJ/J9O02G+jsWzc2VU5VzjjWTUovhklFay0fdyTPn1DHSJ5lOfNNOIWbuhvVk51t8MuUXJKNtUYR4YQhrwyUVz5auPa2+b5nQ7SxVfTbRLstqnD0bXJ/Toystw7uHPqX9ZG2t/3HL/aWsaa9PEzzPvtQc4tNp8mm014NdpBmftutRysmK5KOVkJLwSsloYDOWuOgNCAJSTGRHqBICOowGAgAnqBEaAkiSIokghJDEAHe9Dsv5bkLxw39Vtf/JbGRByhOK7ZQlFerTRSnRllqralCfZfC6lvwbg5R+uCXvLvRnyfZ6HjTumnzOlpy8OXvA2m9GD8GzsqjTRQvm4ru4Jvjjp7pI1ZojpgmNTomXR0UZMZ7MjBNa0X31yXg5S6xfVMpdnX9Gu8ccLJdN0uHHy+GMpPsqtXxJPyevC35p9iOLxuFuC8VvysPpI2ZZk7OtVScrKZQvUEm3NQ14kku18Lb08UUWmfTZxm3ujjBypyuqlPEsm3KarSlVNvtfA+x+jXa+RXjvEcS058E3n2qpcuDoh2bOrEtyJpr4XanWn2uqC0Uve3L3JPvDZXRfhVTU8i23LUXqqmlXU3r8pLnL0108TuoxSSSSSSSSS0SS7EkTe8TGoRgwTWfazSb828GzM56a64tkOxv464f39p8/H05KKaaaTTTTTWqa70zgd6ejWi/iuwHHGuerdL1+D2Py0/m36cvIjHaI4lPkYrW5hwO4lbltChr5Ctm/Tq5L/cWwcRuHsHIx78ieVVOmyuEaYxmlz4nxScWuUl7Mea5c2djmZEaq7Lpco1Vzm/SKbNMdPEz/fSl9uy1y8p9qeVkaPxXWS0Neydk3JuT7ZNyfq3qzzOWyOgAAEgYgAYxAA9QEAE0NCJIBokJEkEGAhge2HlSptrvh8em2u2Pm4yT0+o+jcLKhdVXfW067q4WQfjGS1R81lrdEe3lOqez7Je3RxWUav41Lesor8mT19JeRVkjcbavGvq2v8AWJ0v7GalTtCC9lpY9/k1q65P11kvdErY+j9p4FWTTZj3Liqug4SXevBrwafNehQG3tj3YN88a7nKPOE0tI21v4s15Pw7nqu4nHbcaPJx6n2j8teyLRIRYyu13R6Qr8SMaMuMsnGjooSTXX0x8E38ePk+fn3Fh4O/Gybkmsuqt/g3a0yX9/QoYicTjiV9PIvWNdr+y989k1Jylm489O6qXXSfooanDbz9J1lidWzYyoi+3JsjF2tfiQeqj6vV+hXQmRGOITbyb2jXTv8AdjpMyKWq9oa5NTa+7xUVfX6paKa+h+pamzNpY+VWrsa2F1b5cUXro/CS7YvyfM+a2ZmyNr5WHZ12LbKqfZLTnGa8JRfKSFscT0nH5E14tzD6PupjNaSWq+tehw/SNs7LWFOOLXO6M5R67g52QpXN+z2y5pJ6d2p77l7/AFOfKONfDqMxp8KWrpv0Wr4G/ivRN8L8HzZ2iK4tak6X3w482rPlvUDZbzQUc7NjFJRjm5SSXJJdbLkjWmhhnsAABAAAABiABgIYHoiSEhoIMkIAGAAAMyNm51uNdXkUy4baZqcX3eafimtU14Mx2IETp9D7t7cpz8eORVyb9m2rVOVNi7Yv9qfemjw3r3ao2jT1dnsXQ1dF6Wsq5PtTXfF8tV5eRS27W379n39fTzUko21N6Qugn2Pwa56Pu+kvHYG3cbPpV2PLXsVlb0VlMvwZr9/Y+4z2rNZ3D0MWSuWvrbtRO2tj5GFa6MmHBNc4yXOFkfwoPvX/AFmAz6M2tsrGy63TlVRtr7VrylCWmnFGS5xfmis9v9GORW3PAmsivm1TZKMLl5KXZL36FlckT2oyePav15V6yJl7Q2fkY7ccim2hr+srlFP0b5P3GIWM+tANAQ0EI6CaPTQTQHQdHP32wvy7v9PYX2UL0dffbC/Lv/09hfRRl7b/ABPrL5v3p/p+d+fZX+bI1Ztd6V/L8789yv8ANkaoujpinuSAAJQYCABgAAAAAHshoSGghIBDAYCHqACAAAzdlbTyMWxXY1kqrI8uJdkl4ST5SXkzCGgmJ10t7dzpJxrlGvOSxbuS61avHm/Xth7+XmdzVbGcVOEozhJaxnGSlGS8mu0+ajM2btfLxXxYt9tD71CXsP1i+T96KrYv8aaeVMcW5fRc4KS0klJeDSa+g1eRuzs2x6zwsST8eorX7EVjgdKO0a9FdXjZEfFwlVY/fF6f4Tb19LUdFx4L173HKWnuTgceloX/AD457dj9iGyfmOL+iQfYhsn5ji/okcj9tmr5lZ+sR/hJfbYq+ZWfrEf4R63Pkw/r+Os+xHZXzHF/RIPsQ2T8xxf0SOT+2vV8ys/WI/wh9ter5lZ+sR/hHrc+TD+v47TA3fwMefW4+Lj02JOKnCtKST7dGbMrh9LFXzKz9Yj/AAkJ9LUNHw4M+LTlrkx4dfPSBHpaUxmxx1KvN6f6fnfnuV/myNS0Zefkyuttvnpx3W2Wz07OKcnJ6eXMxmaYefM7lAQ2JhAAAAAAAAYgA90MQwgwAAGAAACGxMAJIiNASBgJgJgAwBEkCGgGJgxAJkWSYgIMgz0ZBgebETaIMJIAAAAAAAAAPcZFDAYCGEGNEUSAGJjYgAABASAQAA0IkgGhggAGRbGyLABAACESEBBog0erRBoJebESaEBEBiAYCAD3DUQAPUZEYEhoihhCQmAAIAAA1GIEBNEkQRMAABMBMQMAAQAADEAAyLRIQEGiDR6Mi0EoCJNCAiMAA9QYAAhgAEkNAAQYmMAEIAABoAAkiaAAATAAIsAABMAAAAAAQAACEwAJRZBjABAAAf/Z",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

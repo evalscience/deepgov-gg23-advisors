@@ -1,5 +1,479 @@
 {
   "id": "42161-865-0xfb5966e66536dceb70d9155ffa266855110a7001723c5887fb2fa9f4aeee5919",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67ecbbc46a54c05fcd3d1b2a"
+        },
+        "uid": "0xf7a35aa16503a905413ea15b5e8e9524519f85e133b3a5a7a910b2d6c400dfaa",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567807,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567812,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "We are building a crypto payment terminal for physical shops.\nTo provide the best payment experience to day (tap to pay), we take a step back and build an off-chain architecture. Inspired by chaumian ecash, our design allows for cheap and private transfer over simple HTTP calls. Any asset on any chain can now be used for daily payment.\nWe will be launching in 2 months in Argentina, and then onboard shops and business until Devconnect Buenos Aires in November.",
+          "title": "paynet",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://github.com/nutty-raccoon/paynet"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/tdelabro"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/nutty-raccoon"
+            }
+          ],
+          "slug": "paynet",
+          "type": "project-details"
+        },
+        "txid": "0x8fdcebd8e4ab897ddd2adcbc2b6d9e237851556ff19aea5a0351deab7a4e6fa2"
+      },
+      "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+      "createdAt": "2025-04-02T04:23:27.000Z",
+      "updatedAt": "2025-04-02T04:23:32.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ecbbc46a54c05fcd3d1b29"
+      },
+      "uid": "0x40943f7982bbcacc29e2e2082e7cf84d680411b369cf492066fe83f9c04ab5ac",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:23:27.000Z",
+      "updatedAt": "2025-04-02T04:23:32.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x8fdcebd8e4ab897ddd2adcbc2b6d9e237851556ff19aea5a0351deab7a4e6fa2",
+      "external": {
+        "gitcoin": [
+          "0xfb5966e66536dceb70d9155ffa266855110a7001723c5887fb2fa9f4aeee5919"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbbc46a54c05fcd3d1b2c"
+        },
+        "uid": "0x66ebdbcf19cda7cb730f3efe5a2399d522cadc944d57acbf99a53f763ae6bf84",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x40943f7982bbcacc29e2e2082e7cf84d680411b369cf492066fe83f9c04ab5ac",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567807,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567812,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/172",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x157018C40D7BCcf3A2683fbd7E9D9A2E9f60eF77",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "timothee.delabrouille@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "tdelabro"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/nutty-raccoon/paynet"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://t.me/+D32ToP1iP6o1OGM0"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "no"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "We are building this open-source project, working with contributors thanks to OnlyDust.\nThe core protocol can then be build upon by other teams."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "We enable tap-to-pay crypto payment in physical shops and locations.\n\nRight now, the only thing comparable are crypto cards. Which have to got through Visa in order to provide a good user experience. It is not crypto payment, as the shop doesn't receive crypto.\nWith out solution, it's crypto end to end "
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Timothée, [31 Mar 2025 at 10:34:15 (31 Mar 2025 at 10:39:15)]:\n...1. next couple of weeks\n- a bit of cleanup and bug fixing\n- deploy on sepolia and have people to try it out (community call, …)\n2. next couple month\n- develop the mobile apps\n- solidify the codebase by increasing code coverage (unit, integration, e2e scenario, mocked failing services)\n- add a few quality of life features on top of the core protocol (key recovery is one exemple)\n3. launch\n\n\nIf we respect this plan, we should be live on mainnet in Argentina in June. This will leave us with 5 month to build and expland business until Devconnect Buenos Aires, which is our catalyser event (lot of crypto native foreigner comming into town and in need to spend their money). Hopefully, if we have good metrics at devconnect we will be in a good position to raise a first round.\n\nThe funds will be used for development (core team + reward open source contributors), operational costs (running the servers and onboarding the shops). "
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "Nothing deployed so far. We started developement on Starknet (as it is the chain we are most familiar with), but are eager to onboard new chains and ecosystem."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x8fdcebd8e4ab897ddd2adcbc2b6d9e237851556ff19aea5a0351deab7a4e6fa2"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ecbbc46a54c05fcd3d1b28"
+        },
+        "uid": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567807,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567812,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x8fdcebd8e4ab897ddd2adcbc2b6d9e237851556ff19aea5a0351deab7a4e6fa2",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ee623138e5aedb69e8c54a"
+      },
+      "uid": "0x88f8fc1ba5525044f5c4dd2352c73ca827544a0e4bd3059b723a031f21154a3e",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-03T10:25:48.000Z",
+      "updatedAt": "2025-04-03T10:25:53.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "external": {
+        "gitcoin": [
+          "0xfb5966e66536dceb70d9155ffa266855110a7001723c5887fb2fa9f4aeee5919"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ee623138e5aedb69e8c54b"
+        },
+        "uid": "0xf84eac0deaad503304182f451ac2b842488be6df5ba93320aa9664f41f1b1d32",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x88f8fc1ba5525044f5c4dd2352c73ca827544a0e4bd3059b723a031f21154a3e",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743675948,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743675953,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/865/58",
+          "title": "GG23 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0x157018C40D7BCcf3A2683fbd7E9D9A2E9f60eF77",
+          "programId": "865_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "timothee.delabrouille@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "tdelabro"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project Github Repo",
+              "explanation": "https://github.com/nutty-raccoon/paynet"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://t.me/+D32ToP1iP6o1OGM0"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "no"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "It will allow any asset on any chain to be used as a private means of payment for in-person purchases. This unlocks a massive adoption by businesses."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "Privacy:\nour protocol is inspired by chaumian ecash, and guarantee privacy of all transactions\nInteroperability: \nour protocol, by being off-chain, act as an off-chain bridge between all supported chains\nUser experience:\nwe unlock tap to pay e2e payment in crypto, without having to go through Visa/mastercard crypto-card, like all of the existing solutions. We do crypto end-to-end. "
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "It addresses the issue of actually using your crypto assets to purchase actual goods and services.\nBridging the gap between the real economy and the blockchain assets.\n\nIt improves by:\n- being crypto e2e. The shop receive the crypto you spend, not some FIAT.\n- adding privacy. Nobody can follow your transactions, not even the service providers.\n- improving on UX. No qrcode, no transaction, no finality. Just tap to pay."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "At this point, we already build the proof of concept. We have the bare minimul to do the whole flow on a local testnet and with a CLI wallet.\n\nThe roadmap from there is:\n1. next couple of weeks\n- a bit of cleanup and bug fixing\n- deploy on sepolia and have people to try it out (community call, …)\n2. next couple month\n- develop the mobile apps\n- solidify the codebase by increasing code coverage (unit, integration, e2e scenario, mocked failing services)\n- add a few quality of life features on top of the core protocol (key recovery is one exemple)\n3. launch in Buenos Aire (around June)\n\nIf we respect this plan, we should be live on mainnet in Argentina in June. This will leave us with 5 month to build and expland business until Devconnect Buenos Aires, which is our catalyser event (lot of crypto native foreigner comming into town and in need to spend their money). Hopefully, if we have good metrics at devconnect we will be in a good position to raise a first round."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "The project is open-source and the protocol is designed so that anyone can run its own node. So we want to collaborate with different institution, companies and local communities that would run their own node, and therefore provide the service for themselves and their users.\nWe are building a network, not a centralized solution."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "Nothing deployed so far.\nWe started developement on Starknet (as it is the chain we are most familiar with), but are eager to onboard new chains and ecosystem."
+            }
+          ],
+          "type": "grant-details"
+        }
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ecbbc46a54c05fcd3d1b28"
+        },
+        "uid": "0xb76117de3128b88223a0a375192338a25b96043de4e736e68b253e28376db52b",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x157018c40d7bccf3a2683fbd7e9d9a2e9f60ef77",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567807,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567812,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x8fdcebd8e4ab897ddd2adcbc2b6d9e237851556ff19aea5a0351deab7a4e6fa2",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

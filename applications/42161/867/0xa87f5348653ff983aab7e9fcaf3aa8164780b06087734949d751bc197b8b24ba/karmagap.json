@@ -1,5 +1,892 @@
 {
   "id": "42161-867-0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67164e9621b4280cfc7e3004"
+        },
+        "uid": "0xac9424c892a58d7523537c669bc0565dd2ac7d491a07964094da154e8bba04ab",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+        "attester": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1729515177,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1729515158,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "title": "Zazelenimo",
+          "description": "Dapp used by cities to run quadratic funding campaigns in participatory budgeting programs.\n\nLeveraging Ethereum, it empowers citizens to directly participate in the allocation of funds for urban greenery projects, enhancing transparency and community engagement.\n\nOur goal is to help local governments harness Ethereum to improve civic participation and public goods funding, and onboard as many local organisations and citizens as possible.",
+          "problem": "Currently, majority of newly acquired users create their Ethereum account to keep their crypto assets safe or transfer funds internationally.\n\nIn order to reach next billion users and achieve it’s potential, Ethereum must find other ways of acquiring new users. Another imperative, as we are approaching the era of near instant and free transactions on Ethereum, is finding reliable ways of onboarding users with non-speculative motivation.\n\nEthereum has many other uses than banking. It powers marketplaces, democracies, businesses, social networks, and more, but in these other use-cases, it either didn’t reach product market fit yet, found an effective go-to-market strategy, or even tried targeting all the potential market segments.",
+          "solution": "One use-case which rose to popularity over the last few years is public goods funding. There are now Gitcoin, Giveth, Drips, Octant, DAO Drops, Retro PGF, CLR Fund and other projects with their own protocols and applications serving this use-case on Ethereum.\n \nThese are well known and used within Ethereum community evolved and battle-tested. Ethereum has also evolved a lot and reached maturity in many ways in the last few years, notably with cheap transactions on L2s, account abstraction and growth of stablecoins.\n\nThis is why, now is the perfect time to explore if governments can use Ethereum and its public goods funding tools too.\n\nThere is a good opportunity to do this now. I have nurtured good relationship with the administration and current government of City of Split, Croatia. City’s parks and other green spaces are managed by City-owned company called Parks company. Last year they have created a page on their website that allows citizens to donate and propose how the money should be spent for small interventions into green spaces. They would match each donation to complete the funding of each project. They called this project “Zazelenimo Split”, eng. let’s make Split greener.\n\nWe have partnered with them to turn this unique participatory budgeting program into a quadratic funding campaign on Ethereum using Gitcoin’s Allo protocol. They have agreed to implement the projects that receive funding, and match total donations with 3 times more funding.\n\nIf the first campaign proves successful, we believe the city will continue running campaigns multiple times per year. Also, we believe we will be able to get other cities to do it too. In each city, citizens that never had touched Ethereum, will get Ethereum account and use it to participate in these campaigns.",
+          "missionSummary": "We are onboarding new users on Ethereum, one city at a time.",
+          "locationOfImpact": "",
+          "imageURL": "",
+          "links": [
+            {
+              "type": "twitter",
+              "url": "muqaorg"
+            },
+            {
+              "type": "github",
+              "url": "muqa-org/demo"
+            },
+            {
+              "type": "discord",
+              "url": ""
+            },
+            {
+              "type": "website",
+              "url": "https://muqa.org"
+            },
+            {
+              "type": "linkedin",
+              "url": ""
+            }
+          ],
+          "slug": "zazelenimo",
+          "businessModel": "As an opensource public good, we are funded through grants.",
+          "stageIn": "MVP",
+          "raisedMoney": "40000",
+          "pathToTake": "Want to grow through just grant funding",
+          "type": "project-details"
+        },
+        "txid": "0x33df04ad545d2b7cd38fa2290fb756da2a66798514aaeda4e674977ed51dcca3",
+        "externalIds": []
+      },
+      "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+      "createdAt": "2024-10-21T12:52:57.000Z",
+      "updatedAt": "2024-10-21T12:52:38.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "6728a0fb5275374d2583f174"
+      },
+      "uid": "0x77d703994641378bff90dc91dd291b616bb4046cc47281c1603f75eda44b2050",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:24:55.000Z",
+      "updatedAt": "2024-11-04T10:24:59.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xe5e12ade302e429de5be99fcee1a37127e95549cefcb31a3493499bcbe6584b7",
+      "externalIds": [
+        "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a0fb5275374d2583f175"
+        },
+        "uid": "0x3ed932eae0efbf4965a703f278651d17f36e03ec9288880392c0b2ed219b0f08",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x77d703994641378bff90dc91dd291b616bb4046cc47281c1603f75eda44b2050",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730715895,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730715899,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/608/118",
+          "title": "GG22 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x48C9C3B838Ae70A1D1440211cB24fA3bb0594Bd7",
+          "programId": "608_42161",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "muqa-org/demo"
+            },
+            {
+              "type": "short-answer",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "https://explorer.gitcoin.co/#/contributors/0xeADe5F65F6413758b3b29b6EE4514f787AECe468"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Our project, Zazelenimo, actively contributes to the growth of the open-source software (OSS) ecosystem by both utilizing and expanding upon existing open-source technologies while also offering our own application as an open-source resource for others.\n\nIntegration and Enhancement of OSS Tools:\n\n\t•\tUtilizing Open-Source Technologies: We build our application exclusively using open-source software such as Cometh Connect, Allo Kit, Allo Protocol, and Gnosis Safe. By integrating these tools, we not only benefit from their capabilities but also contribute to their ecosystems by providing real-world use cases and feedback that can help improve these projects.\n\t•\tExpanding Ecosystem Functionality: Through our implementation, we often develop additional features or integrations that extend the functionality of these tools. For example, our work on passkey-based wallet creation and KYC-free onramp solutions enhances the usability of Cometh Connect and Gnosis Safe in user-centric applications.\n\nContribution to the OSS Community:\n\n\t•\tOpen-Sourcing Our Application: Zazelenimo is entirely open-source, and our codebase is publicly available for anyone to access, modify, and build upon. This transparency fosters innovation and allows other developers to learn from our solutions, adapt them for their own needs, or contribute improvements back to our project.\n\t•\tEncouraging Collaboration: By maintaining an open-source project, we invite collaboration from developers worldwide. This collaborative environment accelerates development, promotes knowledge sharing, and strengthens the overall quality of the software.\n\nEnhancing the OSS Ecosystem:\n\n\t•\tDemonstrating Practical Applications: Our platform serves as a real-world example of how open-source blockchain technologies can be applied to solve municipal challenges like participatory budgeting. This demonstration can inspire other projects and municipalities to adopt and contribute to OSS solutions.\n\t•\tImproving Accessibility: By focusing on user-friendly implementations that eliminate barriers like mandatory KYC, we make advanced OSS technologies more accessible to non-technical users. This broadened accessibility can lead to wider adoption and support for OSS projects.\n\t•\tProviding Feedback and Contributions: As active users of various OSS tools, we contribute by reporting bugs, suggesting features, and occasionally contributing code improvements. This engagement helps these projects to evolve and better serve the community.\n\nSpecific Examples:\n\n\t•\tCometh Connect Integration: Our use of Cometh Connect for providing users with Ethereum accounts showcases its utility in civic engagement platforms. Any enhancements or customizations we develop are shared openly, benefiting the wider community.\n\t•\tAllo Protocol Adoption: By integrating the Allo Protocol for managing donations in quadratic funding campaigns, we highlight its capabilities in new contexts, potentially attracting more users and contributors to the project.\n\t•\tGnosis Safe Utilization: Implementing Gnosis Safe wallets for users enhances security and usability. Our experiences and developments here can inform best practices and improvements within the Gnosis Safe community."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "### **Key Features and Use Cases**\n\n1. **Participatory Budgeting for Green Spaces:**\n\n   - **Proposal Submission and Discussion:**\n     - Citizens can submit and discuss proposals for urban green projects.\n     - Integrated forum for transparent community engagement.\n     - Administrative approval ensures compliance with municipal guidelines.\n\n2. **Quadratic Funding Mechanism:**\n\n   - **Fair Allocation of Funds:** Projects with broad community support receive adequate funding.\n     - Uses Cluster-Matching Quadratic Funding to eliminate the need for KYC.\n\n3. **User-Friendly Experience:**\n\n   - **Passkey-Based Wallet Creation:** Simplifies wallet setup without complex procedures. Easy access to Ethereum accounts.\n   - **Fiat-to-Stablecoin Conversion:** Users fund accounts via bank methods, converted to stablecoins without mandatory KYC.\n\n4. **Transparent and Secure Transactions:**\n\n   - **Gnosis Safe Wallets:** Secure fund management for users.\n   - **Batch Transaction Signing:** Streamlines approvals and allocations.\n\n5. **Dedicated Multisig Wallets for Projects:**\n\n   - **Transparent Fund Tracking:** Each project has its own wallet for clear fund management.\n   - **Accountability:** Simplifies post-funding management and enhances trust.\n\n6. **Open-Source and Community-Driven:**\n\n   - **Open-Source Codebase:** The entire application is open-source, encouraging collaboration and adoption.\n   - **Contribution to OSS Ecosystem:** Enhances existing open-source tools like Cometh Connect and Allo Protocol.\n\n---\n\n### **Differentiation**\n\n- **Innovative Application of Quadratic Funding:** Unique use in municipal participatory budgeting, specifically for urban development projects.\n\n- **Seamless Integration of Processes:** Combines proposal submission, discussion, and funding in one platform.\n\n- **Privacy-Preserving Design:** Eliminated need for KYC, respecting user privacy and simplifying participation.\n\n- **Bridging Traditional Finance and Crypto:** Allows fiat funding converted to stablecoins without KYC barriers.\n\n- **Transparency with Multisig Wallets:** Assigned unique wallets to projects for clear fund management.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Our immediate goal is to complete the development of the Zazelenimo application and successfully run the first quadratic funding round in the city of Split. The grant funds will be crucial in helping us achieve these objectives by allowing us to finalize essential features, ensure a seamless user experience, and effectively engage the community. Below is an outline of our development roadmap and how the funds will be utilized:\n\n### **Current Development Tasks**\n\n- **Top-Up Functionality:**\n\n  - **User Funding Options:** Implementing a custom, minimal form that enables users to fund their accounts via bank card or bank transfer.\n  - **Fiat-to-Stablecoin Conversion:** The fiat currency provided by users will be converted into a stablecoin of the same denomination and sent to their wallet.\n\n- **Onramp Integration:**\n\n  - **Payment Solutions:** Integrating a payment solution that supports simplified due diligence (no KYC) cryptocurrency purchases.\n  - **API Integration:** Customizing and simplifying the user experience through API integration.\n  - *Status:* We are currently in discussions with multiple potential providers to identify the best solution.\n\n- **Round Creation:**\n\n  - **Admin Tools:** Enabling administrators to create funding rounds and load them into the Zazelenimo application.\n  - **Customization:** We have forked and modified the Gitcoin Grants Stack Manager to suit our specific needs.\n\n- **User Dashboard – \"My Projects\":**\n\n  - **Personalized View:** Developing a section where users can easily see projects they have proposed, contributed to, or added to their cart.\n\n- **Comprehensive Testing:**\n\n  - **Quality Assurance:** Conducting thorough testing of all features to ensure a seamless and bug-free user experience before the official launch.\n\n### **Upcoming Development Tasks**\n\n- **Data Storage Solutions:**\n\n  - **Decentralized Storage:** Storing project data in Allo's Registry, on IPFS, and locally to ensure data integrity and accessibility.\n\n- **Organization Accounts:**\n\n  - **Partner Integration:** Setting up accounts for key partners, such as the Parks Company and the City of Split.\n  - **Multisig Wallets:** These will be multisig accounts with individual representatives as signers for enhanced security and transparency.\n\n- **Legal Documentation:**\n\n  - **Compliance and Policies:** Drafting Terms and Conditions, Privacy Policy, Cookie Policy, Program Rules, Forum Content Policy, and ensuring legal compliance for donations.\n\n- **Community Engagement Strategies:**\n\n  - **User Participation:** Implementing initiatives to motivate citizens to submit quality proposals, engage in public discussions, and donate during the funding round.\n  - **Outreach Efforts:** Utilizing social media, traditional media, and hosting events to raise awareness and encourage participation.\n\n- **Dedicated Multisig Vaults for Projects:**\n\n  - **Fund Management:** Creating dedicated multisig wallets for each proposal to simplify fund tracking and enable new post-round features.\n\n- **Final Round Preparation:**\n\n  - **Round Creation and Loading:** Creating the funding round, adding all the projects and their multisig wallets, and loading the round into the application.\n\n- **Results Calculation:**\n\n  - **Outcome Processing:** Running the donation data through the Connection-Oriented Cluster Matching script to determine the funding results.\n\n### **Utilization of Grant Funds**\n\nThe grant funds will be allocated to support the following key areas:\n\n- **Development and Integration:**\n\n  - Finalizing the top-up functionality and onramp integration to ensure users can easily fund their accounts without cumbersome KYC processes.\n  - Completing the development of essential features like the user dashboard, organization accounts, and data storage solutions.\n\n- **Legal and Compliance:**\n\n  - Engaging legal experts to draft necessary documents and ensure that all aspects of the platform comply with relevant laws and regulations, particularly concerning donations and user data protection.\n\n- **Testing and Quality Assurance:**\n\n  - Allocating resources for comprehensive testing to identify and fix any issues before the platform goes live.\n\n- **Community Engagement and Marketing:**\n\n  - Funding outreach programs to educate and engage the community, including social media campaigns, traditional advertising, and event hosting.\n\n- **Operational Expenses:**\n\n  - Covering costs associated with running the first funding round, including server hosting, security measures, and customer support services.\n\n- **Partnership Development:**\n\n  - Facilitating collaboration with key partners like the Parks Company and the City of Split by setting up organization accounts and integrating their roles into the platform.\n\n---\n\nBy completing these development tasks and effectively utilizing the grant funds, we aim to launch a fully functional and user-friendly platform that empowers citizens to actively participate in the development of their city's green spaces. Successfully running the first funding round will not only validate our solution but also set the foundation for future expansions and scalability to other municipalities, further amplifying our impact on urban development and community engagement.\n\n---"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xe5e12ade302e429de5be99fcee1a37127e95549cefcb31a3493499bcbe6584b7",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "67164e9621b4280cfc7e3002"
+        },
+        "uid": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1729515177,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1729515158,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x33df04ad545d2b7cd38fa2290fb756da2a66798514aaeda4e674977ed51dcca3",
+        "externalIds": [],
+        "external": {
+          "oso": [
+            "muqa-org"
+          ],
+          "github": [
+            "https://github.com/muqa-org/demo"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6728a7485275374d2583f530"
+      },
+      "uid": "0x7be6f1f68d5d34b9458b3fbf0149a8075d8cb8774cfc1819660b29041a6a4fdf",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:51:48.000Z",
+      "updatedAt": "2024-11-04T10:51:52.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24"
+      },
+      "txid": "0x1f4ef735f79527b81c83ee725424110ceeb5671f3ba0180973d85d95aff15203",
+      "externalIds": [
+        "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a7485275374d2583f531"
+        },
+        "uid": "0xe0178ebc53c93f7bf9232a878f759de0a4d590bc116491cc98596ff6d4ac5206",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x7be6f1f68d5d34b9458b3fbf0149a8075d8cb8774cfc1819660b29041a6a4fdf",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717508,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717512,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/636/8",
+          "title": "Allo Builders Advancement Round",
+          "description": "",
+          "payoutAddress": "0x48C9C3B838Ae70A1D1440211cB24fA3bb0594Bd7",
+          "programId": "636_42161",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "muqa-org/demo"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round with this project? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "No"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project focus on building on, integrating with, or supporting the Allo Protocol ecosystem? Please provide specific examples of your work and plans.",
+              "explanation": "\n\nOur project, **Zazelenimo**, is deeply integrated with the **Allo Protocol** ecosystem, leveraging its capabilities to run quadratic funding in participatory budgeting for urban green spaces. Here are specific ways in which we build on, integrate with, and support the Allo Protocol:\n\n### **Integration with Allo Protocol for Quadratic Funding**\n\n- **Quadratic Funding Mechanism:** \nZazelenimo employs the Allo Protocol to manage donations within our quadratic funding campaigns. This integration allows us to handle contributions securely and transparently, ensuring that funds are allocated according to the collective preferences of the community.\n\n- **Using Project Registry** All project proposals are saved in Allo's Profile registry contract, ensuring that all information is decentralized and accessible. This integration enhances data integrity and aligns with the ethos of the Allo ecosystem.\n\n- **Customized Round Creation:** To suit our specific needs, we have forked and customized the Gitcoin Grants Stack Manager, which is built on the Allo Protocol. This allows administrators to create funding rounds and load them into the Zazelenimo application seamlessly.\n\n\n### **Enhancing the Allo Protocol Ecosystem**\n\n- **Providing Real-World Use Cases:**\nBy applying the Allo Protocol in a municipal context, we offer a practical example of its capabilities. This can inspire other projects and municipalities to adopt the protocol, expanding its reach and impact.\n\n\n### **Future Plans to Support the Allo Protocol Ecosystem**\n\n- **Expanding Adoption:** We plan to expand Zazelenimo to other cities, both within Croatia and internationally. Each new implementation will utilize the Allo Protocol, thereby increasing its adoption and demonstrating its versatility in different contexts.\n\n- **Open-Sourcing Enhancements:**\nAny custom developments or enhancements we create on top of the Allo Protocol will be open-sourced. This allows other developers to benefit from our work, fostering a collaborative environment and enriching the ecosystem.\n\n- **Guides and Documentation:** We aim to create documentation and guides detailing how we integrated the Allo Protocol into our platform. These resources will assist other projects in adopting the protocol more easily, promoting wider usage.\n\n### **Specific Examples of Our Work**\n\nOur work on the development of Zazelenimo application, including pull requests related to Allo protocol, is visible in our github repo: https://github.com/muqa-org/demo/pulls?q=is%3Apr.\n\n### **Commitment to the Allo Ecosystem**\n  \n- **Collaboration and Support:** Our team is looking forward to participating  in Allo Protocol discussions, forums, and development updates. We are committed to staying aligned with the protocol's advancements and contributing where possible.\n\n- **Advocacy and Outreach:** Through our project's outreach and presentations, we highlight our successful integration with the Allo Protocol, advocating for its adoption in similar projects."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your project's current status and roadmap. Are you actively developing on Allo Protocol, or do you have a clear plan for future integration?",
+              "explanation": "## **Current Status**\n\nOur project, **Zazelenimo**, is actively being developed with a integration of the **Allo Protocol** at its core. We have reached an advanced stage in our development, with many key features already implemented and tested. Specifically:\n\n### **Active Development on Allo Protocol:**\n\n- **Donation Management:** We have successfully integrated the Allo Protocol for managing donations within our quadratic funding campaigns. This allows us to handle contributions securely and transparently, ensuring that funds are allocated according to the community's collective preferences.\n  \n- **Forked Gitcoin Grants Stack Manager:** To tailor the functionality to our needs, we have forked and modified the Gitcoin Grants Stack Manager. This enables administrators to create custom funding rounds that our usecase requires.\n\n### **Other Implemented Features:**\n\n- **Proposal Submission and Discussion Forums:** Users can submit project proposals and engage in discussions on Forum.\n  \n- **User Wallets and Transactions:** Integration with Cometh Connect and Gnosis Safe for seamless user wallet creation and secure transactions. We have successfully integrated these with Allo Protocol. \n\n- **Data Storage Integration:** We are working on storing project data in Allo's Registry and on IPFS, ensuring decentralized and accessible data management.\n\n## **Roadmap and Future Plans**\n\nOur roadmap includes several milestones that further deepen our integration with the Allo Protocol:\n\n### 1. **Completion of Current Development Tasks (Next 1-2 Weeks):**\n\n- **Finalize Onramp Integration:** Implement payment solutions that support KYC-free cryptocurrency purchases, ensuring seamless user funding experiences that align with the Allo Protocol's transaction processes.\n   \n- **Data Storage Solutions:** Complete the integration of data storage using Allo's Registry, enhancing data integrity and decentralization.\n\n### 2. **First Funding Round Launch (Next 1-2 Months):**\n\n- **Round Creation and Loading:** - Use our customized version of the Gitcoin Grants Stack Manager to create the first funding round, fully utilizing the Allo Protocol's capabilities.\n   \n- **Results Calculation:** Run donation data through the Connection-Oriented Cluster Matching script, compatible with the Allo Protocol, to determine funding outcomes.\n\n- **Dedicated Multisig Vaults for Projects:** Implement multisig wallets for each project, for transparent fund management and post-round features.\n   \n- **User Experience Improvements:** Refine the user interface and experience based on feedback, ensuring smooth interaction with Allo Protocol functionalities.\n\n### 4. **Scaling and Replication (3-12 Months):**\n\n- **Expansion to Other Municipalities:** Adapt the platform for use in other cities, maintaining and enhancing integration with the Allo Protocol to handle increased scale and varied contexts."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your plans for community engagement and user adoption. How will you contribute to expanding the Allo ecosystem?",
+              "explanation": "## **Community Engagement and User Adoption Plans**\n\nOur strategy for community engagement and user adoption is multifaceted, focusing on educating citizens, fostering partnerships and running local PR campaigns. Our goal is to build a vibrant community around **Zazelenimo** that not only uses the platform but also contributes to its growth and the broader **Allo Protocol** ecosystem.\n\n### **1. Local Community Outreach**\n\n- **Educational Workshops and Events:**\n  - Organize workshops and seminars in collaboration with local community centers, schools, and environmental organizations to educate citizens about participatory budgeting, blockchain technology, and how to use the Zazelenimo platform.\n  - Host webinars and online tutorials to reach a wider audience, explaining the benefits of quadratic funding and how it empowers community projects.\n\n- **Collaboration with Local Media:**\n  - Engage with local newspapers, radio stations, and television channels to feature stories about Zazelenimo, highlighting success stories and encouraging public participation.\n\n- **Social Media Campaigns:**\n  - Utilize social media platforms to share updates, success stories, and user testimonials.\n  - Create engaging content such as infographics, videos, and interactive posts to explain how the platform works and its benefits.\n \n - **Community Forums:**\n  - Maintain active forums where users can discuss ideas, report issues, and suggest improvements.\n\n- **Public Launch Events:**\n  - Organize a launch event with key stakeholders, media, and community members to kickstart the first funding round.\n\n### **3. Partnerships and Collaborations**\n\n- **Engaging with Municipal Authorities:**\n  - Work closely with the City of Split to promote the platform through official channels, increasing legitimacy and trust.\n\n- **Collaboration with NGOs and Community Organizations:**\n  - Partner with environmental groups, youth organizations, and civic groups to promote the platform within their networks.\n\n- **Educational Institutions:**\n  - Collaborate with universities and schools to involve students in participatory budgeting processes, fostering early adoption and awareness.\n\n---\n\n## **Contributing to Expanding the Allo Ecosystem**\n\nOur contribution to expanding the Allo ecosystem involves active collaboration, open-source development, and promoting the Allo Protocol through our platform.\n\n### **1. Showcasing Practical Use Cases**\n\n- **Demonstrating Allo Protocol in Action:** By successfully implementing the Allo Protocol in a municipal participatory budgeting platform, we provide a tangible example of its capabilities, encouraging other projects to adopt it.\n\n- **Sharing Success Stories:** Document and share the outcomes of funding rounds, highlighting how the Allo Protocol facilitated transparent and fair allocation of resources.\n  \n- **Promoting Allo Protocol to Municipalities:** As we expand to other cities, we will advocate for the use of the Allo Protocol, highlighting its benefits in participatory budgeting and transparent fund management.\n\n- **Networking at Conferences and Events:** Present our project and the role of the Allo Protocol at industry conferences, workshops, and events to raise awareness and encourage adoption.\n\n### **2. Open-Source Contributions**\n\n- **Sharing Custom Integrations:** Open-source any custom developments or enhancements we create on top of the Allo Protocol, allowing others to benefit from our work.\n\n- **Documentation and Tutorials:** Createn nm documentation, guides, and tutorials on integrating the Allo Protocol, assisting other developers in adopting it.\n\n### **3. Active Participation in the Allo Community**\n\n- **Collaboration and Feedback:** Engage in the Allo Protocol community through forums, discussions, and contribution to development efforts.\n\n- **Beta Testing and Feedback:** Participate in testing new features of the Allo Protocol, providing feedback to improve its functionality.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "How do you envision your project driving GMV (Gross Merchandise Value) through the Allo protocol? Please provide potential metrics or estimates.",
+              "explanation": "\n\n### **Assumptions**\n\n1. **Average Donation per Person:** **$30**\n2. **Detailed Breakdown per City and Year**\n3. **Number of Funding Rounds:** **4 rounds per year per city** (one each quarter)\n4. **City of Split Matching Pool:** **$50,000 per round**\n5. **Additional Funds from Local Businesses:** **$10,000 per round**\n\n## **Year 1**\n\n**Cities:** 1\n**Users:** 1,000\n**Rounds:** 1\n\n- **Donations:** 1,000 users x $30 = $30,000\n- **City Matching Funds:** $50,000\n- **Local Businesses Matching Funds:** $10,000\n- **Total GMV per Round:** $90,000\n\n**Total GMV:** $90,000\n\n---\n\n## **Year 2**\n\n**Cities:** 3\n**Rounds:** 9 (3 per city)\n**Users per city per round:** 1,100\n\nCalculations per round\n- **Donations:** 1,100 users x $30 = $33,000\n- **City Matching Funds:** $50,000\n- **Local Businesses Matching Funds:** $10,000\n- **Total GMV:** $93,000\n\n**Total GMV:** $93,000 x 9 rounds = $837,000\n\n---\n\n### **Year 3**\n\n**Cities:** 3\n**Rounds:** 9 (3 per city)\n**Users per city per round:** 1,200\n\n\n**User Base:**\n\n- **Split:** 2,000 users\n- **City A:** 1,500 users\n- **City B:** 1,500 users\n- **7 New Cities :** 1,000 users each\n- **Total Users:** = 12,000\n\n#### **Donations per Round:**\n\n**Split:**\n\n- **Donations:** 2,000 users x $30 = $60,000\n- **Matching Pool:** $60,000\n- **Total GMV per round:** $120,000\n\n**City A and City B (each):**\n\n- **Donations:** 1,500 users x $30 = $45,000\n- **Matching Pool:** $60,000\n- **Total GMV per round per city:** $105,000\n\n**Each New City (C to I):**\n\n- **Donations:** 1,000 users x $30 = $30,000\n- **Matching Pool:** $60,000\n- **Total GMV per round per city:** $90,000\n\n#### **Annual GMV for Year 3:**\n\n- **Number of Rounds:** 4 per city\n\n**Split:** $120,000 per round x 4 rounds = $480,000\n**City A:** $105,000 per round x 4 rounds = $420,000\n**City B:** $105,000 per round x 4 rounds = $420,000\n**New Cities (C to I):** $90,000 per round x 4 rounds x 7 cities = $2,520,000\n\n**Total GMV for Year 3:** ** $3,840,000**\n\n---\n\n### **Cumulative GMV Over Three Years**\n\n- **Year 1 Total GMV:** $90,000\n- **Year 2 Total GMV:** $1,140,000\n- **Year 3 Total GMV:** $3,840,000\n\n**Total GMV Over Three Years:** $5,340,000\n\n---\n\n*Note:* These projections are based on assumptions about user growth, average donation amounts, matching fund commitments, and successful expansion. Actual results may vary due to real-world factors and outcomes.\n\n---"
+            },
+            {
+              "type": "paragraph",
+              "query": "Provide your Karma GAP profile link and briefly describe how you'll use it for milestone tracking.",
+              "explanation": "https://gap.karmahq.xyz/project/zazelenimo\n\nDepending on the amount of funding, we will create a project with specific tasks and track their delivery."
+            },
+            {
+              "type": "paragraph",
+              "query": "If applicable, list any contract addresses or other verifiable on-chain objects related to your project that demonstrate your work with Allo. Use this format for each entry: [contract_address], [chain_id]",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x1f4ef735f79527b81c83ee725424110ceeb5671f3ba0180973d85d95aff15203",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "67164e9621b4280cfc7e3002"
+        },
+        "uid": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1729515177,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1729515158,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x33df04ad545d2b7cd38fa2290fb756da2a66798514aaeda4e674977ed51dcca3",
+        "externalIds": [],
+        "external": {
+          "oso": [
+            "muqa-org"
+          ],
+          "github": [
+            "https://github.com/muqa-org/demo"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e0b7dbd3cd46ee447814dc"
+        },
+        "uid": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726003160,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726003163,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x6738e9f7feac7b06dd086cf3220bf0d861fe4bd5ccee1caa91f5273d1f8e0134",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66e0b891d3cd46ee447814de"
+          },
+          "uid": "0x72dedd4fa45661de6a76d65d047857d48a43f7e4bca4ab463ada2af3d1afb3f0",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1726003342,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1726003345,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Cartographer Syndicate",
+            "description": "Cartographer Syndicate",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/cartographer-syndicate-karma-gap.png",
+            "slug": "cartographer-syndicate-community"
+          },
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ecbad16a54c05fcd3d1ab2"
+      },
+      "uid": "0xfeac94b4c18bc48d89564aa63715cd192ff2717c042b7332c1b7584ad0b010ae",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:19:23.000Z",
+      "updatedAt": "2025-04-02T04:19:29.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x480ab816eaf1b4e510a77cf8773b8e455f0370af25e666a789f051ffac7bd18e",
+      "external": {
+        "gitcoin": [
+          "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbad16a54c05fcd3d1ab3"
+        },
+        "uid": "0x93654da6e740c194e9dd1aa08f153eea31e55381092a1400839b4c79a11bf812",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xfeac94b4c18bc48d89564aa63715cd192ff2717c042b7332c1b7584ad0b010ae",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567563,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567569,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/103",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x48C9C3B838Ae70A1D1440211cB24fA3bb0594Bd7",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "tomislav.mamic.st@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "tomislavmamic"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "muqa-org/zazelenimo"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://forum.zazelenimo.com"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba\nWe participated in two rounds in GG22: Dapps and Apps and Allo Builders Advancement."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Zazelenimo contributes to the OSS ecosystem in several key ways:\n\n   1. **It's built entirely on open-source:** The platform itself is open-source (Repo: muqa-org/zazelenimo) and leverages existing OSS like Ethereum, Cometh's Connect and Gitcoin's Allo Protocol.\n   2. **It promotes OSS adoption in government:** By partnering with institutions like the City of Split, we are directly introducing and demonstrating the value of open-source solutions for public services. Governments are major software users and potential contributors, yet often rely on proprietary systems. Our project serves as a practical case study, encouraging wider OSS adoption within the public sector, a large and impactful area where OSS is currently underutilized.\n   3. **It showcases novel OSS use cases:** Zazelenimo provides a real-world application of Web3 and OSS technologies for civic engagement, participatory budgeting, and public goods funding, potentially inspiring further innovation and development within the broader OSS community."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "Zazelenimo is a web platform for participatory budgeting focused on urban greening, featuring:\n\n   - A system for citizens, NGOs, and businesses to propose, discuss, and refine projects.\n   - A quadratic funding mechanism for democratic resource allocation.\n   - Seamless user onboarding via passkey-based embedded wallets (Cometh Connect).\n   - Integration with a public discussion forum.\n   - Project browsing, filtering, map views, and user dashboards.\n   - A shopping cart system for contributing to multiple projects.\n\n   It's differentiated by:\n\n   - **Quadratic Funding:** Ensures that broader community preference drives funding, not just wealth concentration.\n   - **Ethereum Integration:** Provides secure identity (via user accounts), transparent transactions, and Web3 interoperability.\n   - **End-to-End Focus:** Supports projects from idea through implementation and includes local maintenance planning.\n   - **Local Stewardship Model:** Addresses long-term sustainability of funded projects.\n   - **Open-Source & Multi-Stakeholder:** Built transparently on open tech, designed for collaboration between residents, businesses, NGOs, and government."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Our future development plans focus on our pilot with the City of Split and include:\n\n    - **Municipal Integration:** Deploying the app on the city's official domain (`split.hr/zazelenimo`) and integrating it with Split's smart city ecosystem.\n    - **Platform Optimization:** Enhancing UX/UI based on pilot feedback, fixing bugs, supporting community developers, and implementing general improvements.\n    - **Operational Setup:** Finalizing legal documentation (T&Cs, Privacy Policy, Program Rules), setting up secure multisig wallets for institutional partners (City of Split, Parks company), and establishing robust transaction tracking.\n    - **Marketing & Promotion:** Coordinating campaigns with city and parks company marketing efforts.\n\n    Grant funds will be crucial for supporting the technical development team during platform optimization, funding legal consultation for compliance, covering operational costs associated with campaign management, and boosting marketing efforts to ensure successful adoption during the official launch."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x480ab816eaf1b4e510a77cf8773b8e455f0370af25e666a789f051ffac7bd18e"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67164e9621b4280cfc7e3002"
+        },
+        "uid": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1729515177,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1729515158,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x33df04ad545d2b7cd38fa2290fb756da2a66798514aaeda4e674977ed51dcca3",
+        "externalIds": [],
+        "external": {
+          "oso": [
+            "muqa-org"
+          ],
+          "github": [
+            "https://github.com/muqa-org/demo"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67f5698c479057d7410b393b"
+      },
+      "uid": "0x1b2b791cb8aa2f9acd9ce3aafd955c8ba3f763382e9d21623638251385da0e38",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x68cc9de9c9f450d26000010f99b63d361e5a033b",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-08T18:22:59.000Z",
+      "updatedAt": "2025-04-08T18:23:08.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x16b0bb72f4e239e80c3af1137418800efe591a924d47d6d44bfee741acb1a800"
+      },
+      "txid": "0x453a10fc7bd4e47426079cac4febd30441015b839b8c39d8ed9078adf97ded92",
+      "external": {
+        "gitcoin": [
+          "0xa87f5348653ff983aab7e9fcaf3aa8164780b06087734949d751bc197b8b24ba"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67f5698c479057d7410b393c"
+        },
+        "uid": "0x40c36358df508d1043c912b2737c35dad5ae341aba397c5fa9e65720ef09bc26",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x1b2b791cb8aa2f9acd9ce3aafd955c8ba3f763382e9d21623638251385da0e38",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x68cc9de9c9f450d26000010f99b63d361e5a033b",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1744136579,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1744136588,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/33/5",
+          "title": "ReFi Mediterranean GG23",
+          "description": "",
+          "payoutAddress": "0x68Cc9De9c9f450D26000010F99b63d361e5a033b",
+          "programId": "33_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "tomislav.mamic.st@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Funding Sources",
+              "explanation": "Next Billion Fellowship Program Ethereum Foundation, Gitcoin, Celo PG, Funding The Commons"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "4"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x453a10fc7bd4e47426079cac4febd30441015b839b8c39d8ed9078adf97ded92"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67164e9621b4280cfc7e3002"
+        },
+        "uid": "0x9d7867dbc4dfc7a7a56803bd270d5bdcc3c75db5fa2e1b06e7e34f0eb4dae65d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "recipient": "0xeade5f65f6413758b3b29b6ee4514f787aece468",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1729515177,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1729515158,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x33df04ad545d2b7cd38fa2290fb756da2a66798514aaeda4e674977ed51dcca3",
+        "externalIds": [],
+        "external": {
+          "oso": [
+            "muqa-org"
+          ],
+          "github": [
+            "https://github.com/muqa-org/demo"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "67f559de1a99727743bcdcdf"
+        },
+        "uid": "0x16b0bb72f4e239e80c3af1137418800efe591a924d47d6d44bfee741acb1a800",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1744132539,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1744132573,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x2cb0b9731f895b45904790337f0598d7a833a4b71a9e4b7b0519fabbe6be846c",
+        "details": {
+          "_id": {
+            "$oid": "67f559de1a99727743bcdce0"
+          },
+          "uid": "0xcc8b7c0a990c007c61fe333c3f60ee7630e3115295b1f6047c7950f3278f8e4e",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x16b0bb72f4e239e80c3af1137418800efe591a924d47d6d44bfee741acb1a800",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744132552,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744132574,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Refi Mediterranean",
+            "description": "Refi Mediterranean",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-gap-refi-mediterranean.jpeg",
+            "slug": "refi-mediterranean-1"
+          },
+          "txid": "0x052b97b37c05fa782b64e58f643d433d018806fff2a220ff68a3f9737c5097f2"
+        }
+      }
+    }
+  ]
 }

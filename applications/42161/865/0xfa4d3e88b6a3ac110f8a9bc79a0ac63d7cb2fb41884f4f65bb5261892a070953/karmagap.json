@@ -1,5 +1,1871 @@
 {
   "id": "42161-865-0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "000028f2b48822456c5d6e55"
+        },
+        "uid": "ref_0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+        "attester": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1698819513,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1698799723,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "Forus is a privacy solution that allows users to receive funds without sharing their personal wallet address with anyone .User would always receive funds in a fresh stealth address , This ensures a level of privacy in financial transactions. Acting as a VPN for the Ethereum network, Forus establishes a secure and protected environment, enabling users to receive funds with complete confidentiality using a user friendly interface.\n\n\nThis project is made in response of  vitalik' blog about importance of stealth address on ethereum in a user friendly interface.\nhttps://vitalik.ca/general/2023/01/20/stealth.html\n\n\n\n\nHere how it works?\n\n1.The receiver generates a new \"ForusKey,\" which is a one-time, base58 encoded address with an additional cryptographic prefix and suffix. Instead of sharing the personal wallet address, the receiver provides the Forus Key to receive funds.(Note : ForusKey is not bound to any blockchain address)\n\n2.The receiver also generates a corresponding \"signature Key\" on demand, which serves as the private key for the Forus Key. This signature should securely saved for future use. (Note :Never share your signature Key with anyone always share ForusKey to receive funds)\n\n3.Next the sender generates a stealth address using the receiver's Forus Key and sends funds to this new address. The sender's public key, would be generated on demand, is published in a designated logs directory. This entire process is completed in a single transaction.\n\n4.The receiver scans t...",
+          "imageURL": "",
+          "title": "The Forus",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://forus.live"
+            },
+            {
+              "type": "twitter",
+              "url": "The_Forus"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/TheForus"
+            }
+          ],
+          "slug": "the-forus-1"
+        },
+        "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c"
+      },
+      "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+      "createdAt": "2023-11-01T06:18:39.000Z",
+      "updatedAt": "2023-11-01T00:48:52.000Z"
+    },
+    {
+      "uid": "0x9d8225890ffd16912491cf5dc479620aa9d3a96a004d3c4dbeb21c12a62fac20",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "00003a8eb48822456c5d7779"
+        },
+        "uid": "0x861842f646fbf8562be828740fc81b2145ba39e0184b8cca4f1dbba5cc1ed85b",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x9d8225890ffd16912491cf5dc479620aa9d3a96a004d3c4dbeb21c12a62fac20",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1704687189,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1704667390,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "Forus empowers users to confidentially receive funds in evm compatible chains while safeguarding the confidentiality of their personal wallet address.",
+          "imageURL": "",
+          "title": "The Forus",
+          "links": [
+            {
+              "type": "website"
+            },
+            {
+              "type": "twitter"
+            },
+            {
+              "type": "github"
+            }
+          ],
+          "slug": "the-forus"
+        },
+        "txid": "0x976817d2d2dc415ed7e02d8d86df895649a5199d00e1b2dce2f1fcba37bdd973"
+      },
+      "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+      "createdAt": "2024-01-08T04:13:09.000Z",
+      "updatedAt": "2024-01-07T22:43:10.000Z"
+    },
+    {
+      "uid": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "663aa52fa620ea6b216e829c"
+        },
+        "uid": "0x0fec3cc5575cf588edec1559eac7c2be31d3a9fa05542219fa6e3821f2ef4878",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715119404,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715119407,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "\nReceive Eth , Erc20 privately by sharing a unique cryptographic link, keep you personal wallet addresses safe and secure from prying eyes.\n\n# Description \n\nForus sets a new standard in blockchain technology, combining privacy with simplicity to offer users anonymity and peace of mind in their financial interactions. Forus adds significant value to arbitrum by elevating privacy and security to the next level through the generation of unique stealth addresses for each transaction. This innovative approach enables funds to be received via a link without revealing any real or personal wallet address, thus enhancing privacy in on-chain financial activities.\n\n\n# What it does?\n\nThe primary objective of forus is to offer a user-friendly and efficient solution to enhance privacy on the arbitrum Blockchain. Forus aims to tackle the inherent transparency of blockchain transactions, which can lead to the exposure of users’ identities and financial details. By harnessing stealth addresses on the arbitrum Blockchain, Forus strives to empower users to receive funds in stealth addresses without disclosing their actual addresses. This approach ensures the protection of individuals and businesses' privacy during transactions, reducing the risks associated with identity exposure, financial profiling, and potential security vulnerabilities\n\nWithin the landscape of blockchain, transparency is fundamental. Yet, imagine the ability to navigate financial activities discreetly, akin to a digital silhouette. Enter forus, drawing inspiration from privacy pioneers such as monero and Tornado Cash. These platforms, while sophisticated, can be intricate and costly. The distinguishing factor lies in our approach – we aim to democratize privacy, making it as accessible as everyday conveniences.\n\nHave you encountered Vitalik’s discourse on 'Stealth Addresses'? \n\nhttps://vitalik.eth.limo/general/2023/01/20/stealth.html It's a pivotal revelation! Motivated by this concept, we're crafting a tool for anonymous transactions. Why arbitrum, you might inquire? It offers swift and cost-effective transactions. And forus? Envision it as your digital cloak, ensuring anonymity throughout your transactions.\n\n# Working of Forus :\n\n**Step 1: Generation of Unique Forus Keys :** Users generate pairs of forus keys through elliptic curve cryptography .The public component of this key pair forms a distinct cryptographic Link, serving as a meta-address dissociated from any specific blockchain entry. Safeguard the private aspect, known as the secret, without sharing it with others. Users can create multiple forus keys as required .With this approach, they can receive funds by solely sharing the Link, ensuring no exposure of blockchain-related information.\n\n**Step 2: Stealth Address Generation and Transaction Constructing Secure Stealth Addresses :** Senders compute a stealth address using receiver's shared cryptographic link , ensuring each transaction uses a novel, unpredictable stealth address. This stealth address is computed by doing calculation with the receiver's public key (derived from the forus key's public part) and an ephemeral private key generated off-chain by the sender  in real-time. After initiating the transaction  senders furnish their ephemeral public key, directing funds to the predetermined stealth address within the same transaction.\n\n**Step 3: Receiving and Utilizing Funds - Stealth Address Verification Monitoring the forus Contract :**  Receivers consistently monitor the contract for freshly published ephemeral public keys. \n\n**Verification of Stealth Addresses :** Upon receiving a new key, the receiver endeavors to create a private key and the corresponding stealth address using their forus key's  secret. Successful derivation of an address holding funds confirms it as the destination for the transferred funds.\n\n**Accessing and Conducting Transactions :** Once the confirmed stealth address holds funds, receivers obtain the associated private key. This private key enables fund utilization in various ways, such as using wallet software or executing transfers directly from the website to other parties, exchanges, or cold wallets.\n\n**Anonymous Transactions and Future Prospects Anonymity in Transactions :**  Opting not to withdraw funds to a personal address severs any link between the receiver and sender. These stealth addresses hold potential future value, with forthcoming wallets likely leveraging them innovatively .\n\n# What's next for Forus ?\n\nAt Forus, we are committed to continually enhancing our platform to offer our users the finest experience possible. As we look ahead, our current focus includes refining the relayer mechanism, allowing users to pay transaction fees in ERC20 tokens when withdrawing funds from fresh stealth addresses that lack ETH for gas fees. Additionally, we are actively working towards integrating NFT transfers within Forus, ensuring a seamless experience for our users.\n\nOur dedicated team remains at the forefront of blockchain technology, driving innovation to deliver the most secure and private financial transactions. Looking forward, we are excited to introduce cross-chain transfers in the near future, enabling our users to effortlessly receive funds privately across different blockchains.",
+          "imageURL": "bafkreicxkcxejk54qrnhuqqbdk74535f2g7wng2lyl5bo4rlwaqlulelte",
+          "title": "The Forus",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://forus.live"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/The_Forus"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/TheForus"
+            }
+          ],
+          "slug": "the-forus-2",
+          "type": "project-details"
+        },
+        "externalIds": [],
+        "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33"
+      },
+      "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+      "createdAt": "2024-05-07T22:03:24.000Z",
+      "updatedAt": "2024-05-07T22:03:26.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "000028f6b48822456c5d6fb6"
+      },
+      "uid": "0xd1d02efa3ac088607dc79cad23287d38bdad02c6a106a965f7eeb3100d548ec5",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2023-11-01T06:18:39.000Z",
+      "updatedAt": "2023-11-01T00:48:52.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81"
+      },
+      "externalIds": [
+        "0xfca3bab0fb16505a0a6bb93cc4ab693777832bbb74f6166d381ecf6c537cb215"
+      ],
+      "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c",
+      "external": {
+        "gitcoin": [
+          "0xfca3bab0fb16505a0a6bb93cc4ab693777832bbb74f6166d381ecf6c537cb215"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "000028f3b48822456c5d6e58"
+        },
+        "uid": "ref_0xd1d02efa3ac088607dc79cad23287d38bdad02c6a106a965f7eeb3100d548ec5",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xd1d02efa3ac088607dc79cad23287d38bdad02c6a106a965f7eeb3100d548ec5",
+        "attester": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1698819513,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1698799723,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/424/0x222ea76664ed77d18d4416d2b2e77937b76f0a35/0x222ea76664ed77d18d4416d2b2e77937b76f0a35-32",
+          "title": "GG18 - Ethereum Infrastructure",
+          "description": "We participated in Gitcoin Round 18 (GG18). A heartfelt thanks to all our donors for their invaluable support.",
+          "payoutAddress": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+          "programId": "530_42161"
+        },
+        "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c"
+      },
+      "project": {
+        "_id": {
+          "$oid": "000028f4b48822456c5d6e62"
+        },
+        "uid": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1698819519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1698799732,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "00000002b48822456c5d6d45"
+        },
+        "uid": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1695847211,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1697469569,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x9ec1449c09aa4c99d2f299c9b2b2bb31df81272b86523936e98144598b0904ed",
+        "details": {
+          "_id": {
+            "$oid": "00000006b48822456c5d6d3f"
+          },
+          "uid": "0x1c4cf74c8ff9e8591aa7e71b8bd12f0e45522396a2374bc70b33485169e7fb74",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1695847685,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1697469569,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin"
+          },
+          "txid": "0x1fcf45b0b0124eca3d44672d51d0832b15fd82da4c5304145e01ba7cc567d406"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "0000312db48822456c5d73a2"
+      },
+      "uid": "0x2bb14a65f7a9395efb8a4a21b6635d1fbb3d0afe6b12ab93ac2c34c5e0a20e29",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2023-11-16T19:33:17.000Z",
+      "updatedAt": "2023-11-16T14:03:21.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81"
+      },
+      "externalIds": [
+        "0xfca3bab0fb16505a0a6bb93cc4ab693777832bbb74f6166d381ecf6c537cb215"
+      ],
+      "txid": "0xe908a9840a4f0b007a8188354624f5c32c88a2a34d51921f5b3bdbdc672e10ed",
+      "details": {
+        "_id": {
+          "$oid": "0000312fb48822456c5d73a1"
+        },
+        "uid": "ref_0x2bb14a65f7a9395efb8a4a21b6635d1fbb3d0afe6b12ab93ac2c34c5e0a20e29",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x2bb14a65f7a9395efb8a4a21b6635d1fbb3d0afe6b12ab93ac2c34c5e0a20e29",
+        "attester": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1700163191,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1700143405,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "",
+          "title": "GG19 - Web3 OSS",
+          "description": "We are participating in Gitcoin Round 19 (GG19).",
+          "payoutAddress": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+          "programId": "533_42161"
+        },
+        "txid": "0xe908a9840a4f0b007a8188354624f5c32c88a2a34d51921f5b3bdbdc672e10ed"
+      },
+      "project": {
+        "_id": {
+          "$oid": "000028f4b48822456c5d6e62"
+        },
+        "uid": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1698819519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1698799732,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "00000002b48822456c5d6d45"
+        },
+        "uid": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1695847211,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1697469569,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x9ec1449c09aa4c99d2f299c9b2b2bb31df81272b86523936e98144598b0904ed",
+        "details": {
+          "_id": {
+            "$oid": "00000006b48822456c5d6d3f"
+          },
+          "uid": "0x1c4cf74c8ff9e8591aa7e71b8bd12f0e45522396a2374bc70b33485169e7fb74",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0x80fdb7152814c47d100e25920d68a3754d4f5cd6319f0cd1b4da965ac9219b81",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1695847685,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1697469569,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin"
+          },
+          "txid": "0x1fcf45b0b0124eca3d44672d51d0832b15fd82da4c5304145e01ba7cc567d406"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67eaa17dbc9e5a7098e25061"
+      },
+      "uid": "0x423116c5dcc8626298dded2e8fa1b94c8242b014cd9798d94f7e06f5df7324a2",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-31T14:06:42.000Z",
+      "updatedAt": "2025-03-31T14:06:53.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xcb34123ce775fb24b126772fc50f6b2246b6422d5a494cc4b9e9ddc048ad3c4a",
+      "external": {
+        "gitcoin": [
+          "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67eaa17dbc9e5a7098e25062"
+        },
+        "uid": "0x53cfca85ebdd147f3eba36d06179a60a63b79c305b5d9545049c00f72cabb4e0",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x423116c5dcc8626298dded2e8fa1b94c8242b014cd9798d94f7e06f5df7324a2",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743430002,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743430013,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/865/33",
+          "title": "GG23 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "programId": "865_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "maazweb3@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "OxMaaz"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project Github Repo",
+              "explanation": "https://github.com/TheForus/Forus-core"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "Forus strengthens ethereum’s infrastructure by adding a native privacy layer through stealth address technology. It enables users to send and receive ETH and ERC20 tokens without exposing public wallet addresses, solving one of Ethereum’s core limitations—lack of privacy. By using elliptic curve Diffie-Hellman (ECDH) cryptography, Forus ensures unlinkable, one-time addresses for each transaction. Additionally, Forus introduces a gasless withdrawal system via ERC20 tokens and integrates Gelato for transaction automation, improving accessibility and user experience. Deployed on arbitrum chain, Forus also contributes to Ethereum’s scalability by leveraging Layer 2 solutions for low-cost, high-speed private transactions."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "1. Privacy: Implemented stealth address generation using elliptic curve Diffie-Hellman (ECDH), enabling unlinkable, one-time addresses for each transaction to ensure full on-chain privacy.\n2. User Experience: Developed a relayer mechanism allowing gasless withdrawals using ERC20 tokens, removing the need for ETH. Integrated Gelato for automated private transactions, enhancing ease of use.\n3. Efficiency: Off-chain stealth computations minimize on-chain costs while maintaining maximum privacy and performance.\n4. Interoperability: Under development—cross-chain stealth transfers to enable private transactions across multiple evm blockchain networks."
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "Forus addresses the lack of native privacy in the Ethereum's ecosystem, where all transactions are publicly traceable, exposing user identities and financial behavior. By introducing stealth addresses through ECDH cryptography, Forus enables users to receive assets without revealing their public wallet addresses. It also solves the challenge of requiring ETH for gas fees by implementing a relayer mechanism that accepts ERC20 tokens, making privacy tools more accessible. Compared to existing alternatives, Forus offers a more user-friendly and gas-efficient solution with automated transactions via Gelato, off-chain stealth computations, and ongoing cross-chain and NFT privacy support, setting a new standard for secure, private interactions on Ethereum Arbitrum and other evm chains."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "Roadmap & Use of Grant Funds:\n\nQ1 2025: Launch gasless withdrawal system using ERC20 tokens; finalize and deploy upgraded relayer architecture.\nQ2 2025: Integrate cross-chain stealth transfer support to enable private transactions across major Layer 2 and EVM chains.\nQ3 2025: Launch NFT stealth transfer module; enhance UI/UX for seamless onboarding and private asset management.\nQ4 2025: Conduct security audits, deploy mobile-optimized interface, and prepare for full mainnet scaling.\n\nGrant Fund Usage:\n\nFunds will be allocated towards smart contract development, gelato and cross-chain integrations, rigorous security audits, ui/ux refinement, and user onboarding tools to ensure a secure, scalable, and accessible privacy ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "Forus enhances decentralization and security on Ethereum by enabling private, permissionless transactions through cryptographic stealth addresses, without relying on centralized intermediaries. All key operations like fund reception, withdrawal, and relayer interactions—are executed through audited smart contracts, ensuring trustless execution. The off-chain stealth computation model maintains user anonymity without compromising network transparency. Additionally, by operating on arbitrum, Forus supports ethereum's scalability goals while preserving its core principles of decentralization and security."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45 , 42161"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xcb34123ce775fb24b126772fc50f6b2246b6422d5a494cc4b9e9ddc048ad3c4a"
+      },
+      "project": {
+        "_id": {
+          "$oid": "000028f4b48822456c5d6e62"
+        },
+        "uid": "0x364e40a8572ec1b43e883a752f32a0516aeafd0aa8b71cbb42cf7606063a2906",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1698819519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1698799732,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x25fa14291e50d4c97072664cbbbd01c8c09d7b2a4f5a9fbb7496eac7a8b85b6c",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "00003a8cb48822456c5d777a"
+      },
+      "uid": "0x8ffde75adc3a0d517ecba7382adcef16a6174257ca2bf64d88bbc7f36d492a46",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x9d8225890ffd16912491cf5dc479620aa9d3a96a004d3c4dbeb21c12a62fac20",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-01-08T04:13:09.000Z",
+      "updatedAt": "2024-01-07T22:43:10.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9"
+      },
+      "txid": "0x976817d2d2dc415ed7e02d8d86df895649a5199d00e1b2dce2f1fcba37bdd973",
+      "externalIds": [
+        "0x265d72266f28e4c7a85c645d086d522372818e7deaab568e69e95751922fa579"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x265d72266f28e4c7a85c645d086d522372818e7deaab568e69e95751922fa579"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "00003c8fb48822456c5d7899"
+        },
+        "uid": "0x826f927bd5ca53576cf1dc0cc264b039aab9c872b6cf70a4b878932488e2b746",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x8ffde75adc3a0d517ecba7382adcef16a6174257ca2bf64d88bbc7f36d492a46",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1704755379,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1704735582,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "amount": "1501.93 ARB",
+          "description": "When you enter forus, simple generate a forus key (which is a cryptographic hash not related to any real blockchain address) make sure to securely store your forus key's private Key name as \"signature key\". Once you have your Forus key, share it with the sender. The sender will then craft a new address for you by doing some fancy math with your forus key , one that neither you nor the sender could predict. From then you dont need to send him any real wallet address he got your forus key when u would transfer you funds a new stealth address would be created on demand which you can control only.",
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/0x8b70206844630d8c0a2a545e92d3c8d46a3ceaad/0x8b70206844630d8c0a2a545e92d3c8d46a3ceaad-27",
+          "title": "Plurality Labs - Gitcoin Round",
+          "payoutAddress": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "cycle": "",
+          "season": "",
+          "questions": [
+            {
+              "type": "SUCCESS_MEASURE",
+              "query": "How should the success of your grant be measured?",
+              "explanation": ""
+            },
+            {
+              "type": "IMPACT_MEASUREMENT",
+              "query": "What is the intended direct impact your project will have on the ecosystem?",
+              "explanation": ""
+            },
+            {
+              "type": "IMPACT_MEASUREMENT",
+              "query": "What is the long-term impact of your grant?",
+              "explanation": ""
+            }
+          ],
+          "programId": "564_42161"
+        },
+        "txid": "0x8b09e362aea6894d0836c4bdff3bed6e54ecb539ae5c0c63d6c836e2b01047dc"
+      },
+      "project": {
+        "_id": {
+          "$oid": "00003a8db48822456c5d7745"
+        },
+        "uid": "0x9d8225890ffd16912491cf5dc479620aa9d3a96a004d3c4dbeb21c12a62fac20",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1704687189,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1704667390,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x976817d2d2dc415ed7e02d8d86df895649a5199d00e1b2dce2f1fcba37bdd973",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa2e4640c8488feaadce0"
+            },
+            "name": "Arb - New Protocol"
+          }
+        ]
+      },
+      "categories": [
+        "Arb - New Protocol"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "0000385bb48822456c5d7660"
+        },
+        "uid": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1702935334,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1702916967,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xbce34244cacf594e8e591d40f8baa8c695788d6a1b01b99c03207e2f493ccebc",
+        "details": {
+          "_id": {
+            "$oid": "0000385db48822456c5d766e"
+          },
+          "uid": "0xc959ee278fe13955e3431d80421128f33fbecc8a350388759054015a457e49fe",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1702936676,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1702916967,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Arbitrum",
+            "description": "EVM L2 network",
+            "imageURL": "https://i.ibb.co/1J5WMFV/AF-logomark.png",
+            "slug": "arbitrum"
+          },
+          "txid": "0xb53a4073a8ca36f9940cd557eeee33f36aefe3f308eea458c18c661a86e14c71"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "663aa52fa620ea6b216e829b"
+      },
+      "uid": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-05-07T22:03:24.000Z",
+      "updatedAt": "2024-05-07T22:03:27.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "externalIds": [
+        "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+      ],
+      "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33",
+      "external": {
+        "gitcoin": [
+          "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "663aa530a620ea6b216e829e"
+        },
+        "uid": "0x93c28cc0089dcf7548b8169f2f0e09eb0bf7d328aaaf1c0a06af7e983e413356",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715119404,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715119407,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/25/69",
+          "title": "GG20 - dApps & Apps",
+          "description": "",
+          "payoutAddress": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "type": "grant-details",
+          "programId": "536_42161"
+        },
+        "externalIds": [],
+        "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33"
+      },
+      "project": {
+        "_id": {
+          "$oid": "663aa52ea620ea6b216e829a"
+        },
+        "uid": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715119404,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715119406,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "66cafedf3a3501f77d14d39d"
+          },
+          "uid": "0x01205784715ea47b119f4f697d6bdaff054eda8baf68a9150f4826c2310f60de",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+          "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+          "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1724579540,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1724579551,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective**: Deploy and test smart contracts on Arbitrum Mainnet.\n**Purpose**: Ensure security, functionality, and reliability in a live environment.\n**Outcome**: Successful deployment, testing, and initiation of audits.\n**Next Step**: Continuous monitoring, testing, and refinement of the smart contracts.",
+            "endsAt": 1724958000,
+            "startsAt": 1724526000,
+            "title": "Smart Contract Deployment and Testing on Arbitrum Mainnet",
+            "type": "milestone"
+          },
+          "txid": "0xc60714c008a08ec276087e53399114c75188b932beb9207f55e92370e75a4c7c",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "66d1ae99962292fe10afd4c9"
+              },
+              "uid": "0x4d6e7ae60ef0bad14a2c207b083e470332f1205dd249093c28eb155a943caacf",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x01205784715ea47b119f4f697d6bdaff054eda8baf68a9150f4826c2310f60de",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1725017749,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1725017753,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Smart contracts were successfully deployed and tested on Arbitrum Mainnet , ongoing monitoring and refinement are in place.",
+                "proofOfWork": "https://arbiscan.io/address/0xfc739432ba84371598d58f24982426ea66962dba"
+              },
+              "txid": "0x9a94c9d98487a3ca02cfd78a7480d24247fef96be00ea94f6e40cd8c6dbc996a",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "66d1ae99962292fe10afd4c9"
+              },
+              "uid": "0x4d6e7ae60ef0bad14a2c207b083e470332f1205dd249093c28eb155a943caacf",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x01205784715ea47b119f4f697d6bdaff054eda8baf68a9150f4826c2310f60de",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1725017749,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1725017753,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Smart contracts were successfully deployed and tested on Arbitrum Mainnet , ongoing monitoring and refinement are in place.",
+                "proofOfWork": "https://arbiscan.io/address/0xfc739432ba84371598d58f24982426ea66962dba"
+              },
+              "txid": "0x9a94c9d98487a3ca02cfd78a7480d24247fef96be00ea94f6e40cd8c6dbc996a",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "669a42f1675daa597e4da693"
+          },
+          "uid": "0x21ee6fea767c1e32ff3656694a2119263a0cab7140c6748dbc893d55c4a10c98",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+          "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+          "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1721385709,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1721385713,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "**Gelato Integration:**\n\nBy integrating Gelato, a decentralized automation protocol, Forus will enable users to automate their transactions and pay gas fees in any ERC20 token of their choice. This integration will simplify the withdrawal process from stealth addresses, removing the need for users to hold ETH specifically for gas fees.\n\n**Key Benefits:**\n\nUser Convenience: Users can seamlessly pay gas fees in the ERC20 tokens they are withdrawing, enhancing the overall ease of use.\nCost Efficiency: Gelato's automation can optimize transaction costs, providing a more economical solution for users.\nEnhanced Functionality: This feature adds a layer of flexibility and functionality to the Forus app, making it more user-friendly and accessible to a broader audience.\n",
+            "endsAt": 1722106800,
+            "startsAt": 1721329200,
+            "title": " Gelato Integration: Streamlining Transactions with ERC20 Tokens",
+            "type": "milestone"
+          },
+          "txid": "0x1265f409b0b0229528b59835dca4a5435da23bffdb418d03cdd65fbc804ec70c",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "66a60d0449e4413395860404"
+              },
+              "uid": "0x3896dcfcb7f1882c9424c101ab859b74b71cfb004c11459622fcaeb45c5dd3a8",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x21ee6fea767c1e32ff3656694a2119263a0cab7140c6748dbc893d55c4a10c98",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722158337,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722158340,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": ""
+              },
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "66a60d0449e4413395860404"
+              },
+              "uid": "0x3896dcfcb7f1882c9424c101ab859b74b71cfb004c11459622fcaeb45c5dd3a8",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x21ee6fea767c1e32ff3656694a2119263a0cab7140c6748dbc893d55c4a10c98",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722158337,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722158340,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": ""
+              },
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "667c2e59ef28a789cb81c8b4"
+          },
+          "uid": "0xc45c12a74dbeeb60db4b28f1f4fb8efdeb2f23e388f2251a4692f49549f78e6d",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+          "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+          "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1719414299,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1719414361,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "To enhance user experiences, streamline the UI for better usability and ensure smooth wallet connections for seamless transactions. Rigorously test smart contracts to verify their functionality and security. Additionally, enhance ecdh diffie-helman cryptography to ensure smooth and efficient operation",
+            "endsAt": 1719644400,
+            "startsAt": 1719385200,
+            "title": "Ensuring Product Excellence",
+            "type": "milestone"
+          },
+          "txid": "0x824468b0bb5abc503f2547cb56b2bfc77e1f3fc3d3663a0bd9e07c345e3fe036",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "66804bad1c089a1957649933"
+              },
+              "uid": "0xab97650baf6e59106281658a2cfe45c5771fae0e57b227bb138951a2a3ac58dc",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0xc45c12a74dbeeb60db4b28f1f4fb8efdeb2f23e388f2251a4692f49549f78e6d",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1719683985,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1719684013,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": ""
+              },
+              "txid": "0x0faff92a4466a7436614e25ab7c760d38719c6333ccd051a28fbae7f4a019820",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "66804bad1c089a1957649933"
+              },
+              "uid": "0xab97650baf6e59106281658a2cfe45c5771fae0e57b227bb138951a2a3ac58dc",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0xc45c12a74dbeeb60db4b28f1f4fb8efdeb2f23e388f2251a4692f49549f78e6d",
+              "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+              "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1719683985,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1719684013,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": ""
+              },
+              "txid": "0x0faff92a4466a7436614e25ab7c760d38719c6333ccd051a28fbae7f4a019820",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [
+        {
+          "_id": {
+            "$oid": "66d30bbacd082d209b252c96"
+          },
+          "uid": "0x6ea7bcce2bbab4c9a479cc266a26dcd3ea327e8c66adddce71d7ae11be99d40d",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+          "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+          "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1725107127,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1725107130,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "GrantUpdate",
+          "data": {
+            "text": "The Gelato integration was successfully completed . here's the URL https://github.com/TheForus/Forus-core/blob/main/Forus/src/ui-components/Withdraw.tsx ",
+            "title": "Gelato Integration Completion Reminder",
+            "proofOfWork": "https://github.com/TheForus/Forus-core/blob/main/Forus/src/ui-components/Withdraw.tsx",
+            "type": "grant-update"
+          },
+          "txid": "0x552a4ff23e30730112e58964f259bfdb74b092238feb623a2ed3561b62d21206",
+          "externalIds": []
+        }
+      ],
+      "completed": {
+        "_id": {
+          "$oid": "6680326d1c089a195764992b"
+        },
+        "uid": "0x144269985657580df84518f7f4e2238acc85db9c9241fdbcdeb26d7b3938bf76",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x362458e9b9d784efdda8fd3a15bda69e053db022d79bb317b667dcffdafdd2ba",
+        "attester": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1719677409,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1719677549,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "",
+          "type": "grant-completed"
+        },
+        "txid": "0x37de0fb2cc7b5f1ceb295b3e977ce3f4cfe3e000fa21304f0309fa016cebd1fe",
+        "externalIds": []
+      },
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66e95e3ead7a5b2f5474abde"
+      },
+      "uid": "0x2e556110b09253a1ebdbf3acafe7a4c5bd73a5f968d4f7b1b8c2522c8ba26276",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-17T10:47:24.000Z",
+      "updatedAt": "2024-09-17T10:47:26.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9"
+      },
+      "externalIds": [
+        "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e95e3ead7a5b2f5474abdf"
+        },
+        "uid": "0x143d2acf5d6f80a32d7a10fe8eed353f291b16c224c50a7522b1b38186767890",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x2e556110b09253a1ebdbf3acafe7a4c5bd73a5f968d4f7b1b8c2522c8ba26276",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726570044,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726570046,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/389/42",
+          "title": "GG21: Thriving Arbitrum Summer",
+          "description": "",
+          "payoutAddress": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "programId": "389_42161",
+          "questions": [
+            {
+              "type": "checkbox",
+              "query": "How does your project contribute to the advancement of the Arbitrum ecosystem?",
+              "explanation": "dApps & Apps"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your previous work or plans related to the Arbitrum ecosystem. How does your project strengthen Arbitrum's foundational infrastructure, improve developer efficiency, or accelerate the adoption of novel applications?",
+              "explanation": "Forus strengthens arbitrum's ecosystem by providing robust privacy solutions using stealth addresses, enabling users to receive funds anonymously through cryptographic link without revealing personal wallet information. By simplifying transactions and allowing ERC20 token payments for fees, Forus enhances user experience and cost-effectiveness. Our plans for cross-chain transfers and NFT integration further expand Arbitrum's capabilities, attracting a broader user base and driving the adoption of innovative applications. Through its focus on privacy and user-friendliness, Forus significantly contributes to Arbitrum’s infrastructure and growth."
+            },
+            {
+              "type": "paragraph",
+              "query": "If applicable, describe how your project leverages Stylus or Arbitrum Orbit Chains. What unique capabilities or use cases does this enable?",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your team's expertise in your chosen focus area within the Arbitrum ecosystem. Include relevant experience, publications, or past projects.",
+              "explanation": "Our team combines fresh talent and passion for the Arbitrum ecosystem. Maaz, our founder and a full-stack blockchain developer, chose to drop out of college to focus on solving real-life problems and honing his skills through innovative projects. Saad, a college student and front-end developer, excels at creating user-friendly interfaces. Additionally, our team member Pacman is an active GitHub contributor. Together, we leverage our skills to develop impactful solutions within the Arbitrum ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "List any contract addresses with the associated network(s), EOAs, or deployer addresses your project has deployed.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you received any previous grants or support for your work in the Arbitrum ecosystem? If so, please provide details and estimated funding amounts.",
+              "explanation": "Yes, we have received support for our work in the Arbitrum ecosystem. Through GG20, we have received approximately $500 to $600 in funding. Additionally, in a previous Arbitrum round, we managed to secure $1,500 in Arbitrum tokens. This support has been instrumental in advancing our projects and contributing to the ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "Would you like to share anything else about your project, team, or vision for the Arbitrum ecosystem that wasn't covered in the previous questions?",
+              "explanation": "Our vision for Forus within the Arbitrum ecosystem is to redefine privacy and security in blockchain transactions by providing users with innovative tools for anonymous, secure, and seamless interactions. We aim to protect user identities by eliminating the need to reveal personal wallet addresses, thereby enhancing privacy and security. Our focus is on developing user-friendly solutions and advancing privacy technologies to drive the adoption of privacy-centric applications. Furthermore, we are committed to expanding our offerings with additional privacy solutions that further enhance user security within the Arbitrum network."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "663aa52ea620ea6b216e829a"
+        },
+        "uid": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715119404,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715119406,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "0000385bb48822456c5d7660"
+        },
+        "uid": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1702935334,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1702916967,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xbce34244cacf594e8e591d40f8baa8c695788d6a1b01b99c03207e2f493ccebc",
+        "details": {
+          "_id": {
+            "$oid": "0000385db48822456c5d766e"
+          },
+          "uid": "0xc959ee278fe13955e3431d80421128f33fbecc8a350388759054015a457e49fe",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x02174fc2f5204bc816aaabc4d82e406e8967381ca490cf4915bdd9b5aae8c2e9",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1702936676,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1702916967,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Arbitrum",
+            "description": "EVM L2 network",
+            "imageURL": "https://i.ibb.co/1J5WMFV/AF-logomark.png",
+            "slug": "arbitrum"
+          },
+          "txid": "0xb53a4073a8ca36f9940cd557eeee33f36aefe3f308eea458c18c661a86e14c71"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6728a5a55275374d2583f41f"
+      },
+      "uid": "0xc1a8a9380406c781af7fa84ba0d3e07b55b01599581510156530ead420ad2ea7",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:44:50.000Z",
+      "updatedAt": "2024-11-04T10:44:53.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xfb59f0a46e7970c7ffdcdf8de8c69a8cfc1f6012a03906c61eab756a67959bc1",
+      "externalIds": [
+        "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xfa4d3e88b6a3ac110f8a9bc79a0ac63d7cb2fb41884f4f65bb5261892a070953"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a5a55275374d2583f420"
+        },
+        "uid": "0xdb268bd264d36b0dd0bf8a69571360287df08698247ae5cca9939e1f3ff71725",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xc1a8a9380406c781af7fa84ba0d3e07b55b01599581510156530ead420ad2ea7",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96cd565aaab2e55ffe4bb9bf64cd234a96c7ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717090,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717093,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/610/47",
+          "title": "GG22 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+          "programId": "610_42161",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/TheForus/Forus-core"
+            },
+            {
+              "type": "short-answer",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "Yes , we have participated in the last two Arbitrum rounds, as well as in the previous GG19 round within the Ethereum infrastructure track."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "Forus significantly contributes to the Ethereum network's infrastructure by:\n\n1. Enhancing Privacy: Utilizes stealth addresses to enable anonymous transactions, protecting user identities.\n2. Decentralized Key Management: Employs decentralized key generation, allowing users to retain control over their transaction data.\n3. Improving Security: Implements elliptic curve cryptography (ECDH) to strengthen transaction security and mitigate vulnerabilities."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "Forus introduces pioneering work in enhancing privacy through the use of stealth addresses powered by elliptic curve Diffie-Hellman (ECDH) cryptography. This method ensures that users can receive ETH and ERC20 tokens without ever exposing their real wallet addresses, preserving their privacy in on-chain transactions.\n\nIn terms of user experience, Forus simplifies transaction processes by integrating a relayer mechanism that allows users to pay gas fees in ERC20 tokens rather than ETH. This eliminates the common hurdle of needing ETH for gas, making transactions more user-friendly and reducing friction for new or non-technical users.\n\nFor future interoperability, Forus is also working on cross-chain solutions, enabling users to privately receive and send funds across multiple blockchains, further expanding privacy and flexibility for users in the decentralized ecosystem. These innovations push the boundaries of privacy and usability within Ethereum and beyond."
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "Forus addresses the **privacy problem** inherent in the Ethereum ecosystem, where transparent blockchain transactions can expose users’ identities and financial activities. Traditional methods of sending and receiving funds make wallet addresses publicly traceable, posing risks of financial profiling, identity exposure, and potential security vulnerabilities.\n\nOur solution uses **stealth addresses** with **elliptic curve cryptography (ECDH)**, allowing users to receive funds anonymously. Unlike existing privacy tools like Tornado Cash , Railgun and monero, which can be complex and costly, Forus offers a more **user-friendly and cost-effective approach** by enabling users to generate unique cryptographic links for each transaction. This ensures that no real wallet addresses are exposed, while also maintaining compatibility with Ethereum's infrastructure.\n\nAdditionally, Forus introduces a **relayer mechanism** that allows users to withdraw funds from stealth address in **ERC20 tokens**, removing the need to hold ETH. This improves the user experience compared to existing solutions that require ETH for transactions, thus reducing friction and making the system more accessible to everyday users."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "1. Current Phase (Q4 2024):\nTesting and Auditing: Ongoing testing and auditing processes are being conducted to ensure the security and functionality of our stealth address mechanism. This involves rigorous assessments to identify and mitigate any vulnerabilities, ensuring a robust solution for our users.\n\n2. Development Enhancements (Q1 2025):\nUser Interface Improvements: Enhancing the user interface to make the platform more intuitive and user-friendly.\nIntegration of Cross-Chain Transfers: Developing capabilities for users to conduct private transactions across multiple blockchains.\n\n3. Marketing Initiatives (Q2 2025):\nCommunity Engagement: Launching marketing campaigns to educate users about the benefits of privacy in transactions and the unique features of Forus.\nPartnership Development: Building partnerships with other projects and platforms in the Ethereum ecosystem to broaden our reach and impact.\n\n4. Long-term Goals (Q3-Q4 2025):\nExpansion of Features: Introducing advanced features, such as NFT transfers and additional token support for transaction fees.\nScaling and Infrastructure Improvements: Enhancing the underlying infrastructure to support a growing user base and increased transaction volumes.\n\n\n\n1. Development and Enhancements (40%): For ongoing feature development and improvements.\n2. Testing and Auditing (30%): To ensure a secure and reliable platform through rigorous testing and external audits.\n3. Marketing and Community Engagement (20%): To increase awareness and adoption of Forus within the Ethereum ecosystem.\n4. Operational Costs (10%): For maintaining the project’s infrastructure and team."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "Forus mitigates risks associated with transaction traceability by creating unique, untraceable addresses for each transaction. This prevents the exposure of personal wallet addresses, reducing the risk of identity theft, financial profiling, and targeted attacks. By integrating advanced cryptographic techniques directly on Ethereum, Forus contributes to a more secure and private user environment, which is essential for the long-term resilience."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xfb59f0a46e7970c7ffdcdf8de8c69a8cfc1f6012a03906c61eab756a67959bc1",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "663aa52ea620ea6b216e829a"
+        },
+        "uid": "0x79deae6d6ac2d91c3e6bbd4913a34e95a0acc16c76a858b969f67f9ec70b38da",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x96Cd565AAaB2e55Ffe4Bb9BF64CD234A96c7Ff45",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715119404,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715119406,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xcefd8d3436d8996b341b6b64f8b2d891ce4c204047938ceecd1468676ec40d33",
+        "external": {
+          "oso": [
+            "theforus"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

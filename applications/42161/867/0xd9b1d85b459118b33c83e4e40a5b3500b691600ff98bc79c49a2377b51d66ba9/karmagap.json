@@ -1,5 +1,272 @@
 {
   "id": "42161-867-0xd9b1d85b459118b33c83e4e40a5b3500b691600ff98bc79c49a2377b51d66ba9",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x6f142c82f6fc7f891878b660a82f8e40eadc6e6180d7050e85cf4d1fff37a63e",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67e867419cb9f2d20939a09b"
+        },
+        "uid": "0xa2e35133a78ea1c52238a00af62f0fd4088b99b0de0c79a08c4fee3e044a58d7",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x6f142c82f6fc7f891878b660a82f8e40eadc6e6180d7050e85cf4d1fff37a63e",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x02ad0f9cab40def1d6563bfc84f5aea4282842af",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284032,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284033,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "One-click debt optimization by migration across lending protocols, powered by flash loans.\n\nProblem\nDeFi users struggle to capitalize on fragmented lending rates:\n\nCostly inefficiency: Interest rates vary wildly across protocols for long periods of time. Moving debt positions can help save users money on interest rates and equalize protocol rates, which is beneficial for liquidity providers.\n\nProtocol loyalty traps: Users stick to one platform despite better rates elsewhere, wasting thousands in avoidable interest.\n\nMEV for whales only: Flash loan arbitrage is reserved for bots and institutions, leaving retail users behind.\n\nSolution\nKapan Finance automates cross-protocol debt optimization for everyday users:\n\n🔄 Atomic Debt Migration: Refinance loans between Aave and Compound in one transaction, using flash loans to eliminate upfront capital.\n\n📊 Rate Compariso: Instantly surfaces the best borrow/supply rates for assets shared across protocols (e.g., USDC, ETH).\n\n⚡ Arbitrum Alpha: Live on Layer 2 for fast, low-cost transactions (currently in alpha testing).\n\n🔓 Non-Custodial & Permissionless: No deposits; users retain full control of their positions.\n\nImpact\nBorrowing costs can be reduced up to 60% on some markets before applying incentive rewards.\n\nDemocratize MEV: Turn “extractive” flash loans into a public good for retail DeFi users.\n\nTechnical Differentiation\nGas-Optimized Execution: Tightly integrated with Arbitrum’s low-fee environment.\n\nGitcoin Alignment\nPublic Good: Traditional banks provide such utilities to retail users, but DeFi users currently are locked in or forced to migrate their debt to smart wallets in order to migrate, which locks them to a specific vendor. This project helps with this as it is agnostic of the type of address using it.\n\nEthereum-Centric: Built on Arbitrum, composable with Aave/Compound’s L2 deployments. Venus protocol to be added next.\n\nOpen Roadmap: Core contracts will be open-sourced post-audit.\n\nProgress & Next Steps\n✅ Current Status: Live alpha on Arbitrum (supply, repay, debt migration).\n\n🚧 Next Phase:\n\nSmart contract audit (Q3 2025).\n\nExpand to Optimism, Base, and other Aave/Compound/Venus supporting networks.\n\nIntegrate rate alerts (e.g., “Notify me when USDC borrow rates dip 3%”).\n\nFunds will directly accelerate:\n\nSecurity: Cover audit costs for user trust.\n\nProtocol specific incentives: We will be launching an incentives program with the funds targeting markets where users can save significantly. \n\nFor example Aave USDC.e -> Compound USDC.e\nOr Aave Arbitrum -> Venus Arbitrum. \n\nWith the idea being using the funds to partially repay debt of users who have migrated and held, selected randomly. \n\nMulti-Chain Expansion: Deploy to Optimism and Base.\n\nCall to Action\nTest the Alpha: Try Kapan on Arbitrum and share feedback.\n\nJoin Governance: Help prioritize future integrations (Euler, Morpho).\n\nSpread the Word: Educate users trapped in suboptimal debt positions.\n\nDemo: www.kapan.finance | Twitter: @KapanFinance\n\nWhy This Matters\nDeFi’s promise is diluted when users overpay for loyalty. Kapan Finance fixes this by making rate arbitrage simple, accessible, and fair — a true public good.\n\n",
+          "imageURL": "bafkreiahfmw3di6uuqpl5seaa56z7tysdjqaqrfusxvwcubuplwgajauoi",
+          "title": "Kapan Finance",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://kapan.finance"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/KapanFinance"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/stefaniliev545/kapan"
+            }
+          ],
+          "slug": "kapan-finance",
+          "type": "project-details"
+        },
+        "txid": "0xcc8556ea09efbc631acbdc6bec79d73b336dbb45db2f0587a89a18207c4df69d"
+      },
+      "recipient": "0x02ad0f9cab40def1d6563bfc84f5aea4282842af",
+      "createdAt": "2025-03-29T21:33:52.000Z",
+      "updatedAt": "2025-03-29T21:33:53.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67e867419cb9f2d20939a098"
+      },
+      "uid": "0xe6a3ad017c7dc3a25b3da596ca3702d2a5dc98b9f9f22bafae9398f28d7b3669",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x6f142c82f6fc7f891878b660a82f8e40eadc6e6180d7050e85cf4d1fff37a63e",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x02ad0f9cab40def1d6563bfc84f5aea4282842af",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-29T21:33:52.000Z",
+      "updatedAt": "2025-03-29T21:33:53.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xcc8556ea09efbc631acbdc6bec79d73b336dbb45db2f0587a89a18207c4df69d",
+      "external": {
+        "gitcoin": [
+          "0xd9b1d85b459118b33c83e4e40a5b3500b691600ff98bc79c49a2377b51d66ba9"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67e867419cb9f2d20939a09a"
+        },
+        "uid": "0x9a21eef96e5b12385f8c59cbe930ca682dc527561f8ec5e3f507697a2b335043",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xe6a3ad017c7dc3a25b3da596ca3702d2a5dc98b9f9f22bafae9398f28d7b3669",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x02ad0f9cab40def1d6563bfc84f5aea4282842af",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284032,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284033,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/4",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x02aD0f9CaB40dEf1D6563bfC84F5AeA4282842aF",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "stefan.iliev545@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@incompetentengineer"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://www.kapan.finance/"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://discord.gg/kurDepKWPN"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "No"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "With more protocols onboarded and hooked into the generalized router, other protocols would be able to integrate and receive access to any underlying protocol through the same smart contract ABI. This would enable top of stack solutions. Furthermore when chain abstraction is implemented, users and other protocols will have elementary access to lending protocols and the lowest possible interest rates across the ethereum ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "It aggregates lending protocols and focuses on debt migration, through flash loans. This removes the need to unwind debt; Users can move their debt positions across protocols seamlessly. This allows them to lower the interest rates on compatible positions and as more protocols are onboarded, the compatible positions will only grow. "
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Further development right now is focused around finishing the core set of features and onboarding more protocols. While some of them have scattered functionality around collateral swaps and debt swaps (one debt asset to another), I plan to have all of this cohesively implemented within Kapan. \n\nAfter finishing the \"single\" network only features, funds will be used to audit the contracts and have an official release. \n\nAfter which funds will be used to build capacity for deploying incentives to migrate debt and supply, which should enable lending protocols to further amplify the attractiveness of their protocols while benefiting users.\n\nWhile gaining the initial traction, we plan on implementing support for EIP-7702 and EIP-4337 wallets. Users going through them would have a better UX and early access to some features (due to them being  easier and quicker to implement for those wallets, securely) \n\nOnce the protocol has gained some traction, we will begin work on the cross chain features with the main goal of enabling debt to be moved across chains to maximize potential APR savings. \n\nThe final planned step is to have  automated management over debt, where it is moved across protocols and chains. With more chains and protocols being onboarded, interest rates would drop and token types one could borrow and supply would grow.\n\nOverall with so many protocols and chains existing, there would always be a need for the tools to optimize across them and abstract their complexity from end users who are looking for the best deal."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "0x58d21499b5a3374a486b3f412cca43b76692ef15, 42161"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xcc8556ea09efbc631acbdc6bec79d73b336dbb45db2f0587a89a18207c4df69d"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67e867419cb9f2d20939a097"
+        },
+        "uid": "0x6f142c82f6fc7f891878b660a82f8e40eadc6e6180d7050e85cf4d1fff37a63e",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x02ad0f9cab40def1d6563bfc84f5aea4282842af",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743284032,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743284033,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xcc8556ea09efbc631acbdc6bec79d73b336dbb45db2f0587a89a18207c4df69d",
+        "external": {
+          "github": [
+            "https://github.com/stefaniliev545/kapan"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

@@ -1,5 +1,1855 @@
 {
   "id": "42161-865-0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "66e3d2166588cf6c168c3ca8"
+        },
+        "uid": "0xce18d2fe9c0721ccd446493318f1f82d459b5c803686c4b60af077ddace1b669",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206486,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "GovGraph is an innovative approach to visualizing and understanding the relationships within governance ecosystems. Unlike traditional scoring systems, GovGraph focuses on the connections and interactions between power users, such as Delegates, Developers, and Citizens. \n\nBy mapping these relationships through a dynamic and interactive graph, users can identify alliances, conflicts of interest, and clusters of influence. The system allows for detailed filtering and searching, providing insights into social graphs, voting patterns, and potential sybil attacks. This project aims to enhance the transparency and efficiency of the governance and funding processes.\n\nWe’ll focus on the OP Citizen House first and then explore other governance systems.\n\nFor the CollabTech round:\n- Desired threshold is $3k for the MVP (delivery ~Sep-Oct)",
+          "imageURL": "bafkreifxfrpyk6feugedair4bbeqlrkkfs4e3vgh7iyt36ugtaraitjzga",
+          "title": "GovGraph",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://giveth.notion.site/GovGraph-a629cd382b22458b99bca89c5d0686be?pvs=4"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/maxsemenchuk"
+            },
+            {
+              "type": "github",
+              "url": null
+            }
+          ],
+          "slug": "govgraph",
+          "type": "project-details"
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": []
+      },
+      "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+      "createdAt": "2024-09-13T05:47:59.000Z",
+      "updatedAt": "2024-09-13T05:48:05.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "66e3d2156588cf6c168c3ca5"
+      },
+      "uid": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-13T05:47:59.000Z",
+      "updatedAt": "2024-09-13T05:48:05.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x455325a0317900a8bb6ba5bf973b3ec209e03317f22985385a532bca4328a930"
+      },
+      "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+      "externalIds": [
+        "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca6"
+        },
+        "uid": "0x54fac6f670cde5613d626706f8853a469c47fa6518f321f12c9a4ae1a3b01179",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/10/57/26",
+          "title": "Token Engineering the Superchain",
+          "description": "",
+          "payoutAddress": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+          "programId": "57_10",
+          "questions": [
+            {
+              "type": "paragraph",
+              "query": "Vision Statement and Impact: Describe the long-term vision of your project and its intended impact on the Optimism and broader Superchain ecosystem, including both qualitative and quantitative benefits",
+              "explanation": "The long-term vision of GovGraph is to revolutionize the way governance ecosystems are understood and managed within the Optimism and broader Superchain ecosystem. By leveraging the power of graph-based data visualization, GovGraph aims to create a transparent, equitable, and efficient governance framework.\n\nQualitative Benefits\n\n- Enhanced Transparency: By visualizing relationships and interactions within the governance ecosystem, stakeholders can gain a clearer understanding of how decisions are made and who holds influence.\n- Improved Decision-Making: With insights into alliances, conflicts of interest, and influence clusters, decision-makers can make more informed choices that reflect the true dynamics of the ecosystem.\n- Increased Trust: Transparent governance processes foster trust among participants, encouraging more active and engaged participation from a diverse range of stakeholders.\n\nQuantitative Benefits\n\n- Reduced Sybil Attacks: By identifying sybil entities through social graph analysis, GovGraph can help mitigate the risk of fraudulent activities, leading to a more secure and reliable governance system.\n- Optimized Resource Allocation: Understanding voting patterns and influence clusters allows for more strategic allocation of resources, ensuring that funding and support are directed to the most impactful projects and initiatives.\n- Enhanced Metrics for Governance Health: By tracking ongoing metrics such as voter clusters and high-influence participants, the system provides valuable data that can be used to continuously improve governance processes and maintain a balanced distribution of power."
+            },
+            {
+              "type": "paragraph",
+              "query": "Initial Strategy: Outline a high-level strategy for how you will achieve your intended impact and key goals for the next 3-6 months",
+              "explanation": "Phase 1: Research and Development (Months 1-2)\n\n- Conduct Initial Research: Gather detailed requirements from key stakeholders and analyze existing governance systems.\n- Develop MVP (Minimum Viable Product): Create a basic version of GovGraph focusing on core features such as graph visualization of user relations, filtering, and search functionalities.\n- User Testing and Feedback: Engage with a group of early adopters (Delegates, Developers, Citizens) to test the MVP and gather feedback for improvements.\n\nPhase 2: Feature Enhancement and Optimization (Months 3-4)\n\n- Implement Feedback: Refine and enhance the MVP based on user feedback, focusing on usability improvements and additional features such as dynamic dispersion and color-coded connections.\n- Expand Data Sources: Integrate additional data sources, including mainnet/testnet attestations and POAPs, to enrich the graph.\n- Develop Advanced Analytics: Incorporate advanced analytics to identify governance attacks, voting patterns, and influence clusters.\n\nPhase 3: Deployment and Scaling (Months 5-6)\n\n- Rollout to Broader Audience: Launch GovGraph to a wider audience within the Optimism and broader Superchain ecosystem.\n- Monitor and Iterate: Continuously monitor the system’s performance and user engagement, iterating on the product based on ongoing feedback.\n- Establish Key Partnerships: Form strategic partnerships with other projects and organizations to enhance data integration and expand GovGraph’s impact."
+            },
+            {
+              "type": "paragraph",
+              "query": "Team Expertise: Provide a brief summary on the team’s background and relevant expertise in token engineering and/or OP",
+              "explanation": "We’ll focus on the OP Citizen House first and then explore other governance systems. The product part of the team is Max Semenchuk and Yineisy Mota from https://trustedseed.org/ from the dev side it’s Alireza and Krati from https://www.generalmagic.io/"
+            },
+            {
+              "type": "paragraph",
+              "query": "Existing Work: Provide evidence of any existing work, such as prototypes, research papers, or previous projects. If you have already done work within OP/ Superchain, please include that here too",
+              "explanation": "Last year we’ve worked together on https://regenscore.super.site/ , overall GM has a wide experience with tools grants tooling including https://www.pairwise.vote/ In Trusted Seed we connect 360+ steward of various web3 commons."
+            },
+            {
+              "type": "paragraph",
+              "query": "Returning grantees: If your project has received prior funding from the Token Engineering Grants Program, please describe the impact that funding has had on the project",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67a36e6a60e3415426fd2664"
+          },
+          "uid": "0xe0080d3eaee6d5ac5a46c09d96b67060dabdcba3c3e62314cb156428868ed7c1",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+          "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1738763884,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1738763882,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "Milestone",
+          "data": {
+            "title": "Scaling",
+            "description": "- New report on the delegates' findings: https://govgraph.fyi/blog/op-delegates-visualization\n- Establish Key Partnerships: participated in the OP panel and developed a partnership with Karma3 labs https://x.com/i/broadcasts/1gqxvNVYyEzxB\n- Continuously monitor the system’s performance and user engagement, iterating on the product based on ongoing feedback.",
+            "endsAt": 1738166400,
+            "type": "milestone"
+          },
+          "txid": "0x5f2ca005f78cd88fb8fcded820f245d590b20eb44fba82334abd8ef2f63fecfc",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67a3736660e3415426fd2669"
+              },
+              "uid": "0x98d579adee6cdf99b63614562c5a2eca3e605e8278494d866edf60c37a03946d",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xe0080d3eaee6d5ac5a46c09d96b67060dabdcba3c3e62314cb156428868ed7c1",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738765165,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738765158,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://img.notionusercontent.com/s3/prod-files-secure%2Fff891e0b-a285-4d6e-b9f4-87bde516d521%2Fb7ad43af-ea0b-4223-98be-b46c7edb0fb5%2Fimage.png/size/w=1420?exp=1738851462&sig=-8YrxmW6Rzhip7ZX8m0PMvIAo7SxCttt2LZZFXUtxz0"
+              },
+              "txid": "0x07f4fda24d5a2a7325efffc6eb4786033713e39e45f599542409d6fd3ba691f6"
+            },
+            {
+              "_id": {
+                "$oid": "67a36e8e60e3415426fd2665"
+              },
+              "uid": "0xf20b4bb366d36e4980e71800d4c992ccb95ad222371d643febaf9cfefd706d2b",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xe0080d3eaee6d5ac5a46c09d96b67060dabdcba3c3e62314cb156428868ed7c1",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763919,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763918,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://www.notion.so/image/attachment%3Ab7ad43af-ea0b-4223-98be-b46c7edb0fb5%3Aimage.png?table=block&id=1913ab28-d48c-8065-8b69-f558fdda6f56&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=8f06bf29-996b-445a-900e-32b13a51d701&cache=v2"
+              },
+              "txid": "0x36b275bea116d6d12f5d0e3c405f7e54fceba2f56cc8011d35979d6cc7b4a1c7"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67a3736660e3415426fd2669"
+              },
+              "uid": "0x98d579adee6cdf99b63614562c5a2eca3e605e8278494d866edf60c37a03946d",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xe0080d3eaee6d5ac5a46c09d96b67060dabdcba3c3e62314cb156428868ed7c1",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738765165,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738765158,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://img.notionusercontent.com/s3/prod-files-secure%2Fff891e0b-a285-4d6e-b9f4-87bde516d521%2Fb7ad43af-ea0b-4223-98be-b46c7edb0fb5%2Fimage.png/size/w=1420?exp=1738851462&sig=-8YrxmW6Rzhip7ZX8m0PMvIAo7SxCttt2LZZFXUtxz0"
+              },
+              "txid": "0x07f4fda24d5a2a7325efffc6eb4786033713e39e45f599542409d6fd3ba691f6"
+            },
+            {
+              "_id": {
+                "$oid": "67a36e8e60e3415426fd2665"
+              },
+              "uid": "0xf20b4bb366d36e4980e71800d4c992ccb95ad222371d643febaf9cfefd706d2b",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xe0080d3eaee6d5ac5a46c09d96b67060dabdcba3c3e62314cb156428868ed7c1",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763919,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763918,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://www.notion.so/image/attachment%3Ab7ad43af-ea0b-4223-98be-b46c7edb0fb5%3Aimage.png?table=block&id=1913ab28-d48c-8065-8b69-f558fdda6f56&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=8f06bf29-996b-445a-900e-32b13a51d701&cache=v2"
+              },
+              "txid": "0x36b275bea116d6d12f5d0e3c405f7e54fceba2f56cc8011d35979d6cc7b4a1c7"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67a36e1460e3415426fd2663"
+          },
+          "uid": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+          "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1738763800,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1738763796,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "Milestone",
+          "data": {
+            "title": "Feature Enhancement and Optimization",
+            "description": "- Expand Data Sources: added top1000 delegates to the list, improved the UI\n- Publish Analytical report: https://govgraph.fyi/blog/op-citizen-house-case-study\n- User Testing and Feedback: Engage with a group of early adopters (Delegates, Developers, Citizens) to test the MVP and gather feedback for improvements. https://gov.optimism.io/t/request-for-feedback-introducing-govgraph-fyi-governance-connections-visualized/8882/5",
+            "endsAt": 1735488000,
+            "type": "milestone"
+          },
+          "txid": "0xe036966b7b569a395a1ce73a49e1721693a949bf6d1b54819fbc2f4e608bcf78",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67a3738e60e3415426fd266a"
+              },
+              "uid": "0x45c51051daba154ba4b63c7b5b49cfcd2f844daca887ab077feaa5b7ef1a59f1",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738765198,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738765198,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=&cache=v2"
+              }
+            },
+            {
+              "_id": {
+                "$oid": "67a36f0460e3415426fd2667"
+              },
+              "uid": "0xcdf32aad4c88f721109b15d6e2088e5925740491cb87d10b31ea33d1046b33be",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738764037,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738764036,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ab7ad43af-ea0b-4223-98be-b46c7edb0fb5%3Aimage.png?table=block&id=1913ab28-d48c-8065-8b69-f558fdda6f56&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=1420&userId=&cache=v2"
+              },
+              "txid": "0xea72de6430afbd0243c99d1e84d07173e908ee161ac5d803eb57672a5be21f08"
+            },
+            {
+              "_id": {
+                "$oid": "67a36ee47b078759af2b84c8"
+              },
+              "uid": "0x502c84e3ef0e27278229fd1d0e127c1e2d9cb45fb9ba33ae41a7e62cc7c4012d",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738764001,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738764004,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=&cache=v2"
+              }
+            },
+            {
+              "_id": {
+                "$oid": "67a36e337b078759af2b84c6"
+              },
+              "uid": "0xc9abecc316d2300de6cb23839a3ae27907be2f93d1716be21c0e8247dd79aeba",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763823,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763827,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://www.notion.so/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=8f06bf29-996b-445a-900e-32b13a51d701&cache=v2"
+              },
+              "txid": "0xf71748e8e0a51b02b0ec2b9620fc643eeb37fc4f8fb90f299016111c27e36ab6"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67a3738e60e3415426fd266a"
+              },
+              "uid": "0x45c51051daba154ba4b63c7b5b49cfcd2f844daca887ab077feaa5b7ef1a59f1",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738765198,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738765198,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=&cache=v2"
+              }
+            },
+            {
+              "_id": {
+                "$oid": "67a36f0460e3415426fd2667"
+              },
+              "uid": "0xcdf32aad4c88f721109b15d6e2088e5925740491cb87d10b31ea33d1046b33be",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738764037,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738764036,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ab7ad43af-ea0b-4223-98be-b46c7edb0fb5%3Aimage.png?table=block&id=1913ab28-d48c-8065-8b69-f558fdda6f56&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=1420&userId=&cache=v2"
+              },
+              "txid": "0xea72de6430afbd0243c99d1e84d07173e908ee161ac5d803eb57672a5be21f08"
+            },
+            {
+              "_id": {
+                "$oid": "67a36ee47b078759af2b84c8"
+              },
+              "uid": "0x502c84e3ef0e27278229fd1d0e127c1e2d9cb45fb9ba33ae41a7e62cc7c4012d",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738764001,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738764004,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://giveth.notion.site/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=&cache=v2"
+              }
+            },
+            {
+              "_id": {
+                "$oid": "67a36e337b078759af2b84c6"
+              },
+              "uid": "0xc9abecc316d2300de6cb23839a3ae27907be2f93d1716be21c0e8247dd79aeba",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x207796fed53fca6fc06047b5cfcffc32822749f64c4368adefbb2e5dfd183250",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763823,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763827,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "proofOfWork": "https://www.notion.so/image/attachment%3Ae1b1eb97-87bd-4ecd-9354-c4bf5a07c5bb%3Aimage.png?table=block&id=1913ab28-d48c-80f0-bbe6-f9c45d768787&spaceId=ff891e0b-a285-4d6e-b9f4-87bde516d521&width=2000&userId=8f06bf29-996b-445a-900e-32b13a51d701&cache=v2"
+              },
+              "txid": "0xf71748e8e0a51b02b0ec2b9620fc643eeb37fc4f8fb90f299016111c27e36ab6"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67a36d2e60e3415426fd2660"
+          },
+          "uid": "0xb04896de18062ba3c08017be29100ebaf25a19dd7b0cc761019e66bf960f707f",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+          "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1738763567,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1738763566,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "Milestone",
+          "data": {
+            "title": "Research & Development",
+            "description": "- Develop Use Cases: https://govgraph.fyi/blog/value-proposition\n- Develop Initial Specs: https://github.com/orgs/GeneralMagicio/projects/14\n- Develop MVP (Minimum Viable Product): Create a basic version of GovGraph focusing on core features such as graph visualization of citizen relations, filtering, and search functionalities. Demo: https://op.govgraph.fyi/\n\nhttps://www.youtube.com/watch?v=Mn9ZXfQG3bk",
+            "endsAt": 1730217600,
+            "type": "milestone"
+          },
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67a36d5e60e3415426fd2661"
+              },
+              "uid": "0x26ac3e17962e5f1555580bc84b118f8c6e0bfe031f45c0a8276f3d2aa8899484",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xb04896de18062ba3c08017be29100ebaf25a19dd7b0cc761019e66bf960f707f",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763618,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763614,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://www.youtube.com/watch?v=Mn9ZXfQG3bk"
+              },
+              "txid": "0x194489bec1fab7cdfcca4eea2670885f66ccacc7695943221ad24fdbe1b80889"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67a36d5e60e3415426fd2661"
+              },
+              "uid": "0x26ac3e17962e5f1555580bc84b118f8c6e0bfe031f45c0a8276f3d2aa8899484",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0xb04896de18062ba3c08017be29100ebaf25a19dd7b0cc761019e66bf960f707f",
+              "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1738763618,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1738763614,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "",
+                "proofOfWork": "https://www.youtube.com/watch?v=Mn9ZXfQG3bk"
+              },
+              "txid": "0x194489bec1fab7cdfcca4eea2670885f66ccacc7695943221ad24fdbe1b80889"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [
+        {
+          "_id": {
+            "$oid": "67a3702b60e3415426fd2668"
+          },
+          "uid": "0x4f4356ba18d66d6c6205a901297d38b6df7bb67920cf3bdf297b5df261866644",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xfa8872509600751a9bfd7c90199ca417a7d4e1f6429fd4def0429059a91f7eed",
+          "attester": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1738764334,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1738764331,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "GrantUpdate",
+          "data": {
+            "text": "Best way to experience product: https://op.govgraph.fyi/\n\nHere’s some feedback from various users:\n\nEmily (OP Citizen House): this is very interesting! looks to me like I can use this to see the most connected people, who maybe also have the most influence... like vitalik and linda\nGriff (Citizen, Delegate): It’s a fantastic tool for coordination in the Citizen House. Seeing the shared connections can greatly support planning and partnerships, as well as aid in checking for collusion.\nKevin Owocki (Citizen): seems like a nice way to get an at a glance view of the op political economy\nDivine Comedian (Citizen): Tried it out, visually it looks cool\nLuuk (OP Developer): That sounds great, we can add the graph to the Analytics page for sure. We’re also working on a second version of our website, which could have more sections about visualisations and maps\nAlex Soto (OP governance contributor): I really like that there are different categories with which to filter the view and the level of interactivity it has. And yet, I miss categories more linked to the work within the collective (like ‘chosen in representative structures this season’ or ‘are part of x contribution path’); which is what I tried to reflect in my chart (we plan to add this feature soon)",
+            "title": "Product review of Feb 2025",
+            "proofOfWork": "https://govgraph.fyi/",
+            "type": "grant-update"
+          },
+          "txid": "0x86486d5874d70793140844068421139ceccc6519306be1d73449a092436e7cfe"
+        }
+      ],
+      "community": {
+        "_id": {
+          "$oid": "00003eb2b48822456c5d7a09"
+        },
+        "uid": "0x455325a0317900a8bb6ba5bf973b3ec209e03317f22985385a532bca4328a930",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1705561165,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1705541371,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa3d29b7a60ce508577c3fdd288a33b59bcbe45ebfee41af6bff69c03c973cbed",
+        "details": {
+          "_id": {
+            "$oid": "00003eb4b48822456c5d7a83"
+          },
+          "uid": "0xe696bc439b0eef2f368bf83aacb257ede77cdef09fd8f86f85bf39663fb5414b",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0x455325a0317900a8bb6ba5bf973b3ec209e03317f22985385a532bca4328a930",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1705561279,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1705541486,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "TEC",
+            "description": "Token Engineering Commons",
+            "imageURL": "https://gravitydao.org/wp-content/uploads/2019/10/tec_trans.png",
+            "slug": "tec"
+          },
+          "txid": "0x94b917454da676b42936863b5eb0c312138bf123f8dc0cd4e1d36c0fc01d2b70"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66e3d3f86588cf6c168c3d07"
+      },
+      "uid": "0x5d0982c2250c390004ef517b44e2ccad46092be896559901cbaf350bb2699cee",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-13T05:56:04.000Z",
+      "updatedAt": "2024-09-13T05:56:08.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x98f710e1cf511e6cd27222d8022107d5f2c971ebc0a075671e05ab04efc95b6e"
+      },
+      "externalIds": [
+        "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e3d3f86588cf6c168c3d09"
+        },
+        "uid": "0x83371b241ac596b00d24e572c6b662b621d3e4821ce3a757871d5e676adbe982",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x5d0982c2250c390004ef517b44e2ccad46092be896559901cbaf350bb2699cee",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206964,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206968,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/384/32",
+          "title": "CollabTech Round and Thresholds Experiment",
+          "description": "",
+          "payoutAddress": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+          "programId": "384_42161",
+          "questions": [
+            {
+              "type": "paragraph",
+              "query": "How is the project CollabTech?",
+              "explanation": "The idea of mapping the ecosystem was explored back in 2019 with the early DAOs / Genesis DAO etc: https://graphcommons.com/graphs/6a993e34-d8b0-4425-83ce-67c3560429e7?mode=connect back then it was a useful tool to explore the space and connect the dots. Now after some time, we plan to use a similar approach based on a variety of on-chain data to clusterize voters and build better strategies with those insights.\n\nIt can give visual insight and be a research tool for either building alliances or otherwise tracking conflicts of interest. There are a number of scoring practices that exist, but this experiment gives more qualitative data, showing less visible connections between voters & projects."
+            },
+            {
+              "type": "paragraph",
+              "query": "Who's the targeted user group and what's the need/problem being addressed?",
+              "explanation": "We've had some requests from the foundation to learn more about the RetroPGF improvement. But also we see a need ourselves (and within our networks) as grantees to understand how to interact with the voters better. It's an experimental project, so we'll yet to see the amount if insight from it, but it should contribute to the transparency and efficiency of the grants ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "How do you ensure value keeps being delivered after the round is over? (How will the project become commercially sustainable or a perennial good? )",
+              "explanation": "We could consider analytical services built on top of the tool, also building adaptations for various ecosystems"
+            },
+            {
+              "type": "paragraph",
+              "query": "How long will it take after funding is received to deliver value? (share a high level timeline)",
+              "explanation": "We plan to launch the first version of the tool at the end of August and use Sep-Oct to improve and collect community sentiment."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e0b53ed3cd46ee447814da"
+        },
+        "uid": "0x98f710e1cf511e6cd27222d8022107d5f2c971ebc0a075671e05ab04efc95b6e",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726002491,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726002494,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x4aebb6582e075b0d58170fad57f95b3807c9f130b7edfd02bd096433243ee325",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66e0b544d3cd46ee447814db"
+          },
+          "uid": "0xb35fc3c61713373eadc4b8be097e94c038a64ce0748081954123ae549c4ba219",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x98f710e1cf511e6cd27222d8022107d5f2c971ebc0a075671e05ab04efc95b6e",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1726002498,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1726002500,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "RnDAO",
+            "description": "RnDAO",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/rndao-karma-gap.png",
+            "slug": "rndao-1"
+          },
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66e3d50f6588cf6c168c3d8a"
+      },
+      "uid": "0x88fff8e4d3ae83582ed07ab38a719375de6ffefa02695c63a103cca8c4c0cb6a",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-13T06:00:42.000Z",
+      "updatedAt": "2024-09-13T06:00:47.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24"
+      },
+      "txid": "0xcc96d8741c0ab1d9624c962580dd8e73effc5d8e44f951802e4ab577324b0825",
+      "externalIds": [
+        "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e3d50f6588cf6c168c3d8c"
+        },
+        "uid": "0xfcd510d790b965ca1e77245d9ebc0028d42882f20cba8291e41c2c10a1cfa685",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x88fff8e4d3ae83582ed07ab38a719375de6ffefa02695c63a103cca8c4c0cb6a",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726207242,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726207247,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/385/37",
+          "title": "GG21 - Web3 Grants Ecosystem Advancement",
+          "description": "",
+          "payoutAddress": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+          "programId": "385_42161",
+          "amount": "847.94335952 USD",
+          "questions": [
+            {
+              "type": "checkbox",
+              "query": "How does your project contribute to the advancement of the Web3 grants ecosystem?",
+              "explanation": "Contributions to Web3 grants on-chain registry, Research on grant program design and effectiveness, Development of Web3 Grants tooling, Experiments with innovative funding mechanisms"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your previous work or plans related to the Web3 grants ecosystem.",
+              "explanation": "The idea of mapping the ecosystem was explored back in 2019 with the early DAOs / Genesis DAO etc: https://graphcommons.com/graphs/6a993e34-d8b0-4425-83ce-67c3560429e7?mode=connect back then it was a useful tool to explore the space and connect the dots. Now after some time, we plan to use a similar approach based on a variety of on-chain data to cluster voters and build better strategies with those insights."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project create value for the Web3 grants ecosystem?",
+              "explanation": "It can give a visual insight and a research tool for either building alliances or otherwise tracking the conflict of interest. There are several scoring practices exist, but this experiment gives more qualitative data, showing less visible connections between voters & projects."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your team's expertise in your chosen focus area within Web3 grants. Include relevant experience, publications, or past projects.",
+              "explanation": "The product part of the team is Max Semenchuk and Yineisy Mota from https://trustedseed.org/ from the dev side it’s Alireza and Krati from https://www.generalmagic.io/\n\nLast year we’ve worked together on https://regenscore.super.site/ , overall GM has wide experience with tools grants tooling including https://www.pairwise.vote/ In Trusted Seed we connect 360+ steward of various web3 commons."
+            },
+            {
+              "type": "paragraph",
+              "query": "How do you plan to share insights, methodologies, or tools developed through your project with the Cartographer Syndicate and the broader Web3 grants community?",
+              "explanation": "We’re planning to start with the OP citizen house analytics but than scale it further to other networks. With the the amount of data points tracked across various chains would allow to oversee the bigger governance space and learn better/faster as well as establishing the cross-chain reputation in governance and funding."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xcc96d8741c0ab1d9624c962580dd8e73effc5d8e44f951802e4ab577324b0825",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e0b7dbd3cd46ee447814dc"
+        },
+        "uid": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726003160,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726003163,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x6738e9f7feac7b06dd086cf3220bf0d861fe4bd5ccee1caa91f5273d1f8e0134",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66e0b891d3cd46ee447814de"
+          },
+          "uid": "0x72dedd4fa45661de6a76d65d047857d48a43f7e4bca4ab463ada2af3d1afb3f0",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1726003342,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1726003345,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Cartographer Syndicate",
+            "description": "Cartographer Syndicate",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/cartographer-syndicate-karma-gap.png",
+            "slug": "cartographer-syndicate-community"
+          },
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6728a5995275374d2583f418"
+      },
+      "uid": "0xe3ad4ac852c5232998697728902a3ca6cbf035186eb29ab26ea96ad94773ed31",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:44:38.000Z",
+      "updatedAt": "2024-11-04T10:44:41.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x7a851966b467cc9b134e3ca8737a3ded769e2caef1605301d31f0691e6cac012",
+      "externalIds": [
+        "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a5995275374d2583f41a"
+        },
+        "uid": "0xda2f86bf8e4f6f0f716bc9d061f463e3f6d5f14f7d19c2e4e384622d4cd34c3e",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xe3ad4ac852c5232998697728902a3ca6cbf035186eb29ab26ea96ad94773ed31",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717078,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717081,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/610/45",
+          "title": "GG22 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+          "programId": "610_42161",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/GeneralMagicio/op-gov-graph"
+            },
+            {
+              "type": "short-answer",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "https://gap.karmahq.xyz/project/govgraph/grants"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "it's currently focused on OP ecosystem, but soon should be available across various governance systems in L1 and L2. A report on the results so far: https://govgraph.fyi/products-1/op-citizen-house-case-study"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "GovGraph is an innovative approach to visualizing and understanding the relationships within governance ecosystems. Unlike traditional scoring systems, GovGraph focuses on the connections and interactions between power users, such as Delegates, Developers, and Citizens. "
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "By mapping these relationships through a dynamic and interactive graph, users can identify alliances, conflicts of interest, and clusters of influence. The system allows for detailed filtering and searching, providing insights into social graphs, voting patterns, and potential sybil attacks. This project aims to enhance the transparency and efficiency of the governance and funding processes."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "This is our release planning: https://github.com/orgs/GeneralMagicio/projects/14"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "Improving governance"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x7a851966b467cc9b134e3ca8737a3ded769e2caef1605301d31f0691e6cac012",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e135790ab0e44e394b0414"
+      },
+      "uid": "0xda5f1b2a3f29f9b34a37f02e885e9f352a77ad98884a037f9c1b0d1cee742136",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-24T10:35:35.000Z",
+      "updatedAt": "2025-03-24T10:35:37.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
+      },
+      "external": {
+        "octant": [
+          "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C"
+        ],
+        "giveth": [
+          "14963"
+        ]
+      },
+      "txid": "0x0f3c2bc0638930c3341bd50a16237fb47c2ebb558f849ffc3de1b1ec000a4343",
+      "details": {
+        "_id": {
+          "$oid": "67e1357b0ab0e44e394b0415"
+        },
+        "uid": "0x9cff34cbbd4d12430015e360aed2746a18a64aa6c451515503024d821061c152",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xda5f1b2a3f29f9b34a37f02e885e9f352a77ad98884a037f9c1b0d1cee742136",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742812535,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742812539,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://giveth.io/project/govgraph",
+          "title": "ENS x Octant Public Goods",
+          "payoutAddress": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+          "programId": "874_42161",
+          "amount": "80000 USDC",
+          "type": "grant-details",
+          "description": "We are participating in Octant x ENS QF round on Giveth"
+        },
+        "txid": "0x0f3c2bc0638930c3341bd50a16237fb47c2ebb558f849ffc3de1b1ec000a4343"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66a885ab00c3dbcb784e259e"
+        },
+        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722319215,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722320299,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66a885ab00c3dbcb784e259f"
+          },
+          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722319233,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722320299,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Octant",
+            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
+            "slug": "octant"
+          },
+          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67eaa0e5bc9e5a7098e25019"
+      },
+      "uid": "0x55aab7ce5914dd49972dce9452c6b75a5d7b9fc3f6dcff1244b584385409a102",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-31T14:04:10.000Z",
+      "updatedAt": "2025-03-31T14:04:21.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x3ea7a592b4448acffc0fae6f388cd2195c131a7ecf3dfe6fe5e221b85d195343",
+      "external": {
+        "gitcoin": [
+          "0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67eaa0e5bc9e5a7098e2501b"
+        },
+        "uid": "0xa50b4ad851c4abafd6f05f90b482954a37f122d3858c6cb3282d5dbdff334b6a",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x55aab7ce5914dd49972dce9452c6b75a5d7b9fc3f6dcff1244b584385409a102",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dc5a1420227a2302e8e28b30cf5dc50df24c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743429850,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743429861,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/865/12",
+          "title": "GG23 OSS - Web3 Infrastructure",
+          "description": "",
+          "payoutAddress": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+          "programId": "865_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "max.semenchuk@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "maxsemenchuk"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project Github Repo",
+              "explanation": "https://github.com/GeneralMagicio/op-gov-graph"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile to prior rounds.",
+              "explanation": "https://explorer.gitcoin.co/#/projects/0xf8eb666a7df2d28609bb67ec2c3646d46c44d8e5f78bc20e01a74e3ea6a6985f"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute significantly to the Ethereum network's infrastructure? Please provide specific examples and metrics if available.",
+              "explanation": "Enhanced Governance Transparency, Security & Coordination – The project helps visualize key connections among governance participants, aiding in decision-making, influence mapping, and collusion detection within OP Citizen House (as the main case, to be extended with other ecosystems)."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe any pioneering development work in your project, particularly in enhancing privacy, interoperability, or user experience.",
+              "explanation": "The latest development – Sybil tracking in governance and airdrops https://govgraph.fyi/blog/sybilrank-for-identifying-sybils-in-farcaster-case-study"
+            },
+            {
+              "type": "paragraph",
+              "query": "What specific problems or challenges in the Ethereum ecosystem does your project address? How does your solution improve upon existing alternatives?",
+              "explanation": "By mapping these relationships through a dynamic and interactive graph, users can identify alliances, conflicts of interest, and clusters of influence. \n\nUnlike traditional scoring systems, GovGraph focuses on the connections and interactions between power users, such as Delegates, Developers, and Citizens. "
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "We'd like to use funds for 1) scaling to other ecosystems 2) building further on the Sybil detection tech"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the decentralization and security of the Ethereum network?",
+              "explanation": "By improving governance"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "(no SC)"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x3ea7a592b4448acffc0fae6f388cd2195c131a7ecf3dfe6fe5e221b85d195343"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66e3d2156588cf6c168c3ca4"
+        },
+        "uid": "0xada637287d12a965fc1d2395981fe2e05c6699310b82e67ac375eb1f3aa4859a",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xedf4dC5A1420227A2302E8E28b30cF5DC50df24C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726206479,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726206485,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x615fa81a640dd76c95d86362b3abfcdfc0e10dd50abf9f66459589428e469435",
+        "externalIds": [],
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa434640c8488feaadece"
+            },
+            "name": "Tooling"
+          }
+        ]
+      },
+      "categories": [
+        "Tooling"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

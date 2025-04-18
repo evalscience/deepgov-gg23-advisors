@@ -1,5 +1,437 @@
 {
   "id": "42161-867-0x32904b351f232304f2e7816aca7d7a355f58beed975b6a2d3f09fece0847d20f",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "6728a7a75275374d2583f578"
+        },
+        "uid": "0x2bc8f52ae73113ab60cd853f6ecb40af540b8aadd8d2e98dd77a5fceb2ac3e04",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717604,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717607,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "**[eth.cd](https://eth.cd)**  transforms how we interact with ENS (.eth) domains by creating real-time, living profiles for every .eth name. it’s a gateway to explore, connect, and engage with ENS users.\n\neth.cd is the home of all ENS holders, giving them a living profile that evolves in real time. It’s where your digital achievements are showcased, your social and financial interactions are tracked, and your connections thrive. all on-chain, all in one place. Bridging the gap between them and their users. \n\n![eth.cd.Profile|690x388](https://webhash.b-cdn.net/Profileview.png)\n\n**The Vision:** eth.cd as the Gateway to the ENS Universe\nThe market potential of eth.cd is massive, with the power to capture and centralize a significant portion of the Web3 identity market:\n\n2.5M+ ENS profiles all in one place, providing unmatched visibility into the Web3 ecosystem.\n1M+ wallet holders will use eth.cd to transact, tip, communicate, and engage with others, fueling a vibrant economy of decentralized social interaction.\nAs Web3 adoption accelerates, tens of millions of subdomains will be added, making eth.cd the go-to platform for individuals, brands, DAOs, and businesses to manage and showcase their decentralized identities.\nThe Future of Decentralized Interaction\nWith eth.cd, we’re creating the foundation for real-time, decentralized interaction. Whether it’s supporting your favorite creators through tipping or messaging them, eth.cd positions itself as a key part of how decentralised identities are interacted with in the future. This is made possible by integration of protocols like EFP, XMTP and Huddle01, which bring decentralized communication directly into the platform.\n\n\nA pivotal feature of this vision is Frames. Frames unlock endless possibilities for customization and interaction on ENS profiles. They allow users to setup interactive elements directly to their profiles, enabling actions such as receiving payments, managing subscriptions, selling products, and more. But this is just the beginning.\n\n\n**For Users:** Frames turn ENS profiles into dynamic hubs for interaction, commerce, and engagement. Whether users want to offer products, accept payments, or manage event RSVPs, Frames provide a powerful way to bring these actions directly into their profile.\nFor Builders: Frames offer a new market opportunity. Developers can create and offer unique Frames tailored for specific tasks, such as DeFi tracking, DAO voting, or showcasing live game stats. This opens up the eth.cd ecosystem to endless innovation as new Frames are built to meet the evolving needs of Web3 users.\n\n\n**Key Features**\n\n**ENS-Based Dynamic Profiles:** eth.cd allows users to create a rich, interactive profile based on their ENS domain. Each profile dynamically displays the user’s digital footprint, including Twitter feeds, GitHub activity, and IPFS-linked content.\n\n**Decentralized Interaction:** By integrating decentralized messaging tools like XMTP, eth.cd provides users the ability to interact and network within the decentralized space.\n\n**Decentralized Social Feed:** The platform aggregates and showcases content from multiple on-chain sources, including ENS records, Platforms, Protocols and social media, offering a holistic view of the user's on-chain activity.\n\n**Easy Access to ENS Profiles:** Accessing profiles on eth.cd is effortless. Simply append \".cd\" to any .eth name in your browser (e.g., entering nick.eth.cd will load the eth.cd profile for \"nick.eth\"). \n\n**Gamification and Leaderboards:** Users are incentivized to enrich their profiles through leaderboards and badges, making eth.cd not just a profile hub, but a place of friendly competition and engagement.\nProduct Shots: \n\n**Tip your frENS**\n![Tip your ENS friend|690x388](https://webhash.b-cdn.net/Tipping.png)\n\n\n**Message your frENS**\n![Tip your ENS friend|690x388](https://webhash.b-cdn.net/Messaging.png)\n\n\n\n\n**Future Enhancements**\n\nOur vision extends beyond the features we currently offer. Planned future updates include:\nDecentralized Chatrooms and Video Calls: We aim to add more communication tools such as decentralized chatrooms and encrypted video calls, empowering users to have secure, private discussions on the platform.\n\n**Real-Time On-Chain Social Feeds:** Powered by the Ethereum Follow Protocol (EFP), eth.cd displays real-time social feeds based on a user’s on-chain social graph (who follows whom). Users can see:\nDeFi activity, such as bets on Polychain, token swaps on Uniswap, and transactions on Aave.\nSocial media posts from decentralized platforms like Farcaster and Mirror.\n\n**Advanced Ranking Systems:** We plan to implement more nuanced criteria for ranking profiles, factoring in community endorsements and creative content curation, ensuring that the most engaging and valuable contributions are recognized.\n\n**Expanded Frame Ecosystem:** As part of our commitment to personalization and utility, we will expand the capabilities of Frames, allowing users to pin additional interactive elements to their profiles. Builders will be able to create new Frames tailored for various tasks, including:\n\n**Subscription Models:** Enable creators to integrate subscription services (e.g., Hypersub) where fans can directly subscribe to their content from the profile.\nMerchandise Sales: Offer Frames for creators to display merchandise listings and integrate direct sales through platforms like Slice.\n\n**Content Previews & Releases:** Let creators pin teasers, trailers, or exclusive content directly to their profiles, providing a window into their latest projects.\nNFT Drops: Provide creators a Frame for managing and minting NFT collections, letting their audience directly mint NFTs from their profile.\n\n**Proposal Participation:** Users can submit or support DAO proposals via a Frame, making participation more accessible.\n\n**RSVP & Event Management:** Creators and organizations can use Frames to promote events and manage RSVPs, offering easy access to event participation.\n\n**Community Endorsements:** Let users add endorsement Frames, where their community can leave testimonials, reviews, or notes of support.\n\n\nBy supporting this project, you are investing in the infrastructure that will power real-time, on-chain social experiences. It’s not just about transactions, eth.cd is building a future where connection, community, and engagement are at the heart of Web3 interaction. With the addition of Frames, we’re enabling deeper customization and utility for profiles, empowering both users and builders to create, interact, and engage like never before.\n\n",
+          "imageURL": "bafkreiewk26s4u6thrzt3ag3nl47sc5ioxtd3er7nxupfka7islrosdv4y",
+          "title": "eth.cd: decentralised interaction with decentralized identities (ENS).",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://eth.cd"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/ethdotcd"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/eth-cd"
+            }
+          ],
+          "slug": "ethcd-decentralised-interaction-with-decentralized-identities-ens",
+          "type": "project-details"
+        },
+        "externalIds": []
+      },
+      "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+      "createdAt": "2024-11-04T10:53:24.000Z",
+      "updatedAt": "2024-11-04T10:53:27.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "6728a7a75275374d2583f577"
+      },
+      "uid": "0xf70cb6cdf6efa0c2c95c01019f5cbc34477d5795ec1d051deb9034425aea8c3d",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:53:24.000Z",
+      "updatedAt": "2024-11-04T10:53:27.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xd1d2d5992736d0173683158b755529c08619cc72eb0655b3c67296259cd9127f"
+      },
+      "externalIds": [
+        "0x8025a816bd9384bae58b488941bdba13dc3188d63245067bf243cb48e38f9a87",
+        "0x32904b351f232304f2e7816aca7d7a355f58beed975b6a2d3f09fece0847d20f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x8025a816bd9384bae58b488941bdba13dc3188d63245067bf243cb48e38f9a87",
+          "0x32904b351f232304f2e7816aca7d7a355f58beed975b6a2d3f09fece0847d20f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a7a75275374d2583f57a"
+        },
+        "uid": "0x61942889d0395df5c5557d5a06716a69f7a873e221c4415230d511b335d97ae8",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xf70cb6cdf6efa0c2c95c01019f5cbc34477d5795ec1d051deb9034425aea8c3d",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717604,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717607,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/642/28",
+          "title": "ENS Ecosystem",
+          "description": "",
+          "payoutAddress": "0xC903650aB7f88f7c912F657B020FcAB8989e27a9",
+          "programId": "642_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a7a75275374d2583f576"
+        },
+        "uid": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717604,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717607,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdb0d5bbef4d86032880"
+        },
+        "uid": "0xd1d2d5992736d0173683158b755529c08619cc72eb0655b3c67296259cd9127f",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377263,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377264,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x9fe7d3b8a780fe7b01795cc990f8cd2a5f74f903e8f7aed770df782f9e8a83e7",
+        "details": {
+          "_id": {
+            "$oid": "6610cdb66fb7a034586fb784"
+          },
+          "uid": "0x97ea2c8f2dc90a82fa2d96c9b1b7f16f6f7899363be19d8c4bf5b6725bba9e98",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xd1d2d5992736d0173683158b755529c08619cc72eb0655b3c67296259cd9127f",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1712377267,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1712377270,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "ENS",
+            "description": "The GG20 ENS Identity Round round is meant to support projects actively building on top of ENS. Any project that is growing, enhancing, or supporting the decentralized identity system around ENS is eligible.",
+            "imageURL": "",
+            "slug": "ens-arb",
+            "externalId": "0xfb88ca703349b94e0e6af74ec1aec62db1a5b4f43abe1324e1158d36357147cf"
+          },
+          "txid": "0xf5ad6cb47b3f66e75e8d3c0d09aee94be172fc4545a90fab7921fa01276dc56e"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ecbae16a54c05fcd3d1ab6"
+      },
+      "uid": "0x4dd27bf82bd3a576f71eca8576acce75d565f29e6aa5c97cbbafe7e7ab43df95",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:19:40.000Z",
+      "updatedAt": "2025-04-02T04:19:45.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x554438b7fe3303cc67de36144561765a813f3098c2b3ad71d28515b2b20f7b6b",
+      "external": {
+        "gitcoin": [
+          "0x8025a816bd9384bae58b488941bdba13dc3188d63245067bf243cb48e38f9a87",
+          "0x32904b351f232304f2e7816aca7d7a355f58beed975b6a2d3f09fece0847d20f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbae26a54c05fcd3d1ab7"
+        },
+        "uid": "0xff4c4180142e0ac404527de9e2ab282aac72ed9d9546e9ee38dccd47bf7b09a7",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x4dd27bf82bd3a576f71eca8576acce75d565f29e6aa5c97cbbafe7e7ab43df95",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567580,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567586,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/107",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0xC903650aB7f88f7c912F657B020FcAB8989e27a9",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "hid@eth.cd"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "w3hidayath"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/ethdotcd"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "Yes, ENS Ecosystem Oct 14, 2024 - Oct 23, 2024"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Eth.cd contributes to the growth of the open-source software (OSS) ecosystem by providing a Web3 social networking platform that leverages the Ethereum Name Service (ENS) to create dynamic, decentralized profiles based on users’ ENS records. This approach enhances digital identity management within the Ethereum community, fostering greater engagement and collaboration among users.\n\nIn addition to its core platform, eth.cd has expanded support to include subdomain projects such as base.eth linea.eth and wannabet.eth, enabling users to create personalized profiles under these domains. For example, a user can have a profile like jesse.base.eth.cd, showcasing their digital identity within the ENS framework. \n\nBy developing these tools and resources, eth.cd enhances the OSS ecosystem by promoting decentralized identity solutions, supporting community-driven projects, and providing open data resources that encourage collaboration and innovation within the Ethereum community."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "Eth.cd is a Web3 social networking platform that utilizes the Ethereum Name Service (ENS) to create dynamic, decentralized profiles based on users’ ENS records.  This approach offers several distinctive features and use cases: ￼\n\nKey Features and Use Cases:\n\t1.\tENS-Based Profiles: Each ENS domain transforms into a unique, personalized profile. By appending “.cd” to any .eth name (e.g., username.eth.cd), users can access a comprehensive digital identity that aggregates their online presence.  ￼\n\t2.\tContent Aggregation: Eth.cd dynamically showcases content linked to the user’s ENS records, including:\n\t•\tSocial Media Feeds: Integration with platforms like Twitter and Instagram to display recent posts.\n\t•\tGitHub Activity: Curated lists of repositories and contributions, highlighting the user’s involvement in open-source projects.\n\t•\tIPFS Website Previews: Previews of decentralized websites linked via the content hash in ENS records.  ￼\n\t3.\tGamification and Leaderboards: The platform features leaderboards that rank the top 100 profiles based on the completeness and richness of their ENS records. This gamified approach incentivizes users to fully utilize ENS capabilities, fostering a more engaged community.  ￼\n\t4.\tDecentralized Social Networking Tools: Eth.cd integrates functionalities such as decentralized messaging (via XMTP), following, and friend requests, enhancing community building within the Ethereum ecosystem.  ￼\n\t5.\tSupport for Subdomains: The platform extends support to ENS subdomains, allowing users to create personalized profiles under domains like base.eth and wannabet.eth. For instance, a user can have a profile like jesse.base.eth.cd, showcasing their digital identity within specific communities.  ￼\n\nDifferentiation:\n\nEth.cd distinguishes itself in the Web3 social networking space through:\n\t•\tENS-Centric Approach: By building upon ENS, eth.cd offers decentralized and user-owned profiles, contrasting with traditional centralized social networks.\n\t•\tComprehensive Digital Identity: The platform’s ability to aggregate diverse content sources into a single profile provides a holistic view of a user’s digital presence.\n\t•\tCommunity Engagement: Features like leaderboards and decentralized social tools promote active participation and collaboration within the Ethereum community. ￼\n\nBy integrating these features, eth.cd enhances the utility of ENS domains and fosters a more interconnected and vibrant Web3 ecosystem."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Eth.cd is committed to advancing its platform by introducing features that enhance user experience and foster deeper engagement within the Web3 social ecosystem. The recent grant funding will be allocated to achieve the following development goals:\n\n1. User Profile Customization:\nWe plan to implement extensive customization options, allowing users to personalize their profiles beyond the current ENS-based framework. This includes customizable layouts, themes, and the ability to showcase selected content, enabling users to create a unique digital identity that reflects their personality and interests.\n\n2. Decentralized Media Sharing:\nRecognizing the importance of personal content, we aim to integrate decentralized solutions for sharing photos, videos, and other memories. By leveraging decentralized storage networks, users will be able to securely upload and share media content, ensuring data ownership and resistance to censorship.\n\n3. Enhanced Social Features:\nTo promote community interaction, we intend to introduce features such as decentralized messaging, following, and friend requests. These tools will facilitate seamless communication and connection among users within the Ethereum community, fostering a more vibrant and engaged network.\n\nThe grant funds will be utilized to support the development, testing, and deployment of these features. This includes allocating resources for research into decentralized storage solutions, user interface design for customization features, and the development of secure, scalable social interaction tools."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x554438b7fe3303cc67de36144561765a813f3098c2b3ad71d28515b2b20f7b6b"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a7a75275374d2583f576"
+        },
+        "uid": "0x98f358f2229e5e7f6f9cdee4437bc52b2d5c27e2f4c79f99b1102cbcc8942158",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xc903650ab7f88f7c912f657b020fcab8989e27a9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730717604,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730717607,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

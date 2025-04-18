@@ -1,5 +1,267 @@
 {
   "id": "42161-867-0xdcee75dfe2ab53f2050228e6870f174b3dc6d5a6c0b661640edeabc7c8a35cf4",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x3f49e4054209df15f89bd188f59dea554f423db5938c0caa3711e7091bfaf53c",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67f0868bfa0a7234e87dc2cc"
+        },
+        "uid": "0x0ed39b70ac4b120d413ff93171cde69c5bcb08dd3af53c0889f71aed12761d5b",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x3f49e4054209df15f89bd188f59dea554f423db5938c0caa3711e7091bfaf53c",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743816324,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743816331,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# Problem Statement - Current Challenges in Certification and Skills Verification\n\n1. Lack of Monetization for Educational Content Creators\n   - Small-scale educators and content creators struggle to monetize their educational materials effectively.\n   - Existing online learning platforms often take a significant cut of their revenue.\n\n2. Limited Accessibility of Certifications\n   - Traditional certification programs are often expensive and centralized, making them inaccessible to many learners worldwide.\n   - Organizations and universities have limited reach when offering certifications.\n\n3. No Unified Proof of Skills Across Learning Sources\n   - Learners acquire knowledge from various sources (e.g., YouTube, online courses, self-study), but there is no standardized way to verify and prove their skills.\n   - Recruiters struggle to assess candidates' actual knowledge without relying solely on traditional degrees or work experience.\n\n4. Blockchain Transparency Leading to Cheating in Exams\n   - Storing answers on-chain can lead to cheating since blockchain data is publicly accessible.\n   - A robust anti-cheating mechanism is needed to ensure exam integrity while maintaining decentralization.\n\n5. Difficulty in Identifying and Verifying Candidates’ Skills for Employers\n   - Employers and recruiters need a verifiable and transparent way to assess candidates' knowledge and skills efficiently.\n   - There is no streamlined way to summarize a user's certified skills using blockchain-based credentials.\n\nWeb3 Certifier aims to solve these issues by providing an open-source, blockchain-based certification platform that leverages NFT-based certificates, a fair monetization model for educators, and an AI-powered agent to enhance recruitment and skill verification.\n\n\n# How Web3 Certifier Works\nWeb3 Certifier is an open-source, blockchain-based examination platform. The users that pass the examinations get NFT certificates. The examinations are multiple-choice questions with 4 possible answers. The exam process is done in 4 phases:\n1. Exam Creation – A certifier creates an exam with multiple-choice questions.\n2. Answer Submission - Users submit answers to the exam.\n3. Exam Correction – The certifier provides the correct answers within 5 minutes after the exam ends.\n4. NFT Certification – Users who pass the exam can claim their NFT certificates.\nAdditionally, there is an AI Agent running on Discord that can recommend an exam based on users' interests or summarize the skills of a user based on their certifications. For more info, contact me on discord (username: \"elamore_\").\n\nThis project is the first of its kind and will attract web2 users to web3 thus contributting significantly to the growth of the web3 ecosystem.\n\n\n# Anti-Cheating Mechanism\nOne major challenge that Web3 Certifier addresses is blockchain transparency which makes users' answers and certifiers' answers publicly available for everyone to see, which could lead to cheating. That's why this implementation uses submissions of the hash of the answers instead of the answers themselves. The hashing is done by the frontend and the hash is submitted to the blockchain. The user does not see the hashing process but does get a password which exists due to the hashing process.\nThis hash consists of \n- the answers to the questions,\n- the address of the user and\n- a random, secret key. \n\nThat way only the hash is revealed and other users can not find out the user's answers. Then, after the examination period ends the certifier corrects the exam by providing the correct answers. After that, each user has to let the system know the answers that they submitted before the exam ended. They have to provide the answers and the secret key to the system. The system needs to hash those (it also uses the user address) and must get the initial hash in order to confirm that the users did not change their answers after exam end. At the same time the system makes sure that the user has enough correct answers to pass the exam. In order to make it easy for the user to provide their answers and the secret key we give the user a passport right before they click on the submit button on phase 2. This password includes the user's answers and the secret key and the user can copy it and store it. After the correction phase users provide their password and if they pass the exam, they get their NFT certificates.\n\n\n# Development Roadmap\n\nPhase 1: Core Improvements (0-1 months)\n1. Frontend Enhancements\n2. Smart Contract Refinements\n3. AI Agent Enhancements\n\nPhase 2: Security & Growth (1-2 months)\n1. Smart Contract Audit\n2. Marketing & User Acquisition\n3. Expanded AI Capabilities\n\nPhase 3: Expansion & Scaling (2-3 months)\n1. Multi-Chain Deployment\n2. New Certification Models\n3. Ecosystem Development\n\n\n# Team\nCurrently, I (Spyros) am the sole developer behind Web3 Certifier. I am a blockchain developer and also have experience in full-stack development. You can see my previous projects on github: https://github.com/spyros-zikos?tab=repositories.\nSome of them are:\n1. AUTODAO (https://ethglobal.com/showcase/auto-dao-t0und)\n    In this project my team won 2 prizes in the ETHGlobal hackathon. I mostly developed the frontend and did the DIMO integration.\n2. Bonding Curve Presale (https://github.com/spyros-zikos/Bonding-Curve-Presale)\n    This is a project I developed for a company named White Had DAO which wanted to launch a new product and wanted me do build their smart contracts.\n3. Tip This Creator (https://github.com/spyros-zikos/tip-this-creator)\n    I developed this project during the Agentic Ethereum ETHGlobal hackathon. It is an AI agent that helps twitter users tip their favorite content creators using crypto.\n\n\n# Growth Strategy\nOur initial focus will be on forming partnerships with Web3 educational platforms and content creators. These collaborations will allow educators to monetize their content more effectively while increasing audience engagement through certification-based learning.\n\nAs adoption grows, we will expand our reach by:\n\n1. Onboarding a Wider Range of Educators – Partnering with instructors from various fields, beyond Web3, to offer a diverse array of certifications.\n\n2. Community Engagement & Incentives – Encouraging user participation through referral programs, tokenized rewards, and interactive learning challenges.\n\n3. Targeted Marketing & Outreach – Running campaigns on social media, forums, and Web3 communities to attract both learners and recruiters.\n\n4. Enterprise & Institutional Partnerships – Collaborating with universities and organizations to integrate Web3 Certifier into existing educational programs.\n\nBy leveraging these strategies, Web3 Certifier aims to become the go-to platform for verifiable, decentralized certification across industries.\n\n# Competition\nWhile several platforms provide certification and credentialing solutions, Web3 Certifier stands out by integrating blockchain-based certification, AI-powered skill verification, and a fair monetization model for educators. Below is a comparison with existing alternatives:\n\n**1. Traditional Online Learning Platforms (Coursera, Udemy, edX)**  \n✅ Strengths: Well-established platforms with a large user base, diverse course offerings, and industry-recognized certificates.  \n❌ Limitations:\n   - High platform fees, reducing educators' earnings.\n   - Centralized certificates that are easy to forge.\n   - No integration with Web3 for verifiable and tamper-proof credentials.\n   - Lack of AI-driven skill verification for recruiters.\n\n**2. Web3 Credentialing Solutions (OpenCerts, POAP, Verifiable Credentials)**  \n✅ Strengths: Leverage blockchain for verifiable credentials, ensuring transparency and security.  \n❌ Limitations:\n   - Focus primarily on certificate issuance rather than skill verification through exams.\n   - Lack of structured anti-cheating mechanisms, making knowledge validation unreliable.\n   - Minimal adoption by educators due to complex technical barriers.\n\n**3. General Blockchain-Based Education Projects**  \n✅ Strengths: Some projects promote decentralized learning and blockchain-backed credentials.  \n❌ Limitations:\n   - Few platforms incorporate a structured examination process to validate knowledge.\n   - Limited or no AI integration to enhance skill analysis and recruitment.\n   - Lack of incentives for small educators to monetize their content efficiently.\n\n### How Web3 Certifier Stands Out  \n✅ Decentralized & Transparent: NFT-based certificates ensure tamper-proof, verifiable credentials.  \n✅ Built-in AI Agent: Summarizes certified skills and assists recruiters in talent identification.  \n✅ Fair Monetization Model: Empowers independent educators with direct earnings from exam submissions.  \n✅ Robust Anti-Cheating Mechanism: Hash-based answer submissions maintain exam integrity while keeping data secure.  \n✅ Seamless Web3 Integration: A user-friendly interface that simplifies blockchain-based certification for non-crypto users.\n\nUnlike existing platforms that either focus solely on certificate issuance or general online learning, Web3 Certifier delivers a comprehensive blockchain-powered certification ecosystem with skill verification, exam integrity, and decentralized monetization—bridging the gap between Web3 and education in a way no other platform does.",
+          "imageURL": "bafkreiefhssimhem3y7b5zr4ftr24pmi7m5ojwaocqvuiz5hmfbgbj3qf4",
+          "title": "Web3 Certifier",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://web3-certifier-deployment-nextjs-git-main-spyros-zikos-projects.vercel.app"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/web3certifier"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/Web3-Certifier"
+            }
+          ],
+          "slug": "web3-certifier",
+          "type": "project-details"
+        },
+        "txid": "0x45a15b9f3aff0863d70addde627c38c98d543b08fe38c8f4eaa53a53159641dc"
+      },
+      "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+      "createdAt": "2025-04-05T01:25:24.000Z",
+      "updatedAt": "2025-04-05T01:25:31.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67f0868bfa0a7234e87dc2cb"
+      },
+      "uid": "0x83883c90bf9a84e929f7c403c54c45783950704ba0804015750b7542a19bd4ea",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x3f49e4054209df15f89bd188f59dea554f423db5938c0caa3711e7091bfaf53c",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-05T01:25:24.000Z",
+      "updatedAt": "2025-04-05T01:25:31.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x45a15b9f3aff0863d70addde627c38c98d543b08fe38c8f4eaa53a53159641dc",
+      "external": {
+        "gitcoin": [
+          "0xdcee75dfe2ab53f2050228e6870f174b3dc6d5a6c0b661640edeabc7c8a35cf4"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67f0868bfa0a7234e87dc2ce"
+        },
+        "uid": "0xd87cc53124603d2401c114098da8b1ce0ba5a02aa2e1652eefe9307756410be4",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x83883c90bf9a84e929f7c403c54c45783950704ba0804015750b7542a19bd4ea",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743816324,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743816331,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/118",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x637365C8697C63186dC4759bd0F10af9B32D3c1A",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "spyrosblock@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@spyrosblock"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/Web3-Certifier/Web3-Certifier"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://discord.gg/4rXWFNGmDJ"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Web3 Certifier enhances the open-source ecosystem by introducing an innovative blockchain-based certification platform that bridges Web3, online education, and professional credentialing. Our project expands the OSS ecosystem in several key ways:\n\n1. Open-Source Smart Contracts – We provide fully open-source smart contracts for exam creation, certification issuance, and verification. Developers can fork, improve, and integrate our contract logic into their own decentralized applications.\n\n2. Decentralized Credentialing Framework – By leveraging NFTs as verifiable proof of knowledge, Web3 Certifier establishes an open, transparent system for skill recognition that can be adopted by other OSS projects and Web3 platforms.\n\n3. AI-Powered Skill Verification – Our AI Agent, integrated with Discord, interprets on-chain certification data and provides recruiters and learners with insights into skillsets. This fosters a more efficient hiring process and helps the OSS community build talent-driven projects.\n\n4. Support for Content Creators and Educators – Web3 Certifier provides an open-source solution for educators to create and monetize exams while keeping their work decentralized. This benefits independent content creators and online education platforms, making high-quality knowledge more accessible.\n\n5. Bridging Web2 and Web3 – By simplifying blockchain-based certification, our project introduces more users to decentralized technologies, promoting Web3 adoption within the broader OSS community.\n\nThrough these contributions, Web3 Certifier strengthens the OSS ecosystem by offering a transparent, fair, and scalable certification system that benefits developers, educators, and learners alike."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "Web3 Certifier provides an easy and fair mechanism for educators and online learning platforms to monetize their content. Educators will be able to create exams that certify the knowledge of their audience in order to earn submission fees and better engage their audience. Also, users will be able get a certificate for knowledge that they get from a wide range of sources (like youtube videos) thus having a detailed resume of what they know and the skills they have, which helps greatly in getting a job\n\nThe platform also features a Discord-integrated AI Agent which makes sense of the on-chain data and helps users understand it. For instance, the AI Agent can analyze and summarize a user's certified skills based on their earned certificates, making it easier for recruiters to identify qualified candidates. By streamlining skill verification and broadening access to certification, Web3 Certifier fosters both formal and informal education, empowering individuals to showcase their expertise. \n\nThe use cases that are enabled by this project are:\n1. Access to monetization for small educational content creators.\n2. A platform for organizations and universities to reach a broader audience and make their certifications accessible to all with unprecedented ease.\n3. Users can verifiably demonstrate their knowledge to potential employers or in social media.\n4. Recruiters can understand users' skills using the AI Agent to help them make hiring decisions."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "Currently, Web3 Certifier is a working prototype. The frontend is deployed on Vercel, and the smart contract is deployed on Sepolia, where it has been manually tested. However, there are several key areas that need improvement to make the platform production-ready.\n\nIf awarded this grant, the funds will be allocated as follows:\n\n1. Frontend Enhancements – Improving the user interface (UI) and user experience (UX) to make the platform more intuitive and visually appealing.\n\n2. Smart Contract Improvements – Adding essential features such as:\n   - A submission limit for each exam.\n   - A pause and stop mechanism to give certifiers better control.\n   - Additional security measures and optimizations.\n\n3. AI Agent Enhancements – Expanding the AI’s capabilities to:\n   - Better interpret and summarize users' certifications.\n   - Provide more accurate exam recommendations.\n   - Address edge cases for a more seamless user experience.\n\n4. Marketing and Business Development – Attracting educators and online learning platforms to adopt Web3 Certifier, ensuring a growing and engaged user base.\n\n5. Smart Contract Audit – If sufficient funds remain, a portion will be allocated to auditing the smart contracts to enhance security and reliability.\n\nThese improvements will ensure Web3 Certifier evolves into a polished, user-friendly, and secure platform that benefits educators, learners, and recruiters in the Web3 space."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "0xe7a5b06E8dc5863566B974a4a19509898bdEc277, 11155111"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x45a15b9f3aff0863d70addde627c38c98d543b08fe38c8f4eaa53a53159641dc"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67f0868bfa0a7234e87dc2ca"
+        },
+        "uid": "0x3f49e4054209df15f89bd188f59dea554f423db5938c0caa3711e7091bfaf53c",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743816324,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743816331,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x45a15b9f3aff0863d70addde627c38c98d543b08fe38c8f4eaa53a53159641dc",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

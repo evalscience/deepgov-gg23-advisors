@@ -1,5 +1,272 @@
 {
   "id": "42161-863-0x7188748a141f5d82a01c699bcc1ea8e005c4712844a4abf43e4b12368ac3721c",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x81359f3d078bd06dca0e15ccc6c416664f86e05b1a30dc9e36a172f1da40ac1d",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67eaa1b5bc9e5a7098e25079"
+        },
+        "uid": "0x02348875451f145dc8c85e914f9bb157145973748c4910582602ccecde3bf8d9",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x81359f3d078bd06dca0e15ccc6c416664f86e05b1a30dc9e36a172f1da40ac1d",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xdee249a3ea13583b53c48f5e25d5611b0d229c5b",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743430062,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743430069,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "Wizard provides a complete development environment for Arbitrum Stylus smart contracts. From writing code to deploying contracts, every step is streamlined and accessible directly in your browser instead of complex +30 min local setup.\n\n**Demo:** https://x.com/arbitrum/status/1889010128562933845\n**App:** https://docs.thewizard.app/getting-started/introduction.html\n**Docs:** https://docs.thewizard.app/getting-started/introduction.html\n\n--\n\n# ✨ Features\n\n- **Zero Setup Required** - Start building Stylus smart contracts instantly\n- **Professional Editor** - Full syntax highlighting with Stylus SDK integration\n- **Instant Compilation** - Compile Rust to Stylus bytecode in seconds\n- **Built-in Deployment** - Deploy to Arbitrum Sepolia with pre-funded wallet\n- **Interactive Testing** - Test contracts through auto-generated interface\n- **Code Sharing** - Share contracts via public links\n\n--\n\n# 💫 Wizard vs Traditional Setup\n\n**Initial Setup:**\n- **Traditional Setup:** Requires over 30 minutes of installation and configuration.\n- **Wizard:** Less than 30 seconds—simply open your browser.\n\n**Prerequisites:**\n- **Traditional Setup:** Needs Rust toolchain, Docker, VS Code, and Foundry.\n- **Wizard:** Only requires a modern web browser.\n\n**Development:**\n- **Traditional Setup:** Local machine setup involving multiple tools.\n- **Wizard:** Fully browser-based IDE with no local setup required.\n\n**Compilation:**\n- **Traditional Setup:** Involves configuring a local WASM toolchain.\n- **Wizard:** Offers instant cloud-based compilation.\n\n**Deployment:**\n- **Traditional Setup:** Manual wallet and network configuration.\n- **Wizard:** Simple one-click deployment using a pre-funded wallet.\n\n**Testing:**\n- **Traditional Setup:** Setting up local test environments manually.\n- **Wizard:** Automatically generates ABIs with an interactive testing interface.\n\n**Updates:**\n- **Traditional Setup:** Requires manual updates of the toolchain.\n- **Wizard:** Platform stays continuously updated automatically.\n\n**Collaboration:**\n- **Traditional Setup:** Complex to share development environments.\n- **Wizard:** Instant, easy sharing of contracts via public links.\n\n",
+          "imageURL": "bafkreiejd7eellxabhy2twr7g63heurtftcsr6dnxwf53oig7tkieosdhm",
+          "title": "The Wizard",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://thewizard.app/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/WizardOnStylus"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/yklabsofficial"
+            }
+          ],
+          "slug": "the-wizard",
+          "type": "project-details"
+        },
+        "txid": "0x3c9942ac78c49b9066b658c1d2ce4ecbcce95efda1e7359639c9e9ec4860f86a"
+      },
+      "recipient": "0xdee249a3ea13583b53c48f5e25d5611b0d229c5b",
+      "createdAt": "2025-03-31T14:07:42.000Z",
+      "updatedAt": "2025-03-31T14:07:49.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67eaa1b5bc9e5a7098e25078"
+      },
+      "uid": "0x448a1a7326c4f688ac782e7e2e1d6c765df7121072647359d1459236e1ee5f20",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x81359f3d078bd06dca0e15ccc6c416664f86e05b1a30dc9e36a172f1da40ac1d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xdee249a3ea13583b53c48f5e25d5611b0d229c5b",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-31T14:07:42.000Z",
+      "updatedAt": "2025-03-31T14:07:49.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x3c9942ac78c49b9066b658c1d2ce4ecbcce95efda1e7359639c9e9ec4860f86a",
+      "external": {
+        "gitcoin": [
+          "0x7188748a141f5d82a01c699bcc1ea8e005c4712844a4abf43e4b12368ac3721c"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67eaa1b5bc9e5a7098e2507b"
+        },
+        "uid": "0x45e0d54aed1a03d597caf62a93b9c63aab14607b5ab9ba6218faf9198f69cb77",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x448a1a7326c4f688ac782e7e2e1d6c765df7121072647359d1459236e1ee5f20",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xdee249a3ea13583b53c48f5e25d5611b0d229c5b",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743430062,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743430069,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/863/15",
+          "title": "GG23 OSS - Developer Tooling and Libraries",
+          "description": "",
+          "payoutAddress": "0xdee249A3EA13583B53c48F5e25d5611b0D229C5B",
+          "programId": "863_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "tolgayayci@protonmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "tolga0x"
+            },
+            {
+              "type": "paragraph",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/tolgayayci/wizard"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds",
+              "explanation": "No"
+            },
+            {
+              "type": "paragraph",
+              "query": "Provide a brief overview of your tool, library, or framework. What specific problem or inefficiency in the development process does it address?",
+              "explanation": "Wizard provides a complete development environment for Arbitrum Stylus smart contracts. From writing code to deploying contracts, every step is streamlined and accessible directly in your browser instead of complex +30 min local setup."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project reduce development barriers, improve efficiency, or enhance the security of Web3 projects? Please provide specific examples or metrics if available.",
+              "explanation": "💫 Wizard vs Traditional Setup for Arbitrum Stylus\n\nWizard simplifies Arbitrum Stylus development in many topics which you can review below one by one.\n\n**Initial Setup:**\n\n- **Traditional Setup:** Requires over 30 minutes of installation and configuration.\n- **Wizard:** Less than 30 seconds—simply open your browser.\n\n**Prerequisites:**\n\n- **Traditional Setup:** Needs Rust toolchain, Docker, VS Code, and Foundry.\n- **Wizard:** Only requires a modern web browser.\n\n**Development:**\n\n- **Traditional Setup:** Local machine setup involving multiple tools.\n- **Wizard:** Fully browser-based IDE with no local setup required.\n\n**Compilation:**\n\n- **Traditional Setup:** Involves configuring a local WASM toolchain.\n- **Wizard:** Offers instant cloud-based compilation.\n\n**Deployment:**\n\n- **Traditional Setup:** Manual wallet and network configuration.\n- **Wizard:** Simple one-click deployment using a pre-funded wallet.\n\n**Testing:**\n\n- **Traditional Setup:** Setting up local test environments manually.\n- **Wizard:** Automatically generates ABIs with an interactive testing interface.\n\n**Updates:**\n\n- **Traditional Setup:** Requires manual updates of the toolchain.\n- **Wizard:** Platform stays continuously updated automatically.\n\n**Collaboration:**\n\n- **Traditional Setup:** Complex to share development environments.\n- **Wizard:** Instant, easy sharing of contracts via public links.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe the current usage and support for your tool within the developer community. This could include GitHub stars, downloads, or testimonials from developers.",
+              "explanation": "Wizard is heavily acclaimed app by the Arbitrum community, you can see last month's stats below.\n\n- **175+ Stylus projects/contracts** successfully created using Wizard.\n- **Over 60,000 views** on Wizard-related posts **on X**, receiving recognition and promotion from influential ecosystem members, including the official Arbitrum account.\n- A steadily growing user base, with **over 60 active registered developers**."
+            },
+            {
+              "type": "paragraph",
+              "query": "Outline your project's roadmap and how the grant funds will be used to achieve your development goals.",
+              "explanation": "## Project Roadmap and Grant Utilization\n\nThe grant funds will accelerate the growth of Wizard by developing new features, improving infrastructure, and building a vibrant developer community.\n\n---\n\n### 1. Infrastructure & Enhanced Wizard Functionality\n\n- **\"Try on Wizard\" iframe buttons**  \n  Instant embedding and external integrations directly into websites.\n\n- **GitHub OAuth Integration**  \n  Seamless user authentication and collaborative project management.\n\n- **GitHub Project Cloning**  \n  Directly clone Stylus projects from GitHub URLs into Wizard IDE.\n\n- **Real-time Event Viewer**  \n  Immediate display of contract-emitted events following transactions.\n\n- **Browser-based File Explorer**  \n  Intuitive project structure management directly within the IDE.\n\n- **Integrated In-browser Terminal**  \n  Manual execution of advanced `cargo stylus` commands for greater flexibility.\n\n- **In-browser Rust Dependency Manager**  \n  Easy integration and management of external Rust crates (`crates.io`).\n\n- **Automatic Rust Formatting & Linting**  \n  Built-in Rust formatting (`rustfmt`) and linting (`Clippy`) to enhance code quality.\n\n---\n\n### 2. Multi-chain Deployment & Developer-friendly Integrations\n\n- **Simplified Multi-chain Deployment Interface**  \n  Direct support for Arbitrum One, Sepolia, and custom Orbit chains through custom RPC endpoints.\n\n- **WASM Binary Analysis and Optimization**  \n  Built-in integrations (`wasm-opt`, `twiggy`) offering binary size analysis and optimization suggestions.\n\n- **Secure Wallet Integration**  \n  Deployment directly through popular Ethereum wallets for improved security.\n\n- **Automated Contract Verification**  \n  Immediate automatic verification of contracts on Arbiscan, eliminating manual processes.\n\n- **Expanded Contract Template Library**  \n  A comprehensive collection of pre-built templates, including NFTs, governance mechanisms, and foundational DeFi scenarios.\n\n- **Deployment History Dashboard**  \n  Tools to track, manage, and review past deployments easily.\n\n- **Compiled File Downloads**  \n  Quick download options for WASM binaries and ABI files to support frontend integrations and external applications.\n\n---\n\n### 3. Community Growth & Educational Content\n\n- **Comprehensive Documentation**  \n  Detailed documentation to simplify onboarding and improve developer experience.\n\n- **Tutorial Series**  \n  Five written tutorials and three instructional videos focused on practical use cases and key Wizard features.\n\n- **Live Developer Workshops**  \n  Two interactive workshops highlighting the capabilities and advanced features of Wizard v2.\n\n- **Community Growth Goals**  \n  Achieve measurable community milestones:\n  - 150+ deployed contracts\n  - 200+ active developers regularly using Wizard\n  - 1000+ followers on Wizard’s social media (\"@WizardOnStylus\")\n\n---\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x3c9942ac78c49b9066b658c1d2ce4ecbcce95efda1e7359639c9e9ec4860f86a"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67eaa1b5bc9e5a7098e25077"
+        },
+        "uid": "0x81359f3d078bd06dca0e15ccc6c416664f86e05b1a30dc9e36a172f1da40ac1d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xdee249a3ea13583b53c48f5e25d5611b0d229c5b",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743430062,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743430069,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x3c9942ac78c49b9066b658c1d2ce4ecbcce95efda1e7359639c9e9ec4860f86a",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

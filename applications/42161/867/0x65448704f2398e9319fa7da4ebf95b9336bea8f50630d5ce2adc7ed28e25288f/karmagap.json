@@ -1,5 +1,555 @@
 {
   "id": "42161-867-0x65448704f2398e9319fa7da4ebf95b9336bea8f50630d5ce2adc7ed28e25288f",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "66ffbc770a3dafe37fb5af7e"
+        },
+        "uid": "0xf3e9ba8a3b551a2aedbc4327fd0042749ad98bc2f516e0b175f4e774fa0a4294",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1728035951,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1728035959,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# Byte Onchain dApp/App\n\nByte Onchain is a decentralized application (dApp) designed to assist developers from Web2 backgrounds in transitioning into Web3 development.\n\n**View Updated Figma Design Here**\nhttps://www.figma.com/file/YejE8jONlUjja7rWJK5Qd9/Borderless-App?type=design&node-id=0%3A1&mode=design&t=pRU4u7ZR5vr5wiW9-1\n(Web Interface Design in Progress)\n\n[![1.png](https://i.postimg.cc/TPMjrH2V/1.png)](https://postimg.cc/QFmWDmTC)\n\nByte Dapp targets Web2 developers interested in learning about web3 technologies and building web3 tools, OSS or products.\n\n**User Journey:**\n\n1. **Wallet Connect & Onchain Verification:** New users create profiles by connecting their wallets, leveraging Gitcoin Passport integration to ensure a minimum score of 5. Users’ unique ENS Domain Names serve as distinctive identifiers for their profiles and for chatting capabilities on Byte.\n\n2. **Onchain Interest:** New users specify their areas of interest and expertise, “Solidity”, and “Onchain Analysis” or specify which chains they’re interested in.\n\n3. **Exploring Content:** Users browse through available classes, video sessions, and mentor profiles to find relevant resources and connections.\n\n[![2.png](https://i.postimg.cc/52Mjpcv2/2.png)](https://postimg.cc/N5pgfzp3)\n\n4. **Learning and Collaboration:** Users enroll in classes, watch video sessions, and join collaboration spaces to learn and collaborate with others.\n\n5. **Seeking Mentorship:** Users connect with mentors, schedule sessions, and receive guidance on specific topics or projects.\n\n[![3.png](https://i.postimg.cc/8PnV49Yr/3.png)](https://postimg.cc/JGJg46M1)\n\n6. **Completing Projects:** Users apply for projects, collaborate with team members, and use project management tools to complete tasks and deliverables.\n\n7. **Earning Certificates:** Upon completion of courses or projects, users connect their wallets to mint verifiable certificates, adding to their professional credentials. Byte will integrate Unlock Protocol and Hypercert for these areas.\n\n8. **Engaging with Community:** Users participate in forums, discussions, events, and workshops to network, learn, and stay updated on industry trends.\n\n9. **Push Notifications & Reminders:** Users can get notified for classes they add to their schedule.\n\n[![5.png](https://i.postimg.cc/tRvxdC9d/5.png)](https://postimg.cc/z3Wv8Nb3)\n\n\nHOW BYTE ONBOARDS WEB2 DEVELOPERS TO WEB3\n\n- **Creating Learning Paths:**\n    - Byte Onchain creates structured learning paths that cover the fundamentals of blockchain technology, smart contracts, decentralized applications (dApps), and other relevant web3 topics.\n\n- **Content Delivery:**\n    - Byte Onchain Provides a mix of learning materials, including video lectures, interactive coding exercises, quizzes, and written articles.\n\n    - Integrate live coding sessions, AMAs (Ask Me Anything) with senior devs, and project-based learning to enhance the educational experience.\n\n- **Mentorship Program (Required to have ENS):**\n    - Byte Onchain offers an opportunity for experienced web3 developers to guide and support transitioning web2 developers, only users and mentors with ENS Domain names can chat with each other.\n\n    - Byte Onchain Facilitates communication between mentors and mentees through chat forums, and video conferencing leveraging ENS for connectivity between ENS users.\n\n    - Peer code review and collaborative debugging sessions.\n\n- **Community Building:**\n    - The Byte dApp fosters a collaborative learning environment by creating a community forum where developers can connect, share knowledge, and work on projects together.\n\n- **Project Assignments:**\n    - Real-world project assignments to apply theoretical knowledge in practical scenarios.\n\n    - Opportunities to contribute to open-source projects and build a portfolio in the web3 space.\n\n- **Resource Library:**\n    - Extensive library of articles, spaces events, and documentation for continuous learning.\n\n    - Regularly updated content to keep developers informed about the latest developments in web3 technology.\n\n- **Progress Tracking:**\n    - Personalized dashboards to track learning progress, project milestones, and achievements.\n\n    - Gamification elements such as badges and leaderboards to incentivize learning and engagement.\n\n- **User Support:**\n    - Responsive customer support to address queries, technical issues, and provide assistance throughout the learning journey.\n\n[![4.png](https://i.postimg.cc/FsJ7jyWm/4.png)](https://postimg.cc/QHh8DTZn)\n\n**BYTE WEB3 IMPLEMENTATION:**\n\n- Byte Allows users to connect their crypto wallets to the dApp.\n\n- Integrate blockchain technology to mint NFTs as certificates of completion for courses or projects and add it to their LinkedIn Profiles.\n\n- Verifies user identity using Onchain verification infrastructures.\n\n**FUTURE INTEGRATIONS**\n\n- Integrate social features like discussion boards, chat channels, and group projects to encourage interaction.\n\n- Explore the potential of decentralized governance models where community members can vote on future development decisions.\n\n**HOW BYTE ONCHAIN BENEFITS WEB3 DEV TOOLING**\n\n- Smooth transition: Provides a structured path for web2 developers to adapt their skills to the web3 landscape.\n\n- Practical experience: Offers hands-on projects and mentorship to facilitate practical learning and skill development.\n\n- Community engagement: Fosters a supportive community where developers can collaborate, share knowledge, and grow together.\n\n- Credentialing: Enables users to earn verifiable certificates, enhancing their credibility and employability in the web3 job market.\n\n[![6.png](https://i.postimg.cc/Xv2C2Vw0/6.png)](https://postimg.cc/mcHkkWXd)\n",
+          "imageURL": "bafkreihvxwux4fegtz3mslm3nkcqchyedj2epxxtmk3ej7xkcy3bcjcyxi",
+          "title": "Byte Onchain (by B<>rder/ess)",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://borderless.cryptosmartnow.io/"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/BorderlessDev"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/CryptoSmartNow"
+            }
+          ],
+          "slug": "byte-onchain-by-brderess",
+          "type": "project-details"
+        },
+        "txid": "0x26b188bdb3e3c6462f8ea35e6b2b4207e894a99781265da5e8f4c84a8a013ddf",
+        "externalIds": []
+      },
+      "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+      "createdAt": "2024-10-04T09:59:11.000Z",
+      "updatedAt": "2024-10-04T09:59:18.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "66ffbc760a3dafe37fb5af7b"
+      },
+      "uid": "0x2cc93ef0b8b9cde2f02877bf75c9ef32f35a165aae298cb8128042db291350f0",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-10-04T09:59:11.000Z",
+      "updatedAt": "2024-10-04T09:59:18.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
+      },
+      "txid": "0x26b188bdb3e3c6462f8ea35e6b2b4207e894a99781265da5e8f4c84a8a013ddf",
+      "externalIds": [
+        "0x65448704f2398e9319fa7da4ebf95b9336bea8f50630d5ce2adc7ed28e25288f"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x65448704f2398e9319fa7da4ebf95b9336bea8f50630d5ce2adc7ed28e25288f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66ffbc760a3dafe37fb5af7c"
+        },
+        "uid": "0xa389f9e5b06ad9be6ca87cc1060ccafa9848cee60fa820669289770686413167",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x2cc93ef0b8b9cde2f02877bf75c9ef32f35a165aae298cb8128042db291350f0",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1728035951,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1728035958,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/10/66/13",
+          "title": "Octant Community Round 1",
+          "description": "",
+          "payoutAddress": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+          "programId": "66_10",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "If you've participated in past grant rounds, please share any new updates or milestones from the prior months (N/A if you are yet to participate).",
+              "explanation": "We've completed these Milestones.  Week 1: Planning & Home Screen - Tasks:   - Design the UI for the home screen.   - Implement the home screen with basic navigation.   - Set up the project structure and development environment. - Deliverables:   - Completed and functional home screen.   Week 2: Wallet Integration - Tasks:   - Integrate wallet connection using RainbowKit.   - Implement wallet-based authentication and session management.   - Ensure secure handling of wallet interactions.   - Testing wallet connection flows. - Deliverables:   - Fully functional wallet connection.   - Secure wallet-based authentication.  Week 3: Classroom & Update Page - Tasks:   - Design the UI for the classroom and update pages.   - Implement classroom functionalities (content display, interactions).   - Implement update page functionalities (news, notifications). - Deliverables:   - Fully functional classroom and update pages.  Week 4: Admin Panel - Tasks:   - Design the UI for the admin panel.   - Implement admin functionalities (user management, content control).   - Set up roles and permissions based on wallet address or roles.   - Integrate the admin panel with smart contracts and backend. - Deliverables:   - Completed and functional admin panel.   - Admin access and control features."
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in any Octant epoch (Epoch 0 through Epoch 4) OR a previous Gitcoin Grants round? Please provide details and evidence of your participation.",
+              "explanation": "We've participated in the GG20 round https://explorer.gitcoin.co/#/round/42161/24/18\nB<>rder/ess has also participated in Octant sponsored rounds like the green pill Octant round. https://explorer.gitcoin.co/#/round/10/0xe9459565709c5e856ffbc3cc8715824945d92de7/15 "
+            },
+            {
+              "type": "paragraph",
+              "query": "Please describe how your project contributes to the growth and development of the Octant ecosystem.",
+              "explanation": "We've contributed to the growth of the Octant Ecosystem through community building. \n\nWe've organized Public Goods education sessions, and participatory sessions where we brought community members to Octant discord and also organized Content Contests.\n\nhttps://x.com/BorderlessDev/status/1821606655152550187/photo/1"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project align with the round's focus on community and education within the Octant ecosystem?",
+              "explanation": "We've dedicated at least 12 cumulative hours from August 7th to August 20th during which we helped both Crypto OGs and newbies understand Octant and how to buy, transfer, and lock $GLM to participate in Octant Governance.\n\nWe also Organize public goods, and General Crypto education knowledge sessions."
+            },
+            {
+              "type": "paragraph",
+              "query": "Provide a clear roadmap of your project, detailing future milestones and deliverables. How does this demonstrate your commitment to long-term impact and growth within the Octant ecosystem?",
+              "explanation": "Updated Milestone 1:\nOnboard 2,000: At least one Onchain Attestation by 2,000 non-crypto natives, including businesses, web2 developers, Creators & Artisits, and general users to the web3 ecosystem through the B<>rder/ess 3.0 event in November 2024.\n\nExpected Immediate Outcome:\ni. 50 web2 devs onboarded through hackathons and technical sessions\nii. 100 business owners onboarded through conference discussions and practical sessions,\niii. 200 Non-Crypto native Artists & Creators onboarded through the Public goods concert,\niv. 1,650 Non-Crypto Natives performing at least 1 Onchain attestation including downloading wallets before, during, and after B<>rder/ess 3.0\n\n\nUpdated Milestone 2:\n- Product House/5,000 Onchain Value Transactions: Leveraging on the B<>rder/ess 3.0 event impact, we kick off cipher sessions for web2 developers and mini incubator programs for businesses that wish to transition to web3.\n\nDuring this program, businesses and developers will team up to build projects that provide RWA B2C value for users in emerging markets, products like OTC trades, Savings, Payment, Fan Arts & Fashion, Logistics and Onchain Invoice Generation and a lot more.\n\nWe run a Product house so the devs we graduate can collaborate with other builders - project managers, compliance officers, and other tacks to work on projects and build value.\nThe Product house has developers with teams focused on maintaining and running the projects.\nAn example of what we did with our product house brought 4 businesses to the Lisk Ecosystem, you can read it here.\nhttps://mirror.xyz/karlagod.eth/nVxg3z3Uk3N756UFdfydoyj21NCPBaZWpaHRuT9QTQI\n\n\nLONG TERM IMPACT\nByte Onchain event and Product House can significantly impact the Octant ecosystem by expanding the community to other regions like Africa, strengthening the developer ecosystem for OSS projects that would come into the Octant Ecosystem.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your team's expertise and how it contributes to the successful execution of your project.",
+              "explanation": "1. KarlaGod - Team Lead https://twitter.com/_karlagod\n2. Primidac - Lead Tutor, Full stack -https://twitter.com/primidac\n3. Annabel - Administrator - https://twitter.com/annabelallison3\n4. Samuel Ayo - Head of Tech - https://twitter.com/Adedayosamuel75\n5. Ebube - Junior Dev, Tutor - https://twitter.com/Chief_Ebube\n6. Great Adams - Solidity & Java Script Tutor - https://twitter.com/greatAdams01\n7. Frank Miebaka - Social Media Handler- https://twitter.com/frank_miebaka\n8. Josh Tayo - Data Analyst Tutor- https://twitter.com/JaMorty04\n9. Emmanuel Duke - UI/UX Tutor - https://twitter.com/goldpilot_cr\n10. Soll IB - Volunteer Lead - https://twitter.com/SOLL8348\n11. Xpan Victor - Arbitrum Stylus Tutor - https://x.com/Xpan369\n12. Jesse Raymond - Solidity Tutor - https://x.com/Jesserc_?t=gBk5Etdupv-aM00mEGX5ug&s=09\n\n- Describe team\n    \n    Our team is made up of a Business Developer, 1 admin, 2 Product Designers, 1 Solidity Tutor, 1 Cyber Security Tutor, 1 Web Design and Development Tutor, 1 Head of Tech, 1 Data Analyst Tutor, 1 Teal Script Tutor, 1 Volunteer Lead.\n    \n    Primidac - Prince Michael Dalafi Chinedu is passionate about teaching people.\n    Annabel Allison - Is our Head of Admin and is incharge of students registrations etc.\n    Samuel Ayobami - Is incharge of all things technical activities for the hub, he also teaches hardwares.\n    Ebude - Is our first female junior developer and tutor.\n    Great Adams - Is our JavaScript Developer and Tutor\n    Josh Tayo - Teaches data science\n    Emmanuel Duke - Teaches Ui/UX"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project complement or enhance existing initiatives within the Octant ecosystem rather than competing directly against them?",
+              "explanation": "Developer Education\nCommunity Building and\nWeb3 hub building"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your approach to community engagement and how you plan to contribute to a collaborative and constructive funding environment.",
+              "explanation": "Our approach is purely organic and collaborative."
+            },
+            {
+              "type": "paragraph",
+              "query": "How do you plan to use the funding to maximize your project's ongoing impact within the Octant ecosystem if selected?",
+              "explanation": "Funding will help us provide education to a larger number of interested young people wanting to learn about public goods and participate.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "What unique educational content or resources have you created for the Octant ecosystem? How has the community received these? Please share any relevant links",
+              "explanation": "You can view some of them here and also from Farcaster.\n\nOur recent Content Contest brought a lot more educational content to the Octant ecosystem.\n\nhttps://x.com/BorderlessDev/status/1825480796943138859"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x26b188bdb3e3c6462f8ea35e6b2b4207e894a99781265da5e8f4c84a8a013ddf",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66ffbc760a3dafe37fb5af7a"
+        },
+        "uid": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1728035951,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1728035958,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x26b188bdb3e3c6462f8ea35e6b2b4207e894a99781265da5e8f4c84a8a013ddf",
+        "externalIds": [],
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67c0d1cad560c5036633e24d"
+          },
+          "uid": "0x9daf005c993d13711837fcddaf3d06e337c56a3ef87065dd90d4cd7aa6f52396",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0x2cc93ef0b8b9cde2f02877bf75c9ef32f35a165aae298cb8128042db291350f0",
+          "attester": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+          "recipient": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1740689868,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1740689866,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "Milestone",
+          "data": {
+            "title": "byteonchain.xyz is live!",
+            "description": "",
+            "endsAt": 1740610800,
+            "startsAt": 1727737200,
+            "type": "milestone"
+          },
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "completed": {
+        "_id": {
+          "$oid": "67c0d85ad560c5036633e24e"
+        },
+        "uid": "0x3af578361a6c44ded13e8603c1284545e3bbe793f5ff29aa04c72cc950ad32e6",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x2cc93ef0b8b9cde2f02877bf75c9ef32f35a165aae298cb8128042db291350f0",
+        "attester": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+        "recipient": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1740691546,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1740691546,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "**Grant Completion Summary: Byteonchain.xyz – Onboarding the Next Wave of Web3 Users**\n\nGM Public Greats,\n\nIn October 2024, we secured funding through Octant Community and Octant Epoch 6 to build Byteonchain.xyz, a next-gen Web3 onboarding and education tool designed for seamless user activation and verifiable on-chain attestations. Today, we’re thrilled to announce that Byteonchain is live, delivering on our mission to simplify Web3 onboarding and education—starting with attestations on the Arbitrum ecosystem.\n\n**What We Built**\nWith this grant, we designed and deployed an onboarding and educational too that:\n✅ Walks users through wallet setup and blockchain interactions step by step.\n✅ Provides onboarding with small gas fee stipends to ensure first transactions are successful.\n✅ Integrates on-chain attestations to verify user engagement and education completion.\n\nByteonchain now serves as a verifiable way to track Web3 learning & engagement.\n\nImpact Since Launch\n🚀 Onboarded 166 new users, providing them with real, verifiable on-chain experiences.\n📜 Issued 166 attestations for learning completions & community engagement.\n🌐 Still developing the admin section of byteonchain and events scheduling.\n\n**How the Grant Fueled Our Execution**\nHere’s how we allocated the grant to deliver Byteonchain:\n\n1. Smart Contract Development & Security – Audits & verifiable attestations.\n2. Gas Fee Stipends – Providing Arbeth to newbies through Smartchange\n3. UI/UX & DevOps – Optimized for a smooth, intuitive onboarding experience.\n4. Community & Education – Partnered with ecosystem players to amplify adoption.\n\nWhat’s Next?\nWe’re far from done. The next phase of Byteonchain focuses on:\n📈 Scaling attestations to more Web3 education partners.\n💡 Enhancing security with AI-driven fraud detection for Sybil resistance.\n🎯 Onboarding 10K+ users, ensuring every interaction is verifiable & meaningful.\n\nTL;DR: The grant enabled us to build a public good that Web3 actually needs. Now, Byteonchain.xyz is live, and onboarding the next wave of crypto-native users.\n\nWe move forward with the same ethos: build relentlessly, empower communities, and keep it all on-chain.\n\nLet's Gooooooo🚀",
+          "type": "grant-completed"
+        }
+      },
+      "community": {
+        "_id": {
+          "$oid": "66a885ab00c3dbcb784e259e"
+        },
+        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722319215,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722320299,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66a885ab00c3dbcb784e259f"
+          },
+          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722319233,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722320299,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Octant",
+            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
+            "slug": "octant"
+          },
+          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e866ef9cb9f2d20939a06a"
+      },
+      "uid": "0x4b079698488766a292ec660ac82c10dead489655493b5321e3ff5b000da241fc",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-29T21:32:13.000Z",
+      "updatedAt": "2025-03-29T21:32:31.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x3206ed0c3004207e74a7c68eae1ad7169e12542358f70a8991174e2f323b1ea9",
+      "external": {
+        "gitcoin": [
+          "0x65448704f2398e9319fa7da4ebf95b9336bea8f50630d5ce2adc7ed28e25288f"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67e866ef9cb9f2d20939a06c"
+        },
+        "uid": "0x62370d553e93a618ed82a261282a9913881b72426f9adf9d83e8779611d782d0",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x4b079698488766a292ec660ac82c10dead489655493b5321e3ff5b000da241fc",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743283933,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743283951,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/22",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "karly2obaks@gmail.com"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@cryptosmartnow"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/B-rder-ess-Dev-Hub/byteonchain"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://t.me/+rRzq-jqm3aQzNTRk"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "Mission #1 by Fractal Visions\nOctant Community Round 1\nENS Identity April 2nd 2024"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "1. **Open-Source for Everyone**  \nByte Onchain is fully open-source, with our codebase available on GitHub. This allows developers, event organizers, DAOs, and hackathon hosts to easily customize and deploy their own onboarding quizzes or courses, we also created admin dashboards so anyone can create their own quizzes and onboarding sessions.  \n\n**Impact:**  \nUniversity Web3 clubs and event organizers are already using Byte Onchain’s code to create tailored onboarding solutions for their events and communities.  \n\n2. **Boosting On-Chain Credentials**  \nByte Onchain utilizes open-source credentialing protocols like EAS (Ethereum Attestation Service), enabling on-chain attestations (e.g., proof of onboarding or course completion) on networks like Arbitrum, Optimism, Base, and Celo.  \n\n**Impact:**  \nOver 200 attestations have been issued via Byte Onchain, driving the adoption of decentralized identity standards and promoting open-source tools for verifiable credentials.  \n\n3. **Increasing OSS Contributors**  \nByte Onchain helps Web2 developers transition into Web3 by introducing them to open-source principles, GitHub workflows, and Public Goods concepts.  \n\n**Impact:**  \nDevelopers evolve from learners to active contributors. For example, students from Bayero University Kano and the University of Nigeria Nsukka have contributed to Byte On-chain’s repositories and other Web3 public goods projects.  \n\n4. **Supporting DAO Onboarding Activities**  \nByte Onchain provides an affordable, open-source onboarding solution for DAOs.\n\n**Impact:**  \nSimplifies onboarding process for DAO admins and makes it faster.\n\n5. **Community-Driven Development**  \nByte Onchain’s open-source dApp and Admin Panel invite developers worldwide to propose improvements, fix bugs, and enhance UX/UI.  \n\n**Impact:**  \nThe project has already received contributions and feedback from external developers, fostering collaboration and strengthening the open-source ecosystem in the Web3 onboarding space.  \n\nByte Onchain is building a more accessible, collaborative, and decentralized future for Web3 onboarding. Join us in shaping it!"
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "Byteonchain.xyz makes the Web3 onboarding and educational process, such that the experience for the newbies is both;\n\na. Community Centric (Human)\nb. Onchain Verifiable (Tech)\n\n\n# Features & Use Cases of Byte Onchain\n\n1. Multi-Chain Web3 Onboarding Usecase\n- Users are guided through an onboarding process with their community:\n- Download a wallet (e.g., Metamask).\n- Add supported chains like, Arbitrum, Optimism, Base, or Celo.\n- Receive $0.20 - $1 worth of gas fees directly from community members or (on-chain - we're working on this).\n- Complete a simple quiz (based on the project or community onboarding needs).\n- Sign an attestation proving onboarding completion using open protocols like EAS\n\n2. On-Chain Attestation & Credentialing Features\nByte Onchain integrates the Ethereum Attestation Service (EAS) to issue on-chain credentials. These attestations serve as tamper-proof proof of onboarding, quiz completion, or other learning outcomes.\n\n3. Admin Panel Features for DAO & Community Leaders\nByte Onchain offers an Admin Panel where organizers (e.g., DAOs, Web3 clubs, event hosts) can:\n- Customize quizzes to suit their project or ecosystem.\n- View participants and their scores.\n- Track on-chain attestations issued.\n- Manage gas fee distributions (Working on this)\n\n# What sets us apart, how we're differentiated.\n\n1. Byteonchain.xyz offers a simpler, verifiable, and community-driven approach to Web3 onboarding and education. Unlike other onboarding tools, we don’t just introduce users to wallets and blockchains—we provide a measurable, on-chain record of their learning journey. This is what sets us apart:\n\n2. Verifiable Onboarding with On-Chain Attestations\nMost competitors offer guides and tutorials but lack a way to verify whether a user actually completed onboarding.\n\n3. Byteonchain.xyz tracks onboarding progress and issues on-chain attestations, ensuring users complete the necessary steps before moving forward.\n\n4. Community-Driven Gas Fee Support\nTraditional onboarding methods require users to self-fund their first blockchain transaction, which can be a barrier.\n\n5. We enable communities to sponsor gas fees ($0.20 - $1) to help users complete their first transaction.\n\n6. Integration with Web3 Events, DAOs, and Hackathons\nMany onboarding platforms focus on static courses without integration into real Web3 experiences.\nByteonchain.xyz is built for live events, allowing hackathons, DAOs, and Web3 conferences to track who has successfully onboarded.\n\n7. Simplified, Gamified Learning Process\nUnlike complex courses that overwhelm beginners, our approach uses:\n\n- Step-by-step wallet and blockchain setup\n- Community quizzes to reinforce learning\n- On-chain certifications to prove completion\n\n8. On-Chain Certifications for Courses\nMany Web3 courses and learning platforms don’t provide blockchain-based proof of completion.\nWith Byteonchain.xyz, users can claim certifications as on-chain attestations by purchasing a less than $0.20 token to cover gas fees, making their achievements verifiable onchain.\n\n\nOur focus is on growing Web3 participation and supporting open-source contributors, ensuring long-term ecosystem sustainability."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "1. Gas fee automations\nWe want to implement a feature where, users claim gas fees for their attestations at the point of attesting.\nOr a solution where the gas fees are settled by our contracts and don't require the user to pay.\nIn the admin section, DAO admins can see how much gas fees have been used and how many attesttations have been done with them.\n\n2. Expand Multi-Chain Support:\nIntegrate additional blockchain networks (e.g., zkSync, Gnosis Chain, Scroll) to support a broader range of ecosystems and users.\n\n3. Gamified Learning & Quests:\nLaunch a gamified version of Byte Onchain where users complete learning quests, onboarding journeys, and micro-tasks with leaderboard mechanics and additional incentives.\n\n4. Mobile Optimization & Wallet SDK:\nOptimize Byte Onchain for mobile-first users and develop a lightweight SDK that projects can integrate into their own dApps and communities.\n\n5. Community Education Modules:\nExpand the platform to include deeper Web3 learning modules (e.g., DeFi, DAO governance, OSS contribution guides) to transition users from onboarding to meaningful contribution.\n\n6. Open-Source Contributor Program:\nEstablish a contributor rewards program to onboard more developers into the Byte Onchain OSS repository and encourage active maintenance, feature development, and documentation.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "Deployer address for all 4 networks\n0x2d122fEF1613e82C0C90f443b59E54468e16525C\n\nChain ID\nArbitrum: 42161\nBase: 8453\nOptimism: 10\nCelo: 42220"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x3206ed0c3004207e74a7c68eae1ad7169e12542358f70a8991174e2f323b1ea9"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66ffbc760a3dafe37fb5af7a"
+        },
+        "uid": "0x5f695ebf44a1ca202399ea3a8028142d7aec19427e9bc420d151d70072b5f668",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9DCbA70B2dfe5807e2A847E065EBb666791F8b8A",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1728035951,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1728035958,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x26b188bdb3e3c6462f8ea35e6b2b4207e894a99781265da5e8f4c84a8a013ddf",
+        "externalIds": [],
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }
