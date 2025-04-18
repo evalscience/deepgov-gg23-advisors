@@ -1,7 +1,6 @@
 import { z } from "zod";
 
 export const ReviewSchema = z.object({
-  summary: z.string(),
   review: z
     .string()
     .describe(

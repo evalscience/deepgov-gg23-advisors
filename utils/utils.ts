@@ -121,6 +121,15 @@ export function loadReview(
     return null;
   }
 }
+export function loadKarmaGap(applicationId: string): any {
+  try {
+    return JSON.parse(
+      readFileSync(getApplicationPath(applicationId) + "/karmagap.json", "utf8")
+    );
+  } catch (error) {
+    return null;
+  }
+}
 
 export async function fetchModelSpecs(): Promise<
   { name: string; profileUrl: string; style: string; constitution: string }[]
