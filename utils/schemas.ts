@@ -4,7 +4,7 @@ export const ReviewSchema = z.object({
   review: z
     .string()
     .describe(
-      "A review of the application with motivation and citations from the research"
+      "A review of the application with motivation and citations from the research. Use newlines to separate paragraphs."
     ),
   strengths: z
     .array(
