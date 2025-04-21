@@ -1,6 +1,7 @@
 import { openai } from "@ai-sdk/openai";
 import { Agent } from "@mastra/core/agent";
-
+import { google } from "@ai-sdk/google";
+import { anthropic } from "@ai-sdk/anthropic";
 export const evaluationAgent = new Agent({
   name: "Evaluation Agent",
   instructions: `
@@ -10,36 +11,8 @@ export const evaluationAgent = new Agent({
     Your task is to evaluate this grant application in a strict and fair, objective, and thorough manner. 
     Find strengths, weaknesses, and requested changes.
     `,
-  model: openai("gpt-4o"),
-  // model: anthropic("claude-3-5-sonnet-20240620"),
+  model: openai("gpt-4.1-2025-04-14"),
+  // model: google("gemini-1.5-pro-latest", {}),
+  // model: google("gemini-2.0-flash-thinking-exp-01-21"),
+  // model: anthropic("claude-3-7-sonnet-20250219"),
 });
-
-export const createEvaluationPrompt = ({
-  application,
-  round,
-  agent,
-}: {
-  application: string;
-  round: string;
-  // research: string;
-  agent: { constitution: string; style: string };
-}) => `
-
-  Evaluate the following grant application based on the provided model specification.
-  
-  Review the application and use the research information as a reference to provide a fair and objective evaluation.
-  
-  Please analyze the following:
-  
-  **Grant Application:**  
-  ${application}
-
-  **Round details**
-  ${round}
-  
-  **Model Specification:**  
-  ${agent.constitution}
-  
-  Reply in the style of:
-  ${agent.style}
-`;

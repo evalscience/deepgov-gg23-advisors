@@ -109,14 +109,15 @@ export function loadRoundDetails(chainId: string, roundId: string): any {
   const roundPath = `rounds/${chainId}/${roundId}/details.json`;
   return JSON.parse(readFileSync(roundPath, "utf8"));
 }
-export function loadReview(
-  chainId: string,
-  roundId: string,
-  agent: string
-): any {
+export function loadReview(applicationId: string, agent: string): any {
   try {
-    const roundPath = `rounds/${chainId}/${roundId}/review-${agent}.json`;
-    return JSON.parse(readFileSync(roundPath, "utf8"));
+    // const roundPath = `applications/${chainId}/${roundId}/review-${agent}.json`;
+    return JSON.parse(
+      readFileSync(
+        getApplicationPath(applicationId) + `/review-${agent}.json`,
+        "utf8"
+      )
+    );
   } catch (error) {
     return null;
   }
@@ -125,6 +126,15 @@ export function loadKarmaGap(applicationId: string): any {
   try {
     return JSON.parse(
       readFileSync(getApplicationPath(applicationId) + "/karmagap.json", "utf8")
+    );
+  } catch (error) {
+    return null;
+  }
+}
+export function loadResearch(applicationId: string): any {
+  try {
+    return JSON.parse(
+      readFileSync(getApplicationPath(applicationId) + "/research.json", "utf8")
     );
   } catch (error) {
     return null;

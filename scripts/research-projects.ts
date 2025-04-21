@@ -1,4 +1,10 @@
-import { getProjectName, loadApplicationsFromDirectory } from "../utils/utils";
+import {
+  getApplicationId,
+  getApplicationPath,
+  getProjectName,
+  loadApplicationsFromDirectory,
+  saveFile,
+} from "../utils/utils";
 import { mastra } from "../agents";
 
 async function main() {
@@ -10,18 +16,25 @@ async function main() {
   if (!researchNetwork) {
     throw new Error("Research network not found");
   }
-  const application = applications[0];
 
-  console.log(application?.metadata.application);
+  // TODO: Should loop through all applications
+
+  const index = applications.findIndex((application) =>
+    getProjectName(application)?.includes("RubyScore")
+  );
+  const application = applications[index];
+
+  console.log(application?.metadata);
   console.log(
     "🔍 Starting research on Project...\n",
     getProjectName(application)
   );
+  const prompt = `A Grant Application JSON is provided. Research this project and give me a report on it. Make sure you're researching the correct project because there might be many with the same name.
+  ${JSON.stringify(application.metadata)}
+  `;
 
-  return;
-  const prompt = `Give me a report on Project`;
-  // Generate a report using the research network
-  // Using the generate() method as per the API update (MEMORY[8bf54da9-89a8-4e5b-b875-234a1aa8a53b])
+  console.log(prompt);
+
   const result = await researchNetwork.stream(prompt, {
     maxSteps: 20, // Allow enough steps for the LLM router to determine the best agents to use
   });
@@ -53,7 +66,12 @@ async function main() {
   console.log("\n\n📝 Final Research Report:\n");
 
   console.log("\n\n📊 Agent Interaction Summary:");
-  console.log(researchNetwork.getAgentInteractionSummary());
+  console.log(researchNetwork.getAgentInteractionHistory());
+
+  saveFile(
+    getApplicationPath(getApplicationId(application)) + "/research.json",
+    researchNetwork.getAgentInteractionHistory()
+  );
 
   console.log("\n🏁 Research complete!");
 }
