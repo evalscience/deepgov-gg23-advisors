@@ -1,46 +1,38 @@
 {
   "reviewer": "open-source-capitalist",
-  "review": "Alright, let’s cut through the noise and get to the code: Peersky Browser is swinging for the fences in the Web3 browser game. This project is all about max utility—obliterating centralized choke points and letting users surf .eth domains and IPFS content natively, no HTTP gateways, no middlemen, no Big Brother. That’s a direct hit on the root cause of Web3’s UX bottleneck: centralization and clunky access. \n\nPeersky’s approach is pure open-source ethos—local-first, peer-to-peer, protocol-native. The browser’s native ENS resolution, direct smart contract browsing (web3://), and local Helia IPFS node integration are all bleeding-edge. This isn’t just a browser; it’s a decentralized gateway, and that’s a systemic upgrade for Ethereum’s infrastructure. The project’s roadmap is ambitious: moving toward offline-capable Web3 resolution and blockchain-based SSL verification. If they pull it off, that’s a paradigm shift for decentralized publishing and identity.\n\nBut let’s not get lost in the hype. The app is still experimental, and there’s a lack of hard adoption metrics—no user numbers, no growth stats, no clear evidence of broad impact yet. The roadmap is visionary, but the path to mainstream adoption is foggy. There’s also a dependency on HTTP-based RPC calls, which means the system isn’t fully offline or censorship-proof yet. Plus, there’s no detail on security audits or how the project will handle malicious content or phishing—critical for a browser.\n\nBottom line: Peersky is a high-potential, high-risk play. It’s got the right DNA for systemic impact and aligns perfectly with the round’s focus on foundational infrastructure, privacy, and decentralization. But to unlock max funding, the team needs to show traction, tighten up their security game, and lay out a concrete adoption strategy. Build in public, but don’t forget to ship with receipts!",
+  "review": "Alright, let’s cut through the noise and get straight to the alpha. Peersky Browser is gunning for the heart of Web3 infrastructure by nuking centralized HTTP gateways and letting users resolve .eth domains natively—no more eth.limo middlemen, no more privacy leaks, no more single points of failure. That’s a big win for decentralization and censorship resistance, which is exactly what Ethereum’s core infra needs to scale and stay resilient.\n\nThe project’s technical chops are clear: native ENS resolution, local IPFS node integration, and a web3:// protocol handler that lets users fetch on-chain data and browse decentralized sites without running a full node. That’s a UX leap—Web2-level smoothness for Web3-native content. The roadmap is ambitious but realistic: moving toward offline-capable resolution and blockchain-based SSL certs. If they pull that off, it’s a game-changer for trustless, decentralized web access.\n\nBut let’s not get too starry-eyed. The app is light on hard adoption metrics—no user numbers, no growth stats, no performance benchmarks. That’s a red flag for impact maximization. Also, while the tech is innovative, there’s not enough detail on how they’ll drive mainstream adoption or compete with browser giants. The grant proposal could use more meat on go-to-market, user education, and ecosystem integration.\n\nFrom a maximization lens, Peersky’s potential impact is huge if it scales: it could make decentralized publishing and identity accessible to millions, slashing reliance on centralized infra. But to get there, we need proof of traction and a clearer path to mass adoption. The project is open source and aligns with the round’s focus on foundational infra, privacy, and UX, but it needs to show it can move from hacker demo to daily driver for the masses.\n\nBottom line: Peersky is swinging for the fences on decentralization and user empowerment. The tech is spicy, the vision is big, but the execution story needs more receipts. Let’s see some hard data and a battle plan for scaling this thing to the moon.",
   "strengths": [
     {
-      "title": "Direct Decentralized Access",
-      "description": "Peersky eliminates centralized HTTP gateways, enabling users to resolve .eth domains and IPFS content natively. This is a major leap for censorship-resistance and aligns with Ethereum’s core values."
+      "title": "Decentralization Maxed Out",
+      "description": "Peersky eliminates centralized HTTP gateways, enabling true peer-to-peer resolution of .eth domains and IPFS content. This is a direct hit on single points of failure and censorship risks."
     },
     {
       "title": "Innovative Protocol Support",
-      "description": "Native support for ENS, IPFS, Hypercore, and web3:// protocols is bleeding-edge, pushing the boundaries of what a Web3 browser can do."
+      "description": "Native support for ENS, IPFS, Hypercore, and a custom web3:// protocol handler is bleeding-edge. Fetching on-chain data and decentralized sites without a full node is a major UX win."
     },
     {
-      "title": "Systemic Infrastructure Impact",
-      "description": "By targeting the root cause of centralization in Web3 browsing, Peersky has the potential for broad, long-term impact on the Ethereum ecosystem."
+      "title": "Privacy and Security Focus",
+      "description": "No tracking, no ads, no server logs—just protocol-native access. Prioritizing privacy and censorship resistance aligns perfectly with Ethereum’s ethos and the round’s goals."
     }
   ],
   "weaknesses": [
     {
       "title": "Lack of Adoption Metrics",
-      "description": "The application provides no concrete user numbers, growth stats, or evidence of real-world traction. This makes it hard to assess current impact or scalability."
+      "description": "The application provides no concrete data on user adoption, growth, or performance. Without these, it’s hard to gauge real-world impact or scalability potential."
     },
     {
-      "title": "Security and Abuse Handling",
-      "description": "There is no mention of security audits, threat modeling, or strategies for handling malicious content, phishing, or user safety—critical for any browser project."
-    },
-    {
-      "title": "Dependency on HTTP-based RPC",
-      "description": "Despite the local-first approach, Peersky still relies on HTTP-based RPC calls, which undermines the claim of full decentralization and offline capability."
+      "title": "Unclear Go-to-Market Strategy",
+      "description": "There’s little detail on how Peersky will drive mainstream adoption, educate users, or compete with established browsers. The path from niche tool to mass adoption is fuzzy."
     }
   ],
   "changes": [
     {
-      "title": "Provide Adoption and Usage Metrics",
-      "description": "Include current user numbers, download stats, or any evidence of real-world adoption to demonstrate impact and scalability potential."
+      "title": "Show Me the Numbers",
+      "description": "Provide hard data: user counts, growth rates, performance benchmarks, and any evidence of traction. This is critical for assessing impact at scale."
     },
     {
-      "title": "Detail Security and Abuse Mitigation Plans",
-      "description": "Outline security audit plans, threat models, and how the browser will protect users from malicious content, phishing, and other common web threats."
-    },
-    {
-      "title": "Clarify Path to Full Decentralization",
-      "description": "Present a concrete plan for reducing or eliminating HTTP-based RPC dependencies, with milestones and technical strategies for achieving offline-capable Web3 resolution."
+      "title": "Detail the Adoption Playbook",
+      "description": "Lay out a clear go-to-market and user education strategy. How will you onboard non-crypto natives? What’s the plan to get Peersky in front of millions?"
     }
   ],
   "score": 78

@@ -1,51 +1,63 @@
 {
   "reviewer": "open-source-capitalist",
-  "review": "Alright, let’s cut through the noise and get straight to the alpha. MiniBridge is gunning for max impact in the Ethereum ecosystem, and it’s not just vaporware. We’re talking 465K+ unique users, 786K+ transactions, and a zero-fee, lightning-fast bridge that’s already live across 24 networks. That’s not just scale—that’s serious network effect. The open API and integration with third-party dApps crank up the composability, and the hybrid EOA/smart contract model is a clever play to minimize contract risk. Security audit? Check. Real usage? Check. Open-source ethos? Check. \n\nBut let’s not get too bullish without a reality check. The app is heavy on user stats and speed, but light on deep-dive technical transparency. The hybrid model is innovative, but the security claims need more receipts—one audit is good, but bridges are a honeypot for exploits. The roadmap is ambitious, but the milestones are a bit marketing-heavy (referral rewards, DAU targets) and light on hardcore infra upgrades. Also, the open-source repo is there, but code quality, documentation, and community contribution processes aren’t detailed. If you want to play in the big leagues of Ethereum infra, you need to show your work—build in public, not just ship features.\n\nBottom line: MiniBridge is a high-utility, high-scale project with real traction and a clear value prop for the Ethereum ecosystem. It’s got the right ingredients for max impact, but needs to level up on transparency, technical depth, and open-source rigor to hit true blue-chip status. Let’s see more code, more audits, and more public engineering before we go full send on the funding. Disrupt the system, but do it with receipts.",
+  "review": "Alright, let's cut through the noise and get straight to the alpha. MiniBridge is gunning for the heart of Ethereum’s cross-chain headaches—high fees, slow bridges, and security FUD. The team’s zero-fee, hybrid EOA/smart contract bridge is a solid flex, especially for retail users who get rekt by gas and bridge fees. The numbers don’t lie: 465K+ unique users, 786K+ transactions, and integrations with 24+ networks. That’s not just traction, that’s a stampede.\n\nOn the innovation front, the hybrid bridge design (EOA + smart contract) is a clever move to minimize contract exploits—a real pain point in DeFi. The open API and gas swap features are pure utility, making it easier for dApps and users to plug in and go cross-chain without friction. Security audit by ScaleBit? Check. No major exploits after hundreds of thousands of txs? Double check.\n\nThe roadmap is ambitious but not vaporware: more L2s, BTC L2s, referral rewards, analytics, and a push for 10K DAU. The grant ask is laser-focused on integration and community growth, not just dev salaries or vague R&D. That’s how you scale impact.\n\nBut let’s not get too bullish without some due diligence. The app is light on details about the actual security model—how does the EOA/smart contract split work under the hood? There’s also a lack of transparency on the open-source status of all components (is everything on GitHub, or just the frontend?). And while the user numbers are impressive, there’s not enough breakdown on active vs. one-time users, or retention rates. Finally, the roadmap could use more concrete KPIs and timelines—right now, it’s a bit moonshot-y.\n\nBottom line: MiniBridge is a high-impact, high-scale infra play with real traction and a clear path to max utility. But to hit max score, the team needs to open up more on security, code transparency, and user metrics. Build in public, disrupt the system, and let’s see those receipts!",
   "strengths": [
     {
-      "title": "Massive User Adoption and Scale",
-      "description": "MiniBridge has already served over 465K unique users and processed 786K+ transactions, demonstrating real-world traction and broad impact across the Ethereum ecosystem and its L2s."
+      "title": "Massive User Traction & Network Coverage",
+      "description": "Over 465K unique users and 786K+ transactions across 24+ networks. That’s serious scale and real-world impact, not just a whitepaper dream."
     },
     {
-      "title": "Zero-Fee, Fast, and Multi-Chain Support",
-      "description": "The zero-fee model, rapid transaction speeds, and support for 24+ networks (including BTC/EVM/non-EVM) make MiniBridge a high-utility tool for retail users and dApps alike."
+      "title": "Innovative Hybrid Bridge Architecture",
+      "description": "Combining EOA and smart contracts to minimize exploit risk is a smart, security-first approach that addresses a core DeFi pain point."
     },
     {
-      "title": "Innovative Hybrid Security Model",
-      "description": "Combining EOA and smart contracts to reduce exploit risk is a novel approach, and a completed security audit adds credibility."
+      "title": "Zero-Fee Model & Gas Swap Utility",
+      "description": "No bridge fees and built-in gas swap make MiniBridge a killer app for retail users, lowering the barrier to entry and boosting adoption."
     },
     {
-      "title": "Open API and Composability",
-      "description": "Public API docs and third-party integrations (e.g., RawR) enable broader ecosystem impact and composability, aligning with open-source and maximization principles."
+      "title": "Open API & Third-Party Integrations",
+      "description": "API docs and integrations with aggregators like RawR show a commitment to composability and ecosystem growth."
+    },
+    {
+      "title": "Security Audit & No Exploits to Date",
+      "description": "Completed audit by ScaleBit and a clean record after hundreds of thousands of transactions demonstrate operational maturity."
     }
   ],
   "weaknesses": [
     {
-      "title": "Limited Technical Transparency",
-      "description": "The application lacks detailed technical documentation, code quality assessment, and clear open-source contribution guidelines. Security claims are not fully substantiated beyond a single audit."
+      "title": "Opaque Security Model Details",
+      "description": "The application lacks technical depth on how the EOA/smart contract hybrid model actually works and what attack vectors remain."
     },
     {
-      "title": "Roadmap Focused on Growth Metrics Over Infra",
-      "description": "Milestones are heavy on marketing (DAU, referral rewards) and light on deep, long-term infrastructure improvements or technical innovation."
+      "title": "Unclear Open-Source Status",
+      "description": "It’s not explicit whether all core components (backend, contracts, infra) are fully open-source and auditable."
     },
     {
-      "title": "Insufficient Evidence of Open-Source Rigor",
-      "description": "While the repo is public, there is little information on code review processes, community involvement, or ongoing open-source development practices."
+      "title": "User Metrics Need More Granularity",
+      "description": "No breakdown of DAU/MAU, retention, or user cohort analysis—hard to gauge real engagement vs. one-off usage."
+    },
+    {
+      "title": "Roadmap Lacks Concrete KPIs & Timelines",
+      "description": "Milestones are ambitious but need more specificity (dates, measurable targets) to track progress and accountability."
     }
   ],
   "changes": [
     {
-      "title": "Publish Detailed Technical Documentation and Security Reports",
-      "description": "Release comprehensive technical docs, including architecture diagrams, protocol details, and results from all security audits (not just one). Make these easily accessible in the repo and on the project site."
+      "title": "Publish Detailed Security Architecture",
+      "description": "Release a technical whitepaper or documentation explaining the EOA/smart contract split, security assumptions, and mitigations."
     },
     {
-      "title": "Strengthen Open-Source Practices",
-      "description": "Document contribution guidelines, code review processes, and community engagement strategies. Encourage and highlight third-party contributions to the codebase."
+      "title": "Clarify Open-Source Coverage",
+      "description": "Explicitly state which components are open-source, with links to repos and license details. If anything is closed, explain why."
     },
     {
-      "title": "Refocus Roadmap on Core Infrastructure Upgrades",
-      "description": "Add milestones that target fundamental protocol improvements, scalability, and security enhancements, not just user growth and marketing."
+      "title": "Provide User Engagement Metrics",
+      "description": "Share DAU/MAU, retention rates, and user cohort data to validate ongoing impact and stickiness."
+    },
+    {
+      "title": "Add Specific KPIs & Timelines to Roadmap",
+      "description": "Define clear, measurable milestones (e.g., DAU targets by date, new network integrations per quarter) for transparency and accountability."
     }
   ],
-  "score": 78
+  "score": 85
 }
