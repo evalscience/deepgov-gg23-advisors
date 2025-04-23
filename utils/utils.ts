@@ -55,7 +55,8 @@ export function saveFile(path: string, data: any): void {
   if (!existsSync(dirPath)) {
     mkdirSync(dirPath, { recursive: true });
   }
-  writeFileSync(path, JSON.stringify(data, null, 2));
+  data = path.includes(".json") ? JSON.stringify(data, null, 2) : data;
+  writeFileSync(path, data);
 }
 
 function* walkDirectory(dir: string): Generator<string> {
@@ -74,12 +75,24 @@ export function loadApplicationsFromDirectory(
   filename: string = "application.json"
 ): Application[] {
   const applications: Application[] = [];
+
   for (const filePath of walkDirectory("applications")) {
     if (filePath.endsWith(`/${filename}`)) {
       applications.push(
         JSON.parse(readFileSync(filePath, "utf8")) as Application
       );
     }
+  }
+  if (process.env.EVAL_DATASET) {
+    return process.env.EVAL_DATASET.split(",").map((id) => {
+      const [chainId, roundId, projectId] = id.split("/");
+      return applications.find(
+        (application) =>
+          application.roundId == roundId &&
+          application.chainId == chainId &&
+          application.projectId === projectId
+      ) as Application;
+    });
   }
   return applications;
 }
