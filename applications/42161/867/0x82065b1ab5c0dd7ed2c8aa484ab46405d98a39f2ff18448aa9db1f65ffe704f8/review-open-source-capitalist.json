@@ -1,39 +1,51 @@
 {
-  "summary": "Doogly is a donation protocol designed to facilitate cross-chain crypto donations, allowing donors to use any token on supported EVM chains while recipients receive funds in USDC. The project aims to enhance the OSS ecosystem by providing a widget for Dapps to operate across multiple blockchains and tokens, enabling cross-chain contract calls without bridging funds. The grant will be used to improve user experience by integrating a fiat gateway for credit card and PayPal transactions.",
-  "review": "The Doogly project presents a compelling case for enhancing the OSS ecosystem by addressing a significant gap in cross-chain crypto donations. The project's ability to facilitate donations across multiple blockchains and tokens is a notable innovation, potentially increasing the reach and impact of Web3 projects. The integration with Allo to optimize fund distribution strategies further strengthens its value proposition. However, the application lacks detailed information on the project's current deployment status and specific metrics for success. Additionally, while the project outlines a roadmap, it could benefit from more detailed timelines and milestones. The proposed use of grant funds to integrate a fiat gateway is a strategic move to enhance user accessibility, aligning with the round's focus on usability and financial inclusion. Overall, Doogly demonstrates strong potential for impact and scalability, but requires more detailed planning and transparency in its execution strategy.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's cut through the noise and get straight to the alpha. Doogly is gunning for max impact in the open-source dApp space by making cross-chain donations frictionless. The protocol lets donors use any token on any supported EVM chain, with recipients getting USDC on their chain of choice. That’s a big deal for scaling up donations and onboarding new users—no more token mismatch headaches, no more clunky bridging steps. Plus, the Hypercert NFT for donors is a slick way to gamify and track impact.\n\nFrom a maximization lens, Doogly’s plug-and-play widget and SDK are built for scale: 60+ blockchains, 3000+ tokens, and plans for fiat onramps. That’s serious reach. The integration with Allo for fund distribution and aggregation is a strong infrastructure play, aligning with the long-term systemic change principle. The roadmap is ambitious but realistic: MVP is live, SDK and L2 integrations are next, and social platform hooks are on the horizon.\n\nOn the innovation front, Doogly’s single-step cross-chain contract calls are a clear differentiator—saving gas, reducing friction, and boosting usability. That’s a direct hit on the usability and efficiency pain points flagged in academic research (see Nielsen, 1993; Malone et al., 2010). The open-source repo is public, and the team’s track record is verifiable.\n\nBut let’s not sugarcoat it: the app’s documentation is thin, there’s no public demo or usage metrics, and the deployer address info is missing (\"NA\" is not a valid answer for a live protocol). The fiat gateway plan is promising, but there’s no detail on compliance, security, or user onboarding. For a project aiming for max scale, these are non-trivial gaps.\n\nBottom line: Doogly is swinging for the fences with a high-utility, high-scale OSS play. But to unlock full trust and funding, they need to tighten up transparency, show real traction, and fill in the compliance blanks. Build in public, or get left behind!",
   "strengths": [
     {
-      "title": "Cross-Chain Donation Facilitation",
-      "description": "Doogly addresses a significant gap in the crypto donation space by enabling cross-chain donations, allowing donors to use any token while recipients receive funds in USDC."
+      "title": "Massive Scalability Potential",
+      "description": "Doogly’s widget and SDK are designed for broad adoption—supporting 60+ blockchains and 3000+ tokens. This is a textbook example of maximizing total impact and utility."
     },
     {
-      "title": "Integration with Allo",
-      "description": "The project's integration with Allo enhances its value by providing optimized fund distribution strategies, benefiting individuals, projects, and organizations."
+      "title": "Clear Innovation in UX",
+      "description": "Single-step cross-chain contract calls eliminate the need for manual bridging, reducing friction and gas costs. This is a strong differentiator and directly addresses usability pain points."
     },
     {
-      "title": "User Experience Enhancement",
-      "description": "The plan to integrate a fiat gateway for credit card and PayPal transactions is a strategic move to improve user accessibility and broaden the project's appeal."
+      "title": "Strong Infrastructure Play",
+      "description": "Integration with Allo for fund distribution and aggregation positions Doogly as a foundational layer for donation flows in Web3, aligning with long-term systemic change principles."
+    },
+    {
+      "title": "Open Source and Verifiable",
+      "description": "The project is open source, with a public GitHub repo and verifiable credentials, supporting transparency and community trust."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Deployment Details",
-      "description": "The application does not provide specific information on the current deployment status of the project or the blockchain networks involved."
+      "title": "Lack of Public Documentation and Demo",
+      "description": "There is no public-facing documentation, demo, or usage metrics. This makes it hard to verify adoption, usability, and real-world impact."
     },
     {
-      "title": "Insufficient Metrics for Success",
-      "description": "There is a lack of detailed metrics or KPIs to measure the project's success and impact, which is crucial for evaluating its effectiveness."
+      "title": "Missing Deployer Address Information",
+      "description": "The application lists 'NA' for deployer addresses, which is insufficient for a live or even MVP-stage protocol. This undermines transparency and verifiability."
+    },
+    {
+      "title": "Unclear Compliance and Security for Fiat Integration",
+      "description": "Plans to integrate fiat gateways (credit card, PayPal) are mentioned, but there are no details on compliance, KYC/AML, or security measures—critical for scaling to mainstream users."
     }
   ],
   "changes": [
     {
-      "title": "Provide Deployment Details",
-      "description": "Include specific information about the project's current deployment status, including deployer addresses and blockchain networks involved."
+      "title": "Publish Comprehensive Documentation and Demo",
+      "description": "Release detailed technical documentation, a public demo, and usage metrics to demonstrate traction and usability. This is essential for transparency and trust."
     },
     {
-      "title": "Define Success Metrics",
-      "description": "Outline clear metrics or KPIs to measure the project's success and impact, ensuring transparency and accountability in its execution."
+      "title": "Provide Deployer Addresses and On-Chain Proofs",
+      "description": "List all deployer addresses and relevant contract information for each supported chain. This is a non-negotiable for open-source, trustless protocols."
+    },
+    {
+      "title": "Detail Compliance and Security for Fiat Onramps",
+      "description": "Publish a clear plan for regulatory compliance, KYC/AML, and security for fiat integrations. Without this, mainstream adoption is a pipe dream."
     }
   ],
-  "score": 85
+  "score": 74
 }

@@ -1,39 +1,55 @@
 {
-  "summary": "The Animal Social Club project aims to merge Web3 technology with wildlife conservation through a unique circular economy model. The project plans to use revenue from events to fund wildlife reserves, leveraging Web3 principles like crowdfunding and community engagement. The project is open-source, allowing other nonprofits to adapt its smart contracts for their initiatives. The grant funds are intended for team operations, product development, and marketing to onboard initial patrons.",
-  "review": "The Animal Social Club project presents an innovative approach by combining Web3 technology with wildlife conservation efforts. The project leverages a circular economy model where event revenues support wildlife reserves, aligning with the round's focus on novel utilities and social impact. The open-source nature of the project contributes to the growth of the OSS ecosystem, allowing other nonprofits to benefit from its smart contracts. However, the application lacks detailed information on user-centric design and functionality, which is a requirement for the round. Additionally, while the project outlines a budget, it does not provide a detailed breakdown of how the funds will specifically enhance the Web3 ecosystem or address long-term systemic change. The project could benefit from a clearer articulation of its impact metrics and scalability potential.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let’s cut through the noise and get straight to the code: Animal Social Club is gunning for Web3-powered wildlife conservation, blending open-source smart contracts with a party-fueled, circular economy. The pitch? Use event revenue to bankroll wildlife oases, all while onboarding users via donate-to-mint NFTs and a three-level onchain referral system. The contracts are open-source and modular, so other nonprofits can fork and deploy. That’s a big plus for ecosystem composability and OSS ethos.\n\nStrengths? The project is open-source, modular, and designed for reuse—major green flags for OSS impact. The donate-to-mint and referral mechanics are innovative, potentially driving viral growth and sticky engagement. The team’s budget breakdown is clear, with a focus on dev, security (Hacken bug bounty), and user onboarding. They’re not just building for themselves—they’re building primitives that others can leverage. That’s max utility, baby.\n\nBut let’s not sugarcoat it: the app’s actual user-centric design and UX aren’t detailed. There’s no hard data on traction, user feedback, or adoption metrics. The impact is geographically limited (Colombia), and while the model is theoretically scalable, there’s no roadmap for global expansion or evidence of systemic change. The social impact narrative is strong, but the technical documentation is thin—no demo, no MVP screenshots, and the GitHub repo isn’t directly linked in the main description. Also, the referral system’s mechanics and anti-abuse measures are not explained. That’s a risk vector.\n\nRequested changes: Show me the code in action—demo, MVP, or at least a detailed technical doc. Give hard numbers: users, transactions, or at least projections. Spell out how the referral system avoids Sybil attacks and gaming. And, if you want to play in the big leagues, outline a plan for scaling beyond Colombia. Max impact means global reach, not just local vibes.\n\nBottom line: Animal Social Club is a wild idea with OSS bones, but it needs more meat on the technical and impact side to hit max utility. Ship more details, and you’ll be ready to disrupt at scale.",
   "strengths": [
     {
-      "title": "Innovative Circular Economy Model",
-      "description": "The project introduces a unique model where event revenues are used to fund wildlife reserves, combining entertainment with conservation."
+      "title": "Open-Source and Modular Design",
+      "description": "The project’s smart contracts are open-source and modular, enabling other nonprofits to fork and adapt them. This composability is a major win for the OSS ecosystem and aligns with maximization and infrastructure principles."
     },
     {
-      "title": "Open-Source Contribution",
-      "description": "The project's smart contracts are open-source, allowing other nonprofits to adapt them, thus contributing to the broader OSS ecosystem."
+      "title": "Innovative Fundraising and Engagement Mechanisms",
+      "description": "The donate-to-mint and three-level onchain referral system are creative, potentially viral approaches to user onboarding and community growth. These mechanisms could drive broad participation if executed well."
     },
     {
-      "title": "Web3 Integration",
-      "description": "The project leverages Web3 principles like crowdfunding and community engagement, aligning with the round's focus on enhancing Web3 accessibility and usability."
+      "title": "Clear Budget Allocation and Security Focus",
+      "description": "The budget is transparently broken down, with explicit allocation for a Hacken bug bounty. This shows a commitment to security and responsible development."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of User-Centric Design Details",
-      "description": "The application does not provide sufficient information on how the project demonstrates user-centric design and functionality, which is a requirement for the round."
+      "title": "Lack of User-Centric Design Evidence",
+      "description": "There’s no demonstration of user flows, UX/UI, or feedback from real users. The application doesn’t provide evidence of user-centric design or adoption."
     },
     {
-      "title": "Insufficient Impact Metrics",
-      "description": "The project lacks a clear articulation of its impact metrics and how it plans to measure success and scalability."
+      "title": "Limited Geographic Impact and Scalability Plan",
+      "description": "The current focus is on Colombia, with no clear roadmap or strategy for scaling globally. This limits the project’s potential for maximum systemic impact."
+    },
+    {
+      "title": "Insufficient Technical Documentation and Demo",
+      "description": "There’s no demo, MVP, or detailed technical documentation provided. The GitHub repo is referenced but not showcased in the main application, and there’s no evidence of working code in production."
+    },
+    {
+      "title": "Unclear Referral System Security",
+      "description": "The mechanics and anti-abuse measures for the onchain referral system are not explained, raising concerns about potential Sybil attacks or gaming."
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed User-Centric Design Information",
-      "description": "Include specific details on how the project demonstrates user-centric design and functionality to meet the round's requirements."
+      "title": "Provide a Demo or MVP",
+      "description": "Include a link to a working demo, MVP, or at least detailed technical documentation/screenshots to demonstrate the current state of the application."
     },
     {
-      "title": "Clarify Impact Metrics and Scalability",
-      "description": "Articulate clear impact metrics and how the project plans to measure success and scalability to align with the round's focus on long-term systemic change."
+      "title": "Show User Metrics or Projections",
+      "description": "Present hard data or projections on user adoption, transaction volume, or community engagement to evidence traction and user-centric design."
+    },
+    {
+      "title": "Detail Referral System Security",
+      "description": "Explain how the referral system prevents Sybil attacks and gaming, including any anti-abuse mechanisms or verification steps."
+    },
+    {
+      "title": "Outline a Global Scaling Plan",
+      "description": "Provide a roadmap or strategy for expanding impact beyond Colombia to maximize systemic and global utility."
     }
   ],
-  "score": 75
+  "score": 62
 }

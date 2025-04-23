@@ -1,47 +1,51 @@
 {
   "reviewer": "open-source-capitalist",
-  "review": "Alright, let’s cut through the noise and get to the code: Web3radio is gunning for a decentralized, community-driven radio stack—OSS all the way, with modular smart contracts, open-source infra, and a GitHub-first dev model. That’s a big plus for the open-source ecosystem, and the project’s hybrid approach (Livepeer, Swarm, IPFS, plus a centralized relay for normies) is pragmatic for onboarding Web2 users. The SBT-gated curation and on-chain scheduling are clever, and the roadmap for decentralized ad monetization and playlist optimization is ambitious and aligns with the round’s focus on novel dApp utility.\n\nBut let’s not sugarcoat the trade-offs: the frontend and some backend elements are still centralized, which is a big asterisk for a project waving the decentralization flag. The SBT burn mechanism for moderation—while DSA-compliant—raises red flags for censorship resistance and could limit scale if abused. Proxy relays for contract calls are a UX win but dilute the self-custody ethos. The project is transparent about these compromises, but they’re still friction points for max impact and long-term systemic change.\n\nOn the innovation front, the ad auction and playlist curation algorithms are solid differentiators, and the open-source, forkable stack is a multiplier for ecosystem growth. The project’s focus on onboarding non-technical users is a net positive for adoption, but the reliance on centralized infra and admin controls could bottleneck scale and resilience. For max utility, a clear roadmap to full decentralization is needed, plus more detail on how the project will drive adoption beyond the SBT-gated community.\n\nBottom line: Web3radio is a high-potential OSS dApp with real-world utility and a pragmatic approach to onboarding, but it needs to double down on decentralization and clarify its path to scale. Let’s see more code, less compromise, and a roadmap that nukes single points of failure. Build in public, disrupt the system, but don’t get stuck in Web2 quicksand.",
+  "review": "Alright, let's cut through the noise and get to the code: Web3radio is a bold, open-source play to decentralize community radio, leveraging SBTs, on-chain scheduling, and hybrid storage. The project is forkable, modular, and OSS-first—major pluses for ecosystem expansion. The team is transparent about their pragmatic compromises (centralized frontend, backend relay, SBT revocation for moderation), which, while not maximalist, are honest attempts to onboard normies and iterate fast. \n\nOn the innovation front, the V2 roadmap (decentralized ad auctions, playlist curation algorithms) is spicy—if delivered, it could set a new standard for decentralized media monetization and governance. The use of proxy relays and hybrid storage is a practical bridge for Web2 users, but it does introduce centralization risks. The SBT burn mechanism for moderation is a double-edged sword: it keeps the platform healthy but could be abused or conflict with censorship-resistance ideals. \n\nFrom a maximization lens, this project has serious scale potential: any community can fork and launch their own radio, and the OSS stack could become a backbone for decentralized media. However, the current reliance on centralized components and admin controls is a bottleneck for true systemic change. The team’s transparency about these trade-offs is refreshing, but the path to full decentralization needs clearer milestones and timelines. \n\nBottom line: Web3radio is a high-potential, pragmatic OSS dApp that could drive mass adoption and ecosystem growth—if it can deliver on its decentralization promises and minimize admin choke points. The impact is broad, the innovation is real, but the centralization risks need to be actively mitigated for max utility. \n\nCitations: The project aligns with the round’s focus on OSS, user-centric design, and ecosystem growth. The open-source repo is public (https://github.com/spaghettETH/web3radio), and the roadmap addresses both technical and governance innovation. The team’s approach is consistent with the model’s prioritization of scalable, high-impact infrastructure, but falls short of full decentralization at present.",
   "strengths": [
     {
-      "title": "Open-Source, Modular Architecture",
-      "description": "All smart contracts, streaming mechanisms, and frontend code are open-source, forkable, and modular—maximizing composability and ecosystem impact."
+      "title": "Open-Source, Modular, and Forkable",
+      "description": "All core components (smart contracts, frontend, streaming logic) are open-source and designed for easy forking, enabling rapid ecosystem expansion and public goods creation."
     },
     {
-      "title": "Innovative Use Cases and Features",
-      "description": "On-chain scheduling, SBT-gated curation, decentralized ad auctions, and playlist optimization algorithms set the project apart from generic Web3 media dApps."
+      "title": "User-Centric, Pragmatic Onboarding",
+      "description": "Hybrid storage, proxy relays, and login-agnostic flows lower the barrier for Web2 users, maximizing adoption and real-world impact."
     },
     {
-      "title": "Pragmatic Onboarding for Web2 Users",
-      "description": "Hybrid infra (centralized relay + decentralized storage) lowers the barrier for non-technical users, accelerating adoption and OSS growth."
+      "title": "Transparent Roadmap and Honest Trade-Offs",
+      "description": "The team is upfront about current centralization compromises and has a clear, ambitious V2 roadmap targeting decentralized monetization and curation."
+    },
+    {
+      "title": "Potential for Broad, Scalable Impact",
+      "description": "Any community can launch their own decentralized radio, making the project a potential backbone for decentralized media infrastructure."
     }
   ],
   "weaknesses": [
     {
       "title": "Centralized Frontend and Backend Relays",
-      "description": "Reliance on Digital Ocean-hosted frontend and a centralized backend for link management introduces single points of failure and undermines decentralization."
+      "description": "Current reliance on Digital Ocean-hosted frontend and a backend relay for storage and contract calls introduces single points of failure and centralization risk."
     },
     {
       "title": "Admin-Controlled SBT Revocation",
-      "description": "The ability to burn SBTs for moderation, while DSA-compliant, creates a censorship vector and could limit scale or deter participation."
+      "description": "The ability to burn SBTs for moderation, while practical, creates a central admin choke point that could be abused or conflict with censorship-resistance principles."
     },
     {
-      "title": "Proxy Relays for Contract Calls",
-      "description": "MEGO-powered proxy relays simplify UX but dilute the self-custody and trustless ethos of Web3, potentially bottlenecking scale and resilience."
+      "title": "Lack of Clear Decentralization Milestones",
+      "description": "The application lacks specific, time-bound milestones for transitioning away from centralized components to a fully decentralized stack."
     }
   ],
   "changes": [
     {
-      "title": "Roadmap to Full Decentralization",
-      "description": "Provide a clear, time-bound plan for migrating the frontend and backend to decentralized infrastructure (e.g., IPFS, Swarm, ENS, decentralized relayers)."
+      "title": "Publish a Decentralization Roadmap",
+      "description": "Provide a detailed, time-bound plan for migrating the frontend, backend relay, and moderation mechanisms to decentralized alternatives. Include technical milestones and target dates."
     },
     {
-      "title": "Decentralized Moderation Mechanisms",
-      "description": "Replace or supplement admin-controlled SBT revocation with community-driven or on-chain moderation to minimize censorship risk and maximize trust."
+      "title": "Mitigate Admin Choke Points",
+      "description": "Explore and propose community-driven or on-chain moderation alternatives to admin-controlled SBT burning. Consider DAO-based governance or transparent, auditable processes."
     },
     {
-      "title": "Adoption and Scale Strategy",
-      "description": "Detail concrete plans for expanding beyond the SBT-gated community, including partnerships, incentives, and metrics for user growth and ecosystem impact."
+      "title": "Increase Transparency on Centralized Components",
+      "description": "Document which components are centralized, why, and what the risks are. Regularly update the community on progress toward decentralization."
     }
   ],
-  "score": 74
+  "score": 78
 }

@@ -1,58 +1,54 @@
 {
   "reviewer": "open-source-capitalist",
-  "review": "Alright, let’s cut through the noise and get to the alpha. Zazelenimo is a Web3 dApp targeting participatory budgeting for urban greening, built open-source, leveraging Ethereum, quadratic funding, and onboarding both citizens and municipalities. The project’s OSS-first approach, integration with real-world institutions (City of Split), and focus on quadratic funding for public goods are all strong signals for systemic impact and scalability.\n\nFrom a maximization lens, Zazelenimo’s model is designed to scale: it’s not just a local hackathon project, but a blueprint for how cities can use OSS and Web3 rails to disrupt legacy, closed-source civic tech. The quadratic funding mechanism is a proven, high-utility approach for maximizing community-driven resource allocation (see Gitcoin’s own research on QF). The onboarding of non-crypto-native users via passkey wallets and fiat onramps is a major plus for adoption and impact.\n\nHowever, the application is a bit light on hard metrics for projected user growth, adoption outside Split, and technical details on how the platform will be maintained and scaled. There’s also a lack of clarity on the open-source governance model—who’s steering the ship long-term? The legal and compliance roadmap is mentioned, but not detailed. For a project aiming for systemic change, these are non-trivial gaps.\n\nThe project’s focus on government partnerships is a double-edged sword: it’s a high-leverage move if it works, but could bottleneck scale if adoption is slow or bureaucratic. The application would benefit from a more explicit plan for scaling beyond the initial pilot, including metrics, partnerships, and a roadmap for OSS community engagement.\n\nBottom line: Zazelenimo is a high-potential, OSS-native civic dApp with real-world traction and a disruptive model. But to hit max utility and scale, it needs to tighten up its growth, governance, and sustainability story. Let’s see some hard numbers, a clear OSS roadmap, and a plan to go global, not just local.\n\nCitations: Gitcoin QF research, OSS adoption in public sector (see \"Open Source in Government: Benefits and Challenges,\" European Commission, 2022), and best practices for OSS governance (see \"The Open Source Way\").",
+  "review": "Alright, let's cut through the noise and get straight to the code: Zazelenimo is a high-signal, open-source dApp targeting participatory budgeting for urban greening, with a pilot in Split, Croatia. The project is built on Ethereum, leverages quadratic funding (QF), and integrates with OSS like Cometh Connect and Gitcoin's Allo Protocol. It's got a clear OSS ethos, a real-world government partner, and a roadmap that screams \"let's scale this thing.\"\n\nStrengths? The project is open-source to the core, with a public repo and a transparent build process. It's not just another DeFi clone—it's onboarding cities and citizens to Web3, abstracting away blockchain friction with passkey wallets and seamless UX. The QF mechanism is a proven model for maximizing community impact, and the local stewardship model is a nice touch for sustainability. Plus, the team has a track record with previous Gitcoin rounds and real municipal engagement—no vaporware here.\n\nBut let's not get lost in the green hype. Weaknesses? The impact is currently hyper-localized (Split), and while the roadmap talks about scaling, there's no hard evidence of traction beyond the pilot. The application is light on hard metrics: no user numbers, no transaction stats, no on-chain addresses for deployed contracts. The legal and compliance work is still \"in progress,\" which is a red flag for anything touching public funds and government partners. And while the OSS contribution is real, the innovation is more in the application of existing primitives than in new protocol design.\n\nRequested changes: Show me the numbers! I want to see user growth, transaction volume, and on-chain activity. Give me a concrete scaling plan—how do you go from Split to 10, 100, 1,000 cities? Nail down the legal/compliance framework and publish it. And if you're serious about OSS impact, document your integrations and upstream contributions to Allo, Cometh, etc. Max utility means max transparency and reproducibility.\n\nBottom line: Zazelenimo is a solid OSS dApp with real-world traction and a clear public good angle, but it needs to level up on metrics, scaling, and compliance to hit max impact. Ship fast, iterate, and show your work—let's see this go global, not just local.",
   "strengths": [
     {
-      "title": "OSS-Native, Public Good Focus",
-      "description": "Built entirely open-source, leverages Ethereum, Cometh Connect, and Allo Protocol. Directly targets public goods funding and civic engagement—max utility for the greatest number."
+      "title": "Open-Source to the Core",
+      "description": "The project is fully open-source, with a public repo and transparent development. This aligns perfectly with the round's OSS focus and maximizes reproducibility and community contribution."
     },
     {
-      "title": "Quadratic Funding Mechanism",
-      "description": "Implements QF for democratic, high-impact resource allocation. Proven model for maximizing community-driven outcomes."
+      "title": "Real-World Government Integration",
+      "description": "Partnership with the City of Split demonstrates practical adoption of OSS in the public sector—a huge, under-tapped market for open-source impact."
     },
     {
-      "title": "Real-World Institutional Integration",
-      "description": "Partnership with City of Split demonstrates practical, systemic impact and potential for broader government adoption."
+      "title": "User-Centric, Frictionless Onboarding",
+      "description": "Passkey-based embedded wallets and seamless UX lower the barrier for non-crypto natives, maximizing potential user base and impact."
     },
     {
-      "title": "User-Centric Onboarding",
-      "description": "Passkey-based wallets and fiat onramps lower the barrier for non-crypto users, boosting adoption and impact."
+      "title": "Quadratic Funding for Max Utility",
+      "description": "QF ensures resources are allocated based on broad community support, not just deep pockets—this is a proven, high-utility mechanism for public goods."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Hard Growth Metrics",
-      "description": "No concrete projections for user growth, adoption outside Split, or platform scaling. Impact potential is high, but numbers are missing."
+      "title": "Limited Current Scale",
+      "description": "Impact is currently restricted to a single city (Split), with no hard evidence of broader adoption or scaling beyond the pilot."
     },
     {
-      "title": "Unclear OSS Governance Model",
-      "description": "No details on long-term open-source governance, community stewardship, or decision-making processes."
+      "title": "Lack of Hard Metrics",
+      "description": "The application is missing concrete data on user numbers, transaction volume, and on-chain activity—critical for evaluating real impact and scalability."
     },
     {
-      "title": "Legal and Compliance Ambiguity",
-      "description": "Mentions legal setup, but lacks specifics on compliance, especially for multi-jurisdictional scaling."
-    },
-    {
-      "title": "Scaling Plan Needs Work",
-      "description": "Heavy reliance on government partnerships could bottleneck scale. No clear roadmap for expansion beyond the initial pilot."
+      "title": "Incomplete Legal/Compliance Framework",
+      "description": "Legal documentation and compliance processes are still in progress, which is risky for a project working with public funds and government partners."
     }
   ],
   "changes": [
     {
-      "title": "Add Concrete Growth Metrics",
-      "description": "Provide projections for user growth, city expansion, and platform adoption over 1-3 years. Show the numbers—let’s see the scale potential."
+      "title": "Publish Key Metrics",
+      "description": "Provide up-to-date user numbers, transaction volume, and on-chain activity to demonstrate traction and real-world impact."
     },
     {
-      "title": "Detail OSS Governance and Stewardship",
-      "description": "Outline the open-source governance model: who maintains the code, how decisions are made, and how the community can contribute long-term."
+      "title": "Concrete Scaling Roadmap",
+      "description": "Detail a step-by-step plan for expanding beyond Split, including target cities, partnerships, and technical scaling strategies."
     },
     {
-      "title": "Clarify Legal and Compliance Roadmap",
-      "description": "Give specifics on legal frameworks, compliance strategies, and how you’ll handle cross-border regulatory issues as you scale."
+      "title": "Finalize and Publish Legal/Compliance Docs",
+      "description": "Complete all legal and compliance documentation and make it publicly available to build trust and ensure replicability for other municipalities."
     },
     {
-      "title": "Expand on Scaling and Replication Strategy",
-      "description": "Present a clear, actionable plan for scaling beyond Split: partnerships, OSS community engagement, and a roadmap for onboarding new cities."
+      "title": "Document OSS Integrations and Upstream Contributions",
+      "description": "Showcase how your work is contributing back to the OSS ecosystem—document integrations, pull requests, and any upstream improvements to Allo, Cometh, etc."
     }
   ],
   "score": 78

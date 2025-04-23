@@ -1,39 +1,51 @@
 {
-  "summary": "The \"Have I Been Rekt?\" project by Pretty Good OSINT Protocol (PGOP) aims to democratize access to open-source intelligence tools, traditionally limited to governments and corporations. The project offers a modular, privacy-respecting OSINT framework that integrates AI automation, blockchain transparency, and privacy-preserving technologies. It targets journalists, activists, researchers, and ethical hackers, providing tools for face recognition, wallet tracing, contract analysis, and more. The project emphasizes open-source principles, privacy by design, and aims to enhance the OSS ecosystem by making advanced OSINT tools accessible to the public.",
-  "review": "The \"Have I Been Rekt?\" project presents a compelling case for funding within the GG23 OSS - dApps and Apps round. The project aligns well with the round's goals of enhancing Web3 accessibility and usability, contributing to financial inclusion, education, and social impact. The project demonstrates a strong commitment to open-source principles, offering a modular OSINT framework that is both privacy-respecting and highly customizable. The integration of AI and blockchain technologies showcases innovation and potential for broad, scalable impact. However, the application could benefit from more detailed information on user-centric design and specific metrics for measuring impact. Additionally, while the project outlines a clear development roadmap, further clarity on the allocation of grant funds and expected outcomes would strengthen the application.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let’s plug in and break this down, Luna-style. PGOP (Pretty Good OSINT Protocol) is gunning to democratize open-source intelligence—think AI-powered, privacy-first, modular, and open to all. The project’s got a strong OSS backbone, a clear roadmap, and a vision to level the playing field for journalists, researchers, and DAO voters. It’s not just another dApp; it’s a toolkit for the masses, with a focus on privacy (ZK-proofs, no central logging), modularity (plugin framework), and transparency (on-chain publishing). \n\nFrom a max-impact, open-source capitalist lens, this is a high-leverage play: the more people who can access advanced OSINT, the more resilient and informed the Web3 ecosystem becomes. The project’s open repo, live demo, and clear use cases (journalism, DAO due diligence, scam detection) all scream scalability and broad utility. The roadmap is ambitious but realistic, with funds earmarked for infra, bounties, and privacy tech—no fluff, just build.\n\nBut let’s not get too starry-eyed. The app’s reliance on third-party APIs (OpenAI, PimEyes, Hunter.io) could bottleneck scale or introduce cost/centralization risks. The privacy claims are strong, but more detail is needed on how ZK integrations and redactions are enforced in practice. Also, the impact metrics are a bit hand-wavy—where’s the data on current users, plugin adoption, or real-world investigations powered by PGOP? For a project this ambitious, I want to see hard numbers and a plan for global reach, not just a cool demo.\n\nBottom line: PGOP is a high-potential, high-leverage OSS play with a clear path to max utility. But to hit the next level, it needs to tighten up on impact metrics, clarify privacy guarantees, and show how it’ll scale past API bottlenecks. Ship fast, measure hard, and keep it open—then we’re talking true disruption.\n",
   "strengths": [
     {
-      "title": "Innovative Use of AI and Blockchain",
-      "description": "The project integrates AI automation and blockchain transparency, offering innovative solutions for open-source intelligence gathering."
+      "title": "Massive Utility & Scalability",
+      "description": "PGOP’s modular, open-source OSINT toolkit can empower a huge range of users—journalists, DAOs, security researchers—maximizing ecosystem impact and resilience."
     },
     {
-      "title": "Commitment to Open-Source Principles",
-      "description": "The project is fully open-source, encouraging community contributions and ensuring transparency and accessibility."
+      "title": "Privacy-First, Ethics-Driven",
+      "description": "Strong focus on privacy (ZK-proofs, no central logging) and ethical use, which is rare in OSINT. This builds trust and aligns with long-term systemic change."
     },
     {
-      "title": "Privacy-First Design",
-      "description": "The integration of zero-knowledge proofs and privacy-preserving technologies highlights a strong commitment to user privacy."
+      "title": "Open Source & Community-Driven",
+      "description": "All code is open, plugin contributions are encouraged, and the roadmap includes bounties and onboarding—classic build-in-public, high-leverage OSS play."
+    },
+    {
+      "title": "Clear Roadmap & Realistic Use of Funds",
+      "description": "Funds are allocated to infra, bounties, and privacy tech, with a transparent, actionable development plan—no vague promises."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Detailed User-Centric Design",
-      "description": "The application lacks specific details on how the project ensures a user-centric design, which is crucial for enhancing Web3 accessibility."
+      "title": "API Reliance & Centralization Risk",
+      "description": "Heavy dependence on third-party APIs (OpenAI, PimEyes, Hunter.io) could limit scale, introduce costs, or create centralization choke points—contradicting the decentralization ethos."
     },
     {
-      "title": "Insufficient Metrics for Impact Measurement",
-      "description": "The application does not provide clear metrics or methods for measuring the project's impact, which is important for evaluating its success."
+      "title": "Vague Impact Metrics",
+      "description": "The application lacks hard data on current adoption, user growth, or real-world impact. No clear KPIs or usage stats to back up the utility claims."
+    },
+    {
+      "title": "Unclear Privacy Implementation",
+      "description": "While privacy is a core value, the specifics of ZK integration and redaction enforcement are not detailed. How are these guarantees technically enforced and audited?"
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed User-Centric Design Information",
-      "description": "Include specific details on how the project ensures a user-centric design to enhance Web3 accessibility and usability."
+      "title": "Detail Privacy Guarantees",
+      "description": "Provide a technical breakdown of how ZK-proofs and redactions are implemented, enforced, and audited. Show how user data is protected end-to-end."
     },
     {
-      "title": "Define Metrics for Impact Measurement",
-      "description": "Outline clear metrics and methods for measuring the project's impact to better evaluate its success and scalability."
+      "title": "Quantify Impact & Adoption",
+      "description": "Add hard numbers: current users, plugin downloads, investigations run, or other KPIs. Show evidence of real-world adoption and utility."
+    },
+    {
+      "title": "Mitigate API Centralization Risks",
+      "description": "Outline a plan to reduce reliance on centralized APIs—e.g., support for local models, open data sources, or decentralized alternatives."
     }
   ],
-  "score": 85
+  "score": 84
 }

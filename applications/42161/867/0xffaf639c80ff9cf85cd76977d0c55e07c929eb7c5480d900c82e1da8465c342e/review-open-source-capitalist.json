@@ -1,39 +1,51 @@
 {
-  "summary": "PrivID is an open-source protocol designed to provide privacy-preserving identity verification using zero-knowledge proofs (ZKPs). It integrates with decentralized identity standards like the AT Protocol, aiming to enhance trust in decentralized social apps. The project offers reusable SDKs, a zero-knowledge proof UX toolkit, and a modular architecture, all under an MIT/Apache license. The application outlines a roadmap for development, including browser extensions, CLI tools, and integration with Holonym for ZK proof-based verification. The grant funds are intended for development, integration, security reviews, and documentation.",
-  "review": "PrivID presents a compelling case for enhancing privacy-preserving identity verification in decentralized networks. The use of zero-knowledge proofs (ZKPs) aligns with the constitutional principles of maximizing impact and innovation. The project is open-source, which supports the growth of the OSS ecosystem, and it aims to integrate with existing decentralized identity standards, promoting scalability and systemic change. However, the application lacks detailed metrics for measuring impact and scalability, which are crucial for evaluating its potential for broad, scalable impact. Additionally, while the project is innovative, the application could benefit from more clarity on how it plans to achieve long-term systemic change and address root causes of identity verification issues in decentralized networks.",
+  "reviewer": "open-source-capitalist",
+  "review": "Alright, let's cut through the noise and get to the code: PrivID is gunning for a privacy-preserving, open-source identity layer for decentralized social networks, starting with AT Protocol and Bluesky. The project leverages zero-knowledge proofs (ZKPs) via Holonym, aiming to let users prove they're real humans—without leaking personal data. That's a big win for privacy and trust in Web3, and it’s all MIT/Apache-licensed, so no walled gardens or token-gated nonsense. \n\nFrom a maximization lens, PrivID is swinging for the fences: protocol-level integration, cross-platform identity, and modular SDKs that other OSS projects can fork or plug into. This is the kind of infra play that can scale to millions if the ecosystem bites. The roadmap is clear, with phased delivery and a focus on developer tooling, onboarding, and documentation—key for OSS adoption. \n\nThe differentiation is strong: no ad-tech, no surveillance, no tokenomics, and a hardline on user privacy. The use cases (DAOs, journalism, NGOs, cross-platform ZK credentials) are broad and high-impact. The architecture is modular and extensible, which is exactly what you want for OSS infra. \n\nBut, let's not get lost in the hype. There are some gaps: the application is light on adoption metrics, user research, and concrete evidence of demand. The dependency on Holonym is a risk—if Holonym stumbles, so does PrivID. Also, while the technical vision is solid, there’s not enough detail on how they’ll drive adoption beyond Bluesky/ATProto, or how they’ll handle UX friction for non-technical users. \n\nBottom line: this is a high-upside, infra-level bet with real OSS ethos, but it needs more proof of traction and a clearer go-to-market for mass adoption. If they can deliver, it’s a protocol multiplier. If not, it risks being another cool repo with no users. \n\nCitations: Application text, round requirements (user-centric design, OSS growth, innovation, open-source/ethical standards).",
   "strengths": [
     {
-      "title": "Innovative Use of Zero-Knowledge Proofs",
-      "description": "PrivID leverages zero-knowledge proofs to provide privacy-preserving identity verification, which is a novel approach in the decentralized identity space."
+      "title": "Protocol-level, privacy-first infrastructure",
+      "description": "PrivID targets a root problem in decentralized social: trust without surveillance. The protocol-level approach and ZK integration are highly scalable and innovative, aligning with maximization and systemic change principles."
     },
     {
-      "title": "Open-Source and Non-Commercial",
-      "description": "The project is fully open-source and licensed under MIT/Apache, ensuring that it contributes to the public good without commercial constraints."
+      "title": "Open-source, modular, and extensible",
+      "description": "The project is fully open-source (MIT/Apache), with modular SDKs and components that other projects can fork or integrate. This maximizes ecosystem impact and supports broad adoption."
     },
     {
-      "title": "Modular and Extensible Architecture",
-      "description": "PrivID's architecture allows other open-source projects to integrate or fork its components, promoting broader adoption and innovation."
+      "title": "No tokenomics, no lock-in",
+      "description": "PrivID avoids token-gated access, paywalls, or ad-tech, focusing on public good infrastructure. This reduces friction and aligns with OSS values and the round’s eligibility."
+    },
+    {
+      "title": "Clear, phased roadmap and technical vision",
+      "description": "The application lays out a concrete, phased plan for development, integration, and expansion, with a focus on developer tooling and documentation—key for OSS adoption."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Detailed Impact Metrics",
-      "description": "The application does not provide specific metrics or methodologies for measuring the project's impact and scalability, which are essential for evaluating its potential success."
+      "title": "Lack of adoption metrics and user research",
+      "description": "The application does not provide evidence of current user demand, adoption, or user research. There’s no data on how many users or developers are interested or engaged."
     },
     {
-      "title": "Unclear Long-Term Systemic Change Strategy",
-      "description": "While the project is innovative, it lacks a clear strategy for achieving long-term systemic change in the identity verification space."
+      "title": "Dependency on Holonym",
+      "description": "The protocol’s reliance on Holonym for ZK proofs introduces a single point of failure. If Holonym fails or changes direction, PrivID’s core functionality is at risk."
+    },
+    {
+      "title": "Unclear go-to-market and adoption strategy",
+      "description": "While the technical vision is strong, there’s insufficient detail on how PrivID will drive adoption beyond Bluesky/ATProto, or how it will address UX friction for non-technical users."
     }
   ],
   "changes": [
     {
-      "title": "Include Detailed Impact Metrics",
-      "description": "Provide specific metrics and methodologies for measuring the project's impact and scalability to better evaluate its potential success."
+      "title": "Provide adoption metrics and user research",
+      "description": "Include data or evidence of user demand, developer interest, or community engagement. User interviews, surveys, or early adoption stats would strengthen the case."
     },
     {
-      "title": "Clarify Long-Term Systemic Change Strategy",
-      "description": "Outline a clear strategy for achieving long-term systemic change in the identity verification space, addressing root causes rather than just symptoms."
+      "title": "Mitigate Holonym dependency",
+      "description": "Outline contingency plans or alternative ZK proof providers to reduce reliance on Holonym and ensure protocol resilience."
+    },
+    {
+      "title": "Detail go-to-market and UX strategy",
+      "description": "Expand on how PrivID will drive adoption beyond Bluesky/ATProto, and how it will make onboarding and usage accessible for non-technical users."
     }
   ],
-  "score": 85
+  "score": 82
 }
