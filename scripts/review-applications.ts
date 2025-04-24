@@ -50,7 +50,7 @@ async function main() {
           console.log(reviewExists);
           if (reviewExists) {
             console.log("Review already exists, skipping...");
-            // return;
+            return;
           }
 
           const research = loadResearch(applicationId);
