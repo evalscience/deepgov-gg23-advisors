@@ -27,35 +27,38 @@ async function main() {
 
   const modelSpecs = await fetchModelSpecs();
 
-  applications.map((application) =>
-    limit(async () => {
-      const { chainId, roundId } = application;
-      console.log(application?.chainId, application.roundId);
+  await Promise.all(
+    applications.map((application) =>
+      limit(async () => {
+        const { chainId, roundId } = application;
+        console.log(application?.chainId, application.roundId);
 
-      const applicationId = getApplicationId(application);
+        const applicationId = getApplicationId(application);
 
-      const karmaGrants = parseKarmaGap(loadKarmaGap(applicationId));
-      console.log(JSON.stringify(karmaGrants, null, 2));
-      console.log(
-        "🔍 Starting research on Project...\n",
-        getProjectName(application)
-      );
-      const {
-        roundMetadata: { name, eligibility },
-      } = loadRoundDetails(chainId, roundId);
-      return Promise.all(
-        modelSpecs.map(async (agent) => {
-          const reviewExists = loadReview(applicationId, agent?.name);
+        console.log(loadKarmaGap(applicationId));
+        const karmaGrants = parseKarmaGap(
+          loadKarmaGap(applicationId) ?? { grants: [] }
+        );
+        console.log(JSON.stringify(karmaGrants, null, 2));
+        console.log(
+          "🔍 Starting research on Project...\n",
+          getProjectName(application)
+        );
+        const {
+          roundMetadata: { name, eligibility },
+        } = loadRoundDetails(chainId, roundId);
+        return Promise.all(
+          modelSpecs.map(async (agent) => {
+            const reviewExists = loadReview(applicationId, agent?.name);
 
-          console.log(reviewExists);
-          if (reviewExists) {
-            console.log("Review already exists, skipping...");
-            return;
-          }
+            if (reviewExists) {
+              console.log("Review already exists, skipping...");
+              return;
+            }
 
-          const research = loadResearch(applicationId);
+            const research = loadResearch(applicationId);
 
-          const prompt = `
+            const prompt = `
 Today's date is ${new Date().toLocaleDateString()}.
 
 Evaluate the following grant application based on the provided model specification.
@@ -82,24 +85,25 @@ Write the review as this persona:
 ${agent.style}
         `;
 
-          console.log("Reviewing application with agent:", agent.name);
-          const result = await evaluationAgent.generate(prompt, {
-            output: ReviewSchema,
-          });
-          // console.log(result.text);
+            console.log("Reviewing application with agent:", agent.name);
+            const result = await evaluationAgent.generate(prompt, {
+              output: ReviewSchema,
+            });
+            // console.log(result.text);
 
-          console.log(result.object);
+            console.log(result.object);
 
-          const id = getApplicationId(application);
-          saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
-            reviewer: agent.name,
-            ...result.object,
-          });
+            const id = getApplicationId(application);
+            saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
+              reviewer: agent.name,
+              ...result.object,
+            });
 
-          return result.object;
-        })
-      );
-    })
+            return result.object;
+          })
+        );
+      })
+    )
   );
 }
 
