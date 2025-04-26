@@ -39,7 +39,7 @@ async function main() {
       return { id, ...review };
     });
 
-    const chunkSize = Math.ceil(reviews.length / 5);
+    const chunkSize = Math.ceil(reviews.length / 3);
     const chunkedReviews = [...chunkify(reviews, chunkSize)];
     const agentScores: ScoredReview[] = [];
 
@@ -54,12 +54,13 @@ The total score of all reviews should be 1.0000.
 ${JSON.stringify(reviewChunk)}
 
 ONLY return the comma-separated values (DO NOT use Markdown tags and no header):
-id,name,score
-id,name,score
+id,score
+id,score
 ...
 `;
+      console.log("generating...");
       const result = await creditAssignmentAgent.generate(prompt);
-
+      console.log("generated");
       console.log(result.text);
       const parsedScores = parseCSV(result.text)
         .map((r) => {
@@ -68,8 +69,7 @@ id,name,score
           }
           return {
             id: r[0],
-            name: r[1],
-            score: parseFloat(r[2]),
+            score: r[1],
           };
         })
         .filter((r) => r);
@@ -79,16 +79,18 @@ id,name,score
 
     // Normalize scores for this agent to sum to 1.0
     const totalScore = agentScores.reduce((sum, { score }) => sum + score, 0);
-    const normalizedScores = agentScores.map(({ id, name, score }) => ({
+
+    console.log("totalScore", totalScore);
+    const normalizedScores = agentScores.map(({ id, score }) => ({
       id,
-      name,
+
       score: score / totalScore,
     }));
 
     allScores[agent.name] = normalizedScores;
     saveFile(
       `scores/credit-assignment-${agent.name}.csv`,
-      normalizedScores.map((r) => `${r.id},${r.name},${r.score}`).join("\n")
+      normalizedScores.map((r) => `${r.id},${r.score}`).join("\n")
     );
   }
 

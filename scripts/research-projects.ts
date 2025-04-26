@@ -7,90 +7,84 @@ import {
   saveFile,
 } from "../utils/utils";
 import { mastra } from "../agents";
-
 import pLimit from "p-limit";
 
-const limit = pLimit(5);
+// Types for the research network stream
+type StreamPart = {
+  type: "error" | "text-delta" | "tool-call" | "tool-result";
+  error?: Error;
+  textDelta?: string;
+  toolName?: string;
+  args?: any;
+  result?: any;
+};
 
-async function main() {
-  const applications = loadApplicationsFromDirectory();
+// Constants
+const CONCURRENT_LIMIT = 5;
+const MAX_RESEARCH_STEPS = 20;
 
-  console.log(`Processing ${applications.length} applications...`);
+// Initialize the concurrency limiter
+const limit = pLimit(CONCURRENT_LIMIT);
 
-  const researchNetwork = mastra.getNetwork("Research_Network");
+/**
+ * Processes a single application for research
+ */
+async function processApplication(application: any, researchNetwork: any) {
+  const applicationId = getApplicationId(application);
+  const researchExists = loadResearch(applicationId);
 
-  if (!researchNetwork) {
-    throw new Error("Research network not found");
+  if (researchExists) {
+    console.log(
+      `Research already exists for ${getProjectName(application)}, skipping...`
+    );
+    return;
   }
 
-  await Promise.all(
-    applications.map((application) =>
-      limit(async () => {
-        // TODO: Should loop through all applications
-        const researchExists = loadResearch(getApplicationId(application));
-
-        if (researchExists) {
-          console.log("Research already exists, skipping...");
-          // return;
-        }
-
-        console.log(application?.metadata);
-        console.log(
-          "🔍 Starting research on Project...\n",
-          getProjectName(application)
-        );
-        const prompt = `A Grant Application JSON is provided. Research this project and give me a report on it. Make sure you're researching the correct project because there might be many with the same name.
-  ${JSON.stringify(application.metadata)}
-  `;
-
-        const result = await researchNetwork.stream(prompt, {
-          maxSteps: 20, // Allow enough steps for the LLM router to determine the best agents to use
-        });
-
-        for await (const part of result.fullStream) {
-          switch (part.type) {
-            case "error":
-              console.error(part.error);
-              break;
-            case "text-delta":
-              process.stdout.write(part.textDelta);
-              break;
-            case "tool-call":
-              console.log(
-                `calling tool ${part.toolName} with args ${JSON.stringify(
-                  part.args,
-                  null,
-                  2
-                )}`
-              );
-              break;
-            case "tool-result":
-              console.log(
-                `tool result ${JSON.stringify(part.result, null, 2)}`
-              );
-              break;
-          }
-        }
-
-        // Display the final result
-        console.log("\n\n📝 Final Research Report:\n");
-
-        console.log("\n\n📊 Agent Interaction Summary:");
-        console.log(researchNetwork.getAgentInteractionHistory());
-
-        saveFile(
-          getApplicationPath(getApplicationId(application)) + "/research.json",
-          researchNetwork.getAgentInteractionHistory()
-        );
-
-        console.log("\n🏁 Research complete!");
-      })
-    )
+  console.log(
+    `🔍 Starting research on Project: ${getProjectName(application)}`
   );
+
+  const prompt = `A Grant Application JSON is provided. Research this project and give me a report on it. Make sure you're researching the correct project because there might be many with the same name.
+${JSON.stringify(application.metadata)}`;
+
+  const result = await researchNetwork.generate(prompt, {
+    maxSteps: MAX_RESEARCH_STEPS,
+  });
+
+  console.log(result.text);
+  // Save the research results
+  const researchPath = `${getApplicationPath(applicationId)}/research.json`;
+  const interactionHistory = researchNetwork.getAgentInteractionHistory();
+  console.log(interactionHistory);
+  saveFile(researchPath, interactionHistory);
+  console.log(`\n🏁 Research complete for ${getProjectName(application)}!`);
 }
 
-// Run the main function with error handling
-main().catch((error) => {
-  console.error("❌ Error:", error);
-  process.exit(1);
-});
+/**
+ * Main function to process all applications
+ */
+async function main() {
+  try {
+    const applications = loadApplicationsFromDirectory();
+    console.log(`Processing ${applications.length} applications...`);
+
+    const researchNetwork = mastra.getNetwork("Research_Network");
+    if (!researchNetwork) {
+      throw new Error("Research network not found");
+    }
+
+    await Promise.all(
+      applications.map((application) =>
+        limit(() => processApplication(application, researchNetwork))
+      )
+    );
+
+    console.log("✅ All research tasks completed successfully!");
+  } catch (error) {
+    console.error("❌ Error during research process:", error);
+    process.exit(1);
+  }
+}
+
+// Execute the main function
+main();

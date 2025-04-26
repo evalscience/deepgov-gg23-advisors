@@ -19,46 +19,32 @@ import { ReviewSchema } from "../utils/schemas";
 
 const limit = pLimit(3);
 
-async function main() {
-  const applications = loadApplicationsFromDirectory("application.json");
-  const reviews = loadReviewsFromDirectory();
-  console.log(`Processing ${applications.length} applications...`);
-  console.log(`Processing ${reviews.length / 3} reviews...`);
+async function processApplication(application: any, modelSpecs: any[]) {
+  const { chainId, roundId } = application;
+  console.log(`Processing application for chain ${chainId}, round ${roundId}`);
 
-  const modelSpecs = await fetchModelSpecs();
+  const applicationId = getApplicationId(application);
+  const karmaGap = loadKarmaGap(applicationId);
+  const karmaGrants = parseKarmaGap(karmaGap ?? { grants: [] });
 
-  await Promise.all(
-    applications.map((application) =>
-      limit(async () => {
-        const { chainId, roundId } = application;
-        console.log(application?.chainId, application.roundId);
+  console.log("🔍 Starting research on Project:", getProjectName(application));
 
-        const applicationId = getApplicationId(application);
+  const {
+    roundMetadata: { name, eligibility },
+  } = loadRoundDetails(chainId, roundId);
+  const research = loadResearch(applicationId);
 
-        console.log(loadKarmaGap(applicationId));
-        const karmaGrants = parseKarmaGap(
-          loadKarmaGap(applicationId) ?? { grants: [] }
-        );
-        console.log(JSON.stringify(karmaGrants, null, 2));
+  return Promise.all(
+    modelSpecs.map(async (agent) => {
+      const reviewExists = loadReview(applicationId, agent?.name);
+      if (reviewExists) {
         console.log(
-          "🔍 Starting research on Project...\n",
-          getProjectName(application)
+          `Review already exists for agent ${agent.name}, skipping...`
         );
-        const {
-          roundMetadata: { name, eligibility },
-        } = loadRoundDetails(chainId, roundId);
-        return Promise.all(
-          modelSpecs.map(async (agent) => {
-            const reviewExists = loadReview(applicationId, agent?.name);
+        return null;
+      }
 
-            if (reviewExists) {
-              console.log("Review already exists, skipping...");
-              return;
-            }
-
-            const research = loadResearch(applicationId);
-
-            const prompt = `
+      const prompt = `
 Today's date is ${new Date().toLocaleDateString()}.
 
 Evaluate the following grant application based on the provided model specification.
@@ -83,37 +69,82 @@ ${agent.constitution}
 
 Write the review as this persona:
 ${agent.style}
-        `;
+      `;
 
-            console.log("Reviewing application with agent:", agent.name);
-            const result = await evaluationAgent.generate(prompt, {
-              output: ReviewSchema,
-            });
-            // console.log(result.text);
+      console.log(`Reviewing application with agent: ${agent.name}`);
+      const result = await evaluationAgent.generate(prompt, {
+        output: ReviewSchema,
+      });
 
-            console.log(result.object);
+      const id = getApplicationId(application);
+      saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
+        reviewer: agent.name,
+        ...result.object,
+      });
 
-            const id = getApplicationId(application);
-            saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
-              reviewer: agent.name,
-              ...result.object,
-            });
-
-            return result.object;
-          })
-        );
-      })
-    )
+      return result.object;
+    })
   );
 }
 
-// Run the main function with error handling
-main().catch((error) => {
-  console.error("❌ Error:", error);
-  // process.exit(1);
-});
+async function main() {
+  try {
+    const applications = loadApplicationsFromDirectory("application.json");
+    const reviews = loadReviewsFromDirectory();
+    console.log(`Processing ${applications.length} applications...`);
+    console.log(`Processing ${reviews.length / 3} reviews...`);
 
-function parseKarmaGap({ grants }: { grants: KarmaGrants[] }) {
+    const modelSpecs = await fetchModelSpecs();
+
+    await Promise.all(
+      applications.map((application) =>
+        limit(() => processApplication(application, modelSpecs))
+      )
+    );
+  } catch (error) {
+    console.error("❌ Error:", error);
+    process.exit(1);
+  }
+}
+
+// Run the main function
+main();
+
+interface MilestoneData {
+  title: string;
+  description: string;
+  endsAt: number;
+  startsAt?: number;
+  type: string;
+  priority?: number;
+}
+
+interface Milestone {
+  data: MilestoneData;
+}
+
+interface GrantDetails {
+  data: {
+    proposalURL?: string;
+    title?: string;
+    amount?: string;
+    payoutAddress?: string;
+    type?: string;
+    programId?: string;
+    description?: string;
+  };
+}
+
+interface Grant {
+  details: GrantDetails;
+  milestones: Milestone[];
+}
+
+interface KarmaGapData {
+  grants: Grant[];
+}
+
+function parseKarmaGap({ grants }: KarmaGapData) {
   return grants.map((grant) => ({
     details: grant.details.data,
     milestones: grant.milestones.map((milestone) => ({
