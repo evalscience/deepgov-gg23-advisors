@@ -55,6 +55,61 @@
       "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
       "createdAt": "2025-04-05T01:25:24.000Z",
       "updatedAt": "2025-04-05T01:25:31.000Z"
+    },
+    {
+      "uid": "0x13efd84f81522cdbbbb45fd735dd0c18f3c267dacc05a341286e2207c2418925",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "6802e28b3f5df5707cf206f8"
+        },
+        "uid": "0x1cf2b744db6f168ddd90e52aa8ab3e7bc04718339cc046f8b64604c487c38c9d",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x13efd84f81522cdbbbb45fd735dd0c18f3c267dacc05a341286e2207c2418925",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1745019528,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1745019531,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "## What is it?\nWeb3 Certifier is a blockchain-based examination platform. The users that pass the examinations get NFT certificates. The examinations are multiple-choice questions with 4 possible answers. The exam process is done in 4 steps:\n    1. Certifier creates exam with questions.\n    2. Users submit answers to the exam.\n    3. After examination end the certifier has 5 minutes to correct the exam by providing the answers.\n    4. If the user has passed the exam, they can claim their NFT certificate.\nAlso, there is an AI Agent running on Discord that can recommend an exam based on users' interests or summarize the skills of a user based on their certifications. For more info reach out on discord (my username: \"elamore_\").\n\n## GoodDollar Identity\nI need to use the GoodDollar unique identity system so that I can make a type of exam that is only for real users and only allows each user to submit once. That way certifiers can create exams that check if the user that submits the answers is real or not while preventing multiple submission attempts from different accounts of the same user. Also, I would love to deploy on Celo due to its beginner friendly features and its strong momentum. The implementation of the identity system will be done using the \"gooddollar/web3sdk-v2\" library.\n\n## Team\nRight now the team consists only by me, Spyros. I am a blockchain developer and also have experience in full-stack development. You can see my previous projects on my github: https://github.com/spyros-zikos?tab=repositories.\nSome of them are:\n    1. AUTODAO (https://ethglobal.com/showcase/auto-dao-t0und)\n    In this project my team won 2 prizes in the ETHGlobal hackathon. I mostly developed the frontend and did the DIMO integration.\n    2. Bonding Curve Presale (https://github.com/spyros-zikos/Bonding-Curve-Presale)\n    This is a project I developed for a company named White Had DAO which wanted to launch a new product and wanted me do build their smart contracts.\n    3. Tip This Creator (https://github.com/spyros-zikos/tip-this-creator)\n    I developed this project during the Agentic Ethereum ETHGlobal hackathon. It is an AI agent that helps twitter users tip their favorite content creators using crypto.\n\n## Milestones\nMilestone 1 - Until 30/04: Smart contract developement and testing.\nMilestone 2 - Until 30/07: Unique identity system integration and front-end developement.\nMilestone 3 - Until 30/10: Deploy to Celo and get funding to do marketing and BD.\nMilestone 4 - Until 30/12: Get 10k paying users.\n\n## Growth Strategy\nI think that initially the main driver of traffic will be from partnerships with web3 educational platforms or web3 creators. These partners will be able to better monetize their content while also engaging with their audience more effectively. After gaining some users and revenue we can attract more people and host a wider variety of examination subjects and certificates by advertising and partnering with educators of any subject.\n\n## Funding Needed (Estimates)\nEstimated min and max amounts per milestone.\nFor milestone 1, max: $3k, min: $2k\nFor milestone 2, max: $5k, min: $2k\nFor milestone 3, max: $5k, min: $200\nFor milestone 4, max: $5k, min: $0\n\n## Competition\nI am not aware of any other projects in the GoodDollar ecosystem that would be considered as competitors. I believe Web3 Certifier will be a unique platform that will attract many educators to the Celo chain and the GoodDollar ecosystem that want to create certifications for their audience. This project is aligned with the GoodDollar ecosystem because its goal is to make education universally available.",
+          "imageURL": "bafkreigw5fbffshdat6dg3hpnybtzmoop3i7fy7ppivtyy6xp2dyxv5l5q",
+          "title": "Web3 Certifier",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://web3-certifier-deployment-nextjs-git-main-spyros-zikos-projects.vercel.app"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/web3certifier"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/Web3-Certifier"
+            }
+          ],
+          "slug": "web3-certifier-1",
+          "type": "project-details"
+        },
+        "txid": "0x95b737cc0ec6d2745dc8bbf5823584df47bfb3ec7c22923f44d9cc0bb99fe85b"
+      },
+      "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+      "createdAt": "2025-04-18T23:38:48.000Z",
+      "updatedAt": "2025-04-18T23:38:51.000Z"
     }
   ],
   "grants": [
@@ -260,6 +315,205 @@
           },
           "externalIds": [],
           "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6802e28b3f5df5707cf206f7"
+      },
+      "uid": "0xde2f34f3a9ddffabdabbc0d90eb10dc3f67eb99c00934ed3d076079abff8be09",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x13efd84f81522cdbbbb45fd735dd0c18f3c267dacc05a341286e2207c2418925",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-18T23:38:48.000Z",
+      "updatedAt": "2025-04-18T23:38:51.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x801528cc69368f07500d669c4636e88a086b8bc6a2fb3c9d71f219f7853e3dba"
+      },
+      "txid": "0x95b737cc0ec6d2745dc8bbf5823584df47bfb3ec7c22923f44d9cc0bb99fe85b",
+      "details": {
+        "_id": {
+          "$oid": "6802e28c3f5df5707cf206fa"
+        },
+        "uid": "0xaf312231704b0b5872011b074b9bb43c0865ca83d566a9c1174e0a68e70a398a",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xde2f34f3a9ddffabdabbc0d90eb10dc3f67eb99c00934ed3d076079abff8be09",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1745019528,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1745019532,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/29/5",
+          "title": "GoodDollar Builders Program: Kickoff QF Round",
+          "description": "",
+          "payoutAddress": "0x637365C8697C63186dC4759bd0F10af9B32D3c1A",
+          "programId": "29_42220",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project Description: Briefly describe your project and how it enhances G$ utility or adoption",
+              "explanation": "Web3 Certifier is a blockchain-based examination platform. The users that pass the examinations get NFT certificates. The examinations are multiple-choice questions with 4 possible answers. The exam process is done in 4 steps:     1. Certifier creates exam with questions.     2. Users submit answers to the exam.     3. After examination end the certifier has 5 minutes to correct the exam by providing the answers.     4. If the user has passed the exam, they can claim their NFT certificate. Also, there is an AI Agent running on Discord that can recommend an exam based on users' interests or summarize the skills of a user based on their certifications. For more info reach out on discord (my username: \"elamore_\")."
+            },
+            {
+              "type": "paragraph",
+              "query": "Technical Implementation: Describe your approach and how it integrates with GoodDollar. For new builders, outline your implementation plan. ",
+              "explanation": "I need to use the GoodDollar unique identity system so that I can make a type of exam that is only for real users and only allows each user to submit once. That way certifiers can create exams that check if the user that submits the answers is real or not while preventing multiple submission attempts from different accounts of the same user. Also, I would love to deploy on Celo due to its beginner friendly features and its strong momentum. The implementation of the identity system will be done using the \"gooddollar/web3sdk-v2\" library."
+            },
+            {
+              "type": "paragraph",
+              "query": "Team Capability: Highlight your team's relevant experience and past delivery of similar projects, particularly in the Web3 space or with GoodDollar. Please add relevant links to members GitHub, Twitter, LinkedIn, etc as needed. ",
+              "explanation": "Right now the team consists only by me, Spyros. I am a blockchain developer and also have experience in full-stack development. You can see my previous projects on my github: https://github.com/spyros-zikos?tab=repositories.\nSome of them are:\n    1. AUTODAO (https://ethglobal.com/showcase/auto-dao-t0und)\n    In this project my team won 2 prizes in the ETHGlobal hackathon. I mostly developed the frontend and did the DIMO integration.\n    2. Bonding Curve Presale (https://github.com/spyros-zikos/Bonding-Curve-Presale)\n    This is a project I developed for a company named White Had DAO which wanted to launch a new product and wanted me do build their smart contracts.\n    3. Tip This Creator (https://github.com/spyros-zikos/tip-this-creator)\n    I developed this project during the Agentic Ethereum ETHGlobal hackathon. It is an AI agent that helps twitter users tip their favorite content creators using crypto."
+            },
+            {
+              "type": "paragraph",
+              "query": "Roadmap & Milestones: Outline 3-5 key milestones with timeframes demonstrating how you'll deliver value to the GoodDollar ecosystem.",
+              "explanation": "Milestone 1 - Until 30/04: Smart contract development and testing.\nMilestone 2 - Until 30/07: Unique identity system integration and front-end development.\nMilestone 3 - Until 30/10: Deploy to Celo and get funding to do marketing and BD.\nMilestone 4 - Until 30/12: Get 10k paying users."
+            },
+            {
+              "type": "paragraph",
+              "query": "User Adoption Strategy: How will you attract users to your project and drive G$ adoption? Include specific strategies or metrics. You can find more details on the engagement rewards to support this at: https://engagement-rewards.vercel.app/ ",
+              "explanation": "I think that initially the main driver of traffic will be from partnerships with web3 educational platforms or web3 creators. These partners will be able to better monetize their content while also engaging with their audience more effectively. After gaining some users and revenue we can attract more people and host a wider variety of examination subjects and certificates by advertising and partnering with educators of any subject."
+            },
+            {
+              "type": "paragraph",
+              "query": "Funding Allocation: How will you allocate the funding to maximize impact? Provide a simple breakdown of resource allocation. ",
+              "explanation": "Estimated min and max amounts per milestone.\nFor milestone 1, max: $3k, min: $2k\nFor milestone 2, max: $5k, min: $2k\nFor milestone 3, max: $5k, min: $200\nFor milestone 4, max: $5k, min: $0"
+            },
+            {
+              "type": "paragraph",
+              "query": "Ecosystem Contribution: How does your project complement existing initiatives in the GoodDollar ecosystem rather than competing with them?",
+              "explanation": "I am not aware of any other projects in the GoodDollar ecosystem that would be considered as competitors. I believe Web3 Certifier will be a unique platform that will attract many educators to the Celo chain and the GoodDollar ecosystem that want to create certifications for their audience. This project is aligned with the GoodDollar ecosystem because its goal is to make education universally available."
+            },
+            {
+              "type": "dropdown",
+              "query": "Ethical Compliance: Confirm you have read and will comply with the ethical standards outlined in the eligibility criteria.",
+              "explanation": "Yes"
+            },
+            {
+              "type": "paragraph",
+              "query": "Additional Info: Is there anything else critical for evaluating your project that wasn't covered in the questions above?",
+              "explanation": "No"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x95b737cc0ec6d2745dc8bbf5823584df47bfb3ec7c22923f44d9cc0bb99fe85b"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6802e28b3f5df5707cf206f6"
+        },
+        "uid": "0x13efd84f81522cdbbbb45fd735dd0c18f3c267dacc05a341286e2207c2418925",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x637365c8697c63186dc4759bd0f10af9b32d3c1a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1745019528,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1745019531,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x95b737cc0ec6d2745dc8bbf5823584df47bfb3ec7c22923f44d9cc0bb99fe85b",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6802df1238b1dfc39eb81983"
+        },
+        "uid": "0x801528cc69368f07500d669c4636e88a086b8bc6a2fb3c9d71f219f7853e3dba",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1745018636,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1745018642,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x4272cd84cbd06fdcfd4136335feb968420e937f787f975b40fe9316d77781e6a",
+        "details": {
+          "_id": {
+            "$oid": "6802df1c38b1dfc39eb81984"
+          },
+          "uid": "0x2e962957b4960673e9e723c721a1f08f1b0050490141ccdb7c13e9ea214639f8",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x801528cc69368f07500d669c4636e88a086b8bc6a2fb3c9d71f219f7853e3dba",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1745018646,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1745018652,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "GoodDollar",
+            "description": "G$ is a reserve-backed token, and the GoodDollar protocol is a multi-chain system that sustainably funds UBI at scale",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-gap-gooddollar.jpg",
+            "slug": "good-dollar"
+          },
+          "txid": "0x37a75c8276de34c55789fc016c70e91bef5a68023937299a3936eb864c0c1fff"
         }
       }
     }
