@@ -183,6 +183,9 @@ export async function fetchModelSpecs(): Promise<
       constitution: await fetch(
         `${contentURL}/${name}/modelspec/constitution.md`
       ).then((r) => r.text()),
+      scoringRubric: await fetch(
+        `${contentURL}/${name}/modelspec/scoring-rubric.md`
+      ).then((r) => r.text()),
     }))
   );
 }
