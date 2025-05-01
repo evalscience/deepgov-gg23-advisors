@@ -80,17 +80,18 @@ function createPrompt(reviewChunk: ReviewChunk[]) {
   return `
 Score each application review based on how much funding the project deserves. Distribute the scores so that the total sum of all scores is exactly 1.0000.
 
-Input:
+Input (JSON array of review objects):
 ${JSON.stringify(reviewChunk)}
 
 There are ${reviewChunk.length} reviews, so your output must contain exactly ${
     reviewChunk.length
-  } lines.
+  } lines—one per review, in the same order as the input.
 
 Output requirements (strict):
 - Each line must be in the form: id,score
 - Use the **exact** \`id\` string from each input review - **do not** truncate, pad, alter or expand it in any way.
 - Output reviews in the **same order** as they appear in the input.
+- **Use each \`id\` exactly once**; do **not** omit or duplicate any.
 - The \`score\` must be a decimal number with **4 digits after the decimal point**.
 - Lines must be separated by a single newline (\`\n\`), with **no trailing newline**.
 - Do **not** include headers, numbering, names, or any explanatory text.
@@ -99,7 +100,7 @@ Output requirements (strict):
 function normalizeScores(
   scores: ScoredReview[],
   applications: Application[]
-): ScoredReview[] {
+): (ScoredReview & { name: string })[] {
   const totalScore = scores.reduce((sum, { score }) => sum + score, 0);
 
   return scores.map(({ id, score }) => {
@@ -161,9 +162,34 @@ async function main() {
 
       saveFile(
         `scores/credit-assignment-${agent.name}.csv`,
-        normalizedScores.map((r) => `${r.id},${r.score}`).join("\n")
+        normalizedScores.map((r) => `${r.id},${r.name},${r.score}`).join("\n")
       );
     }
+
+    const combinedScores: {
+      [id: string]: {
+        id: string;
+        name: string;
+        score: number;
+        reviewer: string;
+      }[];
+    } = {};
+
+    const rows: string[] = [];
+    for (const [reviewer, scores] of Object.entries(allScores)) {
+      for (const score of scores) {
+        combinedScores[score.id] = [
+          ...(combinedScores[score.id] || []),
+          { ...score, reviewer },
+        ];
+      }
+    }
+
+    for (const [id, scores] of Object.entries(combinedScores)) {
+      rows.push(`${id},${scores.map((s) => `${s.score}`).join(",")}`);
+    }
+
+    saveFile("scores/credit-assignment-combined.csv", rows.join("\n"));
 
     console.log(
       "Done! Individual agent scores saved to scores/credit-assignment-{agent}.csv files"
