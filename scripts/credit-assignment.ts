@@ -88,12 +88,12 @@ There are ${reviewChunk.length} reviews, so your output must contain exactly ${
   } lines.
 
 Output requirements (strict):
-- Return only plain text, no Markdown or extra content.
 - Each line must be in the form: id,score
-- Use the exact id string from each input review (no changes).
-- Score must have 4 decimal places.
-- Lines separated by a single newline (\n), with no trailing newline.
-- Do not include headers, numbering, names, or any explanatory text.
+- Use the **exact** \`id\` string from each input review - **do not** truncate, pad, alter or expand it in any way.
+- Output reviews in the **same order** as they appear in the input.
+- The \`score\` must be a decimal number with **4 digits after the decimal point**.
+- Lines must be separated by a single newline (\`\n\`), with **no trailing newline**.
+- Do **not** include headers, numbering, names, or any explanatory text.
 `;
 }
 function normalizeScores(
