@@ -109,7 +109,8 @@ export function loadReviewsFromDirectory(): Application[] {
 export function getProjectName(application: Application): string {
   return (
     application.project?.metadata?.title ||
-    application.metadata.application.title
+    application.metadata?.application?.title ||
+    application.metadata.application?.project?.title
   );
 }
 
