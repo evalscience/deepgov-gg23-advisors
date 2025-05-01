@@ -66,9 +66,9 @@ async function processReviewChunk(
     return existingScores;
   }
 
-  const result = await creditAssignmentAgent.generate(
-    createPrompt(reviewChunk)
-  );
+  const prompt = createPrompt(reviewChunk);
+  console.log("Prompt length:", prompt.length);
+  const result = await creditAssignmentAgent.generate(prompt);
 
   console.log(result.text);
   saveFile(filePath, result.text);
@@ -78,25 +78,23 @@ async function processReviewChunk(
 
 function createPrompt(reviewChunk: ReviewChunk[]) {
   return `
-  Score each application review based on how much funding the project deserves. Distribute the total score across all reviews so that the **sum of all scores is exactly 1.0000**.
+Score each application review based on how much funding the project deserves. Distribute the scores so that the total sum of all scores is exactly 1.0000.
 
-  **Input reviews (JSON):**
-  ${JSON.stringify(reviewChunk)}
+Input:
+${JSON.stringify(reviewChunk)}
 
-  There are **${reviewChunk.length} reviews**, so you must return **exactly ${
+There are ${reviewChunk.length} reviews, so your output must contain exactly ${
     reviewChunk.length
-  } lines** in the output.
+  } lines.
 
-  **Output format (strict):**
-  Return only plain text in CSV format, with **no header**, **no markdown formatting**, and **no extra content**.
-  Each line must contain:
-  \`id,score\`
-  Use line breaks (\`\n\`) to separate rows. Do not include any names.
-
-  Example:
-  1234-567-0xe573019b9f23a496663f5944a83c8acdc99792bfc5f5ad603ee8f6cb0f46f9fe,0.1234
-  2345-678-0x62f25a11c2ae5a2af563cc5b1f772b3aebe1bd4a0a82e41a78e61e1db972ad7e,0.8766
-  `;
+Output requirements (strict):
+- Return only plain text, no Markdown or extra content.
+- Each line must be in the form: id,score
+- Use the exact id string from each input review (no changes).
+- Score must have 4 decimal places.
+- Lines separated by a single newline (\n), with no trailing newline.
+- Do not include headers, numbering, names, or any explanatory text.
+`;
 }
 function normalizeScores(
   scores: ScoredReview[],
@@ -128,7 +126,7 @@ async function main() {
     const allScores: Record<string, ScoredReview[]> = {};
 
     // Process each model's reviews
-    for (const agent of [modelSpecs[0]]) {
+    for (const agent of modelSpecs) {
       if (!agent?.name) continue;
 
       console.log(
