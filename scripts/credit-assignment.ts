@@ -1,5 +1,6 @@
 import chunkify from "chunkify";
 import pRetry, { AbortError } from "p-retry";
+import pLimit from "p-limit";
 import {
   fetchModelSpecs,
   getApplicationId,
@@ -67,7 +68,7 @@ async function processReviewChunk(
   }
 
   const prompt = createPrompt(reviewChunk);
-  console.log("Prompt length:", prompt.length);
+  console.log("Reviewing applications with prompt length:", prompt.length);
   const result = await creditAssignmentAgent.generate(prompt);
 
   console.log(result.text);
@@ -143,19 +144,19 @@ async function main() {
         return { id, ...review };
       });
 
-      const chunkSize = Math.ceil(reviews.length / 4);
+      const chunkSize = Math.ceil(reviews.length / 11);
       const chunkedReviews = [...chunkify(reviews, chunkSize)];
       const agentScores: ScoredReview[] = [];
 
-      for (let index = 0; index < chunkedReviews.length; index++) {
-        console.log("Scoring chunk:", index, "of size:", chunkSize);
-        const chunkScores = await pRetry(
-          () =>
-            processReviewChunk(chunkedReviews[index] || [], agent.name, index),
-          { retries: 2 }
-        );
-        agentScores.push(...chunkScores);
-      }
+      const chunkResults = await Promise.all(
+        chunkedReviews.map((chunk, index) =>
+          pRetry(() => processReviewChunk(chunk || [], agent.name, index), {
+            retries: 2,
+          })
+        )
+      );
+
+      agentScores.push(...chunkResults.flat());
 
       const normalizedScores = normalizeScores(agentScores, applications);
       allScores[agent.name] = normalizedScores;
