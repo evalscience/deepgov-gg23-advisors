@@ -1,3 +1,4 @@
+import dotenv from "dotenv";
 import {
   getApplicationId,
   getApplicationPath,
@@ -9,6 +10,7 @@ import {
 import { mastra } from "../agents";
 import pLimit from "p-limit";
 
+dotenv.config({ path: ".env.local" });
 // Types for the research network stream
 type StreamPart = {
   type: "error" | "text-delta" | "tool-call" | "tool-result";
@@ -73,11 +75,10 @@ async function main() {
       throw new Error("Research network not found");
     }
 
-    await Promise.all(
-      applications.map((application) =>
-        limit(() => processApplication(application, researchNetwork))
-      )
-    );
+    // We need to process applications sequentially otherwise the AgentNetwork will mix up the data
+    for (const application of applications) {
+      await processApplication(application, researchNetwork);
+    }
 
     console.log("✅ All research tasks completed successfully!");
   } catch (error) {
