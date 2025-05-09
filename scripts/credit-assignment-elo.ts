@@ -35,14 +35,14 @@ async function main() {
   console.log("Pre-loading application data (app, research, karmagap)...");
   const applicationDataMap = new Map<string, any>();
   for (const app of applications) {
-    const id = getApplicationId(app);
-    const name = getProjectName(app) || id;
-    applicationDataMap.set(id, {
-      id,
+    const applicationId = getApplicationId(app);
+    const name = getProjectName(app) || applicationId;
+    applicationDataMap.set(applicationId, {
+      applicationId,
       name,
-      application: loadApplication(id),
-      research: loadResearch(id),
-      karmaGap: loadKarmaGap(id),
+      application: loadApplication(applicationId),
+      research: loadResearch(applicationId),
+      karmaGap: loadKarmaGap(applicationId),
     });
   }
   console.log("Finished pre-loading data.");
@@ -55,11 +55,11 @@ async function main() {
     const agentName = agent?.name;
     acc[agentName] = applications
       .map((app) => {
-        const id = getApplicationId(app);
-        const baseData = applicationDataMap.get(id);
+        const applicationId = getApplicationId(app);
+        const baseData = applicationDataMap.get(applicationId);
         if (!baseData) return null;
 
-        const reviewData = loadReview(id, agentName);
+        const reviewData = loadReview(applicationId, agentName);
         if (!reviewData) return null;
 
         return { ...baseData, review: reviewData };
@@ -74,8 +74,8 @@ async function main() {
 
     // Initialize all ratings
     const ratings: Record<string, number> = {};
-    for (const { id } of agentApplicationsData) {
-      ratings[id] = BASE_RATING;
+    for (const { applicationId } of agentApplicationsData) {
+      ratings[applicationId] = BASE_RATING;
     }
 
     // Run simulated pairwise matchups (round-robin style)
@@ -118,17 +118,17 @@ ${JSON.stringify(projectBData, null, 2)}
         const result = await creditAssignmentAgent.generate(prompt);
         const winner = result.text.trim().toUpperCase();
 
-        const ratingA = ratings[appA.id]!;
-        const ratingB = ratings[appB.id]!;
+        const ratingA = ratings[appA.applicationId]!;
+        const ratingB = ratings[appB.applicationId]!;
         const expectedA = expectedScore(ratingA, ratingB);
         const expectedB = expectedScore(ratingB, ratingA);
 
         if (winner === "A") {
-          ratings[appA.id] = updateElo(ratingA, expectedA, 1);
-          ratings[appB.id] = updateElo(ratingB, expectedB, 0);
+          ratings[appA.applicationId] = updateElo(ratingA, expectedA, 1);
+          ratings[appB.applicationId] = updateElo(ratingB, expectedB, 0);
         } else if (winner === "B") {
-          ratings[appA.id] = updateElo(ratingA, expectedA, 0);
-          ratings[appB.id] = updateElo(ratingB, expectedB, 1);
+          ratings[appA.applicationId] = updateElo(ratingA, expectedA, 0);
+          ratings[appB.applicationId] = updateElo(ratingB, expectedB, 1);
         } else {
           console.warn(`⚠️ Unexpected response: ${result.text}`);
         }
@@ -137,17 +137,17 @@ ${JSON.stringify(projectBData, null, 2)}
 
     // Normalize scores so they sum to 1 (for funding allocation)
     const totalScore = Object.values(ratings).reduce((sum, score) => sum + score, 0);
-    const normalized = Object.entries(ratings).map(([id, score]) => {
-      const name = applicationDataMap.get(id)?.name || id;
+    const normalized = Object.entries(ratings).map(([applicationId, score]) => {
+      const name = applicationDataMap.get(applicationId)?.name || applicationId;
       return {
-        id,
+        applicationId,
         name,
         score: (score / totalScore).toFixed(6),
       };
     });
 
     // Prepare output CSV format
-    const output = ["id,name,score", ...normalized.map((r) => `${r.id},${r.name},${r.score}`)].join("\n");
+    const output = ["applicationId,name,score", ...normalized.map((r) => `${r.applicationId},${r.name},${r.score}`)].join("\n");
 
     // Save results to file
     saveFile(`scores/elo-credit-assignment-${agentName}.csv`, output);
