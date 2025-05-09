@@ -136,6 +136,15 @@ export function loadReview(applicationId: string, agent: string): any {
     return null;
   }
 }
+export function loadApplication(applicationId: string): any {
+  try {
+    return JSON.parse(
+      readFileSync(getApplicationPath(applicationId) + "/application.json", "utf8")
+    );
+  } catch (error) {
+    return null;
+  }
+}
 export function loadKarmaGap(applicationId: string): any {
   try {
     return JSON.parse(
@@ -180,6 +189,9 @@ export async function fetchModelSpecs(): Promise<
       ).then((r) => r.text()),
       scoring: await fetch(
         `${contentURL}/agents/${name}/modelspec/scoring.md`
+      ).then((r) => r.text()),
+      scoringRubric: await fetch(
+        `${contentURL}/${name}/modelspec/scoring-rubric.md`
       ).then((r) => r.text()),
     }))
   );
