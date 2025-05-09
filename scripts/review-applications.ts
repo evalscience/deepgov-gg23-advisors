@@ -65,7 +65,9 @@ ${JSON.stringify(karmaGrants)}
 ${JSON.stringify(research)}
 
 **Model Specification:**  
+${agent.ethics}
 ${agent.constitution}
+${agent.scoring}
 
 Write the review as this persona:
 ${agent.style}
