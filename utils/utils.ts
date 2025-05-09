@@ -136,6 +136,15 @@ export function loadReview(applicationId: string, agent: string): any {
     return null;
   }
 }
+export function loadApplication(applicationId: string): any {
+  try {
+    return JSON.parse(
+      readFileSync(getApplicationPath(applicationId) + "/application.json", "utf8")
+    );
+  } catch (error) {
+    return null;
+  }
+}
 export function loadKarmaGap(applicationId: string): any {
   try {
     return JSON.parse(
