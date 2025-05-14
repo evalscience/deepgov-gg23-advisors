@@ -1,51 +1,63 @@
 {
   "reviewer": "open-source-capitalist",
-  "review": "Alright, let's cut through the noise and get straight to the alpha. eth.limo is a heavy-hitter in the Ethereum infrastructure game, and it shows. This project is a privacy-preserving ENS gateway, handling over a billion requests a year—yeah, you read that right, a billion. It's the backbone for ENS dWebsites, default resolver for app.ens.domains, and a lifeline for DAOs, DeFi, and the long tail of indie dWebsites. That's max utility, max scale, and pure public good energy.\n\nThe team is shipping real innovation: privacy by default (no IP logging, no TCP fingerprinting, FLoC actively blocked), multi-protocol support (IPFS, Arweave, Swarm), and a roadmap stacked with CDN upgrades, DNS resolvers, and Gateway-as-a-Service. They're not just keeping up—they're setting the pace. The open-source ethos is strong, and the project is deeply embedded in the Ethereum ecosystem, with integrations across major tools and gateways.\n\nBut let's not get lost in the hype. The application is light on granular financials and lacks a detailed breakdown of how grant funds will be allocated. The roadmap is ambitious, but timelines and measurable milestones are fuzzy. There's also a need for more transparency on governance and how community oversight will actually work in practice. For a project at this scale, that's non-trivial.\n\nBottom line: eth.limo is a critical piece of infra, delivering broad, systemic impact and pushing the envelope on privacy and accessibility. But to hit max trust and efficiency, we need sharper clarity on resource allocation and governance. Let's tighten up those bolts and keep this rocket on course.\n\nCitations: Application answers (metrics, privacy features, integrations), project documentation, and public repo activity.",
+  "summary": "eth.limo is a high-impact, privacy-preserving ENS gateway that supercharges Ethereum’s decentralized web infrastructure. It’s a public good with massive throughput, strong privacy guarantees, and a clear focus on scaling access to dWeb content. The project is open source, widely adopted, and laser-focused on utility maximization. However, transparency on usage metrics and financials is lacking, and the team’s structure is opaque. Still, the project’s efficiency, reach, and systemic impact are undeniable.",
+  "review": "## Luna’s Deep Dive: eth.limo Grant Review\n\nAlright, let’s cut through the noise and get to the alpha. eth.limo is a privacy-first ENS gateway that’s basically the backbone for decentralized web access on Ethereum. It’s not just another gateway—it’s the default resolver for a ton of ENS projects, handling millions of requests daily. That’s serious throughput, folks. Let’s break it down Open Source Capitalist style:\n\n### 1. Scale & Impact\n- **Throughput**: Claims of 1B+ requests/year, 4-7M/day. Even if we haircut those numbers, it’s still massive. This is core infra, not a niche tool.\n- **Adoption**: Default resolver for app.ens.domains, eth.link, and more. That’s sticky, systemic impact—exactly what we want for max utility.\n- **Public Good**: Free, open source, and privacy-preserving. No IP logging, no TCP fingerprinting, blocks FLoC. That’s how you build trust and scale adoption.\n\n### 2. Efficiency & Resource Optimization\n- **No Smart Contract Overhead**: No on-chain deploys means lower attack surface and zero gas costs. Lean and mean.\n- **Caching & CDN**: Global object caching, multi-region CDN plans—these are textbook moves for latency reduction and cost efficiency.\n- **Automation**: On-demand subdomain certs, DoH resolver, and self-serve infra tools (Chauffeur) all point to a dev team obsessed with automation and scale.\n\n### 3. Innovation\n- **Privacy**: Not just lip service—actively blocks FLoC, never logs IPs, and is working on new HTTP header standards for dWeb.\n- **Interoperability**: Supports IPFS, Arweave, Swarm, CCIP-Read, emoji/unicode domains. That’s a buffet of compatibility.\n- **Forward-Looking**: Prepping for .eth as an ICANN gTLD, Gateway-as-a-Service, and more. They’re not just keeping up—they’re setting the pace.\n\n### 4. Weaknesses & Risks\n- **Transparency**: Usage stats and financials aren’t public. For a public good, that’s a red flag. We need hard data, not just big claims.\n- **Team Opaqueness**: DAO structure is cool, but who’s actually running the show? No clear team bios or accountability.\n- **Centralization Risk**: As a gateway, eth.limo is a critical point of failure. If it goes down, a big chunk of dWeb access goes with it. They’re working on decentralization, but it’s not there yet.\n- **No Budget Breakdown**: We don’t know how funds are allocated. That’s a miss for efficiency analysis.\n\n### 5. Cost-Benefit & Utility Maximization\n- **Cost**: Unknown, but infra at this scale isn’t cheap. Still, the utility per dollar is likely off the charts given the user base and systemic leverage.\n- **Benefit**: Enables millions to access dWeb content, supports DAOs, DeFi, NFT projects, and more. This is root-level infra—max impact, max leverage.\n\n### 6. Quantitative Assessment\nLet’s rough out the utility:\n- If eth.limo enables 1B+ requests/year, and even 1% of those are mission-critical (DeFi, DAO ops, etc.), that’s 10M high-value interactions/year.\n- Compare that to the cost of running centralized alternatives or the opportunity cost of dWeb inaccessibility—eth.limo is a force multiplier.\n\n### 7. Alignment with Model Spec\n- **Maximization**: Hits every principle—broad impact, systemic leverage, long-term infra, minimal bureaucracy.\n- **Innovation**: Pioneering privacy and interoperability.\n- **Resource Allocation**: Even with opaque financials, the impact per resource spent is likely top-tier.\n\n### 8. Recommendations\n- **Publish Usage Metrics**: Real dashboards, not just claims. Build trust, show scale.\n- **Financial Transparency**: Budget breakdowns, cost per request, etc. Let the market see the efficiency.\n- **Decentralize Further**: More redundancy, more open infra. Don’t be a single point of failure.\n- **Team Disclosure**: Even in a DAO, some accountability and bios help with trust and funding.\n\n### 9. Final Word\neth.limo is a market leader in Ethereum infra. It’s not perfect—transparency and decentralization need work—but the scale, efficiency, and systemic impact are undeniable. This is the kind of project that moves the needle for the entire ecosystem.\n\n**Score: 9/10. High-growth prospect, just shy of perfect due to transparency gaps.**\n\n**Confidence: 4/5. Strong data, but would be 5/5 with public metrics and budget.**\n\n**No ethical or legal flags.**\n\nLet’s keep building. Onward!",
   "strengths": [
     {
-      "title": "Massive Scale and Impact",
-      "description": "Handles over 1B requests per year, serving as the default resolver for major ENS projects and supporting a wide range of users from DAOs to indie creators. This is foundational infrastructure with broad, systemic reach."
+      "title": "Massive Scaling Potential",
+      "description": "Handles millions of requests daily, serving as the backbone for ENS and dWeb access. Systemic leverage across the Ethereum ecosystem."
     },
     {
-      "title": "Privacy-First Architecture",
-      "description": "Implements strong privacy guarantees—no IP logging, no TCP fingerprinting, and active blocking of FLoC. Sets a high bar for privacy in public gateway services."
+      "title": "Privacy and Security Focus",
+      "description": "Strong privacy guarantees (no IP logging, FLoC blocking), making it a trusted public good and boosting user adoption."
     },
     {
-      "title": "Open Source and Interoperable",
-      "description": "Supports all major ENS-compatible storage layers (IPFS, Arweave, Swarm), CCIP-Read, and DNS over HTTPS. The codebase is open, and the project is committed to public good principles."
+      "title": "Interoperability and Innovation",
+      "description": "Supports multiple storage layers (IPFS, Arweave, Swarm), CCIP-Read, emoji/unicode domains, and is pushing new standards for dWeb HTTP headers."
     },
     {
-      "title": "Continuous Innovation",
-      "description": "Roadmap includes multi-region CDN, Gateway-as-a-Service, improved IPv6, and new standards for ENS HTTP headers. The team is actively shipping and iterating based on community feedback."
+      "title": "Resource Efficiency",
+      "description": "No smart contract overhead, global caching, and automation tools optimize resource use and minimize operational costs."
     }
   ],
   "weaknesses": [
     {
-      "title": "Lack of Detailed Financial Transparency",
-      "description": "The application does not provide a granular breakdown of how grant funds will be allocated across operations, development, and scaling. This makes it hard to assess efficiency and ROI at a strict level."
+      "title": "Transparency Gaps",
+      "description": "No public usage dashboards or financial breakdowns. Makes it hard to verify claims and assess true efficiency."
     },
     {
-      "title": "Fuzzy Milestones and Timelines",
-      "description": "While the roadmap is ambitious, it lacks specific, measurable milestones and clear timelines for deliverables. This reduces accountability and makes progress tracking difficult."
+      "title": "Team Opaqueness",
+      "description": "DAO structure is cool, but there’s no clear info on who’s running things or how accountability is managed."
     },
     {
-      "title": "Governance and Oversight Ambiguity",
-      "description": "The application references community governance and oversight but does not detail mechanisms, processes, or how decisions are made. For a public good at this scale, more transparency is needed."
+      "title": "Centralization Risk",
+      "description": "As a gateway, eth.limo is a critical point of failure. More decentralization and redundancy are needed."
+    },
+    {
+      "title": "No Budget Breakdown",
+      "description": "Lack of detailed budget or cost allocation data limits efficiency analysis."
     }
   ],
   "changes": [
     {
-      "title": "Provide Detailed Budget Allocation",
-      "description": "Submit a clear, itemized budget showing how grant funds will be used for operations, development, scaling, and contingency. Include percentages or dollar amounts for each category."
+      "title": "Publish Real-Time Usage Metrics",
+      "description": "Provide public dashboards with request counts, uptime, and adoption stats to back up scale claims."
     },
     {
-      "title": "Define Measurable Milestones and Timelines",
-      "description": "Break down the roadmap into specific, time-bound milestones with clear deliverables. This will improve accountability and allow for more objective progress tracking."
+      "title": "Disclose Financials",
+      "description": "Share a budget breakdown and cost-per-request analysis to demonstrate resource efficiency."
     },
     {
-      "title": "Clarify Governance Structure",
-      "description": "Detail the mechanisms for community governance and oversight. Specify how decisions are made, who participates, and how transparency is maintained."
+      "title": "Increase Team Transparency",
+      "description": "List core contributors, roles, and accountability mechanisms—even in a DAO, some transparency is needed."
+    },
+    {
+      "title": "Accelerate Decentralization",
+      "description": "Implement more redundancy and open up infra to reduce single-point-of-failure risk."
     }
   ],
-  "score": 87
+  "rating": 9,
+  "confidence": 4,
+  "confidenceReasoning": "I’m highly confident in eth.limo’s impact and efficiency based on adoption, throughput, and ecosystem integration. However, the lack of public usage and financial data introduces some uncertainty. If those were addressed, confidence would be absolute. The project’s market position and technical execution are otherwise top-tier.",
+  "score": 9
 }

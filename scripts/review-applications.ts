@@ -17,7 +17,7 @@ import { evaluationAgent } from "../agents/agents/evaluator";
 import pLimit from "p-limit";
 import { ReviewSchema } from "../utils/schemas";
 
-const limit = pLimit(3);
+const limit = pLimit(10);
 
 async function processApplication(application: any, modelSpecs: any[]) {
   const { chainId, roundId } = application;
