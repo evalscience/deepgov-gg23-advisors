@@ -213,6 +213,157 @@
           "txid": "0x34f244213618beb28e7ec01d6f35e305057d1309b03e82b61ca3cb45d1b539b4"
         }
       }
+    },
+    {
+      "_id": {
+        "$oid": "68127692893fd6bfe5534138"
+      },
+      "uid": "0xca46826162cf4ede908970d2a6a8cf5a5deb9944c26d8b7bf0a565599580e839",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0xe566db9ed0e15a25ed59f775c02097805ff1dc73c6fe10072439e2737ced89ef",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xb110291b1a2f8b42899f059c81c989d9f04af22a",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-30T19:12:42.000Z",
+      "updatedAt": "2025-04-30T19:14:26.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d"
+      },
+      "txid": "0x3bcbe2f5139483fa43e8125245b7704f686977834252b245f85abb4e77f878b6",
+      "details": {
+        "_id": {
+          "$oid": "68127693893fd6bfe5534140"
+        },
+        "uid": "0x74050d1ac974ae68d589e40617491048baf2ebcaf904911753b1ea6791e2517f",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xca46826162cf4ede908970d2a6a8cf5a5deb9944c26d8b7bf0a565599580e839",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xb110291b1a2f8b42899f059c81c989d9f04af22a",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1746040362,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1746040467,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://app.charmverse.io/prezenti-grants/project-mocha-06294458868758679",
+          "title": "Prezenti Apricot Round",
+          "payoutAddress": "0xb110291b1A2F8b42899f059c81C989D9f04AF22A",
+          "programId": "909_42161",
+          "type": "grant-details"
+        },
+        "txid": "0x3bcbe2f5139483fa43e8125245b7704f686977834252b245f85abb4e77f878b6"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67f988ba66914bb420fad20d"
+        },
+        "uid": "0xe566db9ed0e15a25ed59f775c02097805ff1dc73c6fe10072439e2737ced89ef",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9c64691d1ae0a3234280dcd2bada9ac963a4dab9",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1744406711,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1744406714,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x39912bdaa7969c8e4eed8f1fbe905cc0678022612fa59f8f225f5729aca96ff7",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "67c0c4713d8ab8946c68e839"
+        },
+        "uid": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1740686436,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1740686449,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x305cb51c2e7c6136efd85bc82145f16aec0b83a2c8b5cdbe86e715e4f5ce050e",
+        "details": {
+          "_id": {
+            "$oid": "67c0c47b3d8ab8946c68e83a"
+          },
+          "uid": "0xca11c14b89700171c0f1e07496c978980d6a0b82c9fb6709289857f78a5ceff9",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1740686451,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1740686459,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo",
+            "description": "Celo Community",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celo"
+          },
+          "txid": "0xa5dc6bf2df08c2c371fe36428e2ba76a75fba6538d4aa1ec852823f2e06127f3"
+        }
+      }
     }
   ]
 }
