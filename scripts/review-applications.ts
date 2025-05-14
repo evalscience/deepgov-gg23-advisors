@@ -17,7 +17,7 @@ import { evaluationAgent } from "../agents/agents/evaluator";
 import pLimit from "p-limit";
 import { ReviewSchema } from "../utils/schemas";
 
-const limit = pLimit(3);
+const limit = pLimit(10);
 
 async function processApplication(application: any, modelSpecs: any[]) {
   const { chainId, roundId } = application;
@@ -27,7 +27,7 @@ async function processApplication(application: any, modelSpecs: any[]) {
   const karmaGap = loadKarmaGap(applicationId);
   const karmaGrants = parseKarmaGap(karmaGap ?? { grants: [] });
 
-  console.log("🔍 Starting research on Project:", getProjectName(application));
+  console.log("🔍 Starting review on Project:", getProjectName(application));
 
   const {
     roundMetadata: { name, eligibility },
