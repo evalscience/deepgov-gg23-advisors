@@ -1,0 +1,354 @@
+{
+  "id": "51",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x50913496c6bf653fefba3cc93a7ac5aa65e0d840b3586854528479866787ba03",
+  "metadata": {
+    "signature": "0x76742cfa6a13824e1b5f825430b4381cfa88c1835143c2a819b567d9dd3d1af71e15d4f52731c423e5c0f7b4bcf82310cea3283e10abf21721ae8b17a59ccc771c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "exeunt3@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "4",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Not formally"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "\nOur funding goal is $8k, which we intend to use to compensate back labor and fund minimum ongoing operations for 3-4 months. This will entail:\n\n- Soliciting one new article per week from diverse corners of the EthereumxLocalism intersection space.\n\n- Continuing the process of uploading a wide range of past artifacts from regen community (ex. Greenpill's Local Regen Guide).\n\n- Establishing Farcaster community presence with a moderated Ethereum Localism Warpcast channel to expand the community, launch frames, govern elements of the site through jokeraces and more.\n\n- Tracking and collecting of appearances of ethereum localist tooling and ethos in news, nonprofit sector, community publications (Cooperation Jackson example).\n\n- Development of Ethereum Localism Action Kit.",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x50913496c6bf653fefba3cc93a7ac5aa65e0d840b3586854528479866787ba03",
+        "title": "EthereumLocalism.XYZ Operations Guild",
+        "logoImg": "bafkreihedbc5mnuusylbnxdgvw2jnupnxh5trxzgsri2balzqfdzmwg7l4",
+        "metaPtr": {
+          "pointer": "bafkreibvwpd4hcfz26qngk7t5islzakh34ezl7dyee4pem6wtdk53dpe7e",
+          "protocol": "undefined"
+        },
+        "website": "https://ethereumlocalism.xyz",
+        "bannerImg": "bafkreigqsjv24xslgvh54z4bjgiblzjgjrzpywcwbobpaiy3xdtdzrgpxy",
+        "createdAt": 1743624737297,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-02T20:15:36.132Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x843b4413ab1eb56e611df4f72e33599607452b6fe656dba1414c56bbdf425f0927657cdeb387c4d296cf9825604970741e91c360767ceae15c6f81c7e3e7ff691b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-02T20:15:36.132Z",
+            "expirationDate": "2025-07-01T20:15:36.132Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xC9d20533c5b8a79526377e5d05dC79b87B28E92F",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#EthForestDAO",
+              "nullifiers": [
+                "v0.0.0:YjF7Yh2ofYXXheRjFhCsKHZwIuM3ta4gBPErxr0Y504="
+              ]
+            }
+          }
+        },
+        "description": "EthereumLocalism.xyz is an open knowledge garden and action-oriented research hub dedicated to propagating the meme and practice of **Ethereum Localism**. \n\nThe website curates editorial content, protocols, patterns, and case studies that bring Ethereum into service of cosmo-local governance, bioregional resilience, and real-world public goods funding. Emerging from the General Forum on Ethereum Localism (GFEL), the project seeks to embed Ethereum into local economies through decentralized governance, innovative funding models, and community-owned infrastructure. \n\nEthereumLocalism.xyz currently seeks **support** to build out its editorial cadence, develop a Farcaster channel, expand its artifact base, and steward the Ethereum Localism Action Kit—practical, modular resources for communities to launch local Ethereum-powered initiatives.\n\n![](https://github.com/Clinamenic/GFEL/blob/main/IMG_5172.png?raw=true)\n\n## Alignment with Regen Coordination Mission & North Star Outcomes\n🌍 ReFi Web3 Awareness, Adoption, Development\n EthereumLocalism.xyz increases awareness of ReFi and localism through storytelling, research, and the curation of real-world experiments. It bridges the knowledge gap between onchain innovation and offline communities, amplifying the cultural and civic narratives that ground Web3 in human-scale systems.\n\n⚙️ Celo, Ethereum & Ecosystem Activity\n By serving as a vector for local Ethereum tooling, governance, and funding practices, Ethereum Localism expands the utility and adoption of Ethereum across new domains. Collaborations with ReFi nodes and pilots on networks like Celo deepen practical usage and integrate additional ecosystem infrastructure such as Gitcoin, Giveth, and Hypercerts.\n\n🌱 Local Ecological, Social, and Economic Impact\n Through documentation of projects like the Rio de Janeiro Regen Round, Urban Greening in Split, and ReFi Mediterranean, EthereumLocalism.xyz helps surface and systematize local impact stories—turning them into templates for replication. This supports tangible regeneration while building a public record of local community empowerment.\n\n## Deliverables\n\nOur funding goal is $8k, which we intend to use to compensate back labor and fund minimum ongoing operations for 3-4 months. This will entail:\n\n- Soliciting one new article per week from diverse corners of the EthereumxLocalism intersection space.\n- Continuing the process of uploading a wide range of past artifacts from regen community (ex. Greenpill's Local Regen Guide).\n- Establishing Farcaster community presence with a moderated Ethereum Localism Warpcast channel to expand the community, launch frames, govern elements of the site through jokeraces and more. \n- Tracking and collecting of appearances of ethereum localist tooling and ethos in news, nonprofit sector, community publications ([Cooperation Jackson example](https://cooperationjackson.org/blog/creatingcommunityassetvouchersinjacksonms)).\n- Development of [Ethereum Localism Action Kit](https://www.ethereumlocalism.xyz/introduction/action-kit).\n\n![](https://github.com/Clinamenic/GFEL/blob/main/lovewall.jpeg?raw=true)\n",
+        "lastUpdated": 0,
+        "projectTwitter": "ethforestDAO"
+      },
+      "recipient": "0xE0fBc583bbc90fD3529833817A03604e136C010C"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "EthereumLocalism.XYZ Operations Guild",
+      "logoImg": "bafkreihedbc5mnuusylbnxdgvw2jnupnxh5trxzgsri2balzqfdzmwg7l4",
+      "website": "https://ethereumlocalism.xyz",
+      "bannerImg": "bafkreigqsjv24xslgvh54z4bjgiblzjgjrzpywcwbobpaiy3xdtdzrgpxy",
+      "createdAt": 1743624737297,
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T20:15:36.132Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x843b4413ab1eb56e611df4f72e33599607452b6fe656dba1414c56bbdf425f0927657cdeb387c4d296cf9825604970741e91c360767ceae15c6f81c7e3e7ff691b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T20:15:36.132Z",
+          "expirationDate": "2025-07-01T20:15:36.132Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xC9d20533c5b8a79526377e5d05dC79b87B28E92F",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#EthForestDAO",
+            "nullifiers": [
+              "v0.0.0:YjF7Yh2ofYXXheRjFhCsKHZwIuM3ta4gBPErxr0Y504="
+            ]
+          }
+        }
+      },
+      "description": "EthereumLocalism.xyz is an open knowledge garden and action-oriented research hub dedicated to propagating the meme and practice of **Ethereum Localism**. \n\nThe website curates editorial content, protocols, patterns, and case studies that bring Ethereum into service of cosmo-local governance, bioregional resilience, and real-world public goods funding. Emerging from the General Forum on Ethereum Localism (GFEL), the project seeks to embed Ethereum into local economies through decentralized governance, innovative funding models, and community-owned infrastructure. \n\nEthereumLocalism.xyz currently seeks **support** to build out its editorial cadence, develop a Farcaster channel, expand its artifact base, and steward the Ethereum Localism Action Kit—practical, modular resources for communities to launch local Ethereum-powered initiatives.\n\n![](https://github.com/Clinamenic/GFEL/blob/main/IMG_5172.png?raw=true)\n\n## Alignment with Regen Coordination Mission & North Star Outcomes\n🌍 ReFi Web3 Awareness, Adoption, Development\n EthereumLocalism.xyz increases awareness of ReFi and localism through storytelling, research, and the curation of real-world experiments. It bridges the knowledge gap between onchain innovation and offline communities, amplifying the cultural and civic narratives that ground Web3 in human-scale systems.\n\n⚙️ Celo, Ethereum & Ecosystem Activity\n By serving as a vector for local Ethereum tooling, governance, and funding practices, Ethereum Localism expands the utility and adoption of Ethereum across new domains. Collaborations with ReFi nodes and pilots on networks like Celo deepen practical usage and integrate additional ecosystem infrastructure such as Gitcoin, Giveth, and Hypercerts.\n\n🌱 Local Ecological, Social, and Economic Impact\n Through documentation of projects like the Rio de Janeiro Regen Round, Urban Greening in Split, and ReFi Mediterranean, EthereumLocalism.xyz helps surface and systematize local impact stories—turning them into templates for replication. This supports tangible regeneration while building a public record of local community empowerment.\n\n## Deliverables\n\nOur funding goal is $8k, which we intend to use to compensate back labor and fund minimum ongoing operations for 3-4 months. This will entail:\n\n- Soliciting one new article per week from diverse corners of the EthereumxLocalism intersection space.\n- Continuing the process of uploading a wide range of past artifacts from regen community (ex. Greenpill's Local Regen Guide).\n- Establishing Farcaster community presence with a moderated Ethereum Localism Warpcast channel to expand the community, launch frames, govern elements of the site through jokeraces and more. \n- Tracking and collecting of appearances of ethereum localist tooling and ethos in news, nonprofit sector, community publications ([Cooperation Jackson example](https://cooperationjackson.org/blog/creatingcommunityassetvouchersinjacksonms)).\n- Development of [Ethereum Localism Action Kit](https://www.ethereumlocalism.xyz/introduction/action-kit).\n\n![](https://github.com/Clinamenic/GFEL/blob/main/lovewall.jpeg?raw=true)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectTwitter": "ethforestDAO"
+    }
+  }
+}

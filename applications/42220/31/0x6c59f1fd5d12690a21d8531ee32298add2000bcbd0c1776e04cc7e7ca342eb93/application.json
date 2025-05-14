@@ -1,0 +1,101 @@
+{
+  "id": "65",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x6c59f1fd5d12690a21d8531ee32298add2000bcbd0c1776e04cc7e7ca342eb93",
+  "metadata": {
+    "signature": "0x79933115833662e1f16d0bc61e5148ea33d638cbcfcde1295c02d803fceb548a2689d6c5312ddfcec5ff16cae651f86bcc5c4acee64b98c097ac5fbfcf99920c1b",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "mattycompost@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "10",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Greenpill"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "We plan to continue hosting regular meetups. And want to start setting up digital calls eventually.\n\nOur main goal is to continue fleshing out the specifics for a local QF round, including how to sustainably fund the matching pool.",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x6c59f1fd5d12690a21d8531ee32298add2000bcbd0c1776e04cc7e7ca342eb93",
+        "title": "Greenpill NYC",
+        "logoImg": "bafkreienr6fo3djaz5eqzdpv3mpk54ja6n2cndrmcn5byxkipelxbkifpy",
+        "metaPtr": {
+          "pointer": "bafkreib5fc4ksfq4c7pqb57suak7hrunp5tkrd6f5ke43zzlnhhyzz4a64",
+          "protocol": "undefined"
+        },
+        "website": "https://app.charmverse.io/greenpill-nyc",
+        "bannerImg": "bafkreib2tkverxyjnsthmfzpwzpipqeolfjr7aomizx3p55a3levow4twq",
+        "createdAt": 1710200315916,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9.._kELIkhTdkR-NTo02YHolPh-Di_7U35WD15PRnHp9Pj8gsff6EeYBE50IW6uQH3Nao9DEMD36r5lAfhuX_mfBA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-03-11T23:35:51.600Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-03-11T23:35:51.600Z",
+            "expirationDate": "2024-06-09T23:35:51.600Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xD50965e23ADba5d34731F216cE7145DfE4c90e01",
+              "hash": "v0.0.0:LzceeAZIYCnPA8vtgikZoTLcQH7QL07InJODpTHhbt4=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#greenpillnyc"
+            }
+          }
+        },
+        "description": "Greenpill NYC is a New York based Greenpill Chapter focused on galvanizing support to run local quadratic funding rounds to fund irl public goods. We [host meetups most months](https://gap.karmahq.xyz/project/greenpill-nyc?tab=updates) to bring the community together to explore public goods funding, onchain coordination mechanisms, what people are building/exploring, etc.\n\nOur primary initiative is setting up a QF round to fund local impactors in NYC. As of now it looks like our focus will be within Red Hook, Brooklyn but we're still researching the tech stack, scope and broader plan. \n\nEverything raised this round will be used to fund the matching pool. We have all the funds from GG21 Regen Coordination Genesis in our treasury, including the USDGLO still Auto-PGF'ing, also earmarked for the matching pool.\n\nAnybody in New York should hop in our [telegram](https://t.co/8mUTGYOw9Y). \n\nAppreciate your support 💚",
+        "lastUpdated": 0,
+        "projectTwitter": "greenpillnyc"
+      },
+      "recipient": "0xD50965e23ADba5d34731F216cE7145DfE4c90e01"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 42161,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

@@ -23,6 +23,10 @@ const rounds = [
     roundId: "863",
     chainId: "42161",
   },
+  {
+    roundId: "31",
+    chainId: "42220",
+  },
 ];
 
 const ROUNDS_QUERY = `

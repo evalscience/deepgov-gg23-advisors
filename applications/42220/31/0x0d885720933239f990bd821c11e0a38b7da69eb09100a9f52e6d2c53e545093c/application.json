@@ -1,0 +1,355 @@
+{
+  "id": "61",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x0d885720933239f990bd821c11e0a38b7da69eb09100a9f52e6d2c53e545093c",
+  "metadata": {
+    "signature": "0xe92f8bd5a5e114072a3d7baa9b33346b8a61822e1f450f7f462c9d81e4eea2355aad0815b0e887f6559b7528a8a562b19965f34cef7c88948f20da31074d04a31b",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "regen@earthist.network",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "14",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Bloom Network"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "- ✅ **Onboard at least 20 new community members** into Earthist DAO—farmers, educators, artists, youth leaders, regenerative project leaders& entrepreneurs, and land-based organizers—equipping them with the skills and access needed to participate in decentralized governance.\n- 🧰 **Expand our coordination stack using Ethereum-aligned tools** such as **Gnosis Safe** for transparent treasury management and **CharmVerse** for contributor onboarding and task coordination.\n- 📜 **Implement Hypercerts on Celo** to verify outcomes from on-ground projects, workshops, and community events.\n- 🧭 **Use KarmaGap dashboards** to maintain alignment between on-the-ground work and DAO-wide objectives.\n- 🪙 **Explore rewarding contributors** for verified impact and active participation through integrations with tools like **Bloom Network** and **Impact Miner** and **Experiment with inclusive governance models** that authentically represent on-the-ground perspectives—ensuring real-world needs are driving decisions at every level.\n",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x0d885720933239f990bd821c11e0a38b7da69eb09100a9f52e6d2c53e545093c",
+        "title": "Earthist DAO for Regen Coordination",
+        "logoImg": "bafkreidhdu2aljscyoixpprwpuylnhj6ggeq3mk7gcwuvn7vhea4alyfym",
+        "metaPtr": {
+          "pointer": "bafkreifij2qjudcp2glbwji2o3forq4wqgqmftqbjk54sei4ssinjidt3e",
+          "protocol": "undefined"
+        },
+        "website": "https://linkte.ee/earthist",
+        "bannerImg": "bafkreiem3hh3a64rapyj5ow3gpioozjit4zpfz2bsprbgd2t45pcw3ts6e",
+        "createdAt": 1743706186142,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-03T18:46:59.467Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xc0b8126e51e27925ccf1d83979fa35e4481051dd4238cf55d58fa463b1707fce1c261d45332e150620763a0ad1a8318623552c4648c495dcddbfcae29cd479a71b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-03T18:46:59.467Z",
+            "expirationDate": "2025-07-02T18:46:59.467Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x5076f87610Ff3D5f859d562a050Dae82F6b3C63e",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#earthistdao",
+              "nullifiers": [
+                "v0.0.0:pJ5AGO/fvAL9x5S9OOWbnYW8l9byliuMhGuJUV8IS7M="
+              ]
+            }
+          }
+        },
+        "description": "\n**Earthist DAO** is the decentralized governance layer of the **Earthist Network**—a living ecosystem of regenerative projects rooted in land stewardship, ecological restoration, and community empowerment across Türkiye. Through our DAO, we are building transparent, inclusive governance systems that empower **farmers, land stewards, educators, ecological researchers, seed keepers, artisans, youth leaders, community organizers, regenerative entrepreneurs, and digital tool builders** to shape decision-making and funding flows in alignment with ecological and social impact.\n\nWe do this by supporting and helping to establish **non-profits, community-led NGOs, and regenerative for-profit businesses**, and by **onboarding their members into the DAO**—ensuring that those creating value on the ground also have a voice in the systems that govern it. This process creates a diverse, interdependent ecosystem capable of long-term regeneration, participatory governance, and shared stewardship.\n\n![earthistdao](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeidof5gocxqsxyqupkryz3nh7uz7r75w5wf2dnavde7hujdxz2mcvu)\n\n\n## 🌟 Alignment with Regen Coordination Pillars  \n\n- 🌿 Grounding digital governance in real-world regenerative practice  \n- 🤝 Empowering underrepresented voices with accessible, participatory tools  \n- 🔍 Building transparent systems of accountability for ecological outcomes  \n- 🧪 Prototyping scalable models of regenerative coordination and governance  \n- 🌾 Bridging traditional ecological knowledge with emerging Web3 technologies  \n\nAs **validators on Regen Network**, we support global ecological governance by contributing to on-chain decisions around ecocredit integrity, inclusive methodologies, and transparent definitions of regeneration; bringing grounded insights from Turkish land stewards into Web3 climate infrastructure.\n\n![regenerating](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/QmNyzkD9ihJXEyYFoUV1NPgAwLEfwgYC857dQJtxdGepJa)\n![earthisthypercert](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeibcxarla5i56bbm7qris6rrwelpajppiflspbyjsqinslblifnwoa)\n\n## ⚠️ The Challenge  \n\nToo often, those most intimately connected to the land—*farmers, educators, and traditional stewards*—are excluded from the systems that decide how resources are distributed. At the same time, many DAOs operate in isolation from real-world ecological efforts, making it hard to coordinate meaningful impact on the ground.\n\n**Earthist DAO bridges this gap**, connecting local wisdom and grassroots action with digital transparency, accountability, and coordination.\n\n![earthisthypercert](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeiefhnhlzxiilknrmjiwfd3gqbsvppny7s7r77hhfk4mo25ppuimkm)\n\n\n---\n\n## 🌍 Our Regenerative Vision  \nWe believe regeneration begins from the ground up—through the soil, the hands that tend it, and the communities that depend on its well-being. Earthist Network supports a growing constellation of place-based initiatives focused on restoring degraded landscapes, revitalizing local economies, preserving biodiversity, and nurturing ecological literacy.\n\n**Earthist DAO** provides the decentralized infrastructure to support this work—anchoring regeneration in community-led, transparent decision-making powered by Web3 innovation.\n\n## 🌱 Our Track Record & Community Impact  \n\n**Earthist Network** has:\n- 🌾 **Restored soil health and enhanced biodiversity** through regenerative land practices across multiple pilot sites with cultivation of hemp, regenerative cotton, and medicinal plants.\n- 👩‍🌾 **Engaged over 750+ people** through educational festivals, land-based learning programs, and community gatherings  \n- 🌍 **Collaborated across disciplines**, bringing together seed keepers, farmers, mycologists, ecological artists, builders, educators, and developers  \n- 🧑‍🔬 **Piloted community-based research** into local seed varieties, soil regeneration, composting, and low-impact technologies  \n- 🌐 **Actively contributed to governance** as validators and participants in the Regen Network ecosystem  \n- 🏛️ **Established and supported a growing ecosystem of NGOs, non-profits, and regenerative enterprises**, enabling diverse approaches to land stewardship, education, product development, and ecological governance  \n\n![community](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeic4k64x4ygszpzmzfo2b7udncmhq4a2gp2lx6zajll6vwk45o54wu)\n\n## 🌱 The Future We’re Cultivating  \n\nWe believe the future of regeneration lies in governance that is as adaptive, alive, and interconnected as nature itself. \n**Earthist DAO** is pioneering a new model of decentralized coordination—one rooted in community wisdom, ecological integrity, and digital transparency.\n\n\n*Let’s co-create governance systems as resilient and diverse as the ecosystems they serve.*\n\n\n",
+        "lastUpdated": 0,
+        "projectTwitter": "earthistdao"
+      },
+      "recipient": "0x7CD2073a2C8408e4Af96873a0e3822B442b58039"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "Earthist DAO for Regen Coordination",
+      "logoImg": "bafkreidhdu2aljscyoixpprwpuylnhj6ggeq3mk7gcwuvn7vhea4alyfym",
+      "website": "https://linkte.ee/earthist",
+      "bannerImg": "bafkreiem3hh3a64rapyj5ow3gpioozjit4zpfz2bsprbgd2t45pcw3ts6e",
+      "createdAt": 1743706186142,
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-03T18:46:59.467Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xc0b8126e51e27925ccf1d83979fa35e4481051dd4238cf55d58fa463b1707fce1c261d45332e150620763a0ad1a8318623552c4648c495dcddbfcae29cd479a71b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-03T18:46:59.467Z",
+          "expirationDate": "2025-07-02T18:46:59.467Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x5076f87610Ff3D5f859d562a050Dae82F6b3C63e",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#earthistdao",
+            "nullifiers": [
+              "v0.0.0:pJ5AGO/fvAL9x5S9OOWbnYW8l9byliuMhGuJUV8IS7M="
+            ]
+          }
+        }
+      },
+      "description": "\n**Earthist DAO** is the decentralized governance layer of the **Earthist Network**—a living ecosystem of regenerative projects rooted in land stewardship, ecological restoration, and community empowerment across Türkiye. Through our DAO, we are building transparent, inclusive governance systems that empower **farmers, land stewards, educators, ecological researchers, seed keepers, artisans, youth leaders, community organizers, regenerative entrepreneurs, and digital tool builders** to shape decision-making and funding flows in alignment with ecological and social impact.\n\nWe do this by supporting and helping to establish **non-profits, community-led NGOs, and regenerative for-profit businesses**, and by **onboarding their members into the DAO**—ensuring that those creating value on the ground also have a voice in the systems that govern it. This process creates a diverse, interdependent ecosystem capable of long-term regeneration, participatory governance, and shared stewardship.\n\n![earthistdao](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeidof5gocxqsxyqupkryz3nh7uz7r75w5wf2dnavde7hujdxz2mcvu)\n\n\n## 🌟 Alignment with Regen Coordination Pillars  \n\n- 🌿 Grounding digital governance in real-world regenerative practice  \n- 🤝 Empowering underrepresented voices with accessible, participatory tools  \n- 🔍 Building transparent systems of accountability for ecological outcomes  \n- 🧪 Prototyping scalable models of regenerative coordination and governance  \n- 🌾 Bridging traditional ecological knowledge with emerging Web3 technologies  \n\nAs **validators on Regen Network**, we support global ecological governance by contributing to on-chain decisions around ecocredit integrity, inclusive methodologies, and transparent definitions of regeneration; bringing grounded insights from Turkish land stewards into Web3 climate infrastructure.\n\n![regenerating](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/QmNyzkD9ihJXEyYFoUV1NPgAwLEfwgYC857dQJtxdGepJa)\n![earthisthypercert](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeibcxarla5i56bbm7qris6rrwelpajppiflspbyjsqinslblifnwoa)\n\n## ⚠️ The Challenge  \n\nToo often, those most intimately connected to the land—*farmers, educators, and traditional stewards*—are excluded from the systems that decide how resources are distributed. At the same time, many DAOs operate in isolation from real-world ecological efforts, making it hard to coordinate meaningful impact on the ground.\n\n**Earthist DAO bridges this gap**, connecting local wisdom and grassroots action with digital transparency, accountability, and coordination.\n\n![earthisthypercert](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeiefhnhlzxiilknrmjiwfd3gqbsvppny7s7r77hhfk4mo25ppuimkm)\n\n\n---\n\n## 🌍 Our Regenerative Vision  \nWe believe regeneration begins from the ground up—through the soil, the hands that tend it, and the communities that depend on its well-being. Earthist Network supports a growing constellation of place-based initiatives focused on restoring degraded landscapes, revitalizing local economies, preserving biodiversity, and nurturing ecological literacy.\n\n**Earthist DAO** provides the decentralized infrastructure to support this work—anchoring regeneration in community-led, transparent decision-making powered by Web3 innovation.\n\n## 🌱 Our Track Record & Community Impact  \n\n**Earthist Network** has:\n- 🌾 **Restored soil health and enhanced biodiversity** through regenerative land practices across multiple pilot sites with cultivation of hemp, regenerative cotton, and medicinal plants.\n- 👩‍🌾 **Engaged over 750+ people** through educational festivals, land-based learning programs, and community gatherings  \n- 🌍 **Collaborated across disciplines**, bringing together seed keepers, farmers, mycologists, ecological artists, builders, educators, and developers  \n- 🧑‍🔬 **Piloted community-based research** into local seed varieties, soil regeneration, composting, and low-impact technologies  \n- 🌐 **Actively contributed to governance** as validators and participants in the Regen Network ecosystem  \n- 🏛️ **Established and supported a growing ecosystem of NGOs, non-profits, and regenerative enterprises**, enabling diverse approaches to land stewardship, education, product development, and ecological governance  \n\n![community](https://ivory-adverse-albatross-563.mypinata.cloud/ipfs/bafybeic4k64x4ygszpzmzfo2b7udncmhq4a2gp2lx6zajll6vwk45o54wu)\n\n## 🌱 The Future We’re Cultivating  \n\nWe believe the future of regeneration lies in governance that is as adaptive, alive, and interconnected as nature itself. \n**Earthist DAO** is pioneering a new model of decentralized coordination—one rooted in community wisdom, ecological integrity, and digital transparency.\n\n\n*Let’s co-create governance systems as resilient and diverse as the ecosystems they serve.*\n\n\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectTwitter": "earthistdao"
+    }
+  }
+}

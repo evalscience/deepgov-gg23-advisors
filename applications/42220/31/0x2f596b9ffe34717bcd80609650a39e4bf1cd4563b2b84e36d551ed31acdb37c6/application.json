@@ -1,0 +1,634 @@
+{
+  "id": "36",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x2f596b9ffe34717bcd80609650a39e4bf1cd4563b2b84e36d551ed31acdb37c6",
+  "metadata": {
+    "signature": "0x247a432837e4602f1c6541b28da79e1de30c04ee70b9744618486ed5a2fa073a76c50779d9502cb616551331af3e5f7a0009f4f0856802f42b7b5312d0b681f81c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "team@gainforest.net",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "7",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Ma Earth"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "👥 **Community Growth**\n- Onboard 100 new communities into the GainForest network\n- Create Web3 onboarding programs and educational resources  for nature stewards\n- Expand community-led [data council](https://gainforest.gitbook.io/docs/community/gainforest-data-council) initiatives\n- Continue hosting [monthly community calls](https://gainforest.gitbook.io/docs/community/monthly-community-calls) for knowledge exchange and peer-sharing\n\n🛠️ **Technical Infrastructure**\n- Launch the first version of [ImpactQF](https://gov.gitcoin.co/t/citizen-grants-gcp-impact-passports-and-impact-quadratic-funding-impactqf/19712/5)\n- Launch new version of the [Green Globe](https://gainforest.app) \n- Launch [Tainá](https://gainforest.gitbook.io/docs/solutions/ai-assistants/taina) v2 - Indigenous-owned AI assistant\n- Launch [Polly](https://gainforest.gitbook.io/docs/solutions/ai-assistants/polly) v2 beta - climate policy AI assistant\n- Implement splits contract for reward distribution (The Nature Guild)\n- Create community participation platform (e.g., in Charmverse)\n\n[Ecocertain Platform](https://ecocertain.xyz)\n- Develop multi-source attestation layer for impact claims\n- Implement conflict resolution protocols for attestations\n- Build verification hierarchies with trusted attestors\n- Integrate bioacoustic, drone and satellite monitoring\n- Create verification dashboard with confidence scoring\n- Build self-reported vs. verified outcomes comparison tools\n\n![alt text](https://gainforest.notion.site/image/attachment%3Ac181d140-b416-4eb1-85fc-65f3741db623%3Aecocerteco.png?table=block&id=1c494a2f-76b3-80b0-b424-c57cf782964a&spaceId=592f10fa-b2fe-4de7-84d7-d47ef5244493&width=1420&userId=&cache=v2)\n\n🏛️ **Governance** ([The Nature Guild](https://gainforest.gitbook.io/docs/solutions/the-nature-guild))\n- Establish community-driven governance structure\n- Create transparent documentation for all decision-making processes\n- Implement participation incentives and rewards system\n- Develop clear voting and resource allocation mechanisms\n\n![alt text](https://gainforest.notion.site/image/attachment%3A4a1cbcd3-f9ad-4218-ab77-57fe6a4700a6%3Aboundaries.png?table=block&id=1c894a2f-76b3-80d6-b4eb-d42fa8b9c6b7&spaceId=592f10fa-b2fe-4de7-84d7-d47ef5244493&width=1420&userId=&cache=v2)\n\n🔐 **Privacy & Security**\n- Implement ZK Identity for community verification\n- Develop ZK Data Proofs for environmental monitoring\n- Integrate privacy-preserving validation solutions\n\n📣 **Events & Capacity-building**\n- Organize first local hackathon in the Amazon (Brazil)\n- Train youth negotiators to use Polly v2 at COP30 \n- Host regional environmental AI training workshops\n",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x2f596b9ffe34717bcd80609650a39e4bf1cd4563b2b84e36d551ed31acdb37c6",
+        "title": "GainForest",
+        "logoImg": "bafkreicjyahftywae7lbqnyd4sfgekjk3b3i4nomzy5jaqnaol3k3huamq",
+        "metaPtr": {
+          "pointer": "bafkreic6zkjhoz5k4dfuc3u6yolzu3njaf257eqlxxrxg5gffgajjxulzm",
+          "protocol": "undefined"
+        },
+        "website": "https://gainforest.earth",
+        "bannerImg": "bafkreic7l2bgxexgclj77jmkmdguetumgd2idkw22xlqtslblewwynxaca",
+        "createdAt": 1742918221881,
+        "userGithub": "ninagirll",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-26T15:43:08.147Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x2efdc11380b7c66bd60f81fa7a9da1ea43d545af601e9ce7edda9fc6c35ff4cf5281e04526b3a24cca5fcad1437c1cf73f2f149a42b1b4423397172e180805521c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-26T15:43:08.147Z",
+            "expirationDate": "2025-06-24T15:43:08.147Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x5a1f55459c07432165A93Eac188076d2ECBF6814",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#GainForest#194199197",
+              "nullifiers": [
+                "v0.0.0:9BIYMF1NvBjMw1ADCCfC/TNY6tbk83L0e456mmwYxug="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-26T15:10:22.201Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xbbdb340245c8c91f356f626302e26813de2d23a24d5bae91a9822e6c99b462d72a2a9089a96478a176857eefa2ab9f48f9133f94d7b9b8a6acb047a351d7d61e1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-26T15:10:22.201Z",
+            "expirationDate": "2025-06-24T15:10:22.201Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x5a1f55459c07432165A93Eac188076d2ECBF6814",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#GainForestNow",
+              "nullifiers": [
+                "v0.0.0:B7BGYvKmqgX1z7M/wXpAEXFVpR77Gk0/QY8S7/M6i+g="
+              ]
+            }
+          }
+        },
+        "description": "### Our Mission 🌍🌿\nGainForest harnesses decentralized technology and regenerative intelligence to transform how humanity safeguards nature. We bridge cutting-edge AI with Indigenous wisdom, creating a global system where conservation is transparent, equitable, and scalable.\n\n### The Challenge 🚧\nTraditional conservation funding is broken:\n- Trust gaps between donors and communities\n- Slow, costly verification of impact\n- Exclusion of frontline stewards from decision-making\n\n### Our Solution 💡\nGainForest reimagines conservation through three pillars:\n1. **Automated Guardianship** 🛰️\nSatellite imagery, AI, and community-driven data (e.g., drone monitoring, bioacoustics) fuse to verify ecological impact in real time.\n2. **Decentralized Trust**  ⛓️\nFunds flow through blockchain escrow accounts, released automatically when conservation milestones are met. No middlemen. No delays.\n3. **Community Sovereignty** 👥\n- Environmental Hypercerts: Blockchain impact certificates let communities monetize verified stewardship (e.g., mangrove restoration, biodiversity protection).\n- Co-Designed Tools: Indigenous leaders shape our AI systems, ensuring technology respects traditional knowledge.\n\nLearn more about our journey! 📚🌱\n- [GitBook / Docs](https://gainforest.gitbook.io/docs)\n- [Governing the Commons in the Intelligent Age](https://www.daviddao.org/posts/regenerative-intelligence/)\n- [Annual Impact Report 23/24](https://www.canva.com/design/DAGNpwdK0jo/QkBOQ1gfl0gy8jDTBAo10g/view?utm_content=DAGNpwdK0jo&utm_campaign=designshare&utm_medium=link&utm_source=editor)",
+        "lastUpdated": 0,
+        "projectGithub": "GainForest",
+        "projectTwitter": "GainForestNow"
+      },
+      "recipient": "0x40713Ca5223eFb79E861E282495092D2563c1eCE"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "GainForest",
+      "logoImg": "bafkreicjyahftywae7lbqnyd4sfgekjk3b3i4nomzy5jaqnaol3k3huamq",
+      "website": "https://gainforest.earth",
+      "bannerImg": "bafkreic7l2bgxexgclj77jmkmdguetumgd2idkw22xlqtslblewwynxaca",
+      "createdAt": 1742918221881,
+      "userGithub": "ninagirll",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-26T15:43:08.147Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x2efdc11380b7c66bd60f81fa7a9da1ea43d545af601e9ce7edda9fc6c35ff4cf5281e04526b3a24cca5fcad1437c1cf73f2f149a42b1b4423397172e180805521c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-26T15:43:08.147Z",
+          "expirationDate": "2025-06-24T15:43:08.147Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x5a1f55459c07432165A93Eac188076d2ECBF6814",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#GainForest#194199197",
+            "nullifiers": [
+              "v0.0.0:9BIYMF1NvBjMw1ADCCfC/TNY6tbk83L0e456mmwYxug="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-03-26T15:10:22.201Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xbbdb340245c8c91f356f626302e26813de2d23a24d5bae91a9822e6c99b462d72a2a9089a96478a176857eefa2ab9f48f9133f94d7b9b8a6acb047a351d7d61e1b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-03-26T15:10:22.201Z",
+          "expirationDate": "2025-06-24T15:10:22.201Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0x5a1f55459c07432165A93Eac188076d2ECBF6814",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#GainForestNow",
+            "nullifiers": [
+              "v0.0.0:B7BGYvKmqgX1z7M/wXpAEXFVpR77Gk0/QY8S7/M6i+g="
+            ]
+          }
+        }
+      },
+      "description": "### Our Mission 🌍🌿\nGainForest harnesses decentralized technology and regenerative intelligence to transform how humanity safeguards nature. We bridge cutting-edge AI with Indigenous wisdom, creating a global system where conservation is transparent, equitable, and scalable.\n\n### The Challenge 🚧\nTraditional conservation funding is broken:\n- Trust gaps between donors and communities\n- Slow, costly verification of impact\n- Exclusion of frontline stewards from decision-making\n\n### Our Solution 💡\nGainForest reimagines conservation through three pillars:\n1. **Automated Guardianship** 🛰️\nSatellite imagery, AI, and community-driven data (e.g., drone monitoring, bioacoustics) fuse to verify ecological impact in real time.\n2. **Decentralized Trust**  ⛓️\nFunds flow through blockchain escrow accounts, released automatically when conservation milestones are met. No middlemen. No delays.\n3. **Community Sovereignty** 👥\n- Environmental Hypercerts: Blockchain impact certificates let communities monetize verified stewardship (e.g., mangrove restoration, biodiversity protection).\n- Co-Designed Tools: Indigenous leaders shape our AI systems, ensuring technology respects traditional knowledge.\n\nLearn more about our journey! 📚🌱\n- [GitBook / Docs](https://gainforest.gitbook.io/docs)\n- [Governing the Commons in the Intelligent Age](https://www.daviddao.org/posts/regenerative-intelligence/)\n- [Annual Impact Report 23/24](https://www.canva.com/design/DAGNpwdK0jo/QkBOQ1gfl0gy8jDTBAo10g/view?utm_content=DAGNpwdK0jo&utm_campaign=designshare&utm_medium=link&utm_source=editor)\n- [KarmaGAP](https://gap.karmahq.xyz/project/gainforest-2)",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "GainForest",
+      "projectTwitter": "GainForestNow"
+    }
+  }
+}

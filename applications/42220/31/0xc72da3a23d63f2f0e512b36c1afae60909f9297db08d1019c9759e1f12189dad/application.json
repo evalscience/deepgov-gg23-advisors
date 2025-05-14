@@ -1,0 +1,354 @@
+{
+  "id": "54",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0xc72da3a23d63f2f0e512b36c1afae60909f9297db08d1019c9759e1f12189dad",
+  "metadata": {
+    "signature": "0xd810852bb7d19318de405aac8ea21a6d379edff75abcdfc53ceeda148e55f09103128bcb41715d3575442a32311802870abcc18ac2271d312dc555fcb119e8191c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "mattycompost@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "10",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Greenpill"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "We want to publish more editions of the Greenpill Newsletter, contribute to the Local ReFi Toolkit, produce articles written collaboratively and also pieces driven by individual members of the Writers Guild, revamp the Greenpill Network onboarding flow/documentation, and finish at least one more book translation.\n\nExploring better processes for collaborative writing and feedback will remain an ongoing, iterative journey. We're excited to continue evolving together and to create more opportunities for people to share their unique perspectives through the written word.",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0xc72da3a23d63f2f0e512b36c1afae60909f9297db08d1019c9759e1f12189dad",
+        "title": "Greenpill Writers Guild",
+        "logoImg": "bafkreickdcgzt6coknxvvluovhbxxpde7lrbxvx3quclpks363zfwy5bka",
+        "metaPtr": {
+          "pointer": "bafkreid4u3tamigmb6vr42r2lt6eucygbeskiusmdd3uhk5gvxl24ko42y",
+          "protocol": "undefined"
+        },
+        "website": "https://app.charmverse.io/greenpill-writers-guild",
+        "bannerImg": "bafkreib7v7nvm2tystvcvach7fltyaunf27g3zv7dtl6cyxhwzrvd5tdcq",
+        "createdAt": 1743660178789,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-03T05:55:41.928Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xbf793d252d54723cf22ae3bd843c3a09de74675715127d17bd2c130636b87e90180202482869d53598432ec4757bdb9b54128c46b3c9545767c77b8e111ee1361b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-03T05:55:41.927Z",
+            "expirationDate": "2025-07-02T05:55:41.927Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa9d20b435A85fAAa002f32d66F7D21564130E9cf",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#GreenpillWrites",
+              "nullifiers": [
+                "v0.0.0:aJlIEmu8YZfSSJQIe1XGDxItRJlAR44tc0WGLRQeWA4="
+              ]
+            }
+          }
+        },
+        "description": "✍️ The Greenpill Writers Guild is an open collective of researchers, writers, editors, translators and designers dedicated to creating accessible content that educates people about the incredible work happening across the web3 regenerative ecosystem.\n\nWe’re the team behind *[On-Chain Impact Networks](https://greenpill.network/pdf/onchain-impact-networks.pdf)* and proud contributors to the *[Onchain Capital Allocation Handbook: Explorers Edition](https://greenpill.network/pdf/onchain-capital-allocation-v2.pdf)*. \n\n\nAlso check out our latest newsletter which captured key highlights from across the Greenpill Network, Chapters and Guilds over the past year 👉 [Greenpill 2024: A Year in Review](https://paragraph.com/@greenpill/2024-a-year-in-review), \n\n\n**Additional Initiatives**\n\n- Translating key works into additional languages (available on greenpill.network)\n- Improving onboarding flows to boost engagement and impact across the Greenpill ecosystem and beyond\n- We are in the early stages of a budding collaborative partnership with [Carbon Copy](https://carboncopy.news/) and will also be creating content for the 2077 Collective feed on t2\n\n**Get Involved**\n\nCurious about what we’re working on or want to contribute? Check out our [Charmverse](https://app.charmverse.io/greenpill-writers-guild) to learn more. Join the conversation in the #writers channel in the Greenpill Network Discord, and come to our bi-weekly Thursday calls! 🌱 ",
+        "lastUpdated": 0,
+        "projectTwitter": "GreenpillWrites"
+      },
+      "recipient": "0x4Bac871c3123574F89963EBe64e87fE2B4Ed5831"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "title": "Greenpill Writers Guild",
+      "logoImg": "bafkreickdcgzt6coknxvvluovhbxxpde7lrbxvx3quclpks363zfwy5bka",
+      "website": "https://app.charmverse.io/greenpill-writers-guild",
+      "bannerImg": "bafkreib7v7nvm2tystvcvach7fltyaunf27g3zv7dtl6cyxhwzrvd5tdcq",
+      "createdAt": 1743660178789,
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-03T05:55:41.928Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xbf793d252d54723cf22ae3bd843c3a09de74675715127d17bd2c130636b87e90180202482869d53598432ec4757bdb9b54128c46b3c9545767c77b8e111ee1361b",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-03T05:55:41.927Z",
+          "expirationDate": "2025-07-02T05:55:41.927Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa9d20b435A85fAAa002f32d66F7D21564130E9cf",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#GreenpillWrites",
+            "nullifiers": [
+              "v0.0.0:aJlIEmu8YZfSSJQIe1XGDxItRJlAR44tc0WGLRQeWA4="
+            ]
+          }
+        }
+      },
+      "description": "✍️ The Greenpill Writers Guild is an open collective of researchers, writers, editors, translators and designers dedicated to creating accessible content that educates people about the incredible work happening across the web3 regenerative ecosystem.\n\nWe’re the team behind *[On-Chain Impact Networks](https://greenpill.network/pdf/onchain-impact-networks.pdf)* and proud contributors to the *[Onchain Capital Allocation Handbook: Explorers Edition](https://greenpill.network/pdf/onchain-capital-allocation-v2.pdf)*. \n\n\nAlso check out our latest newsletter which captured key highlights from across the Greenpill Network, Chapters and Guilds over the past year 👉 [Greenpill 2024: A Year in Review](https://paragraph.com/@greenpill/2024-a-year-in-review), \n\n\n**Additional Initiatives**\n\n- Translating key works into additional languages (available on greenpill.network)\n- Improving onboarding flows to boost engagement and impact across the Greenpill ecosystem and beyond\n- We are in the early stages of a budding collaborative partnership with [Carbon Copy](https://carboncopy.news/) and will also be creating content for the 2077 Collective feed on t2\n\n**Get Involved**\n\nCurious about what we’re working on or want to contribute? Check out our [Charmverse](https://app.charmverse.io/greenpill-writers-guild) to learn more. Join the conversation in the #writers channel in the Greenpill Network Discord, and come to our bi-weekly Thursday calls! 🌱 ",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectTwitter": "GreenpillWrites"
+    }
+  }
+}

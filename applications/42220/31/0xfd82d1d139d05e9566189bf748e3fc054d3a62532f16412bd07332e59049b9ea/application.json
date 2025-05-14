@@ -1,0 +1,635 @@
+{
+  "id": "43",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea",
+  "metadata": {
+    "signature": "0xe390675cf5dab183b1a54147ba2ff06b597457ba8e31c9c6f9f757b569060c1a309d15a117f337c75f790a241f21f544a8884d0b4aa54ce417248bd9e4f1e74f1b",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "caue.mtomaz@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "4",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Greenpill"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "Our key goals for this cycle will be:\n- **Complete Regen Rio Program** with success (e.g. all grantees completing karmagap and commitment pool phases)\n- **Deploying and operationalizing two Cookie Jars** for internal micro-funding coordination (Council & Guardians).\n- **Coordinating and documenting the Climate Resilience Protocol infrastructure**, including governance and funding cycles on Gardens v2.\n- **Sustaining direct funding for grassroots regen activities** via [Charmverse proposals](https://app.charmverse.io/greenpillbrasil/proposals) under our Regen Incentives campaign.",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea",
+        "title": "GreenPill Brasil - GG23",
+        "logoImg": "bafkreidu3xfirhzhr6su36bksv7jfe4xjdc6mkb2maa2yr623cbn66aely",
+        "metaPtr": {
+          "pointer": "bafkreicwqoqkbe3rnyxscigqcwu4qb7ebsk4rxiuun6j2x2i6t3cddbe2m",
+          "protocol": "undefined"
+        },
+        "website": "https://gap.karmahq.xyz/project/greenpill-brasil?tab=updates",
+        "bannerImg": "bafkreicykpgi52m47fdnovxy7l4q5fhjpdhqrl4c66uhydqsx2ohmfu2pq",
+        "createdAt": 1743582086174,
+        "userGithub": "cauetomaz",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-02T08:09:58.165Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x3409b585269463c87023aa9262cc872d8fb8466739905a125db625247971a5b02e28e4bed8ee5c5a54864c107a6391a4a45a5d69eb03c5be3f3cd2211b8e43cf1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-02T08:09:58.165Z",
+            "expirationDate": "2025-07-01T08:09:58.165Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xAcD59e854adf632d2322404198624F757C868C97",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#greenpillbr#128446245",
+              "nullifiers": [
+                "v0.0.0:EQMXX5/1ER3v94qComxSIqUuukEh4fusoQdBpIxTQ0A="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-02T08:02:42.657Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xd68f2c24338e4476c41d8b6a2bb4d2e260be72b1d1746d0b291f8c7eb0fc50001ee63dfeb4c13cc3cbb8c1e1634829d01082cae54fd510455c75c8ed725beecd1c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-02T08:02:42.657Z",
+            "expirationDate": "2025-07-01T08:02:42.657Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xAcD59e854adf632d2322404198624F757C868C97",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#greenpillbrasil",
+              "nullifiers": [
+                "v0.0.0:wkqk3hFB/sL65X1fKiX5dc9sjs9Tb/9umyE9t/qGsmU="
+              ]
+            }
+          }
+        },
+        "description": "# **Greenpill Brasil: Catalyzing Regeneration Through Web3 Innovation** \n---\nAt Greenpill Brasil, we're pioneering regenerative finance (ReFi) and ecological restoration by seamlessly blending cutting-edge Web3 technologies with grassroots action. Our community-driven approach focuses on regenerating ecosystems, empowering local communities, and creating resilient economic systems.\n\n[![Captura-de-tela-de-2025-04-02-02-24-54.png](https://i.postimg.cc/xCSJVN05/Captura-de-tela-de-2025-04-02-02-24-54.png)](https://postimg.cc/R3XVcFJJ)\n---\n## Why Web3?\nWeb3 technology is fundamental to our mission due to its transparency, traceability, and decentralization. By harnessing blockchain, we:\n- Empower communities to transparently control their funding and resources.\n- Ensure auditable processes and trust among stakeholders.\n- Innovate through decentralized governance to effectively coordinate and scale regenerative initiatives.\n\n[![5105036607093846059.jpg](https://i.postimg.cc/k4x0Bv1R/5105036607093846059.jpg)](https://postimg.cc/BLnYzHGJ)\n---\n## Key Activities - See our [KarmaGAP](https://gap.karmahq.xyz/project/greenpill-brasil?tab=updates)\n\nOur recent key initiatives include the [**II AgroforestDAO Journey**](https://x.com/agroforestDAO/status/1900009504625787367), focusing on agroecological restoration; the pioneering [**Regen Rio de Janeiro** program](https://x.com/greenpillbrasil/status/1906224485050527808), allocating $25,000 for impactful local projects; and the development of a comprehensive [**Climate Megazord**](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) for climate resilience coordination.\n\n[![JA2.jpg](https://i.postimg.cc/hGnbK8d5/JA2.jpg)](https://postimg.cc/3kLDBv9X)\n\n- **Community Building & Education:** Host weekly community meetings and interactive Web3 workshops that reframe traditional onboarding as “unboarding,” focusing on empathetic hosting and peer-to-peer facilitation on ReFi and Web3. See in [Web3 Fundraising Workshop](https://www.youtube.com/watch?v=yliIDHHVr8U): Hybrid session introducing nonprofits to the Regen Rio de Janeiro program and practical steps for Quadratic Funding.\n- **Quadratic Funding Rounds:** [**Regen Rio de Janeiro**](https://explorer.gitcoin.co/#/round/42220/30) allocating $25k, and the **I AgroforestDAO Round and Contributors**, mobilizing community funding for regenerative projects.\n- **Environmental Restoration:** Active ecological restoration through invasive species control, native bee habitat creation, agroforestry initiatives, and practical events such as [SAF do Futuro](https://app.charmverse.io/greenpillbrasil/page-04310287844933702), which provided tools and food to participants.\n- **Decentralized Governance:** Utilizing [Charmverse](https://app.charmverse.io/greenpillbrasil/proposals) for direct resource proposals and [Gardens v2](https://app.gardens.fund/gardens/137/0x6fac69b92b1943da2a8ff99e3687451f10066018/0x65bf57a410ed5fa69669f307c2da65eae06279f4) for strategic, macro-level resource allocation.\n- **Climate Coordination:** Implementing the [Climate Megazord](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) a protocol focused in predictability, response and adaptation using AI, IoT, and blockchain for effective climate resilience.\n- **Recognition with Hypercerts:** Minting [Hypercerts](https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656) to transparently document and reward regenerative contributions.\n- **GreenGoods Testing:** Conducted in partnership with the Greenpill Dev Guild, featuring new plant identification capabilities integrated into the app workflow.\n- **Addressing Data Bias:** Actively developing a proposal to address biases in environmental data, improving the quality and reliability of biodiversity insights. [Read the full research proposal here](https://docs.google.com/document/d/1P4vAUC9w1JthZCWt3IjUsq67XB8CKI-PRk61jo4yn3g/edit?usp=sharing).\n-  [Direct Support to build a Living Center](https://x.com/greenpillbrasil/status/1906211708101660769) - Community Hub: In Tijuca, Rio de Janeiro, we successfully completed the first phase of our ambitious Living Center project. This multifunctional hub integrates education, agroecology, and cultural activities under one roof, strengthening community resilience and enabling practical learning experiences for sustainable living.\n[![cpp1.jpg](https://i.postimg.cc/KYN03p7T/cpp1.jpg)](https://postimg.cc/p9mfgZ6V)\n\n## Outcomes & Metrics\n- **Educational Reach:** Over 100 sessions conducted with 700+ hours of community engagement.\n- **Environmental Impact:** Mapped 20+ protected areas; sequestered 300+ kg of carbon, supported 6 Regen Events, 50+ native bee traps distributed, 150+ native trees planted.\n- **Community Growth:** 100+ Web3 wallets onboarded.\n- **Governance Transparency:** Over 20 proposals reviewed with active community governance participation.\n- **Financial Transparency:** More than US$30,000 transparently allocated to impactful projects through decentralized mechanisms.\n---\n## Current Organizational Structure\nGreenPill Brasil's governance model schema\n\n- **Self-elected Council:** Strategic oversight and governance settings.\n- **Stewards:** Guardians of the mission, overseeing treasury and proposals.\n- **Operations:** Proposal management, event hosting, and ecological project execution.\n- **Resource Mobilization:** Acquisition of funding through Web3 platforms and partnerships.\n- **Management & Administration:** Effective management of projects and community resources.\n- **Community:** Active engagement, moderation, and educational outreach.\n- **Collaboration:** Strategic partnerships to enhance impact and scalability.\n\n[![mermaid-diagram-2025-04-02-015600.png](https://i.postimg.cc/HkrbB37q/mermaid-diagram-2025-04-02-015600.png)](https://postimg.cc/FYQfKypp)\n---\n## 2025 Strategic Focus: Consolidating Coordination Infrastructure\n\nGreenPill Brasil has successfully completed its first chapter: raising awareness, onboarding hundreds of new contributors, and becoming a reference point in Brazil for building regenerative ecosystems powered by Web3 tools. We’ve catalyzed a growing movement around regenerative finance (ReFi) and community-based coordination. Now, we enter a new phase.\n\nIn 2025, our core focus is **consolidating the infrastructure for decentralized coordination**. This proposal is part of a broader, interconnected effort to strengthen the systems that will sustain and scale regenerative action.\n\n### Cookie Jar Coordination Layer on Celo\n\n[![Captura-de-tela-de-2025-04-02-02-22-21.png](https://i.postimg.cc/vHC52kwW/Captura-de-tela-de-2025-04-02-02-22-21.png)](https://postimg.cc/4mbKm8dd)\n\nWe are co-developing a coordination mechanism using [Cookie Jar](https://github.com/HoomanDigital/cookie-jar/blob/main/contract/cookie%20jar-withblacklist.sol) contracts [deployed on the Celo blockchain](https://celo-alfajores.blockscout.com/address/0xD54799973e5e8f468A6DF910C53514aeDF9D4868?tab=logs). This is work is part of a collaborative [research model proposal within the **Allo Capital** community](https://research.allo.capital/t/decentralized-research-funding-using-cookie-jar/122), and a collaboration between the **Greenpill Dev Guild** and **Celo Europe**. It aims to bring **transparent micro-granting infrastructure** to our community, using ERC-20 compatible tokens like cREAL.\n\nWe’re currently exploring and implementing two Cookie Jars:\n- One for the **GreenPill Brasil Council** (our main governance body).\n- One for the **Guardians** (our distributed community stewards).\n\nThese Jars will serve as onchain grant pools that reward verified regenerative contributions, reinforce autonomy in coordination, and support distributed decision-making.\n\n### Climate Megazord Coordination via Gardens\n\nIn parallel, we are consolidating our [Climate Megazord](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) as our long-term climate resilience protocol. It follows three pillars:\n- **Prediction** (early signals and local climate data).\n- **Adaptation** (community infrastructure and preparedness).\n- **Response** (coordinated action during disasters).\n\nGovernance and resource allocation for this protocol is coordinated via [Gardens v2](https://app.gardens.fund/gardens/137/0x6fac69b92b1943da2a8ff99e3687451f10066018/0x65bf57a410ed5fa69669f307c2da65eae06279f4), using signaling and conviction voting mechanisms.\n\n### Glocalism Collaboration\n\nOur alliances span from local agroecology task forces (e.g. SAF do Futuro, Morro da Redenção) to the global Ethereum Localism movement and ecosystem allies like Celo and Gitcoin. GreenPill Brasil is committed to being a bridge between grassroots regeneration and resilient coordination tech.\n---\n## How the Funds Will Be Used\n\nThis new phase is about **laying the groundwork for long-term regeneration** by creating the digital infrastructure that empowers communities, codifies trust, and fuels decentralized action.\n\nThe requested funds for this cycle will be focused on:\n- **Deploying and operationalizing two Cookie Jars** for internal micro-funding coordination (Council & Guardians).\n- **Coordinating and documenting the Climate Megazord infrastructure**, including governance cycles on Gardens.\n- **Sustaining direct funding for grassroots regen activities** via [Charmverse proposals](https://app.charmverse.io/greenpillbrasil/proposals) under our Regen Incentives campaign.\n- **Scale our onboarding and funding processes** to support more projects and regional nodes.\n- **Refine our decentralized protocols**, integrating tools like [Impact Miner](https://play.google.com/store/apps/details?id=com.company.atlantis&hl=pt_BR&pli=1), and the evolving [GreenGoods app](https://greengoods.app) (with new in-app plant ID features).\n- **Expand partnerships** with AgroforestDAO, Fabulosa Lab, Celo Public Goods, Celo Europe, and others to co-create more inclusive and impactful regenerative ecosystems.\n---\n## **Join Us in Building a Future**\n\nGreenPill Brasil is not just a project—it’s a movement. Your support will help us build a infrastructure that scales trust, amplifies grassroots agency, and coordinates regenerative action across Brazil and beyond.\n\n[telegram](https://t.me/+6GlufLobfMRiMTIx)\n\n**Let’s regenerate, one step at a time.** \n\n[![Gpbr-climate-megazord-1.png](https://i.postimg.cc/90LYfY0C/Gpbr-climate-megazord-1.png)](https://postimg.cc/kRtb18Wp)\n",
+        "lastUpdated": 0,
+        "projectGithub": "greenpillbr",
+        "projectTwitter": "greenpillbrasil"
+      },
+      "recipient": "0x6cA0493b04b025D4430032d7645130E5C3268E0C"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "GreenPill Brasil - GG23",
+      "logoImg": "bafkreidu3xfirhzhr6su36bksv7jfe4xjdc6mkb2maa2yr623cbn66aely",
+      "website": "https://gap.karmahq.xyz/project/greenpill-brasil?tab=updates",
+      "bannerImg": "bafkreicykpgi52m47fdnovxy7l4q5fhjpdhqrl4c66uhydqsx2ohmfu2pq",
+      "createdAt": 1743582086174,
+      "userGithub": "cauetomaz",
+      "credentials": {
+        "github": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T08:09:58.165Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0x3409b585269463c87023aa9262cc872d8fb8466739905a125db625247971a5b02e28e4bed8ee5c5a54864c107a6391a4a45a5d69eb03c5be3f3cd2211b8e43cf1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T08:09:58.165Z",
+          "expirationDate": "2025-07-01T08:09:58.165Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xAcD59e854adf632d2322404198624F757C868C97",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextGithubOrg#greenpillbr#128446245",
+            "nullifiers": [
+              "v0.0.0:EQMXX5/1ER3v94qComxSIqUuukEh4fusoQdBpIxTQ0A="
+            ]
+          }
+        },
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T08:02:42.657Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xd68f2c24338e4476c41d8b6a2bb4d2e260be72b1d1746d0b291f8c7eb0fc50001ee63dfeb4c13cc3cbb8c1e1634829d01082cae54fd510455c75c8ed725beecd1c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T08:02:42.657Z",
+          "expirationDate": "2025-07-01T08:02:42.657Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xAcD59e854adf632d2322404198624F757C868C97",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#greenpillbrasil",
+            "nullifiers": [
+              "v0.0.0:wkqk3hFB/sL65X1fKiX5dc9sjs9Tb/9umyE9t/qGsmU="
+            ]
+          }
+        }
+      },
+      "description": "# **Greenpill Brasil: Catalyzing Regeneration Through Web3 Innovation** \n---\nAt Greenpill Brasil, we're pioneering regenerative finance (ReFi) and ecological restoration by seamlessly blending cutting-edge Web3 technologies with grassroots action. Our community-driven approach focuses on regenerating ecosystems, empowering local communities, and creating resilient economic systems.\n\n[![Captura-de-tela-de-2025-04-02-02-24-54.png](https://i.postimg.cc/xCSJVN05/Captura-de-tela-de-2025-04-02-02-24-54.png)](https://postimg.cc/R3XVcFJJ)\n---\n## Why Web3?\nWeb3 technology is fundamental to our mission due to its transparency, traceability, and decentralization. By harnessing blockchain, we:\n- Empower communities to transparently control their funding and resources.\n- Ensure auditable processes and trust among stakeholders.\n- Innovate through decentralized governance to effectively coordinate and scale regenerative initiatives.\n\n[![5105036607093846059.jpg](https://i.postimg.cc/k4x0Bv1R/5105036607093846059.jpg)](https://postimg.cc/BLnYzHGJ)\n---\n## Key Activities - See our [KarmaGAP](https://gap.karmahq.xyz/project/greenpill-brasil?tab=updates)\n\nOur recent key initiatives include the [**II AgroforestDAO Journey**](https://x.com/agroforestDAO/status/1900009504625787367), focusing on agroecological restoration; the pioneering [**Regen Rio de Janeiro** program](https://x.com/greenpillbrasil/status/1906224485050527808), allocating $25,000 for impactful local projects; and the development of a comprehensive [**Climate Megazord**](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) for climate resilience coordination.\n\n[![JA2.jpg](https://i.postimg.cc/hGnbK8d5/JA2.jpg)](https://postimg.cc/3kLDBv9X)\n\n- **Community Building & Education:** Host weekly community meetings and interactive Web3 workshops that reframe traditional onboarding as “unboarding,” focusing on empathetic hosting and peer-to-peer facilitation on ReFi and Web3. See in [Web3 Fundraising Workshop](https://www.youtube.com/watch?v=yliIDHHVr8U): Hybrid session introducing nonprofits to the Regen Rio de Janeiro program and practical steps for Quadratic Funding.\n- **Quadratic Funding Rounds:** [**Regen Rio de Janeiro**](https://explorer.gitcoin.co/#/round/42220/30) allocating $25k, and the **I AgroforestDAO Round and Contributors**, mobilizing community funding for regenerative projects.\n- **Environmental Restoration:** Active ecological restoration through invasive species control, native bee habitat creation, agroforestry initiatives, and practical events such as [SAF do Futuro](https://app.charmverse.io/greenpillbrasil/page-04310287844933702), which provided tools and food to participants.\n- **Decentralized Governance:** Utilizing [Charmverse](https://app.charmverse.io/greenpillbrasil/proposals) for direct resource proposals and [Gardens v2](https://app.gardens.fund/gardens/137/0x6fac69b92b1943da2a8ff99e3687451f10066018/0x65bf57a410ed5fa69669f307c2da65eae06279f4) for strategic, macro-level resource allocation.\n- **Climate Coordination:** Implementing the [Climate Megazord](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) a protocol focused in predictability, response and adaptation using AI, IoT, and blockchain for effective climate resilience.\n- **Recognition with Hypercerts:** Minting [Hypercerts](https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656) to transparently document and reward regenerative contributions.\n- **GreenGoods Testing:** Conducted in partnership with the Greenpill Dev Guild, featuring new plant identification capabilities integrated into the app workflow.\n- **Addressing Data Bias:** Actively developing a proposal to address biases in environmental data, improving the quality and reliability of biodiversity insights. [Read the full research proposal here](https://docs.google.com/document/d/1P4vAUC9w1JthZCWt3IjUsq67XB8CKI-PRk61jo4yn3g/edit?usp=sharing).\n-  [Direct Support to build a Living Center](https://x.com/greenpillbrasil/status/1906211708101660769) - Community Hub: In Tijuca, Rio de Janeiro, we successfully completed the first phase of our ambitious Living Center project. This multifunctional hub integrates education, agroecology, and cultural activities under one roof, strengthening community resilience and enabling practical learning experiences for sustainable living.\n[![cpp1.jpg](https://i.postimg.cc/KYN03p7T/cpp1.jpg)](https://postimg.cc/p9mfgZ6V)\n\n## Outcomes & Metrics\n- **Educational Reach:** Over 100 sessions conducted with 700+ hours of community engagement.\n- **Environmental Impact:** Mapped 20+ protected areas; sequestered 300+ kg of carbon, supported 6 Regen Events, 50+ native bee traps distributed, 150+ native trees planted.\n- **Community Growth:** 100+ Web3 wallets onboarded.\n- **Governance Transparency:** Over 20 proposals reviewed with active community governance participation.\n- **Financial Transparency:** More than US$30,000 transparently allocated to impactful projects through decentralized mechanisms.\n---\n## Current Organizational Structure\nGreenPill Brasil's governance model schema\n\n- **Self-elected Council:** Strategic oversight and governance settings.\n- **Stewards:** Guardians of the mission, overseeing treasury and proposals.\n- **Operations:** Proposal management, event hosting, and ecological project execution.\n- **Resource Mobilization:** Acquisition of funding through Web3 platforms and partnerships.\n- **Management & Administration:** Effective management of projects and community resources.\n- **Community:** Active engagement, moderation, and educational outreach.\n- **Collaboration:** Strategic partnerships to enhance impact and scalability.\n\n[![mermaid-diagram-2025-04-02-015600.png](https://i.postimg.cc/HkrbB37q/mermaid-diagram-2025-04-02-015600.png)](https://postimg.cc/FYQfKypp)\n---\n## 2025 Strategic Focus: Consolidating Coordination Infrastructure\n\nGreenPill Brasil has successfully completed its first chapter: raising awareness, onboarding hundreds of new contributors, and becoming a reference point in Brazil for building regenerative ecosystems powered by Web3 tools. We’ve catalyzed a growing movement around regenerative finance (ReFi) and community-based coordination. Now, we enter a new phase.\n\nIn 2025, our core focus is **consolidating the infrastructure for decentralized coordination**. This proposal is part of a broader, interconnected effort to strengthen the systems that will sustain and scale regenerative action.\n\n### Cookie Jar Coordination Layer on Celo\n\n[![Captura-de-tela-de-2025-04-02-02-22-21.png](https://i.postimg.cc/vHC52kwW/Captura-de-tela-de-2025-04-02-02-22-21.png)](https://postimg.cc/4mbKm8dd)\n\nWe are co-developing a coordination mechanism using [Cookie Jar](https://github.com/HoomanDigital/cookie-jar/blob/main/contract/cookie%20jar-withblacklist.sol) contracts [deployed on the Celo blockchain](https://celo-alfajores.blockscout.com/address/0xD54799973e5e8f468A6DF910C53514aeDF9D4868?tab=logs). This is work is part of a collaborative [research model proposal within the **Allo Capital** community](https://research.allo.capital/t/decentralized-research-funding-using-cookie-jar/122), and a collaboration between the **Greenpill Dev Guild** and **Celo Europe**. It aims to bring **transparent micro-granting infrastructure** to our community, using ERC-20 compatible tokens like cREAL.\n\nWe’re currently exploring and implementing two Cookie Jars:\n- One for the **GreenPill Brasil Council** (our main governance body).\n- One for the **Guardians** (our distributed community stewards).\n\nThese Jars will serve as onchain grant pools that reward verified regenerative contributions, reinforce autonomy in coordination, and support distributed decision-making.\n\n### Climate Megazord Coordination via Gardens\n\nIn parallel, we are consolidating our [Climate Megazord](https://www.canva.com/design/DAGYTqqLdlA/5iEk5mpI4k1jAkVh2NhxsA/view?utm_content=DAGYTqqLdlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f2da95b9b) as our long-term climate resilience protocol. It follows three pillars:\n- **Prediction** (early signals and local climate data).\n- **Adaptation** (community infrastructure and preparedness).\n- **Response** (coordinated action during disasters).\n\nGovernance and resource allocation for this protocol is coordinated via [Gardens v2](https://app.gardens.fund/gardens/137/0x6fac69b92b1943da2a8ff99e3687451f10066018/0x65bf57a410ed5fa69669f307c2da65eae06279f4), using signaling and conviction voting mechanisms.\n\n### Glocalism Collaboration\n\nOur alliances span from local agroecology task forces (e.g. SAF do Futuro, Morro da Redenção) to the global Ethereum Localism movement and ecosystem allies like Celo and Gitcoin. GreenPill Brasil is committed to being a bridge between grassroots regeneration and resilient coordination tech.\n---\n## How the Funds Will Be Used\n\nThis new phase is about **laying the groundwork for long-term regeneration** by creating the digital infrastructure that empowers communities, codifies trust, and fuels decentralized action.\n\nThe requested funds for this cycle will be focused on:\n- **Deploying and operationalizing two Cookie Jars** for internal micro-funding coordination (Council & Guardians).\n- **Coordinating and documenting the Climate Megazord infrastructure**, including governance cycles on Gardens.\n- **Sustaining direct funding for grassroots regen activities** via [Charmverse proposals](https://app.charmverse.io/greenpillbrasil/proposals) under our Regen Incentives campaign.\n- **Scale our onboarding and funding processes** to support more projects and regional nodes.\n- **Refine our decentralized protocols**, integrating tools like [Impact Miner](https://play.google.com/store/apps/details?id=com.company.atlantis&hl=pt_BR&pli=1), and the evolving [GreenGoods app](https://greengoods.app) (with new in-app plant ID features).\n- **Expand partnerships** with AgroforestDAO, Fabulosa Lab, Celo Public Goods, Celo Europe, and others to co-create more inclusive and impactful regenerative ecosystems.\n---\n## **Join Us in Building a Future**\n\nGreenPill Brasil is not just a project—it’s a movement. Your support will help us build a infrastructure that scales trust, amplifies grassroots agency, and coordinates regenerative action across Brazil and beyond.\n\n[telegram](https://t.me/+6GlufLobfMRiMTIx)\n\n**Let’s regenerate, one step at a time.** \n\n[![Gpbr-climate-megazord-1.png](https://i.postimg.cc/90LYfY0C/Gpbr-climate-megazord-1.png)](https://postimg.cc/kRtb18Wp)\n",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectGithub": "greenpillbr",
+      "projectTwitter": "greenpillbrasil"
+    }
+  }
+}

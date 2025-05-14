@@ -1,0 +1,242 @@
+{
+  "id": "46",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x183f13028588a3e6082d6642b52d4829823720efd1e5bc973856c406f1299b66",
+  "metadata": {
+    "signature": "0x143c052359b08e6733629d6ad14422c2fdc4d2bc4d0af31e7cc22d8eee7adc1d12bada7ee001c9fae9d0f0a4c5394866eeb5a2a353ba8651ca20879d30c1fc5b1b",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "djimo@silvi.earth",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "10",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Ma Earth",
+            "ReFi DAO"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "https://docs.google.com/document/d/18I8XOK8hcaLDG_OQlSC0A0rQJnPEnz4gknGCY543STQ/edit?tab=t.a98q637r1guq#heading=h.gri6ezkmuio5",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x183f13028588a3e6082d6642b52d4829823720efd1e5bc973856c406f1299b66",
+        "title": "Silvi",
+        "logoImg": "bafkreia2lxh62vyemnumlun3kzafdqlsuszyvneipn67xacw6nfs445nd4",
+        "metaPtr": {
+          "pointer": "bafkreihj6owxbbzh3u6gca3qgqkc3nx6vwac54zri4zc7tqmwqxeimd6gy",
+          "protocol": "undefined"
+        },
+        "website": "https://silvi.earth",
+        "bannerImg": "bafybeif4gscd7hssgankvzfrs4a4i6tka5ewbc44ydw4bkrwl5zllkyida",
+        "createdAt": 1709771229881,
+        "userGithub": "DjimoSerodio",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T08:11:40.644Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x7246dcf4434c7613a9c2b7119bfeb67aa3db74137ec75e2a7e074a676e42b79b3065c02c160fb0c5ab9c8cae99e14b29e17421f74cf55b5bb7bebce7465fa3b31b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T08:11:40.644Z",
+            "expirationDate": "2025-06-25T08:11:40.644Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#SilviProtocol#132837131",
+              "nullifiers": [
+                "v0.0.0:qGOfFdM5ue5hIVYgbSgiIAmmVkFxHCna1ux7aLDqLnE="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..b0QmD6SI2xk5N_JFe20qdBggt1yQJ_a02PAIz2APuDCP3XJXWEn8sk113UAuh9dhr-c9UUP-9Vl1dVArhjyUAg",
+              "type": "Ed25519Signature2018",
+              "created": "2024-03-07T00:22:39.641Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-03-07T00:22:39.641Z",
+            "expirationDate": "2024-06-05T00:22:39.641Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa7CA400d49BBa87EB606ee05af93689BD21FaB99",
+              "hash": "v0.0.0:cglwTY+aA6w6HFHckDOpK33/HUBoT3nF9ZyhbH57oLg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#SilviProtocol"
+            }
+          }
+        },
+        "description": "# 🌳🌳 **GG23 Update** 🌳🌳\nSince GG22, we have launched [Treekipedia](https://treekipedia.silvi.earth/) along with its [repo](https:github.com/SilviProtocol/silvi-open/tree/master/Treekipedia)(see below the Treekipedia section for an update), published [documentation](https://silvi.gitbook.io/silvi-app-user-guide), and continued to grow [OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link)\n\nSome of our recent wins include being funded by CELO to plant Ultra Green Trees as part of [CELO's Ultra Green Money ](https://blog.celo.org/ultragreen-money-c677e7508abb) innititative, winning a category prize at Eth Denver's Agentic Hackathon for Treekipedia and getting into Octant's Epoch 7 with Climate Coordination Network!\n\nOur [app](https://app.silvi.earth) continues to register and report on tree plantings as well as geotag mother trees of interest. Since last Gitcoin, we are particularly excited about ReFi Sicilia's Bioregional Growth, A collaboration in New Zealand and organic growth in Nigeria \n\nNote: Only projects which have been vetted and configured with methodologies are eligible for stewardship and MRV payments, but anyone may use the app permissionlessly and for free   [#OperationWebTree](https://drive.google.com/file/d/1QESx9MJ7uVneMNZw22qznnJgstklTqEI/view?usp=drive_link), continues to grow as global reforestation movement powered by Web3. Compensation is partially fronted, partially milestone based via MRV contracts and we are also interested in growing this fund to be able to administer RetroPGF payments. If you're interested in applying to the OperationWebTree grant, please fill out this form [here](https://https://forms.gle/5Nve8X4FsL4u9xU39).\n\n\n🌳🌳 **//GG23 update** 🌳🌳\n\n# 👇 **Grant Page** 👇\n\nIf you're new here, welcome to our grant. \n\n***Silvi's mission  is to contribute to the trillion tree target by building financial and coordination tools for ecologically optimized and climate-adapted reforestation.***\n \n \n**TL;DR** We are building a protocol with the following tools and features:\n \n💰⏳ **TreeForwards** - Every TreeForward, at its core, is a distinct bond that provides the financial commitment to plant and steward a tree through maturity. This budget can be configured to prescribe species and location-specific methodologies which release milestone-based rewards to incentivize ecologically optimized and climate-adapted tree planting and stewardship. TreeForwards effectively collateralize the net present value of New Trees. Further, we strive to make TreeForwards as low risk instruments as possible by making them performance-based payouts dependant on verifiable milestones\n[![Screenshot-2024-04-11-at-11-37-51-PM.png](https://i.postimg.cc/zvghczng/Screenshot-2024-04-11-at-11-37-51-PM.png)](https://postimg.cc/sG31BRHj)\n\n\n📍🔭 **MRV** - The [Silvi App](https://app.silvi.earth), a Monitoring, Reporting and Verification (MRV) tool is now in open beta and used to create reforestation impact claims. These claims can be paid if defined in the methodology.\n[![Screenshot-2024-04-11-at-11-56-37-PM.png](https://i.postimg.cc/NjZRDK9B/Screenshot-2024-04-11-at-11-56-37-PM.png)](https://postimg.cc/QFkBxxJy)\n[![Screenshot-2024-04-11-at-11-59-42-PM.png](https://i.postimg.cc/nhnLJZyB/Screenshot-2024-04-11-at-11-59-42-PM.png)](https://postimg.cc/nCwxK8ch)\n[![Screenshot-2025-03-27-at-8-22-24-PM.png](https://i.postimg.cc/xT2hPJbq/Screenshot-2025-03-27-at-8-22-24-PM.png)](https://postimg.cc/SjggSKdp)\n\n\n📋📈**Treekipedia**: Is more than a Tree Intelligence Commons. Our efforts to develop an open source, comprehensive database of tree knowledge to drive interoperability and programmability in web3\n\nTreekipedia is in closed Alpha and has combined existing and fragmented datasets into one comprehensive taxonomy and list of tree species to serve as the foundation of an extensive ontology. This ontology and tree knowledge graph will connect tree species with key characteristics, images, stewardship best practices, relevant modeling methods, geographic occurrences, bioregional aptitude, and more and allow multiple web3 projects to collaborate around the topic or ecology and trees\n[![Screenshot-2025-03-27-at-8-34-15-PM.png](https://i.postimg.cc/PJGjkdrx/Screenshot-2025-03-27-at-8-34-15-PM.png)](https://postimg.cc/k6yZQ3S3)\n[![Screenshot-2024-08-05-at-7-59-15-PM.png](https://i.postimg.cc/FsSxYqLw/Screenshot-2024-08-05-at-7-59-15-PM.png)](https://postimg.cc/qzkKY1QG)\nSo far, we have:\n* Hired a post-doctorate ecologist\n* Developed a prototype [taxonomic schema](https://docs.google.com/document/d/1gyox46GXNOs_X6UmbcVrjOTh8q4BbcSaTycJPWeKknY/edit?usp=sharing)\n* Compiled a list of source 10+ species databases including GBIF, iNaturalist, BGCI, etc.\n* Created a data retrieval and filtering strategy using R Studio\n* Finish compiling and filtering species and occurrence data\n* Finalize and release the open source schema & ontology \n* Build useful features such as tree values based on OneEarth ecoregions\n* AI Deep Research Agent\n\nNext steps:\n\n* Smart contracts for Contreebution NFTs\n* Treederboard for contribution rankings\n* Develop UI and open source contributor process (similar to Wikipedia)\n\nThere are still key questions we’re working through, and it’s important to note that Treekipedia will be ever evolving. If you want to be a part of the process reach out to @metafarmer on Telegram\n\n\n📒🧮 **Batch Accounting**: Silvi's robust batch accounting system efficiently manages groupings of TreeForwards via various verification classes ensuring that each tree within a batch receives its requisite funding and care. This feature enhances scalability, ensuring large-scale reforestation initiatives with area based accounting are as meticulously managed as individual trees.\n \n🗺️ 🧺**Portfolio Management**: Embodying the democratization of reforestation, we believe that global efforts should be cohesively managed and brokered and we're growing a portfolio of impact across various forest and projects worldwide. Our goal is to operate this portfolio via a DAO structure after we launch a token\n\n**Tokenomics:**\nOur long term plans involve launching a native governance token issued through tree commitments. Governance tokens will spawn utility NFT pairs that contain all the data and contracts for each tree.\n\n**Pilots:**\nTo date, Silvi has already deployed several pilots with the most recent being OperationWebTree involving 18 implementation partners. [Check out our reel by RefiMiami/GreenpillMiami](https://x.com/ReFiMiami/status/1759296369242599596?s=20)\n\n\nWith the help of Gitcoin funding, Silvi has established operations in dozens of countries, onboarded 500+ users and registered thousands of MRV logs. We couldn't thank you enough for your support\n\n",
+        "lastUpdated": 0,
+        "projectGithub": "SilviProtocol",
+        "projectTwitter": "SilviProtocol"
+      },
+      "recipient": "0xa7CA400d49BBa87EB606ee05af93689BD21FaB99"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 42161,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "id": "55",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x4f354435756ee1c1ea18402a559874cd2bb918ad795b7e361e1257425e57a7de",
+  "metadata": {
+    "signature": "0x5fa757181621eb783583e291e6c1907e76613d052d51b547b3b2dc49a6ea811265f30f4a5be75a39b764305c2c74f26811fbf72aa5ddf31c88a17c9a3b8d474b1c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "afo@greenpill.builders",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "24",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Greenpill"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "The Greenpill Dev Guild remains dedicated to actively strengthening and advancing its three core pillars: **Community Coordination**, **Capital Allocation**, and **Impact Measurement**.\n\n### Q2-Q3 Goals\n\n- **Pilot Green Goods** across various Greenpill Chapters, enhancing community engagement and regenerative outcomes.\n- **Integrate Allo Yeeter on Celo**, enabling effective grant round disbursement and supporting utilization by Celo Regional Hubs.\n- **Refine GreenWill** into a robust platform for tracking Greenpill activities and reputation, incorporating seamless integration within the Prosperity Passport ecosystem.\n- **Launch Community Host**, an AI-driven agent supporting onboarding, NFT minting, and knowledge sharing across regenerative communities.\n- **Expand Squad Staking**, fostering passive revenue streams for Guild and Network community members, thereby strengthening overall economic resilience.\n",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x4f354435756ee1c1ea18402a559874cd2bb918ad795b7e361e1257425e57a7de",
+        "title": "Greenpill Dev Guild",
+        "logoImg": "bafkreicnzuschchztk5wpxiubgwhozwp5fzy4xvx5lwawl5eregzhpkc5m",
+        "metaPtr": {
+          "pointer": "bafkreiccwrgnj3kowrr3qsowffk2yfrunyrs2rhceceavadrbllglx7zhu",
+          "protocol": "undefined"
+        },
+        "website": "https://app.charmverse.io/greenpill-dev-guild",
+        "bannerImg": "bafkreidd3yf6exwmneznl4erwp4xhiqdofktlxmnw65bgf6r54q552w2he",
+        "createdAt": 1710609974335,
+        "userGithub": "Oba-One",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-31T06:00:38.411Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x426e0c7b621ca85a8cb2920c69dc44656900fe94a9bddf6aeef65605848652350666d0338fd049b6cf59fb498e8f3e5ba88ac6728595827479ba5398c41337f61c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-31T06:00:38.411Z",
+            "expirationDate": "2025-06-29T06:00:38.411Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2aa64E6d80390F5C017F0313cB908051BE2FD35e",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#greenpill-dev-guild#35589781",
+              "nullifiers": [
+                "v0.0.0:X8cwKdnf8jAc9PCOZkeCNMPY6ezkYQzMYL+xmmoZyiw="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..QSBpzTzfASwL5Kfy7X1QzUx_G9WrSVc8kIG0NCS14eZg2MwsBtqiIhCTBVJMpnUDERUWksWDDGnwCR5Fx6zyBA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-24T04:03:30.068Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-24T04:03:30.068Z",
+            "expirationDate": "2024-07-23T04:03:30.068Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x2aa64E6d80390F5C017F0313cB908051BE2FD35e",
+              "hash": "v0.0.0:fKCZLjBb/XewuUF/Uvo6HHhSteH6F9AgQVh3EGHOibg=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#gp_dev_guild"
+            }
+          }
+        },
+        "description": "We are a community of builders supporting Greenpill Chapters and regen communities with regenerative tools, guides and workshops focused on impact measurement, capital allocation and community coordination. Since October 2023, the Greenpill Dev Guild has been building a thriving community with weekly meetings, impactful workshops and collaborative projects that members actively contribute to. The Guild operates several grant rounds with Grant Ships and Gitcoin, funding regenerative projects across the gaming and public goods space. We welcome all to join us in advancing the regen movement and making meaningful impact!\n\n# Mission\n![Fellowship Walking On Adventure](https://cdn.charmverse.io/user-content/5e36d65b-e9d7-4667-b1c7-f551832414e3/d3c5db5e-df5c-4d87-9790-fc54d59c5bfc/1a718c4f-e9ef-4f01-b5ea-e05ef0fd4450.png)\n\nWe aim to foster positive-sum actions where impact = profit, ensuring that meaningful change and prosperity go hand in hand as we work together to defeat Moloch.\n\n# Projects\nDiscover our projects and why we build them.\n\n## 🌿 [Green Goods](https://greengoods.app)\n![Green Goods Community Event](https://cdn.charmverse.io/user-content/5e36d65b-e9d7-4667-b1c7-f551832414e3/b1425acd-d074-4d30-b95e-9d4cbb736fde/05d9e212-5613-43c7-84fb-8693a0c2f5de.png)\n\nGreen Goods is a project focused on bringing biodiversity onchain to better measure, track and reward impact on green spaces. We are building this to support Greenpill Brasil and create the foundation for a simple tool that captures environmental impact in a meaningful way.\n\n\n## 🪸 [Impact Reef](https://impactreef.app)\n![Impact Reef Homepage](https://cdn.charmverse.io/user-content/5e36d65b-e9d7-4667-b1c7-f551832414e3/532e5f5d-e130-4200-b7e3-6ad6c7bd591b/social-image.png)\n\nImpact Reef is designed to capture qualitative data for public good projects, backed by community endorsements. This initiative aims to surface the value and impact of these projects, making it easier for them to gain additional funding and support.\n\n\n## 🚢 [Grant Ships](https://app.grantships.fun/ship/0x95582289B2cDc12925663bD9121307Dca6F21Cc3)\n![Greenpill Dev Ship profile](https://cdn.charmverse.io/user-content/5e36d65b-e9d7-4667-b1c7-f551832414e3/0c42a39d-e7db-4511-85ee-ab14c29f40c9/Screenshot-2024-10-14-at-3.31.57-AM.png) \n\nGrant Ships is a grant allocation game where the Greenpill Dev Guild competes with other allocators to fund games on Arbitrum. Using a retroactive and proactive funding mechanism, the Guild helps bring regenerative features into games, turning degens into regens and demonstrating the effectiveness of our unique funding model.\n\n\n## 🛠️ [Workshops](https://app.charmverse.io/greenpill-dev-guild/workshops-5495125818712396)\n![Hypercerts Workshop Screenshot](https://cdn.charmverse.io/user-content/5e36d65b-e9d7-4667-b1c7-f551832414e3/fe196273-6a59-4538-95e9-335832978d58/Screenshot-2024-10-15-at-1.23.53-PM.png)\n\n[Hypercerts Workshop Highlights](https://youtu.be/5zf9ynSXppE)\n\nOur workshops focus on various regen tools, including hypercerts, attestations and multisigs. We conduct these workshops to create valuable resources for Greenpill and other regen communities, helping them achieve their initiative goals.\n\n\n## 🏹 [Allo Yeeter](https://github.com/greenpill-dev-guild/allo-yeeter)\nAllo Yeeter is a simple strategy that allows funds to be sent to multiple addresses in just a few transactions. This project supports the growth of Gitcoin by offering an easy mechanism to allocate funds efficiently and quickly through Allo.\n\n\n## 📈 [Allo Advancement](https://app.charmverse.io/greenpill-dev-guild/gg22-allo-builders-advancement-014822420619412524)\nAllo Advancement is a project that fosters the growth of the Allo protocol by operating a Gitcoin grant round to fund builders growing the protocol. This initiative connects builders across the Allo ecosystem and supports the continued development of grants through Gitcoin RFPs and community rounds.\n",
+        "lastUpdated": 0,
+        "projectGithub": "greenpill-dev-guild",
+        "projectTwitter": "gp_dev_guild"
+      },
+      "recipient": "0xe09315A86ED0A39862158f5631b928145987fE05"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 42161,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

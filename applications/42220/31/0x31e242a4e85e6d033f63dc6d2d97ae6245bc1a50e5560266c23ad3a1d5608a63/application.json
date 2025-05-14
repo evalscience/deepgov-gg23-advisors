@@ -1,0 +1,241 @@
+{
+  "id": "48",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x31e242a4e85e6d033f63dc6d2d97ae6245bc1a50e5560266c23ad3a1d5608a63",
+  "metadata": {
+    "signature": "0xa7cc78c2159edea586cdd4a05c00182979c009666a6554da8b7de997f0e9ee5b7f63cec2d87e62ca852244e3603b7195be173ec9c2544251a3e473cf871c46231b",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "kent@carboncopy.news",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "3",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Not formally"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "- Hire a developer to integrate impact data from more projects and expand the ReFi Impact Dashboard in coordination with Regen Coordination\n\n- Publish educational content series in partnership with GreenPill Writers Guild and support Local ReFi Toolkit Playbooks efforts\n\n- Publish 2025 editions of the State of ReFi and Impact DePIN reports\n\n- Publish quarterly ReFi progress reports\n\n- Expand geographic breadth of content to cover 5 key ReFi hotspots: Latin America, West Africa, East Africa, South Asia, Southeast Asia.\n\n- Launch ergodic ecosystem investing pilot for ReFi\n\n- Continue building open-source ecosystem management tool\n\n- Solicit more guest feature contributions from ReFi/regen thinkers\n\n",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x31e242a4e85e6d033f63dc6d2d97ae6245bc1a50e5560266c23ad3a1d5608a63",
+        "title": "CARBON Copy",
+        "logoImg": "bafkreia5kqza65efhqfomjfoydnkbnzxha7adxsxpgpn5ukg4is3edv2sq",
+        "metaPtr": {
+          "pointer": "bafkreid633nrrblg37c6bhx7zir3rk76yzvpxvbur7efllyovtsxe4ly5e",
+          "protocol": "undefined"
+        },
+        "website": "https://carboncopy.news",
+        "bannerImg": "bafybeig5arvlizu7rkvktvg4jdopdcgth2r54vnkl63lgkpxaou2drnjle",
+        "createdAt": 1712638977118,
+        "userGithub": "kentbabin",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..GMprHTRrW2WnKfAwlyMaKJ1LnVdbwosNaJPYwGxDfLu1U95rqvenwP6dL1wZsM2rkpCHtOyLgOdwMEHUeGIjDQ",
+              "type": "Ed25519Signature2018",
+              "created": "2024-10-03T13:19:21.386Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-10-03T13:19:21.386Z",
+            "expirationDate": "2025-01-01T13:19:21.386Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x687EaD20dee82DcD9f04409BdE1b134e915ab1FB",
+              "hash": "v0.0.0:D+NAA6c4+Z+8lyQio5dENGbonzLef4Sa7KbG/VNYeMs=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextGithubOrg#carboncopyrefi#58686361"
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-03-27T11:40:05.500Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x32f0d297fbeef4aa90c5893ba6406e8e005c22e270accd590a7613bb7b8afa4f32f39b463ad4805112846bdd7122f3cde25e4a9506863d8fbfb4cbd90d3ac1401b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-03-27T11:40:05.499Z",
+            "expirationDate": "2025-06-25T11:40:05.499Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x687EaD20dee82DcD9f04409BdE1b134e915ab1FB",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#CC_ReFi_News",
+              "nullifiers": [
+                "v0.0.0:NW/nY5XUSmpSQafqwdqQmulOfsxRWAB6Vx0Zn2IrpGM="
+              ]
+            }
+          }
+        },
+        "description": "CARBON Copy is an open-source ecosystem hub for Web3 regenerative finance (ReFi).\n\nWe fill the information void by providing a combination of news, education, expert analysis, industry reports, and project evaluation to help industry stakeholders better understand the space and to get projects more exposure.\n\nA core part of this is our comprehensive, curated ReFi company database. Each company has its own profile page complete with contact info, news, media coverage, content feed, token and fundraising data, and more. Each category in our taxonomy also has its own dedicated page showing aggregated data.\n\nAs part of our data efforts, we have launched a beta version of our ReFi Impact Dashboard which aims to aggregate and quantify the impact being made by projects in the space.\n\n# The ReFi Project Database\n\nOur database is a curated mapping of the Web3 regenerative finance space. We hope it will serve as a source of truth for the space and help new projects, in particular, establish an online footprint.\n\n## Features\n\nAll of the projects are accessible in one paged list:\n\n![ReFi project listing](https://carboncopy.news/images/db-article-list.png)\n\nEach project has its own dedicated profile page, including direct integration with Karma GAP milestones:\n\n![Project profile page](https://carboncopy.news/images/db-article-project.jpeg)\n\nEach category in our taxonomy has its own dedicated page with aggregated data:\n\n![Category page](https://carboncopy.news/images/db-article-category.jpg)\n\n# ReFi Impact Dashboard\n\nWe have started the aggregation and integration of the impact made by ReFi projects into a single dashboard. Metrics such as on-chain ecological credits issued, solar energy generated, and amount lent to regenerative projects can be tracked weekly.\n\n![ReFi Impact Dashboard](https://paragraph.xyz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fpapyrus_images%2F51c9776272e1edcec288db55b920ac1d.jpg&w=1920&q=75)\n\n# Other Activities\n\n**Industry Reports** - We released the 2024 editions of our cornerstone industry report, [The State of ReFi](https://carboncopy.news/reports/state-of-refi-2024/), in February in coordination with ReFi DAO and [The Impact DePIN Report](https://carboncopy.news/reports/impact-depin-2024/) in July in coordination with Arkreen, Switch Electric, and Shamba Network.\n\n**CARBON Copy Newsletter** - We have moved our own weekly newsletter to Paragraph. Every week, we highlight a trend or news item in ReFi that we think readers both inside and outside the space should know about. Example: [https://paragraph.xyz/@carboncopy/is-refai-the-future](https://paragraph.xyz/@carboncopy/is-refai-the-future)\n\n**Regenerative Self-Assessment** - We have launched a survey based on the research of [Kate Bennett](https://au.linkedin.com/in/ktlbennett) to help ReFi/Web3 projects become more regenerative in their organisation and impact. \n\n**Articles & Interviews** - We are slowly building a team of writers that produce rich analytical articles on ReFi topics, with a specific focus on localised impact. Example: [Exploring ReFi's Potential in Nigeria](https://carboncopy.news/features/exploring-refi-potential-nigeria/)\n\n**X Spaces** - Trinity Morphy, our staff writer, hosts a ReFi Weekly podcast every Friday where he discusses industry trends with ReFi's key opinion leaders.\n\n**Weekly ReFi recaps** - Trinity also now posts the ReFi Recap on the ReFi DAO blog every Monday. Example: [https://blog.refidao.com/refi-recap-01-13/](https://blog.refidao.com/refi-recap-01-13/)\n\n**ReFi News Feed** - We aggregate news from across the ReFi space into a single RSS feed that anyone can subscribe to or integrate into their projects. As the ReFi space grows, we see this as an important source of truth for crypto and tech media outlets.\n\n# Roadmap\n\nLooking forward, we are currently working on the following:\n\n## 1) Impact metric integration on project profile pages\n\nAt the heart of our mission is the desire to help ReFi projects demonstrate and promote their impact. To that end, we are working towards integrating impact data directly on the project profile and category profile pages. We have already integrated data for 20 projects.\n\n## 2) ReFi Impact Dashboard\n\nWe have launched the beta version and are now working on launching an updated version with more data connected and better interactivity.\n\n## 3) Community database management\n\nWe want the ReFi project database to remain a public good. As such, we are aiming for a community approach where decisions regarding the database are not made by us. This would involve allowing projects to claim their profile page by purchasing an NFT for a modest sum. Our end goal is to make this an open-source \"ecosystem management\" tool available to anyone.\n\n## 4) 2025 editions of the State of ReFi and Impact DePIN reports\n\nWe aim to use this year's reports plus the data we are aggregating to produce richer, more insightful reports in 2025.\n\n## 5) ReFi \"hotspot\" content\n\nWe are looking to expand the geographic scope of our content to include ReFi hotspots Latin America, West Africa, East Africa, South Asia, and Southeast Asia.\n\n## 6) Educational content partnership with GreenPill Writers Guild\n\nA series of research-based articles to explore a key question: how much are ReFi communities using Web3 tools, and how are those tools affecting their work? Through interviews, surveys, and case studies, we’ll look at how people coordinate, which tools they use, and what gets in the way. Our shared goal is to support the Local ReFi Toolkit by identifying patterns, surfacing common challenges, and connecting them to the Toolkit’s practical recommendations. \n\n# Links\n\n**ReFi Project DB** - [https://carboncopy.news/projects/](https://carboncopy.news/projects/)\n\n**Impact Dashboard** - [https://carboncopy.news/dashboard/](https://carboncopy.news/dashboard/)\n\n**CARBON Copy Newsletter** - [https://paragraph.xyz/@carboncopy](https://paragraph.xyz/@carboncopy)\n\n**Regenerative Self-Assessment** - [https://carboncopy.news/regenerative-assessment/](https://carboncopy.news/regenerative-assessment/)\n\n**Discord** - [https://discord.gg/53TpqNgPC5](https://discord.gg/53TpqNgPC5)\n\n**CARBON Copy RSS Feed** - [https://carboncopy.news/feed.xml](https://carboncopy.news/feed.xml)\n\n**ReFi News RSS Feed** - [https://api.carboncopy.news/feed](https://api.carboncopy.news/feed)\n\n**LinkedIn** - [https://www.linkedin.com/company/carbon-copy-news/](https://www.linkedin.com/company/carbon-copy-news/)",
+        "lastUpdated": 0,
+        "projectGithub": "carboncopyrefi",
+        "projectTwitter": "cc_refi_news"
+      },
+      "recipient": "0xd06496e108d7dAb8F2D6264A3f7AE899897CdDCd"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 42161,
+        "registryAddress": "0x4aacca72145e1df2aec137e1f3c5e3d75db8b5f3"
+      }
+    }
+  }
+}

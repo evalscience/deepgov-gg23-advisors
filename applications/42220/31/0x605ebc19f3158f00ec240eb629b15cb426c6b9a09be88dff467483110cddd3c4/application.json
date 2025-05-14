@@ -1,0 +1,355 @@
+{
+  "id": "44",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x605ebc19f3158f00ec240eb629b15cb426c6b9a09be88dff467483110cddd3c4",
+  "metadata": {
+    "signature": "0x040d86f662d1f42287db967975c2a29bfc845f7ce0188ec8ef5fadffb9a2e9ce546d4ea7507993a761729421821c2f2b7c51efc24becad4630fd2c529de58f991c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "refiphangan@gmail.com",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "3",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "ReFi DAO"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "Re:Plast Phangan 1st Phase",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x605ebc19f3158f00ec240eb629b15cb426c6b9a09be88dff467483110cddd3c4",
+        "title": "ReFi Phangan Empowering Regenerative Future ",
+        "logoImg": "bafkreiae7jdmwaycr3ovmyrr43xwpu47imfwlszz2kffuswf72sjtyr32e",
+        "metaPtr": {
+          "pointer": "bafkreicn4blgbkitryk2vvnrxsxs3hizz2yropjajvrm6s5w47htoam4cq",
+          "protocol": "undefined"
+        },
+        "website": "https://x.com/ReFiPhangan",
+        "bannerImg": "bafkreibeuiljxatmf3ymhe7mj245jv55jo5z3sitxsbgtyjrgthdmr4bo4",
+        "createdAt": 1743586442188,
+        "credentials": {
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-02T09:33:50.313Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0xe547c2d13d3f9f3a2bfbc122d514106b349420961de481cfcd14013f0d624436282a2ff3f9fc07bdc809aaff40467af894121952fedd6cf9b2cb792d609efda01c",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-02T09:33:50.313Z",
+            "expirationDate": "2025-07-01T09:33:50.313Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0xa8258ED271BB9be9d7E16c5818E45eF6F2577d92",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextTwitter#ReFiPhangan",
+              "nullifiers": [
+                "v0.0.0:3P4cNJZY7EwcYREXMseY5FWCEFnUqR6w4fYZ9koE2m8="
+              ]
+            }
+          }
+        },
+        "description": "ReFi Phangan activities:\n##Decentralized Cleanup Network Partnership:## ReFi Phangan and GreenPill Phangan have teamed up to conduct joint cleanup initiatives, working alongside the Decentralized Cleanup Network. These cleanups are a testament to our shared commitment to environmental stewardship and community engagement, removing significant amounts of waste from the island’s natural environments.\n##Onboarding Events and Workshops:## Together, we organize in-person onboarding events and workshops aimed at introducing the local community, NGOs, and individuals to web3 technologies and regenerative finance principles. These events are crucial in building a foundation of knowledge and engagement, fostering a community that is actively involved in sustainable practices.\nOur collaboration extends to supporting ReFi Phangan's Re:Plast  Phangan project, particularly by integrating it into a broader cryptoeconomics framework and aiding in fundraising efforts. This partnership not only strengthens our initiatives but also ensures that our collective impact is maximized.\n\nReFi Phangan: Towards a Sustainable Future through Regenerative Finance\nReFi Phangan's mission aligns seamlessly with GreenPill Phangan's vision, as both organizations are deeply committed to addressing environmental issues on Koh Phangan through innovative approaches. Our focus on community engagement, coupled with the adoption of web3 technologies, allows us to amplify our impact across various initiatives, including waste management and the establishment of a full-circle plastic recycling facility.\n##Cleanups and Environmental Initiatives:## ReFi Phangan aims to increase the frequency and scale of cleanup activities on Koh Phangan. This initiative will help reduce plastic pollution and prepare the population to follow important steps in plastic waste management, which are essential for succeeding with the next goal.\n\n\n##Re:Plast Recycling Facility:## Our epic goal is to benefit the environment of the entire island by organizing and providing the necessary support for the local government or village community to start running a dedicated recycling center for converting plastic waste into sustainable products based on the Precious Plastic program. This will build local recycling infrastructure, engage the community in recycling practices, and produce eco-friendly products that will become an additional source of income for the local economy. Learn more about this project by clicking on the image below:\n\nRe:Plast Phangan PitchDeck https://www.canva.com/design/DAGMcgPuQYM/uBJFAZcHn_u6NLaRlyeEtA/view\n\nKarma.gap https://gap.karmahq.xyz/project/refi-phangan-empowering-regenerative-future",
+        "lastUpdated": 0,
+        "projectTwitter": "ReFiPhangan"
+      },
+      "recipient": "0x8df9894fb34127fdd1f04e7f9ea33eb7735e59c2"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "title": "ReFi Phangan Empowering Regenerative Future ",
+      "logoImg": "bafkreiae7jdmwaycr3ovmyrr43xwpu47imfwlszz2kffuswf72sjtyr32e",
+      "website": "https://x.com/ReFiPhangan",
+      "bannerImg": "bafkreibeuiljxatmf3ymhe7mj245jv55jo5z3sitxsbgtyjrgthdmr4bo4",
+      "createdAt": 1743586442188,
+      "credentials": {
+        "twitter": {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "type": "EthereumEip712Signature2021",
+            "created": "2025-04-02T09:33:50.313Z",
+            "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+            "proofValue": "0xe547c2d13d3f9f3a2bfbc122d514106b349420961de481cfcd14013f0d624436282a2ff3f9fc07bdc809aaff40467af894121952fedd6cf9b2cb792d609efda01c",
+            "eip712Domain": {
+              "types": {
+                "Proof": [
+                  {
+                    "name": "@context",
+                    "type": "string"
+                  },
+                  {
+                    "name": "created",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proofPurpose",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "verificationMethod",
+                    "type": "string"
+                  }
+                ],
+                "@context": [
+                  {
+                    "name": "nullifiers",
+                    "type": "NullifiersContext"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "Document": [
+                  {
+                    "name": "@context",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "credentialSubject",
+                    "type": "CredentialSubject"
+                  },
+                  {
+                    "name": "expirationDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuanceDate",
+                    "type": "string"
+                  },
+                  {
+                    "name": "issuer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "proof",
+                    "type": "Proof"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string[]"
+                  }
+                ],
+                "EIP712Domain": [
+                  {
+                    "name": "name",
+                    "type": "string"
+                  }
+                ],
+                "CredentialSubject": [
+                  {
+                    "name": "@context",
+                    "type": "@context"
+                  },
+                  {
+                    "name": "nullifiers",
+                    "type": "string[]"
+                  },
+                  {
+                    "name": "id",
+                    "type": "string"
+                  },
+                  {
+                    "name": "provider",
+                    "type": "string"
+                  }
+                ],
+                "NullifiersContext": [
+                  {
+                    "name": "@container",
+                    "type": "string"
+                  },
+                  {
+                    "name": "@type",
+                    "type": "string"
+                  }
+                ]
+              },
+              "domain": {
+                "name": "VerifiableCredential"
+              },
+              "primaryType": "Document"
+            },
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+          },
+          "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/vc/status-list/2021/v1"
+          ],
+          "issuanceDate": "2025-04-02T09:33:50.313Z",
+          "expirationDate": "2025-07-01T09:33:50.313Z",
+          "credentialSubject": {
+            "id": "did:pkh:eip155:1:0xa8258ED271BB9be9d7E16c5818E45eF6F2577d92",
+            "@context": {
+              "provider": "https://schema.org/Text",
+              "nullifiers": {
+                "@type": "https://schema.org/Text",
+                "@container": "@list"
+              }
+            },
+            "provider": "ClearTextTwitter#ReFiPhangan",
+            "nullifiers": [
+              "v0.0.0:3P4cNJZY7EwcYREXMseY5FWCEFnUqR6w4fYZ9koE2m8="
+            ]
+          }
+        }
+      },
+      "description": "ReFi Phangan activities:\n##Decentralized Cleanup Network Partnership:## ReFi Phangan and GreenPill Phangan have teamed up to conduct joint cleanup initiatives, working alongside the Decentralized Cleanup Network. These cleanups are a testament to our shared commitment to environmental stewardship and community engagement, removing significant amounts of waste from the island’s natural environments.\n##Onboarding Events and Workshops:## Together, we organize in-person onboarding events and workshops aimed at introducing the local community, NGOs, and individuals to web3 technologies and regenerative finance principles. These events are crucial in building a foundation of knowledge and engagement, fostering a community that is actively involved in sustainable practices.\nOur collaboration extends to supporting ReFi Phangan's Re:Plast  Phangan project, particularly by integrating it into a broader cryptoeconomics framework and aiding in fundraising efforts. This partnership not only strengthens our initiatives but also ensures that our collective impact is maximized.\n\nReFi Phangan: Towards a Sustainable Future through Regenerative Finance\nReFi Phangan's mission aligns seamlessly with GreenPill Phangan's vision, as both organizations are deeply committed to addressing environmental issues on Koh Phangan through innovative approaches. Our focus on community engagement, coupled with the adoption of web3 technologies, allows us to amplify our impact across various initiatives, including waste management and the establishment of a full-circle plastic recycling facility.\n##Cleanups and Environmental Initiatives:## ReFi Phangan aims to increase the frequency and scale of cleanup activities on Koh Phangan. This initiative will help reduce plastic pollution and prepare the population to follow important steps in plastic waste management, which are essential for succeeding with the next goal.\n\n\n##Re:Plast Recycling Facility:## Our epic goal is to benefit the environment of the entire island by organizing and providing the necessary support for the local government or village community to start running a dedicated recycling center for converting plastic waste into sustainable products based on the Precious Plastic program. This will build local recycling infrastructure, engage the community in recycling practices, and produce eco-friendly products that will become an additional source of income for the local economy. Learn more about this project by clicking on the image below:\n\nRe:Plast Phangan PitchDeck https://www.canva.com/design/DAGMcgPuQYM/uBJFAZcHn_u6NLaRlyeEtA/view\n\nKarma.gap https://gap.karmahq.xyz/project/refi-phangan-empowering-regenerative-future",
+      "logoImgData": {},
+      "bannerImgData": {},
+      "projectTwitter": "ReFiPhangan"
+    }
+  }
+}

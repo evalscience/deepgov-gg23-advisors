@@ -1,0 +1,241 @@
+{
+  "id": "49",
+  "chainId": 42220,
+  "roundId": "31",
+  "projectId": "0x9a9bf18e75f74712afef59bb5acf4d042dc099b9b68145a2e1c4f77ae7660701",
+  "metadata": {
+    "signature": "0x914c532f741421d150a90ce08a4510a7cc391ad0acdb099be929522fd4b8ea1030992828b814fd15c342eead35e243cd864a61937a9252e7e01bceaad1eb1a5b1c",
+    "application": {
+      "round": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+      "answers": [
+        {
+          "type": "email",
+          "answer": "hello@kokonut.network",
+          "hidden": true,
+          "question": "Email Address",
+          "questionId": 0
+        },
+        {
+          "type": "number",
+          "answer": "6",
+          "hidden": false,
+          "question": "Team Size",
+          "questionId": 1
+        },
+        {
+          "type": "checkbox",
+          "answer": [
+            "Greenpill"
+          ],
+          "hidden": false,
+          "question": "Is your project a member or past grantee of one of these networks?",
+          "questionId": 2
+        },
+        {
+          "type": "paragraph",
+          "answer": "# What's Coming Next in Kokonut Network 2025\n* **Kokonut Adelphi Farm**: First farm optimized as a Public Good leveraging our Public Goods Funding Powered by Trees Flywheel.\n* **Kokonut Venus Farm**: 100% women-based leadership to grow beyond fruits & vegetables\n* **Kokonut Green Paper:** Request for Comments Version\n* **Local ReFi Toolkit Playbook:** How to set up a Web3-powered syntropic farm using the [Kokonut Framework](https://framework.kokonut.network/)\n* **The first Celo-based Instance of Kokonut DAO**: Trees tied to token governance, on-chain revenue allocations, and a public goods funding model.\n* **Deeper Integration with the Regen Coordination Stack**: Karma GAP, Hypercerts and Silvi (already in use at Kokonut Adelphi), and explore synergy with local stablecoin pilots & Celo-powered on-chain governance.\n* **Increased Public Building Approach**: We will transition our Public Roadmap and Project Management to [Kokonut Network Github Repository](https://github.com/wasalo/kokonut-network) to foster collaborations with the wider ecosystem.",
+          "hidden": false,
+          "question": "What are your key active goals, plans, objectives or milestones for this year?",
+          "questionId": 3
+        }
+      ],
+      "project": {
+        "id": "0x9a9bf18e75f74712afef59bb5acf4d042dc099b9b68145a2e1c4f77ae7660701",
+        "title": "Kokonut Network; Perpetual Value Ecosystem",
+        "logoImg": "bafkreicrhxl6b6c573uuww42mvbu2is7cjrk5fwalqaa53ra3feno7f4yq",
+        "metaPtr": {
+          "pointer": "bafkreihz4oxpa6ywyewqjsvgqzsm22woahcdxcsarj45ztab3ctmfylkum",
+          "protocol": "undefined"
+        },
+        "website": "https://kokonut.network/",
+        "bannerImg": "bafkreigapmfegogifgoizbvmduf2omszzvaqk46uhr4iecmtts7ydv62l4",
+        "createdAt": 1673234646657,
+        "userGithub": "wasabinetwork",
+        "credentials": {
+          "github": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "type": "EthereumEip712Signature2021",
+              "created": "2025-04-02T15:06:06.264Z",
+              "@context": "https://w3id.org/security/suites/eip712sig-2021/v1",
+              "proofValue": "0x82e753cdfa3cb652f3ec03d7d673c2176ba13f12446757cf6368d0ba3d818c4478abf3f86e24555ef3ff6f913cc60527f37925e105c4620e466d97c4131e287b1b",
+              "eip712Domain": {
+                "types": {
+                  "Proof": [
+                    {
+                      "name": "@context",
+                      "type": "string"
+                    },
+                    {
+                      "name": "created",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proofPurpose",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "verificationMethod",
+                      "type": "string"
+                    }
+                  ],
+                  "@context": [
+                    {
+                      "name": "nullifiers",
+                      "type": "NullifiersContext"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "Document": [
+                    {
+                      "name": "@context",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "credentialSubject",
+                      "type": "CredentialSubject"
+                    },
+                    {
+                      "name": "expirationDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuanceDate",
+                      "type": "string"
+                    },
+                    {
+                      "name": "issuer",
+                      "type": "string"
+                    },
+                    {
+                      "name": "proof",
+                      "type": "Proof"
+                    },
+                    {
+                      "name": "type",
+                      "type": "string[]"
+                    }
+                  ],
+                  "EIP712Domain": [
+                    {
+                      "name": "name",
+                      "type": "string"
+                    }
+                  ],
+                  "CredentialSubject": [
+                    {
+                      "name": "@context",
+                      "type": "@context"
+                    },
+                    {
+                      "name": "nullifiers",
+                      "type": "string[]"
+                    },
+                    {
+                      "name": "id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "provider",
+                      "type": "string"
+                    }
+                  ],
+                  "NullifiersContext": [
+                    {
+                      "name": "@container",
+                      "type": "string"
+                    },
+                    {
+                      "name": "@type",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "domain": {
+                  "name": "VerifiableCredential"
+                },
+                "primaryType": "Document"
+              },
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb#controller"
+            },
+            "issuer": "did:ethr:0xd6f8d6ca86aa01e551a311d670a0d1bd8577e5fb",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1",
+              "https://w3id.org/vc/status-list/2021/v1"
+            ],
+            "issuanceDate": "2025-04-02T15:06:06.264Z",
+            "expirationDate": "2025-07-01T15:06:06.264Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ea26051F7657d59418da186137141CeA90D0652",
+              "@context": {
+                "provider": "https://schema.org/Text",
+                "nullifiers": {
+                  "@type": "https://schema.org/Text",
+                  "@container": "@list"
+                }
+              },
+              "provider": "ClearTextGithubOrg#wasalo#94765983",
+              "nullifiers": [
+                "v0.0.0:dqMZxgZfjMumEVxg2bAOod2ZaeAx3BenTLZc0V3PJMs="
+              ]
+            }
+          },
+          "twitter": {
+            "type": [
+              "VerifiableCredential"
+            ],
+            "proof": {
+              "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..3Dk6a5CUI2viGuKGhX2c6jpesHQeha9DuDJuD-gkFyZWfDVtDGIPSu-lJZJDSqaGLKrTkC2lK_ssLDH_3PG_AA",
+              "type": "Ed25519Signature2018",
+              "created": "2024-04-17T02:27:23.925Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC#z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC"
+            },
+            "issuer": "did:key:z6MkghvGHLobLEdj1bgRLhS4LPGJAvbMA1tn2zcRyqmYU5LC",
+            "@context": [
+              "https://www.w3.org/2018/credentials/v1"
+            ],
+            "issuanceDate": "2024-04-17T02:27:23.925Z",
+            "expirationDate": "2024-07-16T02:27:23.925Z",
+            "credentialSubject": {
+              "id": "did:pkh:eip155:1:0x0ea26051F7657d59418da186137141CeA90D0652",
+              "hash": "v0.0.0:reNCeYuHcrDM+u4CYpvzFiVXyoMchinndM/tmvuNCuw=",
+              "@context": [
+                {
+                  "hash": "https://schema.org/Text",
+                  "provider": "https://schema.org/Text"
+                }
+              ],
+              "provider": "ClearTextTwitter#KokonutNetwork"
+            }
+          }
+        },
+        "description": "> ***Wouldn’t it be nice to create a proactive perpetual framework backed by natural assets unrelated to the crypto market, and eco-friendly and regenerative?***\n\n## Personal Introduction 🧬\n* I’m [**Wasabi**](https://link3.to/wasabinetwork), founder at [**Kokonut Network**](https://kokonut.network/). We are [**building an ecosystem**](https://link.kokonut.network/press) to connect web3 and agriculture. \n* We have created a blockchain-based cooperative to develop and manage a network of Syntropic Plantations.\n* Our main goal is to address the [**worldwide lack of funding for agricultural projects**](https://youtu.be/ZjygLVUSq4s). \n* We partner with [**farmers**](https://link.kokonut.network/KKN-Seeds-Deck) to get the funds they need while creating opportunities for web3 communities by giving them access & upside into perpetual natural assets.\n\n# TL;DR 🗒️\n\nKokonut Network is a decentralized ecosystem for building and deploying syntropic agroforestry farms using Web3 infrastructure. Its [open-source framework](https://framework.kokonut.network/) allows communities to design farms [optimized for diverse funding sources](https://x.com/WasabiNetwork/status/1898000651646390343) (**grants, DAOs, cooperatives, investors**) and impact outcomes (**public goods, financial returns, or blended**). Currently operating 2 live farms and developing 4 more across the Dominican Republic, Kokonut represents a powerful example of Web3 applied to real-world ecological and economic transformation.\n\nKokonut Network leverages blockchain and **open-source accounting** to create a **community-owned** network of nature-based **sustainable assets**. Our mission is to encourage, organize, fund, and oversee purpose-based Syntropic Farms.\n\nKokonut Network forges partnerships with stakeholders through the Kokonut Framework, which utilizes a combination of Agriculture, Blockchain, Land, and Weather. \n\n> **This synergy has no expiration date ♻️**\n\n# Table of Contents 📜\n\n 1. Major Updates since #GG21 **(September 2024 to March 2025)**\n 2. Kokonut Adelphi Ecological Census\n 3. What’s Coming Next in 2025\n 4. Alignment with Regen Coordination Mission & North Star Outcomes\n 5. Quantitative & Qualitative: This is what you're helping bring to life 🌱\n 6. Why Kokonut Network? 🌴\n 7. Regenerative Agriculture: SDGs & 8 Forms of Capital\n 8. Unlimited Scaling — Kokonut Framework Use Case; Public Goods powered by Trees 🌳\n 9. Our Unique Vision 🔭\n10. Resources 🧰\n\n# Major Updates since #GG21 📰\n\n1. Developing Kokonut Adelphi Timeline \\[[Tweet 1](https://x.com/KokonutNetwork/status/1880651245851214191), [Tweet 2](https://x.com/KokonutNetwork/status/1883176964271259816), [Tweet 3](https://x.com/KokonutNetwork/status/1896543737033183389), [Tweet 4](https://x.com/KokonutNetwork/status/1903452247494685004)\\]\n2. [Kokonut Seeds Beetroots Branded Packaging](https://x.com/KokonutNetwork/status/1884255172106281042)\n3. [Kokonut Framework Alpha Version released with OSS License](https://framework.kokonut.network/)\n4. [Unveiling Kokonut Adelphi Infrastructure Map](https://x.com/KokonutNetwork/status/1896944730317168848)\n5. [Unveiling Kokonut Adelphi 3D Elevation Model](https://x.com/KokonutNetwork/status/1899850028614549600)\n6. [Announcing Kokonut Seeds Replanting Operation](https://x.com/KokonutNetwork/status/1904879400836833586)\n7. [Kokonut Wiki has Migrated to GitHub](https://docs.kokonut.network/)\n8. [Consolidated Impact Report at Karma GAP](https://gap.karmahq.xyz/project/kokonut-onchain-network?tab=updates)\n\n## Social Media Highlights 🗞️\n* [Kokonut Genesis Bio-factory Improvements](https://x.com/KokonutNetwork/status/1833002001241690620)\n* [Kokonut Adelphi enters the Room](https://x.com/KokonutNetwork/status/1837891976189857947)\n* [Breaking Ground at Kokonut Seeds](https://x.com/KokonutNetwork/status/1840599777605570729)\n* [Why are we building the Kokonut Ecosystem?](https://x.com/KokonutNetwork/status/1843262509492404627)\n* [Kokonut at Seventh High-level Forum on United Nations Global Geospatial Information Management](https://x.com/KokonutNetwork/status/1843705107440963829)\n* [Leveraging Kokonut Framework to perpetually fund the Kokonut Guilds](https://x.com/KokonutNetwork/status/1854718184542052600)\n* [Banana Trees at Kokonut Seeds Thriving](https://x.com/KokonutNetwork/status/1869740236319969739)\n* [Watermelon Harvest at Kokonut Seeds](https://x.com/KokonutNetwork/status/1873729011152720091)\n* [Beetroots Harvest at Kokonut Seeds](https://x.com/KokonutNetwork/status/1883598403193680366)\n* [Kokonut Network becomes a Thrive Protocol Certified Project](https://x.com/KokonutNetwork/status/1893038672984850720)\n\n## Latest community generated articles, blog posts & newsletters 📲\n* [Keenest 𝕏 Kokonut Partnership](https://x.com/_keenest/status/1860710742179106890)\n* [Supporting Regeneration via AgroforestDAO QF Round](https://x.com/RegenCoordinate/status/1866432452644020442)\n* [Karma GAP Highlighting Kokonut Milestones Updates](https://x.com/karmahq_/status/1891472659369578987)\n* [GreenBTC x Kokonut Network Partnership to Offset Bitcoin Emissions](https://x.com/GreenBTCClub/status/1893914167561855259)\n* [Interview with The Optimism Show](https://x.com/OptimismShow/status/1898011052341674197)\n\n# Kokonut Adelphi Ecological Census\n\n![](https://kokonut.network/files/Hypercert.png \"\")\n\n## What This Hypercert Represents\n\nWe've performed an ecological census at Kokonut Adelphi; this is an on-the-ground survey we perform in the design phase of our Syntropic Farms to use this data to determine the location and species selection to be planted, to create an ecosystem that fosters soil regeneration and parity with the local environment.\n\nFor this survey, we first performed a cleanup of the entire area then proceeded with registering every tree by name, state and location using OSS Tools in order to generate ortophoto and GeoJSON with the data for us to have a 3D Model of the land and its density of trees.\n\nWe have registered 154 trees across a spectrum of forest, fruit, and flower species.\n\nFor this activity, we had a group of friends alongside members of the Kokonut Core Team and the partners that own the land where this Syntropic Farm is being developed.\n\n## Proof That It’s Working\n\nWe have used the output of our work to inform the design of the Kokonut Adelphi Syntropic Farm, which you can read about [here](https://docs.kokonut.network/kokonut-farms/adelphi), this work helped us to design the irrigation system leveraging the elevation of the land and to select species to plant that creates an ecological flywheel across the entire landscape.\n\n### See the Proof of Impact\n\n1. **Adelphi 3D Land Elevation Model**: <https://link.kokonut.network/AdelphiOrtho3D>\n2. **Adelphi Species GeoNode**: <https://link.kokonut.network/AdelphiSpeciesGeoNode>\n\n> [**View Our Hypercert**](https://www.ecocertain.xyz/hypercert/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-45257554800484815640628822788425172123648)\n\n![](https://kokonut.network/files/Adelphi%20Polygon%20Infra.jpeg \"\")\n\n# What's Coming Next in Kokonut Network 2025\n* **Kokonut Adelphi Farm**: First farm optimized as a Public Good leveraging our Public Goods Funding Powered by Trees Flywheel.\n* **Kokonut Venus Farm**: 100% women-based leadership to grow beyond fruits & vegetables\n* **Kokonut Green Paper:** Request for Comments Version\n* **Local ReFi Toolkit Playbook:** How to set up a Web3-powered syntropic farm using the [Kokonut Framework](https://framework.kokonut.network/)\n* **The first Celo-based Instance of Kokonut DAO**: Trees tied to token governance, on-chain revenue allocations, and a public goods funding model.\n* **Deeper Integration with the Regen Coordination Stack**: Karma GAP, Hypercerts and Silvi (already in use at Kokonut Adelphi), and explore synergy with local stablecoin pilots & Celo-powered on-chain governance.\n* **Increased Public Building Approach**: We will transition our Public Roadmap and Project Management to [Kokonut Network Github Repository](https://github.com/wasalo/kokonut-network) to foster collaborations with the wider ecosystem.\n\n# Alignment with Regen Coordination Mission & North Star Outcomes\n* 🌍 **ReFi Web3 Awareness, Adoption, Development:** Kokonut Network actively develops and experiments with ReFi Web3 tooling to power real-world regenerative assets. By supporting open-source documentation and modular deployment, we contribute directly to the broader development and adoption of ReFi systems.\n* ⚙️ **Ecosystem Activity on Celo & Ethereum:** With ongoing deployments across Arbitrum, Ethereum, and growing interest in Celo’s OP Stack migration, Kokonut is well-positioned to contribute to the expansion of financial and on-chain activity across Ethereum-aligned networks.\n* 🌱 **Local Ecological, Social, and Economic Impact:** Each Kokonut farm represents a tangible, community-led regenerative project—generating food, livelihoods, biodiversity, and revenue through eco-friendly land use. The [Kokonut Framework](https://framework.kokonut.network/) allows customization based on funding models, enabling it to work across both grant-funded and for-profit scenarios. With 6 farms in development across the Dominican Republic, Kokonut is already catalyzing systemic change in underserved rural communities.\n\n# Quantitative & Qualitative: This is what you're helping bring to life 🌱\n\n## Kokonut Venus - Six Dimensions of Impact ♻️\n\n1. **WHAT** – The objective is to test our thesis by building and developing syntropic plantations via a community-centric model, which intersects real-life communities, web3 communities, and global culture. The outcome of this investment will create a perpetual asset that will improve people's lives in every aspect.\n2. **WHO** – The families who own the land where the project will be developed are underserved in every aspect, including education, finances, health, and opportunities. In Latin America, jobs and the economy mainly function in big cities, and the countryside is typically marginalized or taken advantage of by large corporations. A blockchain-based co-op can help remove many of these barriers.\n3. **HOW MUCH** – Approximately 3 families own the land for Kokonut Venus a 100% women-based leadership syntropic farm with 60+ direct beneficiaries looking to expand beyond fruits & vegetable by also producing organic eggs, and the project will create dozens of direct and indirect jobs. This will be life-changing for everyone, as it will provide opportunities and value for at least 10 years.\n4. **CONTRIBUTION** – Underserved individuals depend on these types of projects and new concepts that open doors to new paradigms and possibilities. The current system's criteria and entry-level are very high, making it difficult for those who cannot meet their standards.\n5. **RISK** – We have several fail safes in place, such as agricultural insurance, open-source cloud accounting systems, government and community oversight, and technical support from government agencies.\n6. **PUBLIC GOODS** – Kokonut Venus Farm will be allocating 10% of its net profits as donations toward Asociacion de Mujeres Saladilleras AMUSA (100% Women-based Local Cooperative) which the manager of Kokonut Venus is the Director and [Kokonut Foundation](https://kokonut.foundation/) to further help with their mission.\n\n# Why Kokonut Network? 🌴\n\nIn essence, Kokonut Network serves as the coordination layer that harnesses the power of web3 and open-source technologies to craft an adaptable organism capable of limitless expansion, thanks to its modular plug-and-play design framework.\n\nEvery component of our network is crafted in alignment with our [core values](https://kokonut.network/about).\n\nOur commitment extends to safeguarding the interests of minorities through a holistic approach.\n\n## 🌍 The Challenge We’re Tackling\n\nA global issue revolves around insufficient funding for agricultural projects, imposing immense stress on grassroots farmers. This contributes to deforestation, as people resort to using wood for cooking and cutting down trees due to limited financial incentives to protect their environment. Most of the labor is executed by farmers trapped in poverty due to the lack of avenues to improve their income. They lack the processes, knowledge, and resources necessary to compete with corporations that control over 90% of the global coconut market.\n\n## Our Solution\n\nBlockchain open data and protocols offer a solution that benefits DAO members, farmers, and partners. This involves simplifying fundraising and coordination processes while actively monitoring fauna, flora, and endangered species to create a holistic solution. Through a [framework](https://framework.kokonut.network/) with bullet-proof standardized processes, we create job opportunities and enhance the quality of life for those contributing to the network's well-being. The objective is to establish a fair mechanism for funding, managing, and developing Syntropic Farms while maintaining a commitment to environmental preservation.\n\n## Why coconuts? Zero Waste & Circular Crop 🥥♻️\n\nCoconut is the most cultivated and vital palm tree in the world, as it is the main source of vegetable fat. It is one of the plants that provide a wide variety of products and by-products, serving as a primary source of food, drinks, and shelter for animals.\n\nThe coconut products market size was valued at $11.5 billion in 2018 and is estimated to reach $31.1 billion by 2026, registering a CAGR of 13.6% from 2019 to 2026. In 2018, the coconut oil segment accounted for more than half of the total coconut products market share.\n\n> ***Coconut is a versatile fruit with many health, environmental and biodiversity benefits.***\n\n## Kokonut Ecosystem Climate Impact\n\nWe’re developing a hybrid framework to create positive community-centric impact, addressing systemic issues in underserved areas and enhancing climate resilience. Our approach focuses on sustainable solutions that improve daily lives and provide incentives without deforestation.\n\n## EBF Framework\n\nWe will track and report environmental and social impacts using the EBF Framework. Our reports, published via Karma GAP, will ensure long-term compatibility within the ReFi and Climate communities. \n\n> The [Kokonut Framework](https://framework.kokonut.network/) significantly contributes to air, soil, biodiversity, equity, and carbon benefits.\n\n# Regenerative Agriculture: SDGs & 8 Forms of Capital\n\n## Value Creation in a Community-Owned Syntropic Farm\n\n![](https://kokonut.network/files/8%20Forms%20Diagram.png \"\")\n\n# Unlimited Scaling — Kokonut Framework Use Case; Public Goods powered by Trees 🌳\n\n![](https://kokonut.network/files/Diagram%20v0.2%20-%20KKN%20Foundation.png \"\")\n\n# Our Vision 🔭\n\nKokonut Network was created to [reduce the obstacles to agricultural development](https://www.youtube.com/watch?v=ZjygLVUSq4s&pp=ygURa29rb251dCBleHBsYWluZXI%3D), and rural project funding, and democratize investment in real-world projects. We use blockchain technology to establish plantations, creating opportunities for the global web3 communities and everyone in the network.\n\nWhat makes us different: Many DAOs have great ideas, copywriting, and marketing but without a solid business model. Unfortunately, many of these projects are rug-pulled or abandoned by users due to a lack of quality products.\n\n---\n\n# Main Resources 🔖\n* ***Website** [https://www.kokonut.network/](https://www.kokonut.network/)*\n* ***Let’s have a chat** [https://link.kokonut.network/meeting](https://link.kokonut.network/meeting)*\n* ***Tree of Links** [https://link3.to/kokonutnetwork](https://link3.to/kokonutnetwork)*\n* ***Kokonut Network Karma GAP Profile** [https://link.kokonut.network/karma](https://link.kokonut.network/karma)*\n* ***Kokonut Data Hub** [https://hub.kokonut.network/](https://hub.kokonut.network/)*\n* ***Kokonut Framework Docs*** <https://framework.kokonut.network>\n* ***Adelphi 3D Land Elevation Model*** <https://link.kokonut.network/AdelphiOrtho3D>\n* ***Adelphi Species GeoNode*** <https://link.kokonut.network/AdelphiSpeciesGeoNode>\n\n> **Thank you for reading. Follow our journey on Twitter [@KokonutNetwork](https://twitter.com/KokonutNetwork)**",
+        "lastUpdated": 0,
+        "projectGithub": "wasalo",
+        "projectTwitter": "KokonutNetwork"
+      },
+      "recipient": "0x03779B674CbCBfc0B801c4cAc9DFaC8aACbbD5c5"
+    }
+  },
+  "status": "APPROVED",
+  "project": {
+    "metadata": {
+      "type": "project",
+      "canonical": {
+        "chainId": 42161,
+        "registryAddress": "0x4AAcca72145e1dF2aeC137E1f3C5E3D75DB8b5f3"
+      }
+    }
+  }
+}
