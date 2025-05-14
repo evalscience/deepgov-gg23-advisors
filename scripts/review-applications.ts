@@ -27,7 +27,7 @@ async function processApplication(application: any, modelSpecs: any[]) {
   const karmaGap = loadKarmaGap(applicationId);
   const karmaGrants = parseKarmaGap(karmaGap ?? { grants: [] });
 
-  console.log("🔍 Starting research on Project:", getProjectName(application));
+  console.log("🔍 Starting review on Project:", getProjectName(application));
 
   const {
     roundMetadata: { name, eligibility },
