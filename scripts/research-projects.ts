@@ -74,10 +74,12 @@ async function main() {
     if (!researchNetwork) {
       throw new Error("Research network not found");
     }
-
+    let i = 1;
     // We need to process applications sequentially otherwise the AgentNetwork will mix up the data
     for (const application of applications) {
+      console.log(`Research progress: ${i}/${applications.length}`);
       await processApplication(application, researchNetwork);
+      ++i;
     }
 
     console.log("✅ All research tasks completed successfully!");
