@@ -1,5 +1,263 @@
 {
   "id": "42161-867-0x81f132f2b8ef92b6f9c706b968c8e71b8175c4543dd962b20664476ca292f675",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0x2ade51c47eab0570447478e1615cf3030e1602a587731c1c919464ba52fcbcc8",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67ecbbf06a54c05fcd3d1b44"
+        },
+        "uid": "0x7f20fb6bb9e3bfad428420f364cf77eb95336cf45b0083a544a15e272fa10e81",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x2ade51c47eab0570447478e1615cf3030e1602a587731c1c919464ba52fcbcc8",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x855f553a5ba0defa37f7e8d41948b34a237cb6f4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567850,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567856,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "\n# Hybrid AI for Reliable Smart Contract Creation.\n\n\n**A combined generative and symbolic AI system to create controllably accurate smart contracts in a chat dialog.**\n\nLEXON HYBRID AI is a concept to provide a novel, reliable, chat-based way to write smart contracts for EVM-based blockchains in English. Despite being AI-supported, it will offer precision and transparency.\n\n\nThe solution is a unique AI system that combines an LLM with a symbolic AI toolchain in a new way, powered by deterministic program code that reads like plain English: the [Lexon](https://www.lexon.org) compiler and grammar.  (See this [grant](https://explorer.gitcoin.co/#/projects/0x5ab014eb31f6c66475d6f20be8a1855eea5d95b7699e1012c3d3dc4a92a58954)).\n\n\nWhile the LLM service plays an essential role in this architecture, the center of gravity lies with the symbolic AI component that is based on the [Lexon language](https://www.lexon.org/vocabulary.html), which provides full transparency, is completely accessible, and easily malleable to best support the user in a chat dialog. Different from prompt-based engineering, achieving the **intended** outcome is significantly simplified for the user.\n\n\nThe proposed approach is the result of experimentation with Google oX, Microsoft co-pilot, and the Lexon syntax and compiler, to arrive at the most effective way to join generative and symbolic AI for the creation of robust code. \n\n\nWhere an LLM provides unrestricted freedom of expression, the symbolic AI provides the uncompromising reliability that is required to create a smart contract.\n\n.\n\n## The App\n\n\nThe result will be a web-based, AI-powered chat app for non-programmers to create accurate EVM-based smart contracts, from a free text that describes the contract in any level of detail. \n\n\nA verification dialog powered by hybrid AI that understands the contract—which means: has an internal representation of its meaning—helps to make sure that the contract shapes up precisely as intended. This is what generative AI alone cannot offer.\n\n\n\n\nThis addresses the problem that non-programmers—businesspeople, legal professionals, or private citizens—know better what they want to express than the programmers they have to work with but today cannot write nor verify smart contracts themselves. This app makes everything plain English.\n\n\nBecause with the absolute accuracy that smart contracts require, the occasional slip-ups of LLMs are problematic. The symbolic AI component of this project adds full accuracy and more productive fine-tuning.\n\n\nThe relative opacity of crypto programming as well as gen AI has hampered the mainstreaming of blockchain tech. The verification dialog flow described below provides transparency with every step.\n\n.\n\n## Flow\n\nA user will\n\n-\tenter a free description of a smart contract to be created in a chat box\n\n-\texamine the resulting proposed algorithm in English\n\n-\trework the prompt, **or the plain-text algorithm** (native-text program)\n\n-\tto finally deploy the smart contract to EVM-based chains.\n\n\n\nBehind the scenes,\n\n\n**(#1 / generative and free-form:)** the first stage is a communication with an LLM that has the capability to learn domain specific knowledge (“long context”), and is trained to create Lexon texts, i.e., write texts in the special programming language for smart contracts that reads like English and can be compiled to Solidity (see below).\n\n\n**(#2 / symbolic and exact:)** The LLM output is checked by the user, then compiled to Solidity by the Lexon compiler. The end result is Solidity code that precisely follows the English “pseudo code”—like algorithm presented in the Lexon text. It has no hallucinations because it is translated from English by fully deterministic compiler technology, rather than machine learning. This is a more restricted procedure that is better suited to achieving accuracy and full transparency.\n\n.\n\n## Mainstreaming Smart Contracts\n\n\nEVM-based chains and freely dictated smart contracts are a perfect fit, because Lexon “speaks Solidity” to effect a **reduction of hurdles to everyday use of blockchain tech** beyond payments. Long-term, together, AI smart contracts on EVM-based chains can become the household name for DIY contracting for any purpose, private or public, personal, or community governance, company administration or politics, investment, or art.\n\n\nThe goal is to make easily conjured smart contracts a ubiquitous part of **daily life for everyone** like, e.g., smart phone messenger apps. Not in the form of one-size-fits-all projects but fully bespoke agreements tailored to the billions of situations of real life, to onboard the next billion users to blockchain generally and EVM-based chains specifically.\n\n.\n\n## Why Now?\n\nGen AI has fired up the imagination of millions about new, personalized ways to digitally interact. This creates the opportunity to mainstream smart contract use with the help of AI, as a ubiquitous, personal technology, just like everyone is using chats or Excel today. Its simplicity, combined with its novel twist, makes the proposed Hybrid AI concept a contender for the blockchain-AI killer app.\n\nThe prospect to easily create unbreakable, safe, and legally enforceable agreements in plain English, makes a wealth of new, personal forms of organization and trade possible for the first time, just like Ebay created a global flee market. The historic breakthroughs of both generative and symbolic AI allow this for the first time right now. \n\nAs the blockchain space seeks to onboard the next billion users, a focus on transparence and ease-of-use is needed—which Lexon brings to both smart contracts and black box generative AI: lifting the veil, giving them both a friendlier appeal and new momentum.\n\n.\n\n## How will Lexon AI grow the Onchain Economy?\n\nLexon AI can strengthen the image and awareness of smart contracts beyond crypto.\n\n\nDone right, AI-supported smart contracts are an obvious, generic and versatile concept that can speak to a wide spectrum of potential new users. At this point in time, “AI” can motivate people to look at blockchain again and find out what progress has been made. In the course, to find out about EVM-based chains and what its advantages are.\n\n\nBecause lawyers & judges can read smart contracts written in plain language, they can finally advance the common way that firms are organized, with EVM-based chains as the rails for a consequential cultural and behavioral shift on the grass-roots level in commerce, finance and government.\n\n\nNatural language—the common medium of contracting, business, and law—is really the 'interface' that can make crypto and smart contracts **backwards compatible** to the existing OS of the world.\n\n.\n\n## Who is the Target Audience?\n\n**Everyone** — the approach is designed to broaden smart contract and DAO adoption by including non-programmers and non-tech-affine users. This is a 10kx augmentation of the potential user pool.\n\n\nLike Apple pushed for the idea of a computer in everyone's living room, smart contracts should likewise become an everyday normal phenomenon. This goal needs the no-code transparency of Lexon, to allow for smart contracts and DAOs in every walk of life, so smart contracts can become a part of school education and the definition of literacy, the standard way to manage any community or private undertaking.\n\n\nLexon AI targets everyday citizens, philosophers, politicians, businesspeople—who are experts in contracts to the same degree that lawyers are—as well as finance specialists, investors, DAO communities, or artists.\n\n\nAs a matter of fact, lawyers have been excited about writing Lexon smart contracts. Were used as legal agreements, judges will be a relevant target group as readers.\n\n.\n.\n\n\n# DETAILS\n\n\n## Rational\n\n\nThis HYBRID AI approach offers a generalizable solution to the mishaps (or occasional voluntary incompleteness) that code creation with LLMs can suffer, even with its reasoning models.\n\n\nIt will be be the more valuable the more difficult it will turn out eventually for an LLM to completely overcome hallucinations. Because LLM output is a creative aggregation of its learning material, it appears possible that a hard limit will remain especially regarding programs that are genuinely new. This Hybrid AI approach can be the cure.\n\n\nOn top of that, LLMs can give up on code for a modest level of nested requirements. This is still frequently the case for real tasks, and it remains unclear when, if ever, gen AI will rise to the level of abstraction needed for the creation of complete programs.\n\n\nThe sentiment has recently shifted to looking at LLMs as a productivity tool rather than a full replacement of programmers (supported by experiences in different industries: https://www.nytimes.com/2025/03/29/opinion/ai-tech-innovation.html). Other sources report that AI mostly helps junior developers; with only small gains reported for more difficult assignments, and for senior dev users (this including the well-known report that is used to advertise Microsoft’s co-pilot. The reported gains are clearly leaning towards novice users).\n\n\nThis hybrid AI concept, however, DOES intend to replace programmers. Therefore, a different architecture is proposed.\n\n\nThe described hybrid combination (above) of generative AI with symbolic AI, has been practically determined as the most robust approach. The joining of machine learning with symbolic elements like reasoning is in full swing across the AI industry, after the limits of reinforced learning for gen AI have been reached. This comprises a fusion of concepts similar to the one proposed here. But the way in which components are composed here is new:\n\n.\n\n## Approach\n\n\nTests with different approaches to combine symbolic and generative AI resulted in the specific method presented here. A possibly more intuitive attempt (namely, to have generative AI write Solidity programs based on a non-ambiguous Lexon text) failed and is less attractive for an additional reason. Tests used real U.S. law (Intestate Estates, U.C.C. financing) and well-researched, realistic Lexon text examples to test different combinations of generative and symbolic AI engines under near-real world conditions.\n\n\nThe mentioned naive sequence of **(a)** writing a code specification in the Lexon syntax, i.e., in English, for the LLM to create Solidity code, did not succeed, and the emerging class of problems looks difficult to overcome. In general, the LLM tended to overlook central keywords, even though they are in plain English and that in a Lexon text carry fundamental logical significance, (like object definitions, or loops); or the LLM declined to code the complete contract when requirements got more complex, proposing that the user contribute the missing (deeper nested) parts (e.g., for the U.S. law for intestate estates).\n\n\nIn the tests, the utilization proposed here furnished the best results, i.e.: **(b)** letting the LLM write Lexon texts and compile them using the Lexon compiler. As a most valuable and welcome advantage, with this flow, hallucinations of the LLM are caught and eliminated by the human writer in the intermediary dialog steps that also allow a non-programmer to verify the created contract logic in English, before it is 100% deterministically translated to Solidity (as opposed to the naïve flow **(a)** where the LLM creates Solidity code).\n\n\nThis makes the proposed constellation **(b)** of machine-learning and compiler technology the path of choice.\n\n.\n\n## Outlook\n\n\n* In future editions, the proposed app will receive a **voice dictation** front end to allow for smart contract creation without typing.\n\n\n* An iteration of the system will offer **GUI generation** for the created smart contracts, which can be comprehensive because the plain-text code of Lexon supports the generation of an interface better than normal 3rd generation language code, as it is information-richer as the starting point of a GUI, thanks to its linguistic nature.\n\n\n.\n.\n\n# THE CREATION OF HYBRID AID\n\n## Linguistic AI \n\nThe intermediary language that drives the app’s chat, Lexon, **defines a subset of English as a programming language** so that natural language texts themselves become the program. \n\n\nThis is the way to arrive at **precise execution.**\n\n\n That symbolic AI should be the solution, is unsurprising, given that programming is the home-game of symbolic AI, as opposed to the more data-centric generative AI. The challenge of our time is to identify the best way of interconnecting the two, unleashing linguistic expressiveness without losing exactness. The proposed architecture breaks new ground, based on Lexon’s unique contribution on the symbolic side.\n\n\n\n**Lexon smart contracts read like normal English.** They are accessible, readable for anyone, as they come. The Lexon compiler translates such plain-text smart contracts to Solidity, with full accuracy and determinism. There are no hallucinations, as Lexon is NOT based on gen AI. It is a linguistic feat instead: “simply” a programming language that is readable like English.\n\n\n\nThe technology fundamentally works like any compiler, the twist is how natural language is accepted in its richness. The main technical achievement of Lexon is the definition and implementation of a **non-ambiguous** subset of the English grammar. It turns out that this is the catalyst for a quantum leap.\n\n\n.\n\n## Historic Development\n\nThis is the result of a long scientific quest. The vision of “normal text as a program” is a centuries-old philosophical project that is today interpreted as the beginning of computer sciences in the 17th century and the foundation of modern mathematics in the 19th. The biggest names in the history of logic are associated with it, the result was today’s computer technology as well as AI.\n\n\nThis research was not originally associated with artificial intelligence but was pursued for the logical clarity of expression that it was hoped it would bring. However, because this path of exploration led to the development of computers, arguably, computers were created for this.\n\n\nAs such, symbolic AI, and “universal language” research were what started computer science, and paved the way to computers. To achieve “programming with language,” beginning with Descartes and Leibniz, through the game-changing contributions of Frege, was the north star of the journey from ancient Greek logic to modern computers. (See Characteristica Universalis https://www.amazon.com/dp/B0D8Y6F8DW).\n\n\nThe combination of the current apex of this technology with generative AI is potentially a crowning achievement, enabling a quantum leap in productivity, constituting a milestone in the history of programming. This high ambition may appear more plausible in light of the fact that the proposed concept is NOT hoping to replace all human intervention in the act of programming—but “only” the expertise of programmers. This goal is in keeping with the historically demonstrated strengths of symbolic AI, which led to the creation of expert systems.\n\n\nThe current roadmap for the Lexon language has its focus on extending the Lexon grammar for **DAOs/** This grant’s trajectory will directly combine with the coming advanced DAO syntax, which is the next milestone.\n\n.\n\n## Combining Generative and Symbolic AI\n\n\nThe main differentiator to a generative AI approach of programming by prompt is that with Lexon, **language itself is interpreted like a program,** not merely used as the description of a program. The difference is fundamental, both on the technical and conceptual level. The result is a decisively more transparent, reliable and safe workflow.\n\n\nThe approach is good for different objectives: for DIY smart contracts that are short, as well as for complex contracts, like DAOs. Lexon is portable to 60 hardware platforms, works off-line, is very fast, and fiercely resource-optimized—many magnitudes more resource-friendly than gen AI.\n\n\n.\n\n## The Hybrid AI Concept\n\n\nThere is a growing recognition that pure, generative AI might disappoint the expectations that have been building.\n\n\nIndustry-wide, a consensus is forming that hybrid AI is the way forward for AI. That would be the combination of generative and symbolic AI in one of many possible ways. And under the hood, all big AI services already implement symbolic AI elements to augment the power of their generative AI offerings.\n\n\nBut unbelievably, on the research side, an unnecessary blood feud between the research communities—generative and symbolic—is holding up progress. The animosity between researchers of the different AI camps is going for decades, is personal, and bears an unscientific take-no-prisoners mentality. There has been open advocacy for defunding the respective other branch (cf. Nobel-laureate Hinton’s advice to the EU to not fund symbolic AI).\n\n\nAccordingly, some very smart people find it plausible that Lexon could be a milestone in the history of logic, while others dismiss its approach wholesale.\n\n\nFundamentally, while gen AI and symbolic AI are similar (see tensors, below), Lexon has a different workflow and different strengths than LLMs, making it good at things that are perfectly complementary to gen AI. \n\n\nIt makes the blueprint of machine execution transparent to humans; it does NOT propose to think or write for the user but “only” to help with the programming and clarification of thoughts (by means of a restricted grammar); it can visualize its understanding (cf. --tree option). This is on each count the opposite of gen AI.\n\n\nNotably, Lexon has an **internal representation of meaning** of a text that generative AI does not have. This is what allows for precise processing of the exact meaning of a text. How it is parsed and understood by the Lexon AI is the topic of the books and papers on Lexon (below). It is a new approach that reaches beyond the meaning of individual words to the network of relationships they form.\n\n\nLexon thus provides unfailing accessibility, and perfect agency: a text is just exactly what it is. It is **aligned and transparent by design.**\n\n\nHowever, for a convincing impression of how **similar** symbolic AI Lexon code looks to generative AI tensors consider the optics of this Lexon parser module: https://github.com/lexonian/lexon/blob/dbb46e554c7c444bbf3d114c15a1f6faa11f76ff/build/scanner.c#L456  \n\n\nThese Lexon tensor tables are the machine-translated model of the Lexon grammar (https://github.com/lexonian/lexon/blob/master/grammar/english.lgf). The difference is that they are magnitudes smaller than gen AI tensors. This is, **because they are precise.** Lexon’s way is not to learn from billions of examples but to incorporate one precise grammar description and operate on that (https://github.com/lexonian/lexon/blob/master/grammar/english.lgf). This is reflected in these matrices that are the core element for text analysis: they are small and exact. Basically, this is the difference between symbolic AI and generative AI, marking their different strengths and weaknesses.\n\n\n### Documentation on Lexon\n\n\nThe following is information on Lexon, which is the symbolic half of the AI system.\n\n\nPlease note that to READ Lexon texts, NO preparation is necessary.\n\n\nThe Lexon subset of English is optimized for readability—because any program, and contract, is more often read than written (*Brian J. Fox*).\n\n\nMost documentation below revolves around *writing* Lexon—which this grant application strives to greatly simplify. Some literature on Lexon is scientific and philosophic, comparing it to similar approaches and suggesting its place in the history of logic.\n\n\nLexon is documented in articles, books, and academic papers, and supported by hands-on documentation: a manual, tutorial, etc. The central place to learn about it is the lexon site at github.com/lexonian/lexon.\n\n\nThe source code is at github.com/lexonian/lexon.\n\n* Writer’s Manual\t\thttps://lexon.org/docs/Lexon%20Manual%200.3.pdf\n* Writer’s Tutorial \t\thttps://lexon.org/docs/Lexon%20Tutorial%200.3.pdf\n* Vocabulary \t\t\thttps://lexon.org/vocabulary.html\n* Examples \t\t\thttps://lexon.org/examples.html\n* Resources \t\t\thttps://lexon.org/resources.html\n* Papers \t\t\thttps://lexon.org/papers.html\n* Books \t\t\thttps://lexon.org/books.html\n* Site \t\t\t\thttps://lexon.org\n\n\n\n.\n.\n\n# ROADMAP\n\n### Milestone 01\n\n## I • FUNCTIONAL PROOF OF CONCEPT\n\n\nFull-cycle technical proof that feeds a selection from Lexon grammar, approx. 1,000 pages documentation and 5,000 examples to Google o3 via its context window, finding the optimal learning set to allow o3 to create the best Lexon text.\n\n\nThe setup follows Google’s instructions for providing long context in the fastest and most economical way to achieve the lowest cost, highest hit result during text creation.\n\n\nThe terminal-based proof of concept system feeds the results to the Lexon compiler to create Solidity text.\n\n\nResult:\n\n-\tTerminal-operated essential code base to create the core service.\n\n.\n\n### Milestone 02\n\n## II • OPTIMIZATION AND ALTERNATE MODELS\n\n\nThe LLM results are optimized by tuning the long context inputs and exploration of different examples and styles to write prompts.\n\n\nOther LLMs—online and off, commercial and free—than o3 are revisited and tested to identify possible better suited candidates, measured by accuracy of results, response time, complexity of setup and price.\n\nResult:\n\n-\tSetting realistic expectations of achievable outcomes after optimizing results\n-\tEstablishing expectable costs per use\n-\tSettling for one LLM offering to focus the rest of development on\n\n.\n\n### Milestone 03\n\n## III • GUI AND SERVER CREATION\n\n\nA chat-like web interface is created that interacts with the server that processes user input.\n\n \nThe user enters a contract description prompt in free form, obtains a first response in Lexon’s plain-text code that can be verified for accuracy and redone from scratch or fine-tuned, before submitting to the Lexon compiler to create Solidity from it.\n\n\nThe result is deployed to an EVM-based chain using a connected browser wallet.\n\n\nThe intermediate step of verification is the central contribution of the hybrid setup, which the GUI is to dress with the best possible UX.\n\n\nResult: \n\n-\tFull GUI-controlled roundtrip of contract creation from scratch.\n\n.\n\n### Milestone 04\n\n## IV • USER EXPERIENCE\n\n\nThe user experience is tested by volunteers to tweak the flow and visual presentation.\n\n\nDocumentation, examples, and a tutorial are tied into the app to guide first-time users and provide reference for advanced users.\n\n\n(Note again that no documentation or learning is necessary to read Lexon code.)\n\n\nWeb pages are created, including a landing screen, to host the app and provide the docs.\n\n\nResult: \n\n-\tLaunch-ready app\n-\tDocumentation\n-\tCompanion Web pages\n\n.\n\n### Milestone 05\n\n## V • LAUNCH\n\n\nLive tests, opening to public; source clean up, commenting; repo clean up; github push; final grant reporting.\n\n\nResult: \n\n-\tLive app, website, and documentation\n-\tpublished sources\n-\tproject grant report\n\n\n.\n.\n\n# TEAM\n\n\n**Henning Diedrich** (development) created Lexon, wrote the first book on Ethereum, was the first technical architect for IBM's blockchain, first director for blockchain of BCG, consulted for the European Commission, the Singapore SWF Temasek, LUMA and Art Basel. He architected the Diamond Blockchain TRACR for DeBeers.\n\n\n**Marco Heinrich** (test contract creation, community support) assists development taking care of prototyping, content creation, and testing. He has previously worked on commercial programming assignments with Henning as trusted and diligent supporter, and participated in Lexon from the start.\n\n\n**Daniel Nemet** (test creation, community reachout) is a community builder in the blockchain space with a special interest in user experience and making blockchain accessible. He worked as consultant in the renewables and eco-space. Currently builds the NYM community and writes a Ph.D. on crypto.\n\n\n\n### Telegram\n\n\nhttps://t.me/lexonians",
+          "imageURL": "bafkreicrbynk75jdla6i2vnnma3q3cfnljpuxrzyzetc6ufua5umlki3l4",
+          "title": "Hybrid AI",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://lexon.org/ai.html"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/hdiedrich"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/lexon-ai"
+            }
+          ],
+          "slug": "hybrid-ai",
+          "type": "project-details"
+        }
+      },
+      "recipient": "0x855f553a5ba0defa37f7e8d41948b34a237cb6f4",
+      "createdAt": "2025-04-02T04:24:10.000Z",
+      "updatedAt": "2025-04-02T04:24:16.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ecbbf06a54c05fcd3d1b43"
+      },
+      "uid": "0x962bfddac0000f7bb3347fc78d3ec2e18f12b16d165968231d8bc7bfb45a01cb",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x2ade51c47eab0570447478e1615cf3030e1602a587731c1c919464ba52fcbcc8",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x855f553a5ba0defa37f7e8d41948b34a237cb6f4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:24:10.000Z",
+      "updatedAt": "2025-04-02T04:24:16.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "external": {
+        "gitcoin": [
+          "0x81f132f2b8ef92b6f9c706b968c8e71b8175c4543dd962b20664476ca292f675"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbbf06a54c05fcd3d1b46"
+        },
+        "uid": "0xdbb064be2c8c78037c159673968ac1a86b3d640464b421767c6e961ede3c61d6",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x962bfddac0000f7bb3347fc78d3ec2e18f12b16d165968231d8bc7bfb45a01cb",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x855f553a5ba0defa37f7e8d41948b34a237cb6f4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567850,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567856,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/187",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x855f553a5BA0Defa37f7e8d41948B34a237cB6F4",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "hd@lexon.org"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@brainiacfive"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/lexon-ai/lexon"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "### Enabling Markets\n\nThe prospect to easily create unbreakable, safe, and legally enforceable agreements in plain English, makes a wealth of new, personal forms of organization and trade possible for the first time, just like Ebay created a global flee market. The historic breakthroughs of both generative and symbolic AI allow this for the first time right now. \n\n### Building Trust\n\nAs the blockchain space seeks to onboard the next billion users, a focus on transparence and ease-of-use is needed—which this Hybrid AI concept brings to both smart contracts and black box generative AI: lifting the veil, giving them both a friendlier appeal and new momentum.\n\n\nHybrid AI can strengthen the image and awareness of smart contracts beyond crypto.\n\n\n\n## Mainstreaming Smart Contracts\n\nNatural language—the common medium of contracting, business, and law—is really the 'interface' that can make crypto and smart contracts **backwards compatible** to the existing OS of the world.\n\n\nHybrid AI can effect a **reduction of hurdles to everyday use of blockchain tech** beyond payments. Long-term, AI smart contracts can become a household name for DIY contracting for any purpose, private or public, personal, community governance, company administration or politics, investment, or art.\n\n\n\n\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "**A combined generative and symbolic AI system to create controllably accurate smart contracts in a chat dialog.**\n\nLEXON HYBRID AI is a concept to provide a novel, reliable, chat-based way to write smart contracts for EVM-based blockchains in English. Despite being AI-supported, it will offer precision and transparency.\n\n\nThe result will be a web-based, AI-powered chat app for non-programmers to create accurate EVM-based smart contracts, from a free text that describes the contract in any level of detail. \n\n\nA verification dialog powered by hybrid AI that understands the contract—which means: has an internal representation of its meaning—helps to make sure that the contract shapes up precisely as intended. This is what generative AI alone cannot offer.\n\n\n### Your Daily Contract\n\nThe goal is to make easily conjured smart contracts a ubiquitous part of **daily life for everyone** like, e.g., smart phone messenger apps. Not in the form of one-size-fits-all projects but fully bespoke agreements tailored to the billions of situations of real life, to onboard the next billion users to blockchain generally and EVM-based chains specifically.\n\n\n### Broadening Appeal\n\nDone right, AI-supported smart contracts are an obvious, generic and versatile concept that can speak to a wide spectrum of potential new users. At this point in time, “AI” can motivate people to look at blockchain again and find out what progress has been made. In the course, to find out about EVM-based chains and what its advantages are.\n\n\n### Onboarding the Legal Profession\n\nBecause lawyers & judges can read smart contracts written in plain language, they can finally advance the common way that firms are organized, with EVM-based chains as the rails for a consequential cultural and behavioral shift on the grass-roots level in commerce, finance and government.\n\n\n### Different\n\nBecause of how Lexon advances the capabilities of symbolic AI, there is no other hybrid AI system as proposed here. The symbolic part—Lexon's precise language skill—makes the difference.\n\n\n\n\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "The grant funds will be used to advance on this roadmaps to build the platform:\n\n# ROADMAP\n\n### Milestone 01\n\n## I • FUNCTIONAL PROOF OF CONCEPT\n\n\nFull-cycle technical proof that feeds a selection from Lexon grammar, approx. 1,000 pages documentation and 5,000 examples to Google o3 via its context window, finding the optimal learning set to allow o3 to create the best Lexon text.\n\n\nThe setup follows Google’s instructions for providing long context in the fastest and most economical way to achieve the lowest cost, highest hit result during text creation.\n\n\nThe terminal-based proof of concept system feeds the results to the Lexon compiler to create Solidity text.\n\n\nResult:\n\n-\tTerminal-operated essential code base to create the core service.\n\n.\n\n### Milestone 02\n\n## II • OPTIMIZATION AND ALTERNATE MODELS\n\n\nThe LLM results are optimized by tuning the long context inputs and exploration of different examples and styles to write prompts.\n\n\nOther LLMs—online and off, commercial and free—than o3 are revisited and tested to identify possible better suited candidates, measured by accuracy of results, response time, complexity of setup and price.\n\nResult:\n\n-\tSetting realistic expectations of achievable outcomes after optimizing results\n-\tEstablishing expectable costs per use\n-\tSettling for one LLM offering to focus the rest of development on\n\n.\n\n### Milestone 03\n\n## III • GUI AND SERVER CREATION\n\n\nA chat-like web interface is created that interacts with the server that processes user input.\n\n \nThe user enters a contract description prompt in free form, obtains a first response in Lexon’s plain-text code that can be verified for accuracy and redone from scratch or fine-tuned, before submitting to the Lexon compiler to create Solidity from it.\n\n\nThe result is deployed to an EVM-based chain using a connected browser wallet.\n\n\nThe intermediate step of verification is the central contribution of the hybrid setup, which the GUI is to dress with the best possible UX.\n\n\nResult: \n\n-\tFull GUI-controlled roundtrip of contract creation from scratch.\n\n.\n\n### Milestone 04\n\n## IV • USER EXPERIENCE\n\n\nThe user experience is tested by volunteers to tweak the flow and visual presentation.\n\n\nDocumentation, examples, and a tutorial are tied into the app to guide first-time users and provide reference for advanced users.\n\n\n(Note again that no documentation or learning is necessary to read Lexon code.)\n\n\nWeb pages are created, including a landing screen, to host the app and provide the docs.\n\n\nResult: \n\n-\tLaunch-ready app\n-\tDocumentation\n-\tCompanion Web pages\n\n.\n\n### Milestone 05\n\n## V • LAUNCH\n\n\nLive tests, opening to public; source clean up, commenting; repo clean up; github push; final grant reporting.\n\n\nResult: \n\n-\tLive app, website, and documentation\n-\tpublished sources\n-\tproject grant report\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "n/a"
+            }
+          ],
+          "type": "grant-details"
+        }
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ecbbf06a54c05fcd3d1b42"
+        },
+        "uid": "0x2ade51c47eab0570447478e1615cf3030e1602a587731c1c919464ba52fcbcc8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x855f553a5ba0defa37f7e8d41948b34a237cb6f4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567850,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567856,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDw8NDQ8NDQ0NDQ0ODg0QDQ8PDg0OFREWFxUXFRUYHSgsGBomHRUVITMhJiorLi4uFx8zODMsNygtLisBCgoKDg0OGBAPGisdIB0tKy0tLS0rLSsrLSstLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tKys3LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIHBAUGAwj/xABJEAACAgEBBAcCBg0MAwEAAAAAAQIDBBEFBhIhBxMxQVFhcSKBFDJCVJGhFhcjNVJicnSTlLHB0iQzNFOCkqKztMLR8GOy4RX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQMEAgX/xAAjEQEAAgICAgIDAQEAAAAAAAAAAQIDESExBBITMkFhkVEi/9oADAMBAAIRAxEAPwDgtA0GM2PGR0DQkAEdA0JCAjoA2AER6DABaBoMYEdCLRMTA8miJ6Mg0EojAegCJIEiQAkPQEMBaCGxAAh6gAg0GDAWgAAHsNCGEAYAAhMbEwEAwAQDABDAAEJkhMCDRFomyLCUdB6AMAAAAYgAABgACGIAgwEASAAAh7jAAAAABMTGxMAAAAAA2m69cZ5+HGSUoyyqE0+x+2gmI3OmfTuLtadPXxxnwuPEq3OCukvKDf1dpzsotNpppptNNaNNPRprxPpplC9IUIx2rmqKSXWVS0XjKmuTfvbb95XS/tLRmwxSImGhopnZKNdcZTsnJRhCK1lKT7Ekb7aO5O1Mel5FuP8Ac4rinwWQnOuPe5RT7PTUz+ieEZbTjqk+DGvlH8WXsx1+iT+kuvRPk+afJrxRF76nRhwReszL5hZFnvmQUbLYxWkY22RivCKk0kY7LWcBqLUNQHqGpHUYDAQASAQAAAJgGoaiAB6gRGBlAABAEDYgGIAAAAAA226X3wwvzun/ANjUm43OrlLaOEopyayapaJNtJPVv0S7yJ6dV+0PoMorf6iyzbGZCqE7ZudHsVwlOf8AR6u6JeolCKbkklKWmskkm/V95mpb1ellx/JGlXdGe7G0MfM+FZOPKin4PbBSnKCk5ScNFwJ69z5tFpAQsuhHlOUYP8aSj+0WtNp2nHSKV0qfO6K86Vlk4ZGI4zssnHidsZaOTa1Si+fPxNLndHO2KlrGiF67+pvg2v7MuFv3Jl4131yekZwk/CM4t/Uemh18llc+NSenzHm4V9EuDIqton+DZXKDfpqufuPA+ncvEqug67667q5LRwshGcX7mcDvJ0W49mtmz5fBrO3qJtyol6Pm4fWvJHcZIntRfxrR1yqADM2pszIxbHRk1Tptjz4ZLlJeMX2SXmjE0LWaY12QD0DQADUNAANRAIAABAMBDAyxMBBAEJgAxiGAAPQ9sTFsushTVFzttnGEILtlJvRenqBkbD2NkZt0cfHjrN85SfxK4d8pPuReO6+7GNs6vhqXHdJLrciSXWWeX4sfCK+vtDdHd2rZ2Oqo6SunpLIt0/nLNO78Vdy/5Zss3PppdatnGDvtjTVF9tlkuxJfvM97zbiHo4cMUjdu2ScBvp0gzw77MPFpjK6rg47rW3CLlCMlwwXxuUlzbXPuZ35RHSL99s38uj/T1DHETPKfIvNa8MPaW9W0snXrsu7R/Irl1UEvDhhp9ZpprXt9rzfMkI0ah50zM9oqOnNcvTkbTZ+8W0MbTqMvIgl2QdjnXp+RLVfUa0NBoiZjpY2wulWxNQ2hTGcezr6FwzS/Grb0l7mvQsrZe08fKrV2NbC6t8uKL5xfhJdsX5M+bWjN2NtfJwrVfi2OufJSXbCyP4M4/KX/AFaFdscT004/JtHFuV/bf2FjZ9LoyYcS5uFi5WVS/ChLuf1MovevdrI2bd1Vvt1z1dF6WkbYr9kly1X7UXPuhvTRtKrigurvrS6/Hb1cH4xfyovuZn7f2PRnY88W9awnzjJfGqsXxZR81r79Wu8rraazqV+THXJXde3zcMzdt7Kuw8izFvWllUvjLXhsg+cZR8mv+O4wTRDz5iY4k9BaDQ9AIaCaPTQTQHmIm0RaAQwADJExiYQQIBoBokkJEgAs7ok2CtJ7StjzblVjarsS5WTXv1j7peJWuPTKycKoc52zhXBeM5SUV9bR9F7MwYY1FWPXyhTXGteei5v3vV+8ryTqNNPjU3bc/hPMyq6a53WyUK6oSnOT7opaspWe8k8za2Nl3t1015VKrg37NFXGvr72/wByOn6XttNRq2fW/jpX36P5KelcX71J/wBlFYEY68bdeRl/61H4fTBQu/8AbGe1MyUGpR62uOq7OKFMIyXucWvceNW9e04VfB4Zl8alHhUdY8Sjppop6cSXozTMmlPVzmzxeIiIIDpd1ty8vaH3RfcMbXTr5xft+PVx+V68l5lg4PRlsyCSt+EZMu+UrXWvcq9NPrJm8Q4pgvbpTOgF05XRpsqaahG+h90oXzlp7rOI4fefo9zMRO2jXMoXbwQfXVr8aC11XnHX0Qi8SXwXrDjWTxsWy2caqYTtsm9I1wi5SfuR1G7O4ebmtTsjLExtedlkGrJrv4IPm/V6L1Lb3f3dw8CHBjV8Mmvbtl7Vtn5UvDyWi8hbJEJx4LX5niHK9H24t2Fas3Kmle65wjjwalGClprxy73y7Fy82d+Kc1FayaSXezjd/wDeHKoxJWYLjDScY2WuPFOEJctYJ8k9eFc13lOrXlqm+PDGploempY2mK9Y/DFKUXFNcXwbhb9ry4tNPWRVyZK+2c5SsslKyyb1nOUnKc34tvtIGisajTFkv722nqNM80ySZLhMCKY9QBoi0S1EBHQCQAeogAIA0IaAkhiQwOm6OMPrtp4+vxaetvl/Zg+H/E4/QXkVF0PQTzb5afFw5aPwbtr/APpbV1nDGU+3gjKWnotSjL9noeNGqbUFvhnvIz8q3XVddKuHlCv2Fp/d195pw4tefjz+kC/8MEzudhnSbh7uf/oZWlmvwahKy/Tlx8/Zgn5tc/JM5ply9EuJGGzut09rJyLZt+UH1aXp7L+lnF51C3BT2vqXZV1xjFQglGMUoxiloopdiSNDtzfPZ2FN1XWudy+NVVHrJw/K7ovmuTeob+bYnhYFt1T0um401S/AnPlxe5Jv1SKGk2222222229W2+1t95VSntzLVmz+nFV5bJ392XkzVStlTZJpRV8OrU23okpc1rzXLU6c+ZWXP0WbasysOVVzc7MSxVqcnrKdUlrDV+K5x9Eib49RuEYc83n1s7M5XenfrDweKqDWTlLl1MJLhrf/AJJ/J9O02G+jsWzc2VU5VzjjWTUovhklFay0fdyTPn1DHSJ5lOfNNOIWbuhvVk51t8MuUXJKNtUYR4YQhrwyUVz5auPa2+b5nQ7SxVfTbRLstqnD0bXJ/Toystw7uHPqX9ZG2t/3HL/aWsaa9PEzzPvtQc4tNp8mm014NdpBmftutRysmK5KOVkJLwSsloYDOWuOgNCAJSTGRHqBICOowGAgAnqBEaAkiSIokghJDEAHe9Dsv5bkLxw39Vtf/JbGRByhOK7ZQlFerTRSnRllqralCfZfC6lvwbg5R+uCXvLvRnyfZ6HjTumnzOlpy8OXvA2m9GD8GzsqjTRQvm4ru4Jvjjp7pI1ZojpgmNTomXR0UZMZ7MjBNa0X31yXg5S6xfVMpdnX9Gu8ccLJdN0uHHy+GMpPsqtXxJPyevC35p9iOLxuFuC8VvysPpI2ZZk7OtVScrKZQvUEm3NQ14kku18Lb08UUWmfTZxm3ujjBypyuqlPEsm3KarSlVNvtfA+x+jXa+RXjvEcS058E3n2qpcuDoh2bOrEtyJpr4XanWn2uqC0Uve3L3JPvDZXRfhVTU8i23LUXqqmlXU3r8pLnL0108TuoxSSSSSSSSS0SS7EkTe8TGoRgwTWfazSb828GzM56a64tkOxv464f39p8/H05KKaaaTTTTTWqa70zgd6ejWi/iuwHHGuerdL1+D2Py0/m36cvIjHaI4lPkYrW5hwO4lbltChr5Ctm/Tq5L/cWwcRuHsHIx78ieVVOmyuEaYxmlz4nxScWuUl7Mea5c2djmZEaq7Lpco1Vzm/SKbNMdPEz/fSl9uy1y8p9qeVkaPxXWS0Neydk3JuT7ZNyfq3qzzOWyOgAAEgYgAYxAA9QEAE0NCJIBokJEkEGAhge2HlSptrvh8em2u2Pm4yT0+o+jcLKhdVXfW067q4WQfjGS1R81lrdEe3lOqez7Je3RxWUav41Lesor8mT19JeRVkjcbavGvq2v8AWJ0v7GalTtCC9lpY9/k1q65P11kvdErY+j9p4FWTTZj3Liqug4SXevBrwafNehQG3tj3YN88a7nKPOE0tI21v4s15Pw7nqu4nHbcaPJx6n2j8teyLRIRYyu13R6Qr8SMaMuMsnGjooSTXX0x8E38ePk+fn3Fh4O/Gybkmsuqt/g3a0yX9/QoYicTjiV9PIvWNdr+y989k1Jylm489O6qXXSfooanDbz9J1lidWzYyoi+3JsjF2tfiQeqj6vV+hXQmRGOITbyb2jXTv8AdjpMyKWq9oa5NTa+7xUVfX6paKa+h+pamzNpY+VWrsa2F1b5cUXro/CS7YvyfM+a2ZmyNr5WHZ12LbKqfZLTnGa8JRfKSFscT0nH5E14tzD6PupjNaSWq+tehw/SNs7LWFOOLXO6M5R67g52QpXN+z2y5pJ6d2p77l7/AFOfKONfDqMxp8KWrpv0Wr4G/ivRN8L8HzZ2iK4tak6X3w482rPlvUDZbzQUc7NjFJRjm5SSXJJdbLkjWmhhnsAABAAAABiABgIYHoiSEhoIMkIAGAAAMyNm51uNdXkUy4baZqcX3eafimtU14Mx2IETp9D7t7cpz8eORVyb9m2rVOVNi7Yv9qfemjw3r3ao2jT1dnsXQ1dF6Wsq5PtTXfF8tV5eRS27W379n39fTzUko21N6Qugn2Pwa56Pu+kvHYG3cbPpV2PLXsVlb0VlMvwZr9/Y+4z2rNZ3D0MWSuWvrbtRO2tj5GFa6MmHBNc4yXOFkfwoPvX/AFmAz6M2tsrGy63TlVRtr7VrylCWmnFGS5xfmis9v9GORW3PAmsivm1TZKMLl5KXZL36FlckT2oyePav15V6yJl7Q2fkY7ccim2hr+srlFP0b5P3GIWM+tANAQ0EI6CaPTQTQHQdHP32wvy7v9PYX2UL0dffbC/Lv/09hfRRl7b/ABPrL5v3p/p+d+fZX+bI1Ztd6V/L8789yv8ANkaoujpinuSAAJQYCABgAAAAAHshoSGghIBDAYCHqACAAAzdlbTyMWxXY1kqrI8uJdkl4ST5SXkzCGgmJ10t7dzpJxrlGvOSxbuS61avHm/Xth7+XmdzVbGcVOEozhJaxnGSlGS8mu0+ajM2btfLxXxYt9tD71CXsP1i+T96KrYv8aaeVMcW5fRc4KS0klJeDSa+g1eRuzs2x6zwsST8eorX7EVjgdKO0a9FdXjZEfFwlVY/fF6f4Tb19LUdFx4L173HKWnuTgceloX/AD457dj9iGyfmOL+iQfYhsn5ji/okcj9tmr5lZ+sR/hJfbYq+ZWfrEf4R63Pkw/r+Os+xHZXzHF/RIPsQ2T8xxf0SOT+2vV8ys/WI/wh9ter5lZ+sR/hHrc+TD+v47TA3fwMefW4+Lj02JOKnCtKST7dGbMrh9LFXzKz9Yj/AAkJ9LUNHw4M+LTlrkx4dfPSBHpaUxmxx1KvN6f6fnfnuV/myNS0Zefkyuttvnpx3W2Wz07OKcnJ6eXMxmaYefM7lAQ2JhAAAAAAAAYgA90MQwgwAAGAAACGxMAJIiNASBgJgJgAwBEkCGgGJgxAJkWSYgIMgz0ZBgebETaIMJIAAAAAAAAAPcZFDAYCGEGNEUSAGJjYgAABASAQAA0IkgGhggAGRbGyLABAACESEBBog0erRBoJebESaEBEBiAYCAD3DUQAPUZEYEhoihhCQmAAIAAA1GIEBNEkQRMAABMBMQMAAQAADEAAyLRIQEGiDR6Mi0EoCJNCAiMAA9QYAAhgAEkNAAQYmMAEIAABoAAkiaAAATAAIsAABMAAAAAAQAACEwAJRZBjABAAAf/Z",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

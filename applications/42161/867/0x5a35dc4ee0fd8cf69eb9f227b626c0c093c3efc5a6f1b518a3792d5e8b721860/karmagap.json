@@ -1,5 +1,493 @@
 {
   "id": "42161-867-0x5a35dc4ee0fd8cf69eb9f227b626c0c093c3efc5a6f1b518a3792d5e8b721860",
-  "projects": [],
-  "grants": []
+  "projects": [
+    {
+      "uid": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "67ec7bcdafeb90604e19e49d"
+        },
+        "uid": "0x8d9ef56bd61d1bd39ec7eac452b89f383d31eeb242acb6e0a745afe2754c2f67",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551430,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551437,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "# ÆRTH - A Global Environmental Science Data & Standards Cooperative\n\nWe are a pioneering DeSci network uniting Earth Observation scientists from NASA JPL, to global Ocean Science Institutions on 7 coasts, Marine Biologists, Soil Scientists, and Satellite integration experts. \n\n[ÆRTH](https://www.aerth.live/) is developing an open source, distributed environmental data set, unifying on the ground research streams with satellite observation streams. Our science network is building multi modal data integration and shared computational resources to better model solutions for climate adaptation, biodiversity and regeneration strategies.\n\n*Let’s Defeat Moloch!* Today we face the global coordination failure of protecting our life support systems. The planet is one interconnected environmental system, yet our data models are not. This systemic issue has led to a waste of investment into ineffective solutions and a mystified \"sustainable\" asset class that poorly represents the realities of our Earth (Carbon, Biodiversity, SDG;s etc).\n\nWe are creating unified, agreed upon tools and standards to facilitate coordination. This infrastructure empowers the development of advanced predictive environmental models that can compute the complexity of our natural systems. \n\n## ÆRTH is the Kaggle for environmental science, reimagined with blockchain technology.\n\nBlockchain enables secure data sharing with clear ownership tracking and usage metrics. This unified standard allows global researchers and ML scientists to compute over previously siloed data, building advanced models through competitions. Governments, NGOs, scientific institutions, and citizens can offer bounties for scenario modeling and solution development, fostering a collaborative ecosystem that accelerates environmental research and innovation.\n\n\n# Executive Summary\n\nÆRTH is developing a pioneering platform that serves as a science-based standards organisation, offering comprehensive data integration and shared computational resources to address climate change, biodiversity loss, and fragmented environmental research. \n\n\nThis detailed summary outlines ÆRTH's core technical features, strategic advantages, and its role in revolutionising environmental science collaboration.\n\n\n## 1. Data Integration and Standardisation Framework:\n\n* Establishes unified data standards for diverse environmental research datasets globally\n\n* Implements advanced data harmonisation techniques to ensure interoperability\n\n* Develops and maintains comprehensive ontologies for environmental science domains\n\n* Facilitates real-time data sharing and analysis across scales (local, regional, global)\n\n* Addresses critical data fragmentation issues in current environmental practices\n\n* Provides data validation and quality assurance protocols\n\n* Offers APIs and SDKs for seamless integration with existing research systems\n\n\n## 2. Shared Computational Infrastructure:\n\n* Deploys a distributed high-performance computing network\n\n* Utilises cloud-based technologies for scalable processing power\n\n* Implements secure data storage and access protocols\n\n* Offers containerised environments for reproducible research\n\n* Develops a user-friendly interface for resource allocation and job scheduling\n\n* Ensures data sovereignty and compliance with international regulations\n\n\n## 3. AI-Driven Predictive Modeling Platform:\n\n* Utilises state-of-the-art causal inference models for ecosystem-specific insights\n\n* Implements ensemble learning techniques to combine diverse model outputs\n\n* Develops transfer learning capabilities to apply models across different ecosystems\n\n* Continuously adapts to changing environmental conditions through online learning\n\n* Integrates ground-truth data for precise, actionable recommendations\n\n* Provides uncertainty quantification for model predictions\n\n* Offers interpretable AI techniques to enhance transparency and trust\n\n\n## 4. Collaborative Research Ecosystem:\n\n* Implements a decentralised, blockchain-based system for data and compute credit allocation\n\n* Develops smart contracts for automated research collaboration agreements\n\n* Creates a reputation system to incentivize high-quality contributions\n\n* Facilitates peer review processes within the platform\n\n* Supports version control and provenance tracking for datasets and models\n\n* Enables the creation of virtual research environments for cross-institutional projects\n\n* Integrates with existing academic publishing platforms for seamless dissemination\n\n\n## 5. Adaptive Learning and Standard Evolution:\n\n* Implements a community-driven process for standard development and revision\n\n* Utilises machine learning to identify emerging patterns in data collection and usage\n\n* Develops automated metadata generation tools to enhance data discoverability\n\n* Creates feedback loops between model outcomes and data collection strategies\n\n* Offers a sandbox environment for testing and validating new standards\n\n* Provides tools for impact assessment of standard changes on existing research\n\n## 6. Enhanced Access and Efficiency Mechanisms:\n\n* Implements a federated identity management system for secure, streamlined access\n\n* Develops a sophisticated permission system to manage data access granularly\n\n* Creates a marketplace for trading computational r- resources and datasets\n\n* Offers workflow optimization tools to enhance research efficiency\n\n* Provides automated data cleaning and preprocessing pipelines\n\n* Develops intelligent search and recommendation systems for relevant datasets and collaborators\n\n\n## 7. Economic and Research Benefits Framework:\n\n* Implements a token-based economy for quantifying and exchanging research contributions\n\n* Develops algorithms for fair allocation of resources based on contribution and need\n\n* Creates mechanisms for institutions to offset infrastructure costs through network participation\n\n* Offers analytics tools for measuring the impact and ROI of research contributions\n\n* Provides a platform for crowdfunding specific research initiatives\n\n* Develops smart contracts for automating royalty distributions from commercialised research\n\n\n## 8. Scalability and Network Effect Amplification:\n\n* Potentially implement sharding techniques for horizontal scaling of the data infrastructure\n\n* Utilises edge computing to reduce latency and enhance real-time capabilities\n\n* Develops AI-driven load balancing for optimal resource utilisation\n\n* Creates incentive structures to encourage network growth and participation\n\n* Implements automated onboarding processes for new institutions and researchers\n\n* Provides tools for measuring and visualising network growth and impact\n\n\n## 9. Technical Advantages over Traditional Approaches:\n\n* Overcomes data silos through a unified, standards-based approach to environmental data management\n\n* Enables complex, multi-scale modeling by providing standardized, high-quality datasets and computational resources\n\n* Accelerates research through automated data preprocessing, model training, and result sharing\n\n\n\n# Partnerships\n\nÆRTH has already secured pivotal agreements with leading ocean conservation organisations, significantly expanding its data ecosystem and collaborative network. These partnerships demonstrate our growing influence and credibility in the environmental science community. \n\nÆRTH has built a large, informal decentralised network with top scientists at earth observation groups such as Nasa JPL and Arose. As ÆRTH continues to grow its partner network, it strengthens its position as a central hub for global environmental data integration, standardisation, and collaborative research. Key partners include:\n\n* SOA (Sustainable Ocean Alliance)\n\n* Voz da Natureza (Brazil)\n\n* Pana Sea (Panama)\n\n* Amigos da Jubarte (Brazil)\n\n* BLOOM (global, soil)\n\n* Earth Guardians (global, soil)\n\n* Citizens of the Reef (MOU pending)\n\n* Bazaruto Center for Scientific Studies (BCSS)\n\n* The Great Institute, Gambia\n\n* Panama Ghost Net Initiative (Panama)\n\n* Beta Diversidad (México, Baja - pending)\n\n* Txai (Amazonian soil regeneration networks)\n\n\nThese partnerships represent a diverse range of marine conservation efforts, from regional initiatives to global movements. By integrating data and expertise from these organisations, ÆRTH is positioned to:\n\n\n- Access vast amounts of ocean-specific, coastal and potential soil health data\n\n- Enhance the granularity and coverage of marine ecosystem models\n\n- Facilitate cross-organizational collaboration on pressing oceanic issues\n\n- Accelerate the development and implementation of marine conservation strategies\n\n- Provide a unified platform for these organizations to share insights and resources\n\n\n\n# Roadmap\n\n## This grant will help us get the financial bridge in order to raise the larger capital from legacy philanthropy and family offices.\n\nThe long term phased approach outlined below will drive the development of a transformative platform for science-backed metrics to protect and restore critical ecosystems at scale.\n\n\nPhase 1: $2M (Digital Twin)\n\n* Develop the first science data-based digital twin of a Marine Protected Area (MPA)\n\n* Create foundational ontologies and knowledge graphs\n\n* Establish core data integration and standardisation protocols\n\n* Outcome: Proof of concept for a single ecosystem digital twin\n\n\nPhase 2: $4.9M\n\n* Expand the digital twin platform \n\n* Implement real-time data integration, predictive modeling, and live visualisation\n\n* Enhance the standardized framework and automated processes\n\n* Outcome: Scalable model for multiple ecosystem digital twins\n\n\nPhase 3: $12M\n\n* Launch regional biodiversity assessment & validation tool\n\n* Develop potential blue carbon assessment capabilities\n\n* Further refine and scale the platform's core technologies\n\n* Expand partnerships and data sources\n\n* Outcome: Comprehensive regional ecosystem management platform\n\n\nPhase 4: TBD $M+ (Scaling)\n\n* Scale the platform to cover other critical regions autonomously\n\n* Leverage the standardized framework for rapid deployment across diverse marine ecosystems\n\n* Implement advanced machine learning for cross-ecosystem insights\n\n* Expand to terrestrial and freshwater ecosystems\n\n* Outcome: Global ecosystem monitoring and management platform\n\n\n# A New Generation of Verified On-chain Sustainable Assets\n\nÆRTH’s normalised data mechanisms will allow sustainability assets to be globally understood, quantified, and exchanged, fostering a transparent registry with an interoperable standards system for sustainable assets.\n\n\nYour support will enable our efforts to:\n\n\n* Provide real-time, actionable insights for conservation efforts\n\n* Create a collaborative platform for scientists, policymakers, and conservationists\n\n* Scale solutions rapidly to address urgent global environmental challenges\n\n* Link to on registry sustainable asset class and drive real world impact.\n\nOur community is at the forefront of a paradigm shift in how we understand, monitor, and protect the world's most critical ecosystems and enable the creation of a sustainable asset class that is globally exchangeable and backed by real world data. \n\n\n",
+          "imageURL": "bafkreibpwthxbm72jonwop6bebcjxwxtvnfbiyitwnzthsfvgkbp56nwxa",
+          "title": "ÆRTH - Planetary AI",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://www.aerth.live"
+            },
+            {
+              "type": "twitter",
+              "url": "https://twitter.com/aaadina"
+            },
+            {
+              "type": "github",
+              "url": null
+            }
+          ],
+          "slug": "rth---planetary-ai",
+          "type": "project-details"
+        },
+        "txid": "0x84c025963ea74c7cb3961bfa73e1682b92e5ecfda2e117757d3904aa10d4f6a0"
+      },
+      "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+      "createdAt": "2025-04-01T23:50:30.000Z",
+      "updatedAt": "2025-04-01T23:50:37.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ec7bcdafeb90604e19e49c"
+      },
+      "uid": "0x2e1bd52b8f13c8cf48580ea097ec3609aa3d3472aee1095764932492a8997a89",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-01T23:50:30.000Z",
+      "updatedAt": "2025-04-01T23:50:37.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e"
+      },
+      "txid": "0x84c025963ea74c7cb3961bfa73e1682b92e5ecfda2e117757d3904aa10d4f6a0",
+      "external": {
+        "gitcoin": [
+          "0x5a35dc4ee0fd8cf69eb9f227b626c0c093c3efc5a6f1b518a3792d5e8b721860"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ec7bcdafeb90604e19e49f"
+        },
+        "uid": "0xed5e74242b894e02aa0fd4a31fadeca803a2fb7d186367cdef1c43a371a09125",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x2e1bd52b8f13c8cf48580ea097ec3609aa3d3472aee1095764932492a8997a89",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551430,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551437,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/28/19",
+          "title": "GG23 - DeSci community round",
+          "description": "",
+          "payoutAddress": "0x3497581352Ec5498af914b16b0B5B4a07ffEC49d",
+          "programId": "28_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "adina@aerth.live"
+            },
+            {
+              "type": "paragraph",
+              "query": "Funding Sources and Total prior funding for project in USD",
+              "explanation": "0 - self funded"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "7"
+            },
+            {
+              "type": "paragraph",
+              "query": "Profiles or socials of other main team members publicly associated with project",
+              "explanation": "https://www.linkedin.com/in/adina-popescu-100/\nhttps://www.linkedin.com/in/jurgen-valckenaere-45b5b271/\nhttps://www.linkedin.com/in/graham-lee-1a0779286/\n"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram username",
+              "explanation": "AdinaPopescu"
+            },
+            {
+              "type": "short-answer",
+              "query": "How old is the project? (Months)",
+              "explanation": "60 months"
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe your project in a few paragraphs (ideally including a problem statement, solution, roadmap, and timeline for implementation)",
+              "explanation": "ÆRTH is developing a pioneering platform that serves as a science-based standards organisation, offering comprehensive data integration and shared computational resources to address climate change, biodiversity loss, and fragmented environmental research. \n\nDetailed Problem/Solution/ Roadmap is reflected in the project profile above."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project support the mission or goals of DeSci?",
+              "explanation": "ÆRTH supports DeSci's mission by decentralising environmental on-ground and satellite data streams, enabling transparent blockchain-based collaboration, incentivising the scaling of scientific knowledge via coordination tools, mutually beneficial  incentives and making high-quality environmental data streams computable. "
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe how funds from the grants program will be used for your project.",
+              "explanation": "This grant will help us get the financial bridge in order to raise the larger capital from legacy philanthropy and family offices. It will also fund a cooperative non for profit vehicle."
+            },
+            {
+              "type": "paragraph",
+              "query": "If you participated in past grant rounds (i.e. DeSci GR15/ Beta/GG 20DeSci round/GG21 DeSci round) using a different project payout wallet address, please share it here.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "If this project participated in past DeSci grant rounds, please share any new updates or milestones since the last round.",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Is there any other information you would like to share about your project, previous work, other project affiliations, or potential conflicts of interest? (or anything not covered elsewhere in this application that you feel is relevant to share)",
+              "explanation": "N/A"
+            },
+            {
+              "type": "dropdown",
+              "query": "Does 50% of your team reflect the diversity of the community your project serves with a particular emphasis on including women, Black, Indigenous, and People of Color (BIPoC), individuals with disabilities, and members of the LGBTQ+ community?",
+              "explanation": "Yes"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x84c025963ea74c7cb3961bfa73e1682b92e5ecfda2e117757d3904aa10d4f6a0"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ec7bcdafeb90604e19e49b"
+        },
+        "uid": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551430,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551437,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x84c025963ea74c7cb3961bfa73e1682b92e5ecfda2e117757d3904aa10d4f6a0",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6672897879ef3e60e554fcee"
+        },
+        "uid": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718782316,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1718782328,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x2609edb6c0c1b9e47da8706106cbd1698034ac125b49fa023d971206a07c99b2",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "667bdf3411821d82660ca2d6"
+          },
+          "uid": "0x3f695e6435a176c8a36ad1cd67dcf82694f274d0aeca374d7d5bb23f6bd701ce",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1719394072,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1719394100,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "DeSci on Gitcoin",
+            "description": "Desci community on Gitcoin",
+            "imageURL": "https://i.imgur.com/kvyDbDc.jpeg",
+            "slug": "desci-on-gitcoin"
+          },
+          "txid": "0xa1846e8670963647b364450e176e5fe162ae15919a4ae2eccb83122defd2d727",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ecbb4e6a54c05fcd3d1af0"
+      },
+      "uid": "0xde65a1eee00f89986e48a6f4579dca2abc8776b91c0d9b582ac8c9cff0ecf150",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:21:28.000Z",
+      "updatedAt": "2025-04-02T04:21:34.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0x9fcfd7ee0176b4795c5182c1b58751d65aaf7d6619485cef9f0d17db6878fc28",
+      "external": {
+        "gitcoin": [
+          "0x5a35dc4ee0fd8cf69eb9f227b626c0c093c3efc5a6f1b518a3792d5e8b721860"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbb4e6a54c05fcd3d1af1"
+        },
+        "uid": "0x57b0f2317f0c35389381dcde9a5c62beebe7d46d35146a2604a12c61cfc21a9a",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xde65a1eee00f89986e48a6f4579dca2abc8776b91c0d9b582ac8c9cff0ecf150",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567688,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567694,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/133",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x3497581352Ec5498af914b16b0B5B4a07ffEC49d",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "adina@aerth.live"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "AdinaPopescu"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/orgs/AERTHCODE/repositories"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "N/A"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "No"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "ÆRTH contributes to the growth of the Open Source Software (OSS) ecosystem by developing and sharing open-source tools for environmental data integration, analysis, and modeling. Our platform provides a collaborative space where researchers can develop and share open-source algorithms for processing complex environmental datasets.\n\nWe're creating open standards for environmental data interchange, which can be adopted and built upon by the wider scientific community. Additionally, ÆRTH is developing open-source libraries for blockchain-based data provenance tracking and decentralized computation, which can be utilized in other scientific fields beyond environmental research.\n\nBy making these tools and standards freely available, ÆRTH expands the OSS ecosystem, enabling more researchers and developers to contribute to and benefit from cutting-edge environmental science technologies."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "We are still developing two applications:   \n\nThese DApps leverage blockchain technology to create a trustless, transparent environment for data and model sharing. By distributing control and eliminating central authorities, they enhance data sovereignty, reduce single points of failure, and foster a more collaborative, open scientific ecosystem.\n                        \nData Provider DApp (Internal): This DApp serves as a secure, decentralised platform for data providers within the ÆRTH cooperative. It implements blockchain-based data provenance tracking, ensuring transparent ownership and usage of environmental data streams. Key features include:\n\n* Geospatial mapping of data contributions\n* IP and ownership management using smart contracts\n* Timestamp and geo-tagging of data streams\n* Peer-to-peer data sharing requests and approvals\n* Usage analytics for data utilization\n\nThe decentralized nature of this DApp ensures that data ownership remains with the providers, while enabling secure, permissioned sharing within the network.\n\nPublic-Facing Model Deployment DApp: This DApp, inspired by Hugging Face, allows cooperative members to publish pre-trained environmental models and enables third parties to fine-tune and deploy these models. Key features include:\n\n* Decentralized model repository\n\n* On-chain model versioning and provenance tracking\n\n* Distributed computation for model training and inference\n\n* Token-based incentives for model sharing and improvement\n\n* Smart contract-governed access control for sensitive models\n\nThe decentralized architecture of this DApp ensures fair attribution, resistant hosting, and community-driven model development.\n\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "We already have data providers (Large Ocean Institutions on now 8 major coasts) :\n\nThis grant will help start ÆRTH's development of two critical decentralized applications (DApps):\n\nData Provider DApp (Internal): This secure platform will serve environmental data providers within the ÆRTH cooperative. We will allocate funds to:\n\n* Implement blockchain-based data provenance tracking\n\n* Develop geospatial mapping functionality for data contributions\n\n* Create smart contracts for IP and ownership management\n\n* Build a system for timestamp and geo-tagging of data streams\n\n* Design a peer-to-peer data sharing request and approval mechanism\n\n* Develop usage analytics for data utilization\n\n* Public-Facing Model Deployment DApp: This platform will enable cooperative members to publish and share environmental models. Funding will be used to:\n\n* Create a decentralized model repository\n\n* Implement on-chain model versioning and provenance tracking\n\n* Develop distributed computation capabilities for model training and inference\n\n* Design a token-based incentive system for model sharing and improvement\n\n* Implement smart contract-governed access control for sensitive models\n\nThe grant will cover a portion of the essential development costs, including:\n\n* Hiring skilled blockchain and full-stack developers\n\n* Conducting security audits for smart contracts\n\n* Deploying and testing on testnet environments\n\n* Creating user interfaces for both DApps\n\n* Developing documentation and APIs for integration\n\nBy focusing on these core components, we aim to create a robust, decentralized foundation for environmental data sharing and model deployment within the allocated budget.\n"
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "no smart contracts have been deployed yet. please review our previous answer."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x9fcfd7ee0176b4795c5182c1b58751d65aaf7d6619485cef9f0d17db6878fc28"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ec7bcdafeb90604e19e49b"
+        },
+        "uid": "0xe09b8210d684a0213e8b2fc1ac81de82e694ce9177e5a94787cc44ea425c4b1e",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x3497581352ec5498af914b16b0b5b4a07ffec49d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551430,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551437,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x84c025963ea74c7cb3961bfa73e1682b92e5ecfda2e117757d3904aa10d4f6a0",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    }
+  ]
 }

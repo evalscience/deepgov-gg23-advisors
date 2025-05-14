@@ -4358,6 +4358,11 @@
         "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
       },
       "txid": "0x8d099eb156217858ab5b31c1111059178b2d3a49d4fa7aa252876d24b661dff7",
+      "external": {
+        "octant": [
+          "0x5219ffb88175588510e9752A1ecaA3cd217ca783"
+        ]
+      },
       "details": {
         "_id": {
           "$oid": "67e133570ab0e44e394b031c"
@@ -4917,6 +4922,179 @@
           },
           "externalIds": [],
           "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "68124c82ef07dfa2af3fd8c1"
+      },
+      "uid": "0x6cc978fb7c5be84bfebc3f8415b11cd3a23cc0ac5084927b8b6fbba658d1f9d9",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x8655aaadfd17deb0d718e58d04c153d7985f3e10e19e04e0e8cffd80e422a946",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x5219ffb88175588510e9752a1ecaa3cd217ca783",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-30T16:12:55.000Z",
+      "updatedAt": "2025-04-30T16:14:58.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
+      },
+      "txid": "0xc45185d901201730241877dfea53389d3eb6fd77d253febd4ecc7b87790307a8",
+      "external": {
+        "octant": [
+          "0x5219ffb88175588510e9752A1ecaA3cd217ca783"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "68124c85ef07dfa2af3fd8c5"
+        },
+        "uid": "0xc9771be7943fd9c8cb391c5f747d2d63cc3f06d92b40b90bd9674d1cfd7d676a",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x6cc978fb7c5be84bfebc3f8415b11cd3a23cc0ac5084927b8b6fbba658d1f9d9",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5219ffb88175588510e9752a1ecaa3cd217ca783",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1746029575,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1746029701,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://octant.app/project/7/0x5219ffb88175588510e9752A1ecaA3cd217ca783",
+          "title": "Octant - Epoch 7",
+          "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+          "payoutAddress": "0x5219ffb88175588510e9752A1ecaA3cd217ca783",
+          "programId": "887_42161",
+          "amount": "10.101 ETH",
+          "type": "grant-details"
+        },
+        "txid": "0xc45185d901201730241877dfea53389d3eb6fd77d253febd4ecc7b87790307a8"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662020e232e1aed416be9cda"
+        },
+        "uid": "0x8655aaadfd17deb0d718e58d04c153d7985f3e10e19e04e0e8cffd80e422a946",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5219ffb88175588510e9752A1ecaA3cd217ca783",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713381601,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713381602,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x39d6092553a2ff5373b2e758456f327cb593f149c6992a4eb34e047593428aa6",
+        "external": {
+          "oso": [
+            "bloomnetwork"
+          ],
+          "network_addresses": [
+            "optimism:0xbBfe26e118dD32CE30CE30625177E3281FDd3690",
+            "optimism:0xb6E0f84d689D849EaC8929af4693DDd9364B97fA",
+            "optimism:0x61BfD13f955d9A15885635657E03eC543215b678",
+            "optimism:0x05e8D965dB9fDfe88473b63Ba0a5F72fD78710CF",
+            "optimism:0xdf7703C0c59D386e7600cD1FD94EE7A29BD638ab"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66a885ab00c3dbcb784e259e"
+        },
+        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722319215,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722320299,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66a885ab00c3dbcb784e259f"
+          },
+          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722319233,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722320299,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Octant",
+            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
+            "slug": "octant"
+          },
+          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
+          "externalIds": []
         }
       }
     },

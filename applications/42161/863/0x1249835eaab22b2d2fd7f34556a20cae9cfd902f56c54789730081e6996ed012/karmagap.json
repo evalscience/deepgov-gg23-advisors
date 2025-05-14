@@ -54,6 +54,53 @@
       "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
       "createdAt": "2024-10-19T11:53:59.000Z",
       "updatedAt": "2023-11-16T17:55:38.000Z"
+    },
+    {
+      "uid": "0x599afe065741ec9c9909d387823784123e6f4874759abc6be5fb5d7ca03a123d",
+      "type": "Project",
+      "details": {
+        "_id": {
+          "$oid": "68124bd3ef07dfa2af3fd899"
+        },
+        "uid": "0x85ce6949bd1e0ab5d20154d81f14de525d1d5f848479474bafe69865b78f17af",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x599afe065741ec9c9909d387823784123e6f4874759abc6be5fb5d7ca03a123d",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1746029519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1746029523,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "ProjectDetails",
+        "data": {
+          "description": "<p>Astral provides open-source tools + infrastructure empowering developers to build user-centric, verifiable location-based apps on the decentralized web.</p>\n<p>We create the tools, standards and protocols necessary for a decentralized geospatial web, simplifying how Web3 developers integrate spatial and location data into their apps.</p>\n<p>Weâve developed the Location Proof Protocol, introducing a new Web3 primitive representing user locations. The Location Proof Protocol isÂ a framework for creating location proofs, which are digitally-signed claims about the timing and location of events.</p>\n<p>Weâve already launched our beta, including the specification, reference implementation, API and SDK. The Location Proof Protocol is built on EAS â our v0.1 schema is deployed on multiple chains: Celo, Base, Arbitrum and Ethereum Sepolia.</p>\n<p>In addition to location proofs, weâre researching verifiable geocomputation systems âÂ geospatial algorithms in smart contracts and cryptographic protocols. Weâve also been doing R+D on p2p geospatial data systems for efficiently storing, managing, and accessing diverse spatial data types, such as sensor measurements, drone imagery, and satellite data.</p>\n<p>These tools unlock a new category of trustworthy, location-aware decentralized applications and robust geospatial workflows, enabling use cases like:</p>\n<ul>\n<li>Environmental monitoring and digital MRV</li>\n<li>Climate modeling and forecasting</li>\n<li>Transparent transport and mobility systems</li>\n<li>Interactive location-based games</li>\n<li>Compliance verification and fraud detection</li>\n<li>Secure human rights reporting</li>\n</ul>\n<p>Our codebase is open source â it's co-maintained with the Decentralized Geospatial Collaborative, an open source project we co-founded with a team at the University of Marylandâs Geographical Sciences Department. We also conduct academic research, looking ahead at how Web3 design principles can enhance the capabilities of geospatial computing technologies âÂ you can read our vision paper <a href=\"https://osf.io/bg2uq_v1\">here</a>.</p>",
+          "imageURL": "ipfs://bafkreihbtdjt7oqdptv3uq7l5b2pj4gigo27a5ktwz5p34xp6ecdqcbzoi",
+          "title": "Astral Protocol",
+          "links": [
+            {
+              "type": "website",
+              "url": "https://astral.global/"
+            }
+          ],
+          "slug": "astral-protocol",
+          "type": "project-details"
+        },
+        "txid": "0x09a6af44d7e993dd51053306779876b633f97624a8dbfc83944f5318d1f20998"
+      },
+      "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
+      "createdAt": "2025-04-30T16:11:59.000Z",
+      "updatedAt": "2025-04-30T16:12:02.000Z"
     }
   ],
   "grants": [
@@ -3362,6 +3409,166 @@
             "slug": "desci-on-gitcoin"
           },
           "txid": "0xa1846e8670963647b364450e176e5fe162ae15919a4ae2eccb83122defd2d727",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "68124bd2ef07dfa2af3fd898"
+      },
+      "uid": "0xf21f8b9cc201343fe7c8032962c0b05be3dfb0c56234f81680578f3e137f83d0",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x599afe065741ec9c9909d387823784123e6f4874759abc6be5fb5d7ca03a123d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-30T16:11:59.000Z",
+      "updatedAt": "2025-04-30T16:12:02.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
+      },
+      "external": {
+        "octant": [
+          "0x6c9770edc75b4D1e1F49d7ce7a65541CA67602bD"
+        ]
+      },
+      "txid": "0x09a6af44d7e993dd51053306779876b633f97624a8dbfc83944f5318d1f20998",
+      "details": {
+        "_id": {
+          "$oid": "68124bd3ef07dfa2af3fd89b"
+        },
+        "uid": "0xa238d9f3f0df6cba6f4ecc039b83fc8bc7c79ff902e941200c1824f117034ac0",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xf21f8b9cc201343fe7c8032962c0b05be3dfb0c56234f81680578f3e137f83d0",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1746029519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1746029523,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://octant.app/project/7/0x6c9770edc75b4D1e1F49d7ce7a65541CA67602bD",
+          "title": "Octant - Epoch 7",
+          "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+          "payoutAddress": "0x6c9770edc75b4D1e1F49d7ce7a65541CA67602bD",
+          "programId": "887_42161",
+          "amount": "20.504 ETH",
+          "type": "grant-details"
+        },
+        "txid": "0x09a6af44d7e993dd51053306779876b633f97624a8dbfc83944f5318d1f20998"
+      },
+      "project": {
+        "_id": {
+          "$oid": "68124bd2ef07dfa2af3fd897"
+        },
+        "uid": "0x599afe065741ec9c9909d387823784123e6f4874759abc6be5fb5d7ca03a123d",
+        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6c9770edc75b4d1e1f49d7ce7a65541ca67602bd",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1746029519,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1746029522,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x09a6af44d7e993dd51053306779876b633f97624a8dbfc83944f5318d1f20998",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66a885ab00c3dbcb784e259e"
+        },
+        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722319215,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722320299,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66a885ab00c3dbcb784e259f"
+          },
+          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722319233,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722320299,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Octant",
+            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
+            "slug": "octant"
+          },
+          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
           "externalIds": []
         }
       }
