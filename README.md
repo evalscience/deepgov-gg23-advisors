@@ -28,7 +28,15 @@ bun run download-karmagap
 
 Fetches and saves historical grant data from KarmaHQ for each application. This helps in understanding a project's grant history and track record.
 
-#### 3. Research Projects
+#### 3. Download Hypercerts Data
+
+```sh
+bun run download-hypercers
+```
+
+Fetches and saves hypercerts data from Hypercerts foundation and ecocertain. This helps understanding the projects impact.
+
+#### 4. Research Projects
 
 ```sh
 bun run research-projects
@@ -36,7 +44,7 @@ bun run research-projects
 
 Conducts in-depth research on grant applications using AI agents. The script generates detailed research reports for each project, helping evaluators understand the project's background and context.
 
-#### 4. Review Applications
+#### 5. Review Applications
 
 ```sh
 bun run review-applications
@@ -53,5 +61,6 @@ The scripts work with the following directory structure:
 - Each application directory contains:
   - `application.json` - Original application data
   - `karmagap.json` - Historical grant data
+  - `hypercerts.json` - Historical impact data
   - `research.json` - Research findings
   - `review-*.json` - Individual agent reviews

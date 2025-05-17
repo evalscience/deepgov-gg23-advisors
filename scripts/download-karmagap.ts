@@ -6,6 +6,7 @@ import {
   getProjectName,
   saveFile,
   getApplicationPath,
+  normalizeProjectName,
 } from "../utils/utils";
 
 const limit = pLimit(10);
@@ -20,8 +21,9 @@ async function main() {
       limit(async () => {
         const id = getApplicationId(application);
         const name = getProjectName(application);
+        const normalizedName = normalizeProjectName(name);
 
-        const url = `https://gapapi.karmahq.xyz/search?q=${name}`;
+        const url = `https://gapapi.karmahq.xyz/search?q=${normalizedName}`;
         console.log(`Fetching projects for: ${name}`);
 
         const projects = await fetch(url, {
