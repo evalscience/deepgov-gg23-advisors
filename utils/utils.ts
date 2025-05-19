@@ -155,6 +155,32 @@ export function loadResearch(applicationId: string): any {
   }
 }
 
+export function loadHypercerts(applicationId: string): any {
+  try {
+    return JSON.parse(
+      readFileSync(getApplicationPath(applicationId) + "/hypercerts.json", "utf8")
+    );
+  } catch (error) {
+    return null;
+  }
+}
+
+export function normalizeProjectName(name: string) {
+  // Remove emojis (Unicode ranges for most common emojis)
+  const noEmoji = name.replace(/[\u{1F300}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}]/gu, '');
+  
+  // Convert to lowercase
+  const lowercase = noEmoji.toLowerCase();
+  
+  // Remove common organizational suffixes
+  const withoutSuffix = lowercase.replace(/\s+(dao|foundation|inc|llc|project|protocol)\b/gi, '');
+  
+  // Remove any remaining special characters and trim whitespace
+  const clean = withoutSuffix.replace(/[^\w\s]/g, '').trim();
+  
+  return clean;
+}
+
 export async function fetchModelSpecs(): Promise<
   { name: string; profileUrl: string; style: string; constitution: string }[]
 > {
