@@ -31,7 +31,7 @@ Fetches and saves historical grant data from KarmaHQ for each application. This 
 #### 3. Download Hypercerts Data
 
 ```sh
-bun run download-hypercers
+bun run download-hypercerts
 ```
 
 Fetches and saves hypercerts data from Hypercerts foundation and ecocertain. This helps understanding the projects impact.
