@@ -52,6 +52,15 @@ bun run review-applications
 
 Evaluates grant applications using multiple AI agents with different evaluation criteria. Each agent provides an independent review based on the project's application, research data, and historical grant information.
 
+
+#### 6. Run Elo Tournament
+
+```sh
+bun run review-applications
+```
+
+
+
 ### Data Structure
 
 The scripts work with the following directory structure:
