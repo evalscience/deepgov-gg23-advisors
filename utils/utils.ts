@@ -191,7 +191,7 @@ export function normalizeProjectName(name: string) {
 }
 
 export async function fetchModelSpecs(): Promise<
-  { name: string; profileUrl: string; style: string; constitution: string }[]
+  { name: string; profileUrl: string; style: string; constitution: string; scoring: string, ethics: string }[]
 > {
   const baseURL = `https://api.github.com/repos/evalscience/deepgov-gg23/contents/agents`;
   const contentURL = `https://raw.githubusercontent.com/evalscience/deepgov-gg23/refs/heads/main`;

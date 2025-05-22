@@ -15,7 +15,7 @@ import { creditAssignmentAgent } from "../agents/agents/credit-assigner";
 // Core Elo scoring parameters
 const BASE_RATING = 1000;
 // INCREASE K_FACTOR SIGNIFICANTLY to amplify small magnitude differences
-const K_FACTOR = 256; // Was 32, then 128
+const K_FACTOR = 32; // Was 32, then 128
 
 // Helper: Calculate expected score between two ratings (Standard Elo - currently unused in rating updates)
 function expectedScore(ratingA: number, ratingB: number): number {
@@ -23,18 +23,18 @@ function expectedScore(ratingA: number, ratingB: number): number {
 }
 
 // Helper: Update Elo rating after a matchup (Standard Elo - currently unused)
-// function updateElo(rating: number, expected: number, actual: number): number {
-//   return rating + K_FACTOR * (actual - expected);
-// }
+function updateElo(rating: number, expected: number, actual: number): number {
+  return rating + K_FACTOR * (actual - expected);
+}
 
 // New Helper: Update rating based *only* on the actual score magnitude from the match
-function updateRatingDirectly(rating: number, actual: number): number {
-    // actual is the score for *this* player (0 to 1, derived from magnitude 0.5-1.0)
-    // differenceFromNeutral will be positive for wins (>0.5), negative for losses (<0.5)
-    const differenceFromNeutral = actual - 0.5;
-    // Adjust rating based on deviation from neutral, scaled by K_FACTOR
-    return rating + K_FACTOR * differenceFromNeutral;
-}
+// function updateRatingDirectly(rating: number, actual: number): number {
+//     // actual is the score for *this* player (0 to 1, derived from magnitude 0.5-1.0)
+//     // differenceFromNeutral will be positive for wins (>0.5), negative for losses (<0.5)
+//     const differenceFromNeutral = actual - 0.5;
+//     // Adjust rating based on deviation from neutral, scaled by K_FACTOR
+//     return rating + K_FACTOR * differenceFromNeutral;
+// }
 
 // Helper to safely get the 'output' of the last research entry for a specific agent
 // Assumes input is a valid array with at least one element
@@ -56,10 +56,44 @@ const processResearchAgent = (appName: string, agentKey: string, agentData: any)
     return undefined;
 };
 
+// ANSI escape codes for colors
+const colors = {
+  reset: "\x1b[0m",
+  bright: "\x1b[1m",
+  dim: "\x1b[2m",
+  underscore: "\x1b[4m",
+  blink: "\x1b[5m",
+  reverse: "\x1b[7m",
+  hidden: "\x1b[8m",
+
+  fg: {
+    black: "\x1b[30m",
+    red: "\x1b[31m",
+    green: "\x1b[32m",
+    yellow: "\x1b[33m",
+    blue: "\x1b[34m",
+    magenta: "\x1b[35m",
+    cyan: "\x1b[36m",
+    white: "\x1b[37m",
+    crimson: "\x1b[38m" // Scarlet
+  },
+  bg: {
+    black: "\x1b[40m",
+    red: "\x1b[41m",
+    green: "\x1b[42m",
+    yellow: "\x1b[43m",
+    blue: "\x1b[44m",
+    magenta: "\x1b[45m",
+    cyan: "\x1b[46m",
+    white: "\x1b[47m",
+    crimson: "\x1b[48m"
+  }
+};
+
 async function main() {
   // Load all applications from the directory
   const applications = loadApplicationsFromDirectory();
-  console.log(`Processing ${applications.length} applications...`);
+  console.log(`Processing ${colors.fg.yellow}${applications.length}${colors.reset} applications...`);
 
   // Pre-load all necessary data for each application
   console.log("Pre-loading application data (app, research, karmagap)...");
@@ -108,7 +142,7 @@ async function main() {
 
   // Loop through each agent's reviews
   for (const [agentName, agentApplicationsData] of Object.entries(reviewsByAgent)) {
-    console.log(`\n🎯 Running Elo tournament for agent: ${agentName}`);
+    console.log(`\n${colors.fg.magenta}🎯 Running Elo tournament for agent: ${colors.bright}${agentName}${colors.reset}`);
 
     // Initialize all ratings
     const ratings: Record<string, number> = {};
@@ -175,7 +209,7 @@ async function main() {
         if (isTargetComparison) {
             // Trim potentially very long outputs for concise debug logging
             const trim = (s: string | undefined) => s ? s.substring(0, 100) + '...' : undefined;
-            console.log(`DEBUG Data sent to agent for ${ appA.name} ${JSON.stringify({
+            console.log(`${colors.fg.blue}DEBUG Data sent to agent for ${colors.bright}${ appA.name}${colors.reset} ${JSON.stringify({
                 ...projectAData,
                 academic_research: trim(projectAData.academic_research),
                 fact_checking: trim(projectAData.fact_checking),
@@ -184,8 +218,8 @@ async function main() {
                 data_analysis: trim(projectAData.data_analysis),
                 application_summary: trim(projectAData.application_summary),
                 reviewer_comment: trim(projectAData.reviewer_comment)
-            }, null, 2)}`);
-             console.log(`DEBUG Data sent to agent for ${ appB.name} ${JSON.stringify({
+            }, null, 2)}${colors.reset}`);
+             console.log(`${colors.fg.blue}DEBUG Data sent to agent for ${colors.bright}${ appB.name}${colors.reset} ${JSON.stringify({
                 ...projectBData,
                 academic_research: trim(projectBData.academic_research),
                 fact_checking: trim(projectBData.fact_checking),
@@ -194,7 +228,7 @@ async function main() {
                 data_analysis: trim(projectBData.data_analysis),
                 application_summary: trim(projectBData.application_summary),
                 reviewer_comment: trim(projectBData.reviewer_comment)
-             }, null, 2)}`);
+             }, null, 2)}${colors.reset}`);
         }
         // --- DEBUG LOGGING END ---
 
@@ -209,16 +243,9 @@ Choose the one that deserves *more funding*, based on impact, clarity, roadmap, 
 
 Consider all available information including application summaries, research reports, fact checks and specific reviewer comments, while considering their particular scoring, ethics and consitution.
 
-Then, estimate *how much* better the winning project is on a scale from 0.5 (projects are roughly equal) to 1.0 (winner is significantly better).
+You are essentially a judge in the tournament which gives a score based on each Agent's review, so it's important you strongly consider reviewer_comment along with the metric data provided. Give weight to the research outputs (web search, fact checking, academic context) as objective inputs alongside the application summary (project's own description) and the reviewer's subjective comment.
 
-*   A score of 0.5 means the projects are virtually identical in potential/quality based on the provided data.
-*   A score of 0.6-0.7 indicates the winner is noticeably better.
-*   A score of 0.8-0.9 indicates the winner is significantly better.
-*   A score of 1.0 means the winner is vastly superior and clearly deserves much more funding consideration relative to the other.
-
-Use the full range [0.5, 1.0] to reflect the true difference you perceive. Be decisive if the difference is clear. You are essentially a judge in the tournament which gives a score based on each Agent's review, so it's important you strongly consider reviewer_comment along with the metric data provided. Give weight to the research outputs (web search, fact checking, academic context) as objective inputs alongside the application summary (project's own description) and the reviewer's subjective comment.
-
-Respond ONLY in the format 'W,S' where W is the winning project ('A' or 'B') and S is the score (e.g., 'A,0.8' or 'B,0.6'). Do NOT explain.
+Respond ONLY with "A" or "B". Do NOT explain.
 
 --- Project A ---
 ${JSON.stringify(projectAData, null, 2)}
@@ -230,60 +257,71 @@ ${JSON.stringify(projectBData, null, 2)}
         const result = await creditAssignmentAgent.generate(prompt);
 
         // Parse the response "W,S"
-        const responseParts = result.text.trim().toUpperCase().split(',');
-        let actualA = 0.5; // Default to draw
-        let actualB = 0.5;
-        let winnerLetter = 'DRAW';
-        let winMagnitude = 0.5;
+        // const responseParts = result.text.trim().toUpperCase().split(',');
+        // let actualA = 0.5; // Default to draw
+        // let actualB = 0.5;
+        // let winnerLetter = 'DRAW';
+        // let winMagnitude = 0.5;
 
 
-        if (responseParts.length === 2) {
-          // Linter Fix: Assert that parts[0] and parts[1] are defined because we checked length === 2
-          winnerLetter = responseParts[0]!;
-          const scoreString = responseParts[1]!;
-          // console.log("winnerLetter is ", winnerLetter); // Keep logging minimal for clarity
-          // console.log("scoreString is ", scoreString);
-          // Check if parts are defined before using them (Redundant due to length check and assertion, but safe)
-          // if (winnerLetter !== undefined && scoreString !== undefined) {
-            winMagnitude = parseFloat(scoreString);
+        // if (responseParts.length === 2) {
+        //   // Linter Fix: Assert that parts[0] and parts[1] are defined because we checked length === 2
+        //   winnerLetter = responseParts[0]!;
+        //   const scoreString = responseParts[1]!;
+        //   // console.log("winnerLetter is ", winnerLetter); // Keep logging minimal for clarity
+        //   // console.log("scoreString is ", scoreString);
+        //   // Check if parts are defined before using them (Redundant due to length check and assertion, but safe)
+        //   // if (winnerLetter !== undefined && scoreString !== undefined) {
+        //     winMagnitude = parseFloat(scoreString);
 
-            if ((winnerLetter === 'A' || winnerLetter === 'B') && !isNaN(winMagnitude) && winMagnitude >= 0.5 && winMagnitude <= 1.0) {
-              if (winnerLetter === 'A') {
-                actualA = winMagnitude;
-                actualB = 1 - winMagnitude;
-              } else { // Winner is B
-                actualB = winMagnitude;
-                actualA = 1 - winMagnitude;
-              }
-            } else {
-              console.warn(`⚠️ Invalid response format/score: ${result.text}. Draw.`);
-              actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
-            }
-          // } else { // This block becomes unreachable due to length check / assertion
-          //   console.warn(`⚠️ Invalid response parts: ${result.text}. Draw.`);
-          //   actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
-          // }
-        } else {
-          console.warn(
-            `\x1b[31m⚠️ Unexpected response format: "${result.text.trim()}". Draw.\x1b[0m`
-          );
-          actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
-        }
+        //     if ((winnerLetter === 'A' || winnerLetter === 'B') && !isNaN(winMagnitude) && winMagnitude >= 0.5 && winMagnitude <= 1.0) {
+        //       if (winnerLetter === 'A') {
+        //         actualA = winMagnitude;
+        //         actualB = 1 - winMagnitude;
+        //       } else { // Winner is B
+        //         actualB = winMagnitude;
+        //         actualA = 1 - winMagnitude;
+        //       }
+        //     } else {
+        //       console.warn(`⚠️ Invalid response format/score: ${result.text}. Draw.`);
+        //       actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
+        //     }
+        //   // } else { // This block becomes unreachable due to length check / assertion
+        //   //   console.warn(`⚠️ Invalid response parts: ${result.text}. Draw.`);
+        //   //   actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
+        //   // }
+        // } else {
+        //   console.warn(
+        //     `[31m⚠️ Unexpected response format: "${result.text.trim()}". Draw.[0m`
+        //   );
+        //   actualA = 0.5; actualB = 0.5; winnerLetter = 'DRAW'; winMagnitude = 0.5;
+        // }
 
         // Log the outcome of the match concisely only if not the debugged comparison
         // Always log for now to see results
-        console.log(`Match: ${appA.name} vs ${appB.name} -> Winner: ${winnerLetter}, Mag: ${winMagnitude.toFixed(2)}`);
+        // console.log(`Match: ${appA.name} vs ${appB.name} -> Winner: ${winnerLetter}, Mag: ${winMagnitude.toFixed(2)}`);
 
+        const winner = result.text.trim().toUpperCase();
+        console.log(`Match: ${colors.fg.cyan}${appA.name}${colors.reset} vs ${colors.fg.cyan}${appB.name}${colors.reset} -> Winner: ${winner === "A" || winner === "B" ? colors.fg.green : colors.fg.yellow}${winner}${colors.reset}`);
 
         const ratingA = ratings[appA.id]!;
         const ratingB = ratings[appB.id]!;
-        // We are no longer using expected scores for the update
-        // const expectedA = expectedScore(ratingA, ratingB);
-        // const expectedB = expectedScore(ratingB, ratingA);
+        const expectedA = expectedScore(ratingA, ratingB);
+        const expectedB = expectedScore(ratingB, ratingA);
 
-        // Update ratings using the calculated actual scores directly
-        ratings[appA.id] = updateRatingDirectly(ratingA, actualA);
-        ratings[appB.id] = updateRatingDirectly(ratingB, actualB);
+        if (winner === "A") {
+          ratings[appA.id] = updateElo(ratingA, expectedA, 1);
+          ratings[appB.id] = updateElo(ratingB, expectedB, 0);
+        } else if (winner === "B") {
+          ratings[appA.id] = updateElo(ratingA, expectedA, 0);
+          ratings[appB.id] = updateElo(ratingB, expectedB, 1);
+        } else {
+          // If the response is neither A nor B, treat it as a draw.
+          // Elo ratings don't change for a draw with actual scores of 0.5 vs 0.5 against expected.
+          ratings[appA.id] = updateElo(ratingA, expectedA, 0.5);
+          ratings[appB.id] = updateElo(ratingB, expectedB, 0.5);
+          console.warn(`⚠️ ${colors.fg.yellow}Unexpected response: "${result.text.trim()}". Treating as a draw.${colors.reset}`);
+        }
         // Optional: Log rating changes if needed for debugging
         // console.log(`  Ratings: A=${ratings[appA.id]!.toFixed(1)}, B=${ratings[appB.id]!.toFixed(1)}`);
 
@@ -315,11 +353,11 @@ ${JSON.stringify(projectBData, null, 2)}
 
     // Save results to file
     saveFile(`scores/elo-credit-assignment-${agentName}.csv`, output);
-    console.log(`✅ Saved results for ${agentName}`);
+    console.log(`${colors.fg.green}✅ Saved results for ${agentName}${colors.reset}`);
   }
 }
 
 main().catch((error) => {
-  console.error("❌ Error:", error);
+  console.error(`${colors.fg.red}❌ Error:${colors.reset}`, error);
   process.exit(1);
 });
