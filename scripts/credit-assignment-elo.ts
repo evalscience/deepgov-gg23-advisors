@@ -117,13 +117,7 @@ async function main() {
       hypercerts: hypercertsData,
     });
   }
-  // Add this logging temporarily AFTER the loop finishes (around line 53)
-  const gainForestId = "42161-867-0x62f25a11c2ae5a2af563cc5b1f772b3aebe1bd4a0a82e41a78e61e1db972ad7e"; // Fixed ID
-  const treegensId = "42161-867-0xd089724cd73c932413bce5c797aee7d2fbcd1ad282f24cff790977e77908fdca";
-  // console.log("DEBUG Preloaded GainForest Data:", JSON.stringify(applicationDataMap.get(gainForestId), null, 2));
-  // console.log("DEBUG Preloaded Treegens Data:", JSON.stringify(applicationDataMap.get(treegensId), null, 2));
-  // console.log("Finished pre-loading data.");
-
+  
   // Get the available review models/agents
   const modelSpecs = await fetchModelSpecs();
 

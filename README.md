@@ -60,6 +60,7 @@ bun run review-applications
 ```
 
 
+
 ### Data Structure
 
 The scripts work with the following directory structure:
