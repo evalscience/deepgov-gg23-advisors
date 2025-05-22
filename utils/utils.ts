@@ -219,3 +219,62 @@ export async function fetchModelSpecs(): Promise<
     }))
   );
 }
+// Interfaces for Hypercerts
+interface HypercertAttestation {
+  attester: string;
+  creation_block_timestamp: string;
+  data: {
+    title: string;
+    sources: string[];
+    chain_id: number;
+    token_id: string;
+    description: string;
+    contract_address: string;
+  };
+  id: string;
+}
+
+interface HypercertData {
+  hypercert_id: string;
+  metadata: {
+    name: string;
+    description: string;
+  };
+  attestations: {
+    data: HypercertAttestation[];
+  };
+}
+
+
+interface HypercertsResponse {
+  data: {
+    hypercerts: {
+      count: number;
+      data: HypercertData[];
+    };
+  };
+}
+
+export function parseHypercerts(hypercerts: HypercertsResponse) {
+  if (!hypercerts?.data?.hypercerts?.data) {
+    return [];
+  }
+  
+  return hypercerts.data.hypercerts.data.flatMap((hypercert) => {
+    const { hypercert_id, metadata } = hypercert;
+    
+    if (!hypercert.attestations?.data || hypercert.attestations.data.length === 0) {
+      return [];
+    }
+    
+    return hypercert.attestations.data.map((attestation) => ({
+      hypercert_id,
+      metadata,
+      attester: attestation.attester,
+      timestamp: new Date(parseInt(attestation.creation_block_timestamp) * 1000).toLocaleDateString(),
+      title: attestation.data.title,
+      description: attestation.data.description,
+      sources: attestation.data.sources,
+    }));
+  });
+}
