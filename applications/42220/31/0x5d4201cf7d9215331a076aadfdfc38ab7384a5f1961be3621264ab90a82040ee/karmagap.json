@@ -1,5 +1,635 @@
 {
   "id": "42220-31-0x5d4201cf7d9215331a076aadfdfc38ab7384a5f1961be3621264ab90a82040ee",
-  "projects": [],
-  "grants": []
+  "projectId": "0x5d4201cf7d9215331a076aadfdfc38ab7384a5f1961be3621264ab90a82040ee",
+  "projectUIDs": [
+    "0x6451eaca2d816c59f83641242f8a8f38d546bd387c8e8b5f03c8098f844b49f5"
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ec7baaafeb90604e19e48e"
+      },
+      "uid": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x6451eaca2d816c59f83641242f8a8f38d546bd387c8e8b5f03c8098f844b49f5",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-01T23:49:59.000Z",
+      "updatedAt": "2025-04-01T23:50:02.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x0c79a94673213525fd23c198d072e1bd1161b6b9d722df34ce2240aa3768b579",
+      "external": {
+        "gitcoin": [
+          "0x5d4201cf7d9215331a076aadfdfc38ab7384a5f1961be3621264ab90a82040ee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ec7babafeb90604e19e48f"
+        },
+        "uid": "0x3bd38232ea70f075d56f22a8bea3c77f68e588336d5b998ffa7a35a840462091",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743551399,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743551403,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/31/8",
+          "title": "Regen Coordination Global",
+          "description": "",
+          "payoutAddress": "0xF3Ad97364bcCC3eA0582Ede58C363888f8C4ec85",
+          "programId": "31_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "moradavivald@gmail.com"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "3"
+            },
+            {
+              "type": "checkbox",
+              "query": "Is your project a member or past grantee of one of these networks?",
+              "explanation": "AgroforestDAO"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your key active goals, plans, objectives or milestones for this year?",
+              "explanation": "To continue onboarding agroforest stewards via Learning Journeys, to launch a QF round in Q2, to support regional events and our volunteering network"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x0c79a94673213525fd23c198d072e1bd1161b6b9d722df34ce2240aa3768b579"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67db752246486d0e44e13cb5"
+        },
+        "uid": "0x6451eaca2d816c59f83641242f8a8f38d546bd387c8e8b5f03c8098f844b49f5",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+        "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742435612,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742435618,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x576bb5ae8c50f2fbcdaf0995b89dddf985d9efbd24edddc4ef5eace18bd221b6",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b69"
+            },
+            "name": "AgroforestDAO"
+          }
+        ]
+      },
+      "categories": [
+        "AgroforestDAO"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67fa7817781a690d6372d23a"
+          },
+          "uid": "0x2c75fa3b82f6473ecc31da8ce05714b0c03788612c42588c2f4657c7adc8bfca",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744467987,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744467991,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "AgroforestDAO Member Journey",
+            "description": "We are creating a journey for apprentices to become members, making sure that there are no free riders and that those that engage are aligned with the goals of building a supportive network for food forest stewards.",
+            "endsAt": 1776308400,
+            "startsAt": 1744772400,
+            "type": "milestone"
+          },
+          "txid": "0x8c947fed4ca121347b49b60e083ff2f81dd38b734a888c8027c48f0333491a89",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67f2a197e56835e9b87005cd"
+          },
+          "uid": "0xa8f479e8b48afdbb059d271975367e226a91fbfa3b0052e2b7cb786d584796b7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1743954323,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1743954327,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Engaging with the Ipê City Architects",
+            "description": "We were invited to collaborate in the organization of Ipê City, the first Pop-up City in Brazil, and to bring our approach of cosmolocal collaboration for the City. \nWe partnered with folks from Netx State, the argentininan network of regen nodes and are organizing a series of activities to be held in the Regen Haus. \n\nSo far we have scheduled the following activities:\n\n- [NetX State ReGen House Kickoff @ Ipê City ](https://lu.ma/kk2qaz3v)🌱 - April 23rd\n- [Reconnection in Rooted Network Societies](https://lu.ma/h12vawtg) - May 1st\n- [AgroforestDAO Excursion: Visiting a Food Forest Farm](https://lu.ma/b36ard4t) - May 5th\n- [Regen Day](https://lu.ma/p6rctgh6) - May 6th\n- [Regen Prototyping Sessions: Agroforestry Partnerships 1/4](https://lu.ma/6e1mw3vb) - May 8th\n- [Regen Prototyping Sessions: Agroforestry Partnerships 2/4](https://lu.ma/32x6hg34) - May 13th\n- [Seed Swap](https://lu.ma/kvfv1p9a) - May 14th\n- [Tapioca Workshop](https://lu.ma/tx8gw2v0) - May 14th\n- [Regen Prototyping Sessions: Agroforestry Partnerships 3/4](https://lu.ma/4sgf97gr) - May 15th\n- [Regen Prototyping Sessions: Agroforestry Partnerships 4/4](https://lu.ma/w8acgmoj) - May 20th",
+            "endsAt": 1747882800,
+            "startsAt": 1745290800,
+            "type": "milestone"
+          },
+          "txid": "0x54ecd408eb5fa2544eff431a428217c76ffd933b55775d467963ac7e585b0352",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67eff52f070cae1bc18b8c06"
+          },
+          "uid": "0x6657b347c3b7e5b3a9f1f2a409c2fd3afbc78bd9c32188e31fd1895e7c62d9e3",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1743779114,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1743779119,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "To help AgroforestDAO branches to apply to GG23",
+            "description": "We will help the AgroforestDAO branches located on Rio de Janeiro to apply to Regen Rio Round",
+            "endsAt": 1743822000,
+            "startsAt": 1742785200,
+            "type": "milestone"
+          },
+          "txid": "0x57a59b21fce8067172557f7b7b69bb745e8855352889b977f149b276a74cb034",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67f291dae56835e9b8700589"
+              },
+              "uid": "0x86a3c5a34e5ad79bc92125dc31d28a5cb90d681f37ff48527cffe5b10b835d88",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x6657b347c3b7e5b3a9f1f2a409c2fd3afbc78bd9c32188e31fd1895e7c62d9e3",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1743950294,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1743950298,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We have helped 3 projects to apply:\n\n- [Juçara Viva](https://explorer.gitcoin.co/#/round/42220/30/1)\n- [MacaEco](https://explorer.gitcoin.co/#/round/42220/30/0)\n- [Agrofloresta Vale Verde](https://explorer.gitcoin.co/#/round/42220/30/20)",
+                "proofOfWork": "https://explorer.gitcoin.co/#/round/42220/30",
+                "completionPercentage": "100"
+              },
+              "txid": "0x62ef377a752c29f23d606cd5e8eb202a98275c91ef7cf86b453a75bf14d98395"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67f291dae56835e9b8700589"
+              },
+              "uid": "0x86a3c5a34e5ad79bc92125dc31d28a5cb90d681f37ff48527cffe5b10b835d88",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x6657b347c3b7e5b3a9f1f2a409c2fd3afbc78bd9c32188e31fd1895e7c62d9e3",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1743950294,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1743950298,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We have helped 3 projects to apply:\n\n- [Juçara Viva](https://explorer.gitcoin.co/#/round/42220/30/1)\n- [MacaEco](https://explorer.gitcoin.co/#/round/42220/30/0)\n- [Agrofloresta Vale Verde](https://explorer.gitcoin.co/#/round/42220/30/20)",
+                "proofOfWork": "https://explorer.gitcoin.co/#/round/42220/30",
+                "completionPercentage": "100"
+              },
+              "txid": "0x62ef377a752c29f23d606cd5e8eb202a98275c91ef7cf86b453a75bf14d98395"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67efec6aaf21e9b9f0d30330"
+          },
+          "uid": "0x7a12cf79338c46af7053d2aea1bf71ed38ad7e17506bb0b72600d37f81c71e28",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1743776869,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1743776874,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "To create a Commitment Pool on the Sarafu Network",
+            "description": "We will explore using Commitment Pools to allocate resources to AgroforestDAO apprentices",
+            "endsAt": 1743822000,
+            "startsAt": 1738724400,
+            "priority": 2,
+            "type": "milestone"
+          },
+          "txid": "0x564ea30dd75c8c10eda3db8225a45656026afc68460fc49ec2ee5127b949ff5c",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67efef60af21e9b9f0d30333"
+              },
+              "uid": "0x72263427713abac3e97466b1fb6039dc682322a45acc8e7d29522ed262a06bf7",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x7a12cf79338c46af7053d2aea1bf71ed38ad7e17506bb0b72600d37f81c71e28",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1743777623,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1743777632,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Thanks to the support of Grassroots Economics we were able to create and fund a pool and train our apprentices in creating and exchanging vouchers",
+                "proofOfWork": "https://sarafu.network/pools/0x0788459989F726Fd110897a20Faa990D6ef57E6A",
+                "completionPercentage": "100"
+              },
+              "txid": "0x6fc246ca854d1e891704005c7c5e15d47e0d60129188abf63de071c315659cdd"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67efef60af21e9b9f0d30333"
+              },
+              "uid": "0x72263427713abac3e97466b1fb6039dc682322a45acc8e7d29522ed262a06bf7",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x7a12cf79338c46af7053d2aea1bf71ed38ad7e17506bb0b72600d37f81c71e28",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1743777623,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1743777632,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Thanks to the support of Grassroots Economics we were able to create and fund a pool and train our apprentices in creating and exchanging vouchers",
+                "proofOfWork": "https://sarafu.network/pools/0x0788459989F726Fd110897a20Faa990D6ef57E6A",
+                "completionPercentage": "100"
+              },
+              "txid": "0x6fc246ca854d1e891704005c7c5e15d47e0d60129188abf63de071c315659cdd"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67efeb33b7a49968cf837b41"
+          },
+          "uid": "0xc6fa4d5836848ff532c6a62a157e23b461937dacaa62dd73fd0f89d3938c0eb5",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1743776554,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1743776563,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Finalize the Agroforest Journey 2",
+            "description": "We will conclude our 6 session learning journey with an average attendance of 14 apprentices as seen by POAP's minting data so far. We shared info about using web3 to coordinate our on the ground activities, recognize stewards dedication to agroforestry culture and to support emergent demands from community members.",
+            "endsAt": 1744254000,
+            "startsAt": 1741143600,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "txid": "0xd39cc40dc2e10adf83bf87361fd6117d75a1574ca02dc450aebaf199e0555554",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67fa7511257dc6ff9de89589"
+              },
+              "uid": "0x8eead6d1a35b014c9305bcbea5be58d45044c531ea29d11533efa81716c4d013",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0xc6fa4d5836848ff532c6a62a157e23b461937dacaa62dd73fd0f89d3938c0eb5",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1744467212,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1744467217,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We have finished the last session of the apprentice journey, and are sharing the POAP links right now.\n\nMany of the apprentices were able to apply to GG23, and are getting more aware of the benefits involved in coordinating globally.",
+                "proofOfWork": "https://docs.google.com/document/d/1VnUfVnGs-zyAoXkfcOwFajgB6IL6r-ugkI7d1bhmjzE/edit?tab=t.0",
+                "completionPercentage": "100"
+              },
+              "txid": "0x0463753f36f25a94a3eb84ef86f55e993655b910a7d0b13dfbc868a1bde38024"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67fa7511257dc6ff9de89589"
+              },
+              "uid": "0x8eead6d1a35b014c9305bcbea5be58d45044c531ea29d11533efa81716c4d013",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0xc6fa4d5836848ff532c6a62a157e23b461937dacaa62dd73fd0f89d3938c0eb5",
+              "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1744467212,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1744467217,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We have finished the last session of the apprentice journey, and are sharing the POAP links right now.\n\nMany of the apprentices were able to apply to GG23, and are getting more aware of the benefits involved in coordinating globally.",
+                "proofOfWork": "https://docs.google.com/document/d/1VnUfVnGs-zyAoXkfcOwFajgB6IL6r-ugkI7d1bhmjzE/edit?tab=t.0",
+                "completionPercentage": "100"
+              },
+              "txid": "0x0463753f36f25a94a3eb84ef86f55e993655b910a7d0b13dfbc868a1bde38024"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [
+        {
+          "_id": {
+            "$oid": "67eebaf5352e4b9f578d35c9"
+          },
+          "uid": "0xd277522a962af879bf72efacd2d2f4b421c5e3ace742ab30ead2eb010dce81e4",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x6fd0f11fefa237242a6adad9f31d9f7bd966b0bd29bc73ae232a734c46b498cd",
+          "attester": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "recipient": "0xf3ad97364bccc3ea0582ede58c363888f8c4ec85",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1743698673,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1743698677,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "GrantUpdate",
+          "data": {
+            "text": "We have started our second onboarding journey for brazilian agroforest stewards, that will go from march 5th to april 9th. We had 75 applicants and have been averaging an attendance of 15-20 apprentices in the sessions. \nApprentices learn about the importance to use web3 to coordinate by sharing milestones and updates, issuing certificates, build long term reputation and sharing mutual support.\n\nWe share POAP links to the attendees and airdropped a few Celo tokens for those that minted more than 2 POAPs. \n\nWe are approaching the last session of JA2 with more than 40 agroforestry systems in our Charmverse.",
+            "title": "Hosting the 2nd AgroforestDAO Journey (JA2)",
+            "proofOfWork": "https://app.charmverse.io/agroforestdao/ja2-9571535814487431",
+            "completionPercentage": "90",
+            "type": "grant-update"
+          },
+          "txid": "0xed3849f07fae128846f2e35f31cdae0a6d29cfc6acfb5c465b4d53be312bddd1"
+        }
+      ],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    }
+  ]
 }

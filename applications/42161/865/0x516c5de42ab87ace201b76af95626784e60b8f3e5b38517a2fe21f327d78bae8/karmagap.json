@@ -1,62 +1,8 @@
 {
   "id": "42161-865-0x516c5de42ab87ace201b76af95626784e60b8f3e5b38517a2fe21f327d78bae8",
-  "projects": [
-    {
-      "uid": "0xcccb997c7b75a657c58af02771a0615904bb5355b89622028b63b93c76f7b933",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "663a9fe4a620ea6b216e8186"
-        },
-        "uid": "0x9f2c902a6efaac1ecb75fe59db46f15088b7b709abac3a168909f88f9b9721b1",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xcccb997c7b75a657c58af02771a0615904bb5355b89622028b63b93c76f7b933",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xd1F2610d01f21226b258090E7b970A8ba0f0ad84",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1715118050,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1715118052,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "# Monas: Decentralized Personal Data Store\nMonas aims to enhance data interoperability and user data sovereignty through a Decentralized Personal Data Store (PDS). This system leverages the encrypted data structure of Cryptree and the authenticity-guaranteeing technology of Blockchain as its core, allowing users to manage their own data while ensuring privacy and interoperability. Unlike traditional \"solid-line data links,\" Monas introduces a new paradigm of data management through \"dotted-line data links,\" directly reflecting the user's intentions. This approach creates a space in cyberspace that protects autonomy and privacy.\n\n## Introduction\nMonas is a Decentralized Personal Data Store (PDS) designed to empower Data controllers with data sovereignty.Under the current circumstances, state-of-the-art technologies like the Semantic Web, Self-Sovereign Identity, and Blockchains are possible to solve the issues of data interoperability and of user-centric data management. Monas enables users to manage their data while maintaining privacy and ensuring interoperability utilizing the cryptographic data structure of Cryptree and Blockchain technology to ensure data authenticity. Unlike traditional 'solid line data links', we proposes a new paradigm of 'dotted line data links', which directly reflect user intent. This approach allows Monas to create a space in cyberspace that protects both autonomy and privacy, offering users the flexibility to solidify these links at their discretion.\nMore details:[Monas: Privacy, Data Interoperability, and Self-Sovereignty in Decentralized Personal Data Store v1.0.1](https://docs.google.com/document/d/1stQUrYfhbEcIilbOaRzCUfETRXiCWzo-E60MJ0CvnQg/edit?usp=sharing)\nSlide: https://docs.google.com/presentation/d/1CSDXeBKCRI5UfYq_DA_zj8i6FO6yLWsr/edit?usp=sharing&ouid=113727888198193846679&rtpof=true&sd=true\n\n## Prototype\nWe recently participated in a hackathon organized by Protocol Labs to develop a prototype. ([here](https://dorahacks.io/ja/buidl/11189))\nWe've developed a prototype that embodies the principles of Monas. This prototype leverages three key components:\n- Decentralized Identifiers (DIDs): Unique global identifiers that operate independently of centralized authorities.\n- Cryptree: A structure that provides intuitive access control, managed by Data controllers.\n- Blockchain: This serves as the backbone for our state management system, ensuring the authenticity and consistency of data.\nOur prototype specifically focuses on enhancing the functionality of read access control and the robust management of system state.\n\n### System configuration\n![System configuration](https://github.com/Monas-project/Filecoin-Data-Economy-Hackathon/blob/52ede03fb7179dad41706f0b14469035c35bae16/images/System%20configuration%20diagram.png?raw=true)\nThe prototype consists of IPFS, Tableland, Push Protocol, Filecoin and Polygon. Please check Github for details and code of the prototype as well as the challenges and solutions. \nPrototype: [here](https://github.com/Monas-project/Filecoin-Data-Economy-Hackathon/blob/52ede03fb7179dad41706f0b14469035c35bae16/docs/prototype.md#monas-decentralized-personal-data-store)\nDemo Video: [here](https://youtu.be/4zze7qRSnv8?si=mcY_rnEaMCPbvH8r)\n\n## Next Phases of Development\nAs we continue to evolve the Monas platform, our next major objectives are the construction of a Peer-to-Peer (P2P) network and the enhancement of writing capabilities. Currently, the architecture includes a Monas server, but our goal is to enable users to set up their own nodes and engage directly in end-to-end (E2E) encrypted communications as clients. This will facilitate a more decentralized and secure environment.\n\nAdditionally, while currently only the PDS administrators can write to the datastore, it is essential to enable writing permissions for approved users. This feature is particularly important as we aim to develop a range of decentralized applications on Monas, such as distributed social networking services. It will also support features like shared key storage and collaborative editing, which require non-administrative users to write within the PDS.\n\nWe will focus on defining and designing the access controls for these writing capabilities, ensuring that actions are properly sequenced and managed. This includes tackling the issues mentioned earlier, such as key management and the standardization of data formats.\n\nBy implementing these enhancements, we aim to significantly expand the functionality and applicability of the Monas platform, making it a more versatile tool for decentralized data management.",
-          "imageURL": "bafkreibubr6fizbschsmatk22kxtpt4lc6liovbwjbef4kjk7dswifuww4",
-          "title": "Monas",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://github.com/Monas-project"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/monas_pds"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/Monas-project"
-            }
-          ],
-          "slug": "monas",
-          "type": "project-details"
-        },
-        "externalIds": [],
-        "txid": "0xcc2346d7b6bcfe59de4e71fe4ca01e44a2ce9be8c0609fe945508c679d691fe1"
-      },
-      "recipient": "0xd1F2610d01f21226b258090E7b970A8ba0f0ad84",
-      "createdAt": "2024-05-07T21:40:50.000Z",
-      "updatedAt": "2024-05-07T21:40:52.000Z"
-    }
+  "projectId": "0x516c5de42ab87ace201b76af95626784e60b8f3e5b38517a2fe21f327d78bae8",
+  "projectUIDs": [
+    "0xcccb997c7b75a657c58af02771a0615904bb5355b89622028b63b93c76f7b933"
   ],
   "grants": [
     {

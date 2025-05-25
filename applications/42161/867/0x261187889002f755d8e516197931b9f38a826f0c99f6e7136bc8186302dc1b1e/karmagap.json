@@ -1,61 +1,8 @@
 {
   "id": "42161-867-0x261187889002f755d8e516197931b9f38a826f0c99f6e7136bc8186302dc1b1e",
-  "projects": [
-    {
-      "uid": "0xb38d3e173902e956502bf432ffa7b81ca3bd54bc67b76a49508201f6dcddc112",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "67e8670d9cb9f2d20939a080"
-        },
-        "uid": "0x95b6088829b3f12c57e20260d5f8c8b58b8f11bce2d3bbcebd3c83a93d163fe5",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xb38d3e173902e956502bf432ffa7b81ca3bd54bc67b76a49508201f6dcddc112",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x276f336d63057905bac016f4bec7e3ecad23b1fc",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1743283975,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1743283981,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "Introducing Web3radio.it by SpaghettETH\nV1 Main features\n\nSpaghettETH and YOMI are leveraging decentralized technology to reinvent community radio. Here’s some specifics of our V1 release:\n\n- Token Gated: only SpaghettETH Passport SBT holders can access the radio and its features. This is our iteration, think about other possibilities, like an Ethereum Radio for everyone owning more than 1 wei.\n\n- Login Agnostic: log in via your browser wallet or create a smart account via web2 login (Google, Apple) using Mego.tickets stack.\n\n- Dynamic Player: the Web3radio player always checks for any current livestream first, then switches to a community playlist if there is none.\n\n- Community Playlist: SBT holders can upload their own audio content (songs, interviews, podcasts) to a playlist smart contract using their preferred storage solution, such as IPFS, Swarm, Pinata URIs, Google Drive, or Dropbox — web3radio.it does not store any files. \n\n- Listeners can save currently playing audio to their favorites, contributing to a “most liked” leaderboard. Future improvements to the playlist ordering mechanism will incorporate this data for enhanced curation.\n\n- Live Schedule: SBT holders can schedule their own livestreams in advance using a calendar widget, booking 30-minute slots, with up to 10 slots per booking. Each SBT holder is limited to two bookings every 24 hours. Our player supports HLS streams (.m3u, .m3u8), YouTube, Twitch, Livepeer, and traditional servers, ensuring broad compatibility for broadcasters.\n\n\nCons\n\n- Centralized Frontend: at SpaghettETH, we fully appreciate the challenges of building decentralized frontends and fully on-chain applications. However, our mission within the Italian ecosystem has always been to educate and onboard users from traditional Web2 social media, while also iterating on our proof-of-concepts in real-time. For this reason, we have temporarily opted for a centralized frontend hosted on Digital Ocean, allowing us to refine the experience before transitioning to a fully decentralized solution.\n\n- Centralized link managing backend: not everyone is familiar with livestreaming or decentralized storage. Many users are unaware of Livepeer, Swarm, IPFS, and similar technologies. To bridge this gap, we have implemented a lightweight backend that can serve livestreams and storage links from more common platforms alongside decentralized ones, making the experience more accessible for all users.\n\n- SBT-contract ownership: we deeply value free speech, but we also prioritize healthy community interactions. Additionally, the European Digital Services Act (DSA) requires us to monitor and mitigate dangerous practices and hate speech on our webradio. To uphold these standards, our Passport SBT contract includes a mechanism that allows us to burn a user’s SBT, effectively revoking their access to the platform if they violate community guidelines.\n\n- Proxy contract: managing EOA wallets and traditional Web2 logins simultaneously is no small challenge. Balancing adoption and simplicity — not to mention covering transaction fees — often comes at the expense of ideological purity. To streamline the user experience while maintaining accessibility, most contract-writing calls are handled by a proxy relay operated by MEGO.\n\nAll these compromises are made purely for user-friendliness, because at SpaghettETH, we believe in baby steps when onboarding people into Web3. If you prefer a fully decentralized, Web2-free version, feel free to fork our project and build your own — we’d love to see it! Just don’t troll us on X for not being decentralization maximalists — we’re here to make things work for real people, not just for the purists.\nV2 Features (Coming Soon)\n\nWhat’s next for Unstoppable Radio? We’re working on exciting upgrades to make the experience even more community-driven, fair, and optimized.\n\n- Decentralized Advertising: Every live show will be able to sell advertising space during their broadcast via a dedicated smart contract. The price for each ad slot will be voted on by the community and calculated based on the average demand. This ensures fair pricing while keeping sponsorships transparent and community-approved.\n\n- Playlist Randomness Optimization: Random playback isn’t always fair — it’s just blind. We aim to replace the current system with a more intelligent algorithm that factors in: 1) The number of saves per song (while preventing a single track from dominating) ii) Genre diversity, so all styles get airtime iii) Submission date, ensuring newer tracks also get their moment",
-          "imageURL": "bafkreifuvsvfoslpl3d4gx5lt6nzdatntykkd4eh5dgjzw5ncry4cdkqua",
-          "title": "web3radio",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://web3radio.it"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/spaghetteth"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/spaghettETH"
-            }
-          ],
-          "slug": "web3radio",
-          "type": "project-details"
-        },
-        "txid": "0x0c43c1123ef42da6a9401b43a3410034f1489222c2a67f89012bbb56f2ed6c3d"
-      },
-      "recipient": "0x276f336d63057905bac016f4bec7e3ecad23b1fc",
-      "createdAt": "2025-03-29T21:32:55.000Z",
-      "updatedAt": "2025-03-29T21:33:01.000Z"
-    }
+  "projectId": "0x261187889002f755d8e516197931b9f38a826f0c99f6e7136bc8186302dc1b1e",
+  "projectUIDs": [
+    "0xb38d3e173902e956502bf432ffa7b81ca3bd54bc67b76a49508201f6dcddc112"
   ],
   "grants": [
     {

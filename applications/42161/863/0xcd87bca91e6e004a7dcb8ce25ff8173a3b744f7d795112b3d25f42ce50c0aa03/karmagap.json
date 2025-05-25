@@ -1,61 +1,8 @@
 {
   "id": "42161-863-0xcd87bca91e6e004a7dcb8ce25ff8173a3b744f7d795112b3d25f42ce50c0aa03",
-  "projects": [
-    {
-      "uid": "0xb4c0c8c36c5fa50d8d1d8944ac3f02121fe97185b4be15207777ba593ead03cb",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "67ecbe346a54c05fcd3d1bc7"
-        },
-        "uid": "0xab80f54079b5de592416c0b9df793de764f60eb307aee6a25af4fbc47b483f3f",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xb4c0c8c36c5fa50d8d1d8944ac3f02121fe97185b4be15207777ba593ead03cb",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x52774016ea6bd161a4bb6e232019c4bd704bb151",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1743568430,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1743568436,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "# Chews Protocol\n\n## Overview\n\nChews Protocol is a modular Token Curated Registry (TCR) voting protocol that allows developers to create custom voting systems by composing different module types. Unlike traditional monolithic TCR systems that follow a one-size-fits-all approach, Chews (\"choose\") enables flexible and use-case-driven governance through its modular architecture.\n\nThe protocol can be thought of as an \"ACR\" (Anything Curated Registry) system, as it allows curation of registries based on any criteria, not just tokens. This flexibility makes it suitable for a wide range of decision-making and governance applications.\n\n## Development Stage\n\n**⚠️ EXPERIMENTAL: Version 0 ⚠️**\n\nChews Protocol is currently in an early, experimental stage (V0). While it is functional and already in use by several projects, users should be aware that the architecture, interfaces, and implementation details may change significantly in future versions.\n\n## Key Features\n\n- **Fully Modular** - Create custom voting strategies based on combinations of four module types.\n- **Flexible Design** - Functions as an \"ACR\" (Anything Curated Registry) system that can curate registries based on any criteria.\n- **Composable Systems** - All voting systems (Contests) share a standard interface, making them composable with each other.\n- **Complex Voting Patterns** - Orchestrate serial or parallel voting patterns for sophisticated governance needs.\n- **Developer-Friendly** - Reduces cognitive overhead by separating concerns into distinct module types.\n- **Procedural or Continuous** - Support for both time-bound procedural voting processes and ongoing continuous voting systems.\n- **Chain Agnostic** - Deployable on any EVM-compatible blockchain.\n\n## Current Implementations\n\nThe following projects are already using Chews Protocol:\n\n1. **Grant Ships** - A competitive ecosystem funding platform that uses Chews to vote or rate grant programs following allocation rounds. Grant Ships utilized 3 separate voting systems:\n    * Standard TCR vote for ARB that allowed Game Facilitators with a the Facilitator Hat Protocol NFT. \n    * SBT TCR for community members who were assigned voting scores for participation in the game.\n    * Dual token voting. Allowed for ARB and the Grant Ships game SBT to be utilized in a parallel vote. \n\n2. **Gitcoin** - A custom version of GrantShips that implements a rubric voting system where judges rate grants programs using specific criteria.\n    * Rubric Votes. Utilizes an innovative Max-Votes-Per-Choice model, and allows judges to vote on each choice using a percentage instead of a token weighted value. This allowed judges to rate each grant program on their own merits instead of relative to each other. \n    * AI-Assisted Public Vote. We generated a Merkle tree from GTC balances on mainnet and allowed users to vote using that balance on an L2 (Arbitrum).\n    * Judge selection vote. This is a standard election that once again uses GTC balances on mainnet to elect judges. Once the vote is completed, the contest automatically mints hats and assigns them to the winners.  \n\n3. **ask.haus** - Collaboration with DAOhaus. Chews was utilized in a proof of concept application for testing various UX patterns around fast and convenient TCR voting within Moloch DAOs. We implemented 2 patterns:\n    * Poll. With pre-populated choices. The idea is to be able to create a fast poll for your DAO in under 2 minutes, and have voters vote on it in less than two minutes.  \n    * Contest. Not to be confused with the poorly named Chews Protocol Contest.sol. This is a dual round system where Moloch DAO members can create choices, and then members can vote on those choices. Like the Poll, this system was designed to executed as quickly and conveniently as possible. \n\n## Architecture\n\nChews Protocol is built around a modular architecture that centers on a high-level contract (Contest.sol) that composes four different types of modules:\n\n### Contest Contract\n\nThe Contest contract bundles all the modules into a standard interface. It manages the state for:\n- Voting stage (if procedural)\n- Continuous vs. procedural status\n- Vote retraction rules\n- Other high-level rules for the voting system\n\n### Module Types\n\n#### 1. Choices Module\nManages the items that users will be voting on. It handles:\n- Choice creation and management\n- Who can create choices\n- Registry of voting options\n\n#### 2. Points Module\nDetermines who can vote and how much voting power they have:\n- Can reference token balances\n- Can use Merkle proofs\n- Supports any custom voting power determination logic\n\n#### 3. Votes Module\nControls how voting happens and its immediate effects:\n- Voting mechanisms (burning, staking, regular voting)\n- Side effects of voting\n- Vote tabulation rules\n\n#### 4. Execution Module\nDefines what happens as a result of the vote:\n- Can mint roles onchain\n- Can distribute funds\n- Controls when and how execution happens\n\n### Procedural vs. Continuous Contests\n\nThe Contest contract maintains a `ContestStatus` enum variable which can be:\n\n**Procedural Flow**: \n1. Populating (for choices creation)\n2. Voting (for submitting votes)\n3. Finalized (ready to be executed)\n4. Executed (after execution)\n\nProcedural contests follow a set path through these stages, typically starting at Populating.\n\n**Continuous Flow**:\nIf set as continuous from the start, the contest steps out of the procedural flow and can run indefinitely, allowing choices to be created and voted on simultaneously.\n\n## Smart Contracts\n\n### Core Contracts\n\n- **Contest.sol** - The high-level contract that bundles modules and manages voting flow\n- **IChoices.sol** - Interface for Choices modules\n- **IPoints.sol** - Interface for Points modules\n- **IVotes.sol** - Interface for Votes modules\n- **IExecution.sol** - Interface for Execution modules\n\n### Pre-built Modules\n\n#### Choices Modules\n- **HatsChoices** - Allows anyone with a specific Hat (NFT role from Hats Protocol) to create a choice, with admin hat management\n\n#### Points Modules\n- **ERC20VotesPoints** - Allows voting based on delegated governance token power\n- **MerklePoints** - Uses arbitrary merkle trees for determining voting eligibility and power\n\n#### Votes Modules\n- **TimedVotes** - Implements time-limited voting periods\n- **RubricVotes** - Allows percentage-based voting for each choice (Max-Vote-Per-Choice model)\n\n#### Execution Modules\n- **HatsExecution** - Mints Hats Protocol NFTs to arbitrary addresses based on voting results\n\n## Usage\n\nTo use Chews Protocol:\n\n1. Select or create the appropriate modules for your use case\n2. Deploy each module with the desired parameters\n3. Deploy a Contest contract that composes these modules\n4. Set the initial contest status (Continuous or Procedural)\n5. If Procedural, manage the progression through stages\n\n## Examples\n\nFor detailed examples of how to implement and interact with Chews Protocol, please refer to the integration tests:\n\n[Link to integration tests folder]\n\n## Roadmap\n\nPlans for V1 include:\n\n- Improved naming conventions for better clarity\n- Standardization of modules for increased reusability\n- Better patterns for passing encoded data between modules (particularly from Points to Votes)\n- Development of templating and referrer patterns to simplify deployment and configuration\n- Comprehensive documentation and tutorials\n\n## Current Limitations\n\n- Initial complexity for developers to learn how components fit together\n- Challenges in deploying Contests and configuring module variables\n- Ongoing experimentation may lead to architectural changes\n\n## Contributing\n\nContributions to Chews Protocol are welcome! As this is an experimental project in active development, please reach out to discuss potential contributions.\n\n## License\n\nChews Protocol is licensed under the [MIT License](LICENSE).\n",
-          "imageURL": "bafkreieuqft5ydi46o52b5ga7vrg26imsvnwcop2znvsg3fcg5ldhl4a3q",
-          "title": "Chews Protocol",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://chewsprotocol.com"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/chewsprotocol"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/DAOmasons"
-            }
-          ],
-          "slug": "chews-protocol",
-          "type": "project-details"
-        },
-        "txid": "0x437fae87332c355f6a7c7de9be8e42f9fb2911faa10b48ae24ef6003cac19292"
-      },
-      "recipient": "0x52774016ea6bd161a4bb6e232019c4bd704bb151",
-      "createdAt": "2025-04-02T04:33:50.000Z",
-      "updatedAt": "2025-04-02T04:33:56.000Z"
-    }
+  "projectId": "0xcd87bca91e6e004a7dcb8ce25ff8173a3b744f7d795112b3d25f42ce50c0aa03",
+  "projectUIDs": [
+    "0xb4c0c8c36c5fa50d8d1d8944ac3f02121fe97185b4be15207777ba593ead03cb"
   ],
   "grants": [
     {

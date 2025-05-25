@@ -1,192 +1,9 @@
 {
   "id": "42161-867-0x706bc44d0c033d10c977ac4a6193e7838b8a795ea0d62cdb8eb0aedb5feaa70c",
-  "projects": [
-    {
-      "uid": "0x86c61f601d498bf6081573434452fea50ea40c27ee2d323e1dab89c9317a323c",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "680abd0de36c6572a3b2ca63"
-        },
-        "uid": "0x54bc5981f8bdb3e43a5e00d1be66d2c11eb6c1177159c66d6ae6eb52449c29b3",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0x86c61f601d498bf6081573434452fea50ea40c27ee2d323e1dab89c9317a323c",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xba6dff87620cbd529fa7a0f9b5188240cac64e67",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1745534217,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1745534221,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "ProjectDetails",
-        "data": {
-          "title": "Karma GAP",
-          "description": "We are building a Grantee Accountability Protocol (GAP) to address challenges in grant programs within the crypto ecosystem. The current lack of standardization in publishing milestones and progress updates hinders project tracking, accountability, visibility and reputation building. Our solution involves on-chain reporting, comprehensive data storage, enhanced reputation building, and enables the development of novel applications. This protocol will provide easy access, a common interface, and valuable insights for various grant programs.",
-          "problem": "Grant programs in the crypto ecosystem lack a standardized method for grantees to publish progress updates and milestones, leading to several issues:\n\n**Limited Accessibility**: Currently, it is challenging for grant teams and the community to easily access and track project progress and milestones, as information is scattered across forums and external links.\n\n**Reputation Portability**: Grantees who apply for grants from multiple organizations struggle to establish and carry their reputation consistently across the ecosystem. This is particularly difficult for individuals who are new to the ecosystem and need opportunities to showcase their work and build their reputation.\n\n**Inadequate Data Structure**: The absence of structured data that can be accessed in a permissionless manner hampers the development of applications and analytical tools for evaluating grant impact and builder reputation.",
-          "solution": "To address the aforementioned problems, we propose the implementation of a Grantee Accountability Protocol where grant teams can post information about the grant and grantees can post milestones and progress updates onchain. This solves a number of problems explained below\n\n**Onchain Reporting**: Grantees will utilize the protocol to self-report their progress and milestones directly on the blockchain through EAS (Ethereum Attestation Service). Leveraging the existing support for EAS schemas, we will define schemas tailored to various reporting needs.\n\n**Universal data access**: By storing all grant-related data onchain, we eliminate the need for manual searching and external links. We will build an interface for grantees and grant teams to interact with the protocol. Communities are not obligated to use this interface but are welcome to build their own interface to present this information in interesting ways.\n\n**Enhanced Reputation Building**: Our protocol will enable the linking of team member profiles to specific projects. This feature empowers team members to build and showcase their reputation for their contributions. Additionally, this reputation can be carried over to other DAOs, opening opportunities for involvement in various areas of DAO governance or similar initiatives.\n\n**Grant Farming**: It is well known in the ecosystem that there are teams who simply try to get grants and either don’t fully execute or do it with no goal of making the project a success. Having better visibility can help community and grant admins evaluate teams before issuing grants.\n\n**Facilitating Novel Applications**: With comprehensive on-chain data available, the protocol encourages the development of innovative applications. Few applications we can think of that can be built on top of this protocol are:\n- Grantee reputation systems\n- Project impact analysis tools\n- Signaling for future grants\n- Auto monitor milestones and progress updates and alert the community\n- Endorsing teams and team members working on projects",
-          "missionSummary": "Our mission is to bring transparency and accountability to grants ecosystem, help grantees build and showcase reputation opening doors to new economic opportunities.",
-          "locationOfImpact": "",
-          "imageURL": "",
-          "links": [
-            {
-              "url": "https://discord.com/invite/X4fwgzPReJ",
-              "type": "discord"
-            },
-            {
-              "url": "show-karma",
-              "type": "github"
-            },
-            {
-              "url": "",
-              "type": "linkedin"
-            },
-            {
-              "url": "karmahq_",
-              "type": "twitter"
-            },
-            {
-              "url": "",
-              "type": "website"
-            },
-            {
-              "url": "",
-              "type": "pitchDeck"
-            },
-            {
-              "url": "",
-              "type": "demoVideo"
-            },
-            {
-              "url": "",
-              "type": "farcaster"
-            }
-          ],
-          "slug": "karma-gap-1",
-          "tags": [
-            {
-              "name": "governance"
-            },
-            {
-              "name": "grants"
-            }
-          ],
-          "businessModel": "",
-          "stageIn": "",
-          "raisedMoney": ""
-        },
-        "txid": "0x7db94129fe5f61c281133c7e3555ee74e1773c5610f0ca4f87639e7ce3a0a7ec"
-      },
-      "recipient": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
-      "createdAt": "2023-12-08T21:16:53.000Z",
-      "updatedAt": "2023-10-16T15:30:44.000Z"
-    },
-    {
-      "uid": "0x2e7d3b12cb69773fefa29d19e2211a967f3131f863ce797acdd9ad5250acf57c",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "6728a7025275374d2583f504"
-        },
-        "uid": "0x63201e1dd7aa3f923c3696442fa387ae88c2bb6f16793291c02e254a2a28b167",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0x2e7d3b12cb69773fefa29d19e2211a967f3131f863ce797acdd9ad5250acf57c",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1730717438,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1730717442,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "Funding map is an onchain grant program registry of all all the grant programs in the web3 ecosystem. This registry is actively maintained by our team on a weekly basis. \n\nThousands of projects discover grant programs and apply to grow their projects. \n\nGrant programs get visibility and receive high quality builders to their programs.\n\nThe registry is fully onchain build on Allo protocol. There is an API end point that is used by many services such as Ecosystem.vision, Blockful and many others to integrate and build on top of this program registry. ",
-          "imageURL": "bafkreichsn33lf6xk3nfpjuvy4jbcun2ubjbhx7usnmf2cxhycmrzltdau",
-          "title": "Karma GAP - Funding Map on Allo",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://gap.karmahq.xyz/funding-map"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/karmahq_"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/show-karma"
-            }
-          ],
-          "slug": "karma-gap---funding-map-on-allo",
-          "type": "project-details"
-        },
-        "txid": "0x17666d45cc95959276655680a1d3b67bda35b67c2bc40ff7da40d835b1a489cf",
-        "externalIds": []
-      },
-      "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-      "createdAt": "2024-11-04T10:50:38.000Z",
-      "updatedAt": "2024-11-04T10:50:42.000Z"
-    },
-    {
-      "uid": "0xc93ac07081287f5263c2529d8060a3260975f182410fd626280db3171f9eb7f2",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "6802e51f3f5df5707cf2084b"
-        },
-        "uid": "0x1e95b489a496fb0e77b2663642846b1cfea3282d509d242067d370f97137626d",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0xc93ac07081287f5263c2529d8060a3260975f182410fd626280db3171f9eb7f2",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1745020185,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1745020191,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "<h3><strong>Karma GAP: The Standard for Grant Accountability and Impact Measurement</strong></h3><p><br></p><p>Karma GAP is a grant accountability and impact measurement platform that helps funders track project progress, verify milestones, and make data-driven funding decisions. Grantees use GAP to showcase their work, secure endorsements, and build an onchain reputation. By standardizing accountability and reputation in web3 funding, Karma GAP ensures that capital is allocated efficiently, supporting high-quality projects with verifiable impact.</p><p><br></p><h4><strong>Problem</strong></h4><p>The web3 funding ecosystem lacks a reliable, transparent, and scalable way to measure the impact of grants. Funders struggle to track project progress and verify outcomes, leading to inefficient capital allocation, misaligned incentives, and wasted resources. Builders face difficulties in showcasing their work, securing follow-on funding, and building a long-term reputation. The absence of a standardized evaluation framework means that high-quality projects often go unnoticed, while funders make decisions based on incomplete or unverifiable data.</p><p><br></p><h4><strong>Solution</strong></h4><p>Karma GAP is a grant accountability and impact measurement platform that enables funders, grantees, and evaluators to track project progress, verify milestones, and build reputation—all onchain.</p><ul><li><strong>For Funders:</strong> Provides real-time dashboards, project updates, and impact attestations to make data-driven funding decisions.</li><li><strong>For Grantees:</strong> Offers a structured way to report progress, receive endorsements, and establish a verifiable onchain reputation for future funding opportunities.</li><li><strong>For the Ecosystem:</strong> Enables interoperability between funding programs, creating a shared infrastructure for reputation, impact tracking, and decision-making.</li></ul><p>Key Features:</p><ul><li><strong>Milestone Tracking:</strong> Structured reporting with clear deliverables and deadlines.</li><li><strong>Impact Attestations:</strong> Verifiable claims on project outcomes recorded onchain.</li><li><strong>Reputation System:</strong> Public, portable records of grantees and evaluators to improve funding efficiency.</li><li><strong>Karma Beacon - Automated Insights &amp; Summarization:</strong> AI-powered reporting for funders to quickly assess project progress.</li></ul><p><br></p><h4><strong>Mission</strong></h4><p>Karma GAP aims to create a transparent, trustless, and reputation-driven funding ecosystem where high-quality projects receive the support they deserve. By setting the standard for accountability and impact measurement, we empower communities, funders, and builders to maximize the effectiveness of grant capital, fostering long-term sustainability and innovation in web3.</p>",
-          "title": "Karma GAP",
-          "slug": "karma-gap-2",
-          "imageURL": "https://giveth.mypinata.cloud/ipfs/QmStG1XLsGreQD1ME6N1GhByFv6Vg7hit2rfDJ3hKKdY1p",
-          "type": "project-details"
-        },
-        "txid": "0x78af3f3297ad9eeedefb94680c004275592feb07f0b159ef797171c857b3f452"
-      },
-      "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-      "createdAt": "2025-04-18T23:49:45.000Z",
-      "updatedAt": "2025-04-18T23:49:49.000Z"
-    }
+  "projectId": "0x706bc44d0c033d10c977ac4a6193e7838b8a795ea0d62cdb8eb0aedb5feaa70c",
+  "projectUIDs": [
+    "0x86c61f601d498bf6081573434452fea50ea40c27ee2d323e1dab89c9317a323c",
+    "0x129491c07c0401e4cf42af08ab30015b09ca390d4217aefe00fcae58b819b3a9"
   ],
   "grants": [
     {
@@ -5706,129 +5523,89 @@
     },
     {
       "_id": {
-        "$oid": "6728a7025275374d2583f502"
+        "$oid": "663aa581e9dbde519dd0f279"
       },
-      "uid": "0xafe869fae366cde4f27b3ed296d51b77b080f800c556baad4d67aacd68f5b6d0",
+      "uid": "0xe7390a6f68ff70e0f7cda461079f92dad0150003e7ec541c7fb9e55e912211c0",
       "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
-      "refUID": "0x2e7d3b12cb69773fefa29d19e2211a967f3131f863ce797acdd9ad5250acf57c",
+      "refUID": "0x129491c07c0401e4cf42af08ab30015b09ca390d4217aefe00fcae58b819b3a9",
       "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-      "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
+      "recipient": "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B",
       "revoked": false,
       "revocationTime": 0,
-      "createdAt": "2024-11-04T10:50:38.000Z",
-      "updatedAt": "2024-11-04T10:50:42.000Z",
+      "createdAt": "2024-05-07T22:04:48.000Z",
+      "updatedAt": "2024-05-07T22:04:49.000Z",
       "chainID": 42161,
       "type": "Grant",
       "data": {
-        "communityUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24"
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
       },
-      "txid": "0x17666d45cc95959276655680a1d3b67bda35b67c2bc40ff7da40d835b1a489cf",
       "externalIds": [
-        "0x25d27ed8c40c7fb723366910e8a08fa53af2b73757772c571835fc0b1e18e5aa"
+        "0xd57a9668e8dced80b5f86a40abe7674618284f4ed3eb39e44542f14350c6a359",
+        "0x706bc44d0c033d10c977ac4a6193e7838b8a795ea0d62cdb8eb0aedb5feaa70c"
       ],
+      "txid": "0xaea99cc8551147d849e2690cc26301efb07441b0500a19fc352762643371befb",
       "external": {
         "gitcoin": [
-          "0x25d27ed8c40c7fb723366910e8a08fa53af2b73757772c571835fc0b1e18e5aa"
+          "0xd57a9668e8dced80b5f86a40abe7674618284f4ed3eb39e44542f14350c6a359",
+          "0x706bc44d0c033d10c977ac4a6193e7838b8a795ea0d62cdb8eb0aedb5feaa70c"
         ]
       },
       "details": {
         "_id": {
-          "$oid": "6728a7025275374d2583f503"
+          "$oid": "663aa581e9dbde519dd0f27c"
         },
-        "uid": "0x54aa433c488348c84f3f1ab0788b7bf81a1ba7938c1fd493d34bedf5ab3ad186",
+        "uid": "0xe556a3fb450328ec5a5fc9c510e24953394494eb21c493721a434ffab5d7f5f8",
         "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xafe869fae366cde4f27b3ed296d51b77b080f800c556baad4d67aacd68f5b6d0",
+        "refUID": "0xe7390a6f68ff70e0f7cda461079f92dad0150003e7ec541c7fb9e55e912211c0",
         "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
+        "recipient": "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1730717438,
+            "t": 1715119488,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1730717442,
+            "t": 1715119489,
             "i": 0
           }
         },
         "chainID": 42161,
         "type": "GrantDetails",
         "data": {
-          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/636/11",
-          "title": "Allo Builders Advancement Round",
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/25/83",
+          "title": "GG20 - dApps & Apps",
           "description": "",
           "payoutAddress": "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B",
-          "programId": "636_42161",
-          "questions": [
-            {
-              "type": "short-answer",
-              "query": "Project GitHub Repo",
-              "explanation": "show-karma"
-            },
-            {
-              "type": "paragraph",
-              "query": "Have you participated in a previous Gitcoin Grants Round with this project? If so, please name the rounds or link the builder profile to prior rounds.",
-              "explanation": "N/A"
-            },
-            {
-              "type": "paragraph",
-              "query": "How does your project focus on building on, integrating with, or supporting the Allo Protocol ecosystem? Please provide specific examples of your work and plans.",
-              "explanation": "The funding map is built on top of Allo Protocol. We use the allo registry to store all the grant programs. "
-            },
-            {
-              "type": "paragraph",
-              "query": "Describe your project's current status and roadmap. Are you actively developing on Allo Protocol, or do you have a clear plan for future integration?",
-              "explanation": "We are actively utilizing the Allo protocol today. The entire application is built on Allo. \n\nOur roadmap for next few months include:\n- Making the data more robust\n- Build an AI matching tool to match projects with grant programs"
-            },
-            {
-              "type": "paragraph",
-              "query": "Outline your plans for community engagement and user adoption. How will you contribute to expanding the Allo ecosystem?",
-              "explanation": "We share all the grant programs we add to the registry with our community on weekly basis. We share it on Twitter, Telegram and Discord. We have had many people reaching out to us and thanking for sharing these new programs with them."
-            },
-            {
-              "type": "paragraph",
-              "query": "How do you envision your project driving GMV (Gross Merchandise Value) through the Allo protocol? Please provide potential metrics or estimates.",
-              "explanation": "Today, we only use the registry part of the Allo protocol. It doesn't impact GMV directly. However, we direct lots of projects to rounds run on Allo which indirectly helps with GMV. "
-            },
-            {
-              "type": "paragraph",
-              "query": "Provide your Karma GAP profile link and briefly describe how you'll use it for milestone tracking.",
-              "explanation": "https://gap.karmahq.xyz/project/karma---gap\n\nAs soon as the round is complete, we will create milestones and share publicly. We will regularly post updates on our progress."
-            },
-            {
-              "type": "paragraph",
-              "query": "If applicable, list any contract addresses or other verifiable on-chain objects related to your project that demonstrate your work with Allo. Use this format for each entry: [contract_address], [chain_id]",
-              "explanation": "N/A"
-            }
-          ],
-          "type": "grant-details"
+          "type": "grant-details",
+          "programId": "536_42161"
         },
-        "txid": "0x17666d45cc95959276655680a1d3b67bda35b67c2bc40ff7da40d835b1a489cf",
-        "externalIds": []
+        "externalIds": [],
+        "txid": "0xaea99cc8551147d849e2690cc26301efb07441b0500a19fc352762643371befb"
       },
       "project": {
         "_id": {
-          "$oid": "6728a7025275374d2583f501"
+          "$oid": "663aa581e9dbde519dd0f278"
         },
-        "uid": "0x2e7d3b12cb69773fefa29d19e2211a967f3131f863ce797acdd9ad5250acf57c",
+        "uid": "0x129491c07c0401e4cf42af08ab30015b09ca390d4217aefe00fcae58b819b3a9",
         "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
         "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
+        "recipient": "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1730717438,
+            "t": 1715119488,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1730717442,
+            "t": 1715119489,
             "i": 0
           }
         },
@@ -5837,33 +5614,176 @@
         "data": {
           "project": true
         },
-        "txid": "0x17666d45cc95959276655680a1d3b67bda35b67c2bc40ff7da40d835b1a489cf",
         "externalIds": [],
+        "txid": "0xaea99cc8551147d849e2690cc26301efb07441b0500a19fc352762643371befb",
+        "external": {
+          "oso": [
+            "0x887b15567edf2bcae574c66e1e909547fa86a2d3c15c18241071af8924edcf1c"
+          ]
+        },
         "categories": []
       },
       "categories": [],
-      "milestones": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67193ef2afbbae7d0f093a8d"
+          },
+          "uid": "0x2f18d79c26e0f862d9cf6f820595f1d93b38be0e48459f9232357ee489b7ef0a",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xe7390a6f68ff70e0f7cda461079f92dad0150003e7ec541c7fb9e55e912211c0",
+          "attester": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+          "recipient": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1729707759,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1729707762,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "title": "Gitcoin grantees can airdrop NFT to their donors",
+            "description": "Gitcoin grantees should be able to easily airdrop NFTs to their donors as a thank you for donating in the round.",
+            "endsAt": 1726297200,
+            "type": "milestone"
+          },
+          "txid": "0xdc9b9ff4f5cd4211458fa90c3fa389068ee6734f29bbf56539e33a3708343940",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67193f68afbbae7d0f093a8e"
+              },
+              "uid": "0xc999c07e27ebce190eb936dddaf185e5bb4edfa0a3e5a3a57a05af4de9eeb0c9",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x2f18d79c26e0f862d9cf6f820595f1d93b38be0e48459f9232357ee489b7ef0a",
+              "attester": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+              "recipient": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1729707877,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1729707880,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We shipped the feature for grantees to airdrop NFTs to their donors on Gitcoin. You can simply paste your project round url and it will do all the heavylifting of fetching the donor addresses and give you a space to upload your NFT art. You simply mint and send NFTs to your donors in one click!",
+                "proofOfWork": "https://gap.karmahq.xyz/karma-gap-patron"
+              },
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67193f68afbbae7d0f093a8e"
+              },
+              "uid": "0xc999c07e27ebce190eb936dddaf185e5bb4edfa0a3e5a3a57a05af4de9eeb0c9",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x2f18d79c26e0f862d9cf6f820595f1d93b38be0e48459f9232357ee489b7ef0a",
+              "attester": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+              "recipient": "0x7916dba3a610b020d77c0ccfd4bd717ee400a5f2",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1729707877,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1729707880,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We shipped the feature for grantees to airdrop NFTs to their donors on Gitcoin. You can simply paste your project round url and it will do all the heavylifting of fetching the donor addresses and give you a space to upload your NFT art. You simply mint and send NFTs to your donors in one click!",
+                "proofOfWork": "https://gap.karmahq.xyz/karma-gap-patron"
+              },
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
       "updates": [],
-      "community": {
+      "completed": {
         "_id": {
-          "$oid": "66e0b7dbd3cd46ee447814dc"
+          "$oid": "670ee7d25ff8233e5158dad8"
         },
-        "uid": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
-        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "uid": "0x8de783d9707b4cedae458c0e4337be6849a4be990072c4a60eb3dbb4fa7cf12c",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xe7390a6f68ff70e0f7cda461079f92dad0150003e7ec541c7fb9e55e912211c0",
         "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1726003160,
+            "t": 1729030096,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1726003163,
+            "t": 1729030097,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "",
+          "type": "grant-completed"
+        },
+        "externalIds": []
+      },
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
             "i": 0
           }
         },
@@ -5872,203 +5792,40 @@
         "data": {
           "community": true
         },
-        "txid": "0x6738e9f7feac7b06dd086cf3220bf0d861fe4bd5ccee1caa91f5273d1f8e0134",
-        "externalIds": [],
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
         "details": {
           "_id": {
-            "$oid": "66e0b891d3cd46ee447814de"
+            "$oid": "6626ecd715b7516dd09f6c6e"
           },
-          "uid": "0x72dedd4fa45661de6a76d65d047857d48a43f7e4bca4ab463ada2af3d1afb3f0",
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
           "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-          "refUID": "0x3d58e934e602ff81386e83cc246c8b024c10d6fe4bfdd3f3ac15225a02573c24",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
           "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
           "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
           "revoked": false,
           "revocationTime": 0,
           "createdAt": {
             "$timestamp": {
-              "t": 1726003342,
+              "t": 1713827029,
               "i": 0
             }
           },
           "updatedAt": {
             "$timestamp": {
-              "t": 1726003345,
+              "t": 1713827031,
               "i": 0
             }
           },
           "chainID": 42161,
           "type": "CommunityDetails",
           "data": {
-            "name": "Cartographer Syndicate",
-            "description": "Cartographer Syndicate",
-            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/cartographer-syndicate-karma-gap.png",
-            "slug": "cartographer-syndicate-community"
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDw8NDQ8NDQ0NDQ0ODg0QDQ8PDg0OFREWFxUXFRUYHSgsGBomHRUVITMhJiorLi4uFx8zODMsNygtLisBCgoKDg0OGBAPGisdIB0tKy0tLS0rLSsrLSstLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tKys3LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIHBAUGAwj/xABJEAACAgEBBAcCBg0MAwEAAAAAAQIDBBEFBhIhBxMxQVFhcSKBFDJCVJGhFhcjNVJicnSTlLHB0iQzNFOCkqKztMLR8GOy4RX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQMEAgX/xAAjEQEAAgICAgIDAQEAAAAAAAAAAQIDESExBBITMkFhkVEi/9oADAMBAAIRAxEAPwDgtA0GM2PGR0DQkAEdA0JCAjoA2AER6DABaBoMYEdCLRMTA8miJ6Mg0EojAegCJIEiQAkPQEMBaCGxAAh6gAg0GDAWgAAHsNCGEAYAAhMbEwEAwAQDABDAAEJkhMCDRFomyLCUdB6AMAAAAYgAABgACGIAgwEASAAAh7jAAAAABMTGxMAAAAAA2m69cZ5+HGSUoyyqE0+x+2gmI3OmfTuLtadPXxxnwuPEq3OCukvKDf1dpzsotNpppptNNaNNPRprxPpplC9IUIx2rmqKSXWVS0XjKmuTfvbb95XS/tLRmwxSImGhopnZKNdcZTsnJRhCK1lKT7Ekb7aO5O1Mel5FuP8Ac4rinwWQnOuPe5RT7PTUz+ieEZbTjqk+DGvlH8WXsx1+iT+kuvRPk+afJrxRF76nRhwReszL5hZFnvmQUbLYxWkY22RivCKk0kY7LWcBqLUNQHqGpHUYDAQASAQAAAJgGoaiAB6gRGBlAABAEDYgGIAAAAAA226X3wwvzun/ANjUm43OrlLaOEopyayapaJNtJPVv0S7yJ6dV+0PoMorf6iyzbGZCqE7ZudHsVwlOf8AR6u6JeolCKbkklKWmskkm/V95mpb1ellx/JGlXdGe7G0MfM+FZOPKin4PbBSnKCk5ScNFwJ69z5tFpAQsuhHlOUYP8aSj+0WtNp2nHSKV0qfO6K86Vlk4ZGI4zssnHidsZaOTa1Si+fPxNLndHO2KlrGiF67+pvg2v7MuFv3Jl4131yekZwk/CM4t/Uemh18llc+NSenzHm4V9EuDIqton+DZXKDfpqufuPA+ncvEqug67667q5LRwshGcX7mcDvJ0W49mtmz5fBrO3qJtyol6Pm4fWvJHcZIntRfxrR1yqADM2pszIxbHRk1Tptjz4ZLlJeMX2SXmjE0LWaY12QD0DQADUNAANRAIAABAMBDAyxMBBAEJgAxiGAAPQ9sTFsushTVFzttnGEILtlJvRenqBkbD2NkZt0cfHjrN85SfxK4d8pPuReO6+7GNs6vhqXHdJLrciSXWWeX4sfCK+vtDdHd2rZ2Oqo6SunpLIt0/nLNO78Vdy/5Zss3PppdatnGDvtjTVF9tlkuxJfvM97zbiHo4cMUjdu2ScBvp0gzw77MPFpjK6rg47rW3CLlCMlwwXxuUlzbXPuZ35RHSL99s38uj/T1DHETPKfIvNa8MPaW9W0snXrsu7R/Irl1UEvDhhp9ZpprXt9rzfMkI0ah50zM9oqOnNcvTkbTZ+8W0MbTqMvIgl2QdjnXp+RLVfUa0NBoiZjpY2wulWxNQ2hTGcezr6FwzS/Grb0l7mvQsrZe08fKrV2NbC6t8uKL5xfhJdsX5M+bWjN2NtfJwrVfi2OufJSXbCyP4M4/KX/AFaFdscT004/JtHFuV/bf2FjZ9LoyYcS5uFi5WVS/ChLuf1MovevdrI2bd1Vvt1z1dF6WkbYr9kly1X7UXPuhvTRtKrigurvrS6/Hb1cH4xfyovuZn7f2PRnY88W9awnzjJfGqsXxZR81r79Wu8rraazqV+THXJXde3zcMzdt7Kuw8izFvWllUvjLXhsg+cZR8mv+O4wTRDz5iY4k9BaDQ9AIaCaPTQTQHmIm0RaAQwADJExiYQQIBoBokkJEgAs7ok2CtJ7StjzblVjarsS5WTXv1j7peJWuPTKycKoc52zhXBeM5SUV9bR9F7MwYY1FWPXyhTXGteei5v3vV+8ryTqNNPjU3bc/hPMyq6a53WyUK6oSnOT7opaspWe8k8za2Nl3t1015VKrg37NFXGvr72/wByOn6XttNRq2fW/jpX36P5KelcX71J/wBlFYEY68bdeRl/61H4fTBQu/8AbGe1MyUGpR62uOq7OKFMIyXucWvceNW9e04VfB4Zl8alHhUdY8Sjppop6cSXozTMmlPVzmzxeIiIIDpd1ty8vaH3RfcMbXTr5xft+PVx+V68l5lg4PRlsyCSt+EZMu+UrXWvcq9NPrJm8Q4pgvbpTOgF05XRpsqaahG+h90oXzlp7rOI4fefo9zMRO2jXMoXbwQfXVr8aC11XnHX0Qi8SXwXrDjWTxsWy2caqYTtsm9I1wi5SfuR1G7O4ebmtTsjLExtedlkGrJrv4IPm/V6L1Lb3f3dw8CHBjV8Mmvbtl7Vtn5UvDyWi8hbJEJx4LX5niHK9H24t2Fas3Kmle65wjjwalGClprxy73y7Fy82d+Kc1FayaSXezjd/wDeHKoxJWYLjDScY2WuPFOEJctYJ8k9eFc13lOrXlqm+PDGploempY2mK9Y/DFKUXFNcXwbhb9ry4tNPWRVyZK+2c5SsslKyyb1nOUnKc34tvtIGisajTFkv722nqNM80ySZLhMCKY9QBoi0S1EBHQCQAeogAIA0IaAkhiQwOm6OMPrtp4+vxaetvl/Zg+H/E4/QXkVF0PQTzb5afFw5aPwbtr/APpbV1nDGU+3gjKWnotSjL9noeNGqbUFvhnvIz8q3XVddKuHlCv2Fp/d195pw4tefjz+kC/8MEzudhnSbh7uf/oZWlmvwahKy/Tlx8/Zgn5tc/JM5ply9EuJGGzut09rJyLZt+UH1aXp7L+lnF51C3BT2vqXZV1xjFQglGMUoxiloopdiSNDtzfPZ2FN1XWudy+NVVHrJw/K7ovmuTeob+bYnhYFt1T0um401S/AnPlxe5Jv1SKGk2222222229W2+1t95VSntzLVmz+nFV5bJ392XkzVStlTZJpRV8OrU23okpc1rzXLU6c+ZWXP0WbasysOVVzc7MSxVqcnrKdUlrDV+K5x9Eib49RuEYc83n1s7M5XenfrDweKqDWTlLl1MJLhrf/AJJ/J9O02G+jsWzc2VU5VzjjWTUovhklFay0fdyTPn1DHSJ5lOfNNOIWbuhvVk51t8MuUXJKNtUYR4YQhrwyUVz5auPa2+b5nQ7SxVfTbRLstqnD0bXJ/Toystw7uHPqX9ZG2t/3HL/aWsaa9PEzzPvtQc4tNp8mm014NdpBmftutRysmK5KOVkJLwSsloYDOWuOgNCAJSTGRHqBICOowGAgAnqBEaAkiSIokghJDEAHe9Dsv5bkLxw39Vtf/JbGRByhOK7ZQlFerTRSnRllqralCfZfC6lvwbg5R+uCXvLvRnyfZ6HjTumnzOlpy8OXvA2m9GD8GzsqjTRQvm4ru4Jvjjp7pI1ZojpgmNTomXR0UZMZ7MjBNa0X31yXg5S6xfVMpdnX9Gu8ccLJdN0uHHy+GMpPsqtXxJPyevC35p9iOLxuFuC8VvysPpI2ZZk7OtVScrKZQvUEm3NQ14kku18Lb08UUWmfTZxm3ujjBypyuqlPEsm3KarSlVNvtfA+x+jXa+RXjvEcS058E3n2qpcuDoh2bOrEtyJpr4XanWn2uqC0Uve3L3JPvDZXRfhVTU8i23LUXqqmlXU3r8pLnL0108TuoxSSSSSSSSS0SS7EkTe8TGoRgwTWfazSb828GzM56a64tkOxv464f39p8/H05KKaaaTTTTTWqa70zgd6ejWi/iuwHHGuerdL1+D2Py0/m36cvIjHaI4lPkYrW5hwO4lbltChr5Ctm/Tq5L/cWwcRuHsHIx78ieVVOmyuEaYxmlz4nxScWuUl7Mea5c2djmZEaq7Lpco1Vzm/SKbNMdPEz/fSl9uy1y8p9qeVkaPxXWS0Neydk3JuT7ZNyfq3qzzOWyOgAAEgYgAYxAA9QEAE0NCJIBokJEkEGAhge2HlSptrvh8em2u2Pm4yT0+o+jcLKhdVXfW067q4WQfjGS1R81lrdEe3lOqez7Je3RxWUav41Lesor8mT19JeRVkjcbavGvq2v8AWJ0v7GalTtCC9lpY9/k1q65P11kvdErY+j9p4FWTTZj3Liqug4SXevBrwafNehQG3tj3YN88a7nKPOE0tI21v4s15Pw7nqu4nHbcaPJx6n2j8teyLRIRYyu13R6Qr8SMaMuMsnGjooSTXX0x8E38ePk+fn3Fh4O/Gybkmsuqt/g3a0yX9/QoYicTjiV9PIvWNdr+y989k1Jylm489O6qXXSfooanDbz9J1lidWzYyoi+3JsjF2tfiQeqj6vV+hXQmRGOITbyb2jXTv8AdjpMyKWq9oa5NTa+7xUVfX6paKa+h+pamzNpY+VWrsa2F1b5cUXro/CS7YvyfM+a2ZmyNr5WHZ12LbKqfZLTnGa8JRfKSFscT0nH5E14tzD6PupjNaSWq+tehw/SNs7LWFOOLXO6M5R67g52QpXN+z2y5pJ6d2p77l7/AFOfKONfDqMxp8KWrpv0Wr4G/ivRN8L8HzZ2iK4tak6X3w482rPlvUDZbzQUc7NjFJRjm5SSXJJdbLkjWmhhnsAABAAAABiABgIYHoiSEhoIMkIAGAAAMyNm51uNdXkUy4baZqcX3eafimtU14Mx2IETp9D7t7cpz8eORVyb9m2rVOVNi7Yv9qfemjw3r3ao2jT1dnsXQ1dF6Wsq5PtTXfF8tV5eRS27W379n39fTzUko21N6Qugn2Pwa56Pu+kvHYG3cbPpV2PLXsVlb0VlMvwZr9/Y+4z2rNZ3D0MWSuWvrbtRO2tj5GFa6MmHBNc4yXOFkfwoPvX/AFmAz6M2tsrGy63TlVRtr7VrylCWmnFGS5xfmis9v9GORW3PAmsivm1TZKMLl5KXZL36FlckT2oyePav15V6yJl7Q2fkY7ccim2hr+srlFP0b5P3GIWM+tANAQ0EI6CaPTQTQHQdHP32wvy7v9PYX2UL0dffbC/Lv/09hfRRl7b/ABPrL5v3p/p+d+fZX+bI1Ztd6V/L8789yv8ANkaoujpinuSAAJQYCABgAAAAAHshoSGghIBDAYCHqACAAAzdlbTyMWxXY1kqrI8uJdkl4ST5SXkzCGgmJ10t7dzpJxrlGvOSxbuS61avHm/Xth7+XmdzVbGcVOEozhJaxnGSlGS8mu0+ajM2btfLxXxYt9tD71CXsP1i+T96KrYv8aaeVMcW5fRc4KS0klJeDSa+g1eRuzs2x6zwsST8eorX7EVjgdKO0a9FdXjZEfFwlVY/fF6f4Tb19LUdFx4L173HKWnuTgceloX/AD457dj9iGyfmOL+iQfYhsn5ji/okcj9tmr5lZ+sR/hJfbYq+ZWfrEf4R63Pkw/r+Os+xHZXzHF/RIPsQ2T8xxf0SOT+2vV8ys/WI/wh9ter5lZ+sR/hHrc+TD+v47TA3fwMefW4+Lj02JOKnCtKST7dGbMrh9LFXzKz9Yj/AAkJ9LUNHw4M+LTlrkx4dfPSBHpaUxmxx1KvN6f6fnfnuV/myNS0Zefkyuttvnpx3W2Wz07OKcnJ6eXMxmaYefM7lAQ2JhAAAAAAAAYgA90MQwgwAAGAAACGxMAJIiNASBgJgJgAwBEkCGgGJgxAJkWSYgIMgz0ZBgebETaIMJIAAAAAAAAAPcZFDAYCGEGNEUSAGJjYgAABASAQAA0IkgGhggAGRbGyLABAACESEBBog0erRBoJebESaEBEBiAYCAD3DUQAPUZEYEhoihhCQmAAIAAA1GIEBNEkQRMAABMBMQMAAQAADEAAyLRIQEGiDR6Mi0EoCJNCAiMAA9QYAAhgAEkNAAQYmMAEIAABoAAkiaAAATAAIsAABMAAAAAAQAACEwAJRZBjABAAAf/Z",
+            "slug": "gitcoin-arb"
           },
-          "externalIds": []
-        }
-      }
-    },
-    {
-      "_id": {
-        "$oid": "6802e51d3f5df5707cf2084a"
-      },
-      "uid": "0x4b811222db2f38c031d14b2dc5593c57c9ccc072417bd7c9b73f339958c731b7",
-      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
-      "refUID": "0xc93ac07081287f5263c2529d8060a3260975f182410fd626280db3171f9eb7f2",
-      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-      "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-      "revoked": false,
-      "revocationTime": 0,
-      "createdAt": "2025-04-18T23:49:45.000Z",
-      "updatedAt": "2025-04-18T23:49:49.000Z",
-      "chainID": 10,
-      "type": "Grant",
-      "data": {
-        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
-      },
-      "external": {
-        "giveth": [
-          "14885"
-        ],
-        "octant": [
-          "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
-        ]
-      },
-      "txid": "0x78af3f3297ad9eeedefb94680c004275592feb07f0b159ef797171c857b3f452",
-      "details": {
-        "_id": {
-          "$oid": "6802e51f3f5df5707cf2084d"
-        },
-        "uid": "0x21500ca8378300568fda6a36f3d65dc81893d7700292162c3ff2a909f073365b",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0x4b811222db2f38c031d14b2dc5593c57c9ccc072417bd7c9b73f339958c731b7",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1745020185,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1745020191,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "GrantDetails",
-        "data": {
-          "proposalURL": "https://giveth.io/project/karma-gap",
-          "title": "ENS x Octant Public Goods",
-          "description": "We are participating in Octant x ENS QF round on Giveth",
-          "payoutAddress": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-          "programId": "874_42161",
-          "amount": "80000 USDC",
-          "type": "grant-details"
-        },
-        "txid": "0x78af3f3297ad9eeedefb94680c004275592feb07f0b159ef797171c857b3f452"
-      },
-      "project": {
-        "_id": {
-          "$oid": "6802e51d3f5df5707cf20849"
-        },
-        "uid": "0xc93ac07081287f5263c2529d8060a3260975f182410fd626280db3171f9eb7f2",
-        "schemaUID": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1745020185,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1745020189,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "Project",
-        "data": {
-          "project": true
-        },
-        "txid": "0x78af3f3297ad9eeedefb94680c004275592feb07f0b159ef797171c857b3f452",
-        "categories": []
-      },
-      "categories": [],
-      "milestones": [],
-      "updates": [],
-      "community": {
-        "_id": {
-          "$oid": "66a885ab00c3dbcb784e259e"
-        },
-        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
-        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1722319215,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1722320299,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "Community",
-        "data": {
-          "community": true
-        },
-        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
-        "externalIds": [],
-        "details": {
-          "_id": {
-            "$oid": "66a885ab00c3dbcb784e259f"
-          },
-          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
-          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
-          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
-          "revoked": false,
-          "revocationTime": 0,
-          "createdAt": {
-            "$timestamp": {
-              "t": 1722319233,
-              "i": 0
-            }
-          },
-          "updatedAt": {
-            "$timestamp": {
-              "t": 1722320299,
-              "i": 0
-            }
-          },
-          "chainID": 10,
-          "type": "CommunityDetails",
-          "data": {
-            "name": "Octant",
-            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
-            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
-            "slug": "octant"
-          },
-          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
-          "externalIds": []
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
         }
       }
     }

@@ -1,61 +1,8 @@
 {
   "id": "42161-867-0xffaf639c80ff9cf85cd76977d0c55e07c929eb7c5480d900c82e1da8465c342e",
-  "projects": [
-    {
-      "uid": "0xed05c9ce9f28c12eefcc3b3619e594fc257c5167c391d39cf221868c61a964de",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "67ef94b66172d497312589b0"
-        },
-        "uid": "0x26799064ee2f0d5710299a3949566a075d9e5889f0ca2555b5ee78ac12e2349f",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xed05c9ce9f28c12eefcc3b3619e594fc257c5167c391d39cf221868c61a964de",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x8c8efbd94d8d0da7b389cd906a81ef19cf0571c1",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1743754415,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1743754422,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "\n# PrivID: A Privacy-Preserving Identity Verification Layer for AT Protocol\n\n### Tagline  \n**Verified identity without surveillance. Open, secure, and user-owned.**\n\n---\n\n## TL;DR  \nPrivID is an open-source protocol for cryptographically verified identity, starting with integration into the AT Protocol and Bluesky. Built with privacy at its core, PrivID allows users to confirm that an account is backed by a real human identity **without exposing personal data**, using **zero-knowledge proofs** via Holonym.  \nPrivID focuses on **cryptographic trust**, ensuring identity confidence without centralized data collection or invasive tracking systems.\n\n---\n\n## Problem  \nThere is no standardized, privacy-preserving way to prove a real-world identity on decentralized social networks. While the AT Protocol supports decentralized handles and DIDs, it lacks mechanisms to:\n\n- Show whether an account is operated by a real person  \n- Prove attributes like age, citizenship, or humanity without revealing PII  \n- Offer verification without relying on platform-controlled systems\n\n---\n\n## Solution  \nPrivID is a lightweight identity verification protocol that enables:\n\n- Zero-knowledge verified credentials displayed on Bluesky profiles  \n- No centralized databases or trackers  \n- Optional, user-controlled disclosure of identity attributes (e.g., age, nationality)\n\nIt starts as a **browser extension** and **CLI tool**, but is designed for future integration directly into the AT Protocol as a native extension to its data schema.\n\n---\n\n## Core Features\n\n### 🧩 Browser Extension  \n- Detect Bluesky handles and display verified identity badges  \n- Integrate with Holonym ZK identity proofs  \n\n### 💻 CLI Tool for Developers & Researchers  \n- Issue, verify, and audit identity proofs tied to DIDs  \n\n### 🧪 Streamlit or Web-based Onboarding  \n- Simple UI for linking a Holonym credential to a Bluesky identity  \n\n### 🔌 Protocol Hooks for ATProto Integration  \n- Introduce `app.privid.verification` schema  \n- Publish proofs as signed attestations linked to user DID  \n\n### 🌐 Cross-platform Expandability  \n- Twitter, Instagram, and other networks can optionally link via cryptographic attestations  \n\n---\n## Roadmap\n\n### Phase 1: MVP (2 months)\n- Build Chrome/Firefox extension with badge rendering  \n- Onboarding UI with Streamlit + Holonym integration  \n- CLI tool for developers  \n- Initial schema proposal for AT Protocol  \n- GitHub repo launch and community documentation  \n\n### Phase 2: Protocol Integration (3 months)\n- Submit pull request or schema proposal to ATProto  \n- Allow DID-linked ZK credential publication  \n- Test integration across Bluesky clients  \n\n### Phase 3: Expansion (3–6 months)\n- Add Twitter/Instagram account linking via signed messages  \n- Develop privacy badges (age, citizenship, human/not-bot)  \n- Optional timestamping on Orbit Chain (open standard, not a token)  \n- Broader use in journalism, NGOs, education  \n\n\n## Technical Architecture\n\n```mermaid\ngraph TD\n    A[User installs PrivID Extension] --> B[Bluesky profile scanned]\n    B --> C[Extension checks local ZK credential]\n    C -->|If absent| D[Prompt user to verify via Holonym]\n    D --> E[User gets ZK credential & links to DID]\n    E --> F[Extension adds badge to UI]\n    F --> G[Optional: Push verification to ATProto schema]\n\n\n",
-          "imageURL": "bafkreigw2iyf65jgpdp7ibttg33ahnxcwwgz75xrda6ruz5e234byh55mm",
-          "title": "PrivID",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://prividapp.com"
-            },
-            {
-              "type": "twitter",
-              "url": null
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/elephant-dog-org"
-            }
-          ],
-          "slug": "privid",
-          "type": "project-details"
-        },
-        "txid": "0x22f7abc159291fb86204922d487ac088afda94f78deb0da1bd72fe6cb6f915a0"
-      },
-      "recipient": "0x8c8efbd94d8d0da7b389cd906a81ef19cf0571c1",
-      "createdAt": "2025-04-04T08:13:35.000Z",
-      "updatedAt": "2025-04-04T08:13:41.000Z"
-    }
+  "projectId": "0xffaf639c80ff9cf85cd76977d0c55e07c929eb7c5480d900c82e1da8465c342e",
+  "projectUIDs": [
+    "0xed05c9ce9f28c12eefcc3b3619e594fc257c5167c391d39cf221868c61a964de"
   ],
   "grants": [
     {
