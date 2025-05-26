@@ -1,61 +1,8 @@
 {
   "id": "42161-867-0x22300f73460f0b7ab5833795ee104f0ddca23007da71b0f60f4356f731ed9495",
-  "projects": [
-    {
-      "uid": "0xe718ba57bd3cbda5fe00c01ac124fe31ebd0fc834b07375ecf57d962ebaa3f1f",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "67e866fe9cb9f2d20939a078"
-        },
-        "uid": "0x2074c9feb4f77ecea91ec6437342ce6be06b54c80eeaf8261fb5df2552afae82",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xe718ba57bd3cbda5fe00c01ac124fe31ebd0fc834b07375ecf57d962ebaa3f1f",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xa48c718ae6de6599c5a46fd6cabff54def39473a",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1743283960,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1743283966,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "Started at ETHGlobal Bangkok 2024, Wrap on Privacy is a new privacy tool that hides the amount sent, recipient address, and even the token sent for ERC20 tokens. Sending tokens is as easy as inputting the recipient's Ethereum address or ENS name. To receive, simply register your generated public key with the pool's key registry.\n\nWrap on Privacy changes the dApp paradigm by offering in-app functionality to deploy a privacy pool to any EVM chain. Privacy pools are unrestricted by default but can be customized to support user access controls, deposit/withdrawal limits or fees, and token restrictions.\n\nThe \"Windows 98\" style interface invokes a \"down to business\" attitude that is easy to learn and use while being functional.\n\nWrap on Privacy stores private balances encrypted on chain instead of UTXO (like Railgun) so you don't need to sync the entire chain to send tokens from your balance. This makes mobile usage much easier. Choose \"Disable Sync\" on the login dialog to save battery and data.\n\nWrap on Privacy supports Aave aTokens so you can earn interest while inside the privacy pool. It wouldn't take much deposited to cover the cost of your transaction fees!\n\nAll activity is contained in three main screens:\n\n* Token list: Displays your public and private balances as well as the total pool size\n* Incoming transactions: All incoming tokens must be accepted with a \"receive\" proof in order to increase your balance\n* Outgoing transactions: Tokens you have sent will appear here. In the rare occurrence that the recipient does not see the transaction in their incoming transactions screen, you may export the transaction data and transmit it over any messaging service for them to import.\n\nWrap on Privacy is designed more akin to a desktop app. While your private session is stored in the browser using IndexedDB for easy logins, you can export the encrypted session file to maintain a backup of your latest sent transactions and your sync status.\n\nPool details and color schemes can also be imported and exported as files.\n\n\nRoadmap:\n\n* User validation contracts are currently a custom job. You would have to write your own. With your support this can be built out to an easy to use frontend that supports configuring a pool's safety features such as limiting which accounts can deposit/withdrawl (perhaps by holding an NFT from a specific collection or by being a valid Coinbase user) as well as setting roles for token limits.\n\n* Circuit/contract audits for production use. While this is free software controlled by its users who may use it as they choose, careful reviews of the source are necessary to trust it on real assets outside of testnets.",
-          "imageURL": "bafkreiha4gdeykmztrq4lvq7fmh7ogpt5r6ivhwtderefkawy6rva4kqli",
-          "title": "Wrap on Privacy",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://numtel.github.io/wrap-on-privacy/"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/numtel1"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/coinpassport"
-            }
-          ],
-          "slug": "wrap-on-privacy",
-          "type": "project-details"
-        },
-        "txid": "0x2f177449eed0fa21cfe5814a26d411b24bc40bb0c49a136f7dd3a6ba489c4ef2"
-      },
-      "recipient": "0xa48c718ae6de6599c5a46fd6cabff54def39473a",
-      "createdAt": "2025-03-29T21:32:40.000Z",
-      "updatedAt": "2025-03-29T21:32:46.000Z"
-    }
+  "projectId": "0x22300f73460f0b7ab5833795ee104f0ddca23007da71b0f60f4356f731ed9495",
+  "projectUIDs": [
+    "0xe718ba57bd3cbda5fe00c01ac124fe31ebd0fc834b07375ecf57d962ebaa3f1f"
   ],
   "grants": [
     {

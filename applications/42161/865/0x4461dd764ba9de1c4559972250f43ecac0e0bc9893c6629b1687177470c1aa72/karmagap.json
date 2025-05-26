@@ -1,62 +1,8 @@
 {
   "id": "42161-865-0x4461dd764ba9de1c4559972250f43ecac0e0bc9893c6629b1687177470c1aa72",
-  "projects": [
-    {
-      "uid": "0xeb1cda6a5b4158830029f19b25ebff9c2bc8f491ca6f715e35d6cb3a85d2c851",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "6631e9324770c4ac80e419a7"
-        },
-        "uid": "0x39b3163bd07933ecb5d6b591566f6b004d6c5e72ce5e1318c03c554a907f8992",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xeb1cda6a5b4158830029f19b25ebff9c2bc8f491ca6f715e35d6cb3a85d2c851",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xfCbCceed1eAFcA6198e23585550f4eB76838Cf4D",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1714546992,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1714546994,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "# The open collaboration protocol built on Base. Co-create, attest, and own your collaboration graph, forever.\n\n# Open to the Public (OTTP) is on a mission to democratize innovation.\n\n![Current State to Future State](https://i.imgur.com/ktAPsPf.png)\n\n\n# Problem\n\n**Siloed:** Your contributions are siloed in various communities/projects, and if they sunset, your contributions are lost.\n\n**Self-reported:** Contributions are self-reported and unverified.\n\n**Platform-controlled:** Your contributions are locked into closed platforms, such as LinkedIn and GitHub.\n\n\n# Solution\n\n**Interconnected:** Your contributions are recognized and attributed. If the community/project sunsets, you have the ability to prove who you worked with and what you did together.\n\n**Collaborator-verified:** Contributions are verified by collaborators and/or the community via onchain attestations.\n\n**Self-custodial:** Your collaboration graph is owned by you. You can move freely between apps/clients.\n\nThrough onchain attestations, users build social trust as they gain verifiable contributions to projects.\n\nThe protocol is not owned by a central entity. It is accessible and open to everyone, so developers can innovate and build with the shared dataset. \n\n\n# Progress\n\nWe participated in the Open Source category of **Backdrop Build V3** and was selected as one of the finalists. [Watch demo video.](https://backdropbuild.com/builds/v3/open-to-the-public) \n\nDuring the four weeks, we went from zero to live protocol. We created the backend code and smart contracts and launched a **Farcaster Frame** and attestation bot. People use their Farcaster ID to create an OTTP ID and grow their collaboration graphs by making onchain attestations. [Get collaboration graph.](https://warpcast.com/ottp/0xfab58542)\n\n![Attestation Frame](https://i.imgur.com/sWudkIT.gif)\n\n![Verification Frame](https://i.imgur.com/WSBmVXP.gif)\n\n**Core Features:**\n- OTTP ID\n- Sign in with Farcaster ID (FID)\n- User profiles\n- Attestations\n\n**Core Features (in progress | coming soon):**\n- SDK\n- Sign in with other methods, e.g. wallet, email, Lens\n- Account recovery\n- Account-abstracted wallets\n- Usernames\n- OTTP Org ID\n- Community/org profiles\n- Project pages\n- Proposal pages\n- Comments\n- Upvote/downvote\n- Token-gating\n\nWe're currently connecting with partners to integrate or build apps/clients with OTTP.\n\nWith the support of this grant, we will be able to cover operational costs, e.g. retroactive compensation to open-source devs, continued development, and bounties.\n\n# Tech Stack\n\n- [Base](https://base.org)\n- [Ethereum Attestation Service (EAS)](https://attest.org)\n- [Farcaster](https://farcaster.xyz)\n- [GraphQL](https://graphql.org)\n- [Next.js](https://nextjs.org)\n- [Neynar](https://neynar.com) \n- [Node.js](https://nodejs.org)\n\n\n# Links\n\n- [Website](https://opentothepublic.org)\n- [Documentation](https://ottp.gitbook.io/docs)\n- [Github Repo](https://github.com/opentothepublic/protocol)\n- [Twitter](https://twitter.com/ottp__)\n- Farcaster: [Warpcast](https://warpcast.com/ottp)\n- Community: [Warpcast Channel](https://warpcast.com/~/channel/ottp)\n- Lens: [Hey](https://hey.xyz/u/ottp__)\n- [Zora Collection](https://zora.co/collect/base:0x56f1976473a6014946e280994b045e7176b2884e)\n\n\n# Contributors\n\n- [Nate](https://twitter.com/nathansvan)\n- [Ting](https://twitter.com/ting)\n- [Krish](https://twitter.com/lowcodekrish)\n- [Peter](https://twitter.com/PeterAnyaogu)",
-          "imageURL": "bafkreih7bs57kyetdpybyu35h42qtz32pjyqtn2otgxqqvueb6qyx2olca",
-          "title": "Open to the Public",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://opentothepublic.org"
-            },
-            {
-              "type": "twitter",
-              "url": "https://twitter.com/ottp__"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/opentothepublic"
-            }
-          ],
-          "slug": "open-to-the-public",
-          "type": "project-details"
-        },
-        "externalIds": [],
-        "txid": "0x5a11799069d4986ff2a51b4240b24aba4fdeea8a4e0b296d1c9e967fe9d8586e"
-      },
-      "recipient": "0xfCbCceed1eAFcA6198e23585550f4eB76838Cf4D",
-      "createdAt": "2024-05-01T07:03:12.000Z",
-      "updatedAt": "2024-05-01T07:03:14.000Z"
-    }
+  "projectId": "0x4461dd764ba9de1c4559972250f43ecac0e0bc9893c6629b1687177470c1aa72",
+  "projectUIDs": [
+    "0xeb1cda6a5b4158830029f19b25ebff9c2bc8f491ca6f715e35d6cb3a85d2c851"
   ],
   "grants": [
     {

@@ -1,91 +1,444 @@
 {
   "id": "42220-31-0xd9cfac0a6257b1c8ddb06781097a016f78054df6f8d00d118b80723b0ed1ccbb",
-  "projects": [
+  "projectId": "0xd9cfac0a6257b1c8ddb06781097a016f78054df6f8d00d118b80723b0ed1ccbb",
+  "projectUIDs": [
+    "0x94c927f2ef198b0b30319cb82f6bdca4f53acfe49530cae157d37751a355a9e6",
+    "0x2437fbc2e4ca95d77f11f893cdf8b5ef856bab25ac359d4628e79c66b896a1fd"
+  ],
+  "grants": [
     {
-      "uid": "0x2437fbc2e4ca95d77f11f893cdf8b5ef856bab25ac359d4628e79c66b896a1fd",
-      "type": "Project",
+      "_id": {
+        "$oid": "67d73aac98a3199d0843d624"
+      },
+      "uid": "0x72c8fa5353fee0a2a978ee4275f335bffad01ff5a277b15747dc71c53c7e2c06",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x94c927f2ef198b0b30319cb82f6bdca4f53acfe49530cae157d37751a355a9e6",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-16T20:54:53.000Z",
+      "updatedAt": "2025-03-16T20:55:08.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1",
+      "external": {
+        "gitcoin": [
+          "0xd9cfac0a6257b1c8ddb06781097a016f78054df6f8d00d118b80723b0ed1ccbb"
+        ]
+      },
       "details": {
         "_id": {
-          "$oid": "67fefb34d9c7b759f217ddb9"
+          "$oid": "67fecb25d9c7b759f217dd68"
         },
-        "uid": "0x3cdd37c6e73f1abcb0f32995803943448d4708dccd244c3cef0f887d2a879d29",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0x2437fbc2e4ca95d77f11f893cdf8b5ef856bab25ac359d4628e79c66b896a1fd",
+        "uid": "0x5bc88b78e098af1ad53b0c6808160bc3071c1dd6aa39fd50b2a342d642bf50ed",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x72c8fa5353fee0a2a978ee4275f335bffad01ff5a277b15747dc71c53c7e2c06",
         "attester": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
-        "recipient": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1744763697,
+            "t": 1744751390,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1744763700,
+            "t": 1744751397,
             "i": 0
           }
         },
-        "chainID": 10,
-        "type": "ProjectDetails",
+        "chainID": 42220,
+        "type": "GrantDetails",
         "data": {
-          "title": "Regenerate Cascadia: BioRegen & BioFi",
-          "description": "Regenerate Cascadia is building the cultural, structural, and financial foundation for regeneration across the Cascadia bioregion. Through mapping, storytelling, education, and decentralized organizing, we support communities in reclaiming relationship to place, designing regenerative strategies, and stewarding collaborative funding ecosystems. From a month-long bioregional activation tour to a six-month learning journey and the co-design of new Bioregional Funding Frameworks, we are seeding the conditions for long-term ecological and cultural transformation across watersheds and bioregions.\n\nRegenerate Cascadia is excited to use this Gitcoin round, in partnership with Regen Coordination, to model a live bioregional flow funding round during the upcoming Cascadia BioFi Conference—directly disbursing funds to regenerative projects in real time. This participatory governance and funding experiment will help onboard new communities into Web3, demonstrate flow funding in action, and bring the shared theories of change from the BioFi Project and Regen Coordination to life.\n\nThe Cascadia BioFi Conference, taking place May 16–18, 2025, at the historic Georgetown Steam Plant in Seattle, will convene 200 leaders from the edges of finance, circular economy, land regeneration, Indigenous rematriation, community art, technology, and participatory governance. Together, we’ll co-create pathways for bioregional funding ecosystems that support long-term regenerative work throughout the Cascadia bioregion.",
-          "problem": "Regenerate Cascadia exists to address the compounding ecological, social, and economic crises we face—by grounding systemic transformation in the unique needs and capacities of place. As climate disruption, biodiversity loss, and extractive financial systems accelerate planetary breakdown, the need for localized, regenerative responses has never been more urgent. Within the Cascadia bioregion—spanning from Southeast Alaska to Northern California and east to the Yellowstone Caldera—communities are experiencing intensifying wildfires, droughts, housing precarity, displacement, and cultural erosion. While hundreds of regenerative projects, Indigenous-led initiatives, and local movements are working to address these challenges, they remain under-resourced, fragmented, and constrained by legacy funding models that fail to recognize the interconnected nature of bioregional systems.\n\nRegenerate Cascadia was created to respond to this gap by activating bioregional infrastructure for long-term regeneration. Our mission is to co-create the conditions for a thriving regenerative movement across Cascadia through coordinated organizing at the landscape and watershed level. We convene communities to map assets, identify high-impact opportunities, co-develop place-based regeneration strategies, and prototype new governance structures. However, regeneration cannot scale without a fundamental redesign of how capital flows to support this work.\n\nThat’s why we are building Cascadia BioFi—a Bioregional Finance Facility (BFF) designed to connect financial resources with regenerative initiatives through participatory and transparent mechanisms. Cascadia BioFi aligns with the emerging global movement of bioregional finance (BioFi), which applies decentralized tools, Web3 protocols, and community-led governance to rewire capital allocation in ways that are accountable to place. It bridges regenerative economics, data sovereignty, and mutual aid with technologies like quadratic funding, DAO-based governance, and on-chain attestations. This approach decentralizes resource control, increases local agency, and creates new infrastructure for funding regeneration at scale.\n\nIn partnership with Regen Coordination, we are using this Gitcoin GG23 round to power a real-time, participatory funding experiment at our upcoming Cascadia BioFi Conference, May 16–18, 2025 at the Georgetown Steam Plant in Seattle. The event will convene 200 leaders at the edges of regenerative finance, circular economy, Indigenous rematriation, community technology, and participatory governance. Together, we will explore how bioregional finance can transform systems of capital—and what it looks like to put these ideas into action.\n\nThis round will fund the first live bioregional flow funding round, allocating capital transparently and collaboratively to regenerative projects during the event. We’ll demonstrate how quadratic funding and community voting can be used to direct resources to where they are most needed, guided by bioregional logic and community consent. Participants will gain hands-on experience with Web3 tools, while showcasing how they can support real-world ecological and social impact.\n\nThis initiative is a testbed for new funding architectures that regenerate land, culture, and economy—while meeting the goals of Regen Coordination’s North Star Outcomes. Together, we aim to build trust-based funding systems that scale across bioregions and offer a credible alternative to extractive finance. This round is not just about raising funds; it’s about demonstrating what regenerative coordination truly looks like—on-chain, in-community, and in service to place.",
-          "solution": "Regenerate Cascadia is building the connective tissue for long-term bioregional regeneration by developing the Cascadia BioFi Facility—a decentralized, community-governed funding ecosystem designed to move capital toward regenerative initiatives across the Cascadia bioregion. Our solution integrates bioregional organizing with emerging Web3 mechanisms, creating a financial architecture that is participatory, transparent, and grounded in the needs of place.\n\nAt the heart of this solution is bioregional flow funding—a methodology for allocating resources based on bioregional logic, collective intelligence, and community consent. Rather than top-down or siloed grantmaking, our model engages stewards from across watersheds, Indigenous communities, local economies, and regenerative projects to collaboratively determine priorities, pool resources, and fund work that supports biocultural regeneration. By leveraging Web3 tools like quadratic funding, DAO-based coordination, and on-chain attestations, we are creating a prototype for a truly decentralized regenerative finance ecosystem.\n\nThe Cascadia BioFi Facility is being developed through a multi-phase strategy, starting with the formation of local landscape hubs, capacity-building programs, and alignment with shared values and data standards across the bioregion. This Gitcoin round represents a critical milestone: demonstrating live participatory capital allocation at the Cascadia BioFi Conference, May 16–18, 2025 in Seattle. Through this event, we will model a “live round” that simulates a full end-to-end bioregional flow funding process—including onboarding participants into Web3, introducing shared governance tools, showcasing regenerative projects, and disbursing funds in real time through community voting.\n\nThis conference will convene 200 leaders from regenerative finance, circular economy, Indigenous rematriation, mutual aid networks, digital public goods, and climate justice movements. Together, we will co-create funding blueprints and governance pathways for the Cascadia bioregion and offer a replicable model for bioregions globally. Attendees will engage in both strategic visioning and hands-on governance simulations, applying the theory of Bioregional Finance (as defined by the BioFi Project) and Regen Coordination’s shared principles to real-world funding decisions.\n\nWe are also building aligned infrastructure for long-term impact. All funded projects will be invited to join a regional community of practice to document learnings, share metrics, and engage in ongoing governance dialogues. We will track activities and outputs through Karma GAP, aligned with Regen Coordination’s North Star Outcomes, using EAS attestations and optional hypercerts to demonstrate transparent, credible impact.\nUltimately, our solution aims to re-localize capital, decentralize governance, and rebuild trust—by aligning the flow of resources with the ecological, social, and cultural realities of place. Through the Cascadia BioFi Facility, we are developing a living, evolving system that supports regeneration not just as a theory, but as a lived and coordinated practice.\n\nThis round allows us to operationalize our vision, prototype in public, and contribute meaningfully to the broader Regen ecosystem. By demonstrating how participatory capital flows can function at the landscape and bioregional level, we’re advancing the future of regenerative finance—where every dollar is accountable to community, and every decision is made in right relationship with the land.",
-          "missionSummary": "Regenerate Cascadia’s mission is to regenerate the Cascadia bioregion by co-creating the conditions for a thriving, place-based regenerative movement. We do this by supporting bioregional organizing, catalyzing community-led strategies, and aligning funding, governance, and shared infrastructure across landscapes. Rooted in love of place, we aim to steward long-term biocultural regeneration through participatory processes that honor Indigenous sovereignty, ecological integrity, and local self-determination.",
-          "locationOfImpact": "Cascadia Bioregion",
-          "imageURL": "",
-          "links": [
+          "title": "BioFi Pathfinders 🌱",
+          "description": "The Bioregional Finance (BioFi) Pathfinders Round is a partnership between The BioFi Project, Open Civics, The Design School for Regenerating Earth, and Regen Coordination to support the most sophisticated Bioregional Organizing Teams around the world in developing, clarifying, and enhancing their BioFi vision, strategy, and capabilities. This invite-only round is aimed at advanced teams that are already practicing or actively developing their approach to Bioregional Finance (BioFi), with a focus on building Bioregional Financing Facilities (BFFs) or bioregional funding ecosystems more broadly. For detailed suggested questions to help shape your project description, visit https://nifty-humidity-dcf.notion.site/Pathfinders-Grantee-Questions-Template-fa60a0314b174422bd1f2735e3541cdc?pvs=4\n\n🌀 Gitcoin Grant Reporting Story – Regenerate Cascadia & the Department of Bioregion\nWe are rooted in the Cascadia bioregion, a land and sea mosaic stretching from the Pacific Ocean to the Continental Divide, and from Southeast Alaska through British Columbia, Washington, Oregon, and into parts of Northern California and Idaho. This place is defined not by lines on a map, but by the living systems that shape it—salmon-bearing watersheds, coastal rainforests, fire-adapted mountain ranges, and the people who are in relationship with them. Our shared identity is shaped by the rhythms of water and forest, food and fire, migration and culture.\n\nThe Department of Bioregion has spent more than a decade mapping Cascadia through both scientific and cultural lenses—hydrology, ecology, language, Indigenous territories, community feedback, and systems awareness. We don’t see mapping as a static process, but as a living conversation: a collective act of reclaiming and remembering how we are embedded in place. More than 100 maps and resources have been collaboratively created, always rooted in the understanding that bioregions are not just ecological units—they are cultural, economic, and political possibilities.\n\nCascadia faces deep, systemic challenges: ecological degradation from industrial extraction, housing crises and colonial land ownership patterns, siloed governance, and a disconnection between urban centers and rural, Indigenous, and working communities. But we also feel we are approaching a tipping point. A new generation is hungry for alternatives. From Indigenous land rematriation to community-owned energy and cooperative food systems, seeds of a regenerative bioregional economy are already germinating. The vision is not about scaling up, but about deepening down—networks of community-led, place-based resilience that are interconnected across watersheds and eco-cultural corridors.\n\nOur bioregional organizing effort began informally—as a coalition of mappers, artists, community organizers, land stewards, and decentralized tech builders. Today, through Regenerate Cascadia, we’re evolving into a more formal constellation of weavers, nodes, and affinity groups. Our “team” is distributed and emergent, guided by a deep commitment to polycentric, non-hierarchical governance and distributed leadership. We hold convenings, co-create visioning tools, publish educational materials, and serve as connective tissue between existing movements.\n\nRight now, we’re serving as a backbone support for bioregional convergence efforts, supporting local hubs, and facilitating participatory design for what comes next. Our work includes co-developing shared tools for bioregional mapping, coordinating mutual aid and resilience networks, exploring cooperative financing infrastructure, and supporting aligned projects across the region. Our future vision includes hosting watershed assemblies, building open-source Bioregional Funding Frameworks (BFFs), and helping transition land, capital, and governance to steward communities.\n\nEngagement with Indigenous Peoples and wisdom traditions is essential to our work. We do not claim to represent any Indigenous nation, but we acknowledge that Cascadia exists entirely on Indigenous lands, and our vision of regeneration is impossible without Indigenous sovereignty and leadership. We are in ongoing relationship-building, listening, and learning—especially around traditional ecological knowledge, ceremony, and governance models that offer deep guidance for decentralized, place-based systems. We are committed to creating space for these voices to lead the bioregional story, and to supporting land back and cultural resurgence efforts whenever possible.\n\nWe are still in the early stages of crafting a shared landscape vision, but significant momentum is growing. Through the Regenerate Cascadia process, more than 50 local convergence events have been held across the bioregion since 2023, creating a rich web of partnerships—with food sovereignty orgs, eco-villages, climate justice groups, regenerative finance practitioners, and more. We are now coalescing around a collective strategy grounded in shared values and mutual support.\n\nWhen it comes to money, we’ve mostly been scrappy and decentralized—funding this work through small grants, mutual aid, and volunteer effort. The Gitcoin round has been a huge catalyst, helping us prototype collective resourcing strategies. Money often flows in fragmented, competitive, and opaque ways here, reinforcing scarcity. We want to change that. Our dream is a bioregional funding ecosystem—a transparent, participatory, and solidarity-based commons where capital flows toward community-defined priorities.\n\nWe envision Bioregional Funding Frameworks (BFFs) that enable decentralized grantmaking, cooperative ownership, open accounting, and community-governed trusts. These mechanisms should be adaptive, transparent, and deeply place-based—tools to help us resource what regeneration feels like in each unique watershed. The biggest obstacles? Legal and technical infrastructure, organizational capacity, and overcoming the legacy of extractive systems. We need support navigating incorporation, compliance, participatory budgeting tools, and storytelling to share our vision widely.\n\nWe’ve learned that trust, relationships, and shared language are far more valuable than any single financial tool. We’ve also learned that trying to “scale up” too quickly—without deep local grounding—can cause fragmentation. Our biggest questions include: How do we move from convening to co-governance? How do we redistribute power, not just resources? How do we honor cultural complexity without diluting vision?\n\nWe’re using Gitcoin funds to deepen these explorations: hosting strategy gatherings, piloting cooperative funding tools, developing educational resources, and designing structures for long-term stewardship. This includes creating materials for fundraising and public engagement, supporting regional nodes, and laying the groundwork for a participatory bioregional governance model.\n\nThis is not just about Cascadia. It's about creating a replicable model that others can adapt to their own bioregions. Together, we are remembering how to live in right relationship—with land, with each other, and with the future.",
+          "payoutAddress": "0xa1cE98594e6844d850Db9Db9FE01b9595D445ca4",
+          "type": "grant-details",
+          "amount": "",
+          "linkToProposal": "",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "community": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "proposalURL": ""
+        },
+        "txid": "0x5137fd7cb591cbaeef16e59d1712828cb34340bc0bf43ff732068ed440b884c5"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67d73aab98a3199d0843d622"
+        },
+        "uid": "0x94c927f2ef198b0b30319cb82f6bdca4f53acfe49530cae157d37751a355a9e6",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742158493,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742158507,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b6a"
+            },
+            "name": "BioFi"
+          }
+        ]
+      },
+      "categories": [
+        "BioFi"
+      ],
+      "milestones": [],
+      "updates": [
+        {
+          "_id": {
+            "$oid": "67d73aad98a3199d0843d629"
+          },
+          "uid": "0xc6d3d99c17514ec4e1c34c429eca0e6a89a0a5b5866fda3e0a657ae87c818328",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x72c8fa5353fee0a2a978ee4275f335bffad01ff5a277b15747dc71c53c7e2c06",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1742158493,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1742158509,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "GrantUpdate",
+          "data": {
+            "text": "Updates can be found here: undefined",
+            "type": "grant-update",
+            "title": ""
+          },
+          "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1"
+        }
+      ],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67edb6fb38e5aedb69e8c4e7"
+      },
+      "uid": "0xa0b2a8da2bb424f6c6f7ea20a5ef8e69316a4fc8065f961ef82a2b1800aafd15",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x94c927f2ef198b0b30319cb82f6bdca4f53acfe49530cae157d37751a355a9e6",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T22:15:20.000Z",
+      "updatedAt": "2025-04-02T22:15:23.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x6db63b8432d6714cc70cf4e62bee89590b1a0161264ca37544016f7118a02c93",
+      "external": {
+        "gitcoin": [
+          "0xd9cfac0a6257b1c8ddb06781097a016f78054df6f8d00d118b80723b0ed1ccbb"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67edb6fb38e5aedb69e8c4e8"
+        },
+        "uid": "0x6e045280df4adaf3c35f0ce2115508c56c12dad6a922ee81a9a729fab1d61af2",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xa0b2a8da2bb424f6c6f7ea20a5ef8e69316a4fc8065f961ef82a2b1800aafd15",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743632120,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743632123,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/31/18",
+          "title": "Regen Coordination Global",
+          "description": "",
+          "payoutAddress": "0xa1cE98594e6844d850Db9Db9FE01b9595D445ca4",
+          "programId": "31_42220",
+          "questions": [
             {
-              "url": "https://discord.gg/5x6YFzndk6",
-              "type": "discord"
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "brandon@regeneratecascadia.org"
             },
             {
-              "url": "",
-              "type": "github"
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "8"
             },
             {
-              "url": "https://www.linkedin.com/company/regeneratecascadia/",
-              "type": "linkedin"
+              "type": "checkbox",
+              "query": "Is your project a member or past grantee of one of these networks?",
+              "explanation": "BioFi Project"
             },
             {
-              "url": "twitter.com/cascadiadept",
-              "type": "twitter"
-            },
-            {
-              "url": "regeneratecascadia.org",
-              "type": "website"
-            },
-            {
-              "url": "",
-              "type": "pitchDeck"
-            },
-            {
-              "url": "",
-              "type": "demoVideo"
-            },
-            {
-              "url": "",
-              "type": "farcaster"
+              "type": "paragraph",
+              "query": "What are your key active goals, plans, objectives or milestones for this year?",
+              "explanation": "Regenerate Cascadia is excited to use this Gitcoin round, in partnership with Regen Coordination, to model a live bioregional flow funding round during the upcoming Cascadia BioFi Conference—directly disbursing funds to regenerative projects in real time. This participatory governance and funding experiment will help onboard new communities into Web3, demonstrate flow funding in action, and bring the shared theories of change from the BioFi Project and Regen Coordination to life.\n\nOur goal is to raise $10,000, which we will disburse live to groups as a model for Bioregional Finance and flow funding at the event.\n\nThe Cascadia BioFi Conference, taking place May 16–18, 2025, at the historic Georgetown Steam Plant in Seattle, will convene 200 leaders from the edges of finance, circular economy, land regeneration, Indigenous rematriation, community art, technology, and participatory governance. Together, we’ll co-create pathways for bioregional funding ecosystems that support long-term regenerative work throughout the Cascadia bioregion."
             }
           ],
-          "slug": "regenerate-cascadia-bioregen--biofi",
-          "tags": [],
-          "businessModel": "501(c)(3) Nonprofit Program",
-          "stageIn": "",
-          "raisedMoney": "",
-          "pathToTake": "Want to grow through just grant funding"
+          "type": "grant-details"
         },
-        "txid": "0x95d5d1c6bf68d518e11057d42eab748d916934cd15b9ae8fc6eb6c727aa488ff"
+        "txid": "0x6db63b8432d6714cc70cf4e62bee89590b1a0161264ca37544016f7118a02c93"
       },
-      "recipient": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
-      "createdAt": "2025-03-31T05:01:41.000Z",
-      "updatedAt": "2025-03-31T05:01:45.000Z"
-    }
-  ],
-  "grants": [
+      "project": {
+        "_id": {
+          "$oid": "67d73aab98a3199d0843d622"
+        },
+        "uid": "0x94c927f2ef198b0b30319cb82f6bdca4f53acfe49530cae157d37751a355a9e6",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742158493,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742158507,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b6a"
+            },
+            "name": "BioFi"
+          }
+        ]
+      },
+      "categories": [
+        "BioFi"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67fed5d5321d40f5b5a6b5fa"
+          },
+          "uid": "0x899f103e178ae4a782584028cdd3add2d490793b137b7a01b711f9520ab9113d",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xa0b2a8da2bb424f6c6f7ea20a5ef8e69316a4fc8065f961ef82a2b1800aafd15",
+          "attester": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
+          "recipient": "0xa1ce98594e6844d850db9db9fe01b9595d445ca4",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744754129,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744754133,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Cascadia BioFi Conference & Funding Pilot",
+            "description": "Since January 2025, Regenerate Cascadia has been planning the Cascadia BioFi Conference, a 3-day event taking place May 16–18, 2025, designed to pilot a live, participatory funding experience for regenerative land and community projects across the Cascadia bioregion.\n\nThis conference is not just a convening — it’s a proof-of-concept for how Regen Coordination’s vision of decentralized, transparent, community-led funding can function in a real-world bioregional setting.\n\nAt the heart of the event is a live disbursement pilot of a regenerative fund raised through the GG23 round and other aligned sources. We are working closely with Benjamin Life, Kevin Owocki, and ReFi partners to:\n\n✅ Onboard land-based groups to Web3 wallets and platforms\n\n✅ Train participants in participatory governance and coordination\n\n✅ Run a live budgeting process using tools like Quadratic Voting, Gitcoin Rounds, or Allo Protocol\n\n✅ Distribute pooled funds to regenerative projects through transparent, community-driven methods\n\nThis is a real-time demonstration of a Bioregional Funding Framework (BFF)—rooted in community, guided by bioregional priorities, and powered by Web3 tooling. Outcomes will include process documentation, funding results, key lessons learned, and a replicable playbook for other bioregions.\n\n📌 Direct Funding Alignment with Gitcoin GG23:\n\n**Support from this round will help:\n**- Seed the initial regenerative fund to be distributed at the event\n- Cover facilitation, onboarding, and education costs\n- Build technical and legal scaffolding for the funding mechanism\n- Ensure grassroots groups are supported, visible, and empowered in the pilot\n\nThis is a high-leverage opportunity to turn Regen Coordination’s theory into practice—bridging trust-based philanthropy with on-chain infrastructure in service to place.\n\n**🔗 Learn More:\n**🌐 https://cascadiabiofi.org\n📆 Conference Dates: May 16–18, 2025\n📍 Location: Georgetown Steam Plant, Seattle, Washington\n\n📊 Output Metrics\n\nMetric Name\t\n👥 Total Participants\t200+ attendees expected from across regenerative finance, land stewardship, mutual aid, and Web3\n💸 Funds Raised for Live Round\tTarget: $25,000–$50,000 pooled from Gitcoin + partners\n🌱 Regenerative Projects Funded\t10–20 local regenerative projects to receive microgrants\n🧠 Web3 Onboarding\t50+ new participants onboarded to wallets & platforms\n🗳 Governance Participation\t100+ participants involved in live voting and funding decisions\n📽 Livestream & Post-Event Media Views\t1,000+ projected video views and digital reach\n🧩 Prototype BFFs Initiated\t1–2 bioregional funding prototypes launched or refined\n🤝 Strategic Partners Engaged\t20+ collaborating orgs from ReFi, Web3, and local ecosystems\n\n🌟 North Star Outcome Alignment\n✅ Directly catalyzes ecological, social, and economic impact via bioregional disbursement\n✅ Increases awareness, engagement, and adoption of ReFi tools and governance practices\n✅ Demonstrates a live implementation of regenerative, decentralized coordination infrastructure",
+            "endsAt": 1747551600,
+            "startsAt": 1747378800,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "txid": "0x847dea39e1d28bb853aa6a54ac4dc2305d9871d297bb251c260ff89de53da59d",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    },
     {
       "_id": {
         "$oid": "67ea27939e0e7937ac29f570"
@@ -346,9 +699,18 @@
           "project": true
         },
         "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1",
-        "categories": []
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b6a"
+            },
+            "name": "BioFi"
+          }
+        ]
       },
-      "categories": [],
+      "categories": [
+        "BioFi"
+      ],
       "milestones": [],
       "updates": [
         {
@@ -559,9 +921,18 @@
           "project": true
         },
         "txid": "0x6f9046be0d81d23b3f6649f386e831871bc1f037ee10a621d9c1cb0dc0bc10c1",
-        "categories": []
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b6a"
+            },
+            "name": "BioFi"
+          }
+        ]
       },
-      "categories": [],
+      "categories": [
+        "BioFi"
+      ],
       "milestones": [
         {
           "_id": {

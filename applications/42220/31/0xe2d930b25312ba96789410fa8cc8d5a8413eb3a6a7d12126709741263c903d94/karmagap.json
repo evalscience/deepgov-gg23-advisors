@@ -1,126 +1,350 @@
 {
   "id": "42220-31-0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94",
-  "projects": [
+  "projectId": "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94",
+  "projectUIDs": [
+    "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+    "0x5e58d1f7b09a2d6ec0673e01b7de4979ad660e0e203c0c293f5a45910ba85312"
+  ],
+  "grants": [
     {
-      "uid": "0x5e58d1f7b09a2d6ec0673e01b7de4979ad660e0e203c0c293f5a45910ba85312",
-      "type": "Project",
+      "_id": {
+        "$oid": "664399eec09a55c527b5dddf"
+      },
+      "uid": "0xd5d8132af879f456cebed91da5527237f35bfbfe16332561f925ff2f79e7b8fc",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-05-14T17:05:45.000Z",
+      "updatedAt": "2024-05-14T17:05:50.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6"
+      },
+      "externalIds": [
+        "0xa42e657cc21b0784270b109f7c5a10e8342681ed7b19fc2477f0fde6b9bda25c",
+        "0x2ee95de25e5724c330cc7f2da11630a3333e8b1e61a4648e999705317884a3b9",
+        "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
+      ],
+      "txid": "0xd62ea06e395330726b02f557346cc48841e3e8189eed345f2159d13060d687f2",
+      "external": {
+        "gitcoin": [
+          "0xa42e657cc21b0784270b109f7c5a10e8342681ed7b19fc2477f0fde6b9bda25c",
+          "0x2ee95de25e5724c330cc7f2da11630a3333e8b1e61a4648e999705317884a3b9",
+          "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
+        ]
+      },
       "details": {
         "_id": {
-          "$oid": "0000320db48822456c5d73ef"
+          "$oid": "664399eec09a55c527b5dde0"
         },
-        "uid": "ref_0x5e58d1f7b09a2d6ec0673e01b7de4979ad660e0e203c0c293f5a45910ba85312",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0x5e58d1f7b09a2d6ec0673e01b7de4979ad660e0e203c0c293f5a45910ba85312",
-        "attester": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
+        "uid": "0xa60b6c9f25de6f941e445afe4872b479770291a531831212f3cc75c296f2b740",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xd5d8132af879f456cebed91da5527237f35bfbfe16332561f925ff2f79e7b8fc",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
         "recipient": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1700176533,
+            "t": 1715706345,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1700156753,
+            "t": 1715706350,
             "i": 0
           }
         },
-        "chainID": 10,
-        "type": "ProjectDetails",
+        "chainID": 42220,
+        "type": "GrantDetails",
         "data": {
-          "description": "Introduction & Problem statement:\n \nOur project aims to establish a Regenerative Finance local node and hub in Tanzania, with a focus on sustainability and integration of disruptive technologies such as Web3 and Blockchain, all while empowering and onboarding more projects into ReFi. By combining innovative waste & sustainable management strategies with the transparency and security of blockchain technology, we intend to contribute to a more sustainable and regenerative future.\nTanzania, like ma...",
-          "imageURL": "",
-          "title": "ReFi Tanzania",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://www.chatafisha.com"
-            },
-            {
-              "type": "twitter",
-              "url": "ReFiTanzania"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/chatafisha"
-            }
-          ],
-          "slug": "refi-tanzania-1"
+          "proposalURL": "https://explorer.gitcoin.co/#/round/10/0x10be322de44389ded49c0b2b73d8c3a1e3b6d871/10",
+          "title": "ReFi DAO Local Node - Gitcoin Beta Round",
+          "description": "",
+          "payoutAddress": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
+          "type": "grant-details",
+          "programId": "569_42161"
         },
-        "txid": "0xd541ca6b63e02cdd11b324cd4b8209b6d51517e18906cbdd09e46b6263eeab76"
+        "externalIds": [],
+        "txid": "0xd62ea06e395330726b02f557346cc48841e3e8189eed345f2159d13060d687f2"
       },
-      "recipient": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
-      "createdAt": "2023-11-16T23:15:45.000Z",
-      "updatedAt": "2023-11-16T17:45:49.000Z"
-    },
-    {
-      "uid": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
-      "type": "Project",
-      "details": {
+      "project": {
         "_id": {
-          "$oid": "6627ceef6c39c36bee8064a1"
+          "$oid": "6627615115b7516dd09f6c76"
         },
-        "uid": "0xe5b6172566c2640edd449451963c92630862e1c9328904b6d6175b81109dd433",
-        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
-        "refUID": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+        "uid": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "attester": "0xb2b8c08a9aeb0e22242e6fc9cd78fc2402cbc503",
         "recipient": "0xB2b8C08a9AEB0E22242e6fC9cD78FC2402cBC503",
         "revoked": false,
         "revocationTime": 0,
         "createdAt": {
           "$timestamp": {
-            "t": 1713884908,
+            "t": 1713856848,
             "i": 0
           }
         },
         "updatedAt": {
           "$timestamp": {
-            "t": 1713884911,
+            "t": 1713856849,
             "i": 0
           }
         },
         "chainID": 42161,
-        "type": "ProjectDetails",
+        "type": "Project",
         "data": {
-          "title": "ReFi Tanzania",
-          "description": "Our project aims to establish a Regenerative Finance local node and hub in Tanzania, with a focus on sustainability and integration of disruptive technologies such as Web3 and Blockchain, all while empowering and onboarding more projects into ReFi. By combining innovative waste & sustainable management strategies with the transparency and security of blockchain technology, we intend to contribute to a more sustainable and regenerative future.\nTanzania, like many other regions, faces significant challenges related to waste management and environmental degradation. Improper disposal of waste contributes to pollution, health hazards, and ecological damage. At the heart of it all, Waste pickers are the ones that do all the off-setting however face many challenges such as lack of resources, negative societal stigma, and most importantly exploitation in pay where they receive a mere $0.1 per kilogram of waste! Additionally, the lack of transparent financial systems often hinders sustainable development efforts. Our project addresses these issues by creating a waste regeneration system that not only reduces waste but also provides economic incentives through blockchain-powered finance mechanisms.\nFurthermore, Tanzania's development index is closely tied to energy supply, and with the rapid depletion of non-renewable resources, an energy crisis looms. Over 95% of Tanzanian households rely on firewood and charcoal for cooking, revealing a significant market demand for cleaner energy sources.\n\nOur project's core solution involves the establishment of an infrastructure for waste regeneration that enables incentivizing regenerators in the form of waste pickers, transforming waste materials into valuable resources and enabling different organizations and businesses to keep track of their impact. By leveraging cutting-edge technologies such as Blockchain, dmrv and efficient recycling processes, we aim to minimize waste accumulation and its negative impact on the environment.\n![DappFLow](https://bafybeieea4fzkjtckftgwmd7jln6vdjq5kgge5y7ratfcyqcaag6f2xjpi.ipfs.w3s.link/image1.png)\n\nFurthermore, we integrate blockchain technology to ensure transparent tracking of waste transformation processes and provide financial and governance rewards to participants who contribute to the system.\nProject Goals:\nEnvironmental Regeneration: Reduce waste accumulation, minimize pollution, and promote sustainable resource management through the production and use of eco-products, solar micro-grids in the near future to ensure as much sustainability and climate friendly as possible.\nBlockchain Integration & Onboarding to Web3: Implement a secure and transparent blockchain system to track waste regeneration processes, decentralized storage onboard waste pickers to web3 directly and incentivize participants and receive impact certificates.\nCreate a Regeneration hub for ReFi Tanzania - Create a safe space where regenerative projects can receive mentorship, support and guidance to provide real world solutions that impact our climate. Working hand in hand with the University of Dar es salaam. In the long-run we are looking to introduce our own Mini-round.\nCommunity Engagement: Raise awareness about waste-related issues and involve local communities in waste management and regeneration efforts as well as how they can benefit from sustainable practices in the form of ecological credits, tokenizing of Real world Assets and much more.\nProject Updates & Learnings\nWe have successfully facilitated not only the removal, but conversion of 1.3 Tonnes (HDPE + LDPE) waste into eco-pellets so far from landfills and beaches in Dar es salaam.\n![On ground](https://bafybeifklur5acohdqmiubzhgt6zeiqgx4e3kw2r6rlvxkp2tanensuqq4.ipfs.w3s.link/image5.jpg)\n\nWe successfully set up our ReFi event last November 2023, as well as our monthly beach cleanup on 20 November including local stakeholders, government officials and sustainability enthusiasts. We are aiming for at least 5 Tonnes collected, and converted into eco-products. (https://x.com/refitanzania/status/1731617463542915283?s=46&t=hj2iETJ0AG45JhGdjSLNcg)\n![wote](https://bafybeihu6db5rjpbapgcj5o6dzcnmplrmvy7kxkxmy34inb77sar5nqm7a.ipfs.w3s.link/image6.jpg)\nCompleted MVP for our carbon-backed NFT marketplace (https://chatafisha-marketplace.netlify.app) \n\nCompleted MVP for our Waste pickers MVP dApp (https://chatafishaapp.web.app), where we have so far onboarded 5 waste collection points with 20 waste pickers to login their daily offsets on our MVP so far. Training them on financial inclusion, saving, local governance mechanisms as well as the importance of their work in the community.\n![StakeHolders](https://bafybeifklur5acohdqmiubzhgt6zeiqgx4e3kw2r6rlvxkp2tanensuqq4.ipfs.w3s.link/image5.jpg)\nDispersed over 900$ to 4 waste collection points so far, almost doubling what they normally receive. (https://explorer.mainnet.near.org/transactions/AF9yubcNSAvKXihYQ5iMKM319JjLCESxMKXnyBj5A4JE)\nWhat we are up to currently:\nImproving our MVP to fit users feedback, such as personal dashboards for waste managers, introduce trust scores for waste pickers to enable micro-lending in the long-run\n![DASH](https://bafybeicoh4i3znowyl4eehh3afjc6pcsuptm333ybcsf35a6mh6ihvx2ea.ipfs.w3s.link/image2.jpg)\nOnboarding more waste pickers to log in their daily verified offset information\nBuilding our gamified Impact to earn Carbon backed NFT marketplace to incentivize the proper collection and regeneration of waste all over. Metadata includes name, location, type of waste as well as amount.\nRevamping our NFT marketplace with new UI/UX including third-party verification\n![IMPACT](https://bafybeihlqsvbuudn7lwi4ei7qzv6qhrhtiqkdtk2usty3xuordjnmhlilu.ipfs.w3s.link/image4.png)\nResearch on production of Biochar from plastic we produce powered by solar micro-grids. Biochar enhances soil fertility, reduces carbon emissions, and minimizes environmental damage.\nCreating content material to easily onboard local projects making a significant impact in climate to Web3, and Public good funding on Gitcoin. Including explanatory videos, how to create a Web3 wallet, project, and donate.\nBudget & Allocation of funds:\nTechnology Development: $10,000 for revamping our dApp that will contain in-built sub wallets for waste pickers, track credit scores with blockchain integration.\nInfrastructure & Plant: $20,000 for revamping waste regeneration facilities and community engagement centers.\nLogistics for waste: $1,000 for reallocating the waste from collection points to recyclers.\nAwareness Campaign & Events: $2,000 for educational workshops, awareness programs, and community training on public goods, web3 and the intersection of climate.\nCall to Action:\nWe invite you to contribute to our mission of creating a more regenerative and sustainable future in Tanzania. By supporting our project, you will play a crucial role in addressing climate action & sustainable practices, waste management challenges, and fostering transparent financial systems. Your donation will have a lasting positive impact on the environment, local communities, and the overall well-being of the region. Together, we can drive meaningful change and lead the way towards a more sustainable and prosperous Tanzania!\n\n",
-          "imageURL": "",
-          "links": [
-            {
-              "url": "",
-              "type": "discord"
-            },
-            {
-              "url": "https://github.com/chatafisha",
-              "type": "github"
-            },
-            {
-              "url": "https://www.linkedin.com/company/13300897/admin/feed/posts/",
-              "type": "linkedin"
-            },
-            {
-              "url": "https://twitter.com/ReFiTanzania",
-              "type": "twitter"
-            },
-            {
-              "url": "chatafisha.com",
-              "type": "website"
-            }
-          ],
-          "slug": "refi-tanzania",
-          "tags": []
+          "project": true
         },
         "externalIds": [],
-        "txid": "0x5680ffffe691bfa9ac627f277b94dd17e2a37897f48a04d228babfc93e6b23bb"
+        "txid": "0x519b0b72e7679f96a5096ecc60530e61ed28fb8bd827d97ac3da725e9beec539",
+        "categories": []
       },
-      "recipient": "0xB2b8C08a9AEB0E22242e6fC9cD78FC2402cBC503",
-      "createdAt": "2024-04-23T07:20:48.000Z",
-      "updatedAt": "2024-04-23T07:20:49.000Z"
-    }
-  ],
-  "grants": [
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66340514f838b4350770c2c1"
+        },
+        "uid": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1714671399,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1714685203,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0x1997fd442597375bddc491157f56eb32cccfa4e380121ca3b4797226b6d4e83d",
+        "details": {
+          "_id": {
+            "$oid": "6642370378f7ae4bfd5bb9ba"
+          },
+          "uid": "0x446178cbcdc83f6ce309f6ef81321888eda95ecfde15be6dbd3c23f9bcb2b0de",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1715612198,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1715615491,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Refi DAO",
+            "description": "Refi DAO",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-refidao-logo.jpeg",
+            "slug": "refidao"
+          },
+          "externalIds": [],
+          "txid": "0xfbcca279d36245a70b665d1bd220afa3f66e0c5aa0c620b00c952548df8dcac8"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66ea85109f840fadee096e8a"
+      },
+      "uid": "0x900caa3761f4ed81d90a1eeabf8f6900a04d507c049a4d8818b237a21728c54a",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-18T07:45:08.000Z",
+      "updatedAt": "2024-09-18T07:45:20.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x654c9f1f5ad5ce098fd24608e24036c5182294990dd133c2016adc75795d8297",
+      "externalIds": [
+        "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
+      ],
+      "external": {
+        "gitcoin": [
+          "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66ea85109f840fadee096e8b"
+        },
+        "uid": "0x9f83ef63ae71049c4ca0bce82447c4d27560081a399ded0bd99c039662209e06",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x900caa3761f4ed81d90a1eeabf8f6900a04d507c049a4d8818b237a21728c54a",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726645508,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726645520,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/14/6",
+          "title": "Regen Coordi-Nation Genesis",
+          "description": "",
+          "payoutAddress": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
+          "programId": "14_42220",
+          "amount": "1881.6939058560001 USD",
+          "questions": [
+            {
+              "type": "paragraph",
+              "query": "If applicable, describe how your project/community has been utilising or supporting the Celo ecosystem, or explain a roadmap for your plans to utilise, build with, or align with Celo.",
+              "explanation": "We utilize our SAFE on Celo for operations. We are also building our governance framework for these marginalized and savings communities on Celo making the user experience as friendly as possible by mapping their wallets in the backend to their mobile phone numbers and linking their National IDs. This will also enable tracking of history and records.\nWe will also be streamlining alternative financing via DeFi protocols on Celo for these marginalized communities."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x654c9f1f5ad5ce098fd24608e24036c5182294990dd133c2016adc75795d8297",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "6627615115b7516dd09f6c76"
+        },
+        "uid": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0xb2b8c08a9aeb0e22242e6fc9cd78fc2402cbc503",
+        "recipient": "0xB2b8C08a9AEB0E22242e6fC9cD78FC2402cBC503",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713856848,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713856849,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x519b0b72e7679f96a5096ecc60530e61ed28fb8bd827d97ac3da725e9beec539",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    },
     {
       "_id": {
         "$oid": "00003209b48822456c5d73e4"
@@ -1652,345 +1876,6 @@
           "project": true
         },
         "txid": "0xd541ca6b63e02cdd11b324cd4b8209b6d51517e18906cbdd09e46b6263eeab76",
-        "categories": []
-      },
-      "categories": [],
-      "milestones": [],
-      "updates": [],
-      "community": {
-        "_id": {
-          "$oid": "66e9e763ab96b4dace0e1a6b"
-        },
-        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
-        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1726605143,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1726605155,
-            "i": 0
-          }
-        },
-        "chainID": 42220,
-        "type": "Community",
-        "data": {
-          "community": true
-        },
-        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
-        "externalIds": [],
-        "details": {
-          "_id": {
-            "$oid": "67f408946917f7b508a52ca0"
-          },
-          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
-          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
-          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
-          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-          "recipient": "0x0000000000000000000000000000000000000000",
-          "revoked": false,
-          "revocationTime": 0,
-          "createdAt": {
-            "$timestamp": {
-              "t": 1744046222,
-              "i": 0
-            }
-          },
-          "updatedAt": {
-            "$timestamp": {
-              "t": 1744046228,
-              "i": 0
-            }
-          },
-          "chainID": 42220,
-          "type": "CommunityDetails",
-          "data": {
-            "name": "Regen Coordination",
-            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
-            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
-            "slug": "regen-coordination"
-          },
-          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
-        }
-      }
-    },
-    {
-      "_id": {
-        "$oid": "664399eec09a55c527b5dddf"
-      },
-      "uid": "0xd5d8132af879f456cebed91da5527237f35bfbfe16332561f925ff2f79e7b8fc",
-      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
-      "refUID": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
-      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-      "recipient": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
-      "revoked": false,
-      "revocationTime": 0,
-      "createdAt": "2024-05-14T17:05:45.000Z",
-      "updatedAt": "2024-05-14T17:05:50.000Z",
-      "chainID": 42220,
-      "type": "Grant",
-      "data": {
-        "communityUID": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6"
-      },
-      "externalIds": [
-        "0xa42e657cc21b0784270b109f7c5a10e8342681ed7b19fc2477f0fde6b9bda25c",
-        "0x2ee95de25e5724c330cc7f2da11630a3333e8b1e61a4648e999705317884a3b9",
-        "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
-      ],
-      "txid": "0xd62ea06e395330726b02f557346cc48841e3e8189eed345f2159d13060d687f2",
-      "external": {
-        "gitcoin": [
-          "0xa42e657cc21b0784270b109f7c5a10e8342681ed7b19fc2477f0fde6b9bda25c",
-          "0x2ee95de25e5724c330cc7f2da11630a3333e8b1e61a4648e999705317884a3b9",
-          "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
-        ]
-      },
-      "details": {
-        "_id": {
-          "$oid": "664399eec09a55c527b5dde0"
-        },
-        "uid": "0xa60b6c9f25de6f941e445afe4872b479770291a531831212f3cc75c296f2b740",
-        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
-        "refUID": "0xd5d8132af879f456cebed91da5527237f35bfbfe16332561f925ff2f79e7b8fc",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1715706345,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1715706350,
-            "i": 0
-          }
-        },
-        "chainID": 42220,
-        "type": "GrantDetails",
-        "data": {
-          "proposalURL": "https://explorer.gitcoin.co/#/round/10/0x10be322de44389ded49c0b2b73d8c3a1e3b6d871/10",
-          "title": "ReFi DAO Local Node - Gitcoin Beta Round",
-          "description": "",
-          "payoutAddress": "0x037Eb04AD9DDFf984F44Ce5941D14b8Ea3781459",
-          "type": "grant-details",
-          "programId": "569_42161"
-        },
-        "externalIds": [],
-        "txid": "0xd62ea06e395330726b02f557346cc48841e3e8189eed345f2159d13060d687f2"
-      },
-      "project": {
-        "_id": {
-          "$oid": "6627615115b7516dd09f6c76"
-        },
-        "uid": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
-        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0xb2b8c08a9aeb0e22242e6fc9cd78fc2402cbc503",
-        "recipient": "0xB2b8C08a9AEB0E22242e6fC9cD78FC2402cBC503",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1713856848,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1713856849,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "Project",
-        "data": {
-          "project": true
-        },
-        "externalIds": [],
-        "txid": "0x519b0b72e7679f96a5096ecc60530e61ed28fb8bd827d97ac3da725e9beec539",
-        "categories": []
-      },
-      "categories": [],
-      "milestones": [],
-      "updates": [],
-      "community": {
-        "_id": {
-          "$oid": "66340514f838b4350770c2c1"
-        },
-        "uid": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6",
-        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1714671399,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1714685203,
-            "i": 0
-          }
-        },
-        "chainID": 42220,
-        "type": "Community",
-        "data": {
-          "community": true
-        },
-        "externalIds": [],
-        "txid": "0x1997fd442597375bddc491157f56eb32cccfa4e380121ca3b4797226b6d4e83d",
-        "details": {
-          "_id": {
-            "$oid": "6642370378f7ae4bfd5bb9ba"
-          },
-          "uid": "0x446178cbcdc83f6ce309f6ef81321888eda95ecfde15be6dbd3c23f9bcb2b0de",
-          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
-          "refUID": "0x8ec765bdf1c23d2b16288858b1928e08dff2e868fa1674ade3ecb6af2aaf95b6",
-          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
-          "revoked": false,
-          "revocationTime": 0,
-          "createdAt": {
-            "$timestamp": {
-              "t": 1715612198,
-              "i": 0
-            }
-          },
-          "updatedAt": {
-            "$timestamp": {
-              "t": 1715615491,
-              "i": 0
-            }
-          },
-          "chainID": 42220,
-          "type": "CommunityDetails",
-          "data": {
-            "name": "Refi DAO",
-            "description": "Refi DAO",
-            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-refidao-logo.jpeg",
-            "slug": "refidao"
-          },
-          "externalIds": [],
-          "txid": "0xfbcca279d36245a70b665d1bd220afa3f66e0c5aa0c620b00c952548df8dcac8"
-        }
-      }
-    },
-    {
-      "_id": {
-        "$oid": "66ea85109f840fadee096e8a"
-      },
-      "uid": "0x900caa3761f4ed81d90a1eeabf8f6900a04d507c049a4d8818b237a21728c54a",
-      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
-      "refUID": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
-      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-      "recipient": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
-      "revoked": false,
-      "revocationTime": 0,
-      "createdAt": "2024-09-18T07:45:08.000Z",
-      "updatedAt": "2024-09-18T07:45:20.000Z",
-      "chainID": 42220,
-      "type": "Grant",
-      "data": {
-        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
-      },
-      "txid": "0x654c9f1f5ad5ce098fd24608e24036c5182294990dd133c2016adc75795d8297",
-      "externalIds": [
-        "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
-      ],
-      "external": {
-        "gitcoin": [
-          "0xe2d930b25312ba96789410fa8cc8d5a8413eb3a6a7d12126709741263c903d94"
-        ]
-      },
-      "details": {
-        "_id": {
-          "$oid": "66ea85109f840fadee096e8b"
-        },
-        "uid": "0x9f83ef63ae71049c4ca0bce82447c4d27560081a399ded0bd99c039662209e06",
-        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
-        "refUID": "0x900caa3761f4ed81d90a1eeabf8f6900a04d507c049a4d8818b237a21728c54a",
-        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
-        "recipient": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1726645508,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1726645520,
-            "i": 0
-          }
-        },
-        "chainID": 42220,
-        "type": "GrantDetails",
-        "data": {
-          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/14/6",
-          "title": "Regen Coordi-Nation Genesis",
-          "description": "",
-          "payoutAddress": "0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
-          "programId": "14_42220",
-          "amount": "1881.6939058560001 USD",
-          "questions": [
-            {
-              "type": "paragraph",
-              "query": "If applicable, describe how your project/community has been utilising or supporting the Celo ecosystem, or explain a roadmap for your plans to utilise, build with, or align with Celo.",
-              "explanation": "We utilize our SAFE on Celo for operations. We are also building our governance framework for these marginalized and savings communities on Celo making the user experience as friendly as possible by mapping their wallets in the backend to their mobile phone numbers and linking their National IDs. This will also enable tracking of history and records.\nWe will also be streamlining alternative financing via DeFi protocols on Celo for these marginalized communities."
-            }
-          ],
-          "type": "grant-details"
-        },
-        "txid": "0x654c9f1f5ad5ce098fd24608e24036c5182294990dd133c2016adc75795d8297",
-        "externalIds": []
-      },
-      "project": {
-        "_id": {
-          "$oid": "6627615115b7516dd09f6c76"
-        },
-        "uid": "0xfe4f596651e2026cb4f1401bcfb4eeb3b0db763ac078327cb29c37dd42f6b81c",
-        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
-        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "attester": "0xb2b8c08a9aeb0e22242e6fc9cd78fc2402cbc503",
-        "recipient": "0xB2b8C08a9AEB0E22242e6fC9cD78FC2402cBC503",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1713856848,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1713856849,
-            "i": 0
-          }
-        },
-        "chainID": 42161,
-        "type": "Project",
-        "data": {
-          "project": true
-        },
-        "externalIds": [],
-        "txid": "0x519b0b72e7679f96a5096ecc60530e61ed28fb8bd827d97ac3da725e9beec539",
         "categories": []
       },
       "categories": [],

@@ -1,5 +1,1320 @@
 {
   "id": "42161-867-0x7af48f1f1acdc33c9337943ad37efab210fda912cf8806714e28de883a3cb41a",
-  "projects": [],
-  "grants": []
+  "projectId": "0x7af48f1f1acdc33c9337943ad37efab210fda912cf8806714e28de883a3cb41a",
+  "projectUIDs": [
+    "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8"
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "6728a3d45275374d2583f322"
+      },
+      "uid": "0xcbed4877cc47b678e6c02042de4e589ead8c50aa0a946b4469962a7790bab84a",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-11-04T10:37:00.000Z",
+      "updatedAt": "2024-11-04T10:37:08.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+      "externalIds": [
+        "0x7af48f1f1acdc33c9337943ad37efab210fda912cf8806714e28de883a3cb41a"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x7af48f1f1acdc33c9337943ad37efab210fda912cf8806714e28de883a3cb41a"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f324"
+        },
+        "uid": "0x635aa650ae2f5e34d075f093b55c89d91f1a2cadd0264cafb4f9767f1895735d",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xcbed4877cc47b678e6c02042de4e589ead8c50aa0a946b4469962a7790bab84a",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/608/93",
+          "title": "GG22 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "programId": "608_42161",
+          "questions": [
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/closerdao/proof-of-presence"
+            },
+            {
+              "type": "short-answer",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "A previous iteration of the team took part a few years ago, but I am failing to find a link to the page with the move to buildbox"
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "We bring digital primitives to real world villages & coliving spaces.  Our legal documents are open source and have inspired many other land based projects to replicate our model."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "It enables a practical use of web3 for decentralizing access to real estate. It also incentivizes for creating more web3 governed commons in the real world"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "We intend to bring to life the next generation of our protocol (Proof of Presence 2.0) which will move us from the prototyping phase to the scaling phase."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "N/A"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f321"
+        },
+        "uid": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": [],
+        "external": {
+          "github": [
+            "https://github.com/closerdao/closer-ui",
+            "https://github.com/closerdao/proof-of-presence",
+            "https://github.com/closerdao/documentation"
+          ],
+          "network_addresses": [
+            "celo:0x10cb7f49389787a99b59b2f87dfdd3bba141559f",
+            "celo:0x5Bc8e45E6c0019F12bE2979De614AF3cc63538e9",
+            "celo:0x475398EeE0E22cb6fe5403ffA294Fb10Ad989e17"
+          ],
+          "divvi_wallets": [
+            "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67f51c312780d5ba5a4cbb8e"
+          },
+          "uid": "0xde4e9bf4d9f14395cf0af272c01ba1f0ce4c65385b62b03c6af78fa476944e33",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xcbed4877cc47b678e6c02042de4e589ead8c50aa0a946b4469962a7790bab84a",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744116779,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744116785,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "title": "Onboard new villages onto Closer",
+            "description": "As part of our objectives for our Gitcoin grant was to work on onboarding new customers to Closer.",
+            "endsAt": 1745967600,
+            "startsAt": 1738368000,
+            "priority": 2,
+            "type": "milestone"
+          },
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "67f51b642780d5ba5a4cbb7f"
+          },
+          "uid": "0x7aea04efe02f5a35390536c6aa2a0817c8f42d359734deedfe3fb407c3b641e4",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xcbed4877cc47b678e6c02042de4e589ead8c50aa0a946b4469962a7790bab84a",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744116575,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744116580,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "title": "Implementing Monerium integration",
+            "description": "This enables Closer villages to now offer a simple bank transfer option to pay for tokens. \n\nAlongside a financed token sale offering - where members can pay for their citizenship as a subscription over 3 years - and alongside with our new affiliate functionality, we hope this will enable us to onramp the next wave of customers into the world of tokenized real world assets.",
+            "endsAt": 1744671600,
+            "startsAt": 1738368000,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67f51be602722b56d0c03b9c"
+              },
+              "uid": "0x37413ad3547d0159d317927ff96527ce0c2381823caf548d1d32323a5639e884",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x7aea04efe02f5a35390536c6aa2a0817c8f42d359734deedfe3fb407c3b641e4",
+              "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+              "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1744116713,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1744116710,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "This feature is now completed, and we are waiting for OASA Association to be registered in order to start accepting payments with bank transfers for sale of $TDF tokens - unlocking regenerative real world assets on chain.",
+                "proofOfWork": "https://github.com/closerdao/closer-ui/pull/649",
+                "completionPercentage": "100"
+              }
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67f51be602722b56d0c03b9c"
+              },
+              "uid": "0x37413ad3547d0159d317927ff96527ce0c2381823caf548d1d32323a5639e884",
+              "schemaUID": "0x93391c496898c63995f23797835c8e0468be338f0dbc2df62edfd70856cde1d4",
+              "refUID": "0x7aea04efe02f5a35390536c6aa2a0817c8f42d359734deedfe3fb407c3b641e4",
+              "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+              "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1744116713,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1744116710,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "This feature is now completed, and we are waiting for OASA Association to be registered in order to start accepting payments with bank transfers for sale of $TDF tokens - unlocking regenerative real world assets on chain.",
+                "proofOfWork": "https://github.com/closerdao/closer-ui/pull/649",
+                "completionPercentage": "100"
+              }
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ecbb236a54c05fcd3d1ad9"
+      },
+      "uid": "0xf5df648f85194abf1e3de1b8a22e5bf3f7f87c2a16a9062ac665b738f4f32e56",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T04:20:45.000Z",
+      "updatedAt": "2025-04-02T04:20:51.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586"
+      },
+      "txid": "0xa0836ae3d1243fbea8b277992ccd23b3c9e00aae00833c6d77e0f35629ab0246",
+      "external": {
+        "gitcoin": [
+          "0x7af48f1f1acdc33c9337943ad37efab210fda912cf8806714e28de883a3cb41a"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ecbb236a54c05fcd3d1ada"
+        },
+        "uid": "0x5c39c391c66f0540fc3885703514c44da70460823cfc14454fc75f1297fde22a",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xf5df648f85194abf1e3de1b8a22e5bf3f7f87c2a16a9062ac665b738f4f32e56",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743567645,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743567651,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/867/125",
+          "title": "GG23 OSS - dApps and Apps",
+          "description": "",
+          "payoutAddress": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "programId": "867_42161",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "sam@closer.earth"
+            },
+            {
+              "type": "short-answer",
+              "query": "Telegram Handle We Can Use To Contact You",
+              "explanation": "@samueldelesque"
+            },
+            {
+              "type": "short-answer",
+              "query": "Project GitHub Repo",
+              "explanation": "https://github.com/closerdao/proof-of-presence"
+            },
+            {
+              "type": "link",
+              "query": "Link to your Public Group Chat",
+              "explanation": "https://t.me/closerearth"
+            },
+            {
+              "type": "paragraph",
+              "query": "Have you participated in a previous Gitcoin Grants Round? If so, please name the rounds or link the builder profile associated with previous rounds.",
+              "explanation": "GG22 etc."
+            },
+            {
+              "type": "paragraph",
+              "query": "How does your project contribute to the growth of the OSS ecosystem? Please provide specific examples of how your application enhances or expands the current ecosystem.",
+              "explanation": "Onboarding physical spaces that serve as meeting points for web3 aficionados, as a place to onramp new web3 participants and bring education about digital sovereignty."
+            },
+            {
+              "type": "paragraph",
+              "query": "What features or use cases does your dApp/App present? How is it differentiated?",
+              "explanation": "We enable a user friend front end to allow physical spaces to distribute access & governance rights to a community of members."
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your plans for further development, and how will the grant funds be used to achieve these goals?",
+              "explanation": "We are building further web3 primitives, and onboarding more ecovillages to use our stack. We aim to create an integration to inverter.network in order to make our stack even more scalable."
+            },
+            {
+              "type": "paragraph",
+              "query": "For any project deploying smart contracts on blockchain networks, please list all your deployer addresses and their corresponding blockchain networks. Use this format for each entry: [deployer_address], [chain_id]—for example, 0x123abc..., 42161 (This represents a deployer address on the Arbitrum network). Please include a separate line for each unique deployer address and blockchain combination.",
+              "explanation": "0x62266a37cb6C4a06c10eD65D70Baa2A69C7eFcB7"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xa0836ae3d1243fbea8b277992ccd23b3c9e00aae00833c6d77e0f35629ab0246"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f321"
+        },
+        "uid": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": [],
+        "external": {
+          "github": [
+            "https://github.com/closerdao/closer-ui",
+            "https://github.com/closerdao/proof-of-presence",
+            "https://github.com/closerdao/documentation"
+          ],
+          "network_addresses": [
+            "celo:0x10cb7f49389787a99b59b2f87dfdd3bba141559f",
+            "celo:0x5Bc8e45E6c0019F12bE2979De614AF3cc63538e9",
+            "celo:0x475398EeE0E22cb6fe5403ffA294Fb10Ad989e17"
+          ],
+          "divvi_wallets": [
+            "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdab6fb7a034586fb781"
+        },
+        "uid": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377256,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377259,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x494fafd7fdbf161093478f3d71e5d27b15be728226868f0cd07c3315f0d10995",
+        "details": {
+          "_id": {
+            "$oid": "6626ecd715b7516dd09f6c6e"
+          },
+          "uid": "0x32e8138a3621b4208241f9903bb85cee63024f33734f4da1f3640d09cf45bc51",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x549c37c21185a5781f2fedc0cbbd83d87f299c8fced0ca1fdc0e6e6b8d9ec586",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827029,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827031,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Gitcoin",
+            "description": "Gitcoin creates solutions that empower digitally native communities to fund, build, and protect what matters.",
+            "imageURL": "data:image/jpeg;base64,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",
+            "slug": "gitcoin-arb"
+          },
+          "externalIds": [],
+          "txid": "0x3085890b6c04166b19e01c59bfe8330af0c54910203d533d466426ac83453833"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "682f5bcc6c3ac4ca3603af56"
+      },
+      "uid": "0xc7366c4df57e77562312f3504044e45b096a0ddbe535a4652892d65e25c07df1",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+      "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-05-22T17:15:53.000Z",
+      "updatedAt": "2025-05-22T17:15:56.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d"
+      },
+      "txid": "0x14a2288310427b669ec4b24ad99110f989880a966ba8aec72e5456ca2d8015c9",
+      "details": {
+        "_id": {
+          "$oid": "682f5bcc6c3ac4ca3603af5a"
+        },
+        "uid": "0x49c1b5ff4ecf439443dd61ce0ff1437d3ff45f8997ed6d9c7b24b9baf7e99a14",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xc7366c4df57e77562312f3504044e45b096a0ddbe535a4652892d65e25c07df1",
+        "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1747934153,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1747934156,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "title": "Proof of Ship - Season 1",
+          "description": "I am applying to participate in the Proof of Ship - Season 1",
+          "linkToProposal": "",
+          "amount": "",
+          "milestones": [
+            {
+              "title": "Deploy Proof of $Presence on Celo",
+              "description": "",
+              "endsAt": 1747263600,
+              "startsAt": 1743462000,
+              "priority": 1
+            },
+            {
+              "title": "Mint initial $Presence to TDF Community",
+              "description": "",
+              "endsAt": 1749164400,
+              "startsAt": 1747695600,
+              "priority": 2
+            }
+          ],
+          "community": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+          "recipient": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "programId": "857_42161",
+          "questions": [],
+          "selectedTrackIds": [],
+          "proposalURL": "",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "type": "grant-details"
+        },
+        "txid": "0x14a2288310427b669ec4b24ad99110f989880a966ba8aec72e5456ca2d8015c9"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f321"
+        },
+        "uid": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": [],
+        "external": {
+          "github": [
+            "https://github.com/closerdao/closer-ui",
+            "https://github.com/closerdao/proof-of-presence",
+            "https://github.com/closerdao/documentation"
+          ],
+          "network_addresses": [
+            "celo:0x10cb7f49389787a99b59b2f87dfdd3bba141559f",
+            "celo:0x5Bc8e45E6c0019F12bE2979De614AF3cc63538e9",
+            "celo:0x475398EeE0E22cb6fe5403ffA294Fb10Ad989e17"
+          ],
+          "divvi_wallets": [
+            "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "682f5bcc6c3ac4ca3603af57"
+          },
+          "uid": "0x40eb1c9bf497302f1dc5ed5569e92e8aa196d8e05649d909017d843756788478",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xc7366c4df57e77562312f3504044e45b096a0ddbe535a4652892d65e25c07df1",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1747934153,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1747934156,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Deploy Proof of $Presence on Celo",
+            "description": "",
+            "endsAt": 1747263600,
+            "startsAt": 1743462000,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "txid": "0x14a2288310427b669ec4b24ad99110f989880a966ba8aec72e5456ca2d8015c9",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "682f5bcc6c3ac4ca3603af58"
+          },
+          "uid": "0x4ad2a0ecf8349ef1a9eb249c421f315d627ca4b1c0c07ac0e466edc3289ca130",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xc7366c4df57e77562312f3504044e45b096a0ddbe535a4652892d65e25c07df1",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1747934153,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1747934156,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Mint initial $Presence to TDF Community",
+            "description": "",
+            "endsAt": 1749164400,
+            "startsAt": 1747695600,
+            "priority": 2,
+            "type": "milestone"
+          },
+          "txid": "0x14a2288310427b669ec4b24ad99110f989880a966ba8aec72e5456ca2d8015c9",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "67c0c4713d8ab8946c68e839"
+        },
+        "uid": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1740686436,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1740686449,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x305cb51c2e7c6136efd85bc82145f16aec0b83a2c8b5cdbe86e715e4f5ce050e",
+        "details": {
+          "_id": {
+            "$oid": "67c0c47b3d8ab8946c68e83a"
+          },
+          "uid": "0xca11c14b89700171c0f1e07496c978980d6a0b82c9fb6709289857f78a5ceff9",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1740686451,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1740686459,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo",
+            "description": "Celo Community",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celo"
+          },
+          "txid": "0xa5dc6bf2df08c2c371fe36428e2ba76a75fba6538d4aa1ec852823f2e06127f3"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "682f63c137c133decbe87454"
+      },
+      "uid": "0x634976ca1d68edae193c70be7bfdfa821a527ebb1ba741a68752dd64af72feb9",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+      "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-05-22T17:49:41.000Z",
+      "updatedAt": "2025-05-22T17:49:53.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1"
+      },
+      "txid": "0x61d3488e06477f525f54068560611bfa22770e505c8f9dfcf8dc8639e58dc493",
+      "details": {
+        "_id": {
+          "$oid": "682f63c137c133decbe87456"
+        },
+        "uid": "0xefa6a2afd4d1c85569bcba7dac4e77a73eed010c96aeceeedac82b346f103949",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x634976ca1d68edae193c70be7bfdfa821a527ebb1ba741a68752dd64af72feb9",
+        "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1747936181,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1747936193,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "title": "Proof of Impact",
+          "description": "I am applying to participate in the Proof of Impact",
+          "linkToProposal": "",
+          "amount": "",
+          "milestones": [
+            {
+              "title": "Onboard 50+ users to $presence governance",
+              "description": "We are creating new tools for land based projects to issue governance rights. Our primary one is $Presence - which is a decaying soulbound token representing a user's presence in a physical location. The assumption is as global citizen - what should grant governance rights is not just arbitrary citizenship (binary), but rather contextual presence. For example - if you spend 1/3 of your life amongst 3 towns - our assumption is you should be able to have 1/3 governance right in each rather than having to arbitrarily select 1.",
+              "endsAt": 1749164400,
+              "startsAt": 1747695600,
+              "priority": 1
+            }
+          ],
+          "community": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+          "recipient": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "programId": "918_42161",
+          "questions": [],
+          "selectedTrackIds": [],
+          "proposalURL": "",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "type": "grant-details"
+        },
+        "txid": "0x61d3488e06477f525f54068560611bfa22770e505c8f9dfcf8dc8639e58dc493"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f321"
+        },
+        "uid": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": [],
+        "external": {
+          "github": [
+            "https://github.com/closerdao/closer-ui",
+            "https://github.com/closerdao/proof-of-presence",
+            "https://github.com/closerdao/documentation"
+          ],
+          "network_addresses": [
+            "celo:0x10cb7f49389787a99b59b2f87dfdd3bba141559f",
+            "celo:0x5Bc8e45E6c0019F12bE2979De614AF3cc63538e9",
+            "celo:0x475398EeE0E22cb6fe5403ffA294Fb10Ad989e17"
+          ],
+          "divvi_wallets": [
+            "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "682f63c137c133decbe87455"
+          },
+          "uid": "0x4c8b1e3fd7961dd0ebfda9411cea045ddcd515c98baa8a396fbe4043a65ff1c2",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x634976ca1d68edae193c70be7bfdfa821a527ebb1ba741a68752dd64af72feb9",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1747936181,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1747936193,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Onboard 50+ users to $presence governance",
+            "description": "We are creating new tools for land based projects to issue governance rights. Our primary one is $Presence - which is a decaying soulbound token representing a user's presence in a physical location. The assumption is as global citizen - what should grant governance rights is not just arbitrary citizenship (binary), but rather contextual presence. For example - if you spend 1/3 of your life amongst 3 towns - our assumption is you should be able to have 1/3 governance right in each rather than having to arbitrarily select 1.",
+            "endsAt": 1749164400,
+            "startsAt": 1747695600,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "txid": "0x61d3488e06477f525f54068560611bfa22770e505c8f9dfcf8dc8639e58dc493",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6643ad0af46646aa5c094e85"
+        },
+        "uid": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715711235,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715711242,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0xa377cbfd1507fe94a45ac3b7079e312e92535ccc42bc6c1fc439e8a54c235852",
+        "details": {
+          "_id": {
+            "$oid": "66453145e2f3c5c3efee55fe"
+          },
+          "uid": "0x4c98032bc229a0f688abf8f49f8a0d31ee2f648c90fb8060fc668534999bcedf",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1715810626,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1715810629,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo Public Goods",
+            "description": "Celo is scaling Ethereum with real-world solutions, leading a thriving new digital economy for all",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celopg"
+          },
+          "externalIds": [],
+          "txid": "0x3f23c0cc235858d7017f6a8debdca8aa52fec34843586aceedc6380a35b6701b"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "682f84b037c133decbe87464"
+      },
+      "uid": "0x02c4284f23802089061d0f974c34c604d8b24840f53f10e14cf8f2f43af9e87a",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+      "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-05-22T20:10:15.000Z",
+      "updatedAt": "2025-05-22T20:10:24.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d"
+      },
+      "txid": "0xed6fb2e4e130c8278a35f31ef3f5a3c7491f6bf603829906d52c85e41e0724bd",
+      "details": {
+        "_id": {
+          "$oid": "682f84b037c133decbe87467"
+        },
+        "uid": "0xc621031f2513ea79b6fe66a284cf431bd0bd18851a2549c0165a083a983abdb8",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x02c4284f23802089061d0f974c34c604d8b24840f53f10e14cf8f2f43af9e87a",
+        "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1747944615,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1747944624,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "title": "Proof of Ship - Season 4",
+          "description": "I am applying to participate in the Proof of Ship - Season 4",
+          "linkToProposal": "",
+          "amount": "",
+          "milestones": [
+            {
+              "title": "Onboard 50+ users to $Presence for TDF",
+              "description": "",
+              "endsAt": 1749164400,
+              "startsAt": 1747695600,
+              "priority": 1
+            }
+          ],
+          "community": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+          "recipient": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "programId": "901_42161",
+          "questions": [],
+          "selectedTrackIds": [
+            "68129a47ff501197c3f342f1"
+          ],
+          "proposalURL": "",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d",
+          "type": "grant-details"
+        },
+        "txid": "0xed6fb2e4e130c8278a35f31ef3f5a3c7491f6bf603829906d52c85e41e0724bd"
+      },
+      "project": {
+        "_id": {
+          "$oid": "6728a3d45275374d2583f321"
+        },
+        "uid": "0x946d51bfaa1d0b7bc5ceb09870b83300226a51848e0cd5733947a4e1c4535ca8",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1730716620,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1730716628,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0xfcb331d20422cf5c45d835363514e1498e65d5e49f36dd1f625767dd2e4da4dc",
+        "externalIds": [],
+        "external": {
+          "github": [
+            "https://github.com/closerdao/closer-ui",
+            "https://github.com/closerdao/proof-of-presence",
+            "https://github.com/closerdao/documentation"
+          ],
+          "network_addresses": [
+            "celo:0x10cb7f49389787a99b59b2f87dfdd3bba141559f",
+            "celo:0x5Bc8e45E6c0019F12bE2979De614AF3cc63538e9",
+            "celo:0x475398EeE0E22cb6fe5403ffA294Fb10Ad989e17"
+          ],
+          "divvi_wallets": [
+            "0x9B5f6dF2C7A331697Cf2616CA884594F6afDC07d"
+          ]
+        },
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "682f84b037c133decbe87465"
+          },
+          "uid": "0x8ae0bb98824e3bf4b5ec0fd02d9637f4f9e333831104c9d05b21165b356e45b3",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x02c4284f23802089061d0f974c34c604d8b24840f53f10e14cf8f2f43af9e87a",
+          "attester": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "recipient": "0x9b5f6df2c7a331697cf2616ca884594f6afdc07d",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1747944615,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1747944624,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "title": "Onboard 50+ users to $Presence for TDF",
+            "description": "",
+            "endsAt": 1749164400,
+            "startsAt": 1747695600,
+            "priority": 1,
+            "type": "milestone"
+          },
+          "txid": "0xed6fb2e4e130c8278a35f31ef3f5a3c7491f6bf603829906d52c85e41e0724bd",
+          "statuses": [],
+          "rejected": [],
+          "completed": [],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "67c0c4713d8ab8946c68e839"
+        },
+        "uid": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1740686436,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1740686449,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x305cb51c2e7c6136efd85bc82145f16aec0b83a2c8b5cdbe86e715e4f5ce050e",
+        "details": {
+          "_id": {
+            "$oid": "67c0c47b3d8ab8946c68e83a"
+          },
+          "uid": "0xca11c14b89700171c0f1e07496c978980d6a0b82c9fb6709289857f78a5ceff9",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x67cce5e1bd0851f8c51b2baca9d556ed447efdfe5309e2b1668d92a48fbe1f2d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1740686451,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1740686459,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo",
+            "description": "Celo Community",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celo"
+          },
+          "txid": "0xa5dc6bf2df08c2c371fe36428e2ba76a75fba6538d4aa1ec852823f2e06127f3"
+        }
+      }
+    }
+  ]
 }

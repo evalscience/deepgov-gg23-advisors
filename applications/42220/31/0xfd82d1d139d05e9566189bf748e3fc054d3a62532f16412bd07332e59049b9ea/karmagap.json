@@ -1,5 +1,3569 @@
 {
   "id": "42220-31-0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea",
-  "projects": [],
-  "grants": []
+  "projectId": "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea",
+  "projectUIDs": [
+    "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+    "0x65e43c75e1a9561d9d8f02e1406a23b97c50b0f0be6ae1d18d595e9ff2d0cc59"
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "67ed0bac38e5aedb69e8c4c9"
+      },
+      "uid": "0x2d7dd798b96f13710f1c8c29f39f2a75ec2a0a12d7ebbdef31b1a25cae03cb02",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x65e43c75e1a9561d9d8f02e1406a23b97c50b0f0be6ae1d18d595e9ff2d0cc59",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T10:04:21.000Z",
+      "updatedAt": "2025-04-02T10:04:28.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b",
+      "external": {
+        "gitcoin": [
+          "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ed0bad38e5aedb69e8c4cc"
+        },
+        "uid": "0xa4e6a9e75b09f6ecc31dc83866a0d1faefb9bfa598bb96f0c4624f90081e05e2",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x2d7dd798b96f13710f1c8c29f39f2a75ec2a0a12d7ebbdef31b1a25cae03cb02",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743588261,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743588269,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/31/43",
+          "title": "Regen Coordination Global",
+          "description": "",
+          "payoutAddress": "0x6cA0493b04b025D4430032d7645130E5C3268E0C",
+          "programId": "31_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "caue.mtomaz@gmail.com"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "4"
+            },
+            {
+              "type": "checkbox",
+              "query": "Is your project a member or past grantee of one of these networks?",
+              "explanation": "Greenpill"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your key active goals, plans, objectives or milestones for this year?",
+              "explanation": "Our key goals for this cycle will be:\n- **Complete Regen Rio Program** with success (e.g. all grantees completing karmagap and commitment pool phases)\n- **Deploying and operationalizing two Cookie Jars** for internal micro-funding coordination (Council & Guardians).\n- **Coordinating and documenting the Climate Resilience Protocol infrastructure**, including governance and funding cycles on Gardens v2.\n- **Sustaining direct funding for grassroots regen activities** via [Charmverse proposals](https://app.charmverse.io/greenpillbrasil/proposals) under our Regen Incentives campaign."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ed0bac38e5aedb69e8c4c8"
+        },
+        "uid": "0x65e43c75e1a9561d9d8f02e1406a23b97c50b0f0be6ae1d18d595e9ff2d0cc59",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743588261,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743588268,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "662177365f4acee3eab449b4"
+      },
+      "uid": "0x60397aa2b7a0fe4771960d58e2503ecb1a9087265c369642ac7372d775e33339",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-04-18T19:38:36.000Z",
+      "updatedAt": "2024-04-18T19:40:37.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x78e493fec641879ea6ab95c0d5d61c96df0622df5da38c627f0e0b171709da78"
+      },
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "662177365f4acee3eab449bd"
+        },
+        "uid": "0x9caadd9089bbda9aee103328a74ee321bb9b1a468493b8eec12f14793bc859af",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x60397aa2b7a0fe4771960d58e2503ecb1a9087265c369642ac7372d775e33339",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713469116,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469238,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/0xc5262fc451a72f68f83563e30126d9c1d5d77659/50",
+          "title": "Glo Dollar x Arbitrum DAO",
+          "description": "We’re rallying all Web3 projects to start embedding philanthropy in their organization by integrating the Glo Dollar stablecoin in their platform and/or treasury. By doing so these organizations bring three benefits to the world: (1) directly contribute to funding basic incomes for people in extreme poverty, (2) spread the word about Glo Dollar to a bigger audience, indirectly growing basic income funding, and (3) opportunity to join the Glo Consortium to further collaborate on reducing extreme poverty. Glo Dollar is collaborating with Arbitrum DAO to bring a total of $10,000 in USDGLO in matching for organizations that embed philanthropy. Whether you're already part of the Glo Consortium or looking to dive into Glo, this round is for you.",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details",
+          "programId": "543_42161"
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "00003eb1b48822456c5d7a00"
+        },
+        "uid": "0x78e493fec641879ea6ab95c0d5d61c96df0622df5da38c627f0e0b171709da78",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1705560812,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1705541015,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xc74078d2a7ea017f15eab501eb43e6e9180c04967e82c9002c0c58ecf5c83f6f",
+        "details": {
+          "_id": {
+            "$oid": "66201ea532e1aed416be9cd3"
+          },
+          "uid": "0x5f9f23f3375ae60459062f870f72c1bc0b5d2a6416e8fe8d1623ea3cdfa8931e",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x78e493fec641879ea6ab95c0d5d61c96df0622df5da38c627f0e0b171709da78",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713381027,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713381029,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Glo Dollar",
+            "description": "Stablecoin",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/glodollar.jpeg",
+            "slug": "glodollar"
+          },
+          "externalIds": [],
+          "txid": "0xb73cc43c17d5734ef8ca601cc33876143faf5adb7cee56ec24b6cfc015b93bf8"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66293e92a2ff8318665777cd"
+      },
+      "uid": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-04-24T17:17:04.000Z",
+      "updatedAt": "2024-04-24T17:17:06.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "txid": "0xf27064bd399278087976f04d098c9e5555866ad4d34d9bd4f493c22937fce227",
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66293e92a2ff8318665777ce"
+        },
+        "uid": "0x5c4f780fa9ac5d4dfed71fc70ad9a45b0b9394c55a3a74968880ef78020c2b1c",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713979024,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713979026,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/29/52",
+          "title": "GG20 - Climate Round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details",
+          "programId": "535_42161"
+        },
+        "externalIds": [],
+        "txid": "0xf27064bd399278087976f04d098c9e5555866ad4d34d9bd4f493c22937fce227"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "66ad966951b6c80e6c54508f"
+          },
+          "uid": "0x90c25121a551149903b65060bc2fc3455ffa34e95fa728ccb88d825a708ba13a",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722652261,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722652265,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "1. Design and distribute native bee traps to support local pollinator populations. \n2. Monitor the traps to track the health and activity of bee colonies.",
+            "endsAt": 1735700400,
+            "startsAt": 1704078000,
+            "title": "Milestone 4: Enhancing Pollination with Native Bee Traps",
+            "type": "milestone"
+          },
+          "txid": "0xba73fc64a13cd68ca2cf568cc49f717cb490b8bd8ba75e19f0a1cb2af290b631",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "66ad966951b6c80e6c545090"
+              },
+              "uid": "0x0ad9870601a1134e9c311b8f09b41b8470ad853268787d399d23bf6520d50e0f",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x90c25121a551149903b65060bc2fc3455ffa34e95fa728ccb88d825a708ba13a",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722652261,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722652265,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "[See the map here.](https://www.google.com/maps/d/u/0/edit?mid=1PqwEKw-wvhY73M85qAy56qHHBXWeSBA&usp=sharing)\n\n1. Distributed 51 native bee traps and monitored the health and activity of local bee colonies.\n[![Captura-de-tela-2024-08-02-204622.png](https://i.postimg.cc/d1ZtWRrQ/Captura-de-tela-2024-08-02-204622.png)](https://postimg.cc/9RVh07Ls)\n[![Captura-de-tela-2024-08-02-204639.png](https://i.postimg.cc/RVLCbZ6t/Captura-de-tela-2024-08-02-204639.png)](https://postimg.cc/sv1RMyJf)\n[![Captura-de-tela-2024-08-02-204712.png](https://i.postimg.cc/pd4Pn97w/Captura-de-tela-2024-08-02-204712.png)](https://postimg.cc/94d66fcb)\n\n2. \n\n"
+              },
+              "txid": "0xba73fc64a13cd68ca2cf568cc49f717cb490b8bd8ba75e19f0a1cb2af290b631",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "66ad966951b6c80e6c545090"
+              },
+              "uid": "0x0ad9870601a1134e9c311b8f09b41b8470ad853268787d399d23bf6520d50e0f",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x90c25121a551149903b65060bc2fc3455ffa34e95fa728ccb88d825a708ba13a",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722652261,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722652265,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "[See the map here.](https://www.google.com/maps/d/u/0/edit?mid=1PqwEKw-wvhY73M85qAy56qHHBXWeSBA&usp=sharing)\n\n1. Distributed 51 native bee traps and monitored the health and activity of local bee colonies.\n[![Captura-de-tela-2024-08-02-204622.png](https://i.postimg.cc/d1ZtWRrQ/Captura-de-tela-2024-08-02-204622.png)](https://postimg.cc/9RVh07Ls)\n[![Captura-de-tela-2024-08-02-204639.png](https://i.postimg.cc/RVLCbZ6t/Captura-de-tela-2024-08-02-204639.png)](https://postimg.cc/sv1RMyJf)\n[![Captura-de-tela-2024-08-02-204712.png](https://i.postimg.cc/pd4Pn97w/Captura-de-tela-2024-08-02-204712.png)](https://postimg.cc/94d66fcb)\n\n2. \n\n"
+              },
+              "txid": "0xba73fc64a13cd68ca2cf568cc49f717cb490b8bd8ba75e19f0a1cb2af290b631",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "66ad955051b6c80e6c54508d"
+          },
+          "uid": "0xeb0760f5f006b3caa835e9b3506836eb68b18524b27d0b79ac82f976d398fcce",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722651980,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722651984,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "1. Identify areas dominated by invasive species. Use GIS tools and field techniques to map these regions, creating a detailed database to prioritize restoration efforts.\n2. Implement targeted measures to control invasive species, such as mechanical removal and ecological management. Monitor the effectiveness of these measures to ensure the recovery of native species.\n3.  Select and plant native saplings in areas previously dominated by invasive species. Ensure saplings are sourced from local nurseries to maintain genetic diversity and suitability.",
+            "endsAt": 1735700400,
+            "startsAt": 1719802800,
+            "title": "Milestone 3 - Biodiversity Restoration: Mapping areas for controlling Invasive Species and native planting",
+            "type": "milestone"
+          },
+          "txid": "0x6803a15dab76efbd4fe6b9c0ea87c9ad8ebf60c646624ec5002445f9deed1e52",
+          "externalIds": [],
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "66ad955051b6c80e6c54508e"
+              },
+              "uid": "0x2e587eadefcf66e4d0b60fc6c8cd4752040b38278e2d59c8de61e87cc9ea675a",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0xeb0760f5f006b3caa835e9b3506836eb68b18524b27d0b79ac82f976d398fcce",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722651980,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722651984,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "[See the map here.](https://www.google.com/maps/d/u/0/edit?mid=1PqwEKw-wvhY73M85qAy56qHHBXWeSBA&usp=sharing)  \n\n1. Successfully mapped 20 protected areas using advanced mapping technologies and field surveys.\n![image]([![Captura-de-tela-2024-08-02-203420.png](https://i.postimg.cc/V6qWbtvv/Captura-de-tela-2024-08-02-203420.png)](https://postimg.cc/MMGQCvyJ))\n[![Captura-de-tela-2024-08-02-203523.png](https://i.postimg.cc/Dfccv1RY/Captura-de-tela-2024-08-02-203523.png)](https://postimg.cc/ThpbQ5dr)\n\n\n2. Controlled invasive species in 100m² of protected areas through mechanical removal and ecological management techniques. \n[![Captura-de-tela-2024-08-02-203721.png](https://i.postimg.cc/BnFL60XQ/Captura-de-tela-2024-08-02-203721.png)](https://postimg.cc/NKgfJZ6W) \n[![Whats-App-Image-2024-08-02-at-20-43-06.jpg](https://i.postimg.cc/RFhvW7XQ/Whats-App-Image-2024-08-02-at-20-43-06.jpg)](https://postimg.cc/kV00ZbrB)\n3. Planted 25 native saplings sourced from local nurseries to restore ecosystem balance. [![Captura-de-tela-2024-08-02-203830.png](https://i.postimg.cc/FFPJCpMm/Captura-de-tela-2024-08-02-203830.png)](https://postimg.cc/w3mv7Xxb) "
+              },
+              "txid": "0x6803a15dab76efbd4fe6b9c0ea87c9ad8ebf60c646624ec5002445f9deed1e52",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "66ad955051b6c80e6c54508e"
+              },
+              "uid": "0x2e587eadefcf66e4d0b60fc6c8cd4752040b38278e2d59c8de61e87cc9ea675a",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0xeb0760f5f006b3caa835e9b3506836eb68b18524b27d0b79ac82f976d398fcce",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1722651980,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1722651984,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "[See the map here.](https://www.google.com/maps/d/u/0/edit?mid=1PqwEKw-wvhY73M85qAy56qHHBXWeSBA&usp=sharing)  \n\n1. Successfully mapped 20 protected areas using advanced mapping technologies and field surveys.\n![image]([![Captura-de-tela-2024-08-02-203420.png](https://i.postimg.cc/V6qWbtvv/Captura-de-tela-2024-08-02-203420.png)](https://postimg.cc/MMGQCvyJ))\n[![Captura-de-tela-2024-08-02-203523.png](https://i.postimg.cc/Dfccv1RY/Captura-de-tela-2024-08-02-203523.png)](https://postimg.cc/ThpbQ5dr)\n\n\n2. Controlled invasive species in 100m² of protected areas through mechanical removal and ecological management techniques. \n[![Captura-de-tela-2024-08-02-203721.png](https://i.postimg.cc/BnFL60XQ/Captura-de-tela-2024-08-02-203721.png)](https://postimg.cc/NKgfJZ6W) \n[![Whats-App-Image-2024-08-02-at-20-43-06.jpg](https://i.postimg.cc/RFhvW7XQ/Whats-App-Image-2024-08-02-at-20-43-06.jpg)](https://postimg.cc/kV00ZbrB)\n3. Planted 25 native saplings sourced from local nurseries to restore ecosystem balance. [![Captura-de-tela-2024-08-02-203830.png](https://i.postimg.cc/FFPJCpMm/Captura-de-tela-2024-08-02-203830.png)](https://postimg.cc/w3mv7Xxb) "
+              },
+              "txid": "0x6803a15dab76efbd4fe6b9c0ea87c9ad8ebf60c646624ec5002445f9deed1e52",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "666e82970debeecc942fb4b5"
+          },
+          "uid": "0x4fce9c6a2891ea9ab7e52d897b575cef7c63d88b805443f41caf6991c5b3c625",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718518420,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718518423,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective:** Facilitate the onboarding of new members into the Web3 space to enhance their regenerative initiatives.\n\n**Tasks:**\n\n- Onboarding Sessions: Conduct sessions to introduce Web3 tools and concepts.\n- Support and Resources: Provide resources and ongoing support for new members.\n- Project Integration: Integrate new members projects on Giveth and Gitcoin.\n\n**Metrics:**\n\n- Number of onboarding sessions conducted.\n- Number of wallets created.\n- Number of Gitcoin passports with at least 20 points.\n- Number of projects created on Giveth and Gitcoin.",
+            "endsAt": 1735614000,
+            "startsAt": 1704078000,
+            "title": "Milestone 2: Impactful Web3 Onboarding",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0xf43616d7d23552807ad10fdc5fbc2038553b829657870921f61c7a726c1e1de9",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "666e82970debeecc942fb4b6"
+              },
+              "uid": "0x8695e57e4b1714db7b58b8ff8e83ea7cff74c514565effd88e9781b98246e595",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x4fce9c6a2891ea9ab7e52d897b575cef7c63d88b805443f41caf6991c5b3c625",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718518420,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718518423,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "- Number of onboarding sessions conducted: 10\n- Number of wallets created: 10\n- Number of Gitcoin passports with at least 20 points: 10\n- Number of projects created on Giveth and Gitcoin: 5"
+              },
+              "externalIds": [],
+              "txid": "0xf43616d7d23552807ad10fdc5fbc2038553b829657870921f61c7a726c1e1de9"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "666e82970debeecc942fb4b6"
+              },
+              "uid": "0x8695e57e4b1714db7b58b8ff8e83ea7cff74c514565effd88e9781b98246e595",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x4fce9c6a2891ea9ab7e52d897b575cef7c63d88b805443f41caf6991c5b3c625",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718518420,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718518423,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "- Number of onboarding sessions conducted: 10\n- Number of wallets created: 10\n- Number of Gitcoin passports with at least 20 points: 10\n- Number of projects created on Giveth and Gitcoin: 5"
+              },
+              "externalIds": [],
+              "txid": "0xf43616d7d23552807ad10fdc5fbc2038553b829657870921f61c7a726c1e1de9"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "666e75b40debeecc942fb4ad"
+          },
+          "uid": "0x45289c34cb32bcbf76416e74d4ec981a636eac712273363732966f18a5b53588",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718515121,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718515124,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective**: Elevate awareness and understanding of climate issues through educational initiatives and ReFi (Regenerative Finance) education.\n\n**Tasks:**\n\n1. Webinars and Workshops: Organize sessions focused on climate solutions and ReFi.\n2. Content Development: Create and distribute educational materials.\n\n**Metrics:**\n\n- Number of webinars and workshops held.\n- Number of participants engaged.\n- Increase in knowledge measured through surveys.\n\n**Justification:** This milestone focuses on climate activism and education, enhancing community knowledge and engagement in climate solutions.",
+            "endsAt": 1735614000,
+            "startsAt": 1704078000,
+            "title": "Milestone 1: Educational Initiatives and ReFi Education",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0xfcf6c48d59fad47a0fa5f4a6324d12940cd7189b9e24e67190297315d535534b",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "666e762e0debeecc942fb4af"
+              },
+              "uid": "0x008d865db671b5f70ad4888f9a4ec1b88bfc14805e05a65c4b36ed183727ad31",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x45289c34cb32bcbf76416e74d4ec981a636eac712273363732966f18a5b53588",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718515243,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718515246,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "### Updated Numbers and Recent Events\n\nBased on the recent progress and strategic directions of GreenPill Brasil, here are the updated numbers and relevant details for Milestone 1:\n\n- **Webinars and Workshops:**\n  - Over the past few months, GreenPill Brasil has conducted numerous educational meetings, enhancing the community's understanding and commitment to climate solutions.\n  - Participation in events such as ETHSamba and Rio OnChain Week has broadened perspectives and strengthened the network.\n  - A recent in-person event, the **Regen Meetup: GreenPill Brazil + Fabulosa Lab – Innovating for Climate Resilience**, was held during Ethereum Rio, focusing on climate resilience. This event brought together key stakeholders and community members to discuss and innovate on solutions for enhancing climate resilience.\n\n- **Participants Engaged:**\n  - The digital forums and bi-weekly online meetings have seen significant engagement, with 50 impactful meetings and over 100 hours of collaborative discussions recorded, averaging 8 passionate participants per session.\n  - A new initiative, the **Greenpilled Sessions**, is held every Friday. The first session, which included a reaction to an episode of the Greenpill Podcast with Will Rudnick from Grassroots Economics, is available on YouTube.\n\n- **Content Development:**\n  - Efforts in content production and translating vital resources have broadened access to crucial information, fostering a well-informed community. This includes translating the Greenpilled Book, ImpactDAO's Book and help writing the Impact Network.\n\n**Metrics:**\n- **Number of webinars and workshops held:**\n  - GreenPill Brasil has organized over 30 educational sessions, including the recent Regen Meetup and ongoing Greenpilled Sessions.\n   \n- **Number of participants engaged:**\n  - The webinars and workshops have engaged an average of 8 participants per session, with over 70 hours of collaborative discussions.\n\n- **Increase in knowledge measured through surveys:**\n  - Three votes and one poll were conducted to measure changes in understanding and practices related to climate solutions and regenerative practices."
+              },
+              "externalIds": [],
+              "txid": "0xd3ca979ec02f7da5ad304ca80200608ee0ee5a96956f53eb64ee911f493dfb65"
+            },
+            {
+              "_id": {
+                "$oid": "666e75b50debeecc942fb4ae"
+              },
+              "uid": "0x6ab6ba37b0b5fb2930e97c7bdce0621ad8ae2e6d649face281f0a322dc3d1f56",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x45289c34cb32bcbf76416e74d4ec981a636eac712273363732966f18a5b53588",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718515121,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718515125,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "### Updated Numbers and Recent Events\n\nBased on the recent progress and strategic directions of GreenPill Brasil, here are the updated numbers and relevant details for Milestone 1:\n\n- **Webinars and Workshops:**\n  - Over the past few months, GreenPill Brasil has conducted numerous educational meetings, enhancing the community's understanding and commitment to climate solutions.\n  - Participation in events such as ETHSamba and Rio OnChain Week has broadened perspectives and strengthened the network.\n  - A recent in-person event, the **Regen Meetup: GreenPill Brazil + Fabulosa Lab – Innovating for Climate Resilience**, was held during Ethereum Rio, focusing on climate resilience. This event brought together key stakeholders and community members to discuss and innovate on solutions for enhancing climate resilience.\n\n- **Participants Engaged:**\n  - The digital forums and bi-weekly online meetings have seen significant engagement, with 30 impactful meetings and over 70 hours of collaborative discussions recorded, averaging 8 passionate participants per session.\n  - A new initiative, the **Greenpilled Sessions**, is held every Friday. The first session, which included a reaction to an episode of the Greenpill Podcast with Will Rudnick from Grassroots Economics, is available on YouTube.\n\n- **Content Development:**\n  - Efforts in content production and translating vital resources have broadened access to crucial information, fostering a well-informed community. This includes translating the Greenpilled Book and ImpactDAO's Book.\n\n**Metrics:**\n- **Number of webinars and workshops held:**\n  - GreenPill Brasil has organized over 30 educational sessions, including the recent Regen Meetup and ongoing Greenpilled Sessions.\n   \n- **Number of participants engaged:**\n  - The webinars and workshops have engaged an average of 8 participants per session, with over 70 hours of collaborative discussions.\n\n- **Increase in knowledge measured through surveys:**\n  - Three votes and one poll were conducted to measure changes in understanding and practices related to climate solutions and regenerative practices."
+              },
+              "externalIds": [],
+              "txid": "0xfcf6c48d59fad47a0fa5f4a6324d12940cd7189b9e24e67190297315d535534b"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "666e762e0debeecc942fb4af"
+              },
+              "uid": "0x008d865db671b5f70ad4888f9a4ec1b88bfc14805e05a65c4b36ed183727ad31",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x45289c34cb32bcbf76416e74d4ec981a636eac712273363732966f18a5b53588",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718515243,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718515246,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "### Updated Numbers and Recent Events\n\nBased on the recent progress and strategic directions of GreenPill Brasil, here are the updated numbers and relevant details for Milestone 1:\n\n- **Webinars and Workshops:**\n  - Over the past few months, GreenPill Brasil has conducted numerous educational meetings, enhancing the community's understanding and commitment to climate solutions.\n  - Participation in events such as ETHSamba and Rio OnChain Week has broadened perspectives and strengthened the network.\n  - A recent in-person event, the **Regen Meetup: GreenPill Brazil + Fabulosa Lab – Innovating for Climate Resilience**, was held during Ethereum Rio, focusing on climate resilience. This event brought together key stakeholders and community members to discuss and innovate on solutions for enhancing climate resilience.\n\n- **Participants Engaged:**\n  - The digital forums and bi-weekly online meetings have seen significant engagement, with 50 impactful meetings and over 100 hours of collaborative discussions recorded, averaging 8 passionate participants per session.\n  - A new initiative, the **Greenpilled Sessions**, is held every Friday. The first session, which included a reaction to an episode of the Greenpill Podcast with Will Rudnick from Grassroots Economics, is available on YouTube.\n\n- **Content Development:**\n  - Efforts in content production and translating vital resources have broadened access to crucial information, fostering a well-informed community. This includes translating the Greenpilled Book, ImpactDAO's Book and help writing the Impact Network.\n\n**Metrics:**\n- **Number of webinars and workshops held:**\n  - GreenPill Brasil has organized over 30 educational sessions, including the recent Regen Meetup and ongoing Greenpilled Sessions.\n   \n- **Number of participants engaged:**\n  - The webinars and workshops have engaged an average of 8 participants per session, with over 70 hours of collaborative discussions.\n\n- **Increase in knowledge measured through surveys:**\n  - Three votes and one poll were conducted to measure changes in understanding and practices related to climate solutions and regenerative practices."
+              },
+              "externalIds": [],
+              "txid": "0xd3ca979ec02f7da5ad304ca80200608ee0ee5a96956f53eb64ee911f493dfb65"
+            },
+            {
+              "_id": {
+                "$oid": "666e75b50debeecc942fb4ae"
+              },
+              "uid": "0x6ab6ba37b0b5fb2930e97c7bdce0621ad8ae2e6d649face281f0a322dc3d1f56",
+              "schemaUID": "0xd25ccdfbf87659a9081681eb90598d8b944ed28544da7d57c3ccbe6e6422cc15",
+              "refUID": "0x45289c34cb32bcbf76416e74d4ec981a636eac712273363732966f18a5b53588",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718515121,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718515125,
+                  "i": 0
+                }
+              },
+              "chainID": 42161,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "### Updated Numbers and Recent Events\n\nBased on the recent progress and strategic directions of GreenPill Brasil, here are the updated numbers and relevant details for Milestone 1:\n\n- **Webinars and Workshops:**\n  - Over the past few months, GreenPill Brasil has conducted numerous educational meetings, enhancing the community's understanding and commitment to climate solutions.\n  - Participation in events such as ETHSamba and Rio OnChain Week has broadened perspectives and strengthened the network.\n  - A recent in-person event, the **Regen Meetup: GreenPill Brazil + Fabulosa Lab – Innovating for Climate Resilience**, was held during Ethereum Rio, focusing on climate resilience. This event brought together key stakeholders and community members to discuss and innovate on solutions for enhancing climate resilience.\n\n- **Participants Engaged:**\n  - The digital forums and bi-weekly online meetings have seen significant engagement, with 30 impactful meetings and over 70 hours of collaborative discussions recorded, averaging 8 passionate participants per session.\n  - A new initiative, the **Greenpilled Sessions**, is held every Friday. The first session, which included a reaction to an episode of the Greenpill Podcast with Will Rudnick from Grassroots Economics, is available on YouTube.\n\n- **Content Development:**\n  - Efforts in content production and translating vital resources have broadened access to crucial information, fostering a well-informed community. This includes translating the Greenpilled Book and ImpactDAO's Book.\n\n**Metrics:**\n- **Number of webinars and workshops held:**\n  - GreenPill Brasil has organized over 30 educational sessions, including the recent Regen Meetup and ongoing Greenpilled Sessions.\n   \n- **Number of participants engaged:**\n  - The webinars and workshops have engaged an average of 8 participants per session, with over 70 hours of collaborative discussions.\n\n- **Increase in knowledge measured through surveys:**\n  - Three votes and one poll were conducted to measure changes in understanding and practices related to climate solutions and regenerative practices."
+              },
+              "externalIds": [],
+              "txid": "0xfcf6c48d59fad47a0fa5f4a6324d12940cd7189b9e24e67190297315d535534b"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "completed": {
+        "_id": {
+          "$oid": "67ad9eb6c5c5a6cde4310ce7"
+        },
+        "uid": "0xe532742b0575f77e32a9e82128f22e9e690a7765bf8d4a2e69dc2826e4482a0b",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xb1dcd95cbb1a9252a8a7447b870fded9cda968e194d317dc672106426e85f153",
+        "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "recipient": "0x28163a8b79ea1e046e5a7c0a95516a13dc457cb4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1739431605,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1739431606,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "This grant was our introduction to the climate coordination, we established our first climate metrics and started our regenerative campaigns around Community-led Agroforestry Systems and Waste Management.",
+          "type": "grant-completed"
+        }
+      },
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66282f68e4fd77a23d11034e"
+      },
+      "uid": "0x673ca47d88529a0b6fa1a643bf8ae0b91ab403f1674832cbc323e2835666a96f",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-04-23T22:00:07.000Z",
+      "updatedAt": "2024-04-23T22:00:08.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "txid": "0xa6b1ac95f02a2d831cabdeddf4d7f7ec327e1fb290e9e75734b38a3772a4372f",
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66282f69e4fd77a23d11034f"
+        },
+        "uid": "0xdab84e529fc75e1ac62c8eb6c6777e85dbd0afc01faa683b0c4a80c0e9d6f796",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x673ca47d88529a0b6fa1a643bf8ae0b91ab403f1674832cbc323e2835666a96f",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909607,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909609,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/29/52",
+          "title": "GG18 - Climate Round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details",
+          "programId": "529_42161"
+        },
+        "externalIds": [],
+        "txid": "0xa6b1ac95f02a2d831cabdeddf4d7f7ec327e1fb290e9e75734b38a3772a4372f"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "completed": {
+        "_id": {
+          "$oid": "67ad9ed8e876e3f84cafd04a"
+        },
+        "uid": "0xfe229b01e57b7481f08f1de2ed52649761982339b75d1b3bc5cfc97a12c7b029",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x673ca47d88529a0b6fa1a643bf8ae0b91ab403f1674832cbc323e2835666a96f",
+        "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "recipient": "0x28163a8b79ea1e046e5a7c0a95516a13dc457cb4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1739431639,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1739431640,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "We didnt participated in this grant but we cant delete",
+          "type": "grant-completed"
+        },
+        "txid": "0x99d58e494b67c3b5ed04e3d73201a9452f2cbb29df6967c56dd6e091316f0355"
+      },
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6643b533f46646aa5c094e99"
+      },
+      "uid": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-05-14T19:02:05.000Z",
+      "updatedAt": "2024-05-14T19:02:11.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1"
+      },
+      "externalIds": [],
+      "txid": "0x2136cb1f32aff61a30e4a1191a24c8d4866f5c5e05f3e3275427157b3d2186f9",
+      "details": {
+        "_id": {
+          "$oid": "6643b533f46646aa5c094e9a"
+        },
+        "uid": "0x7bd77928ba54f2ef5bc8b31d2b5e4b2b33e60573957a8630858efe852daefd0f",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715713325,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715713331,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "amount": "",
+          "description": "Our project was selected to be part of the [GG20 Celo Public Goods Climate Bonus Round](https://mirror.xyz/celopg.eth/McicejfzasLM0nD5HKNdPukgQHvVrRVT2GiFwwzf8AA).\n\n### **Celo Claim:**\n\nYour project uses the Celo Network to coordinate its operations (such as cStable payments, a Celo SAFE, Celo Hypercerts etc...), Your project has organised events and meetups that support the Celo ecosystem.\n\nWe're using celo network to mint our ecological benefits and sdg framework hypercerts, we did several meetings to teach about celo ecosystem and we're planning an event to present celo to a broad non web3 audience.\n\n[Screenshot_20240507_231013_MetaMask.jpg](https://storage.tally.so/private/Screenshot_20240507_231013_MetaMask.jpg?id=NlDyKG&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik5sRHlLRyIsImZvcm1JZCI6Ind2Tk5KZyIsImlhdCI6MTcxNTEzNjExOX0.PThoZu7BeY0w_YveTCPO18RpNaYbd-inYXXo7ArQwPI&signature=a42e1b360b49966237d6143dc44ac364c6a53910ea190ee75aaaa4bc3c8d335a) [Screenshot_20240507_000836_Chrome.jpg](https://storage.tally.so/private/Screenshot_20240507_000836_Chrome.jpg?id=VQjAdE&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlZRakFkRSIsImZvcm1JZCI6Ind2Tk5KZyIsImlhdCI6MTcxNTEzNjExOX0.lO9dvrWI3M0Bc-CrB4kPMFDV_r-cNjCLCT6HiGbHT6A&signature=7727f657fce17c3a322018dc7629d25704651ac3ac6852ac76f611d2d3efb8cc) - - \n",
+          "proposalURL": "",
+          "title": "Celo GG20 Climate Bonus Round",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "questions": [
+            {
+              "type": "SUCCESS_MEASURE",
+              "query": "How should the success of your grant be measured?",
+              "explanation": ""
+            },
+            {
+              "type": "IMPACT_MEASUREMENT",
+              "query": "What is the intended direct impact your project will have on the ecosystem?",
+              "explanation": ""
+            },
+            {
+              "type": "IMPACT_MEASUREMENT",
+              "query": "What is the long-term impact of your grant?",
+              "explanation": ""
+            }
+          ],
+          "startDate": 1715670000,
+          "type": "grant-details",
+          "programId": "524_42161"
+        },
+        "externalIds": [],
+        "txid": "0x2136cb1f32aff61a30e4a1191a24c8d4866f5c5e05f3e3275427157b3d2186f9"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "666e80950debeecc942fb4b4"
+          },
+          "uid": "0xa4b4dd33fae276a296950e51bb7724b95287324c3e1bd350de48678baecbd72b",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718517889,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718517909,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective:** Establish GreenPill Brasil as a Celo light client user or run a full node to contribute to the network.\n\n**Tasks:**\n\n- Light Client Setup: Configure devices to run a Celo light client.\n- Full Node Setup (Optional): Configure and secure the server to run a Celo full node.\n- Network Participation: Participate in the Celo network operations using the light client or full node.\n- Community Support: Engage with the Celo community to provide support and gather feedback on the light client/node operations.\n\n**Metrics:**\n\nNumber of light clients/nodes: 5\nFull node setup will be considered based on resource availability.",
+            "endsAt": 1725159600,
+            "startsAt": 1722481200,
+            "title": "Milestone 4: Become a Celo Light Client User or Run a Full Node",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0x6b1eaa1138f1e56f9b67141e05f4488011787037be71c0076fbb6d852e3eba92",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "675a3f5ecf22cbc66c4431c5"
+              },
+              "uid": "0x88c03539e8cd1b8cb88c2cd1f694c59577ce005c1c240c3bddbae411b4df4018",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0xa4b4dd33fae276a296950e51bb7724b95287324c3e1bd350de48678baecbd72b",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733967705,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733967710,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We recently launched 3 Celo Light Clients in testnet in a partnership with NodeHub Web3 in Rio de Janeiro, Brazil.\n\n\nhttps://celo-alfajores.blockscout.com/address/0x367E049c95F256A95840a33F78Ea7e72E09aFEe4\n\nhttps://celo-alfajores.blockscout.com/address/0x1a5147489785fEcB240613989FCAbEbc01fa0D88\n\nhttps://celo-alfajores.blockscout.com/address/0xdbf78b7804A953d8047A7A257697b92fd2117838\n\nNext Steps: \nResearch the best way to using the light clients.",
+                "proofOfWork": "https://celo-alfajores.blockscout.com/address/0x367E049c95F256A95840a33F78Ea7e72E09aFEe4"
+              },
+              "txid": "0x25ee1fecd9716cec430363662a70fb0a214ec18c9a37e4105061d132695bbfb7",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "675a3f5ecf22cbc66c4431c5"
+              },
+              "uid": "0x88c03539e8cd1b8cb88c2cd1f694c59577ce005c1c240c3bddbae411b4df4018",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0xa4b4dd33fae276a296950e51bb7724b95287324c3e1bd350de48678baecbd72b",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733967705,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733967710,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We recently launched 3 Celo Light Clients in testnet in a partnership with NodeHub Web3 in Rio de Janeiro, Brazil.\n\n\nhttps://celo-alfajores.blockscout.com/address/0x367E049c95F256A95840a33F78Ea7e72E09aFEe4\n\nhttps://celo-alfajores.blockscout.com/address/0x1a5147489785fEcB240613989FCAbEbc01fa0D88\n\nhttps://celo-alfajores.blockscout.com/address/0xdbf78b7804A953d8047A7A257697b92fd2117838\n\nNext Steps: \nResearch the best way to using the light clients.",
+                "proofOfWork": "https://celo-alfajores.blockscout.com/address/0x367E049c95F256A95840a33F78Ea7e72E09aFEe4"
+              },
+              "txid": "0x25ee1fecd9716cec430363662a70fb0a214ec18c9a37e4105061d132695bbfb7",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "666e7f9b0debeecc942fb4b3"
+          },
+          "uid": "0x64d2c4551f614c0fd5d975f744b9c5647a5c8abc7906ff6780c7fed2e5f1b047",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718517639,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718517659,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective:** Actively participate in Celo’s governance and community to influence decision-making and contribute to ecosystem growth.\n\n**Tasks:**\n\n- Governance: Join Celo governance forums and participate in discussions.\n- Community Involvement: Engage with the Celo community through events and online platforms.\n- Proposal Voting: Participate in voting on governance proposals.\n\n**Metrics:**\n\n- Active participation by at least one member\n- Number of governance proposals voted on\n- Number of IRL or URL meet ups",
+            "endsAt": 1725159600,
+            "startsAt": 1718334000,
+            "title": "Milestone 3: Participate in Celo Governance and Community",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0x40dfe224e43a5f45a038d5eb4de6e8c11d1d7f485f0b3e01a68aa96442402ff1",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "675a423c3e0801e3e9d1d827"
+              },
+              "uid": "0x6f15b8a7f55af7947ce116e2a278b56818a1ec3a1e3cb95d85a535fa1bc00372",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x64d2c4551f614c0fd5d975f744b9c5647a5c8abc7906ff6780c7fed2e5f1b047",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733968444,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733968444,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Reently two of our contributors atskotzen.eth and groweco.eth started to participate on CELO Governance staking CELO and voting on proposals\n![image](https://atsdevelop.infura-ipfs.io/ipfs/QmQ2ytk7zD1iNzCr7nj3KUmw8MnJz3GNBVaeUbexWYhUs9)",
+                "proofOfWork": "https://atsdevelop.infura-ipfs.io/ipfs/QmQ2ytk7zD1iNzCr7nj3KUmw8MnJz3GNBVaeUbexWYhUs9"
+              },
+              "txid": "0xe4087083ba1fdde74aa0bddda6e7cdbc5bf4746a47a0693d0ebf8f3908460057",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "675a423c3e0801e3e9d1d827"
+              },
+              "uid": "0x6f15b8a7f55af7947ce116e2a278b56818a1ec3a1e3cb95d85a535fa1bc00372",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x64d2c4551f614c0fd5d975f744b9c5647a5c8abc7906ff6780c7fed2e5f1b047",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733968444,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733968444,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "Reently two of our contributors atskotzen.eth and groweco.eth started to participate on CELO Governance staking CELO and voting on proposals\n![image](https://atsdevelop.infura-ipfs.io/ipfs/QmQ2ytk7zD1iNzCr7nj3KUmw8MnJz3GNBVaeUbexWYhUs9)",
+                "proofOfWork": "https://atsdevelop.infura-ipfs.io/ipfs/QmQ2ytk7zD1iNzCr7nj3KUmw8MnJz3GNBVaeUbexWYhUs9"
+              },
+              "txid": "0xe4087083ba1fdde74aa0bddda6e7cdbc5bf4746a47a0693d0ebf8f3908460057",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "666e7ea10debeecc942fb4b2"
+          },
+          "uid": "0x14684dae9ee2aa62a9cd6abca445192b936eacbfcaa7873dd45ec2e4743dc28e",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718517389,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718517409,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective:** Raise awareness and engage the community through a Celo-branded in-person event. We aim to host the event in São Paulo, engaging the local community with promotional materials and activities related to Celo.\n\n**Tasks:**\n\n- Event Planning: Plan and organize the event in São Paulo.\n- Material Preparation: Prepare and distribute Celo-branded promotional materials.\n- Community Engagement: Engage with the local community and promote Celo’s initiatives.\n\n**Metrics:**\n\nNumber of attendees: 50+",
+            "endsAt": 1725159600,
+            "startsAt": 1717729200,
+            "title": "Milestone 2: Organize an In-Person Event in São Paulo",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0xc46fec14afa6aff41e1b63e4a17401b73f875b14e40c9163f725d77991845e4f",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "675e86dccf4f5dd32fc3a389"
+              },
+              "uid": "0xf1a9e7a8c99992e5724fc083413a333042dc55372ca0fccd802a046632863001",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x14684dae9ee2aa62a9cd6abca445192b936eacbfcaa7873dd45ec2e4743dc28e",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1734248149,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1734248156,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "# 🌿 Regenerative Networks: Exploring ReFi in Latin America 🌿\n\n[![photo_5102854085102644970_y-(1).jpg](https://cdn.charmverse.io/user-content/ac22a202-547a-4ee0-96b5-5b50858e5ab3/5ff873a4-a566-414e-a7c4-b5e998afc0fa/photo_5102854085102644970_y-(1).jpg)](https://cdn.charmverse.io/user-content/ac22a202-547a-4ee0-96b5-5b50858e5ab3/5ff873a4-a566-414e-a7c4-b5e998afc0fa/photo_5102854085102644970_y-(1).jpg)\n\n**Event Overview**  \n- **Date**: December 10, 2024  \n- **Location**: Arcahub, Ipanema - Rio de Janeiro, Brazil  \n- **Format**: Hybrid (In-person and Online)  \n- **Participants**:  \n  - **In-person**: Approximately 15 attendees  \n  - **YouTube Views**: Over 70 views  \n\n**Highlights**:  \n- Thought-provoking discussions on Regenerative Finance (ReFi) and its impact in Latin America.  \n- Workshops empowering participants to engage with ReFi ecosystems using Celo and decentralized technologies.  \n- Collaboration opportunities for building a sustainable and inclusive future.  \n\n\nOn December 10th, GreenPill Brasil hosted “Regenerative Networks: Exploring ReFi with Celo”, an engaging hybrid event focused on discussing the potential of Regenerative Finance (ReFi) in Latin America, powered by the Celo blockchain. The event brought together local and global participants to explore challenges, opportunities, and practical applications of ReFi in creating sustainable and inclusive systems.\n\n**Key Takeaways from the Discussion**\n1. The Role of ReFi in Latin America\nThe session emphasized Latin America's unique position as both a challenge and an opportunity for ReFi initiatives:\n- Challenges: Financial exclusion, ecosystem degradation, and lack of resources for grassroots movements.\n- Opportunities: The region's rich biodiversity and the untapped potential for decentralized solutions to empower communities.\n\n2. Insights from the Celatam Report\nA focal point of the event was the Celatam Report, presented by Marcelo Silva and Renato Ximenez, which outlined:\n\n- The current state of ReFi adoption in Latin America.\n- Examples of impactful projects leveraging ReFi, such as agroforestry initiatives supported by GreenPill Brasil.\n- Opportunities for scaling ReFi by integrating localized knowledge and global networks.\n\n3. Bridging Local and Global\nThe discussion highlighted how technologies like the Celo blockchain can create bridges between grassroots organizations and global funding mechanisms, ensuring transparency and equitable access to resources.\n\n**Workshops and Practical Engagement**\n1. Celo Litenodes\nParticipants learned the fundamentals of setting up and managing litenodes on the Celo network, promoting decentralization and improving accessibility for local ecosystems.\n\n2. Using Wallets for ReFi Contributions\nHands-on training on using Metamask wallets to engage in quadratic funding rounds and support ReFi initiatives. This session empowered participants to actively participate in the ecosystem.\n\n**Reflections and Next Steps**\n- Scaling the Impact of ReFi\n- GreenPill Brasil aims to continue fostering dialogue and collaboration across regions to drive adoption of decentralized financial systems that prioritize regeneration and inclusivity.\n- Building Key Infrastructure\n\n**Final Thoughts**\nThe event showcased the transformative potential of ReFi in creating resilient communities and sustainable systems, with Celo playing a central role. GreenPill Brasil remains committed to driving this vision forward and invites all members of the GreenPill Network to join this journey.\n\n*Let’s co-create a regenerative future together. 🌱*",
+                "proofOfWork": "https://www.youtube.com/watch?v=nQl8QKadE2U"
+              },
+              "txid": "0xedb00b2c8b659f5b6de4867ff2f43c2ca45ac1974e7c312e7a31bd79d48811b7",
+              "externalIds": []
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "675e86dccf4f5dd32fc3a389"
+              },
+              "uid": "0xf1a9e7a8c99992e5724fc083413a333042dc55372ca0fccd802a046632863001",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x14684dae9ee2aa62a9cd6abca445192b936eacbfcaa7873dd45ec2e4743dc28e",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1734248149,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1734248156,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "# 🌿 Regenerative Networks: Exploring ReFi in Latin America 🌿\n\n[![photo_5102854085102644970_y-(1).jpg](https://cdn.charmverse.io/user-content/ac22a202-547a-4ee0-96b5-5b50858e5ab3/5ff873a4-a566-414e-a7c4-b5e998afc0fa/photo_5102854085102644970_y-(1).jpg)](https://cdn.charmverse.io/user-content/ac22a202-547a-4ee0-96b5-5b50858e5ab3/5ff873a4-a566-414e-a7c4-b5e998afc0fa/photo_5102854085102644970_y-(1).jpg)\n\n**Event Overview**  \n- **Date**: December 10, 2024  \n- **Location**: Arcahub, Ipanema - Rio de Janeiro, Brazil  \n- **Format**: Hybrid (In-person and Online)  \n- **Participants**:  \n  - **In-person**: Approximately 15 attendees  \n  - **YouTube Views**: Over 70 views  \n\n**Highlights**:  \n- Thought-provoking discussions on Regenerative Finance (ReFi) and its impact in Latin America.  \n- Workshops empowering participants to engage with ReFi ecosystems using Celo and decentralized technologies.  \n- Collaboration opportunities for building a sustainable and inclusive future.  \n\n\nOn December 10th, GreenPill Brasil hosted “Regenerative Networks: Exploring ReFi with Celo”, an engaging hybrid event focused on discussing the potential of Regenerative Finance (ReFi) in Latin America, powered by the Celo blockchain. The event brought together local and global participants to explore challenges, opportunities, and practical applications of ReFi in creating sustainable and inclusive systems.\n\n**Key Takeaways from the Discussion**\n1. The Role of ReFi in Latin America\nThe session emphasized Latin America's unique position as both a challenge and an opportunity for ReFi initiatives:\n- Challenges: Financial exclusion, ecosystem degradation, and lack of resources for grassroots movements.\n- Opportunities: The region's rich biodiversity and the untapped potential for decentralized solutions to empower communities.\n\n2. Insights from the Celatam Report\nA focal point of the event was the Celatam Report, presented by Marcelo Silva and Renato Ximenez, which outlined:\n\n- The current state of ReFi adoption in Latin America.\n- Examples of impactful projects leveraging ReFi, such as agroforestry initiatives supported by GreenPill Brasil.\n- Opportunities for scaling ReFi by integrating localized knowledge and global networks.\n\n3. Bridging Local and Global\nThe discussion highlighted how technologies like the Celo blockchain can create bridges between grassroots organizations and global funding mechanisms, ensuring transparency and equitable access to resources.\n\n**Workshops and Practical Engagement**\n1. Celo Litenodes\nParticipants learned the fundamentals of setting up and managing litenodes on the Celo network, promoting decentralization and improving accessibility for local ecosystems.\n\n2. Using Wallets for ReFi Contributions\nHands-on training on using Metamask wallets to engage in quadratic funding rounds and support ReFi initiatives. This session empowered participants to actively participate in the ecosystem.\n\n**Reflections and Next Steps**\n- Scaling the Impact of ReFi\n- GreenPill Brasil aims to continue fostering dialogue and collaboration across regions to drive adoption of decentralized financial systems that prioritize regeneration and inclusivity.\n- Building Key Infrastructure\n\n**Final Thoughts**\nThe event showcased the transformative potential of ReFi in creating resilient communities and sustainable systems, with Celo playing a central role. GreenPill Brasil remains committed to driving this vision forward and invites all members of the GreenPill Network to join this journey.\n\n*Let’s co-create a regenerative future together. 🌱*",
+                "proofOfWork": "https://www.youtube.com/watch?v=nQl8QKadE2U"
+              },
+              "txid": "0xedb00b2c8b659f5b6de4867ff2f43c2ca45ac1974e7c312e7a31bd79d48811b7",
+              "externalIds": []
+            }
+          ],
+          "approved": [],
+          "verified": []
+        },
+        {
+          "_id": {
+            "$oid": "666e7da70debeecc942fb4b0"
+          },
+          "uid": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+          "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1718517144,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1718517159,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "Milestone",
+          "data": {
+            "description": "**Objective:** Mint and manage Hypercerts to record and validate community contributions and impacts.\n\n**Tasks:**\n\n- Hypercert Minting: Use hypercerts.org to mint Hypercerts.\n- Tracking Contributions: Record community contributions and impacts in Hypercerts.\n- Validation and Reporting: Validate and report the environmental impacts through Hypercerts.\n\n**Metrics:**\n\n- Target Hypercerts Minted: 30",
+            "endsAt": 1725159600,
+            "startsAt": 1714532400,
+            "title": "Milestone 1: Minting Hypercerts - Contributions, EBF and SDG",
+            "type": "milestone"
+          },
+          "externalIds": [],
+          "txid": "0x3017e8f9e4868fe013c2e9f25438684d2a9e78bf0ad0654515a593e7d4b22f83",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "675e7d9af41dedf83aab4803"
+              },
+              "uid": "0x1253f28522765fce16bbe7e6d04e6c60964674c8c0a1bb28622af7a93e263e6a",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1734245784,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1734245786,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 2\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts.\n\nHypercert Greenpill Brasil | Celo ReFi\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-10208471007628153903901238222953046343680\n\nHypercert GPN Brasil | CELO ReFi | CPP Luzes do Amanhã #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656\n\nHypercert GPN Brasil | CELO ReFi | Citzen Science #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-26882306986754138613606593987109688705024",
+                "proofOfWork": "https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-26882306986754138613606593987109688705024"
+              },
+              "externalIds": [],
+              "txid": "0xd55d67f0ca526b6c978af72ed273b752838e9e04050d6ceb4848972948f558ad"
+            },
+            {
+              "_id": {
+                "$oid": "675a3dd9e60f94727565d8b4"
+              },
+              "uid": "0x583ad5418fd116f57496657c72e465939d2ccaa295b18004cf161c9e84658832",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733967315,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733967321,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 2\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts.\n\nHypercert Greenpill Brasil | Celo ReFi\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-10208471007628153903901238222953046343680\n\nHypercert GPN Brasil | CELO ReFi | CPP Luzes do Amanhã #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656",
+                "proofOfWork": "https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656"
+              },
+              "txid": "0x6ee9040c245106360315dac06bbff19fa10ab7ef2472760a5dccc82af29bc8fa",
+              "externalIds": []
+            },
+            {
+              "_id": {
+                "$oid": "666e7da80debeecc942fb4b1"
+              },
+              "uid": "0x1fa57dc85359732806f95c9bcd5a93b985763135baceb119a97b33505021b13f",
+              "schemaUID": "0xf45fdf2c064073f0623416571c2746085d785cde5a57fd0696ff88bdf78bcbdc",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718517144,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718517160,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 1\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts."
+              },
+              "externalIds": [],
+              "txid": "0x3017e8f9e4868fe013c2e9f25438684d2a9e78bf0ad0654515a593e7d4b22f83"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "675e7d9af41dedf83aab4803"
+              },
+              "uid": "0x1253f28522765fce16bbe7e6d04e6c60964674c8c0a1bb28622af7a93e263e6a",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1734245784,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1734245786,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 2\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts.\n\nHypercert Greenpill Brasil | Celo ReFi\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-10208471007628153903901238222953046343680\n\nHypercert GPN Brasil | CELO ReFi | CPP Luzes do Amanhã #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656\n\nHypercert GPN Brasil | CELO ReFi | Citzen Science #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-26882306986754138613606593987109688705024",
+                "proofOfWork": "https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-26882306986754138613606593987109688705024"
+              },
+              "externalIds": [],
+              "txid": "0xd55d67f0ca526b6c978af72ed273b752838e9e04050d6ceb4848972948f558ad"
+            },
+            {
+              "_id": {
+                "$oid": "675a3dd9e60f94727565d8b4"
+              },
+              "uid": "0x583ad5418fd116f57496657c72e465939d2ccaa295b18004cf161c9e84658832",
+              "schemaUID": "0x80f0701853e862d920f87e8ae5b359a1625ad417a9523af2ed12bc3504b04088",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1733967315,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1733967321,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 2\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts.\n\nHypercert Greenpill Brasil | Celo ReFi\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-10208471007628153903901238222953046343680\n\nHypercert GPN Brasil | CELO ReFi | CPP Luzes do Amanhã #1\nhttps://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656",
+                "proofOfWork": "https://app.hypercerts.org/hypercerts/42220-0x16bA53B74c234C870c61EFC04cD418B8f2865959-25861459885991323223216470164814384070656"
+              },
+              "txid": "0x6ee9040c245106360315dac06bbff19fa10ab7ef2472760a5dccc82af29bc8fa",
+              "externalIds": []
+            },
+            {
+              "_id": {
+                "$oid": "666e7da80debeecc942fb4b1"
+              },
+              "uid": "0x1fa57dc85359732806f95c9bcd5a93b985763135baceb119a97b33505021b13f",
+              "schemaUID": "0xf45fdf2c064073f0623416571c2746085d785cde5a57fd0696ff88bdf78bcbdc",
+              "refUID": "0x583e53980bd71882f25f550744a85b570f014e899fe4459f226775f701e0df98",
+              "attester": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "recipient": "0x53b00300EFF94D750b4893CCA4Ef23Ba9F14eE18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1718517144,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1718517160,
+                  "i": 0
+                }
+              },
+              "chainID": 42220,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "**Current Hypercerts Minted:** 1\n\nWe plan to mint at least 30 Hypercerts to track and validate our community's contributions and impacts."
+              },
+              "externalIds": [],
+              "txid": "0x3017e8f9e4868fe013c2e9f25438684d2a9e78bf0ad0654515a593e7d4b22f83"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "completed": {
+        "_id": {
+          "$oid": "67e0ef8e1282ee86b86202dd"
+        },
+        "uid": "0x1312876b75b8810b109e11da66b8fc725686a550c9ec70afac30fcfee131d6cf",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0xcba2da4634153b0ced7ad2291002150975142138ecafce0ad917aa411e4a8115",
+        "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+        "recipient": "0x28163a8b79ea1e046e5a7c0a95516a13dc457cb4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742794635,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742794638,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantCompleted",
+        "data": {
+          "title": "",
+          "text": "With this grant we expanded our impact on Celo Ecosystem, we did that organizing events, workshops, hosting live sessions, onboarding members, exploring celo blockchain infrastructure and to register climate impact using hypercerts.",
+          "type": "grant-completed"
+        },
+        "txid": "0x7d4b9bfc64b1b955c353b542dc3ba7dc343bf6e5d3e01ca80a72173e52c824c4"
+      },
+      "community": {
+        "_id": {
+          "$oid": "6643ad0af46646aa5c094e85"
+        },
+        "uid": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715711235,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715711242,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0xa377cbfd1507fe94a45ac3b7079e312e92535ccc42bc6c1fc439e8a54c235852",
+        "details": {
+          "_id": {
+            "$oid": "66453145e2f3c5c3efee55fe"
+          },
+          "uid": "0x4c98032bc229a0f688abf8f49f8a0d31ee2f648c90fb8060fc668534999bcedf",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1715810626,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1715810629,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo Public Goods",
+            "description": "Celo is scaling Ethereum with real-world solutions, leading a thriving new digital economy for all",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celopg"
+          },
+          "externalIds": [],
+          "txid": "0x3f23c0cc235858d7017f6a8debdca8aa52fec34843586aceedc6380a35b6701b"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66596c30b55ef1db8c6917b8"
+      },
+      "uid": "0x81ec6801bbd25f15dab9bc522cd287dc07f86335b38c9035ac7b82793370d89e",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-05-31T06:20:28.000Z",
+      "updatedAt": "2024-05-31T06:20:32.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160"
+      },
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "txid": "0xd4748bc816125429e36d7f061c329e26aed7ee43aaba06ac28ce2fba0c12f5e9",
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66596c31b55ef1db8c6917b9"
+        },
+        "uid": "0x8e5185f346a42dcee3172a625d34dd6a5b86483f4664d7dbcbcb1c9e9298c32f",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x81ec6801bbd25f15dab9bc522cd287dc07f86335b38c9035ac7b82793370d89e",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1717136428,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1717136433,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/35/12",
+          "title": "GG20 - $EARTH round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details",
+          "programId": "534_42161"
+        },
+        "externalIds": [],
+        "txid": "0xd4748bc816125429e36d7f061c329e26aed7ee43aaba06ac28ce2fba0c12f5e9"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6658bdc91f847e3ea4b9dfa9"
+        },
+        "uid": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1717090730,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1717091785,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0x03b1e6bb40d7208c0c2f02f16c727590b856c58065dafb977097e7da87f0372e",
+        "details": {
+          "_id": {
+            "$oid": "665d7ecc0d028238556003d6"
+          },
+          "uid": "0x524c8deaecc1de1c2c8a09297503381bafce47f870c0d5df0d4d923c1b348413",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1717403328,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1717403340,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "$EARTH",
+            "description": "$EARTH - Digital currency backed by real world climate solutions, ecosystem services and solarpunk values",
+            "imageURL": "https://pbs.twimg.com/profile_images/1737107736700313601/wsWCy25x_400x400.jpg",
+            "slug": "$earth"
+          },
+          "externalIds": [],
+          "txid": "0xf3ec514abae3b61389d2a28732de2948923cfa57c6ea07a66ff8833ee1d17c86"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66c32e718b41f9d1d8c73f83"
+      },
+      "uid": "0xe3b0c1438bba595a805e82af42f18200748b0aea23627088bcb1ff5224d7b1cf",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-08-19T11:37:10.000Z",
+      "updatedAt": "2024-08-19T11:37:21.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "txid": "0xe4b2232147f556ae977bc24ae11fb2c8323afcfb1553577cd2204d6903e44f24",
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66c32e718b41f9d1d8c73f84"
+        },
+        "uid": "0x7f894dec69fc0a8dbce19a1b830012a9b6e7fce1110740ca6fb8f8d2ca4636fd",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xe3b0c1438bba595a805e82af42f18200748b0aea23627088bcb1ff5224d7b1cf",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1724067430,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1724067441,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/388/50",
+          "title": "GG21 - Climate Solutions Round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details",
+          "programId": "388_42161"
+        },
+        "txid": "0xe4b2232147f556ae977bc24ae11fb2c8323afcfb1553577cd2204d6903e44f24",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66c331c98b41f9d1d8c7401f"
+      },
+      "uid": "0x979dbfa0652a4b03dd9ffe028c8c14739fedbf93ce2b9f9d34f198fa1f2a315c",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-08-19T11:51:27.000Z",
+      "updatedAt": "2024-08-19T11:51:37.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e"
+      },
+      "txid": "0x3a9a2e2202fef6ae058158f41e8103b7c63f3bf41fe09986f81616c08c844123",
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66c331ca8b41f9d1d8c74021"
+        },
+        "uid": "0xae7dc490d280ef5d5630e225734acc818c460e6c17859efad59c0b1d83ff4951",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x979dbfa0652a4b03dd9ffe028c8c14739fedbf93ce2b9f9d34f198fa1f2a315c",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1724068287,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1724068298,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/387/24",
+          "title": "GG21 DeSci Round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "type": "grant-details"
+        },
+        "txid": "0x3a9a2e2202fef6ae058158f41e8103b7c63f3bf41fe09986f81616c08c844123",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6672897879ef3e60e554fcee"
+        },
+        "uid": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718782316,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1718782328,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x2609edb6c0c1b9e47da8706106cbd1698034ac125b49fa023d971206a07c99b2",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "667bdf3411821d82660ca2d6"
+          },
+          "uid": "0x3f695e6435a176c8a36ad1cd67dcf82694f274d0aeca374d7d5bb23f6bd701ce",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1719394072,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1719394100,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "DeSci on Gitcoin",
+            "description": "Desci community on Gitcoin",
+            "imageURL": "https://i.imgur.com/kvyDbDc.jpeg",
+            "slug": "desci-on-gitcoin"
+          },
+          "txid": "0xa1846e8670963647b364450e176e5fe162ae15919a4ae2eccb83122defd2d727",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66e3d6c26588cf6c168c3e58"
+      },
+      "uid": "0xa9beb13405e86bf031dffbbc2291a56f850d3fc91bced52271b61ecbfca2dadd",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-13T06:07:58.000Z",
+      "updatedAt": "2024-09-13T06:08:02.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e"
+      },
+      "txid": "0xb67834121b490bc231343e350f1d9a9dd03c99f8c204c2ef66ecfb1ec8e40fd1",
+      "externalIds": [
+        "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+        "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x47316121c16d935156be9523a92e519007731a7fb2258a0dde484ff715ec954d",
+          "0x7e215e52873adcf476ab86f5f66282a87740c8a90fde4991cbeec376530ef242"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e3d6c26588cf6c168c3e59"
+        },
+        "uid": "0x9f3e05b8db7c1414ccbdf692d04e18060a3230ca3c2f0a4fbdbf2012b0bd9e24",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xa9beb13405e86bf031dffbbc2291a56f850d3fc91bced52271b61ecbfca2dadd",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726207678,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726207682,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/387/24",
+          "title": "GG21 - DeSci Round",
+          "description": "",
+          "payoutAddress": "0x28163a8B79eA1E046E5a7c0A95516A13Dc457CB4",
+          "programId": "387_42161",
+          "questions": [
+            {
+              "type": "paragraph",
+              "query": "How does your project support the mission or goals of DeSci?",
+              "explanation": "GreenPill Brasil aligns with the mission and goals of DeSci by integrating scientific research and decentralized technologies to address critical environmental challenges. Our initiatives focus on biodiversity restoration, waste management, and climate resilience, all underpinned by rigorous scientific methodologies. We leverage blockchain and hypercerts to ensure transparency and traceability in our projects, facilitating open access to data and fostering collaboration among scientists, technologists, and communities. Our goal is to advance scientific understanding and practical solutions for environmental sustainability and resilience."
+            },
+            {
+              "type": "paragraph",
+              "query": "Describe how funds from the grants program will be used for your project. ",
+              "explanation": "GreenPill Brasil will utilize the funds from the DeSci grants program to initiate and expand citizen science campaigns, fostering community involvement in environmental monitoring and restoration projects. These campaigns will engage local communities in scientific data collection, enhancing our understanding of ecosystem health and resilience. Additionally, the funds will be used to reward scientists who contribute their expertise to our regenerative campaigns, ensuring rigorous scientific methodologies and impactful outcomes. By supporting both citizen scientists and professional researchers, we aim to build a collaborative and inclusive model for environmental science."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0xb67834121b490bc231343e350f1d9a9dd03c99f8c204c2ef66ecfb1ec8e40fd1",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6672897879ef3e60e554fcee"
+        },
+        "uid": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718782316,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1718782328,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x2609edb6c0c1b9e47da8706106cbd1698034ac125b49fa023d971206a07c99b2",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "667bdf3411821d82660ca2d6"
+          },
+          "uid": "0x3f695e6435a176c8a36ad1cd67dcf82694f274d0aeca374d7d5bb23f6bd701ce",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x3c0f768c00b0e0ce8859e7400b3a7e4119dbde29fb19454e2b6da06255f9ec3e",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1719394072,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1719394100,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "DeSci on Gitcoin",
+            "description": "Desci community on Gitcoin",
+            "imageURL": "https://i.imgur.com/kvyDbDc.jpeg",
+            "slug": "desci-on-gitcoin"
+          },
+          "txid": "0xa1846e8670963647b364450e176e5fe162ae15919a4ae2eccb83122defd2d727",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e0e875cb5b55cf488ff91e"
+      },
+      "uid": "0x0290ac83eedba273086c019b23c232c000ac9d29c129de96a7952a7e288e88be",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+      "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-24T05:06:55.000Z",
+      "updatedAt": "2025-03-24T05:07:01.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x292cba90b4aa1b774857258a78e865d3d610e6fa0830ac032e44cd55585f1cc9",
+      "external": {
+        "gitcoin": [
+          "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67e0e875cb5b55cf488ff920"
+        },
+        "uid": "0x6ce1f6aad124c92fd34442d00bb1b62c719c8ad9b2fe82f47aa420fe197beade",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x0290ac83eedba273086c019b23c232c000ac9d29c129de96a7952a7e288e88be",
+        "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742792815,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742792821,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "title": "Regen Coordi-Nation Genesis",
+          "description": "​The Regen Coordi-Nation — a pioneering collaboration between GreenPill Network, ReFi DAO, and Celo Public Goods aimed at fostering a global movement of regenerative communities leveraging Web3 technology to address local needs and create real-world impact. This GG21 Genesis Round, which offers $50K in matching funds, is open to applications from nominated ReFi DAO Local Nodes, GreenPill Local Chapters, and Celo Regional DAOs, as well as a select few additional aligned projects from each network. Learn more through the Regen Coordi-Nation Portal! --> https://tinyurl.com/RegenCoordinatePortal",
+          "linkToProposal": "https://explorer.gitcoin.co/#/round/42220/14/47",
+          "amount": "50k USDGLO",
+          "milestones": [],
+          "community": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "startDate": 1725159600,
+          "programId": "14_42220",
+          "questions": [],
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/14/47",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0xAcD59e854adf632d2322404198624F757C868C97",
+          "type": "grant-details"
+        },
+        "txid": "0x292cba90b4aa1b774857258a78e865d3d610e6fa0830ac032e44cd55585f1cc9"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e0f8091282ee86b86202e2"
+      },
+      "uid": "0xe7e3fdb45747286dfb1d97e2619db1117c738dec59f82de90db732403ebf1e20",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+      "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-24T06:13:25.000Z",
+      "updatedAt": "2025-03-24T06:13:29.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xb34d5f63f7a7ffede8b39df24b4c1be53722f915d9ebc9c080a7a76bf4028524"
+      },
+      "txid": "0xcb9724bdef9374bd75cf5b3af50d055b1941dd4134f6b2172276a71a9299b693",
+      "details": {
+        "_id": {
+          "$oid": "67e0f8091282ee86b86202e5"
+        },
+        "uid": "0x2d98d09992155549ba90faa179e0b0dbc9d9285ec5ad66df9a772d4a7c5ff8ff",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0xe7e3fdb45747286dfb1d97e2619db1117c738dec59f82de90db732403ebf1e20",
+        "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742796805,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742796809,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "title": "GreenPill x Octant Community Round",
+          "description": "The GreenPill Network and Octant are partnering to support community-driven initiatives that impact their local communities. GreenPill exports regenerative digital infrastructure globally through its local chapters, guilds, podcast, book and educational trainings. Octant is committed to supporting public goods and empowering communities to fund what is critical to them. Join us in supporting these regenerative projects.\n\nRequirements\n- Be an active GreenPill Chapter or Guild\n- Be a project with at least 1 team member who is also an active member in a GreenPill chapter or Guild\n- Projects working with or partnering with GreenPill Chapters, Guilds or The GreenPill Network as a whole\n- Applicants and team must sign up for Octant’s Newsletter - https://octant.fillout.com/t/srqqQKhW8dus\n- Applicants and team must follow Octant (@OctantApp) and GreenPill (@greenpillnet) on twitter",
+          "linkToProposal": "https://checker.gitcoin.co/public/project/show/greenpill-brazil",
+          "amount": "2k",
+          "milestones": [
+            {
+              "title": "Foundation",
+              "description": "This milestone represents our community effort to establish a minimum viable governance, operational and communication structure. \n\nThe output should be,\n\n- Operational Multisig with 3/4 signers\n- Social Media Activation on Linkedin, Instagram and Twitter.\n- Active Telegram Group\n- Charmverse Registries",
+              "endsAt": 1748746800,
+              "startsAt": 1735700400
+            }
+          ],
+          "community": "0xb34d5f63f7a7ffede8b39df24b4c1be53722f915d9ebc9c080a7a76bf4028524",
+          "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "startDate": 1710126000,
+          "programId": "GreenPill x Octant Community Round_10",
+          "questions": [],
+          "proposalURL": "https://checker.gitcoin.co/public/project/show/greenpill-brazil",
+          "assetAndChainId": [
+            "0x0",
+            1
+          ],
+          "payoutAddress": "0xAcD59e854adf632d2322404198624F757C868C97",
+          "type": "grant-details"
+        },
+        "txid": "0xcb9724bdef9374bd75cf5b3af50d055b1941dd4134f6b2172276a71a9299b693"
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [
+        {
+          "_id": {
+            "$oid": "67e0f8091282ee86b86202e3"
+          },
+          "uid": "0x2379babc389b336c3468e93f3d393501aa69eff2dc0f0f9acfc0c2ed78a631c8",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xe7e3fdb45747286dfb1d97e2619db1117c738dec59f82de90db732403ebf1e20",
+          "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+          "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1742796805,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1742796809,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "Milestone",
+          "data": {
+            "title": "Foundation",
+            "description": "This milestone represents our community effort to establish a minimum viable governance, operational and communication structure. \n\nThe output should be,\n\n- Operational Multisig with 3/4 signers\n- Social Media Activation on Linkedin, Instagram and Twitter.\n- Active Telegram Group\n- Charmverse Registries",
+            "endsAt": 1748746800,
+            "startsAt": 1735700400,
+            "type": "milestone"
+          },
+          "txid": "0xcb9724bdef9374bd75cf5b3af50d055b1941dd4134f6b2172276a71a9299b693",
+          "statuses": [
+            {
+              "_id": {
+                "$oid": "67e0f981cb5b55cf488ff92e"
+              },
+              "uid": "0x3a357984dc799fd3a86026d421a8e325b4527fa9d6ee8ccff67776e70c356c4b",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x2379babc389b336c3468e93f3d393501aa69eff2dc0f0f9acfc0c2ed78a631c8",
+              "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1742797181,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1742797185,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We acomplished our milestone with success. \n\nThe funds were used, \n- compesating members retroactively (Translations, operations and onboarding)\n- To organize IRL events\n- Create awareness in social media\n\nHere you can see a full report of past contributions\n\nhttps://app.charmverse.io/greenpill-network/v2-impact-report-greenpill-brasil-copy-5606917133468663",
+                "proofOfWork": "https://hub.greenpill.network/t/greenpill-brasil/44",
+                "completionPercentage": "100"
+              },
+              "txid": "0x1437a5314b55e9cc22bf7c09895e6c40f42317d0afe9020890507384a7c7bd7e"
+            }
+          ],
+          "rejected": [],
+          "completed": [
+            {
+              "_id": {
+                "$oid": "67e0f981cb5b55cf488ff92e"
+              },
+              "uid": "0x3a357984dc799fd3a86026d421a8e325b4527fa9d6ee8ccff67776e70c356c4b",
+              "schemaUID": "0xdc3f4d0938b1d029d825c01b3c53ad955e0ef3eabc1f57c1ebde90de2bf527ae",
+              "refUID": "0x2379babc389b336c3468e93f3d393501aa69eff2dc0f0f9acfc0c2ed78a631c8",
+              "attester": "0xacd59e854adf632d2322404198624f757c868c97",
+              "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+              "revoked": false,
+              "revocationTime": 0,
+              "createdAt": {
+                "$timestamp": {
+                  "t": 1742797181,
+                  "i": 0
+                }
+              },
+              "updatedAt": {
+                "$timestamp": {
+                  "t": 1742797185,
+                  "i": 0
+                }
+              },
+              "chainID": 10,
+              "type": "MilestoneStatus",
+              "data": {
+                "type": "completed",
+                "reason": "We acomplished our milestone with success. \n\nThe funds were used, \n- compesating members retroactively (Translations, operations and onboarding)\n- To organize IRL events\n- Create awareness in social media\n\nHere you can see a full report of past contributions\n\nhttps://app.charmverse.io/greenpill-network/v2-impact-report-greenpill-brasil-copy-5606917133468663",
+                "proofOfWork": "https://hub.greenpill.network/t/greenpill-brasil/44",
+                "completionPercentage": "100"
+              },
+              "txid": "0x1437a5314b55e9cc22bf7c09895e6c40f42317d0afe9020890507384a7c7bd7e"
+            }
+          ],
+          "approved": [],
+          "verified": []
+        }
+      ],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66afff9e69591acfe1e8f652"
+        },
+        "uid": "0xb34d5f63f7a7ffede8b39df24b4c1be53722f915d9ebc9c080a7a76bf4028524",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722810259,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722810270,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x5a86e6ed16e9c52314e02749efb5b907330d7046e89678ab95da767813cec4f1",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66b0006569591acfe1e8f655"
+          },
+          "uid": "0x31a2763d97a98946a1c0052bfe920c0484fcf93bc71e3e2f30d4e56b76ea6566",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xb34d5f63f7a7ffede8b39df24b4c1be53722f915d9ebc9c080a7a76bf4028524",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722810457,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722810469,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Green Pill Network",
+            "description": "Turning Degens to Regens (one green pill at a time)\n",
+            "imageURL": "https://greenpill.network/src/images/greenpill-logo.svg",
+            "slug": "greenpill-network"
+          },
+          "txid": "0x9a6727ce7c1c36b98e084ec271d390644bf57d6cd86d0ccceca181270603a0e2",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e1340d0ab0e44e394b0365"
+      },
+      "uid": "0x82fb556fcfecf0842d335742b75601b0b921b716eba61029a670fd748a1bb16c",
+      "schemaUID": "0x12837231f48acbca4e1e7f4416f684f3353bd4d71d4f03a09d29e5ffa6f21a50",
+      "refUID": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x8f4d57244597735e44b5ddeee7b693691a22b5be",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-03-24T10:29:25.000Z",
+      "updatedAt": "2025-03-24T10:29:33.000Z",
+      "chainID": 10,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996"
+      },
+      "details": {
+        "_id": {
+          "$oid": "67e1340e0ab0e44e394b0367"
+        },
+        "uid": "0x9cd85665e2d8b3523a7a080340854528151db9661fe3f449a4cd82df08198c9a",
+        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+        "refUID": "0x82fb556fcfecf0842d335742b75601b0b921b716eba61029a670fd748a1bb16c",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x8f4d57244597735e44b5ddeee7b693691a22b5be",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1742812165,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1742812174,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://giveth.io/project/greenpill-brasil",
+          "title": "ENS x Octant Public Goods",
+          "payoutAddress": "0x8F4d57244597735E44b5DDEeE7b693691A22b5Be",
+          "programId": "874_42161",
+          "amount": "80000 USDC",
+          "type": "grant-details"
+        }
+      },
+      "project": {
+        "_id": {
+          "$oid": "662177355f4acee3eab449af"
+        },
+        "uid": "0x93ad8589ef16a042804708d8d486be9cd417990fd7a251123318d01cb73a1935",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x53b00300eff94d750b4893cca4ef23ba9f14ee18",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1718044083,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713469237,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0xfccd080b1f8617785f56a7390ad0e25871804e1b1a1095029e2dc2e2a4a5bbd2",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "678fa3ba640c8488feaade1a"
+            },
+            "name": "Communities"
+          }
+        ]
+      },
+      "categories": [
+        "Communities"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66a885ab00c3dbcb784e259e"
+        },
+        "uid": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+        "schemaUID": "0x721c17b065dccc5c916e0c2708d0ef50f1810591b76d0402ff6fe5accbd8488f",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1722319215,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1722320299,
+            "i": 0
+          }
+        },
+        "chainID": 10,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0x375f3b74bb63f1f06bd1c7dccf6e94d7a1d0e440803e110d374d800c528e483d",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "66a885ab00c3dbcb784e259f"
+          },
+          "uid": "0xb70fea3e5c6fda5505cce6706faea25213c8111070825bb6c4032075e0b2b723",
+          "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
+          "refUID": "0xcb67cd16cbdf4e9c3b6ed4c8f9424411a48be796d690750afc84f9288e7c7996",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1722319233,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1722320299,
+              "i": 0
+            }
+          },
+          "chainID": 10,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Octant",
+            "description": "Octant is a platform that enables users to lock GLM, earn ETH rewards, and fund projects they care about.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/octant-karma-logo.png",
+            "slug": "octant"
+          },
+          "txid": "0x731e9c4ecb9fae11a94f7e307c126ffadca91245890f64eb9724eac05a746dcf",
+          "externalIds": []
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67ed0bac38e5aedb69e8c4c9"
+      },
+      "uid": "0x2d7dd798b96f13710f1c8c29f39f2a75ec2a0a12d7ebbdef31b1a25cae03cb02",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0x65e43c75e1a9561d9d8f02e1406a23b97c50b0f0be6ae1d18d595e9ff2d0cc59",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-02T10:04:21.000Z",
+      "updatedAt": "2025-04-02T10:04:28.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b",
+      "external": {
+        "gitcoin": [
+          "0xfd82d1d139d05e9566189bf748e3fc054d3a62532f16412bd07332e59049b9ea"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67ed0bad38e5aedb69e8c4cc"
+        },
+        "uid": "0xa4e6a9e75b09f6ecc31dc83866a0d1faefb9bfa598bb96f0c4624f90081e05e2",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x2d7dd798b96f13710f1c8c29f39f2a75ec2a0a12d7ebbdef31b1a25cae03cb02",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743588261,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743588269,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/31/43",
+          "title": "Regen Coordination Global",
+          "description": "",
+          "payoutAddress": "0x6cA0493b04b025D4430032d7645130E5C3268E0C",
+          "programId": "31_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "caue.mtomaz@gmail.com"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "4"
+            },
+            {
+              "type": "checkbox",
+              "query": "Is your project a member or past grantee of one of these networks?",
+              "explanation": "Greenpill"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your key active goals, plans, objectives or milestones for this year?",
+              "explanation": "Our key goals for this cycle will be:\n- **Complete Regen Rio Program** with success (e.g. all grantees completing karmagap and commitment pool phases)\n- **Deploying and operationalizing two Cookie Jars** for internal micro-funding coordination (Council & Guardians).\n- **Coordinating and documenting the Climate Resilience Protocol infrastructure**, including governance and funding cycles on Gardens v2.\n- **Sustaining direct funding for grassroots regen activities** via [Charmverse proposals](https://app.charmverse.io/greenpillbrasil/proposals) under our Regen Incentives campaign."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b"
+      },
+      "project": {
+        "_id": {
+          "$oid": "67ed0bac38e5aedb69e8c4c8"
+        },
+        "uid": "0x65e43c75e1a9561d9d8f02e1406a23b97c50b0f0be6ae1d18d595e9ff2d0cc59",
+        "schemaUID": "0xf3f753b41e04d1052b5a5ec7624d1dfdb6c2da288a985120e477ddbcac071022",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x6ca0493b04b025d4430032d7645130e5c3268e0c",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1743588261,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1743588268,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "txid": "0x0bf2ad7c40d07482e1acc2c87b98227d2f65d3b5061c4204f8c1e96a9855d28b",
+        "categories": []
+      },
+      "categories": [],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    }
+  ]
 }

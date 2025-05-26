@@ -1,60 +1,8 @@
 {
   "id": "42161-867-0xd77bec3500a1b3e54ead391aeaad9a664f92643beaa8a50d4302bd67ef7949cf",
-  "projects": [
-    {
-      "uid": "0xb81255e5d4a4a3fa581e3e81ed3b986dd72d0ddb2f976ade06f39264d53f02d3",
-      "type": "Project",
-      "details": {
-        "_id": {
-          "$oid": "00002e14b48822456c5d70ea"
-        },
-        "uid": "ref_0xb81255e5d4a4a3fa581e3e81ed3b986dd72d0ddb2f976ade06f39264d53f02d3",
-        "schemaUID": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577",
-        "refUID": "0xb81255e5d4a4a3fa581e3e81ed3b986dd72d0ddb2f976ade06f39264d53f02d3",
-        "attester": "0x5Bc4FF33f86E0272be53Fa25861294489AB2FE2a",
-        "recipient": "0x5Bc4FF33f86E0272be53Fa25861294489AB2FE2a",
-        "revoked": false,
-        "revocationTime": 0,
-        "createdAt": {
-          "$timestamp": {
-            "t": 1700087908,
-            "i": 0
-          }
-        },
-        "updatedAt": {
-          "$timestamp": {
-            "t": 1700068132,
-            "i": 0
-          }
-        },
-        "chainID": 10,
-        "type": "ProjectDetails",
-        "data": {
-          "description": "Plebbit is a protocol and tooling for creating decentralized forum applications like Reddit, Facebook groups, Discourse, etc. It's a pure P2P protocol, it doesn't use any central server, databases, public HTTP end point, DNS, etc. It uses parts of the IPFS and Ethereum stack to create everything it needs:\n\n- IPFS for immutable data, like a published comment or a recent subplebbit page.\n\n- IPNS for mutable data, like replies to a comment, upvote counts, new posts/comments published on a subplebbit, etc.\n\n- IPFS pubsub for authors publishing comments/votes to a subplebbit and for the captcha challenge exchange between authors and subplebbits.\n\n- ENS for usernames, community names, and serving the client in browsers.\n\nScalability and fees\n\nA decentralized social media/forum has 2 problems: How to store the entire world's data on a blockchain, and how to prevent spam while being feeless. We propose solving the data problem by not using a blockchain for content, but rather IPNS and IPFS pub...",
-          "imageURL": "",
-          "title": "Plebbit",
-          "links": [
-            {
-              "type": "website",
-              "url": "https://plebbit.com"
-            },
-            {
-              "type": "twitter",
-              "url": "getplebbit"
-            },
-            {
-              "type": "github",
-              "url": "https://github.com/plebbit"
-            }
-          ],
-          "slug": "plebbit"
-        },
-        "txid": "0x488bf86ce88a74cc3d214c5b2d7f4cc545a4a294b8213947f36dc7d986cd608c"
-      },
-      "recipient": "0x5Bc4FF33f86E0272be53Fa25861294489AB2FE2a",
-      "createdAt": "2023-11-15T22:38:50.000Z",
-      "updatedAt": "2023-11-15T17:08:40.000Z"
-    }
+  "projectId": "0xd77bec3500a1b3e54ead391aeaad9a664f92643beaa8a50d4302bd67ef7949cf",
+  "projectUIDs": [
+    "0xb81255e5d4a4a3fa581e3e81ed3b986dd72d0ddb2f976ade06f39264d53f02d3"
   ],
   "grants": [
     {

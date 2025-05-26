@@ -1,5 +1,1419 @@
 {
   "id": "42220-31-0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee",
-  "projects": [],
-  "grants": []
+  "projectId": "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee",
+  "projectUIDs": [
+    "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d"
+  ],
+  "grants": [
+    {
+      "_id": {
+        "$oid": "66293e090168e075c19acec0"
+      },
+      "uid": "0x5efa667b6ebce926fd78fd9302f857ec70d4201acffb6f8ae59c627dea958be2",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-04-24T17:14:48.000Z",
+      "updatedAt": "2024-04-24T17:14:49.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "txid": "0xff97be8ccd3ba8277558a9e4e55af8a29b60c2c6ced680e382dd03f71c8c1ce6",
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66293e090168e075c19acec1"
+        },
+        "uid": "0x6dad471b731dac501b6f62d356b5ce6a793ba52adbea231068371ff49ed41551",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x5efa667b6ebce926fd78fd9302f857ec70d4201acffb6f8ae59c627dea958be2",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713978888,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713978889,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/29/30",
+          "title": "GG20 - Climate Round",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details",
+          "programId": "535_42161"
+        },
+        "externalIds": [],
+        "txid": "0xff97be8ccd3ba8277558a9e4e55af8a29b60c2c6ced680e382dd03f71c8c1ce6"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66282eeb22ae3eea3667089b"
+      },
+      "uid": "0xfe8c03bafc851ab84c0466a763b642f9a7f06105ca7a0717e0e58b6e064b4a83",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-04-23T21:57:58.000Z",
+      "updatedAt": "2024-04-23T21:58:03.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66282eec22ae3eea3667089e"
+        },
+        "uid": "0x69e59aee9d5cc2826e3691b93ec4b02388205b3becde00ec69278666ef51991d",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xfe8c03bafc851ab84c0466a763b642f9a7f06105ca7a0717e0e58b6e064b4a83",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909484,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/29/30",
+          "title": "GG18 - Climate Round",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details",
+          "programId": "529_42161"
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "664e3a89950738a2545e66fd"
+      },
+      "uid": "0x2c9b33393b851a4400c5d30cd359003e3ad8147b912fd5da4219cbc579ffae31",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-05-22T18:31:17.000Z",
+      "updatedAt": "2024-05-22T18:33:45.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f"
+      },
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "txid": "0x46e8904914d1556028d5283fddb340b1c44d82febcf04ac1a0a1486e91c6e97e",
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "664e3a8a6d00886d508f8204"
+        },
+        "uid": "0xbf05aafaf31f1c809e89c0365b7b241c045694064aebebd41a0f6d0cc309dcf0",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x2c9b33393b851a4400c5d30cd359003e3ad8147b912fd5da4219cbc579ffae31",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1716402677,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1716402826,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/36/10",
+          "title": "GG20 - $EARTH round",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details",
+          "programId": "534_42161"
+        },
+        "externalIds": [],
+        "txid": "0x46e8904914d1556028d5283fddb340b1c44d82febcf04ac1a0a1486e91c6e97e"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "664e3422482f10b9418ec5e7"
+        },
+        "uid": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1716401182,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1716401186,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0xef1ab18174d100df4fa7437a1a12dbebf256a95999b458cd0d18620607a03fbe",
+        "details": {
+          "_id": {
+            "$oid": "664e342e482f10b9418ec5e9"
+          },
+          "uid": "0x81eebc97aca512aaf4370646f1c6dba7fad1e8c6713e7a871c448cd1812bf548",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1716401195,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1716401198,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Ma Earth",
+            "description": "Ma Earth is a community-led movement to align economic incentives with planetary health and regeneration.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-maearth.jpg",
+            "slug": "ma-earth"
+          },
+          "externalIds": [],
+          "txid": "0x3db593443d47daa4e2174d531e56eaaa43b44e06cc73f6b55b045df828f32253"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6660484619ef187986e2413f"
+      },
+      "uid": "0x06ac453d16ebdef0aae79c8f2c3ee31d4a286ebc4bf3e1ed580b49bf9be32bdc",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-06-05T11:13:07.000Z",
+      "updatedAt": "2024-06-05T11:13:10.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160"
+      },
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "txid": "0xa9f718819f108c24add2bfbade5274d95932b6c72e243dd17a48b9209ee8226c",
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "6660484719ef187986e24140"
+        },
+        "uid": "0x732a88345dbe5aca340a7bf7e671e0717ef7baf27ce2a613b5ad1e364346d775",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x06ac453d16ebdef0aae79c8f2c3ee31d4a286ebc4bf3e1ed580b49bf9be32bdc",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1717585987,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1717585990,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/35/3",
+          "title": "GG20 - $EARTH round",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details",
+          "programId": "534_42161"
+        },
+        "externalIds": [],
+        "txid": "0xa9f718819f108c24add2bfbade5274d95932b6c72e243dd17a48b9209ee8226c"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6658bdc91f847e3ea4b9dfa9"
+        },
+        "uid": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1717090730,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1717091785,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0x03b1e6bb40d7208c0c2f02f16c727590b856c58065dafb977097e7da87f0372e",
+        "details": {
+          "_id": {
+            "$oid": "665d7ecc0d028238556003d6"
+          },
+          "uid": "0x524c8deaecc1de1c2c8a09297503381bafce47f870c0d5df0d4d923c1b348413",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x7e231a1d71d568555e195d3ca9c466eabffc0d810f39dfc858d452e47ab4f160",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1717403328,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1717403340,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "$EARTH",
+            "description": "$EARTH - Digital currency backed by real world climate solutions, ecosystem services and solarpunk values",
+            "imageURL": "https://pbs.twimg.com/profile_images/1737107736700313601/wsWCy25x_400x400.jpg",
+            "slug": "$earth"
+          },
+          "externalIds": [],
+          "txid": "0xf3ec514abae3b61389d2a28732de2948923cfa57c6ea07a66ff8833ee1d17c86"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66c32e348b41f9d1d8c73f66"
+      },
+      "uid": "0x0eab523dafda478d3aef6bb4225df2bcd8bfeb0d84d34013b44b9319d15a6415",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-08-19T11:36:15.000Z",
+      "updatedAt": "2024-08-19T11:36:20.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30"
+      },
+      "txid": "0x8ac15a54dc01f3bb3efd6f7bcd807ac34624486eb4c47a77bca51358faee6cdf",
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66c32e358b41f9d1d8c73f6a"
+        },
+        "uid": "0xec1835a7b7f12217b75a263491305fe278851be352154a0f6323ee439d1ede50",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0x0eab523dafda478d3aef6bb4225df2bcd8bfeb0d84d34013b44b9319d15a6415",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1724067375,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1724067381,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/388/40",
+          "title": "GG21 - Climate Solutions Round",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details",
+          "programId": "388_42161"
+        },
+        "txid": "0x8ac15a54dc01f3bb3efd6f7bcd807ac34624486eb4c47a77bca51358faee6cdf",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6610cdc46fb7a034586fb787"
+        },
+        "uid": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x5A4830885f12438E00D8f4d98e9Fe083e707698C",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1712377279,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1712377284,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xf50e341633e54a6013ae42013407a874b38f9070ab5b98013ce44767881e28e2",
+        "details": {
+          "_id": {
+            "$oid": "6626ed5b54412384840b7c46"
+          },
+          "uid": "0x5657dbe027418111401a194dab2226fa06a647f42f7da340b869c4906f556b09",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0x0ac728f0d8c14e437eff238adc2416aab28cff4ae0dda3d18041f1d522fa8e30",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1713827163,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Climate Coordination Network",
+            "description": "Climate Coordination Network",
+            "imageURL": "https://pbs.twimg.com/profile_images/1778107539047030784/egzhv4lT_400x400.jpg",
+            "slug": "climate-coordination-network"
+          },
+          "externalIds": [],
+          "txid": "0x67142066c57bb3444a67e82bd44a872866ebe1bcc11d067ac444e938517b37fd"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66dad8ef9fbf8c360c9a0a11"
+      },
+      "uid": "0xbd272b63948f0d17a0b61dfa7f585277ff7c0d9004f13d3ec57dcb2cc5edb02f",
+      "schemaUID": "0xea02ab33f9f4c92ba02c9bb21614b7410b98c940a0d8eb8ad3a20204d8b4bda5",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-06T10:26:52.000Z",
+      "updatedAt": "2024-09-06T10:26:55.000Z",
+      "chainID": 42161,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f"
+      },
+      "txid": "0xc1007a187e202a5646cf2b9fa1d694503187dc9f88a01a7c6fcf0afadb768589",
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66dad8f09fbf8c360c9a0a12"
+        },
+        "uid": "0xd8dc88823a37e9bb07328cb096ccd5d3261bd0f476c871173c2bbbdfeeadb688",
+        "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+        "refUID": "0xbd272b63948f0d17a0b61dfa7f585277ff7c0d9004f13d3ec57dcb2cc5edb02f",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1725618412,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1725618416,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42161/36/10",
+          "title": "Regenerative Land Projects",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "type": "grant-details"
+        },
+        "txid": "0xc1007a187e202a5646cf2b9fa1d694503187dc9f88a01a7c6fcf0afadb768589",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "664e3422482f10b9418ec5e7"
+        },
+        "uid": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f",
+        "schemaUID": "0xc604f0661cfd522583835ed2b2c644b80e068139d287f93c7f1680888894bacc",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1716401182,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1716401186,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0xef1ab18174d100df4fa7437a1a12dbebf256a95999b458cd0d18620607a03fbe",
+        "details": {
+          "_id": {
+            "$oid": "664e342e482f10b9418ec5e9"
+          },
+          "uid": "0x81eebc97aca512aaf4370646f1c6dba7fad1e8c6713e7a871c448cd1812bf548",
+          "schemaUID": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
+          "refUID": "0xb1506770c045306ef5e5aa60dcbae2ba4af1bbd68a2ca35a2a499f8d3088e50f",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1716401195,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1716401198,
+              "i": 0
+            }
+          },
+          "chainID": 42161,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Ma Earth",
+            "description": "Ma Earth is a community-led movement to align economic incentives with planetary health and regeneration.",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-maearth.jpg",
+            "slug": "ma-earth"
+          },
+          "externalIds": [],
+          "txid": "0x3db593443d47daa4e2174d531e56eaaa43b44e06cc73f6b55b045df828f32253"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66e3da696588cf6c168c3fb3"
+      },
+      "uid": "0x782393019c5aff8a67508b9e1c2fd693e453f3faf8f647d283932af26b0b5f11",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2024-09-13T06:23:26.000Z",
+      "updatedAt": "2024-09-13T06:23:37.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1"
+      },
+      "txid": "0x12fdf30d04f92923b77e6dc8f4234b8b38f3fc97a16e3cd64c09c05c1aa0b3ba",
+      "externalIds": [
+        "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+      ],
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "66e3da6a6588cf6c168c3fb5"
+        },
+        "uid": "0x1f1a859a11241b3e508fc03acc802e8551aa9e683a3ef641e598ceb66a004334",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x782393019c5aff8a67508b9e1c2fd693e453f3faf8f647d283932af26b0b5f11",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726208606,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726208618,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/11/22",
+          "title": "GG21 - Real World Builders",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "programId": "11_42220",
+          "amount": "2528.572458976 USD",
+          "questions": [
+            {
+              "type": "paragraph",
+              "query": "Impact statement - what real world problem do you solve and how",
+              "explanation": "We are actively reforesting (2000 trees), growing a food forest (1000 trees), building a water retention landscape (1 lake built, 2 more lakes planned, swales, biopools etc)"
+            },
+            {
+              "type": "paragraph",
+              "query": "Celo leverage - how does your project contributed to the Celo ecosystem?",
+              "explanation": "Members need to acquire our token on Celo in order to gain perpetual access & governance rights in the project. We have already onboarded 130 token holders - giving them real estate rights on chain."
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x12fdf30d04f92923b77e6dc8f4234b8b38f3fc97a16e3cd64c09c05c1aa0b3ba",
+        "externalIds": []
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "6643ad0af46646aa5c094e85"
+        },
+        "uid": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1715711235,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1715711242,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "externalIds": [],
+        "txid": "0xa377cbfd1507fe94a45ac3b7079e312e92535ccc42bc6c1fc439e8a54c235852",
+        "details": {
+          "_id": {
+            "$oid": "66453145e2f3c5c3efee55fe"
+          },
+          "uid": "0x4c98032bc229a0f688abf8f49f8a0d31ee2f648c90fb8060fc668534999bcedf",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0x68689eae8f1e08b7d30be8da301289f8ab8e058a6e472a8cf09efddc8165ccc1",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1715810626,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1715810629,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Celo Public Goods",
+            "description": "Celo is scaling Ethereum with real-world solutions, leading a thriving new digital economy for all",
+            "imageURL": "https://s3.amazonaws.com/showkarma.xyz/assets/karma-celo-logo.jpeg",
+            "slug": "celopg"
+          },
+          "externalIds": [],
+          "txid": "0x3f23c0cc235858d7017f6a8debdca8aa52fec34843586aceedc6380a35b6701b"
+        }
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67f43272801b038d9fd1dbe9"
+      },
+      "uid": "0x5c8d8ea260e2648eb6a87f5818ab997547074dbaacaf3b0e975d429b70cf1693",
+      "schemaUID": "0x7afa603a89cee2d8f93d30007e2c64efddc6509fd76aa95d2ccd97b6e34acc71",
+      "refUID": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+      "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+      "recipient": "0xf905c05a274b4775432b43d1b651e26039ec6354",
+      "revoked": false,
+      "revocationTime": 0,
+      "createdAt": "2025-04-07T20:15:31.000Z",
+      "updatedAt": "2025-04-07T20:15:46.000Z",
+      "chainID": 42220,
+      "type": "Grant",
+      "data": {
+        "communityUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d"
+      },
+      "txid": "0x5a0f6905684f9ac06aacd6706e3101e8ed8ee8e61722ec906e9e951adf620c76",
+      "external": {
+        "gitcoin": [
+          "0x9f03fa925e2044852d7a21b2d7eaad7a28df435e4e3387781aa9d79f5305aaee"
+        ]
+      },
+      "details": {
+        "_id": {
+          "$oid": "67f43272801b038d9fd1dbea"
+        },
+        "uid": "0x7c660f5feda38fa1aba8e7f832ac59a053cd9d88d02150d02b25afb8a597ac77",
+        "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+        "refUID": "0x5c8d8ea260e2648eb6a87f5818ab997547074dbaacaf3b0e975d429b70cf1693",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43d1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1744056931,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1744056946,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "GrantDetails",
+        "data": {
+          "proposalURL": "https://explorer.gitcoin.co/#/round/42220/31/69",
+          "title": "Regen Coordination Global",
+          "description": "",
+          "payoutAddress": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+          "programId": "31_42220",
+          "questions": [
+            {
+              "type": "email",
+              "query": "Email Address",
+              "explanation": "sam@oasa.co"
+            },
+            {
+              "type": "number",
+              "query": "Team Size",
+              "explanation": "7"
+            },
+            {
+              "type": "checkbox",
+              "query": "Is your project a member or past grantee of one of these networks?",
+              "explanation": "Ma Earth, BioFi Project, ReFi DAO"
+            },
+            {
+              "type": "paragraph",
+              "query": "What are your key active goals, plans, objectives or milestones for this year?",
+              "explanation": "We have identified the biochar machine we want to acquire. It took a lot longer than expected (there are surprisingly few providers in the space for our scale). It's a 50k€ investment (out of which we have funded 15k€  so far from Gitcoin). \nThis particular machine goes into production in Jan 2026, so we aim to be ready to deploy it when it's ready - hence a delay on the initially scope milestones. This machine will not only help us build up our soil, increase water retention & microbial life - it will also produce about 50kw of heat that we can use in our coliving building under development (450m2), making it a carbon negative heating solution.\n\nIn the meantime, we have continued development of the lands, building more water retention infrastructure (we stored 1000m3 so far this year), we are building a mushroom farm (target to go into production this summer), and we are now looking into also adding a spirulina farm.\n"
+            }
+          ],
+          "type": "grant-details"
+        },
+        "txid": "0x5a0f6905684f9ac06aacd6706e3101e8ed8ee8e61722ec906e9e951adf620c76"
+      },
+      "project": {
+        "_id": {
+          "$oid": "66282eeb22ae3eea3667089a"
+        },
+        "uid": "0xc99a698dd62070d80eb5a6c9df37dafdaafa130f0627a7753170f9221d2bf22d",
+        "schemaUID": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0xf905c05a274b4775432b43D1b651e26039ec6354",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1713909478,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1713909483,
+            "i": 0
+          }
+        },
+        "chainID": 42161,
+        "type": "Project",
+        "data": {
+          "project": true
+        },
+        "externalIds": [],
+        "txid": "0x980ee6aed9e5a4217a38e1e31ac8b36ad1a0a81f2881dc94ee9e79bce973056b",
+        "categories": [
+          {
+            "_id": {
+              "$oid": "682b32c8a94ec324b2d06b70"
+            },
+            "name": "Ma Earth"
+          }
+        ]
+      },
+      "categories": [
+        "Ma Earth"
+      ],
+      "milestones": [],
+      "updates": [],
+      "community": {
+        "_id": {
+          "$oid": "66e9e763ab96b4dace0e1a6b"
+        },
+        "uid": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+        "schemaUID": "0x3c2231024f4f17f3718b5bd9ed9ff29cc323dea5449f9ceba11a9888bfbdd0e1",
+        "refUID": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+        "recipient": "0x23B7A53ecfd93803C63b97316D7362eae59C55B6",
+        "revoked": false,
+        "revocationTime": 0,
+        "createdAt": {
+          "$timestamp": {
+            "t": 1726605143,
+            "i": 0
+          }
+        },
+        "updatedAt": {
+          "$timestamp": {
+            "t": 1726605155,
+            "i": 0
+          }
+        },
+        "chainID": 42220,
+        "type": "Community",
+        "data": {
+          "community": true
+        },
+        "txid": "0xa6c51590c94ef8701cf2c5e7db62719abf68bda8ca8addc01ddbc5b9ea109313",
+        "externalIds": [],
+        "details": {
+          "_id": {
+            "$oid": "67f408946917f7b508a52ca0"
+          },
+          "uid": "0x66854f6787285a5fb553eb56d4b55f8b00a3767e13da6e1ca614b5ae394661c7",
+          "schemaUID": "0x9895e82115987d8e3e02b35ced92e6a0509293890333f58f50ec291b34853dac",
+          "refUID": "0xccff29d65d80f9ae4e6bc9b6a09b4e4dd588e47333903aa0f9c8b251cc91d96d",
+          "attester": "0x23b7a53ecfd93803c63b97316d7362eae59c55b6",
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "revoked": false,
+          "revocationTime": 0,
+          "createdAt": {
+            "$timestamp": {
+              "t": 1744046222,
+              "i": 0
+            }
+          },
+          "updatedAt": {
+            "$timestamp": {
+              "t": 1744046228,
+              "i": 0
+            }
+          },
+          "chainID": 42220,
+          "type": "CommunityDetails",
+          "data": {
+            "name": "Regen Coordination",
+            "description": "The Regen Coordination Round is a proposal for a GG21 community round centered on the themes of Coordi-nations 3, Cosmo-localism 2, Bio-Regionalism 3, and Regenerative Finance (ReFi) 3. Bringing together GreenPill Network 1, ReFi DAO 1, Celo Regional DAOs 1 and Regens Unite 1, we aim to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs. The round will feed into a program to support the further development of local community impact tracking methodologies, grant tooling interoperability, and integrated QF & RPGF. We have currently secured $60K in funding from Celo Public Goods, ReFi DAO and Greenpill and ask for Gitcoin’s backing as we embark on a shared mission to showcase how community coordination, Web3, and innovative financial mechanisms can enable ecological and social regeneration on a global scale.",
+            "imageURL": "https://s3.us-east-1.amazonaws.com/showkarma.xyz/assets/karma-regen-coordination.png",
+            "slug": "regen-coordination"
+          },
+          "txid": "0xfa63385f4be189fabdd1f77c9fb54f5dbc9a1728802c0675e3e45c0c5fb83e74"
+        }
+      }
+    }
+  ]
 }
