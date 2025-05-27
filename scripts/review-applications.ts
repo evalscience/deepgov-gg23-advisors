@@ -17,10 +17,30 @@ import { evaluationAgent } from "../agents/agents/evaluator";
 
 import pLimit from "p-limit";
 import { ReviewSchema } from "../utils/schemas";
+import { walkDirectory } from "../utils/utils";
 
 const limit = pLimit(10);
 
+// Add interface for tracking failures
+interface FailedApplication {
+  applicationId: string;
+  projectName: string;
+  agentName: string;
+  error: string;
+}
+
 async function processApplication(application: any, modelSpecs: any[]) {
+  // Validate application parameter
+  if (!application) {
+    console.error("❌ Application is null or undefined, skipping...");
+    return null;
+  }
+  
+  if (!application.chainId || !application.roundId) {
+    console.error("❌ Application missing chainId or roundId:", application);
+    return null;
+  }
+
   const { chainId, roundId } = application;
   console.log(`Processing application for chain ${chainId}, round ${roundId}`);
 
@@ -37,7 +57,7 @@ async function processApplication(application: any, modelSpecs: any[]) {
   } = loadRoundDetails(chainId, roundId);
   const research = loadResearch(applicationId);
 
-  return Promise.all(
+  const results = await Promise.allSettled(
     modelSpecs.map(async (agent) => {
       const reviewExists = loadReview(applicationId, agent?.name);
       if (reviewExists) {
@@ -75,42 +95,164 @@ ${agent.ethics}
 ${agent.constitution}
 ${agent.scoring}
 
+IMPORTANT. Flag ONLY if there are ethical concerns and NOT because of your constitution.
+
 Write the review as this persona:
 ${agent.style}
-      `;
+`;
 
       console.log(`Reviewing application with agent: ${agent.name}`);
-      const result = await evaluationAgent.generate(prompt, {
-        output: ReviewSchema,
-      });
+      try {
+        const result = await evaluationAgent.generate(prompt, {
+          output: ReviewSchema,
+        });
 
-      const id = getApplicationId(application);
-      saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
-        reviewer: agent.name,
-        ...result.object,
-      });
+        const id = getApplicationId(application);
+        saveFile(getApplicationPath(id) + `/review-${agent.name}.json`, {
+          reviewer: agent.name,
+          ...result.object,
+        });
 
-      return result.object;
+        return result.object;
+      } catch (error) {
+        console.error(`❌ AI Error for agent ${agent.name}:`, error);
+        // Return error info instead of throwing
+        return {
+          error: true,
+          applicationId,
+          projectName: getProjectName(application),
+          agentName: agent.name,
+          errorMessage: error instanceof Error ? error.message : String(error)
+        };
+      }
     })
   );
+
+  // Collect any failures from this application
+  const failures: FailedApplication[] = [];
+  results.forEach((result, index) => {
+    if (result.status === 'rejected') {
+      failures.push({
+        applicationId,
+        projectName: getProjectName(application),
+        agentName: modelSpecs[index]?.name || 'unknown',
+        error: result.reason instanceof Error ? result.reason.message : String(result.reason)
+      });
+    } else if (result.status === 'fulfilled' && result.value && typeof result.value === 'object' && result.value !== null && 'error' in result.value) {
+      const errorResult = result.value as {
+        error: boolean;
+        applicationId: string;
+        projectName: string;
+        agentName: string;
+        errorMessage: string;
+      };
+      failures.push({
+        applicationId: errorResult.applicationId,
+        projectName: errorResult.projectName,
+        agentName: errorResult.agentName,
+        error: errorResult.errorMessage
+      });
+    }
+  });
+
+  return failures;
 }
 
 async function main() {
   try {
     const applications = loadApplicationsFromDirectory("application.json");
     const reviews = loadReviewsFromDirectory();
-    console.log(`Processing ${applications.length} applications...`);
-    console.log(`Processing ${reviews.length / 3} reviews...`);
+    
+    // Filter out invalid applications
+    const validApplications = applications.filter((app, index) => {
+      if (!app) {
+        console.warn(`⚠️ Application at index ${index} is null/undefined, skipping`);
+        return false;
+      }
+      if (!app.chainId || !app.roundId || !app.projectId) {
+        console.warn(`⚠️ Application at index ${index} missing required fields:`, {
+          chainId: app.chainId,
+          roundId: app.roundId, 
+          projectId: app.projectId
+        });
+        return false;
+      }
+      return true;
+    });
+    
+    // Calculate unique applications that have reviews
+    const reviewedApplications = new Set();
+    for (const filePath of walkDirectory("applications")) {
+      if (filePath.includes("review-") && filePath.endsWith(".json")) {
+        // Extract application ID from the file path
+        const pathParts = filePath.split("/");
+        const applicationId = `${pathParts[1]}-${pathParts[2]}-${pathParts[3]}`;
+        reviewedApplications.add(applicationId);
+      }
+    }
+    
+    console.log(`Processing ${validApplications.length} valid applications (${applications.length - validApplications.length} invalid skipped)...`);
+    console.log(`Found ${reviews.length} review files for ${reviewedApplications.size} applications...`);
 
     const modelSpecs = await fetchModelSpecs();
 
-    await Promise.all(
-      applications.map((application) =>
+    // Collect all failures
+    const allFailures: FailedApplication[] = [];
+
+    const results = await Promise.all(
+      validApplications.map((application) =>
         limit(() => processApplication(application, modelSpecs))
       )
     );
+
+    // Collect failures from all applications
+    results.forEach(failures => {
+      if (failures && Array.isArray(failures) && failures.length > 0) {
+        allFailures.push(...failures);
+      }
+    });
+
+    // Log summary of failures
+    if (allFailures.length > 0) {
+      console.log(`\n❌ Failed Reviews Summary (${allFailures.length} failures):`);
+      console.log("=" .repeat(60));
+      
+      // Group failures by project
+      const failuresByProject = allFailures.reduce((acc, failure) => {
+        if (!acc[failure.projectName]) {
+          acc[failure.projectName] = [];
+        }
+        acc[failure.projectName].push(failure);
+        return acc;
+      }, {} as Record<string, FailedApplication[]>);
+
+      Object.entries(failuresByProject).forEach(([projectName, failures]) => {
+        console.log(`\n📋 Project: ${projectName}`);
+        failures.forEach(failure => {
+          console.log(`  • Agent: ${failure.agentName}`);
+          console.log(`    Error: ${failure.error.substring(0, 100)}${failure.error.length > 100 ? '...' : ''}`);
+        });
+      });
+
+      // Save failures to a log file
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const failureLogPath = `logs/failed-reviews-${timestamp}.json`;
+      saveFile(failureLogPath, {
+        timestamp: new Date().toISOString(),
+        totalFailures: allFailures.length,
+        failedProjects: Object.keys(failuresByProject).length,
+        failures: allFailures
+      });
+      
+      console.log(`\n📝 Failure log saved to: ${failureLogPath}`);
+    } else {
+      console.log("\n✅ All reviews completed successfully!");
+    }
+
+    console.log(`\n🎉 Processing completed. Check logs for any failures.`);
+    
   } catch (error) {
-    console.error("❌ Error:", error);
+    console.error("❌ Fatal Error:", error);
     process.exit(1);
   }
 }

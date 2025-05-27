@@ -10,5 +10,5 @@ export const creditAssignmentAgent = new Agent({
    You are given a list of applications reviews and you should assign a score between 0.00 and 1.00 to each review based on how much funding the project deserve.
    The total score of all reviews should be 1.00.
    `,
-  model: google("gemini-2.0-flash-thinking-exp-01-21"),
+   model: google("gemini-2.5-flash-preview-05-20"),
 });

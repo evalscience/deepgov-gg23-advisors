@@ -1,4 +1,5 @@
 import { openai } from "@ai-sdk/openai";
+import { google } from "@ai-sdk/google";
 import { Agent } from "@mastra/core/agent";
 
 export const primaryResearchAgent = new Agent({
