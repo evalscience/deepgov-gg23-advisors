@@ -59,7 +59,7 @@ export function saveFile(path: string, data: any): void {
   writeFileSync(path, data);
 }
 
-function* walkDirectory(dir: string): Generator<string> {
+export function* walkDirectory(dir: string): Generator<string> {
   const files = readdirSync(dir, { withFileTypes: true });
   for (const file of files) {
     const path = join(dir, file.name);

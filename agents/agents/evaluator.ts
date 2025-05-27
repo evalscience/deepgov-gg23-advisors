@@ -11,8 +11,8 @@ export const evaluationAgent = new Agent({
     Your task is to evaluate this grant application in a strict and fair, objective, and thorough manner. 
     Find strengths, weaknesses, and requested changes.
     `,
-  model: openai("gpt-4.1-2025-04-14"),
+  //model: openai("gpt-4.1-2025-04-14"),
   // model: google("gemini-1.5-pro-latest", {}),
-  // model: google("gemini-2.0-flash-thinking-exp-01-21"),
+  model: google("gemini-2.5-flash-preview-05-20"),
   // model: anthropic("claude-3-7-sonnet-20250219"),
 });
