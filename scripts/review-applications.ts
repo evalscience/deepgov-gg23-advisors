@@ -223,7 +223,7 @@ async function main() {
 
     const results = await Promise.all(
       validApplications.map((application) =>
-        limit(() => processApplication(application, modelSpecs))
+        limit(() => processApplication(application, [modelSpecs[3]]))
       )
     );
 
