@@ -35,7 +35,7 @@ async function processApplication(application: any, modelSpecs: any[]) {
     console.error("❌ Application is null or undefined, skipping...");
     return null;
   }
-  
+
   if (!application.chainId || !application.roundId) {
     console.error("❌ Application missing chainId or roundId:", application);
     return null;
@@ -48,7 +48,9 @@ async function processApplication(application: any, modelSpecs: any[]) {
   const karmaGap = loadKarmaGap(applicationId);
   const karmaGrants = parseKarmaGap(karmaGap ?? { grants: [] });
   const hypercerts = loadHypercerts(applicationId);
-  const hypercertsData = parseHypercerts(hypercerts ?? { data: { hypercerts: { data: [] } } });
+  const hypercertsData = parseHypercerts(
+    hypercerts ?? { data: { hypercerts: { data: [] } } }
+  );
 
   console.log("🔍 Starting review on Project:", getProjectName(application));
 
@@ -122,7 +124,7 @@ ${agent.style}
           applicationId,
           projectName: getProjectName(application),
           agentName: agent.name,
-          errorMessage: error instanceof Error ? error.message : String(error)
+          errorMessage: error instanceof Error ? error.message : String(error),
         };
       }
     })
@@ -131,14 +133,23 @@ ${agent.style}
   // Collect any failures from this application
   const failures: FailedApplication[] = [];
   results.forEach((result, index) => {
-    if (result.status === 'rejected') {
+    if (result.status === "rejected") {
       failures.push({
         applicationId,
         projectName: getProjectName(application),
-        agentName: modelSpecs[index]?.name || 'unknown',
-        error: result.reason instanceof Error ? result.reason.message : String(result.reason)
+        agentName: modelSpecs[index]?.name || "unknown",
+        error:
+          result.reason instanceof Error
+            ? result.reason.message
+            : String(result.reason),
       });
-    } else if (result.status === 'fulfilled' && result.value && typeof result.value === 'object' && result.value !== null && 'error' in result.value) {
+    } else if (
+      result.status === "fulfilled" &&
+      result.value &&
+      typeof result.value === "object" &&
+      result.value !== null &&
+      "error" in result.value
+    ) {
       const errorResult = result.value as {
         error: boolean;
         applicationId: string;
@@ -150,7 +161,7 @@ ${agent.style}
         applicationId: errorResult.applicationId,
         projectName: errorResult.projectName,
         agentName: errorResult.agentName,
-        error: errorResult.errorMessage
+        error: errorResult.errorMessage,
       });
     }
   });
@@ -162,24 +173,29 @@ async function main() {
   try {
     const applications = loadApplicationsFromDirectory("application.json");
     const reviews = loadReviewsFromDirectory();
-    
+
     // Filter out invalid applications
     const validApplications = applications.filter((app, index) => {
       if (!app) {
-        console.warn(`⚠️ Application at index ${index} is null/undefined, skipping`);
+        console.warn(
+          `⚠️ Application at index ${index} is null/undefined, skipping`
+        );
         return false;
       }
       if (!app.chainId || !app.roundId || !app.projectId) {
-        console.warn(`⚠️ Application at index ${index} missing required fields:`, {
-          chainId: app.chainId,
-          roundId: app.roundId, 
-          projectId: app.projectId
-        });
+        console.warn(
+          `⚠️ Application at index ${index} missing required fields:`,
+          {
+            chainId: app.chainId,
+            roundId: app.roundId,
+            projectId: app.projectId,
+          }
+        );
         return false;
       }
       return true;
     });
-    
+
     // Calculate unique applications that have reviews
     const reviewedApplications = new Set();
     for (const filePath of walkDirectory("applications")) {
@@ -190,9 +206,15 @@ async function main() {
         reviewedApplications.add(applicationId);
       }
     }
-    
-    console.log(`Processing ${validApplications.length} valid applications (${applications.length - validApplications.length} invalid skipped)...`);
-    console.log(`Found ${reviews.length} review files for ${reviewedApplications.size} applications...`);
+
+    console.log(
+      `Processing ${validApplications.length} valid applications (${
+        applications.length - validApplications.length
+      } invalid skipped)...`
+    );
+    console.log(
+      `Found ${reviews.length} review files for ${reviewedApplications.size} applications...`
+    );
 
     const modelSpecs = await fetchModelSpecs();
 
@@ -201,12 +223,12 @@ async function main() {
 
     const results = await Promise.all(
       validApplications.map((application) =>
-        limit(() => processApplication(application, modelSpecs))
+        limit(() => processApplication(application, [modelSpecs[3]]))
       )
     );
 
     // Collect failures from all applications
-    results.forEach(failures => {
+    results.forEach((failures) => {
       if (failures && Array.isArray(failures) && failures.length > 0) {
         allFailures.push(...failures);
       }
@@ -214,9 +236,11 @@ async function main() {
 
     // Log summary of failures
     if (allFailures.length > 0) {
-      console.log(`\n❌ Failed Reviews Summary (${allFailures.length} failures):`);
-      console.log("=" .repeat(60));
-      
+      console.log(
+        `\n❌ Failed Reviews Summary (${allFailures.length} failures):`
+      );
+      console.log("=".repeat(60));
+
       // Group failures by project
       const failuresByProject = allFailures.reduce((acc, failure) => {
         if (!acc[failure.projectName]) {
@@ -228,29 +252,32 @@ async function main() {
 
       Object.entries(failuresByProject).forEach(([projectName, failures]) => {
         console.log(`\n📋 Project: ${projectName}`);
-        failures.forEach(failure => {
+        failures.forEach((failure) => {
           console.log(`  • Agent: ${failure.agentName}`);
-          console.log(`    Error: ${failure.error.substring(0, 100)}${failure.error.length > 100 ? '...' : ''}`);
+          console.log(
+            `    Error: ${failure.error.substring(0, 100)}${
+              failure.error.length > 100 ? "..." : ""
+            }`
+          );
         });
       });
 
       // Save failures to a log file
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
       const failureLogPath = `logs/failed-reviews-${timestamp}.json`;
       saveFile(failureLogPath, {
         timestamp: new Date().toISOString(),
         totalFailures: allFailures.length,
         failedProjects: Object.keys(failuresByProject).length,
-        failures: allFailures
+        failures: allFailures,
       });
-      
+
       console.log(`\n📝 Failure log saved to: ${failureLogPath}`);
     } else {
       console.log("\n✅ All reviews completed successfully!");
     }
 
     console.log(`\n🎉 Processing completed. Check logs for any failures.`);
-    
   } catch (error) {
     console.error("❌ Fatal Error:", error);
     process.exit(1);
@@ -343,19 +370,24 @@ function parseHypercerts(hypercerts: HypercertsResponse) {
   if (!hypercerts?.data?.hypercerts?.data) {
     return [];
   }
-  
+
   return hypercerts.data.hypercerts.data.flatMap((hypercert) => {
     const { hypercert_id, metadata } = hypercert;
-    
-    if (!hypercert.attestations?.data || hypercert.attestations.data.length === 0) {
+
+    if (
+      !hypercert.attestations?.data ||
+      hypercert.attestations.data.length === 0
+    ) {
       return [];
     }
-    
+
     return hypercert.attestations.data.map((attestation) => ({
       hypercert_id,
       metadata,
       attester: attestation.attester,
-      timestamp: new Date(parseInt(attestation.creation_block_timestamp) * 1000).toLocaleDateString(),
+      timestamp: new Date(
+        parseInt(attestation.creation_block_timestamp) * 1000
+      ).toLocaleDateString(),
       title: attestation.data.title,
       description: attestation.data.description,
       sources: attestation.data.sources,
